@@ -43,23 +43,14 @@ export default function Home() {
   return (
     <>
       {/* ── Hero with background video ───────────────────────────── */}
-      <section className="relative flex min-h-[600px] items-center overflow-hidden text-white lg:min-h-screen">
+      <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden text-white lg:min-h-screen">
         <HeroVideo poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`} />
         <div className="absolute inset-0 bg-black/55" aria-hidden />
-        <div className="relative mx-auto w-full max-w-7xl px-4 pb-20 pt-32 sm:px-6 lg:px-8">
-          <p className="mb-4 inline-block rounded-full border border-brand/70 bg-brand/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-white">
-            Celebrating 15 Years · One Team. One Dream.
-          </p>
-          <h1 className="max-w-4xl text-4xl font-extrabold uppercase leading-[1.05] sm:text-5xl lg:text-6xl">
+        <div className="relative mx-auto w-full max-w-5xl px-4 pb-20 pt-32 text-center sm:px-6 lg:px-8">
+          <h1 className="mx-auto max-w-4xl text-4xl font-extrabold uppercase leading-[1.05] sm:text-5xl lg:text-7xl">
             Any Shelter. Any Service. Fast Delivery.
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80">
-            CellSite Solutions is proud to celebrate 15 years of innovation, reliability, and
-            partnership in the telecom industry. From our dedicated team to the customers who trust
-            us every day, this milestone reflects our shared commitment to building stronger, smarter
-            connectivity.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-4">
+          <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link
               href="/contact-us/"
               className="rounded-md bg-brand px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
@@ -72,6 +63,26 @@ export default function Home() {
             >
               Explore Shelters
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 15-year anniversary band ─────────────────────────────── */}
+      <section className="bg-brand py-14 text-white">
+        <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[auto_1fr] lg:gap-14 lg:px-8">
+          <div className="flex items-baseline gap-3 lg:flex-col lg:items-center lg:gap-0">
+            <span className="text-7xl font-extrabold leading-none lg:text-8xl">15</span>
+            <span className="text-2xl font-bold uppercase tracking-[0.2em]">Years</span>
+          </div>
+          <div>
+            <h2 className="text-3xl font-extrabold uppercase sm:text-4xl">One Team. One Dream.</h2>
+            <p className="mt-4 max-w-3xl leading-relaxed text-white/90">
+              CellSite Solutions is proud to celebrate 15 years of innovation, reliability, and
+              partnership in the telecom industry. From our dedicated team to the customers who trust
+              us every day, this milestone reflects our shared commitment to building stronger,
+              smarter connectivity. Thank you for being part of our journey as we continue building
+              the future of connectivity — together.
+            </p>
           </div>
         </div>
       </section>
@@ -130,6 +141,13 @@ export default function Home() {
               Learn More
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* ── FAQ (part of Who We Are) ─────────────────────────────── */}
+      <section className="bg-white pb-8">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <FaqAccordion items={homeFaqs} withSchema />
         </div>
       </section>
 
@@ -405,17 +423,6 @@ export default function Home() {
             <p className="mt-6 font-bold">Jim Patterson</p>
             <p className="text-sm text-white/70">CEO, CellSite Solutions</p>
           </div>
-        </div>
-      </section>
-
-      {/* ── FAQ ──────────────────────────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-sm font-bold uppercase tracking-[0.2em] text-brand">FAQ</p>
-          <h2 className="mt-2 mb-10 text-center text-3xl font-extrabold text-ink sm:text-4xl">
-            Frequently Asked Questions
-          </h2>
-          <FaqAccordion items={homeFaqs} withSchema />
         </div>
       </section>
 
