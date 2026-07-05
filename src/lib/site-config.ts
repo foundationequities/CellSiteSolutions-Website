@@ -16,6 +16,7 @@ export const siteConfig = {
     },
     phone: "319-826-3404",
     tollFree: "+1 855 CEL SITE",
+    officeHours: { days: "Monday – Friday", hours: "8am – 5pm CST" },
   },
 
   social: {

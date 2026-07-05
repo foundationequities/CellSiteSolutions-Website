@@ -4,7 +4,31 @@ import type { Metadata } from "next";
 import { HeroVideo } from "@/components/hero-video";
 import { CountUp } from "@/components/count-up";
 import { VideoLightbox } from "@/components/video-lightbox";
+import { FaqAccordion } from "@/components/faq-accordion";
 import { partnerLogos, customerLogos, LOGO_WIDTH, LOGO_HEIGHT } from "@/lib/logos";
+
+const homeFaqs = [
+  {
+    q: "What is CellSite Solutions?",
+    a: "CellSite Solutions is a telecommunications infrastructure provider specializing in telecom shelters, civil construction, site maintenance, equipment installation, and turnkey network deployment solutions for organizations across the United States.",
+  },
+  {
+    q: "What services does CellSite Solutions provide?",
+    a: "CellSite Solutions provides telecom shelter remanufacturing, new lightweight shelter solutions, civil construction, wireless network services, shelter installation, site maintenance, equipment upgrades, logistics, and infrastructure decommissioning.",
+  },
+  {
+    q: "What types of telecom shelters does CellSite Solutions offer?",
+    a: "CellSite Solutions provides remanufactured concrete telecom shelters, custom shelter solutions, lightweight telecom shelters, fiber huts, edge computing shelters, and equipment enclosures designed to protect critical communications infrastructure.",
+  },
+  {
+    q: "What is telecom shelter remanufacturing?",
+    a: "Telecom shelter remanufacturing is the process of restoring, upgrading, and customizing existing telecom shelters to extend their service life while reducing costs, material consumption, and deployment timelines compared to new construction.",
+  },
+  {
+    q: "Why choose a remanufactured telecom shelter instead of a new shelter?",
+    a: "Remanufactured telecom shelters provide a cost-effective alternative to new construction while maintaining the durability, security, and performance required for critical communications equipment. By restoring and upgrading existing shelters, organizations can reduce project costs, shorten deployment timelines, and support sustainability initiatives without sacrificing reliability.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "CellSite Solutions — Any Shelter. Any Service. Fast Delivery.",
@@ -19,10 +43,10 @@ export default function Home() {
   return (
     <>
       {/* ── Hero with background video ───────────────────────────── */}
-      <section className="relative flex min-h-[560px] items-center overflow-hidden text-white lg:min-h-[calc(100vh-5rem)]">
+      <section className="relative flex min-h-[600px] items-center overflow-hidden text-white lg:min-h-screen">
         <HeroVideo poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`} />
         <div className="absolute inset-0 bg-black/55" aria-hidden />
-        <div className="relative mx-auto w-full max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+        <div className="relative mx-auto w-full max-w-7xl px-4 pb-20 pt-32 sm:px-6 lg:px-8">
           <p className="mb-4 inline-block rounded-full border border-brand/70 bg-brand/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-white">
             Celebrating 15 Years · One Team. One Dream.
           </p>
@@ -381,6 +405,17 @@ export default function Home() {
             <p className="mt-6 font-bold">Jim Patterson</p>
             <p className="text-sm text-white/70">CEO, CellSite Solutions</p>
           </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ──────────────────────────────────────────────────── */}
+      <section className="bg-[#f6f6f6] py-20">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-sm font-bold uppercase tracking-[0.2em] text-brand">FAQ</p>
+          <h2 className="mt-2 mb-10 text-center text-3xl font-extrabold text-ink sm:text-4xl">
+            Frequently Asked Questions
+          </h2>
+          <FaqAccordion items={homeFaqs} withSchema />
         </div>
       </section>
 

@@ -1,14 +1,33 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { mainNav } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
 import { MobileNav } from "@/components/mobile-nav";
+import { cn } from "@/lib/utils";
 
 export function SiteHeader() {
   const { headerWhite } = siteConfig.logos;
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 12);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-surface-dark text-white">
+    <header
+      className={cn(
+        "fixed inset-x-0 top-0 z-40 text-white transition-colors duration-300",
+        scrolled
+          ? "border-b border-white/10 bg-surface-dark shadow-lg"
+          : "bg-gradient-to-b from-black/60 to-transparent",
+      )}
+    >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center" aria-label={siteConfig.name}>
           <Image
