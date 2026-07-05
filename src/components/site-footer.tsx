@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { mainNav } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
 
 const YEAR = 2026;
@@ -27,13 +26,23 @@ function YouTubeIcon() {
   );
 }
 
+const siteMap = [
+  { label: "Who We Are", href: "/about-us/" },
+  { label: "Shelters", href: "/shelters/" },
+  { label: "Civil Construction", href: "/civil-construction/" },
+  { label: "Careers", href: "/careers/" },
+  { label: "Blog", href: "/blog/" },
+  { label: "Privacy Policy", href: "/privacy-policy/" },
+  { label: "Contact Us", href: "/contact-us/" },
+];
+
 export function SiteFooter() {
   const { footer } = siteConfig.logos;
-  const columns = mainNav.filter((i) => i.children);
+  const { address, phone, tollFree, salesEmail } = siteConfig.contact;
 
   return (
     <footer className="bg-surface-dark text-white/80">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.2fr_2fr] lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div>
           <Link href="/" aria-label={siteConfig.name} className="inline-block">
             <Image
@@ -78,26 +87,51 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="grid gap-8 sm:grid-cols-3">
-          {columns.map((col) => (
-            <div key={col.href}>
-              <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-white">
-                {col.label}
-              </h3>
-              <ul className="space-y-2">
-                {col.children!.map((child) => (
-                  <li key={child.href}>
-                    <Link
-                      href={child.href}
-                      className="text-sm text-white/70 transition-colors hover:text-brand"
-                    >
-                      {child.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        {/* Site Map */}
+        <div>
+          <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-white">Site Map</h3>
+          <ul className="space-y-2">
+            {siteMap.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className="text-sm text-white/70 transition-colors hover:text-brand"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Address */}
+        <div>
+          <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-white">Address</h3>
+          <address className="text-sm not-italic leading-relaxed text-white/70">
+            {siteConfig.name}
+            <br />
+            {address.street}
+            <br />
+            {address.city}, {address.state} {address.zip}
+          </address>
+        </div>
+
+        {/* Say Hello */}
+        <div>
+          <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-white">Say Hello</h3>
+          <ul className="space-y-2 text-sm text-white/70">
+            <li>
+              <a href={`mailto:${salesEmail}`} className="font-semibold text-white hover:text-brand">
+                EMAIL US
+              </a>
+            </li>
+            <li>
+              <a href={`tel:${phone.replace(/[^0-9]/g, "")}`} className="hover:text-brand">
+                {phone}
+              </a>
+            </li>
+            <li>{tollFree}</li>
+          </ul>
         </div>
       </div>
 

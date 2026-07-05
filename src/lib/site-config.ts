@@ -7,6 +7,15 @@ export const siteConfig = {
 
   contact: {
     salesEmail: "sales@cellsitesolutions.com",
+    address: {
+      line: "4150 C St SW, Cedar Rapids, IA 52404",
+      street: "4150 C St SW",
+      city: "Cedar Rapids",
+      state: "IA",
+      zip: "52404",
+    },
+    phone: "319-826-3404",
+    tollFree: "+1 855 CEL SITE",
   },
 
   social: {
