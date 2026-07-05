@@ -1,0 +1,30 @@
+# Reference mirror of the original WordPress site — visual source of truth, never shipped.
+# Ignore the directory's contents but not the dir itself, so the INVENTORY.md negation below works.
+_reference/*
+# ...but keep the recon inventory (Phase 0 findings) under version control
+!_reference/INVENTORY.md
+
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+
+# env
+.env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
