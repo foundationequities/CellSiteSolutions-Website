@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Font stacks. For the production "Barlow + Inter" pairing, enable next/font
+       in layout.tsx (see the commented block there) — it overrides these vars.
+       This system stack keeps builds working with no network dependency. */
+    --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    --font-heading: "Barlow", var(--font-sans);
+
+    --background: 0 0% 100%;
+    --foreground: 215 28% 17%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%;
+
+    /* Brand — deep telecom blue with a lighter tint and a strong action accent */
+    --brand: 211 100% 27%;
+    --brand-dark: 213 60% 15%;
+    --brand-light: 205 90% 45%;
+
+    --primary: 211 100% 27%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 215 28% 17%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 40%;
+
+    /* Safety-orange accent used for primary CTAs */
+    --accent: 20 90% 52%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 211 100% 27%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply mx-auto w-full max-w-5xl px-6;
+  }
+
+  /* Rendered blog markdown */
+  .prose-content {
+    @apply text-base leading-relaxed text-foreground/90;
+  }
+  .prose-content h2 {
+    @apply mb-3 mt-10 text-2xl font-bold text-brand-dark;
+  }
+  .prose-content h3 {
+    @apply mb-2 mt-8 text-xl font-semibold text-brand-dark;
+  }
+  .prose-content p {
+    @apply mb-5;
+  }
+  .prose-content ul {
+    @apply mb-5 list-disc space-y-2 pl-6;
+  }
+  .prose-content ol {
+    @apply mb-5 list-decimal space-y-2 pl-6;
+  }
+  .prose-content a {
+    @apply font-medium text-brand underline underline-offset-2 hover:text-brand-dark;
+  }
+  .prose-content strong {
+    @apply font-semibold text-foreground;
+  }
+  .prose-content blockquote {
+    @apply my-6 border-l-4 border-accent pl-4 italic text-muted-foreground;
+  }
+}
