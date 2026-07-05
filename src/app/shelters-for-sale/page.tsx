@@ -39,7 +39,9 @@ export default function SheltersForSalePage() {
       {/* ── Surplus intro ────────────────────────────────────────── */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">10' x 20' &amp; 12' x 20'</p>
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
+            10&prime; x 20&prime; &amp; 12&prime; x 20&prime;
+          </p>
           <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Surplus Concrete Shelters</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Inventory is limited and discounts are available for a short window only.
