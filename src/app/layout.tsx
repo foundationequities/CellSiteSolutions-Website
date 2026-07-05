@@ -1,0 +1,62 @@
+import type { Metadata } from "next";
+import { DM_Sans, Poppins } from "next/font/google";
+import "./globals.css";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
+import { siteConfig } from "@/lib/site-config";
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: `${siteConfig.name} — Telecom Shelters & Wireless Site Services`,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  icons: {
+    icon: [
+      { url: "/images/wp-content/uploads/2026/01/cropped-Favicon-32x32.png", sizes: "32x32" },
+      { url: "/images/wp-content/uploads/2026/01/cropped-Favicon-192x192.png", sizes: "192x192" },
+    ],
+    apple: "/images/wp-content/uploads/2026/01/cropped-Favicon-180x180.png",
+  },
+  openGraph: {
+    type: "website",
+    siteName: siteConfig.name,
+    url: siteConfig.url,
+    images: [
+      "/images/wp-content/uploads/2024/12/0032-New-Website-Announcement-Post-Large-min.png",
+    ],
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${dmSans.variable} ${poppins.variable} h-full antialiased`}
+    >
+      <body className="flex min-h-full flex-col">
+        <SiteHeader />
+        <main className="flex-1">{children}</main>
+        <SiteFooter />
+      </body>
+    </html>
+  );
+}
