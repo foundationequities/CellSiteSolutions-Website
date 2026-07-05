@@ -15,7 +15,7 @@ Modern **Next.js** rebuild of [cellsitesolutions.com](https://www.cellsitesoluti
 - Tailwind CSS v4 (`@theme` tokens in `src/app/globals.css`)
 - `next/font` — DM Sans + Poppins (the live site's fonts)
 - Resend + Zod (installed, used once the forms are built)
-- Package manager: **pnpm** · Node **20+**
+- Package manager: **pnpm 10** · Node **22+** (pnpm 10 needs Node 22.13+)
 
 ## Run it — GitHub Codespaces (no local setup)
 
@@ -37,7 +37,7 @@ same **Code → Codespaces** menu to resume.
 
 ## Run it — locally
 
-Requires Node 20+ and pnpm (`npm i -g pnpm` or `corepack enable`):
+Requires **Node 22+** and pnpm (`corepack enable`):
 
 ```bash
 pnpm install
@@ -50,6 +50,17 @@ Other scripts:
 pnpm build          # production build (also runs the TypeScript check)
 pnpm start          # serve the production build
 pnpm lint           # ESLint
+```
+
+### Troubleshooting: `ERR_UNKNOWN_BUILTIN_MODULE: node:sqlite`
+
+That means Node is older than 22.13 (pnpm 10 requires it). The devcontainer
+pins Node 22, so **Codespaces → `⋯` menu → Rebuild Container** fixes it. To
+unblock the *current* session without rebuilding, switch Node with nvm:
+
+```bash
+nvm install 22 && nvm use 22
+corepack enable && pnpm install && pnpm dev
 ```
 
 ## Deploy to Vercel
