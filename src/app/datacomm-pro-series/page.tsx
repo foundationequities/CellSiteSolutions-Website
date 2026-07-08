@@ -184,7 +184,7 @@ export default function DatacommProSeriesPage() {
 
       {/* ── Video tour (dark band w/ YouTube bg video, as live) ──── */}
       <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
-        <BgVideo src={DATACOMM_TOUR_YT} start={1} end={40} overlay="bg-black/45" />
+        <BgVideo src={DATACOMM_TOUR_YT} start={1} end={40} overlay="bg-black/30" />
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
           <h2 className="mt-2 text-[32px] sm:text-[45px]">
@@ -197,7 +197,7 @@ export default function DatacommProSeriesPage() {
             networks.
           </p>
           <VideoLightbox
-            embedUrl="https://www.youtube-nocookie.com/embed/uH4lnFjXmHo"
+            embedUrl="https://www.youtube.com/embed/uH4lnFjXmHo"
             label="Play Datacomm Pro Series video"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >
@@ -331,7 +331,7 @@ export default function DatacommProSeriesPage() {
 
       {/* ── ULTRA Series (dark band w/ YouTube bg video, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-20 text-white">
-        <BgVideo src={DATACOMM_ULTRA_YT} overlay="bg-black/45" />
+        <BgVideo src={DATACOMM_ULTRA_YT} overlay="bg-black/30" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
           <h2 className="mt-2 text-[32px] sm:text-[40px]">Datacomm Pro ULTRA Series</h2>

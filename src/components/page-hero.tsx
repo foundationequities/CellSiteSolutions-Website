@@ -22,19 +22,27 @@ export function PageHero({
   video?: { src: string; start?: number; end?: number };
   breadcrumb?: boolean;
 }) {
+  // Video heroes get near-full-viewport height so the footage is the star;
+  // image heroes get a tall band; plain heroes stay compact.
+  const height = video
+    ? "min-h-[70vh] lg:min-h-[85vh]"
+    : image
+      ? "min-h-[420px] lg:min-h-[60vh]"
+      : "";
+
   return (
-    <section className="relative overflow-hidden bg-surface-dark text-white">
+    <section className={`relative flex items-center overflow-hidden bg-surface-dark text-white ${height}`}>
       {video ? (
-        <BgVideo src={video.src} start={video.start} end={video.end} poster={image} overlay="bg-black/35" />
+        <BgVideo src={video.src} start={video.start} end={video.end} poster={image} overlay="bg-black/25" />
       ) : (
         image && (
           <>
-            <Image src={image} alt="" fill sizes="100vw" className="object-cover opacity-50" priority />
-            <div className="absolute inset-0 bg-black/25" aria-hidden />
+            <Image src={image} alt="" fill sizes="100vw" className="object-cover opacity-70" priority />
+            <div className="absolute inset-0 bg-black/15" aria-hidden />
           </>
         )
       )}
-      <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-24 lg:pt-36">
+      <div className="relative mx-auto w-full max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-20 lg:pt-32">
         {breadcrumb && (
           <nav className="mb-4 text-xs font-semibold uppercase tracking-[0.15em] text-white/60">
             <Link href="/" className="hover:text-brand">

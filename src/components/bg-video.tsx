@@ -26,7 +26,7 @@ export function BgVideo({
   start,
   end,
   poster,
-  overlay = "bg-black/35",
+  overlay = "bg-black/25",
 }: {
   src: string;
   start?: number;
@@ -55,13 +55,16 @@ export function BgVideo({
     const p = new URLSearchParams({
       autoplay: "1", mute: "1", controls: "0", loop: "1", playlist: yt,
       playsinline: "1", rel: "0", modestbranding: "1", disablekb: "1", fs: "0",
+      iv_load_policy: "3",
     });
     if (start) p.set("start", String(start));
     if (end) p.set("end", String(end));
+    // Plain youtube.com embed host: youtube-nocookie can refuse ("Video
+    // unavailable") for videos that play fine on the primary embed domain.
     media = (
       <iframe
         className="hero-video-frame"
-        src={`https://www.youtube-nocookie.com/embed/${yt}?${p.toString()}`}
+        src={`https://www.youtube.com/embed/${yt}?${p.toString()}`}
         title=""
         allow="autoplay; encrypted-media"
         tabIndex={-1}

@@ -48,7 +48,7 @@ export default function Home() {
         <BgVideo
           src={HOME_HERO_VIMEO}
           poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`}
-          overlay="bg-black/30"
+          overlay="bg-black/20"
         />
         <div className="relative mx-auto w-full max-w-5xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
           <h2 className="text-[32px] leading-snug sm:text-[45px]">
@@ -253,7 +253,7 @@ export default function Home() {
 
       {/* ── Virtual tour (dark band w/ YouTube bg video, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
-        <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/45" />
+        <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/30" />
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
           <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
@@ -264,7 +264,7 @@ export default function Home() {
             craftsmanship behind every shelter.
           </p>
           <VideoLightbox
-            embedUrl="https://www.youtube-nocookie.com/embed/UlecVkYXJGY?start=2"
+            embedUrl="https://www.youtube.com/embed/UlecVkYXJGY?start=2"
             label="Play virtual tour"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >
