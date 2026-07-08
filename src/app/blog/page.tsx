@@ -94,7 +94,7 @@ export default function BlogPage() {
             {posts.map((post) => (
               <article
                 key={post.slug}
-                className="group flex flex-col overflow-hidden rounded-lg border border-border bg-white shadow-sm transition-shadow hover:shadow-md"
+                className="group flex flex-col overflow-hidden rounded-lg border border-border bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
                 <Link href={`/${post.slug}/`} className="relative block aspect-[16/10] overflow-hidden">
                   <Image
@@ -102,20 +102,20 @@ export default function BlogPage() {
                     alt={post.title}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </Link>
                 <div className="flex flex-1 flex-col p-6">
-                  <p className="text-xs font-bold uppercase tracking-[0.15em] text-brand">{post.date}</p>
-                  <h2 className="mt-2 text-lg font-bold leading-snug text-ink">
+                  <h3 className="text-xl leading-snug text-ink">
                     <Link href={`/${post.slug}/`} className="hover:text-brand">
                       {post.title}
                     </Link>
-                  </h2>
+                  </h3>
+                  <p className="mt-2 text-xs font-bold tracking-[0.15em] text-brand">{post.date}</p>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{post.excerpt}</p>
                   <Link
                     href={`/${post.slug}/`}
-                    className="mt-5 inline-block text-sm font-bold uppercase tracking-wide text-brand hover:text-brand-dark"
+                    className="mt-5 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
                   >
                     Read More &rsaquo;
                   </Link>

@@ -112,7 +112,7 @@ export default function CivilConstructionPage() {
     <>
       <PageHero
         eyebrow="Laying the Foundation for Success"
-        title="Civil Construction"
+        title="CIVIL CONSTRUCTION"
         lede="Telecom civil construction creates the physical infrastructure required to support wireless, fiber, utility, and broadband networks. From site surveys and site preparation to shelter installation, grounding, power systems, maintenance, and decommissioning, CellSite Solutions delivers turnkey telecom construction services that help operators deploy, maintain, and expand critical communications infrastructure."
       />
 
@@ -122,7 +122,7 @@ export default function CivilConstructionPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Civil Construction</h2>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Civil Construction</h2>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
@@ -132,23 +132,23 @@ export default function CivilConstructionPage() {
       {/* ── From start to finish ──────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/elementor/thumbs/Civil-First-Section-Image-qxgcuzprf7b2vfzsflu55uxb8aw7tbnuv67bxwmfbo.png`}
               alt="Telecom Shelter Placement from Crane"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div>
-            <h3 className="text-2xl font-extrabold text-ink">
+            <h3 className="text-2xl text-ink">
               We create infrastructure installation-ready telecom sites
             </h3>
             <p className="mt-4 text-sm font-bold uppercase tracking-[0.2em] text-brand">
-              The Process
+              The process
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">From Start To Finish</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">FROM START TO FINISH</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               From initial site planning and design to telecom construction and all the way to final
               execution and installation of new infrastructure, CellSite Solutions offers the civil
@@ -172,8 +172,8 @@ export default function CivilConstructionPage() {
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">All In One</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">We Do It All</h2>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">ALL IN ONE</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">WE DO IT ALL</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               No other company offers the breadth of telecom site civil services that CellSite
               Solutions does. We handle everything it takes to prepare your site, install and maintain
@@ -181,22 +181,22 @@ export default function CivilConstructionPage() {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
+            <div className="group relative aspect-[3/4] overflow-hidden rounded-lg">
               <Image
                 src={`${IMG}/elementor/thumbs/cellsite-services-siteprep2-960x1079-1-qxgcuwwaohegeb7i2sr90f0dstehkqb5r5zlm4kv3q.png`}
                 alt="CellSite Telecom Shelter Site"
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
-                className="object-cover"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
-            <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
+            <div className="group relative aspect-[3/4] overflow-hidden rounded-lg">
               <Image
                 src={`${IMG}/elementor/thumbs/cellsite-services-sitesurvey-1920x1014-1-qxgcuxu3l9oiqt4ff4hyuy2jnghi12odhzhc6wfxiw.jpeg`}
                 alt="Site Survey CellSite Solutions"
                 fill
                 sizes="(max-width: 1024px) 50vw, 25vw"
-                className="object-cover"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
           </div>
@@ -207,9 +207,9 @@ export default function CivilConstructionPage() {
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The How</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
-              Site Installation Services
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">THE HOW</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+              SITE INSTALLATION SERVICES
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Once you&rsquo;ve selected the right shelter, CellSite Solutions can complete every
@@ -219,8 +219,8 @@ export default function CivilConstructionPage() {
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-2">
             {installServices.map((s) => (
-              <div key={s.title} className="rounded-lg border border-border bg-white p-7 shadow-sm">
-                <h3 className="text-xl font-bold uppercase text-ink">{s.title}</h3>
+              <div key={s.title} className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
+                <h3 className="text-xl text-ink">{s.title}</h3>
                 {s.body.map((p, i) => (
                   <p key={i} className="mt-3 text-sm leading-relaxed text-muted">
                     {p}
@@ -229,7 +229,7 @@ export default function CivilConstructionPage() {
                 {s.href && (
                   <Link
                     href={s.href}
-                    className="mt-5 inline-block text-sm font-bold uppercase tracking-wide text-brand hover:text-brand-dark"
+                    className="mt-5 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
                   >
                     Learn More &rsaquo;
                   </Link>
@@ -247,7 +247,7 @@ export default function CivilConstructionPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Supporting Your Sites
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Site Maintenance</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">SITE MAINTENANCE</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               The overall appearance of your site makes an important impression on both neighbors and
               potential investors. Even more important, site upkeep can extend the life of your
@@ -259,8 +259,8 @@ export default function CivilConstructionPage() {
           </div>
 
           <div className="mt-12 grid gap-8 md:grid-cols-3">
-            <div className="rounded-lg border border-border bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold uppercase text-ink">Site Maintenance</h3>
+            <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
+              <h3 className="text-xl text-ink">Site Maintenance</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted">
                 CellSite maintenance is crucial to the ongoing protection of your equipment. To keep
                 your site in the best possible shape, consider some of the following telecom
@@ -287,8 +287,8 @@ export default function CivilConstructionPage() {
               </p>
             </div>
 
-            <div className="rounded-lg border border-border bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold uppercase text-ink">ISP Services</h3>
+            <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
+              <h3 className="text-xl text-ink">ISP Services</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted">
                 There&rsquo;s always something: a floor to replace or an outlet to repair, or an
                 upgrade to your gear that requires more rack space. CellSite Solutions is your partner
@@ -316,8 +316,8 @@ export default function CivilConstructionPage() {
               </ul>
             </div>
 
-            <div className="rounded-lg border border-border bg-white p-7 shadow-sm">
-              <h3 className="text-xl font-bold uppercase text-ink">Disaster Recovery</h3>
+            <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
+              <h3 className="text-xl text-ink">Disaster Recovery</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted">
                 Weather and other natural disasters can make an impact with little notice. Luckily, so
                 can we. Call CellSite Solutions to restore service and repair or replace broken
@@ -336,7 +336,7 @@ export default function CivilConstructionPage() {
               </p>
               <Link
                 href="/disaster-recovery/"
-                className="mt-4 inline-block text-sm font-bold uppercase tracking-wide text-brand hover:text-brand-dark"
+                className="mt-4 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
               >
                 Learn More &rsaquo;
               </Link>
@@ -348,17 +348,17 @@ export default function CivilConstructionPage() {
       {/* ── eBook ─────────────────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
             <Image
               src={`${IMG}/2025/01/Complete-Guide-eBook.png`}
               alt="The Complete Guide to Telecom Shelter Construction"
               fill
               sizes="(max-width: 1024px) 80vw, 320px"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div>
-            <h2 className="text-3xl font-extrabold text-ink sm:text-4xl">Download FREE eBook</h2>
+            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelter construction involves more than just building a structure from the ground
               up; it integrates engineering expertise, meticulous planning, and skilled installation to
@@ -367,7 +367,7 @@ export default function CivilConstructionPage() {
             </p>
             <Link
               href="/ebook-telecom-construction/"
-              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               Download eBook
             </Link>
@@ -379,9 +379,9 @@ export default function CivilConstructionPage() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-            Make Space For What&rsquo;s Next
+            MAKE SPACE FOR WHAT&rsquo;S NEXT
           </p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Site Decommissioning</h2>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">SITE DECOMMISSIONING</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             CellSite can offer exclusive turn-key, decommissioning services including site analysis,
             end-to-end project management, equipment demolition, removal and disposal to help you
@@ -389,7 +389,7 @@ export default function CivilConstructionPage() {
           </p>
           <Link
             href="/site-decommissioning/"
-            className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
           >
             Learn More
           </Link>
@@ -399,18 +399,18 @@ export default function CivilConstructionPage() {
       {/* ── Guy anchor inspections ────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-7xl items-start gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/2024/10/Guy-Anchor-Inspections.png`}
               alt="Guy Anchor Inspections"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Dig-to-Block</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">DIG-TO-BLOCK</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
               Guy Anchor Inspections
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -424,7 +424,7 @@ export default function CivilConstructionPage() {
               tower but also save money by identifying minor issues early, allowing for timely repairs
               before they escalate into costly damage.
             </p>
-            <h3 className="mt-8 text-lg font-bold uppercase text-ink">Services Offered</h3>
+            <h3 className="mt-8 text-xl text-ink">SERVICES OFFERED</h3>
             <dl className="mt-4 space-y-4">
               {[
                 ["Cleaning", "Our crew carefully excavates and cleans the guy anchor shafts to inspect for damage and corrosion."],
@@ -434,14 +434,14 @@ export default function CivilConstructionPage() {
                 ["Safety and Procedures", "Temporary safety procedures and methods may need to be put in place until crews can make repairs."],
               ].map(([term, def]) => (
                 <div key={term}>
-                  <dt className="text-sm font-bold uppercase text-ink">{term}</dt>
+                  <dt className="text-sm font-bold text-ink">{term}</dt>
                   <dd className="mt-1 text-sm leading-relaxed text-muted">{def}</dd>
                 </div>
               ))}
             </dl>
             <Link
               href="/guy-tower-rod-inspections/"
-              className="mt-6 inline-block text-sm font-bold uppercase tracking-wide text-brand hover:text-brand-dark"
+              className="mt-6 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
             >
               Learn More &rsaquo;
             </Link>
@@ -453,8 +453,8 @@ export default function CivilConstructionPage() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">What We Offer</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Our Services</h2>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">WHAT WE OFFER</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR SERVICES</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               The telecommunications industry is more complex than ever. Telecom sites call for many
               different factors and require comprehensive installation, much of which you cannot handle
@@ -477,7 +477,7 @@ export default function CivilConstructionPage() {
             {ourServices.map((s) => (
               <li
                 key={s}
-                className="flex items-center gap-3 rounded-lg border border-border bg-white p-4 shadow-sm"
+                className="flex items-center gap-3 rounded-lg border border-border bg-white p-4 shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
                 <span className="h-2 w-2 shrink-0 rounded-full bg-brand" />
                 <span className="text-sm font-semibold text-ink">{s}</span>
@@ -492,15 +492,15 @@ export default function CivilConstructionPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Recent Civil Projects</p>
-            <h2 className="mt-2 text-3xl font-extrabold uppercase sm:text-4xl">From Coast To Coast</h2>
+            <h2 className="mt-2 text-[32px] sm:text-[40px]">FROM COAST TO COAST</h2>
           </div>
-          <div className="relative mt-10 aspect-[16/9] overflow-hidden rounded-lg">
+          <div className="group relative mt-10 aspect-[16/9] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/2024/10/Civil-Construction-Locations_10-24-24_Final-cutout-2.png`}
               alt="Completed Civil Construction Projects Map"
               fill
               sizes="100vw"
-              className="object-contain"
+              className="object-contain transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div className="mt-10 grid grid-cols-2 gap-6 text-center sm:grid-cols-4">
@@ -520,7 +520,7 @@ export default function CivilConstructionPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Infrastructure Built to Last
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
               Civil Construction Projects
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -532,18 +532,21 @@ export default function CivilConstructionPage() {
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {projects.map((p) => (
-              <div key={p} className="rounded-lg border border-border bg-white p-6 shadow-sm">
+              <div
+                key={p}
+                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
                 <p className="text-xs font-bold uppercase tracking-wide text-brand">
                   Civil Construction Projects
                 </p>
-                <h3 className="mt-2 text-lg font-bold text-ink">{p}</h3>
+                <h3 className="mt-2 text-xl text-ink">{p}</h3>
               </div>
             ))}
           </div>
           <div className="mt-10">
             <Link
               href="/civil-services-showcase/"
-              className="inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               View Civil Services Showcase
             </Link>

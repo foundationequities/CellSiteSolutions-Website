@@ -40,43 +40,35 @@ const faqs = [
 
 const clients = [
   {
-    title: "Cable & Internet Providers",
+    title: "CABLE & INTERNET PROVIDERS",
     copy: "Cable and internet bring content to millions of people every day. CellSite specializes in all aspects of cable/internet maintenance and installation, from shelters and towers to guy line inspection and battery backup. When people rely on your services, you can rely on CellSite to keep you up and running no matter what.",
   },
   {
-    title: "Wireless Carriers",
+    title: "WIRELESS CARRIERS",
     copy: "For wireless carriers, CellSite Solutions offers the flexibility to add to and upgrade your site at the pace of evolving technology. We also provide the essential maintenance to keep your site functioning at the highest level and protect your investment. With a sophisticated selection of shelters, cabinets, HVAC, alarm systems, and more, we can extend the life of your equipment and save you money.",
   },
   {
-    title: "Towns & Municipalities",
+    title: "TOWNS & MUNICIPALITIES",
     copy: "We work with many towns and municipalities to deliver exceptional engineering service to residents. One of our most crucial functions is establishing and maintaining local emergency networks. When residents dial 911, our services help connect them to assistance regardless of their provider. We will work with your town or municipality to install emergency service and provide peace of mind.",
   },
   {
-    title: "Telecom Co-ops",
+    title: "TELECOM CO-OPS",
     copy: "Millions of Americans rely on their local telecommunications co-op for service. As a co-op provider, you have a responsibility to keep them connected. CellSite is your partner in this effort, with efficient and cost-effective solutions.",
   },
 ];
 
 const team = [
-  { name: "Jim Patterson", role: "Chief Executive Officer", img: `${IMG}/2023/12/Jim-Updated.png` },
-  {
-    name: "Mat Hennings",
-    role: "Chief Financial Officer",
-    img: `${IMG}/2024/10/cellsite-team-mat-hennings-660x880-1.jpg`,
-  },
-  {
-    name: "Amanda Tylee",
-    role: "Human Resources Director",
-    img: `${IMG}/2024/10/cellsite-team-amanda-tylee-660x880-1.jpg`,
-  },
+  { name: "Jim Patterson", role: "Chief Executive Officer" },
+  { name: "Mat Hennings", role: "Chief Financial Officer" },
+  { name: "Amanda Tylee", role: "Human Resources Director" },
 ];
 
 export default function AboutUsPage() {
   return (
     <>
       <PageHero
-        eyebrow="About Us"
-        title="Who We Are"
+        eyebrow="ABOUT US"
+        title="WHO WE ARE"
         lede="CellSite Solutions, founded in 2010, quickly became a leader in the telecom infrastructure industry specializing in remanufacturing equipment shelters, offering a more sustainable, eco-friendly alternative to new shelters. In 2021, Fort Point Capital invested in CellSite Solutions, allowing the company to expand its services creating a complete turnkey solution provider with services ranging from civil construction to wireless network services."
       />
 
@@ -84,12 +76,12 @@ export default function AboutUsPage() {
       <section className="bg-brand py-16 text-white">
         <div className="mx-auto grid max-w-3xl grid-cols-2 gap-10 px-4 text-center sm:px-6 lg:px-8">
           <div>
-            <div className="text-5xl font-extrabold lg:text-6xl">2010</div>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-white/90">Founded</p>
+            <div className="font-display text-5xl font-medium lg:text-6xl">2010</div>
+            <p className="mt-2 text-sm font-semibold tracking-wide text-white/90">FOUNDED</p>
           </div>
           <div>
-            <div className="text-5xl font-extrabold lg:text-6xl">100+</div>
-            <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-white/90">Employees</p>
+            <div className="font-display text-5xl font-medium lg:text-6xl">100+</div>
+            <p className="mt-2 text-sm font-semibold tracking-wide text-white/90">EMPLOYEES</p>
           </div>
         </div>
       </section>
@@ -100,7 +92,7 @@ export default function AboutUsPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">About CellSite Solutions</h2>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">About CellSite Solutions</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             CellSite Solutions is a turnkey telecommunications infrastructure provider specializing in
             remanufactured telecom shelters, civil construction, wireless network services, site
@@ -118,7 +110,7 @@ export default function AboutUsPage() {
       {/* ── We Are Hiring ────────────────────────────────────────── */}
       <section className="bg-surface-dark py-20 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold uppercase sm:text-4xl">We Are Hiring</h2>
+          <h3 className="text-[28px] sm:text-[34px]">WE ARE HIRING</h3>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Ready to make a difference and grow your career? Join our team! We&rsquo;re looking for
             passionate, talented individuals to help us shape the future of our industry. Whether
@@ -127,9 +119,9 @@ export default function AboutUsPage() {
           </p>
           <Link
             href="/careers/"
-            className="mt-8 inline-block rounded-md bg-brand px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            className="mt-8 inline-block rounded-md bg-brand px-7 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
           >
-            View Job Openings
+            VIEW JOB OPENINGS
           </Link>
         </div>
       </section>
@@ -138,7 +130,7 @@ export default function AboutUsPage() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Virtual Tour</h2>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[45px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last and
@@ -161,18 +153,18 @@ export default function AboutUsPage() {
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+            <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
               <Image
                 src={`${IMG}/2024/10/Who-We-Support.png`}
                 alt="Who We Support"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Main Partners</p>
-              <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Our Clients</h2>
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">MAIN PARTNERS</p>
+              <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR CLIENTS</h2>
               <p className="mt-5 text-base leading-relaxed text-muted">
                 At CellSite Solutions, we proudly serve a wide range of industries, from telecom
                 infrastructure to utility providers, delivering high-quality telecom shelters and
@@ -181,7 +173,7 @@ export default function AboutUsPage() {
               </p>
               <Link
                 href="/who-we-serve/"
-                className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+                className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
               >
                 Learn More
               </Link>
@@ -190,8 +182,11 @@ export default function AboutUsPage() {
 
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             {clients.map((c) => (
-              <div key={c.title} className="rounded-lg border border-border bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-bold uppercase text-ink">{c.title}</h3>
+              <div
+                key={c.title}
+                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="text-xl text-ink">{c.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">{c.copy}</p>
               </div>
             ))}
@@ -202,8 +197,10 @@ export default function AboutUsPage() {
       {/* ── Sustainable Practices ────────────────────────────────── */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Sustainable Practices</p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Our Core Philosophy</h2>
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
+            SUSTAINABLE PRACTICES
+          </p>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR CORE PHILOSOPHY</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
             At CellSite Solutions, sustainability is at the heart of everything we do. By
             remanufacturing telecom shelters we extend their lifespan and reduce the environmental
@@ -212,7 +209,7 @@ export default function AboutUsPage() {
           </p>
           <Link
             href="/sustainable-practices/"
-            className="mt-8 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            className="mt-8 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
           >
             Learn More
           </Link>
@@ -224,7 +221,7 @@ export default function AboutUsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Experts</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Meet Our Team</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">MEET OUR TEAM</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               At CellSite Solutions, our executive team brings together decades of experience in telecom
               infrastructure and civil construction. Each leader is dedicated to upholding our values of
@@ -236,28 +233,20 @@ export default function AboutUsPage() {
 
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {team.map((member) => (
-              <div key={member.name} className="overflow-hidden rounded-lg bg-white shadow-sm">
-                <div className="relative aspect-[3/4]">
-                  <Image
-                    src={member.img}
-                    alt={member.name}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 33vw"
-                    className="object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-bold text-ink">{member.name}</h3>
-                  <p className="mt-1 text-sm text-muted">{member.role}</p>
-                  <a
-                    href={siteConfig.social.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-3 inline-block text-sm font-bold uppercase tracking-wide text-brand hover:text-brand-dark"
-                  >
-                    LinkedIn
-                  </a>
-                </div>
+              <div
+                key={member.name}
+                className="rounded-lg bg-white p-8 text-center shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h4 className="text-xl text-ink">{member.name}</h4>
+                <p className="mt-1 text-sm text-muted">{member.role}</p>
+                <a
+                  href={siteConfig.social.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
+                >
+                  Linkedin
+                </a>
               </div>
             ))}
           </div>

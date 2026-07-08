@@ -106,10 +106,10 @@ export default function SheltersPage() {
       {/* ── FAQ ──────────────────────────────────────────────────── */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Telecom Shelters</p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions
-          </h2>
+          </p>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Telecom Shelters</h2>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
@@ -120,10 +120,8 @@ export default function SheltersPage() {
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Premium Quality</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
-              Our Equipment Shelters
-            </h2>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">PREMIUM QUALITY</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR EQUIPMENT SHELTERS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelters play a vital role in housing critical communications equipment away from
               the main switching center, ensuring uninterrupted and efficient telecommunications
@@ -148,18 +146,18 @@ export default function SheltersPage() {
             </p>
             <Link
               href="/shelter-showcase/"
-              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               Learn More
             </Link>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/2024/09/Shelters-Section-Image.png`}
               alt="Remanufactured Concrete Communication Shelter"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -170,14 +168,17 @@ export default function SheltersPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Choice</p>
-            <h2 className="mt-2 text-3xl font-extrabold uppercase text-ink sm:text-4xl">
-              Remanufactured vs New Shelters
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+              REMANUFACTURED vs NEW SHELTERS
             </h2>
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {choice.map((c) => (
-              <div key={c.title} className="rounded-lg border border-border bg-white p-7 shadow-sm">
-                <h3 className="text-lg font-bold uppercase text-ink">{c.title}</h3>
+              <div
+                key={c.title}
+                className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="text-xl text-ink">{c.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">{c.copy}</p>
               </div>
             ))}
@@ -189,10 +190,8 @@ export default function SheltersPage() {
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">See How</p>
-            <h2 className="mt-2 text-3xl font-extrabold uppercase text-ink sm:text-4xl">
-              Remanufacturing Process
-            </h2>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SEE HOW</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">REMANUFACTURING PROCESS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               We specialize in expertly remanufacturing both the exterior and interior of your concrete
               equipment shelters using industry-leading durable materials. Whether performed on-site or
@@ -208,8 +207,11 @@ export default function SheltersPage() {
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {process.map((p) => (
-              <div key={p.title} className="rounded-lg border border-border bg-white p-6 shadow-sm">
-                <h3 className="text-base font-bold uppercase text-ink">{p.title}</h3>
+              <div
+                key={p.title}
+                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="text-xl text-ink">{p.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">{p.copy}</p>
               </div>
             ))}

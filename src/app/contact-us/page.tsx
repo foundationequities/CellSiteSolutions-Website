@@ -1,5 +1,5 @@
+import Link from "next/link";
 import type { Metadata } from "next";
-import { PageHero } from "@/components/page-hero";
 import { ContactForm } from "@/components/contact-form";
 import { siteConfig } from "@/lib/site-config";
 
@@ -14,23 +14,39 @@ export default function ContactPage() {
 
   return (
     <>
-      <PageHero
-        eyebrow="Contact Us"
-        title="We're Here to Help"
-        lede="Whether you're looking for equipment, installation, logistics, decommissioning, or just some friendly advice on the proper hardware to use for your next shelter tie down, the friendly and knowledgeable staff at CellSite Solutions is here."
-      />
+      {/* Hero (inline: live H1 breaks across two lines) */}
+      <section className="relative overflow-hidden bg-surface-dark text-white">
+        <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-24 lg:pt-36">
+          <nav className="mb-4 text-xs font-semibold uppercase tracking-[0.15em] text-white/60">
+            <Link href="/" className="hover:text-brand">
+              Home
+            </Link>{" "}
+            <span className="mx-1">/</span> Contact Us
+          </nav>
+          <h1 className="max-w-4xl text-[34px] leading-tight sm:text-[45px]">
+            We&rsquo;re Here
+            <br />
+            to Help
+          </h1>
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">
+            Whether you&rsquo;re looking for equipment, installation, logistics, decommissioning, or
+            just some friendly advice on the proper hardware to use for your next shelter tie down,
+            the friendly and knowledgeable staff at CellSite Solutions is here.
+          </p>
+        </div>
+      </section>
 
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.3fr] lg:px-8">
           {/* Info */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-sm font-bold uppercase tracking-[0.15em] text-brand">Office Hours</h2>
+              <h4 className="text-2xl text-ink">OFFICE HOURS</h4>
               <p className="mt-2 text-ink">{officeHours.days}</p>
               <p className="text-muted">{officeHours.hours}</p>
             </div>
             <div>
-              <h2 className="text-sm font-bold uppercase tracking-[0.15em] text-brand">Address</h2>
+              <h4 className="text-2xl text-ink">Address</h4>
               <address className="mt-2 not-italic leading-relaxed text-ink">
                 {siteConfig.name}
                 <br />
@@ -38,7 +54,7 @@ export default function ContactPage() {
               </address>
             </div>
             <div>
-              <h2 className="text-sm font-bold uppercase tracking-[0.15em] text-brand">Say Hello</h2>
+              <h4 className="text-2xl text-ink">Say Hello</h4>
               <ul className="mt-2 space-y-1 text-ink">
                 <li>
                   <a href={`mailto:${salesEmail}`} className="hover:text-brand">

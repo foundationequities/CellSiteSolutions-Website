@@ -31,20 +31,20 @@ export default function EbookEnergyEfficiencyPage() {
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-7xl items-start gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           {/* eBook cover */}
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-lg shadow-xl">
             <Image
               src={`${IMG}/2025/02/Guide-to-Energy-Efficiency-eBook.png`}
               alt="eBook The Guide to Telecom Shelter Energy Efficiency"
               fill
               sizes="(max-width: 1024px) 90vw, 400px"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
 
           {/* Description + form */}
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Free eBook</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+            <p className="text-sm font-bold tracking-[0.2em] text-brand">FREE Ebook</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
               The Guide to Telecom Shelter Energy Efficiency
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -61,7 +61,7 @@ export default function EbookEnergyEfficiencyPage() {
             </p>
 
             <div className="mt-8 rounded-lg border border-border bg-[#f9f9f9] p-6 sm:p-8">
-              <h3 className="text-lg font-bold uppercase text-ink">What does this eBook include?</h3>
+              <h3 className="text-xl text-ink">What does this eBook include:</h3>
               <ul className="mt-4 grid gap-2 text-sm text-muted sm:grid-cols-2">
                 {included.map((item) => (
                   <li key={item} className="flex gap-2">
