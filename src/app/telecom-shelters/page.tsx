@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
 import { VideoLightbox } from "@/components/video-lightbox";
+import { MATTERPORT_TOUR } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Shelters",
@@ -43,7 +44,7 @@ export default function TelecomSheltersPage() {
               remanufactured shelter that has new HVAC, ladder rack, and electrical systems installed.
             </p>
             <VideoLightbox
-              embedUrl="https://my.matterport.com/show/?m=15QDm9hsrxq&play=1"
+              embedUrl={MATTERPORT_TOUR}
               label="Play immersive shelter tour"
               className="group mt-7 inline-flex items-center gap-3 rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >

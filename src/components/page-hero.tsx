@@ -25,12 +25,12 @@ export function PageHero({
   return (
     <section className="relative overflow-hidden bg-surface-dark text-white">
       {video ? (
-        <BgVideo src={video.src} start={video.start} end={video.end} poster={image} overlay="bg-black/50" />
+        <BgVideo src={video.src} start={video.start} end={video.end} poster={image} overlay="bg-black/35" />
       ) : (
         image && (
           <>
-            <Image src={image} alt="" fill sizes="100vw" className="object-cover opacity-30" priority />
-            <div className="absolute inset-0 bg-black/40" aria-hidden />
+            <Image src={image} alt="" fill sizes="100vw" className="object-cover opacity-50" priority />
+            <div className="absolute inset-0 bg-black/25" aria-hidden />
           </>
         )
       )}

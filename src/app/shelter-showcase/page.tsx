@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
 import { VideoLightbox } from "@/components/video-lightbox";
+import { MATTERPORT_TOUR, SHELTER_TIMELAPSE_VIDEO } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Shelter Showcase",
@@ -73,7 +74,7 @@ const fiber: Project[] = [
     body: [
       "Tour the interior of the 12' x 28' fiber hut featuring complete ISP buildout deployed in North Carolina.",
     ],
-    tour: "https://my.matterport.com/show/?m=15QDm9hsrxq&play=1",
+    tour: MATTERPORT_TOUR,
   },
   {
     customer: "Singing River Co-op",
@@ -392,7 +393,7 @@ export default function ShelterShowcasePage() {
         </div>
       </section>
 
-      <CtaBand videoSrc="https://cellsitesolutions.com/wp-content/uploads/2024/10/Timelapse-Shelter-Shorter-Version.mp4" />
+      <CtaBand videoSrc={SHELTER_TIMELAPSE_VIDEO} />
     </>
   );
 }

@@ -25,7 +25,7 @@ export function CtaBand({
     <section
       className={`relative overflow-hidden py-16 text-white ${videoSrc ? "bg-surface-dark py-24" : "bg-brand"}`}
     >
-      {videoSrc && <BgVideo src={videoSrc} start={videoStart} overlay="bg-black/60" />}
+      {videoSrc && <BgVideo src={videoSrc} start={videoStart} overlay="bg-black/40" />}
       <div className="relative mx-auto flex max-w-5xl flex-col items-center gap-6 px-4 text-center sm:px-6 lg:px-8">
         <h2 className="text-[28px] sm:text-[34px]">{title}</h2>
         <p className="max-w-2xl text-white/90">{text}</p>

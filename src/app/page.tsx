@@ -7,6 +7,7 @@ import { VideoLightbox } from "@/components/video-lightbox";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { LogoMarquee } from "@/components/logo-marquee";
 import { partnerLogos, customerLogos } from "@/lib/logos";
+import { FACILITY_TOUR_YT, HOME_HERO_VIMEO } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "CellSite Solutions — Any Shelter. Any Service. Fast Delivery.",
@@ -45,9 +46,9 @@ export default function Home() {
       {/* ── Hero: Vimeo background video + centered tagline (as live) ── */}
       <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden text-white lg:min-h-screen">
         <BgVideo
-          src="https://vimeo.com/1036146605"
+          src={HOME_HERO_VIMEO}
           poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`}
-          overlay="bg-black/45"
+          overlay="bg-black/30"
         />
         <div className="relative mx-auto w-full max-w-5xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
           <h2 className="text-[32px] leading-snug sm:text-[45px]">
@@ -216,7 +217,7 @@ export default function Home() {
           alt=""
           fill
           sizes="100vw"
-          className="object-cover opacity-30"
+          className="object-cover opacity-50"
         />
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
@@ -252,7 +253,7 @@ export default function Home() {
 
       {/* ── Virtual tour (dark band w/ YouTube bg video, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
-        <BgVideo src="https://youtu.be/UlecVkYXJGY" start={2} end={140} overlay="bg-black/70" />
+        <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/45" />
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
           <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>

@@ -6,6 +6,7 @@ import { CtaBand } from "@/components/cta-band";
 import { BgVideo } from "@/components/bg-video";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { VideoLightbox } from "@/components/video-lightbox";
+import { FACILITY_TOUR_YT, MATTERPORT_TOUR, SHELTERS_HERO_VIMEO, SHELTER_TIMELAPSE_VIDEO } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Telecom Shelters",
@@ -102,7 +103,7 @@ export default function SheltersPage() {
         title="Telecom Shelters"
         lede="Telecom shelters protect critical communications equipment from weather, security threats, and environmental conditions while supporting reliable network operations. CellSite Solutions provides remanufactured, new Datacomm Pro Lightweight and custom telecom shelters that deliver the durability, performance, and energy efficiency of new shelters with faster deployment timelines and significant cost savings for telecom, fiber, utility, and data infrastructure projects."
         image={`${IMG}/2024/09/Shelters-Section-Image.png`}
-        video={{ src: "https://vimeo.com/1022303808/65aac9a261" }}
+        video={{ src: SHELTERS_HERO_VIMEO }}
       />
 
       {/* ── FAQ ──────────────────────────────────────────────────── */}
@@ -191,8 +192,8 @@ export default function SheltersPage() {
       {/* ── Remanufacturing Process (dark band w/ timelapse bg video, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-20 text-white">
         <BgVideo
-          src="https://cellsitesolutions.com/wp-content/uploads/2024/10/Timelapse-Shelter-Shorter-Version.mp4"
-          overlay="bg-black/70"
+          src={SHELTER_TIMELAPSE_VIDEO}
+          overlay="bg-black/45"
         />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
@@ -215,7 +216,7 @@ export default function SheltersPage() {
               the inside of our shelter that features a complete ISP installation.
             </p>
             <VideoLightbox
-              embedUrl="https://my.matterport.com/show/?m=15QDm9hsrxq&play=1"
+              embedUrl={MATTERPORT_TOUR}
               label="Launch immersive 3D shelter experience"
               className="group mt-7 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
             >
@@ -240,7 +241,7 @@ export default function SheltersPage() {
 
       {/* ── Virtual Tour (dark band w/ YouTube bg video, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
-        <BgVideo src="https://youtu.be/UlecVkYXJGY" start={2} end={140} overlay="bg-black/70" />
+        <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/45" />
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
           <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
@@ -326,7 +327,7 @@ export default function SheltersPage() {
           alt=""
           fill
           sizes="100vw"
-          className="object-cover opacity-30"
+          className="object-cover opacity-50"
         />
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>

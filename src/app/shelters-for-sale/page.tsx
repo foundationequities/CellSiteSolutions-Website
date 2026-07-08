@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
 import { ContactForm } from "@/components/contact-form";
+import { SHELTER_TIMELAPSE_VIDEO } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Shelters for Sale",
@@ -146,7 +147,7 @@ export default function SheltersForSalePage() {
       </section>
 
       <CtaBand
-        videoSrc="https://cellsitesolutions.com/wp-content/uploads/2024/10/Timelapse-Shelter-Shorter-Version.mp4"
+        videoSrc={SHELTER_TIMELAPSE_VIDEO}
         videoStart={10}
       />
     </>

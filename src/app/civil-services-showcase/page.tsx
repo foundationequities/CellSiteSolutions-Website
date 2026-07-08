@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
+import { CIVIL_HEADER_VIDEO } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Civil Services Showcase",
@@ -321,7 +322,7 @@ export default function CivilServicesShowcasePage() {
         </div>
       </section>
 
-      <CtaBand videoSrc="https://cellsitesolutions.com/wp-content/uploads/2024/10/Civil-Construction-Header-Video.mp4" />
+      <CtaBand videoSrc={CIVIL_HEADER_VIDEO} />
     </>
   );
 }

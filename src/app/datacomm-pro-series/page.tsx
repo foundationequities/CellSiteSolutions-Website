@@ -6,6 +6,7 @@ import { CtaBand } from "@/components/cta-band";
 import { BgVideo } from "@/components/bg-video";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { VideoLightbox } from "@/components/video-lightbox";
+import { DATACOMM_HERO_YT, DATACOMM_TOUR_YT, DATACOMM_ULTRA_YT } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Datacomm Pro Series",
@@ -143,7 +144,7 @@ export default function DatacommProSeriesPage() {
         title="DATACOMM PRO SERIES"
         lede="RUGGEDIZED LIGHTWEIGHT SHELTERS"
         image={`${IMG}/2026/06/Outside-Datacomm-Pro.png`}
-        video={{ src: "https://www.youtube.com/watch?v=YA3MnKXqLCg", end: 110 }}
+        video={{ src: DATACOMM_HERO_YT, end: 110 }}
       />
 
       {/* ── Intro ────────────────────────────────────────────────── */}
@@ -183,7 +184,7 @@ export default function DatacommProSeriesPage() {
 
       {/* ── Video tour (dark band w/ YouTube bg video, as live) ──── */}
       <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
-        <BgVideo src="https://www.youtube.com/watch?v=uH4lnFjXmHo" start={1} end={40} overlay="bg-black/70" />
+        <BgVideo src={DATACOMM_TOUR_YT} start={1} end={40} overlay="bg-black/45" />
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
           <h2 className="mt-2 text-[32px] sm:text-[45px]">
@@ -330,7 +331,7 @@ export default function DatacommProSeriesPage() {
 
       {/* ── ULTRA Series (dark band w/ YouTube bg video, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-20 text-white">
-        <BgVideo src="https://youtu.be/aEjGLW68VIY" overlay="bg-black/70" />
+        <BgVideo src={DATACOMM_ULTRA_YT} overlay="bg-black/45" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
           <h2 className="mt-2 text-[32px] sm:text-[40px]">Datacomm Pro ULTRA Series</h2>

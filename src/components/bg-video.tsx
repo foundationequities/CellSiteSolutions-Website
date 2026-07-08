@@ -26,7 +26,7 @@ export function BgVideo({
   start,
   end,
   poster,
-  overlay = "bg-black/50",
+  overlay = "bg-black/35",
 }: {
   src: string;
   start?: number;
