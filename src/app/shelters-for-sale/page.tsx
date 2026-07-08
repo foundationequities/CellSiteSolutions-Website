@@ -145,7 +145,10 @@ export default function SheltersForSalePage() {
         </div>
       </section>
 
-      <CtaBand />
+      <CtaBand
+        videoSrc="https://cellsitesolutions.com/wp-content/uploads/2024/10/Timelapse-Shelter-Shorter-Version.mp4"
+        videoStart={10}
+      />
     </>
   );
 }

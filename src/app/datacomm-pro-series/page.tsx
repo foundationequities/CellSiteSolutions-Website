@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
+import { BgVideo } from "@/components/bg-video";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { VideoLightbox } from "@/components/video-lightbox";
 
@@ -142,6 +143,7 @@ export default function DatacommProSeriesPage() {
         title="DATACOMM PRO SERIES"
         lede="RUGGEDIZED LIGHTWEIGHT SHELTERS"
         image={`${IMG}/2026/06/Outside-Datacomm-Pro.png`}
+        video={{ src: "https://www.youtube.com/watch?v=YA3MnKXqLCg", end: 110 }}
       />
 
       {/* ── Intro ────────────────────────────────────────────────── */}
@@ -179,21 +181,22 @@ export default function DatacommProSeriesPage() {
         </div>
       </section>
 
-      {/* ── Video tour ───────────────────────────────────────────── */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+      {/* ── Video tour (dark band w/ YouTube bg video, as live) ──── */}
+      <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
+        <BgVideo src="https://www.youtube.com/watch?v=uH4lnFjXmHo" start={1} end={40} overlay="bg-black/70" />
+        <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[45px]">
+          <h2 className="mt-2 text-[32px] sm:text-[45px]">
             Datacomm Pro Series Ruggedized Lightweight Shelters
           </h2>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Discover the future of telecom shelter solutions with CellSite Solutions&rsquo; new
             Datacomm Pro Series Lightweight Shelter. Built with innovation, durability, and efficiency
             in mind, this shelter is designed to meet the evolving demands of modern communication
             networks.
           </p>
           <VideoLightbox
-            embedUrl="https://player.vimeo.com/video/1036146605"
+            embedUrl="https://www.youtube-nocookie.com/embed/uH4lnFjXmHo"
             label="Play Datacomm Pro Series video"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >
@@ -325,9 +328,10 @@ export default function DatacommProSeriesPage() {
         </div>
       </section>
 
-      {/* ── ULTRA Series ─────────────────────────────────────────── */}
-      <section className="bg-surface-dark py-20 text-white">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+      {/* ── ULTRA Series (dark band w/ YouTube bg video, as live) ── */}
+      <section className="relative overflow-hidden bg-surface-dark py-20 text-white">
+        <BgVideo src="https://youtu.be/aEjGLW68VIY" overlay="bg-black/70" />
+        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
           <h2 className="mt-2 text-[32px] sm:text-[40px]">Datacomm Pro ULTRA Series</h2>
           <p className="mt-5 text-base leading-relaxed text-white/80">

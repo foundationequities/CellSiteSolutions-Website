@@ -43,7 +43,7 @@ export default function TelecomSheltersPage() {
               remanufactured shelter that has new HVAC, ladder rack, and electrical systems installed.
             </p>
             <VideoLightbox
-              embedUrl="https://player.vimeo.com/video/1036146605"
+              embedUrl="https://my.matterport.com/show/?m=15QDm9hsrxq&play=1"
               label="Play immersive shelter tour"
               className="group mt-7 inline-flex items-center gap-3 rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >

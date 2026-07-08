@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
+import { BgVideo } from "@/components/bg-video";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { VideoLightbox } from "@/components/video-lightbox";
 
@@ -101,6 +102,7 @@ export default function SheltersPage() {
         title="Telecom Shelters"
         lede="Telecom shelters protect critical communications equipment from weather, security threats, and environmental conditions while supporting reliable network operations. CellSite Solutions provides remanufactured, new Datacomm Pro Lightweight and custom telecom shelters that deliver the durability, performance, and energy efficiency of new shelters with faster deployment timelines and significant cost savings for telecom, fiber, utility, and data infrastructure projects."
         image={`${IMG}/2024/09/Shelters-Section-Image.png`}
+        video={{ src: "https://vimeo.com/1022303808/65aac9a261" }}
       />
 
       {/* ── FAQ ──────────────────────────────────────────────────── */}
@@ -186,52 +188,70 @@ export default function SheltersPage() {
         </div>
       </section>
 
-      {/* ── Remanufacturing Process ──────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      {/* ── Remanufacturing Process (dark band w/ timelapse bg video, as live) ── */}
+      <section className="relative overflow-hidden bg-surface-dark py-20 text-white">
+        <BgVideo
+          src="https://cellsitesolutions.com/wp-content/uploads/2024/10/Timelapse-Shelter-Shorter-Version.mp4"
+          overlay="bg-black/70"
+        />
+        <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SEE HOW</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">REMANUFACTURING PROCESS</h2>
-            <p className="mt-5 text-base leading-relaxed text-muted">
+            <h2 className="mt-2 text-[32px] sm:text-[40px]">REMANUFACTURING PROCESS</h2>
+            <p className="mt-5 text-base leading-relaxed text-white/80">
               We specialize in expertly remanufacturing both the exterior and interior of your concrete
               equipment shelters using industry-leading durable materials. Whether performed on-site or
               at our fully equipped warehouse, our remanufacturing process restores your shelter to
               like-new condition, ensuring it meets or exceeds current industry standards.
             </p>
-            <p className="mt-4 text-base leading-relaxed text-muted">
+            <p className="mt-4 text-base leading-relaxed text-white/80">
               Our high-quality materials and meticulous craftsmanship allow us to offer warranties that
               often surpass those of brand-new shelters, giving you peace of mind and long-term value.
               Trust CellSite Solutions to deliver reliable, cost-effective solutions for extending the
               life of your telecom shelters while maintaining optimal performance and protection.
             </p>
+            <p className="mt-4 text-base leading-relaxed text-white/80">
+              Press the PLAY button to launch an immersive 3D experience that allows you to explore
+              the inside of our shelter that features a complete ISP installation.
+            </p>
+            <VideoLightbox
+              embedUrl="https://my.matterport.com/show/?m=15QDm9hsrxq&play=1"
+              label="Launch immersive 3D shelter experience"
+              className="group mt-7 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
+            >
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" className="ml-1">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </VideoLightbox>
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {process.map((p) => (
               <div
                 key={p.title}
-                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+                className="rounded-lg border border-white/15 bg-white/10 p-6 backdrop-blur-sm transition-shadow duration-300 hover:shadow-lg"
               >
-                <h3 className="text-xl text-ink">{p.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted">{p.copy}</p>
+                <h3 className="text-xl">{p.title}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-white/80">{p.copy}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ── Virtual Tour ─────────────────────────────────────────── */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+      {/* ── Virtual Tour (dark band w/ YouTube bg video, as live) ── */}
+      <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
+        <BgVideo src="https://youtu.be/UlecVkYXJGY" start={2} end={140} overlay="bg-black/70" />
+        <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[45px]">Virtual Tour</h2>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
+          <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last
             and trusted nationwide. From inspection to final restoration, discover the precision and
             craftsmanship behind every shelter.
           </p>
           <VideoLightbox
-            embedUrl="https://player.vimeo.com/video/1036146605"
+            embedUrl="https://www.youtube-nocookie.com/embed/UlecVkYXJGY?start=2"
             label="Play virtual tour"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >
