@@ -334,3 +334,19 @@ All served at `/images<path>` below:
 /images/wp-content/uploads/elementor/thumbs/cellsite-services-siteprep2-960x1079-1-qxgcuwwaohegeb7i2sr90f0dstehkqb5r5zlm4kv3q.png
 /images/wp-content/uploads/elementor/thumbs/cellsite-services-sitesurvey-1920x1014-1-qxgcuxu3l9oiqt4ff4hyuy2jnghi12odhzhc6wfxiw.jpeg
 ```
+
+---
+
+## 11. Self-hosted hero videos (added during fidelity pass)
+
+Two Elementor background videos are **self-hosted mp4s on the live WordPress host**
+(too large for the repo — 196MB / 253MB):
+
+- `/wp-content/uploads/2024/10/Civil-Construction-Header-Video.mp4` (civil-construction hero,
+  civil-services-showcase CTA band)
+- `/wp-content/uploads/2024/10/Timelapse-Shelter-Shorter-Version.mp4` (shelters remanufacturing
+  band, shelter-showcase CTA band, shelters-for-sale bottom band @10s)
+
+The rebuilt pages reference the live URLs as a **temporary bridge**. ⚠ Before DNS cutover,
+upload both to **Vercel Blob** and update the URLs (they only appear in the page files +
+this note). Matterport tour: `my.matterport.com/show/?m=15QDm9hsrxq` (shelters group).

@@ -81,6 +81,19 @@ h6 { font-size: 1.118em; }
   pointer-events: none;
 }
 
+/* Scroll entrance animation (Elementor-style fadeInUp), driven by
+   components/scroll-reveal.tsx. Only active when JS tags <html>.js-reveal,
+   so content is never hidden without JS. */
+.js-reveal main section {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.js-reveal main section.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Infinite logo marquee (live site scrolls its client logos continuously). */
 @keyframes marquee {
   from { transform: translateX(0); }

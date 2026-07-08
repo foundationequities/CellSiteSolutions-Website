@@ -5,6 +5,7 @@ import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { VideoLightbox } from "@/components/video-lightbox";
+import { BgVideo } from "@/components/bg-video";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -139,19 +140,20 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      {/* ── Virtual Tour ─────────────────────────────────────────── */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+      {/* ── Virtual Tour (dark band w/ YouTube bg video, as live) ── */}
+      <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
+        <BgVideo src="https://youtu.be/UlecVkYXJGY" start={2} end={140} overlay="bg-black/70" />
+        <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[45px]">Virtual Tour</h2>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
+          <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last and
             trusted nationwide. From inspection to final restoration, discover the precision and
             craftsmanship behind every shelter.
           </p>
           <VideoLightbox
-            embedUrl="https://player.vimeo.com/video/1036146605"
+            embedUrl="https://www.youtube-nocookie.com/embed/UlecVkYXJGY?start=2"
             label="Play virtual tour"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >

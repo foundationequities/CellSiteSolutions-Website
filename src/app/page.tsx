@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { HeroVideo } from "@/components/hero-video";
+import { BgVideo } from "@/components/bg-video";
 import { CountUp } from "@/components/count-up";
 import { VideoLightbox } from "@/components/video-lightbox";
 import { FaqAccordion } from "@/components/faq-accordion";
@@ -39,29 +39,16 @@ const homeFaqs = [
   },
 ];
 
-/** Muted looping YouTube background for the Virtual Tour band (live: UlecVkYXJGY, 2s–140s). */
-function TourVideoBg() {
-  return (
-    <div className="absolute inset-0 overflow-hidden" aria-hidden>
-      <iframe
-        className="hero-video-frame"
-        src="https://www.youtube-nocookie.com/embed/UlecVkYXJGY?autoplay=1&mute=1&controls=0&loop=1&playlist=UlecVkYXJGY&start=2&end=140&playsinline=1&rel=0&modestbranding=1"
-        title=""
-        allow="autoplay; encrypted-media"
-        tabIndex={-1}
-      />
-      <div className="absolute inset-0 bg-black/70" />
-    </div>
-  );
-}
-
 export default function Home() {
   return (
     <>
       {/* ── Hero: Vimeo background video + centered tagline (as live) ── */}
       <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden text-white lg:min-h-screen">
-        <HeroVideo poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`} />
-        <div className="absolute inset-0 bg-black/45" aria-hidden />
+        <BgVideo
+          src="https://vimeo.com/1036146605"
+          poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`}
+          overlay="bg-black/45"
+        />
         <div className="relative mx-auto w-full max-w-5xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
           <h2 className="text-[32px] leading-snug sm:text-[45px]">
             ANY SHELTER. ANY SERVICE. FAST DELIVERY.
@@ -265,7 +252,7 @@ export default function Home() {
 
       {/* ── Virtual tour (dark band w/ YouTube bg video, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
-        <TourVideoBg />
+        <BgVideo src="https://youtu.be/UlecVkYXJGY" start={2} end={140} overlay="bg-black/70" />
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
           <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>

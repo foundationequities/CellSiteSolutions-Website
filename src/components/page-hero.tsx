@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BgVideo } from "@/components/bg-video";
 
 /**
- * Standard inner-page hero: a dark band with an optional background image,
+ * Standard inner-page hero: a dark band with an optional background image or
+ * background video (mp4/YouTube/Vimeo, matching the live Elementor heroes),
  * a small breadcrumb/eyebrow, the H1, and an optional lede paragraph.
  */
 export function PageHero({
@@ -10,21 +12,27 @@ export function PageHero({
   eyebrow,
   lede,
   image,
+  video,
   breadcrumb = true,
 }: {
   title: string;
   eyebrow?: string;
   lede?: string;
   image?: string;
+  video?: { src: string; start?: number; end?: number };
   breadcrumb?: boolean;
 }) {
   return (
     <section className="relative overflow-hidden bg-surface-dark text-white">
-      {image && (
-        <>
-          <Image src={image} alt="" fill sizes="100vw" className="object-cover opacity-30" priority />
-          <div className="absolute inset-0 bg-black/40" aria-hidden />
-        </>
+      {video ? (
+        <BgVideo src={video.src} start={video.start} end={video.end} poster={image} overlay="bg-black/50" />
+      ) : (
+        image && (
+          <>
+            <Image src={image} alt="" fill sizes="100vw" className="object-cover opacity-30" priority />
+            <div className="absolute inset-0 bg-black/40" aria-hidden />
+          </>
+        )
       )}
       <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-24 lg:pt-36">
         {breadcrumb && (
