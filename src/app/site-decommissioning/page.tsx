@@ -64,13 +64,13 @@ export default function SiteDecommissioningPage() {
               wish. Finally, we dismantle the steelworks or perform selective or full-site demolition.
             </p>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
             <Image
               src={`${IMG}/2024/11/cellsite-services-sitedecom3-960x1079-1.jpeg`}
               alt="Telecom Wireless Tower Decom"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function SiteDecommissioningPage() {
             {services.map((s) => (
               <li
                 key={s}
-                className="flex items-center gap-3 rounded-lg border border-border bg-white p-5 shadow-sm"
+                className="flex items-center gap-3 rounded-lg border border-border bg-white p-5 shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
                 <span className="h-2 w-2 shrink-0 rounded-full bg-brand" />
                 <span className="text-base font-semibold text-ink">{s}</span>

@@ -42,7 +42,7 @@ export default function FaqsPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions About
           </p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Telecom Shelters</h2>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Telecom Shelters</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Telecom shelters protect critical communications equipment from weather, security threats,
             and environmental conditions while supporting reliable network operations.

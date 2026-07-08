@@ -18,7 +18,7 @@ export default function TelecomSheltersPage() {
     <>
       <PageHero
         eyebrow="Shelters"
-        title="Shelters"
+        title="SHELTERS"
         lede="At CellSite Solutions, we're proud to provide a wide selection of built-to-spec remanufactured shelters for telecom projects. Our shelters can be shipped nationwide."
         image={`${IMG}/2024/11/cellsite-products-shelters-960x1078-1.png`}
       />
@@ -30,7 +30,7 @@ export default function TelecomSheltersPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Largest Selection</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Largest Selection</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite is proud to offer the largest selection of recycled communication shelters on
               the market. Come to us for previously deployed products that are able to house electrical
@@ -45,7 +45,7 @@ export default function TelecomSheltersPage() {
             <VideoLightbox
               embedUrl="https://player.vimeo.com/video/1036146605"
               label="Play immersive shelter tour"
-              className="group mt-7 inline-flex items-center gap-3 rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="group mt-7 inline-flex items-center gap-3 rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M8 5v14l11-7z" />
@@ -53,13 +53,13 @@ export default function TelecomSheltersPage() {
               Play 3D Tour
             </VideoLightbox>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/2024/11/cellsite-products-shelters-960x1078-1.png`}
               alt="Remanufactured Telecom Shelter HVACs"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function TelecomSheltersPage() {
       {/* ── Telecom Shelters explainer ───────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <h3 className="text-2xl font-bold uppercase text-ink">Telecom Shelters</h3>
+          <h3 className="text-2xl text-ink">TELECOM SHELTERS</h3>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Used to safeguard sensitive telecommunication equipment from the surrounding environment,
             telecom shelters are small independent structures that house communications equipment away

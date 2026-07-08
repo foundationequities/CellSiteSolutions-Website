@@ -329,9 +329,7 @@ export default function SheltersPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Custom Equipment Solutions
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
-              Telecom Shelter Equipment
-            </h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Telecom Shelter Equipment</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite Solutions offers a wide range of telecom shelter equipment designed to protect
               and enhance your network infrastructure. From robust, dependable HVAC systems and
@@ -344,12 +342,10 @@ export default function SheltersPage() {
               <Link
                 key={e.title}
                 href={e.href}
-                className="group rounded-lg border border-border bg-white p-7 text-center shadow-sm transition-colors hover:border-brand"
+                className="group rounded-lg border border-border bg-white p-7 text-center shadow-sm transition-shadow duration-300 hover:border-brand hover:shadow-lg"
               >
                 <p className="text-xs font-semibold uppercase tracking-wide text-muted">Equipment</p>
-                <h3 className="mt-1 text-xl font-bold uppercase text-ink group-hover:text-brand">
-                  {e.title}
-                </h3>
+                <h3 className="mt-1 text-xl text-ink group-hover:text-brand">{e.title}</h3>
               </Link>
             ))}
           </div>
