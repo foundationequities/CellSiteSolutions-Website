@@ -57,10 +57,23 @@ const clients = [
   },
 ];
 
+// Photos match the live team block (sc_team thumbnails on the live About page).
 const team = [
-  { name: "Jim Patterson", role: "Chief Executive Officer" },
-  { name: "Mat Hennings", role: "Chief Financial Officer" },
-  { name: "Amanda Tylee", role: "Human Resources Director" },
+  {
+    name: "Jim Patterson",
+    role: "Chief Executive Officer",
+    photo: `${IMG}/2023/12/Jim-Updated.png`,
+  },
+  {
+    name: "Mat Hennings",
+    role: "Chief Financial Officer",
+    photo: `${IMG}/2024/10/cellsite-team-mat-hennings-660x880-1.jpg`,
+  },
+  {
+    name: "Amanda Tylee",
+    role: "Human Resources Director",
+    photo: `${IMG}/2024/10/cellsite-team-amanda-tylee-660x880-1.jpg`,
+  },
 ];
 
 export default function AboutUsPage() {
@@ -235,8 +248,18 @@ export default function AboutUsPage() {
             {team.map((member) => (
               <div
                 key={member.name}
-                className="rounded-lg bg-white p-8 text-center shadow-sm transition-shadow duration-300 hover:shadow-lg"
+                className="group overflow-hidden rounded-lg bg-white text-center shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
+                <div className="relative aspect-[3/4] overflow-hidden">
+                  <Image
+                    src={member.photo}
+                    alt={member.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 33vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
                 <h4 className="text-xl text-ink">{member.name}</h4>
                 <p className="mt-1 text-sm text-muted">{member.role}</p>
                 <a
@@ -247,6 +270,7 @@ export default function AboutUsPage() {
                 >
                   Linkedin
                 </a>
+                </div>
               </div>
             ))}
           </div>

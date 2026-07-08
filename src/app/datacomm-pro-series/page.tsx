@@ -120,18 +120,18 @@ const specGroups: SpecGroup[] = [
 ];
 
 const components = [
-  { label: "HVAC Systems", img: "2025/06/HVAC-min.png", alt: "Reinforced Lightweight Shelter HVACs" },
+  { label: "HVAC SYSTEMS", img: "2025/06/HVAC-min.png", alt: "Reinforced Lightweight Shelter HVACs" },
   {
-    label: "Power Distribution",
+    label: "POWER DISTRIBUTION",
     img: "2025/06/Power-Distribution-min.png",
     alt: "Reinforced Lightweight Shelter Power Distribution",
   },
   {
-    label: "Cable Management",
+    label: "CABLE MANAGEMENT",
     img: "2025/06/Cable-Management-min.png",
     alt: "Reinforced Lightweight Shelter Cable Management",
   },
-  { label: "Rack Space", img: "2025/06/Rack-Space-min.png", alt: "Reinforced Lightweight Shelter Racking" },
+  { label: "RACK SPACE", img: "2025/06/Rack-Space-min.png", alt: "Reinforced Lightweight Shelter Racking" },
 ];
 
 export default function DatacommProSeriesPage() {
@@ -139,8 +139,8 @@ export default function DatacommProSeriesPage() {
     <>
       <PageHero
         eyebrow="Introducing"
-        title="Datacomm Pro Series"
-        lede="Ruggedized Lightweight Shelters engineered telecom-tough for companies that demand more capacity for less."
+        title="DATACOMM PRO SERIES"
+        lede="RUGGEDIZED LIGHTWEIGHT SHELTERS"
         image={`${IMG}/2026/06/Outside-Datacomm-Pro.png`}
       />
 
@@ -172,7 +172,7 @@ export default function DatacommProSeriesPage() {
       {/* ── FAQ ──────────────────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-ink sm:text-4xl">Frequently Asked Questions</h2>
+          <h2 className="text-[32px] text-ink sm:text-[40px]">Frequently Asked Questions</h2>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
@@ -182,8 +182,8 @@ export default function DatacommProSeriesPage() {
       {/* ── Video tour ───────────────────────────────────────────── */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[45px]">
             Datacomm Pro Series Ruggedized Lightweight Shelters
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
@@ -210,9 +210,7 @@ export default function DatacommProSeriesPage() {
           <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto]">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Features</p>
-              <h2 className="mt-2 text-3xl font-extrabold uppercase sm:text-4xl">
-                Construction Details
-              </h2>
+              <h2 className="mt-2 text-[32px] sm:text-[45px]">CONSTRUCTION DETAILS</h2>
             </div>
             <div className="relative h-24 w-40 shrink-0">
               <Image
@@ -226,8 +224,11 @@ export default function DatacommProSeriesPage() {
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {constructionDetails.map((d) => (
-              <div key={d.copy} className="rounded-lg border border-white/15 bg-white/5 p-6">
-                <p className="text-2xl font-extrabold text-brand">{d.spec}</p>
+              <div
+                key={d.copy}
+                className="rounded-lg border border-white/15 bg-white/5 p-6 transition-shadow duration-300 hover:shadow-lg"
+              >
+                <p className="font-display text-2xl font-medium text-brand">{d.spec}</p>
                 <p className="mt-2 text-sm leading-relaxed text-white/85">{d.copy}</p>
               </div>
             ))}
@@ -240,16 +241,14 @@ export default function DatacommProSeriesPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Features</p>
-            <h2 className="mt-2 text-3xl font-extrabold uppercase text-ink sm:text-4xl">
-              Technical Specifications
-            </h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">TECHNICAL SPECIFICATIONS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               The shelter is built on reinforced 2 x 4 framing clad internally with ½-inch FRP/OSB
               panels. Externally, it carries ½-inch wall sheathing, a ¾-inch exterior-grade plywood
               roof deck, and durable 5/16-inch cement-board siding.
             </p>
             <div className="mt-6 rounded-lg border border-border bg-[#f9f9f9] p-6">
-              <h3 className="text-base font-bold uppercase text-ink">Multiple Sizes</h3>
+              <h3 className="text-xl text-ink">Multiple Sizes</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted">
                 Available in 6 shelter sizes with 2 door configuration options—giving you the
                 flexibility to choose the right fit for your site layout, access needs, and equipment
@@ -260,8 +259,11 @@ export default function DatacommProSeriesPage() {
 
           <div className="mt-12 grid gap-8 md:grid-cols-2">
             {specGroups.map((g) => (
-              <div key={g.title} className="rounded-lg border border-border bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-bold uppercase text-ink">{g.title}</h3>
+              <div
+                key={g.title}
+                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="text-xl text-ink">{g.title}</h3>
                 <dl className="mt-4 divide-y divide-border">
                   {g.rows.map(([k, v]) => (
                     <div key={k} className="flex justify-between gap-4 py-2.5 text-sm">
@@ -282,7 +284,7 @@ export default function DatacommProSeriesPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Components</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Interior Features</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Interior Features</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Professional rack layout with optimized cable management and HVAC distribution. Typical
               rack configuration uses 23″ (2) post racks.
@@ -290,39 +292,33 @@ export default function DatacommProSeriesPage() {
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {components.map((c) => (
-              <figure key={c.label} className="overflow-hidden rounded-lg bg-white shadow-sm">
-                <div className="relative aspect-[3/4]">
+              <figure
+                key={c.label}
+                className="overflow-hidden rounded-lg bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <div className="group relative aspect-[3/4] overflow-hidden">
                   <Image
                     src={`${IMG}/${c.img}`}
                     alt={c.alt}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                    className="object-cover"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
-                <figcaption className="p-4 text-center text-sm font-bold uppercase text-ink">
+                <figcaption className="p-4 text-center font-display text-sm font-medium text-ink">
                   {c.label}
                 </figcaption>
               </figure>
             ))}
           </div>
-          <div className="mt-6 grid gap-6 lg:grid-cols-2">
-            <div className="relative aspect-[16/10] overflow-hidden rounded-lg">
+          <div className="mt-6">
+            <div className="group relative aspect-[16/10] overflow-hidden rounded-lg">
               <Image
                 src={`${IMG}/2026/06/Outside-Datacomm-Pro.png`}
                 alt="Datacomm Pro Series Lightweight Shelter"
                 fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
-              />
-            </div>
-            <div className="relative aspect-[16/10] overflow-hidden rounded-lg">
-              <Image
-                src={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`}
-                alt="Datacomm Pro Series Lightweight Shelter exterior"
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
+                sizes="(max-width: 1280px) 100vw, 1216px"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
           </div>
@@ -333,9 +329,7 @@ export default function DatacommProSeriesPage() {
       <section className="bg-surface-dark py-20 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
-          <h2 className="mt-2 text-3xl font-extrabold uppercase sm:text-4xl">
-            Datacomm Pro ULTRA Series
-          </h2>
+          <h2 className="mt-2 text-[32px] sm:text-[40px]">Datacomm Pro ULTRA Series</h2>
           <p className="mt-5 text-base leading-relaxed text-white/80">
             When conditions are extreme, your infrastructure can&rsquo;t afford weak links. Introducing
             CellSite Solutions Datacomm Pro ULTRA Series Shelters which are engineered for the toughest

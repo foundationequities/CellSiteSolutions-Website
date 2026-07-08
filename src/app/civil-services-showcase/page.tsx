@@ -22,6 +22,8 @@ type Project = {
 type Category = {
   eyebrow: string;
   title: string;
+  /** Short label used in the "Jump the Line" nav (live-site casing, incl. its typo). */
+  navLabel: string;
   intro: string;
   projects: Project[];
 };
@@ -30,6 +32,7 @@ const categories: Category[] = [
   {
     eyebrow: "End-to-End Construction",
     title: "Civil Site Preparation for Shelters & Cabinets",
+    navLabel: "Civil Site Preperation",
     intro:
       "From initial site planning and design to telecom construction and final installation, CellSite Solutions provides comprehensive civil construction services to deliver a fully finished, functional telecom site. We manage every phase to ensure your infrastructure is built to perform—reliably and efficiently.",
     projects: [
@@ -73,7 +76,8 @@ const categories: Category[] = [
   },
   {
     eyebrow: "Grounded and Guarded",
-    title: "Site Grounding and Fencing",
+    title: "SITE GROUNDING AND FENCING",
+    navLabel: "Grounding & Fencing",
     intro:
       "CellSite Solutions delivers expert civil site grounding and fencing services to ensure safety, equipment protection, and regulatory compliance. From ground ring installation to perimeter security fencing, our team provides turnkey solutions tailored to telecom site needs—built to last and designed to perform.",
     projects: [
@@ -122,6 +126,7 @@ const categories: Category[] = [
   {
     eyebrow: "Connecting Your Network Core",
     title: "ISP Field Installation",
+    navLabel: "ISP Field Installation",
     intro:
       "CellSite Solutions provides expert ISP field installation services for telecom facilities, ensuring precise setup of all inside plant infrastructure—including power systems, cabling, racks, and equipment. Our technicians follow industry best practices to deliver efficient, code-compliant installations that support long-term performance and scalability.",
     projects: [
@@ -148,6 +153,7 @@ const categories: Category[] = [
   {
     eyebrow: "On-Site Shelter Renewal",
     title: "On-Site Shelter Remanufacture",
+    navLabel: "On-Site Shelter Remanufacture",
     intro:
       "CellSite Solutions offers professional on-site shelter remanufacture services to restore and upgrade existing telecom shelters without the need for costly relocation. From structural repairs and HVAC replacement to electrical upgrades and interior refurbishments, our team delivers efficient, code-compliant solutions that maximize your shelter's performance and value—right at your location.",
     projects: [
@@ -176,6 +182,7 @@ const categories: Category[] = [
   {
     eyebrow: "Expert On-Site Support",
     title: "Field Services Management",
+    navLabel: "Field Services Management",
     intro:
       "CellSite Solutions provides expert field services to support the installation, maintenance, and repair of telecom infrastructure. Our experienced team offers on-site services such as equipment installation, system upgrades, troubleshooting, and routine maintenance, ensuring your telecom sites stay operational, secure, and compliant with industry standards.",
     projects: [
@@ -189,6 +196,7 @@ const categories: Category[] = [
   {
     eyebrow: "Early Detection, Lasting Safety",
     title: "Guy Anchor Inspections",
+    navLabel: "Guy Anchor Inspections",
     intro:
       "Telecommunication tower sites rely on proper maintenance of guy anchor rods to prevent galvanic corrosion and avoid potential tower failure. CellSite Solutions offers cost-effective guy anchor inspections and protection services to detect early signs of wear and tear. Regular inspections help extend the lifespan of your guyed towers, saving money by identifying minor issues before they turn into costly repairs.",
     projects: [
@@ -204,17 +212,17 @@ const categories: Category[] = [
 
 function ProjectBlock({ project }: { project: Project }) {
   return (
-    <div className="rounded-lg border border-border bg-white p-6 shadow-sm">
+    <div className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg">
       {project.images.length > 0 && (
         <div className="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {project.images.map((img) => (
-            <div key={img.src} className="relative aspect-[4/3] overflow-hidden rounded-md">
+            <div key={img.src} className="group relative aspect-[4/3] overflow-hidden rounded-md">
               <Image
                 src={img.src}
                 alt={img.alt}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
           ))}
@@ -225,9 +233,9 @@ function ProjectBlock({ project }: { project: Project }) {
           Customer: {project.customer}
         </p>
       )}
-      <h3 className="mt-1 text-xl font-bold text-ink">{project.subtitle}</h3>
+      <h3 className="mt-1 text-xl text-ink">{project.subtitle}</h3>
       {project.location && (
-        <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-muted">
+        <p className="mt-1 text-sm font-semibold tracking-wide text-muted">
           Location: {project.location}
         </p>
       )}
@@ -255,9 +263,9 @@ export default function CivilServicesShowcasePage() {
               <a
                 key={c.title}
                 href={`#category-${i}`}
-                className="rounded-full border border-border px-4 py-2 text-xs font-bold uppercase tracking-wide text-ink transition-colors hover:border-brand hover:text-brand"
+                className="rounded-full border border-border px-4 py-2 font-display text-sm font-medium uppercase tracking-wide text-ink transition-colors hover:border-brand hover:text-brand"
               >
-                {c.title}
+                {c.navLabel}
               </a>
             ))}
           </div>
@@ -273,7 +281,7 @@ export default function CivilServicesShowcasePage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">{c.eyebrow}</p>
-              <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">{c.title}</h2>
+              <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">{c.title}</h2>
               <p className="mt-5 text-base leading-relaxed text-muted">{c.intro}</p>
             </div>
             <div className="mt-12 grid gap-8 lg:grid-cols-2">
@@ -289,11 +297,9 @@ export default function CivilServicesShowcasePage() {
       <section className="bg-surface-dark py-20 text-white">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-            Laying the Foundation for Success
+            Laying the foundation for success
           </p>
-          <h2 className="mt-2 text-3xl font-extrabold uppercase sm:text-4xl">
-            Civil Construction Services
-          </h2>
+          <h2 className="mt-2 text-[32px] sm:text-[40px]">CIVIL CONSTRUCTION SERVICES</h2>
           <p className="mt-5 text-base leading-relaxed text-white/80">
             No other company matches the range of telecom site civil services offered by CellSite
             Solutions. We&rsquo;re a one-stop partner for every stage of your telecom infrastructure
