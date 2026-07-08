@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
@@ -38,47 +37,36 @@ export default function GeneratorsPage() {
 
       {/* ── Power Up ─────────────────────────────────────────────── */}
       <section className="bg-white py-20">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-              Full-Service Provider
-            </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Power Up</h2>
-            <p className="mt-5 text-base leading-relaxed text-muted">
-              Backed by more than 20 years of experience in the telecommunications industry, CellSite
-              Solutions has the knowledge and expertise to help customers select the right generator
-              for their critical infrastructure.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-muted">
-              We understand that every telecom site has unique power requirements, environmental
-              conditions, and operational goals, which is why we take the time to understand your
-              specific application before making a recommendation. Whether you need reliable backup
-              power for a remote cell site, public safety communications, broadband network, or
-              mission-critical facility, our team will guide you toward the best solution for your
-              budget, performance needs, and long-term reliability.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-muted">
-              From consultation and equipment selection to installation and ongoing support, we&apos;re
-              committed to delivering dependable power solutions that keep your network running when it
-              matters most.
-            </p>
-          </div>
-          <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
-            <Image
-              src={`${IMG}/2024/11/cellsite-products-generator3-960x1078-1.jpg`}
-              alt="Telecom site backup generator"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
-            />
-          </div>
+        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
+            Full-Service Provider
+          </p>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Power Up</h2>
+          <p className="mt-5 text-base leading-relaxed text-muted">
+            Backed by more than 20 years of experience in the telecommunications industry, CellSite
+            Solutions has the knowledge and expertise to help customers select the right generator
+            for their critical infrastructure.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-muted">
+            We understand that every telecom site has unique power requirements, environmental
+            conditions, and operational goals, which is why we take the time to understand your
+            specific application before making a recommendation. Whether you need reliable backup
+            power for a remote cell site, public safety communications, broadband network, or
+            mission-critical facility, our team will guide you toward the best solution for your
+            budget, performance needs, and long-term reliability.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-muted">
+            From consultation and equipment selection to installation and ongoing support, we&apos;re
+            committed to delivering dependable power solutions that keep your network running when it
+            matters most.
+          </p>
         </div>
       </section>
 
       {/* ── Wide Selection ───────────────────────────────────────── */}
       <section className="bg-surface-dark py-20 text-white">
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold uppercase sm:text-4xl">Wide Selection</h2>
+          <h2 className="text-[32px] sm:text-[40px]">WIDE SELECTION</h2>
           <p className="mt-5 text-base leading-relaxed text-white/80">
             CellSite Solutions stocks a wide variety of new generators for sale, in sizes from
             single-phase to 3-phase. Our commercial generators are able to handle large-scale power
@@ -98,15 +86,18 @@ export default function GeneratorsPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Available Styles</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Available Styles</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               We carry single-phase to 3-phase generators.
             </p>
           </div>
           <div className="mt-10 grid gap-8 sm:grid-cols-3">
             {styles.map((s) => (
-              <div key={s.title} className="rounded-lg border border-border bg-white p-7 shadow-sm">
-                <h3 className="text-lg font-bold uppercase text-ink">{s.title}</h3>
+              <div
+                key={s.title}
+                className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="text-xl text-ink">{s.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">{s.copy}</p>
               </div>
             ))}

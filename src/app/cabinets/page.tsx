@@ -16,7 +16,7 @@ export default function CabinetsPage() {
     <>
       <PageHero
         eyebrow="Cabinets"
-        title="Cabinets"
+        title="CABINETS"
         lede="Protect your investment from weather—and curious hands. When you don't need the space of a full precast concrete shelter, the right cabinet can extend the life of your equipment."
         image={`${IMG}/2024/11/cellsite-products-cabinets3-960x1078-1.png`}
       />
@@ -28,14 +28,12 @@ export default function CabinetsPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
-              Security Pays for Itself
-            </h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Security Pays for Itself</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               In many cases, the right telecom cabinet could pay for itself in just a short time
               because of lowered repair expenses.
             </p>
-            <h3 className="mt-8 text-lg font-bold uppercase text-ink">Cabinet Solutions</h3>
+            <h3 className="mt-8 text-2xl text-ink">CABINET SOLUTIONS</h3>
             <p className="mt-3 text-base leading-relaxed text-muted">
               When you are in the telecommunications equipment business, you know all about equipment
               expenses. Even a little piece can be costly to replace or repair. Having the proper
@@ -47,13 +45,13 @@ export default function CabinetsPage() {
               cabinets will help avoid danger and could protect you from liability.
             </p>
           </div>
-          <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
+          <div className="group relative aspect-[3/4] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/2024/11/cellsite-products-cabinets3-960x1078-1.png`}
               alt="Telecommunications Shelters"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -66,17 +64,17 @@ export default function CabinetsPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Available Styles</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Available Styles</h2>
           </div>
           <div className="mt-10 grid gap-8 sm:grid-cols-2">
-            <div className="rounded-lg border border-border bg-white p-7 shadow-sm">
-              <h3 className="text-lg font-bold uppercase text-ink">Battery Storage Cabinets</h3>
+            <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
+              <h3 className="text-xl text-ink">Battery Storage Cabinets</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted">
                 Store spare batteries—even massive gel cells—in controlled temperatures.
               </p>
             </div>
-            <div className="rounded-lg border border-border bg-white p-7 shadow-sm">
-              <h3 className="text-lg font-bold uppercase text-ink">Transmission Cabinets</h3>
+            <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
+              <h3 className="text-xl text-ink">Transmission Cabinets</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted">
                 Protect radio transmission racks.
               </p>

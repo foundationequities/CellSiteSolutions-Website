@@ -349,17 +349,17 @@ export default function DatacommProSeriesPage() {
       {/* ── eBook CTA ────────────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
             <Image
               src={`${IMG}/2025/11/eBook-Complete-Guide-Datacomm-Pro-Series-Thumbnail.png`}
               alt="The Complete Guide to the Datacomm Pro Series eBook"
               fill
               sizes="(max-width: 1024px) 80vw, 320px"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div>
-            <h2 className="text-3xl font-extrabold text-ink sm:text-4xl">Download FREE eBook</h2>
+            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Download our free eBook to explore the next generation of telecom shelter design. See how
               the Datacomm Pro Series combines rugged durability, lightweight efficiency, and cost
@@ -368,7 +368,7 @@ export default function DatacommProSeriesPage() {
             </p>
             <Link
               href="/ebook-datacomm-pro-series/"
-              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               Download eBook
             </Link>
@@ -380,7 +380,7 @@ export default function DatacommProSeriesPage() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Verified Results</p>
-          <blockquote className="mt-5 text-2xl font-semibold leading-snug text-ink sm:text-3xl">
+          <blockquote className="mt-5 font-display text-[28px] font-medium leading-snug text-ink sm:text-[36px]">
             &ldquo;Finally, a shelter that&rsquo;s designed for tomorrow. Great design, great
             craftsmanship, and great value. Very happy so far and definitely recommend.&rdquo;
           </blockquote>
