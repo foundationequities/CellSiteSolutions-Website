@@ -321,7 +321,7 @@ export default function CivilServicesShowcasePage() {
         </div>
       </section>
 
-      <CtaBand />
+      <CtaBand videoSrc="https://cellsitesolutions.com/wp-content/uploads/2024/10/Civil-Construction-Header-Video.mp4" />
     </>
   );
 }

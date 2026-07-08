@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
+import { VideoLightbox } from "@/components/video-lightbox";
 
 export const metadata: Metadata = {
   title: "Shelter Showcase",
@@ -11,7 +12,14 @@ export const metadata: Metadata = {
 
 const IMG = "/images/wp-content/uploads";
 
-type Project = { customer: string; type: string; size: string; body: string[] };
+type Project = {
+  customer: string;
+  type: string;
+  size: string;
+  body: string[];
+  /** Matterport / embed URL for a 3D tour lightbox. */
+  tour?: string;
+};
 
 const wireless: Project[] = [
   {
@@ -65,6 +73,7 @@ const fiber: Project[] = [
     body: [
       "Tour the interior of the 12' x 28' fiber hut featuring complete ISP buildout deployed in North Carolina.",
     ],
+    tour: "https://my.matterport.com/show/?m=15QDm9hsrxq&play=1",
   },
   {
     customer: "Singing River Co-op",
@@ -195,6 +204,18 @@ function ProjectCard({ p }: { p: Project }) {
           <p key={i}>{para}</p>
         ))}
       </div>
+      {p.tour && (
+        <VideoLightbox
+          embedUrl={p.tour}
+          label="Play 3D tour"
+          className="mt-5 inline-flex items-center gap-2 self-start rounded-md bg-brand px-5 py-2.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+          Play 3D Tour
+        </VideoLightbox>
+      )}
     </div>
   );
 }
@@ -371,7 +392,7 @@ export default function ShelterShowcasePage() {
         </div>
       </section>
 
-      <CtaBand />
+      <CtaBand videoSrc="https://cellsitesolutions.com/wp-content/uploads/2024/10/Timelapse-Shelter-Shorter-Version.mp4" />
     </>
   );
 }

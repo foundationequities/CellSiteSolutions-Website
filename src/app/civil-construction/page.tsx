@@ -113,6 +113,7 @@ export default function CivilConstructionPage() {
       <PageHero
         eyebrow="Laying the Foundation for Success"
         title="CIVIL CONSTRUCTION"
+        video={{ src: "https://cellsitesolutions.com/wp-content/uploads/2024/10/Civil-Construction-Header-Video.mp4" }}
         lede="Telecom civil construction creates the physical infrastructure required to support wireless, fiber, utility, and broadband networks. From site surveys and site preparation to shelter installation, grounding, power systems, maintenance, and decommissioning, CellSite Solutions delivers turnkey telecom construction services that help operators deploy, maintain, and expand critical communications infrastructure."
       />
 
