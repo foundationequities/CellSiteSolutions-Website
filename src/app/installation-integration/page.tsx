@@ -41,7 +41,7 @@ export default function InstallationIntegrationPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
               Keep the Details In Mind
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -50,7 +50,7 @@ export default function InstallationIntegrationPage() {
               You can trust CellSite to keep ISP components in top condition, ready to support the
               latest technology.
             </p>
-            <h3 className="mt-8 text-lg font-bold uppercase text-ink">ISP Expertise</h3>
+            <h3 className="mt-8 text-xl text-ink">ISP EXPERTISE</h3>
             <p className="mt-3 text-base leading-relaxed text-muted">
               CellSite Solutions has the resources available to complete inside plant (ISP) installs
               to your specifications. Our ISP installation team is able to install any or all of your
@@ -65,13 +65,13 @@ export default function InstallationIntegrationPage() {
               ))}
             </ul>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
             <Image
               src={`${IMG}/2024/11/cellsite-services-installintegration3-960x1078-1.jpg`}
               alt="Shelter Inside Plant Equipment"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function InstallationIntegrationPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Full-Service Provider
           </p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">An Integrated Team</h2>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">An Integrated Team</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             At CellSite, our various teams are used to working together, sharing information, and
             creating synergy. It just makes sense to use our services end to end when you want an

@@ -39,7 +39,7 @@ export default function SiteDecommissioningPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
               Low Impact High Reward
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -49,7 +49,7 @@ export default function SiteDecommissioningPage() {
               potentially hazardous materials to ensure the land is restored with proper safety in
               mind.
             </p>
-            <h3 className="mt-8 text-lg font-bold uppercase text-ink">Why Choose Us?</h3>
+            <h3 className="mt-8 text-xl text-ink">WHY CHOOSE US?</h3>
             <p className="mt-3 text-base leading-relaxed text-muted">
               Before we begin telecom decommissioning, we make certain there are no other legal claims
               to the site work within the law and give proper notice of termination to any third
@@ -83,7 +83,7 @@ export default function SiteDecommissioningPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Our Services</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Our Services</h2>
           </div>
           <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (

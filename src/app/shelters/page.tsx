@@ -223,7 +223,7 @@ export default function SheltersPage() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Virtual Tour</h2>
+          <h2 className="mt-2 text-[32px] text-ink sm:text-[45px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last
@@ -245,17 +245,17 @@ export default function SheltersPage() {
       {/* ── eBook CTA (Telecom Construction) ─────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
             <Image
               src={`${IMG}/2025/01/Complete-Guide-eBook.png`}
               alt="The Complete Guide to Telecom Shelter Construction"
               fill
               sizes="(max-width: 1024px) 80vw, 320px"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div>
-            <h2 className="text-3xl font-extrabold text-ink sm:text-4xl">Download FREE eBook</h2>
+            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelter construction involves more than just building a structure from the ground
               up; it integrates engineering expertise, meticulous planning, and skilled installation to
@@ -264,7 +264,7 @@ export default function SheltersPage() {
             </p>
             <Link
               href="/ebook-telecom-construction/"
-              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               Download eBook
             </Link>
@@ -279,7 +279,7 @@ export default function SheltersPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Powering Connectivity, Delivering Reliability.
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold uppercase sm:text-4xl">Wireless Providers</h2>
+            <h2 className="mt-2 text-[32px] sm:text-[40px]">WIRELESS PROVIDERS</h2>
             <p className="mt-5 text-base leading-relaxed text-white/80">
               Since 2009, CellSite Solutions has focused on sustainable remanufacturing. Our core
               philosophy is simple: Reuse, Renew, and Reimagine.
@@ -287,8 +287,11 @@ export default function SheltersPage() {
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {sustainability.map((s) => (
-              <div key={s.title} className="rounded-lg border border-white/15 bg-white/5 p-7">
-                <h3 className="text-lg font-bold uppercase">{s.title}</h3>
+              <div
+                key={s.title}
+                className="rounded-lg border border-white/15 bg-white/5 p-7 transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="text-xl">{s.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-white/80">{s.copy}</p>
               </div>
             ))}
@@ -306,13 +309,13 @@ export default function SheltersPage() {
           className="object-cover opacity-30"
         />
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
-          <h2 className="mx-auto mt-3 max-w-3xl text-3xl font-extrabold uppercase sm:text-4xl lg:text-5xl">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
+          <h2 className="mx-auto mt-3 max-w-4xl text-[32px] sm:text-[45px]">
             Datacomm Pro Ruggedized Lightweight Shelters
           </h2>
           <Link
             href="/datacomm-pro-series/"
-            className="mt-8 inline-block rounded-md bg-brand px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            className="mt-8 inline-block rounded-md bg-brand px-7 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
           >
             Learn More
           </Link>

@@ -38,11 +38,7 @@ export default function CareersPage() {
         </div>
       </section>
 
-      <CtaBand
-        title="Ready to Join Us?"
-        text="If our culture of connection, education, and community sounds like the right fit, we'd love to hear from you. Reach out and see where you might belong at CellSite Solutions."
-        buttonLabel="Get in Touch"
-      />
+      <CtaBand />
     </>
   );
 }

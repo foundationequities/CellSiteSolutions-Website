@@ -37,7 +37,7 @@ export default function GeneralSiteMaintenancePage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
               One Team for All Needs
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -50,7 +50,7 @@ export default function GeneralSiteMaintenancePage() {
               a focus on safety, efficiency, and quality, CellSite Solutions helps minimize downtime
               and extend the lifespan of your telecom building.
             </p>
-            <h3 className="mt-8 text-lg font-bold uppercase text-ink">Why Choose Us?</h3>
+            <h3 className="mt-8 text-xl text-ink">WHY CHOOSE US?</h3>
             <p className="mt-3 text-base leading-relaxed text-muted">
               The overall appearance of your site makes an important impression on both neighbors and
               potential investors. Even more important, site upkeep can extend the life of your
@@ -60,13 +60,13 @@ export default function GeneralSiteMaintenancePage() {
               provide routine and emergency maintenance.
             </p>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
             <Image
               src={`${IMG}/2024/11/cellsite-services-generalsitemaintenance3-960x1078-1.jpg`}
               alt="Telecom Concrete Shelter Site Maintenance"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -79,13 +79,13 @@ export default function GeneralSiteMaintenancePage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Services We Offer</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Services We Offer</h2>
           </div>
           <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (
               <li
                 key={s}
-                className="flex items-center gap-3 rounded-lg border border-border bg-white p-5 shadow-sm"
+                className="flex items-center gap-3 rounded-lg border border-border bg-white p-5 shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
                 <span className="h-2 w-2 shrink-0 rounded-full bg-brand" />
                 <span className="text-base font-semibold text-ink">{s}</span>
