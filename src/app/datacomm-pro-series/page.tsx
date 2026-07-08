@@ -352,7 +352,7 @@ export default function DatacommProSeriesPage() {
       </section>
 
       {/* ── eBook CTA ────────────────────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
+      <section className="bg-white py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
           <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
             <Image
@@ -382,7 +382,7 @@ export default function DatacommProSeriesPage() {
       </section>
 
       {/* ── Testimonial ──────────────────────────────────────────── */}
-      <section className="bg-white py-20">
+      <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Verified Results</p>
           <blockquote className="mt-5 font-display text-[28px] font-medium leading-snug text-ink sm:text-[36px]">

@@ -54,18 +54,23 @@ body {
 }
 
 /* Theme heading scale — matches the live ThemeREX tokens. Weight 500, no
-   forced transform (heading text is typed in its live casing). */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display), var(--font-sans), Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.15;
+   forced transform (heading text is typed in its live casing).
+   IMPORTANT: kept inside @layer base so Tailwind utilities (text-sm,
+   text-[40px], font-bold, …) can override these defaults — unlayered rules
+   would silently beat every layered utility. */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display), var(--font-sans), Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.15;
+  }
+  h1 { font-size: 3.353em; }
+  h2 { font-size: 2.765em; }
+  h3 { font-size: 2.059em; }
+  h4 { font-size: 1.647em; }
+  h5 { font-size: 1.412em; }
+  h6 { font-size: 1.118em; }
 }
-h1 { font-size: 3.353em; }
-h2 { font-size: 2.765em; }
-h3 { font-size: 2.059em; }
-h4 { font-size: 1.647em; }
-h5 { font-size: 1.412em; }
-h6 { font-size: 1.118em; }
 
 /* The YouTube IFrame API replaces its mount node with an <iframe> — make it
    cover the band exactly like .hero-video-frame. */

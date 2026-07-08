@@ -47,7 +47,7 @@ export default function Home() {
       <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden text-white lg:min-h-screen">
         <BgVideo
           src={HOME_HERO_VIMEO}
-          poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`}
+          poster={`${IMG}/2024/11/Shelters-Division-v2.png`}
           overlay="bg-black/20"
         />
         <div className="relative mx-auto w-full max-w-5xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
@@ -276,7 +276,7 @@ export default function Home() {
       </section>
 
       {/* ── eBook CTA ────────────────────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
+      <section className="bg-white py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
           <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
             <Image
@@ -306,7 +306,7 @@ export default function Home() {
       </section>
 
       {/* ── Civil construction services grid ─────────────────────── */}
-      <section className="bg-white py-20">
+      <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">

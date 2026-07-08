@@ -89,7 +89,7 @@ export function SiteFooter() {
 
         {/* Site Map */}
         <div>
-          <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-white">Site Map</h3>
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-white">Site Map</h3>
           <ul className="space-y-2">
             {siteMap.map((item) => (
               <li key={item.href}>
@@ -106,7 +106,7 @@ export function SiteFooter() {
 
         {/* Address */}
         <div>
-          <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-white">Address</h3>
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-white">Address</h3>
           <address className="text-sm not-italic leading-relaxed text-white/70">
             {siteConfig.name}
             <br />
@@ -118,7 +118,7 @@ export function SiteFooter() {
 
         {/* Say Hello */}
         <div>
-          <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-white">Say Hello</h3>
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-white">Say Hello</h3>
           <ul className="space-y-2 text-sm text-white/70">
             <li>
               <a href={`mailto:${salesEmail}`} className="font-semibold text-white hover:text-brand">
