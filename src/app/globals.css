@@ -67,6 +67,21 @@ h4 { font-size: 1.647em; }
 h5 { font-size: 1.412em; }
 h6 { font-size: 1.118em; }
 
+/* The YouTube IFrame API replaces its mount node with an <iframe> — make it
+   cover the band exactly like .hero-video-frame. */
+.yt-bg-holder iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 56.25vw;
+  min-height: 100%;
+  min-width: 177.78vh;
+  border: 0;
+  pointer-events: none;
+}
+
 /* Full-bleed 16:9 background video that always covers its container. */
 .hero-video-frame {
   position: absolute;

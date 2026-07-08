@@ -240,9 +240,9 @@ export default function SheltersPage() {
       </section>
 
       {/* ── Virtual Tour (dark band w/ YouTube bg video, as live) ── */}
-      <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
+      <section className="relative flex min-h-[55vh] items-center overflow-hidden bg-surface-dark py-24 text-white lg:min-h-[70vh]">
         <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/30" />
-        <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+        <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
           <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
