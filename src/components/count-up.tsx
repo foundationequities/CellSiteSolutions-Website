@@ -41,9 +41,11 @@ export function CountUp({
     return () => io.disconnect();
   }, [value, duration]);
 
+  // Fixed en-US locale: user-locale formatting can differ between the server
+  // render and the browser (e.g. "0.0" vs "0,0"), causing hydration mismatches.
   return (
     <span ref={ref}>
-      {display.toLocaleString(undefined, {
+      {display.toLocaleString("en-US", {
         minimumFractionDigits: decimals,
         maximumFractionDigits: decimals,
       })}

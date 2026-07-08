@@ -126,6 +126,8 @@ export function BgVideo({
   let media: React.ReactNode = null;
   if (src.endsWith(".mp4")) {
     media = (
+      // suppressHydrationWarning: React doesn't serialize the `muted` property
+      // into SSR HTML, which otherwise triggers a hydration attribute warning.
       <video
         className="hero-video-frame object-cover"
         src={`${src}${start ? `#t=${start}` : ""}`}
@@ -135,6 +137,7 @@ export function BgVideo({
         playsInline
         preload="metadata"
         poster={poster}
+        suppressHydrationWarning
       />
     );
   } else if (yt) {

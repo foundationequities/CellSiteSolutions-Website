@@ -44,7 +44,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${dmSans.variable} h-full antialiased`}>
+    // suppressHydrationWarning: ScrollReveal tags <html> with a `js-reveal`
+    // class on the client (same pattern as next-themes); without this React
+    // reports an attribute mismatch against the server-rendered HTML.
+    <html lang="en" className={`${dmSans.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="flex min-h-full flex-col">
         <SiteHeader />
         <main className="flex-1">{children}</main>
