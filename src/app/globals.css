@@ -7,8 +7,19 @@
  *   text / secondary  #000000
  *   neutral / border  #DDDDDD
  *   surface           #FFFFFF
- * Fonts: DM Sans (body/base headings) + Poppins (display) via next/font.
+ *
+ * Typography (ThemeREX theme tokens from the live CSS):
+ *   headings  halyard-display (Adobe Fonts), weight 500
+ *             h1 3.353em · h2 2.765em · h3 2.059em · h4 1.647em · h5 1.412em · h6 1.118em
+ *   body      DM Sans 1rem/400 (via next/font)
+ *   buttons   halyard-display 14px/500
  */
+
+/* Halyard Display — same Adobe Fonts kit the live site serves (its WP page
+   cache inlines these exact @font-face URLs). */
+@font-face{font-family:"halyard-display";src:url(https://use.typekit.net/af/7e8d8a/00000000000000007735adb8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/7e8d8a/00000000000000007735adb8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/7e8d8a/00000000000000007735adb8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-display:swap;font-style:normal;font-weight:400;font-stretch:normal}
+@font-face{font-family:"halyard-display";src:url(https://use.typekit.net/af/165087/00000000000000007735adc0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/165087/00000000000000007735adc0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/165087/00000000000000007735adc0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3) format("opentype");font-display:swap;font-style:normal;font-weight:500;font-stretch:normal}
+@font-face{font-family:"halyard-display";src:url(https://use.typekit.net/af/9a705f/00000000000000007735adcd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/9a705f/00000000000000007735adcd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/9a705f/00000000000000007735adcd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-display:swap;font-style:normal;font-weight:700;font-stretch:normal}
 
 :root {
   --background: #ffffff;
@@ -31,9 +42,8 @@
   --color-border: var(--border);
   --color-surface-dark: var(--surface-dark);
 
-  /* next/font wires these CSS vars in layout.tsx */
   --font-sans: var(--font-dm-sans);
-  --font-display: var(--font-poppins);
+  --font-display: "halyard-display";
 }
 
 body {
@@ -43,9 +53,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Theme heading scale — matches the live ThemeREX tokens. Weight 500, no
+   forced transform (heading text is typed in its live casing). */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display), var(--font-sans), Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.15;
 }
+h1 { font-size: 3.353em; }
+h2 { font-size: 2.765em; }
+h3 { font-size: 2.059em; }
+h4 { font-size: 1.647em; }
+h5 { font-size: 1.412em; }
+h6 { font-size: 1.118em; }
 
 /* Full-bleed 16:9 background video that always covers its container. */
 .hero-video-frame {
@@ -59,4 +79,21 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 177.78vh; /* 16:9 */
   border: 0;
   pointer-events: none;
+}
+
+/* Infinite logo marquee (live site scrolls its client logos continuously). */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.logo-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+.logo-marquee:hover {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee { animation: none; }
 }

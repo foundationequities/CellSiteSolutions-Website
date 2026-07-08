@@ -38,9 +38,7 @@ export function PageHero({
         {eyebrow && !breadcrumb && (
           <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand">{eyebrow}</p>
         )}
-        <h1 className="max-w-4xl text-4xl font-extrabold uppercase leading-tight sm:text-5xl">
-          {title}
-        </h1>
+        <h1 className="max-w-4xl text-[34px] leading-tight sm:text-[45px]">{title}</h1>
         {lede && <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">{lede}</p>}
       </div>
     </section>

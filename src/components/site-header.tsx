@@ -46,7 +46,7 @@ export function SiteHeader() {
             <div key={item.href} className="group relative">
               <Link
                 href={item.href}
-                className="inline-flex items-center gap-1 px-3 py-2 text-sm font-semibold uppercase tracking-wide text-white/90 transition-colors hover:text-brand"
+                className="inline-flex items-center gap-1 px-3 py-2 font-display text-[17px] font-medium text-white/90 transition-colors hover:text-brand"
               >
                 {item.label}
                 {item.children && (
@@ -61,7 +61,7 @@ export function SiteHeader() {
                     <Link
                       key={child.href}
                       href={child.href}
-                      className="block px-4 py-2 text-sm font-medium text-ink/80 hover:bg-brand/5 hover:text-brand"
+                      className="block px-4 py-2 text-[15px] text-ink/80 hover:bg-brand/5 hover:text-brand"
                     >
                       {child.label}
                     </Link>
@@ -75,9 +75,9 @@ export function SiteHeader() {
         <div className="flex items-center gap-2">
           <Link
             href="/contact-us/"
-            className="hidden rounded-md bg-brand px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark lg:inline-block"
+            className="hidden rounded-md bg-brand px-5 py-2.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark lg:inline-block"
           >
-            Request Quote
+            REQUEST QUOTE
           </Link>
           <MobileNav />
         </div>

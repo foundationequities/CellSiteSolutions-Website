@@ -5,7 +5,16 @@ import { HeroVideo } from "@/components/hero-video";
 import { CountUp } from "@/components/count-up";
 import { VideoLightbox } from "@/components/video-lightbox";
 import { FaqAccordion } from "@/components/faq-accordion";
-import { partnerLogos, customerLogos, LOGO_WIDTH, LOGO_HEIGHT } from "@/lib/logos";
+import { LogoMarquee } from "@/components/logo-marquee";
+import { partnerLogos, customerLogos } from "@/lib/logos";
+
+export const metadata: Metadata = {
+  title: "CellSite Solutions — Any Shelter. Any Service. Fast Delivery.",
+  description:
+    "CellSite Solutions provides expert telecom services, specializing in remanufactured concrete telecom shelters, lightweight shelters, civil construction, and turnkey site services nationwide.",
+};
+
+const IMG = "/images/wp-content/uploads";
 
 const homeFaqs = [
   {
@@ -30,40 +39,33 @@ const homeFaqs = [
   },
 ];
 
-export const metadata: Metadata = {
-  title: "CellSite Solutions — Any Shelter. Any Service. Fast Delivery.",
-  description:
-    "CellSite Solutions provides expert telecom services, specializing in remanufactured concrete telecom shelters, lightweight shelters, civil construction, and turnkey site services nationwide.",
-};
-
-const IMG = "/images/wp-content/uploads";
-const allLogos = [...partnerLogos, ...customerLogos];
+/** Muted looping YouTube background for the Virtual Tour band (live: UlecVkYXJGY, 2s–140s). */
+function TourVideoBg() {
+  return (
+    <div className="absolute inset-0 overflow-hidden" aria-hidden>
+      <iframe
+        className="hero-video-frame"
+        src="https://www.youtube-nocookie.com/embed/UlecVkYXJGY?autoplay=1&mute=1&controls=0&loop=1&playlist=UlecVkYXJGY&start=2&end=140&playsinline=1&rel=0&modestbranding=1"
+        title=""
+        allow="autoplay; encrypted-media"
+        tabIndex={-1}
+      />
+      <div className="absolute inset-0 bg-black/70" />
+    </div>
+  );
+}
 
 export default function Home() {
   return (
     <>
-      {/* ── Hero with background video ───────────────────────────── */}
+      {/* ── Hero: Vimeo background video + centered tagline (as live) ── */}
       <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden text-white lg:min-h-screen">
         <HeroVideo poster={`${IMG}/2025/06/Datacomm-Pro-Series-Lightweight-Shelter.png`} />
-        <div className="absolute inset-0 bg-black/55" aria-hidden />
-        <div className="relative mx-auto w-full max-w-5xl px-4 pb-20 pt-32 text-center sm:px-6 lg:px-8">
-          <h1 className="mx-auto max-w-4xl text-4xl font-extrabold uppercase leading-[1.05] sm:text-5xl lg:text-7xl">
-            Any Shelter. Any Service. Fast Delivery.
-          </h1>
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <Link
-              href="/contact-us/"
-              className="rounded-md bg-brand px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
-            >
-              Request a Quote
-            </Link>
-            <Link
-              href="/shelters/"
-              className="rounded-md border border-white/40 px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white backdrop-blur-sm transition-colors hover:border-white hover:bg-white/10"
-            >
-              Explore Shelters
-            </Link>
-          </div>
+        <div className="absolute inset-0 bg-black/45" aria-hidden />
+        <div className="relative mx-auto w-full max-w-5xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
+          <h2 className="text-[32px] leading-snug sm:text-[45px]">
+            ANY SHELTER. ANY SERVICE. FAST DELIVERY.
+          </h2>
         </div>
       </section>
 
@@ -71,11 +73,13 @@ export default function Home() {
       <section className="bg-brand py-14 text-white">
         <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[auto_1fr] lg:gap-14 lg:px-8">
           <div className="flex items-baseline gap-3 lg:flex-col lg:items-center lg:gap-0">
-            <span className="text-7xl font-extrabold leading-none lg:text-8xl">15</span>
-            <span className="text-2xl font-bold uppercase tracking-[0.2em]">Years</span>
+            <span className="font-display text-7xl font-medium leading-none lg:text-8xl">
+              <CountUp value={15} />
+            </span>
+            <span className="text-2xl tracking-[0.2em]">YEARS</span>
           </div>
           <div>
-            <h2 className="text-3xl font-extrabold uppercase sm:text-4xl">One Team. One Dream.</h2>
+            <h2 className="text-[34px] sm:text-[40px]">ONE TEAM. ONE DREAM.</h2>
             <p className="mt-4 max-w-3xl leading-relaxed text-white/90">
               CellSite Solutions is proud to celebrate 15 years of innovation, reliability, and
               partnership in the telecom industry. From our dedicated team to the customers who trust
@@ -87,45 +91,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Trusted-by logo band ─────────────────────────────────── */}
-      <section className="border-b border-border bg-white py-12">
+      {/* ── Scrolling client-logo marquee (as live) ──────────────── */}
+      <section className="border-b border-border bg-white py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="mb-8 text-center text-sm font-bold uppercase tracking-[0.15em] text-muted">
-            Trusted by leading carriers, co-ops &amp; fiber providers
-          </h2>
-          <div className="grid grid-cols-2 items-center gap-x-8 gap-y-8 sm:grid-cols-4 lg:grid-cols-5">
-            {allLogos.map((logo) => (
-              <div key={logo.src} className="flex items-center justify-center">
-                <Image
-                  src={logo.src}
-                  alt={logo.name}
-                  width={LOGO_WIDTH}
-                  height={LOGO_HEIGHT}
-                  className="h-12 w-auto object-contain opacity-80 grayscale transition hover:opacity-100 hover:grayscale-0"
-                />
-              </div>
-            ))}
-          </div>
+          <LogoMarquee logos={partnerLogos} />
+          <LogoMarquee logos={customerLogos} reverse />
         </div>
       </section>
 
       {/* ── Who We Are ───────────────────────────────────────────── */}
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/2024/11/Shelters-Division-v2.png`}
               alt="CellSite Solutions Telecom Shelters Floor"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Who We Are</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">
-              Turnkey Solution Provider
-            </h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Turnkey Solution Provider</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite Solutions provides expert telecom and telecommunications services,
               specializing in concrete shelter remanufacturing, and custom telecom shelter solutions.
@@ -136,7 +124,7 @@ export default function Home() {
             </p>
             <Link
               href="/about-us/"
-              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               Learn More
             </Link>
@@ -157,14 +145,14 @@ export default function Home() {
           {[
             {
               img: `${IMG}/2024/11/Shelters-Division-v2.png`,
-              title: "Telecom Shelters",
+              title: "TELECOM SHELTERS",
               copy: "We remanufacture shelters and essential equipment to keep telecom networks operational.",
               href: "/shelters/",
               alt: "Telecom Shelters",
             },
             {
               img: `${IMG}/2024/10/Civil-Construction-Division-v2.png`,
-              title: "Civil Construction",
+              title: "CIVIL CONSTRUCTION",
               copy: "Civil construction services, including telecom site install, maintenance, & shelter decommission.",
               href: "/civil-construction/",
               alt: "Civil Construction",
@@ -177,16 +165,16 @@ export default function Home() {
                   alt={c.alt}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
               </div>
               <div className="absolute inset-x-0 bottom-0 p-7 text-white">
-                <h3 className="text-2xl font-extrabold uppercase">{c.title}</h3>
+                <h3 className="text-2xl">{c.title}</h3>
                 <p className="mt-2 max-w-md text-sm text-white/85">{c.copy}</p>
                 <Link
                   href={c.href}
-                  className="mt-4 inline-block rounded-md bg-brand px-5 py-2.5 text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+                  className="mt-4 inline-block rounded-md bg-brand px-5 py-2.5 font-display text-xs font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
                 >
                   Learn More
                 </Link>
@@ -200,8 +188,8 @@ export default function Home() {
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Premium Quality</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Our Equipment Shelters</h2>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">PREMIUM QUALITY</p>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR EQUIPMENT SHELTERS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelters play a vital role in housing critical communications equipment away from
               the main switching center, ensuring uninterrupted and efficient telecommunications
@@ -217,18 +205,18 @@ export default function Home() {
             </p>
             <Link
               href="/shelters/"
-              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               Learn More
             </Link>
           </div>
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
             <Image
               src={`${IMG}/2024/09/Shelters-Section-Image.png`}
               alt="Remanufactured Concrete Communication Shelter"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -244,13 +232,13 @@ export default function Home() {
           className="object-cover opacity-30"
         />
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
-          <h2 className="mx-auto mt-3 max-w-3xl text-3xl font-extrabold uppercase sm:text-4xl lg:text-5xl">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
+          <h2 className="mx-auto mt-3 max-w-4xl text-[32px] sm:text-[45px]">
             Datacomm Pro Ruggedized Lightweight Shelters
           </h2>
           <Link
             href="/datacomm-pro-series/"
-            className="mt-8 inline-block rounded-md bg-brand px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            className="mt-8 inline-block rounded-md bg-brand px-7 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
           >
             Learn More
           </Link>
@@ -261,35 +249,34 @@ export default function Home() {
       <section className="bg-brand py-16 text-white">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-4 text-center sm:grid-cols-3 sm:px-6 lg:px-8">
           {[
-            { value: 5.3, decimals: 1, suffix: "k", label: "Tons Concrete Repurposed" },
-            { value: 363, decimals: 0, suffix: "k", label: "Lbs Copper & Metal Recycled" },
-            { value: 190, decimals: 0, suffix: "k", label: "Square Foot Facility" },
+            { value: 5.3, decimals: 1, suffix: "k", label: "TONS CONCRETE REPURPOSED" },
+            { value: 363, decimals: 0, suffix: "k", label: "LBS COPPER & METAL RECYCLED" },
+            { value: 190, decimals: 0, suffix: "k", label: "SQUARE FOOT FACILITY" },
           ].map((s) => (
             <div key={s.label}>
-              <div className="text-5xl font-extrabold lg:text-6xl">
+              <div className="font-display text-5xl font-medium lg:text-6xl">
                 <CountUp value={s.value} suffix={s.suffix} decimals={s.decimals} />
               </div>
-              <p className="mt-2 text-sm font-semibold uppercase tracking-wide text-white/90">
-                {s.label}
-              </p>
+              <p className="mt-2 text-sm font-semibold tracking-wide text-white/90">{s.label}</p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* ── Virtual tour ─────────────────────────────────────────── */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+      {/* ── Virtual tour (dark band w/ YouTube bg video, as live) ── */}
+      <section className="relative overflow-hidden bg-surface-dark py-24 text-white">
+        <TourVideoBg />
+        <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Virtual Tour</h2>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
+          <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last
             and trusted nationwide. From inspection to final restoration, discover the precision and
             craftsmanship behind every shelter.
           </p>
           <VideoLightbox
-            embedUrl="https://player.vimeo.com/video/1036146605"
+            embedUrl="https://www.youtube-nocookie.com/embed/UlecVkYXJGY?start=2"
             label="Play virtual tour"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >
@@ -303,17 +290,17 @@ export default function Home() {
       {/* ── eBook CTA ────────────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
             <Image
               src={`${IMG}/2025/11/eBook-Complete-Guide-Datacomm-Pro-Series-Thumbnail.png`}
               alt="Complete Guide to the Datacomm Pro Series eBook"
               fill
               sizes="(max-width: 1024px) 80vw, 320px"
-              className="object-cover"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div>
-            <h2 className="text-3xl font-extrabold text-ink sm:text-4xl">Download FREE eBook</h2>
+            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Download our free eBook for an inside look at the next generation of telecom shelter
               design. Learn how the Datacomm Pro Series delivers rugged strength, lightweight
@@ -322,7 +309,7 @@ export default function Home() {
             </p>
             <Link
               href="/ebook-datacomm-pro-series/"
-              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
             >
               Download eBook
             </Link>
@@ -335,9 +322,9 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-              Installation to Decommissioning
+              INSTALLATION TO DECOMMISSIONING
             </p>
-            <h2 className="mt-2 text-3xl font-extrabold text-ink sm:text-4xl">Civil Construction</h2>
+            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">CIVIL CONSTRUCTION</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               We provide top-tier civil construction services to help you build and maintain telecom
               sites that meet your exact specifications. From initial site planning and development to
@@ -380,8 +367,11 @@ export default function Home() {
                 items: ["Unsurpassed Dig-to-Block Process"],
               },
             ].map((col) => (
-              <div key={col.title} className="rounded-lg border border-border bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-bold uppercase text-ink">{col.title}</h3>
+              <div
+                key={col.title}
+                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              >
+                <h3 className="text-xl text-ink">{col.title}</h3>
                 <ul className="mt-4 space-y-2 text-sm text-muted">
                   {col.items.map((it) => (
                     <li key={it} className="flex gap-2">
@@ -392,7 +382,7 @@ export default function Home() {
                 </ul>
                 <Link
                   href={col.href}
-                  className="mt-5 inline-block text-sm font-bold uppercase tracking-wide text-brand hover:text-brand-dark"
+                  className="mt-5 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
                 >
                   Learn More &rsaquo;
                 </Link>
@@ -402,43 +392,32 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── CEO quote ────────────────────────────────────────────── */}
-      <section className="bg-surface-dark py-20 text-white">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.7fr_1fr] lg:px-8">
-          <div className="relative mx-auto aspect-square w-full max-w-sm overflow-hidden rounded-lg">
-            <Image
-              src={`${IMG}/2023/12/Jim-Updated.png`}
-              alt="Jim Patterson, CEO of CellSite Solutions"
-              fill
-              sizes="(max-width: 1024px) 80vw, 384px"
-              className="object-cover"
-            />
-          </div>
-          <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Who We Are</p>
-            <blockquote className="mt-4 text-2xl font-semibold leading-snug sm:text-3xl">
-              &ldquo;We specialize in industrial telecom shelter remanufacturing of any imaginable scale
-              and complexity.&rdquo;
-            </blockquote>
-            <p className="mt-6 font-bold">Jim Patterson</p>
-            <p className="text-sm text-white/70">CEO, CellSite Solutions</p>
-          </div>
+      {/* ── CEO quote (centered, no photo — as live) ─────────────── */}
+      <section className="bg-surface-dark py-24 text-white">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Who we are</p>
+          <blockquote className="mt-6 font-display text-[28px] font-medium leading-snug sm:text-[36px]">
+            &ldquo;We specialize in industrial telecom shelter remanufacturing of any imaginable scale
+            and complexity.&rdquo;
+          </blockquote>
+          <p className="mt-8 font-bold">Jim Patterson</p>
+          <p className="text-sm text-white/70">CEO, CellSite Solutions</p>
         </div>
       </section>
 
       {/* ── Ready to talk CTA ────────────────────────────────────── */}
       <section className="bg-brand py-16 text-white">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold uppercase sm:text-4xl">Ready to Talk?</h2>
+          <h3 className="text-[28px] sm:text-[34px]">READY TO TALK?</h3>
           <p className="max-w-2xl text-white/90">
             Have an upcoming project that requires a certain skill set? Does one of our products or
             services help you accomplish something in the field? Let us know.
           </p>
           <Link
             href="/contact-us/"
-            className="rounded-md bg-white px-8 py-3.5 text-sm font-bold uppercase tracking-wide text-brand transition-colors hover:bg-white/90"
+            className="rounded-md bg-white px-8 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-brand transition-colors hover:bg-white/90"
           >
-            Request a Quote
+            REQUEST A QUOTE
           </Link>
         </div>
       </section>

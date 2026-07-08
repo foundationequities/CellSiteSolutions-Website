@@ -1,26 +1,10 @@
 /**
- * Full-bleed YouTube background video for the homepage hero, matching the live
- * site (video UlecVkYXJGY, trimmed 2s–140s, autoplay/muted/looped). The poster
- * image sits behind the iframe as the immediate paint and fallback.
+ * Full-bleed background video for the homepage hero, matching the live site.
+ * The live hero's Elementor background video is Vimeo 1036146605; Vimeo's
+ * `background=1` mode autoplays muted/looped with no chrome. The poster image
+ * sits behind the iframe as the immediate paint and fallback.
  */
 export function HeroVideo({ poster }: { poster: string }) {
-  const id = "UlecVkYXJGY";
-  const params = new URLSearchParams({
-    autoplay: "1",
-    mute: "1",
-    controls: "0",
-    loop: "1",
-    playlist: id,
-    start: "2",
-    end: "140",
-    playsinline: "1",
-    modestbranding: "1",
-    rel: "0",
-    showinfo: "0",
-    disablekb: "1",
-    fs: "0",
-  });
-
   return (
     <div
       className="absolute inset-0 overflow-hidden bg-surface-dark bg-cover bg-center"
@@ -29,11 +13,10 @@ export function HeroVideo({ poster }: { poster: string }) {
     >
       <iframe
         className="hero-video-frame"
-        src={`https://www.youtube-nocookie.com/embed/${id}?${params.toString()}`}
+        src="https://player.vimeo.com/video/1036146605?background=1&autoplay=1&loop=1&muted=1&dnt=1"
         title="CellSite Solutions"
-        allow="autoplay; encrypted-media; picture-in-picture"
+        allow="autoplay; fullscreen; picture-in-picture"
         tabIndex={-1}
-        loading="lazy"
       />
     </div>
   );
