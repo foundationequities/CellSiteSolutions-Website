@@ -37,23 +37,23 @@ const siteMap = [
 ];
 
 export function SiteFooter() {
-  const { footer } = siteConfig.logos;
+  const { headerBlack } = siteConfig.logos;
   const { address, phone, tollFree, salesEmail } = siteConfig.contact;
 
   return (
-    <footer className="bg-surface-dark text-white/80">
+    <footer className="bg-white text-ink">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
         <div>
           <Link href="/" aria-label={siteConfig.name} className="inline-block">
             <Image
-              src={footer.src}
+              src={headerBlack.src}
               alt={`${siteConfig.name} logo`}
-              width={footer.width}
-              height={footer.height}
-              className="h-16 w-auto"
+              width={headerBlack.width}
+              height={headerBlack.height}
+              className="h-12 w-auto"
             />
           </Link>
-          <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/70">
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
             {siteConfig.description}
           </p>
           <div className="mt-5 flex items-center gap-3">
@@ -62,7 +62,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-ink/5 text-ink transition-colors hover:bg-brand hover:text-white"
             >
               <FacebookIcon />
             </a>
@@ -71,7 +71,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-ink/5 text-ink transition-colors hover:bg-brand hover:text-white"
             >
               <LinkedInIcon />
             </a>
@@ -80,7 +80,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-ink/5 text-ink transition-colors hover:bg-brand hover:text-white"
             >
               <YouTubeIcon />
             </a>
@@ -89,13 +89,13 @@ export function SiteFooter() {
 
         {/* Site Map */}
         <div>
-          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-white">Site Map</h3>
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-ink">Site Map</h3>
           <ul className="space-y-2">
             {siteMap.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="text-sm text-white/70 transition-colors hover:text-brand"
+                  className="text-sm text-muted transition-colors hover:text-brand"
                 >
                   {item.label}
                 </Link>
@@ -106,8 +106,8 @@ export function SiteFooter() {
 
         {/* Address */}
         <div>
-          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-white">Address</h3>
-          <address className="text-sm not-italic leading-relaxed text-white/70">
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-ink">Address</h3>
+          <address className="text-sm not-italic leading-relaxed text-muted">
             {siteConfig.name}
             <br />
             {address.street}
@@ -118,10 +118,10 @@ export function SiteFooter() {
 
         {/* Say Hello */}
         <div>
-          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-white">Say Hello</h3>
-          <ul className="space-y-2 text-sm text-white/70">
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-ink">Say Hello</h3>
+          <ul className="space-y-2 text-sm text-muted">
             <li>
-              <a href={`mailto:${salesEmail}`} className="font-semibold text-white hover:text-brand">
+              <a href={`mailto:${salesEmail}`} className="font-semibold text-ink hover:text-brand">
                 EMAIL US
               </a>
             </li>
@@ -135,8 +135,8 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-white/60 sm:flex-row sm:px-6 lg:px-8">
+      <div className="border-t border-border">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-muted sm:flex-row sm:px-6 lg:px-8">
           <p>
             &copy; {YEAR} {siteConfig.legalName}. All rights reserved.
           </p>

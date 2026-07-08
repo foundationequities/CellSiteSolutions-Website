@@ -31,7 +31,7 @@ export default function EbookEnergyEfficiencyPage() {
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-7xl items-start gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           {/* eBook cover */}
-          <div className="group relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden">
             <Image
               src={`${IMG}/2025/02/Guide-to-Energy-Efficiency-eBook.png`}
               alt="eBook The Guide to Telecom Shelter Energy Efficiency"
@@ -60,7 +60,7 @@ export default function EbookEnergyEfficiencyPage() {
               these advancements are shaping the future of telecommunications infrastructure.
             </p>
 
-            <div className="mt-8 rounded-lg border border-border bg-[#f9f9f9] p-6 sm:p-8">
+            <div className="mt-8">
               <h3 className="text-xl text-ink">What does this eBook include:</h3>
               <ul className="mt-4 grid gap-2 text-sm text-muted sm:grid-cols-2">
                 {included.map((item) => (

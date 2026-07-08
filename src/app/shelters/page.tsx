@@ -266,7 +266,7 @@ export default function SheltersPage() {
       {/* ── eBook CTA (Telecom Construction) ─────────────────────── */}
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
-          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden">
             <Image
               src={`${IMG}/2025/01/Complete-Guide-eBook.png`}
               alt="The Complete Guide to Telecom Shelter Construction"

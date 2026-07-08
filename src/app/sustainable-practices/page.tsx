@@ -136,7 +136,7 @@ export default function SustainablePracticesPage() {
       </section>
 
       {/* ── eBook download ───────────────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
+      <section className="bg-white py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SUSTAINABILITY</p>
@@ -144,7 +144,7 @@ export default function SustainablePracticesPage() {
           </div>
         </div>
         <div className="mx-auto mt-12 grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
-          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden rounded-lg shadow-xl">
+          <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden">
             <Image
               src={`${IMG}/2025/02/Guide-to-Energy-Efficiency-eBook.png`}
               alt="eBook The Guide to Telecom Shelter Energy Efficiency"
