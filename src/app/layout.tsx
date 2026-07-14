@@ -36,6 +36,11 @@ export const metadata: Metadata = {
       "/images/wp-content/uploads/2024/12/0032-New-Website-Announcement-Post-Large-min.png",
     ],
   },
+  // Draft mode (NEXT_PUBLIC_DRAFT=1): belt-and-braces noindex on every page in
+  // addition to the robots.txt disallow. Remove the env var at go-live.
+  ...(process.env.NEXT_PUBLIC_DRAFT === "1"
+    ? { robots: { index: false, follow: false } }
+    : {}),
 };
 
 export default function RootLayout({
