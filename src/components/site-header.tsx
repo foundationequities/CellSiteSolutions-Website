@@ -1,33 +1,18 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { mainNav } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
 import { MobileNav } from "@/components/mobile-nav";
-import { cn } from "@/lib/utils";
 
+/**
+ * Site header: overlays the top of the page (hero video shows through behind
+ * it) and scrolls away with the page — no sticky/fixed behavior.
+ */
 export function SiteHeader() {
   const { headerWhite } = siteConfig.logos;
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   return (
-    <header
-      className={cn(
-        "fixed inset-x-0 top-0 z-40 text-white transition-colors duration-300",
-        scrolled
-          ? "border-b border-white/10 bg-surface-dark shadow-lg"
-          : "bg-gradient-to-b from-black/60 to-transparent",
-      )}
-    >
+    <header className="absolute inset-x-0 top-0 z-40 bg-gradient-to-b from-black/70 via-black/30 to-transparent text-white">
       <div className="mx-auto flex h-24 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center" aria-label={siteConfig.name}>
           <Image

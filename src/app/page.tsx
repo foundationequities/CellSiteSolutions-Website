@@ -8,7 +8,7 @@ import { FaqAccordion } from "@/components/faq-accordion";
 import { RotatingWords } from "@/components/rotating-words";
 import { LogoMarquee } from "@/components/logo-marquee";
 import { partnerLogos, customerLogos } from "@/lib/logos";
-import { FACILITY_TOUR_YT, HOME_HERO_VIMEO } from "@/lib/videos";
+import { FACILITY_TOUR_YT } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "CellSite Solutions — Any Shelter. Any Service. Fast Delivery.",
@@ -47,12 +47,17 @@ export default function Home() {
       {/* ── Hero: Vimeo background video + centered tagline (as live) ── */}
       <section className="relative overflow-hidden text-white">
         <BgVideo
-          src={HOME_HERO_VIMEO}
+          src={FACILITY_TOUR_YT}
+          start={2}
+          end={140}
           poster={`${IMG}/2024/11/Shelters-Division-v2.png`}
           overlay="bg-black/10"
         />
-        {/* min-height lives on this flex container so it holds on mobile too */}
-        <div className="relative flex min-h-[600px] items-center justify-center lg:min-h-[1280px]">
+        {/* min-height lives on this flex container so it holds on mobile too.
+            Viewport-based height keeps the 16:9 cover math exact — a fixed px
+            height taller than the screen leaves an uncovered strip at the
+            bottom of the hero. */}
+        <div className="relative flex min-h-[600px] items-center justify-center lg:min-h-screen">
           <div className="mx-auto w-full max-w-6xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
             <h2 className="text-[28px] leading-snug sm:text-[36px] lg:text-[45px]">
               ANY SHELTER. ANY SERVICE. FAST DELIVERY.
