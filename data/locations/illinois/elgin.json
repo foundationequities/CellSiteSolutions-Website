@@ -5,7 +5,10 @@
     "state": "Illinois",
     "stateSlug": "illinois",
     "stateAbbr": "IL",
-    "counties": ["Kane", "Cook"],
+    "counties": [
+      "Kane",
+      "Cook"
+    ],
     "msa": "Chicago-Naperville-Elgin, IL-IN Metropolitan Statistical Area",
     "tier": 3,
     "latitude": 42.0354,
@@ -16,8 +19,16 @@
       "source": "U.S. Census Bureau, 2020 Census — Elgin ranked sixth-largest city in Illinois",
       "verifiedOn": "2026-07-28"
     },
-    "interstates": ["I-90"],
-    "majorRoutes": ["US-20", "IL-19", "IL-25", "IL-31", "Randall Rd"]
+    "interstates": [
+      "I-90"
+    ],
+    "majorRoutes": [
+      "US-20",
+      "IL-19",
+      "IL-25",
+      "IL-31",
+      "Randall Rd"
+    ]
   },
   "metadata": {
     "title": "Elgin, IL Telecom Site Civil Construction | CellSite Solutions",
@@ -29,23 +40,59 @@
   "designCriteria": {
     "asce7Edition": "ASCE 7-16 (the reference standard of the 2021 I-code family Elgin has adopted; confirm the structural code edition with Community Development)",
     "ultimateWindSpeedMph": {
-      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
-      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
     },
     "typicalExposureCategory": null,
-    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "tia222Revision": null,
-    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "seismic": {
-      "ss": { "value": null, "source": null, "verifiedOn": null },
-      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
       "typicalSiteClass": null,
       "typicalDesignCategory": null,
       "notes": "Mapped seismic demand in the far-northeast corner of Illinois is among the state's lowest; still, publish Ss/S1 only from a USGS design-maps query at the site, and let borings set site class."
     },
-    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
-    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
-    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
   },
   "geotech": {
     "dominantGeology": "Northeastern Kane County is Wisconsin Episode glacial terrain: diamictons of the Wedron Group flanked, along the Fox River at Elgin, by high-level outwash terraces of Henry Formation sand and gravel. ISGS mapping identifies the Carpentersville aquifer immediately east of the Fox in this corner of the county — surficial and interbedded sands and gravels beneath the Batestown and Yorkville till members — meaning permeable, water-bearing granular soils sit at or near the surface on many east-side sites. Bedrock beneath is Silurian dolomite. (ISGS surficial geology of Kane County.)",
@@ -54,15 +101,27 @@
       "Batestown and Yorkville till (Lemont Formation) diamicton uplands",
       "Fox River alluvium (floodplain parcels)"
     ],
-    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
     "expansiveSoilRisk": "unknown",
     "expansiveSoilNote": null,
-    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "karstRisk": {
       "present": false,
       "note": "No mapped karst at Elgin; glacial cover over the Silurian dolomite is substantial. Deep foundations are still screened for solution features where drift thins."
     },
-    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "soilCorrosivityNote": null,
     "foundationApproachNarrative": "What distinguishes Elgin foundations from the rest of the Chicago collar is water, not strength. East of the Fox River, ISGS maps the Carpentersville aquifer's sands and gravels at or near the surface — soils that excavate quickly and bear well when confined, but that can flow and slough below the water table. Hut foundations and vault sets in that corridor get planned around dewatering from day one: trench boxes sized for running sand, pumps on site before the cut opens, and casing on drilled piers where granular soils won't stand open. Till uplands west of the river behave conventionally — spread footings below local frost depth, predictable excavation. Elgin's amended frost depth was not sourceable from the code text remotely, so we carry it as a scoping question for Community Development rather than a published number. Borings govern; on the east side, so does the water level in them."
   },
@@ -132,7 +191,10 @@
       }
     ],
     "ilec": "AT&T Illinois (legacy Illinois Bell exchange territory) — verify the serving exchange for the parcel before publication",
-    "notableFiberProviders": ["AT&T Illinois", "Comcast Business"],
+    "notableFiberProviders": [
+      "AT&T Illinois",
+      "Comcast Business"
+    ],
     "notableDataCenterCampuses": [],
     "longHaulRouteNotes": "Elgin's relevance to the data center map is adjacency: the I-90 corridor runs east to Elk Grove Village, the densest data center concentration in the Chicago market, roughly 20 miles away — close enough that edge and interconnect work spills west along the tollway.",
     "ixPresence": null
@@ -201,18 +263,78 @@
   },
   "seasonality": {
     "calendar": [
-      { "month": "Jan", "groundConditions": "Hard-frozen ground; single-digit lows in cold outbreaks", "earthworkConcrete": "restricted", "note": "Excavation in frozen granular terrace soils is easier than frozen clay, but pours still need full protection" },
-      { "month": "Feb", "groundConditions": "Maximum frost depth; midwinter thaws briefly soften surfaces", "earthworkConcrete": "restricted", "note": null },
-      { "month": "Mar", "groundConditions": "Breakup: saturated subgrades, running meltwater in the valley", "earthworkConcrete": "constrained", "note": "Bat clearing deadline March 31; township postings usually live; Fox River spring rise bears watching" },
-      { "month": "Apr", "groundConditions": "Ground opens; the region's average last freeze lands around the third week", "earthworkConcrete": "workable", "note": "East-side granular sites drain and firm ahead of the till uplands" },
-      { "month": "May", "groundConditions": "Full production; groundwater still seasonally high in the terrace sands", "earthworkConcrete": "favorable", "note": "Dewatering allowances earn their keep on Carpentersville-aquifer parcels" },
-      { "month": "Jun", "groundConditions": "Warm, workable; thunderstorm season peaks", "earthworkConcrete": "favorable", "note": null },
-      { "month": "Jul", "groundConditions": "Hot stretches; storms cluster", "earthworkConcrete": "favorable", "note": "Hot-weather concrete practice on exposed pours" },
-      { "month": "Aug", "groundConditions": "Firm and generally dry", "earthworkConcrete": "favorable", "note": null },
-      { "month": "Sep", "groundConditions": "Best sustained production window of the year", "earthworkConcrete": "favorable", "note": null },
-      { "month": "Oct", "groundConditions": "First freeze typically arrives; soils still workable", "earthworkConcrete": "favorable", "note": "Clearing window opens October 1" },
-      { "month": "Nov", "groundConditions": "Progressive freeze-up; blankets and heat return to the pour plan", "earthworkConcrete": "workable", "note": null },
-      { "month": "Dec", "groundConditions": "Frozen surface establishing; snow events begin accumulating", "earthworkConcrete": "restricted", "note": null }
+      {
+        "month": "Jan",
+        "groundConditions": "Hard-frozen ground; single-digit lows in cold outbreaks",
+        "earthworkConcrete": "restricted",
+        "note": "Excavation in frozen granular terrace soils is easier than frozen clay, but pours still need full protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Maximum frost depth; midwinter thaws briefly soften surfaces",
+        "earthworkConcrete": "restricted",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Breakup: saturated subgrades, running meltwater in the valley",
+        "earthworkConcrete": "constrained",
+        "note": "Bat clearing deadline March 31; township postings usually live; Fox River spring rise bears watching"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Ground opens; the region's average last freeze lands around the third week",
+        "earthworkConcrete": "workable",
+        "note": "East-side granular sites drain and firm ahead of the till uplands"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Full production; groundwater still seasonally high in the terrace sands",
+        "earthworkConcrete": "favorable",
+        "note": "Dewatering allowances earn their keep on Carpentersville-aquifer parcels"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, workable; thunderstorm season peaks",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot stretches; storms cluster",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on exposed pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Firm and generally dry",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Best sustained production window of the year",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freeze typically arrives; soils still workable",
+        "earthworkConcrete": "favorable",
+        "note": "Clearing window opens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Progressive freeze-up; blankets and heat return to the pour plan",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Frozen surface establishing; snow events begin accumulating",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
     ],
     "narrative": "Elgin's construction year tracks the Chicago-area normals — call it a December-to-March freeze, an April shoulder, and a May-through-October core, against roughly 38 inches each of rain and snow at O'Hare (1991–2020) — but the site-level story is groundwater phasing. Terrace-sand parcels east of the Fox drain fast after thaw and carry production earlier in spring than the clay-till uplands, then repay the favor by needing pumps in May when the seasonal water table peaks. We sequence multi-site programs here accordingly: granular sites early, upland sites mid-season, river-adjacent work in the late-summer low-water window. Confirm figures against the NOAA station normals before publication."
   },
@@ -237,7 +359,13 @@
     "cssQualificationsNote": null
   },
   "hazards": {
-    "dominant": ["tornado", "ice storm", "flood", "extreme cold", "hail"],
+    "dominant": [
+      "tornado",
+      "ice storm",
+      "flood",
+      "extreme cold",
+      "hail"
+    ],
     "designImplications": "Elgin compounds get designed against convective wind and hail like the rest of the Chicago collar — conservative anchorage, protected fuel systems — but the differentiating hazard is riverine and localized flooding along the Fox and its creek tributaries, which pushes pad elevations and drainage design on valley parcels. Winter ice accretion and deep cold set the foundation depth and seasonal concrete regime. Site-specific ASCE 7 and TIA-222 lookups precede any published loading values.",
     "restorationCapabilityNote": null
   },
@@ -270,7 +398,10 @@
         "service lateral to hut",
         "restoration"
       ],
-      "secondaryScopeIds": ["long-haul and metro route construction", "regen and amplifier site civil"],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
       "narrative": "Routing fiber through Elgin means solving the valley: the Fox River, its rail spine, and its saturated granular soils all line up north-south through the middle of the city. Crossings of the river go by directional drill with frac-out controls tuned to permeable terrace sands, and crossings of the Metra Milwaukee District West corridor need permits coordinated between Metra as track owner and CPKC as dispatcher — a process we start at route concept, since post-merger freight growth toward roughly 11 daily trains by 2027 is shrinking track-adjacent work windows. Vault and handhole sets east of the river plan for shallow groundwater in the Carpentersville-aquifer sands: casing, pumps, and boxes rated for running ground. City-side, every street cut runs through the Engineering Division's permit and inspection process against Elgin standards.",
       "localSpecificsReferenced": [
         "Fox River HDD crossings",
@@ -288,7 +419,10 @@
         "compound fencing",
         "C-band / densification upgrade civil"
       ],
-      "secondaryScopeIds": ["generator and fuel containment pads", "access road and turnaround"],
+      "secondaryScopeIds": [
+        "generator and fuel containment pads",
+        "access road and turnaround"
+      ],
       "narrative": "Elgin is a densification market: Illinois' sixth-largest city by the 2020 count, with a walkable historic core, a commuter-rail terminus, and corridor growth along Randall Road — the geometry that fills a small-cell program. Those nodes deploy under the statewide 50 ILCS 840 framework of capped fees and shot clocks (sunset currently end of 2026 unless extended), while the concrete-and-conduit half of each node is an Elgin engineering permit with the city's bonded-contractor requirements attached. Macro work rides the same two ground regimes as everything here — straightforward till uplands, wet granular valley sites — and shelter deliveries to the rural west approaches get checked against township thaw postings before a haul date is promised. Historic-district settings around downtown add SHPO-style visual screening earlier than most suburbs.",
       "localSpecificsReferenced": [
         "Randall Road growth corridor",
@@ -305,7 +439,10 @@
         "generator yards",
         "security compound and bollards"
       ],
-      "secondaryScopeIds": ["hyperscale campus civil support", "heavy haul access and crane pads"],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "heavy haul access and crane pads"
+      ],
       "narrative": "Elgin's edge story is written by what sits 20 miles east: Elk Grove Village, the densest data center cluster in the Chicago market, reached directly on I-90. As that O'Hare-corridor capacity fills, interconnect-fed edge and enclosure work pushes west along the tollway toward Elgin's cheaper land and ComEd feeders — and the proposal for a 48 MW facility at Kenyon Road and IL-25 in South Elgin (contested and unapproved as of July 2026) shows hyperscale developers already testing this exact geography. Our lane in that build pattern is the civil substrate: transformer and switchgear pads, generator yards, security bollards, and campus conduit, engineered around the valley's high seasonal groundwater where sites fall east of the Fox. Heavy deliveries stage off I-90 with tollway authorization arranged alongside the IDOT permit.",
       "localSpecificsReferenced": [
         "Elk Grove Village cluster via I-90",
@@ -326,7 +463,11 @@
     },
     "mobilizationBand": "A",
     "serviceRadiusMiles": null,
-    "countiesServed": ["Kane", "Cook", "McHenry"],
+    "countiesServed": [
+      "Kane",
+      "Cook",
+      "McHenry"
+    ],
     "stagingApproach": null,
     "localSupplyApproach": null,
     "selfPerformVsSubNote": null,

@@ -1,0 +1,656 @@
+{
+  "identity": {
+    "slug": "naperville",
+    "city": "Naperville",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "counties": [
+      "DuPage",
+      "Will"
+    ],
+    "msa": "Chicago-Naperville-Elgin, IL-IN Metropolitan Statistical Area",
+    "tier": 3,
+    "latitude": 41.7508,
+    "longitude": -88.1535,
+    "elevationFt": 702,
+    "population": {
+      "value": 149540,
+      "source": "U.S. Census Bureau, 2020 Census (Naperville has since been reported as the state's third-most-populous city in later estimates)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-88"
+    ],
+    "majorRoutes": [
+      "US-34 (Ogden Ave)",
+      "IL-59",
+      "75th St",
+      "Naperville Rd"
+    ]
+  },
+  "metadata": {
+    "title": "Naperville, IL Telecom Civil Construction | CellSite Solutions",
+    "description": "Fiber hut, cell site, and edge civil work in Naperville, IL — DuPage stormwater permitting, municipal electric coordination, and I-88 corridor builds.",
+    "h1": "Telecom and Data Center Site Civil Construction in Naperville, Illinois",
+    "intro": "Two facts change how telecom civil work runs in Naperville before a shovel moves. First, the city owns its electric utility — more than 60,000 customers served by a municipal system supplied through IMEA, not ComEd — so new service to a hut or compound is negotiated with the city itself. Second, stormwater review triggers early: under the DuPage County Countywide Stormwater and Flood Plain Ordinance, which Naperville administers as its own permitting authority, review can attach at just 2,500 square feet of net new impervious area. Add the I-88 research corridor that Bell Labs anchored in the 1960s, the BNSF racetrack cutting through town, and a council that denied a 211,000-square-foot data center in January 2026, and this is a market where process knowledge is the product.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC/IRC generation Naperville enforces per Municipal Code Title 5 — confirm edition and amendments with TED)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "DuPage County sits in Illinois' low-hazard seismic tier; site Ss/S1 come from a USGS design-maps query at the coordinates, and site class from borings — neither is published here secondhand."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Nearly all of DuPage County lies in the Wheaton Morainal Country — a belt of low, broad Wisconsin Episode moraines whose diamicton is interlayered with sand-and-gravel lenses, with poorly drained swales and former wetland pockets between the ridges. Glacial deposits run from a few tens of meters up to great thickness over a bedrock surface of Silurian dolomite, which doubles as the region's shallow bedrock aquifer. The southwestern edge of the county grades into the Bloomington ridged plain. (ISWS/ISGS DuPage County ground-water and geology publications.)",
+    "dominantSoilTypes": [
+      "Morainal diamicton (clay loam till) with sand-and-gravel interbeds",
+      "Poorly drained depressional soils in inter-moraine swales",
+      "DuPage River alluvium (valley parcels)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Thick morainal cover over the Silurian dolomite; no mapped karst hazard in the Naperville area. Deep foundations reaching toward rock are screened individually."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation selection in Naperville is rarely about capacity — morainal till carries telecom loads on conventional spread footings and drilled piers without drama, and rock never enters the excavation. It is about drainage and paperwork. The Wheaton moraines leave poorly drained swales threaded between ridges, and a compound or hut sited in one inherits perched water, soft depressional soils, and — critically — early stormwater jurisdiction, since wetland pockets and buffers pull a parcel into DuPage countywide ordinance review regardless of size. Our approach: walk the micro-topography before layout, keep pads on the moraine shoulders rather than the swales, and let borings confirm what the surface suggested. Where the DuPage River's West Branch is in play, floodplain elevation drives the design before soil properties do. Site-specific investigation governs; the amended frost depth is confirmed with TED at design rather than assumed."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Naperville — Transportation, Engineering and Development (TED)",
+        "url": "https://www.naperville.il.us/businesses/development-resources/building-permits/",
+        "phone": "630-420-6100",
+        "typicalReviewDays": null,
+        "note": "Permits file through the Civic Access portal; contractor registration is required and building permits do not issue until every subcontractor is identified on the application."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 IBC/IRC generation, codified with local amendments in Naperville Municipal Code Title 5 (Building Regulations) — verify the current edition and amendment set with TED at design",
+      "source": "Naperville Municipal Code Title 5, Ch. 1 (Building Codes) via Municode; city building-permit resources",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless applications proceed under the Illinois Small Wireless Facilities Deployment Act (50 ILCS 840) statewide framework — capped fees, uniform shot clocks, sunset presently December 31, 2026 unless extended — with Naperville applying its own engineering and design standards to the ROW civil through TED review.",
+    "rowPermitAuthority": {
+      "name": "City of Naperville — Right-of-Way permits (Engineering Services Team, with Water, Electric, and Public Works review)",
+      "url": "https://www.naperville.il.us/services/permits--licenses/right-of-way-permit/",
+      "phone": null,
+      "typicalReviewDays": 14,
+      "note": "Applications through Civic Access; plan reviewers require 14 calendar days. Excavation in or under a street or alley, or a temporary closure, is assessed a $120 fee; other ROW permits $88. Because the city runs its own water and electric utilities, three utility owners review every ROW application in-house."
+    },
+    "stateDotDistrict": {
+      "name": "IDOT District 1 (Region One — Chicago metro), Schaumburg",
+      "url": "https://idot.illinois.gov/doing-business/permits/utility-permits/reference.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "US-34 (Ogden Ave) and IL-59 frontage work permits through District 1; I-88 belongs to the Illinois Tollway, a separate permission."
+    },
+    "oneCallCenter": {
+      "name": "JULIE (Illinois 811 one-call)",
+      "url": "https://www.illinois1call.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statutory minimum of 48 hours' notice counted in working days — weekends and holidays excluded — for excavation at any depth; the Act's 2025 amendments make it worth re-reading ticket-validity rules annually. In Naperville the locate matters doubly: city-owned electric and water lines share the ROW being marked.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "City of Naperville as DuPage countywide-ordinance permitting authority; Illinois EPA ILR10 for the federal construction permit",
+      "url": "https://www.dupagecounty.gov/government/departments/stormwater_management/stormwater_permitting/stormwater_ordinance/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Under the DuPage County Countywide Stormwater and Flood Plain Ordinance, certification review attaches when a site includes floodplain, wetland, or buffer — or adds 2,500 sq ft of net new impervious area, or disturbs 5,000 sq ft. IEPA's ILR10 (SWPPP + NOI, ~30-day processing) stacks on top at one acre."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Naperville (administers the county ordinance's floodplain provisions for DuPage portions; Will County regulations apply to the city's southern reaches)",
+      "url": "https://www.dupagecounty.gov/government/departments/stormwater_management/stormwater_permitting/stormwater_ordinance/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The West Branch DuPage River corridor and tributary floodplains are the mapped exposure; the ordinance regulates buffers as well as the floodplain itself."
+    },
+    "permitTimelineNarrative": "Naperville's permit path is orderly but strict, and the strictness is the schedule. ROW permits carry a stated 14-calendar-day review through Civic Access, with the unusual feature that the city's own electric and water utilities sit on the review alongside engineering and Public Works. Building permits wait until every subcontractor is registered and named — a rule that punishes late buyout. The deep trap is stormwater: DuPage countywide ordinance review can attach at 2,500 square feet of new impervious surface or the mere presence of a wetland buffer, thresholds a single compound with an access drive crosses easily, and that review runs on engineering submittals, not checkbox forms. We treat the stormwater determination as the first permit milestone on any Naperville site, because it decides whether the schedule is measured in weeks or seasons."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "City of Naperville Electric Utility (Department of Public Utilities)",
+        "type": "municipal",
+        "newServiceProcessUrl": "https://www.naperville.il.us/services/electric-utility/",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "One of the few municipal electric systems in the Chicago region — 60,000+ customers, power supplied through the Illinois Municipal Electric Agency (IMEA) under a contract whose post-2035 future the council was actively debating in 2025. New service starts with the city (630-420-6059), not ComEd, and follows the city's own service standards."
+      }
+    ],
+    "ilec": "AT&T Illinois (legacy Illinois Bell territory) — confirm the serving exchange for the parcel before publication",
+    "notableFiberProviders": [
+      "AT&T Illinois",
+      "Comcast Business"
+    ],
+    "notableDataCenterCampuses": [
+      "CyrusOne Aurora I/II sit immediately west on the same Diehl Road/I-88 corridor (Aurora side of the boundary)"
+    ],
+    "longHaulRouteNotes": "The I-88 corridor through Naperville is the spine of the historical Illinois Technology and Research Corridor — Nicor arrived in 1962, Bell Laboratories in 1964, Amoco Research in 1969 — leaving a legacy of conduit-rich campus sites and corridor fiber that modern builds inherit and extend.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Local thaw postings, set annually by county and township authorities rather than a statewide frost law",
+      "postingAuthority": {
+        "name": "DuPage County Division of Transportation (county highways) and Naperville Township Road District; Will County authorities on the far south side",
+        "url": "https://www.dupagecounty.gov/government/departments/transportation/",
+        "phone": "630-407-6900",
+        "typicalReviewDays": null,
+        "note": "DuPage DOT also maintains standing overweight-movement restrictions on certain county bridges and routes — checked per haul, not assumed."
+      },
+      "note": "Arterials and the tollway carry legal loads year-round; the exposure is township pavement and posted county bridges on the residential-collector approaches to infill sites."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "IDOT ITAP for state routes; Illinois Tollway authorization for the I-88 approach; city/county/township clearances per Illinois law",
+      "url": "https://idot.illinois.gov/doing-business/permits/oversize-and-overweight-permits/apply.html",
+      "phone": "217-785-1477",
+      "typicalReviewDays": null,
+      "note": "Every jurisdiction on the haul path must clear its own segment — in practice a Naperville shelter set can need four permissions: state, tollway, county, city."
+    },
+    "bridgeOrClearanceConstraints": "DuPage County maintains overweight restrictions on specific county bridges; West Branch DuPage River crossings on the local grid are verified against those postings when routing crane and shelter moves.",
+    "railroads": [
+      {
+        "name": "BNSF Railway — Chicago Subdivision (the 'racetrack')",
+        "crossingPermitNote": "The triple-track BNSF main runs straight through Naperville carrying dense Metra commuter service (Naperville and Route 59 stations) plus freight — among the busiest shared corridors in the country. Wireline crossings go through BNSF's national utility-permitting process; the traffic density makes flagging windows scarce, so crossing requests lead the project schedule."
+      },
+      {
+        "name": "Canadian National (former EJ&E) at the Eola boundary to the west",
+        "crossingPermitNote": null
+      }
+    ],
+    "urbanRowRequirements": "ROW permits via Civic Access with 14-calendar-day multi-department review; $120 excavation/closure fee tier; contractor registration mandatory; the city's licensed-concrete-contractor and restoration standards apply to pavement and parkway work."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "October 1 – March 31 clearing season",
+      "driver": "Northern long-eared bat (endangered) and Indiana bat; hibernation-season clearing is the compliance default across northeastern Illinois",
+      "source": "USFWS range-wide bat survey guidelines; IDOT NLEB Circular Letter 2022-28"
+    },
+    "shpo": {
+      "name": "Illinois State Historic Preservation Office (IDNR)",
+      "url": "https://dnrhistoric.illinois.gov/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day Section 106 clock per complete submittal on federally funded or permitted undertakings."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Chicago District; Illinois EPA 401 certification; DuPage countywide ordinance regulates wetlands and buffers locally",
+      "url": "https://www.lrc.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Naperville is the unusual market where the local wetland/buffer rule (county ordinance) bites earlier and more often than the federal one."
+    },
+    "usaceDistrict": "Chicago District (LRC)",
+    "listedSpeciesNote": "Bats set the clearing calendar; inter-moraine wetland pockets can also host regulated vegetation communities under the county ordinance. IPaC screening per project, plus the ordinance's wetland determination, both run before layout is frozen.",
+    "floodplainPrevalenceNote": "The West Branch DuPage River threads the city, and the DuPage River system set flow records in the July 1996 storm — the downstream Shorewood gage recorded 17,300 cfs, shattering a 42-year-old record. The countywide ordinance's buffer provisions extend regulatory reach beyond the mapped floodplain lines, which surprises builders arriving from ComEd-territory suburbs."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen morainal clay; snowpack variable",
+        "earthworkConcrete": "restricted",
+        "note": "Frozen-clay excavation is slow going; winter pours run under full protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Peak frost in the ground",
+        "earthworkConcrete": "restricted",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw sequence: surface mud over frozen substrate, swales fill with meltwater",
+        "earthworkConcrete": "constrained",
+        "note": "Depressional sites are at their worst; clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Frost releases; last freeze normally in the third week of April",
+        "earthworkConcrete": "workable",
+        "note": "Moraine-shoulder sites dry out well before the swales between them"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable, with spring rains keeping low ground soft",
+        "earthworkConcrete": "favorable",
+        "note": "SWPPP and ordinance-required erosion controls under active inspection"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Firm; severe-weather season at its height",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot, generally dry between convective systems",
+        "earthworkConcrete": "favorable",
+        "note": "The 1996 DuPage River flood month — a standing argument for honest compound drainage design"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Dry and firm; best digging in the depressional soils all year",
+        "earthworkConcrete": "favorable",
+        "note": "Window to build in or near swale ground if the design requires it"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Extended dry-ground production",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freeze arrives on average; ground still open",
+        "earthworkConcrete": "favorable",
+        "note": "Bat clearing window opens; push winter-vulnerable scopes now"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Freeze-up progressing; cold-weather concrete practice resumes",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground locking up; snow season underway",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Naperville runs the standard Chicago-region year — read against O'Hare's 1991–2020 normals of roughly 38 inches of precipitation, comparable snowfall, and a normal last freeze around April 21 — but the moraine topography adds a second calendar underneath it. Ridge-shoulder sites are buildable from mid-April to freeze-up; the poorly drained swales between moraines hold water into early summer and are realistically at their best only in the August–October dry window. Since the county stormwater ordinance also polices those low areas hardest, siting and season interact here: the parcels with the most regulatory load are also the ones with the shortest construction season. Verify monthly figures against station normals before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Thick Wheaton-moraine drift keeps the Silurian dolomite far below telecom excavation depths.",
+    "aggregateHaulNote": "The Chicago-region quarry and pit network serves DuPage County at short haul; aggregate distance is a minor line.",
+    "readyMixProximityNote": "Dense metro ready-mix coverage; supplier selection is commercial, not geographic.",
+    "spoilDisposalNote": "Wet clay spoil from swale or buffer-adjacent excavations costs more to move and place than upland till; ordinance sites may also restrict on-parcel spoil grading.",
+    "permitFeeNote": "ROW fees are modest ($88–$120), but stormwater certification engineering — plans, calculations, buffer delineations — is the real permit-driven cost on small sites.",
+    "prevailingWageExposure": "Illinois Prevailing Wage Act (820 ILCS 130) coverage on any public-body work — a broad category in a city that owns its electric and water utilities — plus Davis-Bacon on BEAD-funded fiber. Utility-adjacent civil for the municipal electric system should be assumed prevailing-rate until determined otherwise.",
+    "unionJurisdictionNote": "Collar-county underground and concrete trades are strongly organized; public and carrier owners in DuPage County routinely expect prevailing-rate or signatory performance.",
+    "seasonalPremiumNote": "Winter concrete protection December–March; wet-season premiums on depressional ground in spring and early summer.",
+    "narrative": "What moves a Naperville civil number is compliance density, not ground difficulty. The dirt is cooperative and rock is absent; the cost lives in the DuPage stormwater ordinance's early triggers — 2,500 square feet of new impervious area can buy a full engineering review — in the city's own utilities sitting on every ROW approval, in prevailing-wage assumptions around a municipally owned electric system, and in the BNSF corridor's scarce crossing windows. Swale-sited parcels add wet-clay handling and a compressed season. A bid that treats Naperville like a generic western suburb is wrong before mobilization; the drivers here are read in ordinances, not borings — though the borings still get drilled."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Illinois licenses no general contractors statewide — municipal rules govern. Naperville requires contractor registration with the city, and building permits are withheld until all subcontractors are identified on the application; concrete contractors working ROW restoration operate under city licensing standards. The only state-level construction licenses are roofing (IDFPR) and plumbing (IDPH).",
+    "additionalRegistrations": [
+      "City of Naperville contractor registration (TED / Civic Access)",
+      "Subcontractor disclosure on the building permit application before issuance"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "flood",
+      "ice storm",
+      "hail",
+      "extreme cold"
+    ],
+    "designImplications": "Convective exposure — tornado, hail, straight-line wind — sets anchorage and equipment protection standards as it does across northern Illinois. The locally distinct driver is drainage: the DuPage River's 1996 record flows and the moraine country's poorly drained swales make compound grading, pad elevation, and outfall design the design review's center of gravity, reinforced by a stormwater ordinance that regulates buffers beyond the mapped floodplain. Ice and deep cold govern the foundation and winter-concrete regime. Loading values publish only after site-specific ASCE 7 / TIA-222 lookups.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Naperville council denied the Karis Critical data center 6–1",
+        "detail": "On January 20, 2026 the City Council voted 6–1 to deny a conditional-use permit for Karis Critical's proposed 211,000 sq ft data center at 1960 Lucent Lane — the former Bell Labs/Alcatel-Lucent campus on the I-88 corridor — after sustained resident opposition; by March a residential redevelopment was being pitched for the site. The signal for builders: large-footprint digital infrastructure faces a high approval bar inside Naperville, pushing that demand to neighboring corridor towns.",
+        "category": "data center",
+        "sourceUrl": "https://www.nctv17.org/news/naperville-city-council-votes-down-proposed-data-center/",
+        "asOf": "2026-01-20"
+      },
+      {
+        "headline": "Municipal electric supply after 2035 under active debate",
+        "detail": "Naperville's council spent 2025 weighing whether to extend its IMEA power-supply contract beyond 2035 or pursue alternatives — a decision that shapes long-term capacity planning for any load-heavy telecom or edge facility inside the municipal service territory.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.naperville.il.us/services/electric-utility/your-electric-service/imea/",
+        "asOf": "2025-12-01"
+      },
+      {
+        "headline": "Illinois BEAD final proposal pending federal approval",
+        "detail": "Illinois' $1.04 billion BEAD final proposal (submitted September 2025, 156,994 locations) remained the last in the nation awaiting NTIA sign-off as of mid-2026; release would activate subgrantee builds across the collar counties' remaining unserved pockets.",
+        "category": "broadband program",
+        "sourceUrl": "https://dceo.illinois.gov/broadband/connect-il-bead.html",
+        "asOf": "2026-05-15"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber civil in Naperville is a permitting discipline wrapped around easy digging. Routes inherit the conduit-rich legacy of the I-88 research corridor — the Bell Labs-era campuses left real underground infrastructure — but new construction answers to the city's 14-day multi-utility ROW review, where Naperville's own electric and water departments mark up the same drawings as engineering and Public Works. The BNSF racetrack is the hard crossing: triple track, saturated with Metra and freight movements, with flagging windows scarce enough that we file BNSF's utility-crossing paperwork before route selection is final. And any lateral that adds hardscape watches the 2,500-square-foot impervious threshold that can convert a simple bore-and-vault job into a DuPage stormwater certification. JULIE tickets carry extra weight here — the city's own energized distribution shares the ROW being located.",
+      "localSpecificsReferenced": [
+        "14-day Naperville ROW review with municipal utility reviewers",
+        "BNSF racetrack crossing windows",
+        "DuPage 2,500 sq ft impervious trigger",
+        "I-88 corridor legacy conduit"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "small cell and DAS node civil",
+        "shelter and cabinet pads",
+        "macro compound construction",
+        "ground ring and halo",
+        "compound fencing",
+        "C-band / densification upgrade civil"
+      ],
+      "secondaryScopeIds": [
+        "generator and fuel containment pads",
+        "access road and turnaround"
+      ],
+      "narrative": "Wireless deployment in Naperville operates inside one of the collar counties' most exacting municipal review cultures — the same standards posture that saw the council deny a major data center in January 2026 applies, in gentler form, to compound aesthetics, landscaping, and restoration quality. Small cells file under the state's 50 ILCS 840 shot-clock framework, but the pole-base and conduit work still passes the city's engineering standards and its registered-contractor rules, and node power comes from the municipal electric utility rather than ComEd — a different service process with its own metering standards. Macro and upgrade work sites around the moraine drainage problem: pads placed on ridge shoulders avoid both the wet swales and the county ordinance's wetland-buffer jurisdiction. Generator fuel containment gets designed to the drainage-first review lens this city applies to everything.",
+      "localSpecificsReferenced": [
+        "Naperville municipal electric service for node power",
+        "January 2026 data center denial as a standards signal",
+        "moraine swale avoidance / buffer jurisdiction",
+        "city registered-contractor requirements"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Naperville teaches the edge market a precise lesson: this is a corridor with enormous digital-infrastructure gravity — CyrusOne's CME-anchored campuses sit just across the Aurora boundary on the same Diehl Road/I-88 spine — and a city that voted 6–1 against a 211,000-square-foot data center at the former Bell Labs site in January 2026. The buildable path inside city limits is small-footprint: edge enclosures, micro-DC pads, and utility yards that fit existing campuses and clear the conditional-use bar the big box could not. Power is the second differentiator — load interconnects with the city's own utility, whose post-2035 IMEA supply question makes early capacity conversations essential for anything power-dense. Our civil scope fits that reality: compact pads, campus duct bank, generator yards engineered to the drainage and screening standards this council actually approves.",
+      "localSpecificsReferenced": [
+        "Karis Critical denial at 1960 Lucent Lane (Jan 2026)",
+        "CyrusOne campuses across the Aurora line",
+        "Naperville municipal utility / IMEA 2035 question",
+        "conditional-use approval bar"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 214,
+      "driveTimeHours": 3.7,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "DuPage",
+      "Will"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Naperville is the deepest of our Fox Valley-corridor markets but still a one-day reach: the run comes across I-80 to the Quad Cities and up the Reagan Tollway, leaving the interstate system only for the final arterial miles down IL-59 or Naperville Road. Nothing on that path is seasonally posted, so mobilization timing is driven by permits, not pavement — and in this city that means the 14-day ROW review and any stormwater certification are already moving before crews load out, since arriving ahead of paper helps no one. Deployed crews stay for the scope duration and can serve DuPage and northern Will County sites from the same footing. Heavy hauls assemble the state-tollway-county-city permission stack in advance. Response-time commitments publish only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who provides electric service for a telecom site in Naperville?",
+      "answer": "The City of Naperville itself — not ComEd. Naperville runs one of the region's few municipal electric utilities, serving 60,000+ customers with power supplied through IMEA, and new service starts with the city's utility (630-420-6059) under its own standards. Plan the interconnect conversation early: the utility also participates in ROW permit review, and its post-2035 power-supply contract was still under council debate through 2025.",
+      "segment": "edge"
+    },
+    {
+      "question": "What triggers a stormwater permit on a Naperville site?",
+      "answer": "Far less than the federal one-acre rule. Naperville administers the DuPage County Countywide Stormwater and Flood Plain Ordinance, under which certification review attaches if the site touches floodplain, wetland, or buffer — or adds just 2,500 square feet of net new impervious area, or disturbs 5,000 square feet. A compound with an access drive can cross those lines easily. IEPA's ILR10 general permit still stacks on top at one acre of disturbance.",
+      "segment": "general"
+    },
+    {
+      "question": "How long does a Naperville right-of-way permit take?",
+      "answer": "The city states 14 calendar days of plan review through the Civic Access portal, with an unusual reviewer roster: Engineering Services, Public Works, and the city's own Water and Electric utilities all see the application. Fees run $120 for street/alley excavation or closures and $88 otherwise. Contractor registration must already be in place, so we complete registration before the permit clock ever starts.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What does crossing the BNSF tracks in Naperville require?",
+      "answer": "Patience, filed early. The BNSF Chicago Subdivision — the triple-track 'racetrack' — carries one of the nation's densest mixes of Metra commuter and freight traffic straight through town, serving the Naperville and Route 59 stations. Wireline crossings run through BNSF's national utility-permit process, and track density makes flagging windows the scarce resource. We submit crossing applications at route concept and sequence the rest of the build around the approval.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How deep must foundations go in Naperville?",
+      "answer": "Below the city's amended frost line — and we deliberately publish no number until it's confirmed from Naperville's amendment tables, because collar-county municipalities amend this value independently and a secondhand figure isn't good enough for a foundation drawing. The value is confirmed with TED at design kickoff, borings set the bearing stratum, and winter pours below frost depth carry standard cold-weather protection.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Will Naperville approve data center construction?",
+      "answer": "The record says: not at large scale, not easily. In January 2026 the council voted 6–1 to deny Karis Critical's 211,000-square-foot facility at the former Bell Labs campus on Lucent Lane, and a housing plan surfaced for the site within weeks. Small-footprint edge and micro-DC work that fits existing campuses and clears conditional-use review remains the practical path inside city limits — while hyperscale demand lands in neighboring I-88 towns like Aurora.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does prevailing wage apply to telecom civil work in Naperville?",
+      "answer": "Often. The Illinois Prevailing Wage Act (820 ILCS 130) covers public works for any state or local body — a wide net in a city that owns its electric and water utilities — and federal Davis-Bacon attaches to BEAD-funded broadband builds. Private carrier work on private land is generally outside both, but we price any scope touching city infrastructure or federal funding at prevailing rates until the coverage determination says otherwise.",
+      "segment": "general"
+    },
+    {
+      "question": "What ground conditions drive siting decisions in Naperville?",
+      "answer": "Drainage, not strength. The Wheaton moraine country's clay till bears well, but poorly drained swales thread between the ridges — parcels there hold perched water into summer, dig wet, and frequently sit in the county ordinance's wetland-buffer jurisdiction. We walk the micro-topography before layout and keep pads on moraine shoulders; the DuPage River's 1996 record flood (17,300 cfs at the downstream Shorewood gage) is the standing argument for conservative compound grading.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Are there seasonal load limits on roads serving Naperville sites?",
+      "answer": "The tollway and arterials run unposted year-round, so the question narrows to the last mile: DuPage County maintains standing overweight restrictions on certain county bridges, and township road districts post thaw-season limits on local pavement, with Will County rules applying on the city's south end. Shelter and crane moves get their full path verified against county bridge postings before a delivery date is committed.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Siting around the swales: why micro-topography is the first design decision in Naperville",
+    "body": "In most markets the geotechnical question is what's under the site; in Naperville it's which fifty feet of the parcel you choose. The Wheaton moraine country alternates gentle till ridges with poorly drained swales, and the two can share a single property line. Put a hut or compound on the ridge shoulder and you get dry clay that carries a spread footing, a short excavation season-window problem in winter only, and a stormwater review that stays in the simple lane. Slide the same footprint sixty feet into the swale and three costs arrive together: perched water and soft depressional soils that push you toward overexcavation or deeper foundations; a construction season that realistically shrinks to the August–October dry window; and — the one outsiders miss — regulatory reclassification, because the DuPage countywide ordinance regulates wetlands and their buffers directly, at any project size, and those wet pockets are exactly where relic wetland soils live. So our sequence here is fixed: walk the parcel and read the micro-relief before any layout is drawn; place the pad high even when it lengthens the utility run, because trench footage is cheaper than a buffer determination; drill the borings where the pad will actually sit, not at the parcel centroid; and if the swale is unavoidable, schedule the foundation work for late summer and carry the wet-clay handling honestly in the number. The ordinance map and a pair of eyes on the ground beat a soils report ordered too early."
+  },
+  "sources": [
+    {
+      "label": "U.S. Census Bureau QuickFacts — Naperville city, Illinois",
+      "url": "https://www.census.gov/quickfacts/napervillecityillinois",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Naperville — Electric Utility (municipal service, IMEA supply)",
+      "url": "https://www.naperville.il.us/services/electric-utility/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Naperville — IMEA power-supply relationship",
+      "url": "https://www.naperville.il.us/services/electric-utility/your-electric-service/imea/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Naperville — right-of-way permit (14-day review, fees, Civic Access)",
+      "url": "https://www.naperville.il.us/services/permits--licenses/right-of-way-permit/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Naperville — building permits and contractor registration (TED)",
+      "url": "https://www.naperville.il.us/businesses/development-resources/building-permits/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DuPage County — Countywide Stormwater & Floodplain Ordinance (thresholds, certified communities)",
+      "url": "https://www.dupagecounty.gov/government/departments/stormwater_management/stormwater_permitting/stormwater_ordinance/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Naperville Municipal Code Title 5, Ch. 1 — Building Codes (Municode)",
+      "url": "https://library.municode.com/il/naperville/codes/code_of_ordinances?nodeId=TIT5BURE_CH1BUCO",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NCTV17 — Naperville City Council votes down proposed data center (Karis Critical, 1960 Lucent Ln)",
+      "url": "https://www.nctv17.org/news/naperville-city-council-votes-down-proposed-data-center/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wikipedia — Illinois Technology and Research Corridor (I-88 corridor history)",
+      "url": "https://en.wikipedia.org/wiki/Illinois_Technology_and_Research_Corridor",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISWS — Ground-water resources of DuPage County (Wheaton Morainal Country, Silurian dolomite aquifer)",
+      "url": "https://www.isws.illinois.edu/pubdoc/coop/iswscoop-2.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USGS — Floods of July 18–20, 1996, in northern Illinois (DuPage River record at Shorewood)",
+      "url": "https://www.usgs.gov/node/134681",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "JULIE — Illinois one-call law and notice requirements",
+      "url": "https://www.illinois1call.com/excavatorsafetyguide/law-and-enforcement/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois EPA — ILR10 construction stormwater general permit",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Department of Labor — Prevailing Wage Act administration (820 ILCS 130)",
+      "url": "https://labor.illinois.gov/laws-rules/conmed/prevailing-wage.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DuPage County Division of Transportation — county highway restrictions and permits",
+      "url": "https://www.dupagecounty.gov/government/departments/transportation/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DCEO — Connect Illinois / BEAD final proposal status",
+      "url": "https://dceo.illinois.gov/broadband/connect-il-bead.html",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind, snow, seismic, ice, design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps API, and TIA-222 county ice tables blocked by the sandbox proxy; publishable primary values unavailable this session."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Secondary sources suggest the region's common 42-inch figure but Naperville's amended table text was not directly readable (Municode rendering blocked); left null — confirm the amended Table R301.2 value with TED."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — edition and amendment verification",
+      "attempted": "Title 5 Ch. 1 structure confirmed via Municode TOC and city references to 2021 IBC/IRC; the ordinance text itself needs direct reading before sign-off."
+    },
+    {
+      "field": "geotech quantitative values (bearing range, bedrock depth, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey unreachable through proxy; ISWS/ISGS characterization retained at landform level only."
+    },
+    {
+      "field": "utilities — municipal electric new-service lead time; ILEC exchange confirmation",
+      "attempted": "Naperville publishes a new-service contact but no standing lead-time figures; AT&T Illinois ILEC attribution unverified against exchange maps."
+    },
+    {
+      "field": "marketActivity — IMEA item date precision",
+      "attempted": "Council deliberations on the post-2035 IMEA contract ran through 2025 across multiple meetings; the asOf date is approximate to the debate period, not a single vote. Refresh from council records."
+    },
+    {
+      "field": "operations.nearestBase.roadMiles/driveTimeHours",
+      "attempted": "Seed straight-line estimate (214 mi / 3.7 h); real routing via I-80/I-88 required before routeVerified."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off pending for coverage and any response commitment."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 3 gate needs 2 images from the real project intake; none fabricated."
+    }
+  ]
+}

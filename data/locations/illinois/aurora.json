@@ -5,7 +5,12 @@
     "state": "Illinois",
     "stateSlug": "illinois",
     "stateAbbr": "IL",
-    "counties": ["Kane", "DuPage", "Kendall", "Will"],
+    "counties": [
+      "Kane",
+      "DuPage",
+      "Kendall",
+      "Will"
+    ],
     "msa": "Chicago-Naperville-Elgin, IL-IN Metropolitan Statistical Area",
     "tier": 2,
     "latitude": 41.7606,
@@ -16,8 +21,17 @@
       "source": "U.S. Census Bureau, 2020 Census — Aurora is Illinois' second-most-populous city",
       "verifiedOn": "2026-07-28"
     },
-    "interstates": ["I-88"],
-    "majorRoutes": ["US-30", "US-34", "IL-25", "IL-31", "IL-56", "IL-59"]
+    "interstates": [
+      "I-88"
+    ],
+    "majorRoutes": [
+      "US-30",
+      "US-34",
+      "IL-25",
+      "IL-31",
+      "IL-56",
+      "IL-59"
+    ]
   },
   "metadata": {
     "title": "Aurora, IL Telecom Civil Construction | CellSite Solutions",
@@ -29,16 +43,40 @@
   "designCriteria": {
     "asce7Edition": "ASCE 7-16 (referenced by the 2021 I-codes currently enforced; Aurora began adopting the 2024 I-code series in 2025 — confirm edition at permit time)",
     "ultimateWindSpeedMph": {
-      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
-      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
     },
     "typicalExposureCategory": null,
-    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "tia222Revision": null,
-    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "seismic": {
-      "ss": { "value": null, "source": null, "verifiedOn": null },
-      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
       "typicalSiteClass": null,
       "typicalDesignCategory": null,
       "notes": "Northeastern Illinois carries low mapped seismic hazard relative to the southern part of the state (Wabash Valley / New Madrid influence fades north). Publish Ss/S1 only from a USGS design-maps query at the site coordinates; site class is boring-specific."
@@ -48,8 +86,16 @@
       "source": "City of Aurora Code of Ordinances Ch. 12 (building regulations), amended Table R301.2(1) — citation search-extracted; open the code text at aurora.municipal.codes and verify before sign-off",
       "verifiedOn": "2026-07-28"
     },
-    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
-    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
   },
   "geotech": {
     "dominantGeology": "Kane County's surficial geology is Wisconsin Episode glacial material of the Wedron Group — clay-loam diamicton of the Tiskilwa Formation and the Batestown and Yorkville members of the Lemont Formation — with high-level sand-and-gravel terraces flanking the Fox River, formed when a proglacial lake dammed by the Woodstock Moraine overflowed catastrophically. Buried bedrock valleys hold thick Illinois Episode sand-and-gravel fills. Bedrock beneath the eastern county is Silurian dolomite (Joliet, Sugar Run, Racine formations). (ISGS surficial geology of Kane County; ISGS Silurian stratigraphy of northeastern Illinois.)",
@@ -58,15 +104,27 @@
       "Fox River terrace sand and gravel (Henry Formation)",
       "Fox River alluvium (floodplain sites)"
     ],
-    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
     "expansiveSoilRisk": "unknown",
     "expansiveSoilNote": null,
-    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "karstRisk": {
       "present": false,
       "note": "Aurora is not in a mapped karst region; drift cover over the Silurian dolomite is generally thick. Solution-widened joints can occur in the dolomite where drift thins, so deep drilled foundations still get screened site-specifically."
     },
-    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
     "soilCorrosivityNote": null,
     "foundationApproachNarrative": "The controlling fact on most Aurora sites is glacial cover, not rock: telecom-depth excavations in the Tiskilwa and Lemont diamictons rarely see refusal, so shelter pads and hut foundations are conventionally spread footings and thickened slabs carried below the city's amended 42-inch frost depth. The design question moves horizontally instead — which landform the site sits on. Upland diamicton is firm, low-permeability digging; the sand-and-gravel terraces along the Fox River trench fast but can run wet; and alluvial parcels in the river corridor stack a shallow water table on top of floodplain permitting, in a valley that recorded Illinois' heaviest 24-hour rainfall in July 1996. Tower foundations in the diamicton typically favor drilled piers for uplift and overturning rather than rock sockets. Site-specific borings govern every design; this narrative sets expectations, not parameters."
   },
@@ -136,7 +194,11 @@
       }
     ],
     "ilec": "AT&T Illinois (legacy Illinois Bell territory) — confirm the exchange boundary for the specific site before publishing",
-    "notableFiberProviders": ["OnLight Aurora (city-owned network)", "AT&T Illinois", "Comcast Business"],
+    "notableFiberProviders": [
+      "OnLight Aurora (city-owned network)",
+      "AT&T Illinois",
+      "Comcast Business"
+    ],
     "notableDataCenterCampuses": [
       "CyrusOne Aurora I — 2905 E. Diehl Rd, houses the CME Globex matching engine",
       "CyrusOne Aurora II — two-building, 446,000 sq ft campus, groundbreaking October 2024"
@@ -208,18 +270,78 @@
   },
   "seasonality": {
     "calendar": [
-      { "month": "Jan", "groundConditions": "Frozen ground under intermittent snow cover; deep cold snaps off the prairie", "earthworkConcrete": "restricted", "note": "Foundations already below the 42-inch frost line; new pours need full winter protection" },
-      { "month": "Feb", "groundConditions": "Deepest frost penetration of the year", "earthworkConcrete": "restricted", "note": "Watch for early township load postings as thaw cycles begin" },
-      { "month": "Mar", "groundConditions": "Freeze-thaw cycling; subgrades soften from the top down", "earthworkConcrete": "constrained", "note": "Bat-window tree clearing must wrap by March 31; township postings typically active" },
-      { "month": "Apr", "groundConditions": "Thaw completes; region's normal last freeze falls in the second half of April", "earthworkConcrete": "workable", "note": "Terrace sand-and-gravel sites firm up first, diamicton uplands last" },
-      { "month": "May", "groundConditions": "Workable and drying between rain systems", "earthworkConcrete": "favorable", "note": "Warm-season rainfall pattern begins — keep SWPPP controls current" },
-      { "month": "Jun", "groundConditions": "Firm; peak severe-thunderstorm season for the metro", "earthworkConcrete": "favorable", "note": null },
-      { "month": "Jul", "groundConditions": "Warm and productive; convective downpours are the schedule risk", "earthworkConcrete": "favorable", "note": "The July 1996 Aurora storm is the local reminder of what a single system can do to open excavations" },
-      { "month": "Aug", "groundConditions": "Generally dry and firm", "earthworkConcrete": "favorable", "note": null },
-      { "month": "Sep", "groundConditions": "Prime production — moderating temperatures, lower storm frequency", "earthworkConcrete": "favorable", "note": null },
-      { "month": "Oct", "groundConditions": "Cooling; region's first freeze typically arrives mid-to-late month", "earthworkConcrete": "favorable", "note": "Bat clearing window opens October 1" },
-      { "month": "Nov", "groundConditions": "Frost begins taking hold late in the month", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice starts" },
-      { "month": "Dec", "groundConditions": "Ground freezing; lake-influenced snow events possible", "earthworkConcrete": "restricted", "note": null }
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen ground under intermittent snow cover; deep cold snaps off the prairie",
+        "earthworkConcrete": "restricted",
+        "note": "Foundations already below the 42-inch frost line; new pours need full winter protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Deepest frost penetration of the year",
+        "earthworkConcrete": "restricted",
+        "note": "Watch for early township load postings as thaw cycles begin"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Freeze-thaw cycling; subgrades soften from the top down",
+        "earthworkConcrete": "constrained",
+        "note": "Bat-window tree clearing must wrap by March 31; township postings typically active"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Thaw completes; region's normal last freeze falls in the second half of April",
+        "earthworkConcrete": "workable",
+        "note": "Terrace sand-and-gravel sites firm up first, diamicton uplands last"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable and drying between rain systems",
+        "earthworkConcrete": "favorable",
+        "note": "Warm-season rainfall pattern begins — keep SWPPP controls current"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Firm; peak severe-thunderstorm season for the metro",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Warm and productive; convective downpours are the schedule risk",
+        "earthworkConcrete": "favorable",
+        "note": "The July 1996 Aurora storm is the local reminder of what a single system can do to open excavations"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Generally dry and firm",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Prime production — moderating temperatures, lower storm frequency",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling; region's first freeze typically arrives mid-to-late month",
+        "earthworkConcrete": "favorable",
+        "note": "Bat clearing window opens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost begins taking hold late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice starts"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing; lake-influenced snow events possible",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
     ],
     "narrative": "Aurora builds on a classic upper-Midwest calendar read against Chicago-area normals (roughly 38 inches of precipitation and a similar figure in snowfall at O'Hare, 1991–2020, with the normal last spring freeze around April 21): frozen ground December into March, a soft freeze-thaw shoulder in March and April, then a May-through-October production core. What is distinctly local is the summer storm exposure — this is the city that took the state's record 24-hour rainfall in July 1996 — so mid-summer scheduling here treats dewatering capacity and erosion-control maintenance as line items, not contingencies. Verify month-level figures against the NOAA 1991–2020 normals for the nearest station before final publication."
   },
@@ -245,7 +367,13 @@
     "cssQualificationsNote": null
   },
   "hazards": {
-    "dominant": ["tornado", "flood", "ice storm", "extreme cold", "hail"],
+    "dominant": [
+      "tornado",
+      "flood",
+      "ice storm",
+      "extreme cold",
+      "hail"
+    ],
     "designImplications": "Two hazard axes shape Aurora site design. Convective: the metro's tornado, hail, and derecho exposure argues for conservative anchorage, generator fuel containment, and equipment tie-downs on every compound. Hydrologic: the Fox River corridor plus the 1996 record-rainfall history make pad elevation, compound drainage, and floodplain screening decisive on river-adjacent parcels. Winter ice and cold set the 42-inch foundation depth and the cold-weather concrete regime. Publish wind and ice loading values only after site-specific ASCE 7 and TIA-222 lookups.",
     "restorationCapabilityNote": null
   },
@@ -285,7 +413,10 @@
         "long-haul and metro route construction",
         "restoration"
       ],
-      "secondaryScopeIds": ["regen and amplifier site civil", "service lateral to hut"],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "service lateral to hut"
+      ],
       "narrative": "Fiber routes through Aurora funnel toward two chokepoints, and both are bores. The Fox River splits the city north to south, so any east-west route crosses it — typically by directional drill, with floodplain review layered on the entry and exit pits. The rail network is the second gate: BNSF's triple-track racetrack ends here at Eola Yard, where the CN's ex-EJ&E belt line crosses it, and both carriers process wireline crossings through slow national permit queues that we file before route engineering is even final. The demand side is unusually deep for a suburb — OnLight Aurora's 137-mile city-owned backbone keeps generating laterals, and the latency-driven private routes serving the CME matching engine terminate on Diehl Road. City ROW work adds Aurora's Public Works contractor license on top of the permit.",
       "localSpecificsReferenced": [
         "Fox River crossings",
@@ -303,7 +434,10 @@
         "compound fencing",
         "small cell and DAS node civil"
       ],
-      "secondaryScopeIds": ["access road and turnaround", "C-band / densification upgrade civil"],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
       "narrative": "A wireless civil scope in Aurora prices to depth and paperwork before anything else. Every pad and pier goes below the 42-inch frost line the city adopts in its amended Table R301.2(1), which makes December-through-March builds a known premium rather than a surprise. Small-cell and densification work runs under the statewide Small Wireless Facilities Deployment Act (50 ILCS 840) — capped fees, uniform shot clocks — but the pole-base and conduit civil still needs the city's separate Public Works contractor license because it happens in ROW. Densification pressure here is real: Illinois' second-largest city, spread across four counties, with growth pushing into Kendall and Will county fringes where township-posted roads complicate spring shelter hauls. Compound drainage design earns extra attention anywhere near the Fox after what July 1996 demonstrated.",
       "localSpecificsReferenced": [
         "42-inch frost depth, amended Table R301.2(1)",
@@ -320,7 +454,10 @@
         "campus duct bank and conduit",
         "generator yards"
       ],
-      "secondaryScopeIds": ["security compound and bollards", "heavy haul access and crane pads"],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
       "narrative": "Aurora is the rare suburb that anchors a national market: the CME Globex matching engine — the physical point where U.S. futures trade — runs inside CyrusOne's Aurora I data center at 2905 E. Diehl Road, with 184 MW of total power behind it, and CyrusOne broke ground on the $350 million two-building Aurora II campus in October 2024. That gravity pulls exactly our scope: transformer and switchgear pads, campus duct bank, generator yards, and the proximity-hosting enclosures that trading firms keep pushing closer to the engine. ComEd serves the load through its New Business process, and heavy equipment reaches the corridor on I-88 — remembering that the tollway requires its own advance permission for oversize moves, separate from IDOT's ITAP permit.",
       "localSpecificsReferenced": [
         "CyrusOne Aurora I / CME Globex matching engine",
@@ -341,7 +478,12 @@
     },
     "mobilizationBand": "A",
     "serviceRadiusMiles": null,
-    "countiesServed": ["Kane", "DuPage", "Kendall", "Will"],
+    "countiesServed": [
+      "Kane",
+      "DuPage",
+      "Kendall",
+      "Will"
+    ],
     "stagingApproach": null,
     "localSupplyApproach": null,
     "selfPerformVsSubNote": null,
