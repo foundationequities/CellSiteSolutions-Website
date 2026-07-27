@@ -1,0 +1,668 @@
+{
+  "identity": {
+    "slug": "eau-claire",
+    "city": "Eau Claire",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "counties": [
+      "Eau Claire"
+    ],
+    "msa": "Eau Claire, WI (Eau Claire and Chippewa counties)",
+    "tier": 3,
+    "latitude": 44.8113,
+    "longitude": -91.4985,
+    "elevationFt": 787,
+    "population": {
+      "value": 70542,
+      "source": "U.S. Census Bureau QuickFacts, July 1, 2023 estimate (V2023)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-94"
+    ],
+    "majorRoutes": [
+      "US-53",
+      "US-12 (Clairemont Ave)",
+      "WIS-93"
+    ]
+  },
+  "metadata": {
+    "title": "Eau Claire, WI Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil work in Eau Claire, WI — hut pads and duct in Chippewa Valley outwash sand, rural fiber support, and compound builds through hard winters.",
+    "h1": "Telecom Site Civil Construction in Eau Claire, Wisconsin",
+    "intro": "Eau Claire digs differently than the rest of Wisconsin. The city sits where the Eau Claire River meets the Chippewa, on sandy glacial outwash so characteristic that geologists named two bedrock formations here — the Mount Simon Sandstone for the bluff inside the city and the Eau Claire Formation for outcrops along the river. Sand changes everything downstream of the excavator: fast digging, honest trench-safety requirements, bores that behave differently than clay country, and an aquifer the city actively protects. As western Wisconsin's regional hub, Eau Claire anchors rural fiber programs now funded through the state's BEAD pipeline. CellSite Solutions covers the market from Cedar Rapids — about 246 road miles north — building hut pads, underground, grounding, and compounds sized for a 55-inch-snow winter.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16, per the 2021 IBC under Wisconsin's statewide SPS 361–366 (in force since September 1, 2025; required for submittals from November 1, 2025)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Publish Ss/S1 from a USGS design-maps query only; note that deep sand profiles influence site class, so treat classification as strictly per-boring. Read Eau Claire County's ground-snow value from the SPS 362.1608 zone map before publishing snow load."
+    },
+    "frostDepthIn": {
+      "value": 48,
+      "source": "SPS 321.16(1) — footings below frost penetration, never less than 48 in. under adjacent grade. City Building Code (Title 16) surfaced no different local figure; confirm application with Inspection Services",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "The type locality problem in reverse: Eau Claire's geology is so exemplary it named the rocks. Cambrian sandstones underlie the city — the Mount Simon Formation, named for the Mount Simon bluff in Eau Claire, overlain by the finer Eau Claire Formation named for outcrops along the Eau Claire River (WGNHS OUT-EC07). The valley floor carries sandy glacial outwash of the Chippewa River system over that bedrock, hosting the sand-and-gravel aquifer that supplies all county drinking water (USGS county groundwater report). WGNHS maintains a county depth-to-bedrock map for site screening.",
+    "dominantSoilTypes": [
+      "Chippewa Valley sandy glacial outwash",
+      "Alluvial sand along the river corridors",
+      "Cambrian sandstone (Mount Simon / Eau Claire formations) at and near the bluffs"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "This is sandstone country, not carbonate country — no karst documentation applies to the Eau Claire area in the sources reviewed."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Outwash sand is generous to foundations and stingy to open excavations. Bearing is rarely the problem for hut pads and shelter piers — clean granular soils compact and drain well, and frost heave risk drops where silt is absent — but a 48-inch-deep footing excavation in running sand will not stand vertically the way Wisconsin's clay-country trenches do, so benching, boxes, or shields are baseline, not contingency. Near the Chippewa and Eau Claire rivers, groundwater can sit high enough to meet a deep footing or vault, putting dewatering on the table. Where sites push toward the bluffs, the Cambrian sandstones come up to meet the excavation; depth-to-bedrock screening against the WGNHS county map belongs in scoping. One more local layer: the aquifer below is the region's sole drinking-water source, with municipal wellfields inside the city — utility work near them carries wellhead-protection sensitivities. Borings govern, as ever."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Eau Claire — Inspection Services Division (Community Development)",
+        "url": "https://www.eauclairewi.gov/government/our-divisions/inspections/applications",
+        "phone": "715-839-4947",
+        "typicalReviewDays": null,
+        "note": "203 S. Farwell St.; commercial review under the statewide code. No published review-duration commitments — call for current intake."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Wisconsin uniform commercial code SPS 361–366, now based on the 2021 IBC (effective September 1, 2025; mandatory for plans submitted from November 1, 2025)",
+      "source": "Wisconsin DSPS commercial building code news release — https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small cell work follows Wisconsin's uniform Act 14 regime (Wis. Stat. 66.0414) — ROW collocation rights with municipal fees capped at cost or $250 per node annually. City ROW disturbance itself is permitted through Engineering's portal.",
+    "rowPermitAuthority": {
+      "name": "City of Eau Claire Engineering Division — ROW/engineering permits via the Evolve public permitting portal",
+      "url": "https://www.eauclairewi.gov/government/our-departments/engineering/permitsforms",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Applications submitted through the online Evolve portal (evolvepublic.infovisionsoftware.com)."
+    },
+    "stateDotDistrict": {
+      "name": "WisDOT Northwest Region — region office located in Eau Claire (718 W. Clairemont Ave.)",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "phone": "715-836-2891",
+      "typicalReviewDays": null,
+      "note": "Having the region office in-market is a practical convenience for DT1553 utility permits and OSOW coordination on I-94/US-53 work."
+    },
+    "oneCallCenter": {
+      "name": "Diggers Hotline",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Wis. Stat. 182.0175 sets the notice requirement.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Wisconsin DNR — WPDES construction site stormwater program",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI at least 14 working days pre-disturbance at one acre or more; sandy sites erode fast when disturbed, so expect real attention to stabilization practice."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Eau Claire Planning Division (NFIP floodplain program; CRS Class 9)",
+      "url": "https://www.eauclairewi.gov/our-city/floodplain",
+      "phone": "715-839-4914",
+      "typicalReviewDays": null,
+      "note": "The Chippewa–Eau Claire river confluence runs through downtown; the city has a documented flood-buyout history along the rivers."
+    },
+    "permitTimelineNarrative": "Eau Claire's permitting stack is compact for a regional hub. Inspection Services reviews commercial work under the statewide code from the Farwell Street offices; Engineering handles ROW disturbance through the online Evolve portal; and the WisDOT Northwest Region office — conveniently located in the city on Clairemont Avenue — issues state-highway utility permits for I-94 and US-53 corridor work. The statewide leads still control the front end: Diggers Hotline three business days before digging, the WDNR stormwater NOI 14 working days before acre-scale disturbance. River-adjacent sites add a floodplain check with the Planning Division, which administers the city's NFIP program. Sequenced together, none of this is exotic; sequenced late, the NOI clock is usually what slips a start date."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Xcel Energy (Northern States Power Co.–Wisconsin)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "NSPW has been headquartered in Eau Claire since 1924 and serves 260,000+ electric customers across western and northern Wisconsin — the utility's Wisconsin decisions are made in this market."
+      },
+      {
+        "name": "Eau Claire Energy Cooperative",
+        "type": "cooperative",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves rural Eau Claire County and portions of surrounding counties (~13,000 members, headquartered in Fall Creek) — the likely counterparty for rural hut and tower services outside city limits."
+      }
+    ],
+    "ilec": "Lumen (CenturyLink) territory — the specific Lumen operating subsidiary holding the Eau Claire exchange was not confirmed; verify against the PSC exchange map before publish",
+    "notableFiberProviders": [
+      "WIN Technology (headquartered in Eau Claire; 20,000+ route-mile regional network)",
+      "Spectrum (Charter) — citywide, plus RDOF-funded rural expansion in surrounding counties"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Statewide frozen-road declarations in deep winter, then Class II thaw postings (February 20 – April 30 in 2026) — with town and county road postings decisive for rural fiber and tower sites in the Chippewa Valley",
+      "postingAuthority": {
+        "name": "WisDOT plus local road authorities (county/town/city postings)",
+        "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Rural west-central Wisconsin is where posting season bites hardest in this market: BEAD-era hut and route sites out on town roads may be unreachable for heavy loads for two-plus months of spring."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "WisDOT OSOW (wi.gotpermits.com/wiconnect), coordinated locally through the Northwest Region",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "phone": "608-266-7320",
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific (Altoona Subdivision, former C&NW main line)",
+        "crossingPermitNote": "UP's St. Paul–Altoona line runs through the Eau Claire area, meeting the Wyeville Subdivision at neighboring Altoona — fiber crossings of a UP main line carry the railroad's full permit process and its timelines."
+      },
+      {
+        "name": "Progressive Rail (per Chippewa County EDC, serves the Eau Claire urban area)",
+        "crossingPermitNote": "Sourced only to the county economic development authority — confirm active trackage against the WisDOT rail map before designing a crossing."
+      }
+    ],
+    "urbanRowRequirements": "City ROW work is permitted through Engineering's Evolve portal with city restoration standards; the compact downtown at the river confluence concentrates utility congestion, while arterial corridors like Clairemont Avenue (US-12) involve WisDOT coordination."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "No clearing in suitable habitat April 1 – October 31; occupied roost trees plus 150 ft protected June 1 – July 31; quarter-mile hibernaculum buffers",
+      "driver": "Northern long-eared bat (federally endangered)",
+      "source": "WisDOT NLEB non-federal guidance (April 2023)"
+    },
+    "shpo": {
+      "name": "Wisconsin Historical Society — State Historic Preservation Office",
+      "url": "https://www.wisconsinhistory.org/preserve/state-historic-preservation-office/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 attaches to federally funded builds, including BEAD-financed routes in the surrounding counties."
+    },
+    "wetlandsAuthority": {
+      "name": "Wisconsin DNR — Wis. Stat. 281.36 wetland permitting (state jurisdiction over nonfederal wetlands)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "River-valley routes warrant wetland screening beyond just the mapped federal waters."
+    },
+    "usaceDistrict": "St. Paul District (MVP)",
+    "listedSpeciesNote": "NLEB is the calendar-setting species; pull a project-specific IPaC report for Eau Claire County per site — none was runnable during research. Groundwater sensitivity is the other environmental axis: all county drinking water is groundwater, and the city's municipal wellfield history (a remediated Superfund site) keeps wellhead protection on the review radar.",
+    "floodplainPrevalenceNote": "Downtown occupies the Chippewa–Eau Claire confluence, and the city's flood history includes documented buyout programs along the rivers; its NFIP program (CRS Class 9) is run by the Planning Division. River-corridor sites get FEMA screening first, siting decisions second."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Deep hard frost; normals around 23°F high / 6°F low — the coldest of our Wisconsin markets",
+        "earthworkConcrete": "restricted",
+        "note": "Frozen-road declarations can open heavy-haul windows"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Maximum frost depth in sandy profiles",
+        "earthworkConcrete": "restricted",
+        "note": "Thaw postings began February 20 in 2026"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw begins; sand drains quicker than clay country once frost releases",
+        "earthworkConcrete": "restricted",
+        "note": "Town-road postings control rural access"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Frost out; granular sites firm up early",
+        "earthworkConcrete": "constrained",
+        "note": "Postings typically hold through late April"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable across the market; rivers running high",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Peak production; wettest month (~4.8 in.)",
+        "earthworkConcrete": "favorable",
+        "note": "Roost-tree protections June 1 – July 31"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Prime conditions in free-draining sand",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Prime conditions continue",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Excellent fall window",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Freezes arrive earlier than southern Wisconsin",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete measures from mid-late month"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Freeze-up; snowpack building toward ~55 in. annually",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Winter locked in",
+        "earthworkConcrete": "restricted",
+        "note": "Heated enclosures for any December pour"
+      }
+    ],
+    "narrative": "Winter arrives earlier and leaves later in Eau Claire than anywhere else we cover in Wisconsin — January normals near 23°F/6°F and roughly 55 inches of snow — but the sand underfoot partially repays the calendar: once frost releases, free-draining outwash firms up faster than the clay soils that keep southern Wisconsin sites muddy into May. The working season is effectively May through mid-October. Spring posting season (statewide February 20 – April 30 in 2026, plus town roads) is the dominant constraint for the rural sites that make up much of this market's fiber work. Climate figures are drawn from aggregated 1991–2020 normals for the Eau Claire station pending direct verification of the State Climatology Office table."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Valley-floor sites work in deep outwash sand; the cost question flips to rock only where excavations approach the bluff-side Cambrian sandstones — screen against the WGNHS depth-to-bedrock map rather than carrying a blanket rock contingency.",
+    "aggregateHaulNote": "Sand-and-gravel country tends to be kind to aggregate logistics, but specific pit and plant distances were not sourced — confirm during estimating.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Clean granular spoil is the easiest in our Wisconsin coverage to reuse or place — a genuine cost advantage over the state's clay markets.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Only federal Davis-Bacon applies (state prevailing wage ended via 2017 Act 59) — directly relevant since much of this market's near-term fiber work is BEAD-funded.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "The longest winter in our Wisconsin footprint: extended heated-cure season, frost excavation from roughly December through March, and two-plus months of posted rural roads in spring.",
+    "narrative": "Eau Claire trades one cost profile for another. On the ledger's good side: sand digs fast, spoil reuses well, bearing is rarely an issue, and rock is a mapped screening question instead of a standing contingency. On the other side: trench protection is mandatory in ground that will not stand open, high groundwater near the rivers brings dewatering into play, and the region's long winter stretches the heated-concrete season while spring postings strand rural sites behind town-road limits. The market's work mix amplifies the rural component — BEAD-funded routes and huts scattered across west-central counties — so access windows and mobilization batching matter more than any urban permit fee. Site pricing follows borings, postings, and the month on the calendar; we publish the drivers, not unit rates."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Wisconsin fields no commercial general contractor license; commercial oversight lives in the uniform code and permit process, with the residential-only Dwelling Contractor credential often mistaken for one. Trade licensure (electrical, plumbing) applies statewide. Confirm current DSPS requirements before bid — compiled partly from secondary sources.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme cold",
+      "flood"
+    ],
+    "designImplications": "Design cold-first: 48-inch embedment, generator cold packages, enclosure ratings for a ~55-inch snow season, and cure protection over a winter that runs longer than anywhere else in our Wisconsin coverage. The flood axis is the two rivers — the confluence sits downtown and the city's buyout history maps where water has gone before — so river-corridor pads get elevation and drainage designed against FEMA panels, not street grade.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "BEAD dollars head for west-central Wisconsin's unserved blocks",
+        "detail": "Federal approval of Wisconsin's BEAD final proposal (December 2, 2025; ~$1.03–1.06B for roughly 175,000 locations, PSC-administered) sets up multi-year fiber construction across the rural counties around Eau Claire — the PSC's project-units map is the tracking tool for local awards.",
+        "category": "broadband program",
+        "sourceUrl": "https://content.govdelivery.com/accounts/WIPSC/bulletins/3fe38fd",
+        "asOf": "2025-12-02"
+      },
+      {
+        "headline": "Xcel's 345 kV Western Wisconsin Transmission Connection approved",
+        "detail": "The PSCW approved Xcel Energy's new 345 kV line from Blair to near Eau Claire on November 3, 2025 — construction planned for 2027, in service 2029 — a major grid reinforcement into NSPW's home market with associated utility-corridor civil work.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://newsroom.xcelenergy.com/news/releases-20251103",
+        "asOf": "2025-11-03"
+      },
+      {
+        "headline": "HPE doubles down on Chippewa Falls supercomputer manufacturing",
+        "detail": "HPE invested $22M in the former Cray campus at Chippewa Falls as a Global Center of Excellence (~500 jobs retained; builder of DOE's El Capitan) — high-performance computing heritage that keeps specialized network and facility demand in the Chippewa Valley.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/hpe-invest-22-million-former-cray-facility-supercomputer-manufacturing/",
+        "asOf": "2025-06-30"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "HDD / road bore",
+        "OSP duct bank",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "long-haul and metro route construction",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "service lateral to hut"
+      ],
+      "narrative": "Fiber is the growth story here: west-central Wisconsin's unserved blocks sit squarely in the BEAD pipeline approved in December 2025, and Eau Claire is the staging hub the programs radiate from — fitting for a city where WIN Technology runs a 20,000-plus-mile regional network from its Wisconsin Street headquarters. Construction-wise, outwash sand rewards plowing and trenching but demands fluid management on directional bores, and any crossing of Union Pacific's Altoona Subdivision — the former C&NW main through the valley — starts the railroad's permit clock well ahead of construction. Near municipal wellfields, wellhead-protection review joins the usual Diggers Hotline and WPDES leads. Rural route segments live and die by town-road posting season.",
+      "localSpecificsReferenced": [
+        "BEAD west-central Wisconsin pipeline",
+        "WIN Technology (Eau Claire HQ)",
+        "UP Altoona Subdivision crossings",
+        "Sandy outwash boring behavior"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "access road and turnaround",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil"
+      ],
+      "narrative": "Wireless civil in the Chippewa Valley is predominantly rural-macro work: compounds, access drives, and shelter sets serving the coverage grid along I-94, US-53, and the river valleys. Sandy sites simplify some of it — pads bear well, access roads drain, spoil handles easily — while the calendar complicates the rest: foundations still go 48 inches down under SPS 321.16, the region's winter is the longest in our Wisconsin coverage, and spring postings on town roads dictate when a shelter or generator can actually reach a rural compound. Greenfield sites with tree cover inherit the bat-driven clearing calendar, which effectively means winter clearing. Grounding design gets attention in clean sand, where soil resistivity often runs higher than clay-country assumptions.",
+      "localSpecificsReferenced": [
+        "I-94 / US-53 coverage corridors",
+        "48-inch embedment in sand",
+        "Town-road spring postings",
+        "High-resistivity granular soils and ground ring design"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards"
+      ],
+      "narrative": "The Chippewa Valley's computing story is unusual for a market this size: Cray was born in Chippewa Falls, and HPE's $22M reinvestment keeps supercomputer manufacturing — including work behind DOE's El Capitan — anchored next door. Grid capacity is moving the same direction: Xcel's PSCW-approved 345 kV Western Wisconsin Transmission Connection will terminate near Eau Claire by 2029, and the utility's Wisconsin arm (NSPW) is headquartered in town, which shortens the practical distance to interconnection conversations. Local sentiment is part of the picture too — the city's sustainability committee floated a data-center moratorium in mid-2026 — so edge siting here favors modest footprints with clean stormwater and groundwater stories over splashy campuses. Edge pads get the deep-frost, heavy-snow package standard for this latitude.",
+      "localSpecificsReferenced": [
+        "HPE/Cray Chippewa Falls campus",
+        "Xcel 345 kV Western Wisconsin Transmission Connection",
+        "NSPW headquarters in Eau Claire",
+        "2026 municipal moratorium discussion"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 246,
+      "driveTimeHours": 4.6,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Eau Claire"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The run to Eau Claire is our northernmost Wisconsin mobilization: roughly 246 road miles from the Cedar Rapids yard, tracking north across the Mississippi through the Driftless Area's two-lane river country before picking up the I-94/US-53 network at the Chippewa Valley. That route profile — more two-lane mileage than our Madison or Milwaukee corridors — is exactly where Wisconsin's spring postings and winter weather earn their planning attention, so heavy equipment moves get routed and timed against postings rather than assumed. Crews work this market on a mobilize-once, stay-the-week basis, and the scattered rural sites typical of Chippewa Valley fiber programs batch efficiently under a single mobilization. Anything firmer than that on response times comes from ops, in writing.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What are soil conditions like for boring and trenching in Eau Claire?",
+      "answer": "Sandy glacial outwash of the Chippewa River valley — fast digging, free-draining, easy spoil. The tradeoffs: open trenches will not stand in running sand, so boxes and shields are baseline; directional bores need disciplined drilling-fluid management in granular ground; and groundwater near the rivers can sit high. Bluff-side sites can meet the Cambrian sandstones that outcrop in the city. Site borings settle which condition applies.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Why do geologists know Eau Claire's bedrock by name?",
+      "answer": "Because it is the type locality: the Mount Simon Sandstone takes its name from the Mount Simon bluff inside Eau Claire, and the overlying Eau Claire Formation is named for outcrops along the Eau Claire River, per WGNHS descriptions. Practically, that means unusually good published geology for a market this size — including a WGNHS county depth-to-bedrock map worth checking during site screening.",
+      "segment": "general"
+    },
+    {
+      "question": "Who reviews permits for a telecom compound in Eau Claire?",
+      "answer": "Building work goes through the city's Inspection Services Division (Community Development, 203 S. Farwell St., 715-839-4947) under Wisconsin's statewide commercial code, and ROW disturbance is permitted by the Engineering Division through its online Evolve portal. For state-highway corridors, the WisDOT Northwest Region office is located in Eau Claire itself on Clairemont Avenue — a short trip for utility permit coordination.",
+      "segment": "general"
+    },
+    {
+      "question": "Which utility connects power to a new hut near Eau Claire?",
+      "answer": "In the city, Xcel Energy's Wisconsin operating company — Northern States Power–Wisconsin, headquartered in Eau Claire since 1924 and serving 260,000-plus electric customers regionally. Outside city limits, rural sites frequently fall to Eau Claire Energy Cooperative (about 13,000 members, based in Fall Creek). The IOU-versus-cooperative split changes the application process and timeline, so we identify the serving utility during siting, not after.",
+      "segment": "edge"
+    },
+    {
+      "question": "How does winter affect telecom construction schedules in Eau Claire?",
+      "answer": "It is the longest winter in our Wisconsin coverage — January normals near 23°F/6°F with about 55 inches of snow — so plan on heated concrete protection from roughly November through March and frost excavation midwinter. Then spring flips the constraint from ground to roads: statewide thaw postings ran February 20 to April 30 in 2026, and posted town roads can strand rural sites longer. Sand's consolation: sites firm up quickly once frost leaves.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What flood considerations apply near the rivers in Eau Claire?",
+      "answer": "Downtown sits at the confluence of the Chippewa and Eau Claire rivers, and the city has a documented history of flood buyouts along those corridors. Its NFIP floodplain program — CRS Class 9 — is administered by the Planning Division (715-839-4914). River-adjacent pads and vaults get screened against FEMA panels first, with elevations and drainage set from the mapping rather than from adjacent grade.",
+      "segment": "general"
+    },
+    {
+      "question": "Is groundwater a design issue for underground work in Eau Claire?",
+      "answer": "Two ways. First, the water table in the sandy valley can sit high near the rivers, which puts dewatering into play for deep footings and vaults. Second, the sand-and-gravel aquifer supplies all county drinking water, and the city's municipal wellfield history — including a since-remediated Superfund listing — means utility work near wellfields draws wellhead-protection scrutiny. Route and site screening covers both up front.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Whose approval does a fiber crossing of the railroad in Eau Claire need?",
+      "answer": "Union Pacific's, for the Altoona Subdivision — the former Chicago & North Western main line running through the valley to its junction at Altoona next door. UP crossing agreements follow the railroad's own process and pace, which is slower than the city or county permits on the same route, so the application belongs at the front of the schedule. County sources also list Progressive Rail in the urban area; confirm its active trackage before design.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Designing for sand: where Eau Claire budgets actually move",
+    "body": "Contractors arriving from clay country tend to misprice Eau Claire twice — once in each direction. They overprice the digging: outwash sand cuts fast, hauls light, and reuses well, and rock is a mapped question near the bluffs rather than a standing contingency, so pure excavation quantities come in friendly. Then they underprice the consequences of sand: trench boxes on essentially every open cut because granular walls do not stand; drilling-fluid losses and inadvertent-return planning on HDD runs in clean gravels and sand; dewatering allowances anywhere the Chippewa or Eau Claire river sets the water table; and ground-ring designs revisited for the higher soil resistivity clean sand typically presents — an item that surfaces at commissioning if nobody caught it at design. Add the region's two calendar taxes: the longest heated-concrete season in our Wisconsin coverage, and town-road posting windows that can make a rural BEAD hut unreachable for heavy loads from late February into May. Our approach on Chippewa Valley work is to let the WGNHS mapping and borings sort sites into valley-sand versus bluff-rock bins early, price trench protection and fluid management as base scope rather than contingency, and schedule rural deliveries backward from posting season. Sand is good ground — if the estimate respects how it actually behaves."
+  },
+  "sources": [
+    {
+      "label": "U.S. Census Bureau QuickFacts — Eau Claire city, Wisconsin",
+      "url": "https://www.census.gov/quickfacts/fact/table/eauclairecitywisconsin/PST045224",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Eau Claire — Inspection Services Division",
+      "url": "https://www.eauclairewi.gov/government/our-divisions/inspections/applications",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Eau Claire Engineering — permits and forms (Evolve portal)",
+      "url": "https://www.eauclairewi.gov/government/our-departments/engineering/permitsforms",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — region offices (Northwest Region, Eau Claire)",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Xcel Energy — NSPW centennial (Eau Claire headquarters, service territory)",
+      "url": "https://stories.xcelenergy.com/stories/Northern-States-Power-Wisconsin-celebrates-100th-anniversary",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Eau Claire Energy Cooperative — overview",
+      "url": "https://www.ecec.com/my-coop/about-ecec/overview",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Leader-Telegram — WIN Technology's Eau Claire-based regional fiber network",
+      "url": "https://www.leadertelegram.com/business/local-business/rising-above-eau-claire-based-win-quietly-grows-to-prominent/article_515292c3-221f-57b1-9a75-734abaff87e5.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS OUT-EC07 — the Mount Simon Formation at Eau Claire (type locality)",
+      "url": "https://wgnhs.wisc.edu/pubshare/OUT-EC07.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS — depth to bedrock of Eau Claire County (catalog)",
+      "url": "https://wgnhs.wisc.edu/catalog/publication/000434",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USGS — groundwater resources of Eau Claire County",
+      "url": "https://wi.water.usgs.gov/gwcomp/find/eauclaire/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "EPA Superfund — Eau Claire Municipal Well Field site profile",
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0505164",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Eau Claire — floodplain program (NFIP, CRS Class 9)",
+      "url": "https://www.eauclairewi.gov/our-city/floodplain",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wikipedia — UP Altoona Subdivision (former C&NW St. Paul–Altoona line)",
+      "url": "https://en.wikipedia.org/wiki/Altoona_Subdivision",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "PSC of Wisconsin (GovDelivery) — federal approval of Wisconsin's BEAD final proposal",
+      "url": "https://content.govdelivery.com/accounts/WIPSC/bulletins/3fe38fd",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Xcel Energy newsroom — Western Wisconsin Transmission Connection approval",
+      "url": "https://newsroom.xcelenergy.com/news/releases-20251103",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Data Center Dynamics — HPE $22M investment at Chippewa Falls (Cray campus)",
+      "url": "https://www.datacenterdynamics.com/en/news/hpe-invest-22-million-former-cray-facility-supercomputer-manufacturing/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin State Climatology Office — Eau Claire monthly normals 1991–2020",
+      "url": "https://www.aos.wisc.edu/oldsco/clim-history/sta-data/eau/EAU-Monthly/normals-monthly-1991-2020-3123288-EAU.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16(1) — frost/footing rule",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/1",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Check-Distance — Cedar Rapids, IA to Eau Claire, WI driving route (~246 mi)",
+      "url": "https://check-distance.com/route/cedar-rapids-ia/eau-claire-wi",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — NLEB non-federal guidance (clearing windows)",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind, snow, seismic, ice, design temperatures",
+      "attempted": "ASCE hazard tool and USGS design maps blocked via proxy; SPS 362.1608 county snow value unread; TIA-222 ice data not freely published; ASHRAE design temps not located."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — city commercial confirmation",
+      "attempted": "State 48-in. rule cited; city Building Code Title 16 located but no local frost figure surfaced — confirm with Inspection Services."
+    },
+    {
+      "field": "geotech — bearing ranges, numeric bedrock depth, groundwater elevations",
+      "attempted": "WGNHS depth-to-bedrock map identified but values not extracted; NRCS interactive unavailable — qualitative characterization only."
+    },
+    {
+      "field": "utilities.ilec — Lumen operating subsidiary",
+      "attempted": "CenturyLink/Lumen incumbency sourced; the specific subsidiary holding the Eau Claire exchange unconfirmed — PSC exchange map PDF unreadable through proxy."
+    },
+    {
+      "field": "logistics.railroads — Progressive Rail trackage",
+      "attempted": "Sourced only to Chippewa County EDC; WisDOT rail map PDF could not be opened — confirm before designing any crossing."
+    },
+    {
+      "field": "seasonality — normals verification",
+      "attempted": "Jan 23.4°F/5.8°F, ~55.4 in. snow, June ~4.83 in. from aggregated NOAA normals; the State Climatology Office PDF could not be opened to double-check."
+    },
+    {
+      "field": "environmental — Eau Claire County IPaC list",
+      "attempted": "IPaC not reachable during research."
+    },
+    {
+      "field": "identity.elevationFt — source discrepancy",
+      "attempted": "787 ft (USGS-derived topo) used; Wisconsin Counties Association lists 796 ft — differing reference points, noted for the human reviewer."
+    },
+    {
+      "field": "marketActivity — county-level BEAD awards",
+      "attempted": "Named subgrantees for Eau Claire/Chippewa/Dunn counties not found in searchable text; use the PSC project-units map when it becomes reachable."
+    },
+    {
+      "field": "operations — drive time and counties served",
+      "attempted": "~246 road miles per routing sites (range 237–255 across sources); 4.6 h is a routing-site estimate pending ops' own routing. Coverage list needs ops sign-off."
+    }
+  ]
+}
