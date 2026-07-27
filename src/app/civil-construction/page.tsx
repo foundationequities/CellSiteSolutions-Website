@@ -64,7 +64,7 @@ const installServices = [
   },
   {
     title: "Backup Power",
-    href: null,
+    href: "/generator-install/",
     body: [
       "In case of emergency power outages, CellSite Solutions can install a battery backup system on your site. A backup system is compact and self-contained. The batteries collect their charge from your existing power system, switching on only when grid power goes down. Batteries can last up to several hours, giving you ample time to restore service.",
       "You can rely on CellSite for all aspects of backup power service. We have the equipment, the logistics, and the skilled technicians ready to leap into action with a single call. We are able to quickly determine the best solution and get it installed so service is restored.",
@@ -121,7 +121,6 @@ export default function CivilConstructionPage() {
         eyebrow="Laying the Foundation for Success"
         title="CIVIL CONSTRUCTION"
         video={{ src: CIVIL_HEADER_VIDEO }}
-        lede="Telecom civil construction creates the physical infrastructure required to support wireless, fiber, utility, and broadband networks. From site surveys and site preparation to shelter installation, grounding, power systems, maintenance, and decommissioning, CellSite Solutions delivers turnkey telecom construction services that help operators deploy, maintain, and expand critical communications infrastructure."
       />
 
       {/* ── FAQ ───────────────────────────────────────────────────── */}
@@ -131,6 +130,13 @@ export default function CivilConstructionPage() {
             Frequently Asked Questions
           </p>
           <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Civil Construction</h2>
+          <p className="mt-5 text-base leading-relaxed text-muted">
+            Telecom civil construction creates the physical infrastructure required to support
+            wireless, fiber, utility, and broadband networks. From site surveys and site preparation
+            to shelter installation, grounding, power systems, maintenance, and decommissioning,
+            CellSite Solutions delivers turnkey telecom construction services that help operators
+            deploy, maintain, and expand critical communications infrastructure.
+          </p>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
@@ -187,6 +193,12 @@ export default function CivilConstructionPage() {
               Solutions does. We handle everything it takes to prepare your site, install and maintain
               your equipment, and even decommission with full restoration when your project ends.
             </p>
+            <div className="mt-8">
+              <p className="font-display text-[70px] font-bold leading-none text-brand lg:text-[100px]">
+                <CountUp value={80} suffix="'s" />
+              </p>
+              <p className="mt-2 text-base font-semibold text-muted">of civil projects</p>
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="group relative aspect-[3/4] overflow-hidden rounded-lg">
