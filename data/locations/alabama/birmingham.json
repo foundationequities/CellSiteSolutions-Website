@@ -1,0 +1,685 @@
+{
+  "identity": {
+    "slug": "birmingham",
+    "city": "Birmingham",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "stateAbbr": "AL",
+    "counties": [
+      "Jefferson"
+    ],
+    "msa": "Birmingham–Hoover, AL",
+    "tier": 2,
+    "latitude": 33.5186,
+    "longitude": -86.8104,
+    "elevationFt": 644,
+    "population": {
+      "value": 200733,
+      "source": "U.S. Census Bureau, 2020 Decennial Census (QuickFacts); 2023 estimates near 196,600 — confirm vintage before publish",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-20",
+      "I-59",
+      "I-65",
+      "I-22",
+      "I-459"
+    ],
+    "majorRoutes": [
+      "US-31 (Red Mountain Expressway)",
+      "US-280"
+    ]
+  },
+  "metadata": {
+    "title": "Birmingham Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Birmingham, AL — mine-map screening, karst-aware foundations, and deployed crews for fiber, wireless, and edge site builds.",
+    "h1": "Telecom Site Civil Construction in Birmingham, Alabama",
+    "intro": "Birmingham's civil story starts underneath it. The metro grew on iron and coal, and the industry left the ground honeycombed: abandoned underground mine workings beneath parts of the valley — documented in the state's mine-map repository and still producing subsidence — make mine screening the first move on any foundation here, before the karstic carbonate valley floor gets its say. Above grade the market is a genuine crossroads: I-20, I-59, I-65, and I-22 converge; Norfolk Southern and CSX classify trains at Norris and Boyles yards; and DC BLOX's Tier III facility anchors the state's carrier interconnection. CellSite Solutions serves Birmingham as a deployment market — crews mobilize from our Dallas yard roughly 640 road miles down I-20, stage locally for a program's duration, and buy concrete and aggregate in the city where Vulcan Materials keeps its headquarters.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-10 (the edition referenced by the 2015 IBC family in the Technical Code of the City of Birmingham, 2015 — confirm the current adoption and any amendments before publish)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Alabama is a low-to-moderate seismicity region, but numeric Ss/S1 and typical site class must come from a USGS design-maps query at site coordinates before publication. Severe-thunderstorm wind governs practical lateral design; foundation risk here is dominated by ground conditions (mine voids, karst), not shaking."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Birmingham sits in Jones Valley on the southeastern edge of Appalachian Valley-and-Ridge terrain: a carbonate (limestone and dolomite) valley floor flanked by Red Mountain's Silurian iron-ore ridge, with the Pottsville Formation coal measures of the Warrior coal field on the plateaus and basins around the metro. Two engineered-ground legacies dominate: abandoned underground coal and iron-ore workings from the city's steel era — inventoried in the Alabama Department of Labor's mine map repository, with subsidence hazards managed by the state's Abandoned Mine Land program — and karst behavior in the valley-floor carbonates. The Geological Survey of Alabama documents both mine-related collapse and sinkhole hazards in this belt.",
+    "dominantSoilTypes": [
+      "Clayey residuum over limestone/dolomite (valley floor)",
+      "Shale- and sandstone-derived soils on Pottsville uplands",
+      "Undermined ground — spoil and disturbed profiles near legacy workings"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Residual clays over the valley carbonates can be plastic, but no NRCS shrink-swell rating for Jefferson County was pulled — publish a rating only after that query. Site-specific investigation governs.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "The valley-floor limestones and dolomites are karst-prone — sinkhole hazards are documented by the Geological Survey of Alabama — and karst screening stacks on top of mine-void screening in this market. The two failure modes look similar at the surface and have different fixes; the investigation has to distinguish them."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Birmingham foundation work starts at the Alabama Department of Labor's mine map repository, not at the boring rig. The metro's steel era left abandoned underground coal workings — plus iron-ore mines flanking Red Mountain — beneath parts of the urbanized valley, and the state's Abandoned Mine Land program still remediates subsidence events from pre-1977 mining. So the sequence is: mine-map screening for the parcel first; if workings are indicated, targeted borings to find voids, rubble zones, or shallow cover, with grouting or relocation on the table before design proceeds. Only then does the conventional picture apply — and it is karst: clayey residuum over pinnacled limestone and dolomite in the valley floor, where cavity contingency and irregular rockhead drive drilled-pier pricing, while ridge and plateau sites trade that for shallow sandstone and shale rippability questions and steep-slope access. Undermined and karstic ground can present identically as a surface depression; budget the investigation that tells them apart, because the remedies differ completely."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Birmingham — Department of Planning, Engineering & Permits",
+        "url": "https://www.birminghamal.gov/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers building permits under the Technical Code of the City of Birmingham. Metro suburbs (Hoover, Vestavia Hills, Homewood, and others) are separate AHJs with their own adoptions — confirm jurisdiction per site."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Technical Code of the City of Birmingham, 2015 — the 2015 international code family (building, plumbing, fuel gas, mechanical, fire, existing building, residential, property maintenance) with local amendments, per the city's Municode ordinance; confirm current editions and the electrical code cycle before publish",
+      "source": "City of Birmingham Code of Ordinances, Title 7 (Municode) — library.municode.com/al/birmingham",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Birmingham — Department of Planning, Engineering & Permits (right-of-way permits) inside city limits; ALDOT district permit on state-route ROW",
+      "url": "https://www.birminghamal.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the current ROW permit intake and traffic-control requirements before publish."
+    },
+    "stateDotDistrict": {
+      "name": "ALDOT East Central Region (Birmingham-area district office)",
+      "url": "https://www.dot.state.al.us/business/permits/index.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ALDOT ROW permits initiate at the local district office; confirm the district serving Jefferson County against ALDOT's region/district map."
+    },
+    "oneCallCenter": {
+      "name": "Alabama 811",
+      "url": "https://al811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice at least two but not more than ten working days before excavation; tickets valid 20 working days from the proposed start.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "ADEM — NPDES Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI required before construction; erosion controls per a CBMPP prepared and certified by a Qualified Credentialed Professional (QCP)."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Birmingham permits through the city's Department of Planning, Engineering & Permits under the 2015-family Technical Code, and the metro's patchwork matters: cross a municipal line into Hoover or Homewood and the AHJ, code edition, and fee schedule all change. Statewide overlays stack on top — the Alabama GC license at $100,000, ADEM's stormwater NOI with a QCP-certified BMP plan at one acre, and Alabama 811's two-working-day locate clock. ALDOT accommodation permits govern state-route crossings and initiate at the district office, with approvals that can run months. Floodplain review is a real line item here — Village Creek's floodplain alone accounts for roughly half of the city's mapped flood hazard area — and any federally funded scope adds Alabama Historical Commission Section 106 review on a 30-day clock, a live consideration in a city with nationally significant industrial and civil-rights historic districts."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Alabama Power",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Southern Company subsidiary headquartered in Birmingham, serving roughly 1.4 million customers across the southern two-thirds of Alabama. New-service lead times not published; confirm at scoping."
+      }
+    ],
+    "ilec": "AT&T Alabama (BellSouth legacy; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Charter Spectrum",
+      "Zayo (per the DC BLOX Birmingham carrier list)"
+    ],
+    "notableDataCenterCampuses": [
+      "DC BLOX Birmingham (BHM1) — Tier III-certified, carrier-neutral multi-tenant facility on the Trinity Park brownfield site"
+    ],
+    "longHaulRouteNotes": "Birmingham's interstate crossroads — I-20, I-59, I-65, and I-22 converging — makes the metro a natural long-haul waypoint between Atlanta, Nashville, Memphis, and the Gulf; confirm specific route ownership per corridor before citing named systems.",
+    "ixPresence": "DC BLOX's carrier-neutral BHM1 facility functions as the metro's primary interconnection point, with virtual cross-connects to carriers including AT&T, Comcast, Charter, Cogent, Zayo, and Lumen (per DC BLOX)."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Alabama posts no spring frost-law restrictions; load limits are year-round engineering-based postings. Older county bridge postings in the surrounding coal-field counties can constrain shelter hauls — verify the approach route."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "ALDOT Permits & Operations Section, Maintenance Bureau",
+      "url": "https://www.dot.state.al.us/maweb/permitsoperations.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Norfolk Southern",
+        "crossingPermitNote": "Operates Norris Yard, one of its major Southeast classification facilities; NS mainlines thread the metro, and crossing agreements route through NS's public-projects process — start early, timelines run long."
+      },
+      {
+        "name": "CSX Transportation",
+        "crossingPermitNote": "Operates Boyles Yard, the L&N-legacy classification yard on the metro's northeast side; CSX crossing permits run through its property/permitting portal."
+      }
+    ],
+    "urbanRowRequirements": "Dense legacy utility corridors and rail crossings make downtown and valley-floor ROW work coordination-heavy; confirm the city's current lane-closure and traffic-control permit requirements with Planning, Engineering & Permits before scheduling."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Winter clearing per USFWS bat guidance — typically October 1 through March 31, with modified dates possible in karst and hibernaculum areas; confirm per project with the Alabama Ecological Services Field Office",
+      "driver": "Federally listed bats (gray bat and Indiana bat use Alabama cave and forest habitat; northern long-eared bat considerations statewide)",
+      "source": "USFWS Alabama Ecological Services — Bats in Alabama (fws.gov/office/alabama-ecological-services/bats-alabama)"
+    },
+    "shpo": {
+      "name": "Alabama Historical Commission (SHPO) — Section 106 reviews by email submission",
+      "url": "https://ahc.alabama.gov/section106.aspx",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-calendar-day review clock; restarts with each new information submission. Birmingham's industrial and civil-rights historic districts make Section 106 a live issue on federally funded urban routes."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Mobile District (Black Warrior/Cahaba basins) — confirm county assignment on the district regulatory boundary map",
+      "url": "https://regulatory.ops.usace.army.mil/offices/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Mobile District (SAM) — confirm Jefferson County assignment before publish",
+    "listedSpeciesNote": "Run IPaC per project. The Cahaba River basin south of the metro is one of the most biodiverse river systems in North America and carries federally listed aquatic species, which matters for stream crossings and stormwater discharge on southern-metro routes; bat considerations apply to clearing throughout.",
+    "floodplainPrevalenceNote": "Significant and concentrated: Village Creek — 44 miles through Birmingham and Jefferson County — has flooded surrounding neighborhoods repeatedly for decades, drove one of the country's larger floodplain buyout programs (700+ structures removed), and its floodplain accounts for roughly 53% of the city's Special Flood Hazard Area. Valley-floor fiber routes and compound sites should treat Village Creek and Valley Creek corridors as regulated ground from day one."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Cool and wet; workable between rain systems, occasional freezes",
+        "earthworkConcrete": "workable",
+        "note": "Inside the bat-clearing window"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Wet winter soils; short freeze spells",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice on freeze nights"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Wet; severe-weather season begins",
+        "earthworkConcrete": "workable",
+        "note": "Tornado-season situational awareness starts; clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying between storm systems; peak severe-weather month",
+        "earthworkConcrete": "favorable",
+        "note": "The April 27, 2011 Tuscaloosa–Birmingham EF4 crossed this metro — spring schedules carry storm-day slack"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Good working ground; storms still active",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; afternoon thunderstorms",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and humid; dry working ground",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete practice on peak afternoons"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; ground typically dry",
+        "earthworkConcrete": "workable",
+        "note": "Morning pour windows preferred"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm, typically drier; good access",
+        "earthworkConcrete": "favorable",
+        "note": "Gulf tropical remnants can deliver multi-day rain events"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Typically the driest stretch of the year; prime earthwork conditions",
+        "earthworkConcrete": "favorable",
+        "note": "Bat-clearing window opens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling, rain returning; secondary severe-weather season",
+        "earthworkConcrete": "favorable",
+        "note": "Central Alabama has a real late-fall tornado season"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Cool and wet; workable between systems",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Birmingham builds year-round — no frost shutdown, no coastal hurricane season — with the same two-season risk shape as the rest of central Alabama. Spring (March–May) is the primary severe-weather season and November brings a genuine secondary one, so those programs carry storm-day slack; fall is the prize, with the driest, most stable ground of the year typically arriving September through November just as the October 1 bat-clearing window opens. Late-summer Gulf tropical remnants are the sleeper risk: a decayed hurricane can park multi-day rain over the metro and put Village Creek out of its banks, which matters for any valley-floor site. Month characterizations follow the regional climate pattern; pull NCEI normals for Birmingham (BHM) before publishing figures as final."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Shallow carbonate rock in the valley floor and sandstone/shale on the ridges make rock excavation a default line on Birmingham sites; pinnacled dolomite drives drilled-pier variance the same way karst does in north Alabama.",
+    "aggregateHaulNote": "Aggregate is a genuinely local commodity here — Vulcan Materials, the nation's largest construction-aggregates producer, is headquartered in Birmingham and the region is quarry-rich; specific haul distances confirmed per site at estimate.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Alabama has no state prevailing wage law. Federal Davis-Bacon applies to federally funded work, including Alabama's BEAD builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "No winter shutdown premium; seasonal items are spring severe-weather slack, tropical-remnant rain risk in late summer, and hot-weather concrete practice in July–August.",
+    "narrative": "Birmingham prices around what is under the site. Mine screening is the distinctive line: parcels over legacy workings carry investigation cost up front and, where voids or shallow cover turn up, grouting or redesign — money that flatland markets never budget and that Birmingham projects cannot skip. Karst stacks a cavity contingency on valley-floor carbonates, and rock rates apply broadly whether the dig is dolomite or Pottsville sandstone. The offsets are real too: aggregate and ready-mix are abundant local buys in the city where Vulcan Materials is headquartered, and there is no winter season to price. As a Band B market served from Dallas at roughly 640 road miles, mobilization is a program line item — crews deploy for scope duration with in-market material supply. Compliance adds the state GC license at $100,000 and Davis-Bacon on federally funded scopes. Drivers, not prices: every site here prices to its mine map, its borings, and its flood zone."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Alabama requires a state general contractor license for commercial or industrial construction — expressly including site work, grading, and paving — where the undertaking costs $100,000 or more (Ala. Code §34-8-1, threshold raised from $50,000 by Act 2024-277 effective October 1, 2024). Subcontractors need their own license at the same threshold, and licenses carry classifications and bid limits that must match the work. Municipal business licensing applies separately in Birmingham and each suburb.",
+    "additionalRegistrations": [
+      "ADEM NPDES Construction General Permit ALR100000 registration (NOI + QCP-certified CBMPP) at one acre of disturbance",
+      "Alabama 811 compliance — two-working-day locate notice"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "flood",
+      "ice storm"
+    ],
+    "designImplications": "Two documented hazards shape Birmingham builds. Tornado: the April 27, 2011 super outbreak's Tuscaloosa–Birmingham EF4 crossed the metro at up to 190 mph and 1.5 miles wide — anchorage, uplift detailing, and standby power sized for multi-day outages are earned lessons here, not conservatism. Flood: Village Creek's floodplain is roughly half the city's mapped flood hazard area, with a 50-year record of repeated flooding and one of the nation's larger buyout programs, so valley-floor site selection starts with the FIRM and compound drainage is designed, not assumed. Occasional ice storms reinforce the standby-power case. Numeric wind speeds publish only after the ASCE Hazard Tool query.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Alabama BEAD final proposal approved — $460M across 63 projects",
+        "detail": "Alabama's $1.4B BEAD allocation reached final-proposal approval in March 2026, awarding $460 million to 63 projects reaching 101,000+ locations statewide, roughly 75% wired — subgrantee construction now ramps, with Jefferson County-area award detail pending publication.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+        "asOf": "2026-03-23"
+      },
+      {
+        "headline": "DC BLOX grows its Birmingham Tier III facility",
+        "detail": "DC BLOX's carrier-neutral Birmingham data center — the state's only Uptime Tier III-certified multi-tenant facility, built on the Trinity Park brownfield — has expanded capacity (including a 1MW power addition) and anchors metro interconnection with cross-connects to AT&T, Charter, Cogent, Zayo, and others.",
+        "category": "data center",
+        "sourceUrl": "https://www.dcblox.com/dc-blox-expands-birmingham-al-data-center-1mw-power/",
+        "asOf": "2025"
+      },
+      {
+        "headline": "Meta builds an $800M data center 90 miles south in Montgomery",
+        "detail": "Meta's next-generation $800 million Montgomery data center — announced May 2024 — is the nearest hyperscale campus to Birmingham and signals Alabama's arrival on the data center map; regional supply chains and heavy-civil crews overlap with the Birmingham market.",
+        "category": "data center",
+        "sourceUrl": "https://www.madeinalabama.com/2024/05/meta-plans-to-build-800-million-next-generation-data-center-in-montgomery/",
+        "asOf": "2024-05"
+      },
+      {
+        "headline": "Village Creek floodplain restoration lands $2.6M in federal funding",
+        "detail": "Birmingham secured $2.6 million toward Village Creek floodplain restoration in 2026 — the latest chapter in a decades-long program that has already removed 700+ structures — which will keep reshaping where and how valley-floor utility corridors get built.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://yellowhammernews.com/britt-secures-2-6-million-for-birminghams-village-creek-floodplain-restoration/",
+        "asOf": "2026-07"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "service lateral to hut"
+      ],
+      "narrative": "Birmingham fiber civil is crossroads work with a subsurface asterisk. Four interstates — I-20, I-59, I-65, I-22 — converge on the metro, making it a natural waypoint between Atlanta, Nashville, Memphis, and the Gulf, and AT&T's legacy metro plant plus the carrier set interconnecting at DC BLOX keep lateral and duct-bank work moving. The asterisk is what the bore hits: valley-floor routes bore pinnacled carbonate and, near legacy workings, cross ground the state's mine-map repository flags — a utility-scale HDD shot through undermined ground is a risk decision, not a routine one. Rail crossings are a schedule driver in a metro where NS's Norris Yard and CSX's Boyles Yard anchor heavy traffic; railroad agreements start early or the route waits. Village Creek's regulated floodplain — roughly half the city's flood hazard area — shapes valley alignments, and Alabama's $460 million in approved BEAD awards adds subsidized construction in the surrounding counties.",
+      "localSpecificsReferenced": [
+        "I-20/I-59/I-65/I-22 convergence",
+        "NS Norris Yard / CSX Boyles Yard crossings",
+        "Abandoned-mine ground on bore paths (ADOL mine map repository)",
+        "Village Creek floodplain",
+        "Alabama BEAD $460M (March 2026)"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Birmingham is a terrain problem stacked on a subsurface problem. The metro's ridge-and-valley grain — Red Mountain and its siblings — puts prime RF real estate on steep, rocky ridge lines where access roads, crane positions, and rock excavation drive compound cost, while valley sites trade slope for mine-void and karst screening before a pier is priced. The load history is earned: the April 27, 2011 Tuscaloosa–Birmingham EF4 crossed this metro at up to 190 mph, and compounds here get anchorage and standby-power detailing that assumes multi-day outages. Demand has a distinctive anchor in UAB — the state's largest employer, whose medical campus drives DAS, small-cell, and private-network civil across the city center — alongside carrier densification in a five-interstate metro. Clearing schedules respect the October-to-March bat window, and Village Creek floodplain rules the low ground.",
+      "localSpecificsReferenced": [
+        "Red Mountain ridge terrain",
+        "April 27, 2011 Tuscaloosa–Birmingham EF4",
+        "UAB medical campus network demand",
+        "Mine-void screening for valley compounds"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Birmingham's edge story is interconnection-led rather than hyperscale-led, and honestly told: the metro has no hyperscale campus, but DC BLOX's Tier III, carrier-neutral facility — the only Uptime-certified multi-tenant data center in Alabama, built on the 27-acre Trinity Park brownfield — gives the state its carrier hotel, and edge demand aggregates around it, around UAB's medical-computing footprint, and around a logistics corridor where four interstates and two Class I railroads meet. Alabama Power, headquartered downtown, is the service counterparty for utility yards and generator pads, with Spire Alabama supplying gas where standby generation wants it. The civil constants are Birmingham's own: brownfield and legacy-industrial parcels reward early environmental and mine-map screening, and a micro-DC pad over undermined or karstic ground is exactly where the investigation budget earns its keep. Meta's $800 million Montgomery campus, 90 miles south, is the nearest hyperscale gravity.",
+      "localSpecificsReferenced": [
+        "DC BLOX BHM1 / Trinity Park brownfield",
+        "Alabama Power headquarters market",
+        "UAB computing footprint",
+        "Meta Montgomery ($800M) regional pull"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 638,
+      "driveTimeHours": 10.0,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Jefferson",
+      "Shelby",
+      "St. Clair",
+      "Blount",
+      "Walker"
+    ],
+    "stagingApproach": "Project-based staging in the Birmingham metro for the duration of a scope: equipment and materials stage at or near the work, with laydown sourced per program in the metro's industrial corridors, rather than cycling to the yard. Draft pending ops confirmation.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from Birmingham-area suppliers rather than hauling from the yard — at roughly 640 road miles nothing else pencils, and this is one of the easiest aggregate markets in the footprint to buy in, with Vulcan Materials headquartered in the city and a deep regional quarry base. Supplier lineup confirmed at estimate; draft pending ops confirmation.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Birmingham is a deployment market and the page says so: crews mobilize from the Dallas yard essentially straight down I-20 — roughly 640 road miles — and stay for the duration of a program rather than commuting. The work that suits this model is the work Birmingham actually generates: multi-site carrier programs, BEAD-corridor builds, and campus scopes that batch efficiently from one mobilization, delivered with consistent crews and QA/QC under a single contract instead of a patchwork of local subs, with staging and material supply arranged in-market. What the model does not support is a response-time pitch — at this range a speed claim loses to any local contractor and reads as dishonest to the construction managers who award this work. Mobilization lead times and scheduling are quoted per program after ops review.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How do abandoned mines affect telecom construction in Birmingham?",
+      "answer": "They are the market's defining foundation risk. The steel era left abandoned underground coal and iron-ore workings beneath parts of the metro — inventoried in the Alabama Department of Labor's mine map repository — and pre-1977 workings still produce subsidence that the state's Abandoned Mine Land program remediates. We screen every parcel against the mine maps before design; where workings are indicated, targeted borings decide between grouting, redesign, or relocation.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who issues building permits for a shelter or hut site in Birmingham?",
+      "answer": "Inside city limits, the City of Birmingham's Department of Planning, Engineering & Permits, under the Technical Code of the City of Birmingham — built on the 2015 international code family with local amendments per the city's Municode ordinance. The metro is a patchwork, though: Hoover, Vestavia Hills, Homewood, and the other suburbs are separate AHJs with their own code editions and fees, so confirm jurisdiction before design, not after.",
+      "segment": "general"
+    },
+    {
+      "question": "What does Village Creek mean for site selection in Birmingham?",
+      "answer": "Treat its corridor as regulated ground from day one. Village Creek runs 44 miles through Birmingham and Jefferson County, has flooded surrounding neighborhoods repeatedly for over 50 years, drove a buyout program that removed more than 700 structures, and its floodplain accounts for roughly 53% of the city's Special Flood Hazard Area. Valley-floor huts, compounds, and duct routes get checked against the FIRM before any other siting work happens.",
+      "segment": "general"
+    },
+    {
+      "question": "Do I need an Alabama GC license for site work in Birmingham?",
+      "answer": "Yes, at $100,000 or more. The Alabama Licensing Board for General Contractors requires a state license for commercial construction — including site work, grading, and paving — at that threshold, raised from $50,000 by Act 2024-277 effective October 1, 2024. Subcontractors license separately at the same trigger, licenses carry classifications and bid limits, and municipal business licenses apply on top in Birmingham and each suburb.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroads affect fiber routes in Birmingham?",
+      "answer": "Norfolk Southern and CSX above all — NS classifies at Norris Yard and CSX at the L&N-legacy Boyles Yard, and their mainlines thread the valley, so metro fiber alignments cross active heavy-rail corridors more often than in most Southeast markets. Crossing agreements run through each railroad's public-projects or permitting process on timelines that are honestly long; we start railroad coordination at route design, not at construction.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who provides electric and gas service for a compound in Birmingham?",
+      "answer": "Alabama Power — the Southern Company subsidiary headquartered in Birmingham, serving about 1.4 million customers across the southern two-thirds of the state — handles electric service, and Spire Alabama (the former Alagasco) supplies natural gas in the greater Birmingham area for standby generation. Neither publishes new-service lead times for this class of work, so we get written confirmation from both during scoping.",
+      "segment": "edge"
+    },
+    {
+      "question": "How does severe weather shape telecom builds in Birmingham?",
+      "answer": "Around one date: April 27, 2011, when the Tuscaloosa–Birmingham EF4 — up to 190 mph and a mile and a half wide — crossed the metro during an outbreak that put 62 tornadoes across Alabama in a day. Compounds here get serious anchorage and uplift detailing and standby power sized for multi-day outages. Spring (March–May) is the primary severe-weather season with a genuine secondary season in November, and both carry storm-day slack in our schedules.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How does CellSite Solutions serve Birmingham from Dallas?",
+      "answer": "As a deployment market, plainly described: crews mobilize down I-20 — roughly 640 road miles — and stay for a program's duration, with equipment staged in-market and concrete, aggregate, and precast bought locally in a metro where Vulcan Materials is headquartered. That model delivers multi-site programs with one accountable contractor and consistent QA/QC; it does not deliver same-day service calls, and we do not claim it does. Lead times are quoted per program.",
+      "segment": "general"
+    },
+    {
+      "question": "What are boring conditions like in Birmingham's valley floor?",
+      "answer": "Rocky and occasionally booby-trapped. The valley carbonates weather into clayey residuum over pinnacled limestone and dolomite, so HDD shots hit irregular rockhead and price rock tooling by default; ridge routes trade that for Pottsville sandstone and shale. The local wrinkle is legacy mining — a bore path through ground flagged in the state mine-map repository needs the void question answered first, because undermined ground and karst present alike at the surface and fail differently underground.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Mine maps before borings: sequencing investigation in Birmingham",
+    "body": "The Birmingham-specific judgment call is investigation sequencing, and teams from outside the coal fields get it backwards. A standard geotech program — grid borings, bearing values, done — answers the wrong question first here, because the controlling risk on valley parcels is not soil strength but what the steel era left underneath: abandoned coal workings, iron-ore drifts under the Red Mountain flank, and karst voids in the carbonate floor, any of which can sit below the depth a routine boring program ever reaches. The sequence that works costs little and saves much. First, screen the parcel against the Alabama Department of Labor's mine map repository and the AML program's records — a desktop exercise. Second, walk the site reading depressions honestly: undermined ground and karst both make sags, and which one you have changes the fix completely — grout columns and engineered spanning for mine voids, cap grouting or relocation for karst throats. Third, place borings where the screening says the risk is, not on a uniform grid, and carry them deep enough to answer the void question. Only then price foundations. A hut pad that lands on sound ground after a two-day desktop screen is cheap; the same pad discovered to be over a room-and-pillar panel after the concrete order is not. In this market, the mine map is the first geotechnical instrument."
+  },
+  "sources": [
+    {
+      "label": "Travelmath — driving distance Dallas, TX to Birmingham, AL (~638 mi via I-20)",
+      "url": "https://www.travelmath.com/drive-distance/from/Dallas,+TX/to/Birmingham,+AL",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Department of Labor — Abandoned Mine Land Reclamation program",
+      "url": "https://adol.alabama.gov/divisions/inspections/abandoned-mine-land-reclamation/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Department of Labor — Directory of Underground Mine Maps (mine map repository)",
+      "url": "https://adol.alabama.gov/wp-content/uploads/2023/11/Directory_of_Mine_Maps_2013.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Geological Survey of Alabama — sinkhole (karst) hazards",
+      "url": "https://gsa.state.al.us/Scripts/GSAOGB/gsa/geologic/hazardsSinkholes.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Birmingham Code of Ordinances, Title 7 — Technical Code (Municode)",
+      "url": "https://library.municode.com/al/birmingham/codes/code_of_ordinances",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Ala. Code §34-8-1 — GC license threshold ($100,000, Act 2024-277)",
+      "url": "https://law.justia.com/codes/alabama/title-34/chapter-8/article-1/section-34-8-1/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama 811 — excavation notice law",
+      "url": "https://al811.com/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Historical Commission — Section 106 review",
+      "url": "https://ahc.alabama.gov/section106FAQ.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia/Alabama Power — investor-owned Southern Company subsidiary, Birmingham HQ",
+      "url": "https://en.wikipedia.org/wiki/Alabama_Power",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Bhamwiki — Spire Alabama (Alagasco legacy) Birmingham gas service",
+      "url": "https://www.bhamwiki.com/w/Spire",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DC BLOX — Birmingham data center (Tier III, Trinity Park site)",
+      "url": "https://www.dcblox.com/data-centers/birmingham/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Datacentermap — DC BLOX BHM1 carrier list and facility detail",
+      "url": "https://www.datacentermap.com/usa/alabama/birmingham/dc-blox-bhm-1/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Birmingham — April 27, 2011 Tuscaloosa–Birmingham tornado event page",
+      "url": "https://www.weather.gov/BMX/event_04272011tuscbirm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Flood Science Center — Birmingham buyout program / Village Creek (53% of SFHA)",
+      "url": "https://floodsciencecenter.org/products/crs-community-resilience/success-stories/birmingham-alabama/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "FEMA — acquisition successes in Birmingham (Village Creek buyouts)",
+      "url": "https://www.fema.gov/case-study/acquisition-evaluation-and-analysis-acquisition-successes-birmingham",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Bhamwiki — Boyles Yard (CSX classification yard)",
+      "url": "https://www.bhamwiki.com/w/Boyles_Yard",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor Ivey — Alabama BEAD final proposal approval ($460M, March 2026)",
+      "url": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Made in Alabama — Meta's $800M Montgomery data center announcement",
+      "url": "https://www.madeinalabama.com/2024/05/meta-plans-to-build-800-million-next-generation-data-center-in-montgomery/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Census Bureau — QuickFacts, Birmingham city, Alabama",
+      "url": "https://www.census.gov/quickfacts/fact/table/birminghamcityalabama/PST045224",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Route calculators cluster at ~638 mi Dallas–Birmingham via I-20 (drive-time estimates spread ~9.7–10.4 h); 638 mi / 10.0 h recorded as the working figure with routeVerified false until ops runs real routing. Seed's 684 was a straight-line-derived estimate."
+    },
+    {
+      "field": "designCriteria — wind, snow, ice, seismic, frost, design temperatures",
+      "attempted": "ASCE Hazard Tool, USGS design-maps, TIA-222 county data, and ASHRAE sources unreachable/non-public from this environment; frost depth additionally requires the Birmingham Technical Code's amended table text, which was not readable. All numeric design values pending."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — current edition check",
+      "attempted": "Municode shows the Technical Code of the City of Birmingham, 2015 (2015 I-code family); whether the city has adopted a newer family since, and the exact electrical code cycle, must be confirmed with Planning, Engineering & Permits before publish."
+    },
+    {
+      "field": "regulatory — ROW permit intake, floodplain administrator, ALDOT district",
+      "attempted": "City ROW permit process details, the floodplain administrator contact, and the ALDOT region/district serving Jefferson County were not confirmed against primary pages."
+    },
+    {
+      "field": "geotech — mine-workings extent mapping, bearing ranges, bedrock/groundwater depths, NRCS soil data",
+      "attempted": "Mine legacy is sourced to ADOL AML and the mine map repository at the program level; parcel-level workings maps, numeric bearing values, and NRCS series/corrosivity data were not pulled. GSA underground-mine GIS (2006–2012 project) is the follow-up source."
+    },
+    {
+      "field": "utilities — Alabama Power new-service process/lead time; AT&T ILEC designation; fiber provider list",
+      "attempted": "Alabama Power new-service documentation not confirmed; FCC ILEC check not run; fiber list is partial (C Spire's Birmingham metro presence was not verified and is omitted rather than guessed)."
+    },
+    {
+      "field": "logistics — NS/CSX crossing permit process links; bridge postings on haul routes",
+      "attempted": "Yard operators sourced (NS Norris, CSX Boyles); each railroad's current crossing-permit portal and county bridge postings on likely shelter-haul approaches not compiled."
+    },
+    {
+      "field": "seasonality — NCEI station normals",
+      "attempted": "Calendar written from regional climate pattern and documented hazard history; pull Birmingham (BHM) normals from NCEI before publishing monthly figures as final."
+    },
+    {
+      "field": "operations — staging and local-supply plans, self-perform split, mobilization lead times",
+      "attempted": "Band B drafts written for ops review per RESEARCH.md; ops and estimating must confirm before the gap clears."
+    },
+    {
+      "field": "compliance.cssQualificationsNote — CSS Alabama GC license",
+      "attempted": "Do not publish until ops provides CSS's Alabama license number, classifications, and bid limit."
+    },
+    {
+      "field": "marketActivity — DC BLOX expansion date precision; Jefferson County BEAD awards",
+      "attempted": "DC BLOX expansion release undated in accessible copy ('2025' approximate); county-level BEAD award lists pending ADECA publication. Recheck quarterly."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires ≥1 real project and 3 images; never invented."
+    }
+  ]
+}
