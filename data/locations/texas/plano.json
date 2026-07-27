@@ -1,0 +1,661 @@
+{
+  "identity": {
+    "slug": "plano",
+    "city": "Plano",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Collin"
+    ],
+    "msa": "Dallas–Fort Worth–Arlington",
+    "tier": 2,
+    "latitude": 33.0198,
+    "longitude": -96.6989,
+    "elevationFt": null,
+    "population": {
+      "value": 285494,
+      "source": "U.S. Census Bureau, 2020 Decennial Census count — QuickFacts unreachable this session; reviewer should confirm the current Vintage estimate before sign-off",
+      "verifiedOn": null
+    },
+    "interstates": [],
+    "majorRoutes": [
+      "US-75 (Central Expressway)",
+      "Sam Rayburn Tollway (SH 121)",
+      "Dallas North Tollway",
+      "President George Bush Turnpike (SH 190)"
+    ]
+  },
+  "metadata": {
+    "title": "Plano, TX Telecom Site Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Plano, TX — hut pads, duct bank, and campus civil for the Legacy data center cluster and Collin County growth corridors.",
+    "h1": "Telecom Site Civil Construction in Plano, Texas",
+    "intro": "Plano's telecom construction market runs on two engines that most suburbs never get: a corporate corridor at Legacy and Legacy West dense enough to anchor Toyota's North American headquarters, a JPMorgan Chase campus, and Liberty Mutual's twin towers, and a working data center cluster — Aligned's DFW-01/DFW-02 campus and headquarters, DataBank's DFW3/DFW8 in Legacy Business Park, and the Skybox Legacy campus. The civil work sits on flat Blackland Prairie upland: high-plasticity Houston Black clay over the Austin Chalk belt, in a city known for exacting development and screening standards. Crews reach Plano from our DFW yard without a mobilization line, handling hut pads, duct bank, node civil, and campus support up the US-75 and tollway grid.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, adopted with Plano amendments by Ordinance No. 2022-1-10, January 24, 2022); the city now also publishes 2024-edition code amendment documents — confirm the current edition before sign-off",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Collin County is low-seismicity; publish Ss/S1 only after a USGS design-maps query at the site coordinates."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Plano occupies flat upland Blackland Prairie in southwestern Collin County — a different setting from the Trinity terraces and river alluvium that complicate sites closer to Dallas. Surface soils are dominated by Houston Black clay and related calcareous Vertisols developed over Upper Cretaceous chalk and marl; the Austin Chalk outcrop belt trends northeast through this part of the county, with Ozan (Taylor) marl eastward. Depth to competent chalk varies across the city and was not verified against BEG geologic atlas mapping this session — treat it as a borings question. (NRCS Official Series Description, Houston Black; regional Upper Cretaceous stratigraphy per the published Dallas-area geology literature.)",
+    "dominantSoilTypes": [
+      "Houston Black clay (Vertisol, very high shrink-swell)",
+      "Austin-series silty clays over chalk",
+      "Ozan/Taylor marl residuum (eastern Plano)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "Houston Black clay — the same smectitic Vertisol that defines the Blackland Prairie — is mapped across Plano's uplands (NRCS OSD). Shrink-swell behavior is severe; publish plasticity figures only from site-specific borings.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No published karst mapping for Collin County surfaced in research; occasional solution features in the Austin Chalk belong to the site-specific geotech scope."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Plano foundation work is an upland clay problem with fewer wildcards than the river-adjacent parts of the metro: no significant alluvium, no terrace deposits, just deep, uniform Houston Black clay whose seasonal moisture cycling governs pad and pier design. Hut and shelter pads get moisture-conditioned subgrade or select fill; where equipment tolerances are tight, drilled piers carried to the chalk take the movement question off the table entirely — with depth to chalk confirmed by borings, since it varies across the city. Frost depth is not the driver here; the local amendment value could not be verified this session and is carried as a gap, but on Blackland clay the embedment that matters is the one that gets below the seasonal moisture active zone. Flat terrain simplifies grading but flattens drainage gradients, so positive compound drainage has to be designed, not assumed — ponding against a pad is how expansive clay gets fed. Site-specific investigation governs every one of these calls."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Plano — Building Inspections Department",
+        "url": null,
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permit portal, contractor registration requirements, and current review times to be confirmed with the department before publish."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 IBC with Plano amendments, adopted by Ordinance No. 2022-1-10 (January 24, 2022); the city's code documents page also lists 2024-edition amendment documents, so a 2024-family adoption may now be in effect — verify before publish",
+      "source": "City of Plano adoption ordinance — https://plano.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=20333&ItemID=10081",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network nodes in the public ROW follow Texas Local Government Code Chapter 284 statewide; Plano administers node placement through its own design standards, and the city's development standards are among the more exacting in the metro — screening, materials, and placement expectations should be scoped before submittal. Confirm the current design manual with the city.",
+    "rowPermitAuthority": {
+      "name": "City of Plano — Engineering Department (right-of-way permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Issuing division, portal, and traffic-control permit requirements to be confirmed with the city before publish."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Dallas District (Collin, Dallas, Denton, Ellis, Kaufman, Navarro, Rockwall counties)",
+      "url": "https://www.txdot.gov/about/districts/dallas-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "US-75 and state-system frontage work requires TxDOT utility permits through RULIS; the tollways (DNT, SH 121, PGBT) are NTTA facilities with their own occupancy process."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI through STEERS e-permitting at 1+ acre of disturbance; small-site and large-site tracks at 1 and 5 acres."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plano permitting is municipal and disciplined: building permits through Building Inspections, ROW work through the city's engineering side, and node submittals against the city's design standards under the Chapter 284 framework. Plan review here rewards complete, code-literate submittals — Plano's reputation for strict development standards is earned, and resubmittal loops cost more schedule than the review clock itself. State-system work on US-75 frontage adds a TxDOT utility permit through RULIS, and crossings of the NTTA tollway network (DNT, SH 121, PGBT) run through NTTA's own occupancy process rather than TxDOT's. Texas811 locates need two business days; TCEQ stormwater coverage through STEERS applies at an acre. Current review durations and portal details are carried as gaps until confirmed with the city."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Oncor Electric Delivery",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Oncor is the transmission and distribution utility for Collin County inside ERCOT's retail-choice market — the customer picks a Retail Electric Provider while Oncor builds and owns the service. New-service lead times to be confirmed with Oncor construction services at scoping. Atmos Energy is the natural gas distribution utility where generator fuel service is relevant."
+      }
+    ],
+    "ilec": "AT&T (Southwestern Bell Telephone) — confirm exchange boundaries at the parcel; ILEC territory in the northern metro is a patchwork with former GTE/Verizon (now Frontier/Verizon) exchanges nearby",
+    "notableFiberProviders": [
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Aligned DFW-01/DFW-02 campus, 2800 Summit Ave (46 MW / ~375,000 sq ft at buildout; Aligned's North American headquarters)",
+      "DataBank DFW3 + DFW8, Legacy Business Park (144,000 sq ft on 16 acres, with attached expansion)",
+      "Skybox Legacy Campus, 6800 Communications Pkwy (50 acres, 100 MW build-to-suit capacity)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": "No major internet exchange sits in Plano itself; Aligned's DFW-01 is carrier-neutral with cloud on-ramps, and the metro's dense interconnection hubs (Equinix Infomart, 2323 Bryan St) are roughly 20 miles south in central Dallas."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No spring frost-law season in Texas — weight limits are year-round engineering-based postings on specific load-zoned roads and bridges. For Plano deliveries the practical constraint is arterial traffic staging, not seasonal postings."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS (Texas Permitting & Routing Optimization System)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Self-issued, auto-routed permits for most shelter and hut loads; NTTA tollway segments on the approach need route planning since TxPROS routes on the state system."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "DART Red Line (downtown Plano / Parker Road corridor)",
+        "crossingPermitNote": "Transit-owned corridor — crossings and adjacent work coordinate through DART, a separate track from freight railroad agreements."
+      },
+      {
+        "name": "DART Silver Line (12th Street and Shiloh Road stations, opened 2025)",
+        "crossingPermitNote": "The former Cotton Belt corridor across east Plano is now an active DART commuter line; verify freight operating rights and the applicable crossing process for the specific segment before design."
+      }
+    ],
+    "urbanRowRequirements": "Plano's arterial grid is fully built out, so ROW work means pavement cuts, bores under landscaped medians, and traffic control on high-volume corridors like Legacy Drive, Spring Creek Parkway, and Preston Road. Restoration is held to the city's standards — scope irrigation and landscape repair explicitly, because Plano's medians and parkways are maintained assets, not rough shoulder."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Schedule vegetation removal outside the general bird nesting season, March 15 – September 15; if unavoidable, pre-construction nesting surveys by a qualified biologist",
+      "driver": "Migratory bird nesting (TPWD guidance under the MBTA); no county-specific USFWS bat clearing window surfaced for Collin County",
+      "source": "TPWD Environmental Review guidance; TxDOT bird compliance guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code of Texas reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (SWF) — CWA Section 404",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Fort Worth District (SWF)",
+    "listedSpeciesNote": "Run a project-specific USFWS IPaC query for Collin County; the tricolored bat's listing status was unresolved at research time and should be re-checked before committing to clearing-window language.",
+    "floodplainPrevalenceNote": "Plano's mapped floodplain follows its creek corridors — Spring Creek, Rowlett Creek, and their tributaries — rather than a major river; most commercial upland sites sit outside it, but creek-adjacent bores and crossings should be screened against the current FEMA panels, and the city's floodplain administrator contact is carried as a gap pending confirmation."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild with occasional hard freezes; ice events possible",
+        "earthworkConcrete": "workable",
+        "note": "Ice storms, not frozen ground, are the winter schedule risk"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild winter; wet clay after fronts",
+        "earthworkConcrete": "workable",
+        "note": "Blackland clay traffics poorly when wet — matting on green sites"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Drying and firm; severe-weather season starts",
+        "earthworkConcrete": "favorable",
+        "note": "Average last freeze at DFW is March 12; nesting-season window opens mid-month"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good working ground; peak hail exposure",
+        "earthworkConcrete": "favorable",
+        "note": "Collin County sits squarely in the metro's spring hail alley"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable between heavy-rain events",
+        "earthworkConcrete": "favorable",
+        "note": "Severe-weather day contingency earns its keep"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot, drying; clay shrinkage cycle begins",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Extreme heat; DFW averages roughly 19 days at 100°F+ per year, concentrated now",
+        "earthworkConcrete": "constrained",
+        "note": "Morning pour windows, hot-weather concrete practice"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat and maximum clay shrinkage",
+        "earthworkConcrete": "constrained",
+        "note": "Moisture-condition pad subgrades before placement"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat breaking; conditions improve steadily",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime construction weather",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; average first freeze at DFW is November 22",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild winter; occasional freeze or ice event",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "The Plano construction year is a heat-and-hail calendar, not a frost calendar. Concrete goes in twelve months a year; what changes is discipline — July and August push pours into morning windows with hot-weather practice while the Blackland clay reaches maximum shrinkage, and April–May hail and severe-weather days deserve real schedule contingency, since this corner of Collin County catches some of the metro's heaviest hail. Winter's disruptive event is the occasional ice storm, not frozen ground: DFW's average freeze window is only November 22 to March 12. Wet-weather clay handling is the year-round constant — Houston Black turns to gumbo after rain and punishes rutted sites. Verify the table against the NWS Fort Worth/Dallas station normals before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "The Austin Chalk belt runs under this part of Collin County at variable depth; trench and drilled-shaft refusal is a live possibility that the borings settle, and where chalk is shallow it doubles as an excellent pier bearing stratum.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Texas Government Code Chapter 2258 applies prevailing wage to state and locally funded public works; federal Davis-Bacon attaches to federally funded scopes over $2,000, including BEAD-funded broadband work. Most Plano corporate and data center work is private and carries neither.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hot-weather concreting premiums run roughly July–August; spring severe-weather contingency and post-hail repair exposure are the other seasonal items. Winter protection costs are minor and episodic.",
+    "narrative": "What moves a Plano number is clay, chalk, and the standard of finish. Expansive-soil measures — select fill, moisture conditioning, piers to rock — are the baseline geotechnical cost, and depth to chalk decides whether excavation gets harder or foundations get cheaper. The less obvious driver is restoration: Plano's corridors are landscaped, irrigated, and closely inspected, so ROW work in Legacy or along Preston Road carries surface-restoration scope that a rural bore never sees. Traffic control on six-lane arterials adds real cost to daytime work; some corridors price better with night or weekend windows. Permit-fee schedules and current review durations are carried as gaps pending confirmation with the city. Working range from our DFW yard keeps mobilization out of the estimate — drivers, not prices, and every site prices to its borings."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas has no statewide general contractor license for this scope — commercial and civil contractor regulation happens at the city level, so Plano's contractor registration and permitting requirements govern locally (confirm current registration requirements with Building Inspections). Statewide trade licensing still applies: electrical work under a TDLR Electrical Contractor license with a Master Electrician of record, plumbing under TSBPE.",
+    "additionalRegistrations": [
+      "City of Plano contractor registration (confirm current requirements with Building Inspections)"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "hail",
+      "tornado",
+      "extreme heat",
+      "ice storm"
+    ],
+    "designImplications": "Spring supercell season puts hail first on the Plano risk list — hardened HVAC, hail guards, and cable protection earn their cost on compounds here — with tornado wind loading close behind. Roughly 19 days a year at 100°F+ shape concrete practice and push shade/ventilation thinking on cabinet siting. Winter ice storms drive generator-runtime and fuel design more than any frost consideration. Publish wind and ice design values only after the ASCE and TIA hazard-tool queries are confirmed for the site.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Aligned operates its flagship DFW campus and headquarters in Plano",
+        "detail": "Aligned Data Centers runs DFW-01/DFW-02 at 2800 Summit Ave — 46 MW and roughly 375,000 sq ft at full buildout — and bases its North American headquarters on the Plano campus, anchoring ongoing retrofit and expansion civil work.",
+        "category": "data center",
+        "sourceUrl": "https://aligneddc.com/dallas-data-centers/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "DataBank's largest Dallas-area facility sits in Legacy Business Park",
+        "detail": "DataBank's DFW3 — 144,000 sq ft on a 16-acre Legacy Business Park site with dual 2 MW utility feeds — plus the attached DFW8 expansion make Legacy a working colocation cluster, not just an office corridor.",
+        "category": "data center",
+        "sourceUrl": "https://www.alliancearch.com/projects/data-centers/databank-plano/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Skybox markets a 100 MW build-to-suit campus at Legacy",
+        "detail": "Skybox Datacenters' 50-acre Legacy Campus at 6800 Communications Pkwy offers up to 100 MW of build-to-suit hyperscale capacity — a pipeline of pad, duct bank, and utility-yard civil if committed.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenters.com/skybox-legacy-campus",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Texas BEAD construction begins from summer 2026",
+        "detail": "NTIA approved Texas' ~$1.3B BEAD final proposal in November 2025; Collin County's build activity is mostly private-capital rather than subsidy-driven, but the program lifts statewide fiber demand and crew competition.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Plano fiber civil is dense-suburb work: laterals and duct bank feeding the Legacy West corporate campuses — Toyota, JPMorgan Chase, Liberty Mutual — and the Aligned, DataBank, and Skybox data center sites, bored under built-out arterials rather than trenched through open ground. The constraints are specific to this city: everything crosses or parallels the US-75, DNT, SH 121, and PGBT corridors (TxDOT and NTTA processes respectively), the former Cotton Belt corridor across east Plano is now DART's Silver Line and coordinates as active transit trackage, and restoration on Plano's landscaped medians is a scoped cost, not an afterthought. Bore production varies with depth to Austin Chalk, so route-level geotech pays for itself before the drill shows up.",
+      "localSpecificsReferenced": [
+        "Legacy West campuses (Toyota, JPMorgan Chase, Liberty Mutual)",
+        "US-75 / DNT / SH 121 / PGBT corridor crossings (TxDOT + NTTA)",
+        "DART Silver Line (former Cotton Belt) corridor",
+        "Austin Chalk bore conditions"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "small cell and DAS node civil",
+        "shelter and cabinet pads",
+        "macro compound construction",
+        "ground ring and halo",
+        "C-band / densification upgrade civil",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "generator and fuel containment pads"
+      ],
+      "narrative": "Wireless civil in Plano is densification work in one of the metro's most design-conscious cities. Daytime population swells with the Legacy corridor's office workforce, so capacity builds — node civil, C-band upgrades, cabinet swaps — dominate over greenfield macros. The Chapter 284 framework caps what the city can demand in the ROW, but Plano's screening and materials standards are among the strictest in the metro, and submittals that anticipate them clear faster than ones that argue with them. Pad work sits on Houston Black clay, which means moisture-conditioned subgrade or piers where tolerances are tight, and April hail — this is the metro's hail alley — argues for hardened HVAC and protected cabling on every compound we build here.",
+      "localSpecificsReferenced": [
+        "Plano design/screening standards under Chapter 284",
+        "Legacy corridor daytime-population densification",
+        "Houston Black clay pad conditions",
+        "Collin County hail exposure"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "edge enclosure and micro-DC pads",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Plano's data center story is retrofit and infill, not greenfield hyperscale: Aligned's DFW-01 began life as a 1980s office-and-manufacturing building and was converted and expanded in place, DataBank's DFW3/DFW8 grew inside Legacy Business Park, and Skybox holds 50 acres at Legacy for up to 100 MW of build-to-suit. That mix produces exactly our scope — generator yards and transformer pads threaded into operating campuses, saw-cut duct bank across live parking fields, security and bollard work, and utility-yard expansions coordinated with Oncor inside ERCOT's retail-choice structure, with Atmos gas where fuel service applies. Working around live white space rewards a civil crew that treats vibration, dust, and outage windows as first-order constraints rather than surprises.",
+      "localSpecificsReferenced": [
+        "Aligned DFW-01/DFW-02 retrofit campus",
+        "DataBank DFW3/DFW8 in Legacy Business Park",
+        "Skybox Legacy 100 MW build-to-suit site",
+        "Oncor / ERCOT service structure"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 21,
+      "driveTimeHours": 0.4,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Collin",
+      "Denton"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Plano sits inside the DFW yard's everyday working footprint — roughly twenty road miles up the US-75/tollway grid on the current straight-line estimate, to be replaced with verified routing once the yard address is finalized by ownership. In practice that means Plano work is scheduled like local work: crews and equipment roll from the yard for single-day scopes, there is no mobilization line on a Plano estimate, and a punch-list return trip doesn't wreck the budget. The practical variables are Plano's own — arterial traffic windows, lane-closure timing on the Legacy corridor, and school-zone hours — rather than distance. Emergency and storm-response commitments are published only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who are the major data center operators in Plano, and what civil work do their sites generate?",
+      "answer": "Aligned runs its DFW-01/DFW-02 campus and North American headquarters at 2800 Summit Ave, DataBank operates DFW3 with the attached DFW8 expansion in Legacy Business Park, and Skybox holds a 50-acre, 100 MW build-to-suit campus at Legacy. Because most of this is retrofit and infill capacity, the civil work skews toward generator yards, transformer pads, campus duct bank, and security hardening inside operating facilities.",
+      "segment": "edge"
+    },
+    {
+      "question": "How deep does a fiber hut foundation need to be in Plano?",
+      "answer": "Deep enough to get below the clay's seasonal moisture zone — that's the governing condition, not frost. Plano's amended frost-line value is carried as an open gap until we verify the city's code amendment, but on Houston Black clay the design conversation is select fill or moisture conditioning versus piers to the Austin Chalk, set by borings, not by a frost table.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What makes Plano's permitting different from other DFW cities?",
+      "answer": "The standard of review. Plano's development and design standards are among the strictest in the metro — screening, materials, landscape restoration — and the city inspects to them. Node work in the ROW follows the statewide Chapter 284 framework through Plano's design standards. Complete, code-literate submittals move; resubmittal loops are where schedules die here.",
+      "segment": "general"
+    },
+    {
+      "question": "Which agencies control utility crossings of US-75 and the tollways in Plano?",
+      "answer": "Two different ones. US-75 is state system, so utility occupancy runs through TxDOT's Dallas District via the RULIS permitting system. The Dallas North Tollway, Sam Rayburn Tollway (SH 121), and President George Bush Turnpike are NTTA facilities with their own occupancy and crossing process — budget them as separate permit tracks with separate clocks.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does the DART Silver Line affect fiber routes through Plano?",
+      "answer": "Yes. The former Cotton Belt freight corridor across east Plano now carries DART Silver Line commuter service, with stations at 12th Street and Shiloh Road. Crossings and parallel work coordinate with DART as active transit trackage — a different process and timeline than a dormant freight easement, so verify the applicable agreement early in route design.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Plano in January?",
+      "answer": "Almost always. DFW's average freeze window runs November 22 to March 12, but sustained frozen ground is rare — winter pours proceed with cold-weather protection on freeze nights. The bigger January risk is an ice storm shutting down travel for a day or two. Wet Blackland clay after winter fronts is the real site-condition constraint, and matting handles it.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How much notice do you need for utility locates in Plano?",
+      "answer": "Texas811 requires at least two business days before digging, and we build that into every bore and trench schedule. On Plano routes the longer clocks are usually elsewhere: NTTA or TxDOT crossing permits, DART corridor coordination, and city ROW and traffic-control approvals. Locates are rarely the critical path — the permit stack is.",
+      "segment": "general"
+    },
+    {
+      "question": "What drives hail risk planning for cell site compounds in Plano?",
+      "answer": "Collin County sits in the metro's spring hail alley, with April–May the peak exposure. On compounds that means hardened or guarded HVAC units, protected cable runs, and equipment layouts that don't leave soft components facing open sky. It also means schedule contingency: a spring hail day stops exterior work, and post-storm restoration demand can tighten crew availability metro-wide.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Is Plano telecom work exposed to prevailing wage requirements?",
+      "answer": "Usually not. Most Plano work — corporate campus connectivity, data center civil, carrier densification — is privately funded, carrying neither federal Davis-Bacon nor Texas Chapter 2258 prevailing wage. Those attach when public money enters: Chapter 2258 on state or locally funded public works, Davis-Bacon on federally funded scopes over $2,000, including BEAD-funded broadband builds elsewhere in the state.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Bore or open-cut? Routing duct bank through built-out Plano",
+    "body": "In Plano the trench-versus-bore decision is less about unit cost and more about what the corridor will let you do. Open-cut is cheaper per foot in theory, but Plano's arterials are landscaped, irrigated, signal-dense, and closely inspected — surface restoration to city standards plus traffic control on a six-lane section can erase the trenching advantage before the first joint of conduit goes in. Directional bores keep the surface intact and the inspectors happy, but they inherit the geology: Houston Black clay drills easily while the Austin Chalk below it changes tooling, production rate, and mud management, and chalk depth varies across the city. So the sequence that works here is corridor-first, geology-second. Price the restoration and traffic-control load on the open-cut option honestly — in Legacy and along Preston Road it is usually decisive by itself. Then put route-level geotech ahead of the bore plan, because a bore priced for clay that finds chalk at depth is a change order, while a bore planned for chalk can steer shallow or adjust tooling from day one. Short crossings of medians and irrigated parkways bore almost every time; long runs in easements with forgiving surfaces are where open-cut still earns its keep. Site specifics govern — this is the judgment call, not a rule."
+  },
+  "sources": [
+    {
+      "label": "City of Plano — Ordinance No. 2022-1-10 adopting the 2021 IBC with amendments",
+      "url": "https://plano.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=20333&ItemID=10081",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Plano — 2021 International Building Code amendments (code documents page)",
+      "url": "https://content.civicplus.com/api/assets/tx-plano/ae7ac02a-fa04-4d69-9a36-5b242964e9c8",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Aligned Data Centers — Dallas (Plano) campus",
+      "url": "https://aligneddc.com/dallas-data-centers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alliance Architects — DataBank DFW3, Legacy Business Park, Plano",
+      "url": "https://www.alliancearch.com/projects/data-centers/databank-plano/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Skybox Datacenters — Legacy Campus, Plano",
+      "url": "https://www.datacenters.com/skybox-legacy-campus",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Data Center Dynamics — Skybox 100 MW build-to-suit campus in Plano",
+      "url": "https://www.datacenterdynamics.com/en/news/skybox-offering-100mw-build-to-suit-campus-in-plano-texas/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ULI Urban Land — Legacy West corporate headquarters (Toyota, JPMorgan Chase, Liberty Mutual)",
+      "url": "https://urbanland.uli.org/development-business/legacy-west-whats-drawing-corporate-headquarters-plano-texas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDC — JPMorgan Chase campus at Legacy West",
+      "url": "https://kdc.com/news/kdc-tops-out-phase-ii-of-jpmorgan-chases-campus-at-legacy-west",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Houston Black clay",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/H/HOUSTON.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — advance notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Dallas District",
+      "url": "https://www.txdot.gov/about/districts/dallas-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDMV — oversize/overweight permits (TxPROS)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Local Government Code Chapter 284 (network nodes)",
+      "url": "https://texas.public.law/statutes/tex._local_gov%27t_code_title_9_subtitle_a_chapter_284",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Fort Worth/Dallas — DFW records and normals (freeze and 100°F statistics)",
+      "url": "https://www.weather.gov/fwd/dfw_records_normals",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "identity.population / elevationFt",
+      "attempted": "Census QuickFacts and Wikipedia both unreachable through the egress proxy (403). 2020 decennial count carried from research notes; confirm the current vintage estimate and elevation before sign-off."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — current edition",
+      "attempted": "Ordinance 2022-1-10 (2021 IBC, Jan 24 2022) confirmed via agenda attachment; the city's code page also lists 2024-edition amendment PDFs, suggesting a newer adoption. CivicPlus asset fetches blocked — confirm the in-force edition and ordinance with Building Inspections."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Only a contractor-blog value (10 in.) surfaced, which RESEARCH.md prohibits using. The amended Table R301.2 cell in Plano's IRC amendments PDF could not be fetched (403). Null until read from the city amendment."
+    },
+    {
+      "field": "designCriteria — wind, snow, ice, seismic, design temps",
+      "attempted": "ASCE Hazard Tool, USGS design maps, and TIA-222 county data all unreachable through the egress proxy; same blocks documented on the Dallas fixture. Query at site coordinates before publish."
+    },
+    {
+      "field": "regulatory.buildingAHJs / rowPermitAuthority — portals, phones, review times",
+      "attempted": "plano.gov and CivicPlus pages returned 403 through the proxy. Department names carried at low resolution; confirm divisions, portals, and current review durations with the city."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain administrator contact not verifiable this session; creek-corridor floodplain description from FEMA-mapped creek geography, panel review pending."
+    },
+    {
+      "field": "geotech — depth to chalk, bearing range, groundwater, corrosivity",
+      "attempted": "BEG geologic atlas and NRCS Web Soil Survey interactive unreachable; qualitative Blackland/Austin Chalk description only, from the Houston Black OSD and regional literature. Numerics await site borings or verified mapping."
+    },
+    {
+      "field": "utilities — Oncor new-service process/lead times; competitive fiber list; ILEC exchange boundary",
+      "attempted": "oncor.com unfetchable; fiber-provider footprints (AT&T Fiber confirmed presence only) and the SWBT/former-GTE exchange boundary need provider-map verification."
+    },
+    {
+      "field": "logistics.railroads — freight rights on DART-owned corridors",
+      "attempted": "Whether short-line freight (e.g., DGNO) retains operating windows on the Red Line and Silver Line corridors through Plano was not verifiable; confirm the operating agreement for any specific crossing."
+    },
+    {
+      "field": "wirelessFacilityOrdinanceNote — current Plano node design manual",
+      "attempted": "The city's Chapter 284 design manual could not be fetched; 'strict standards' characterization needs the current manual cited before publish."
+    },
+    {
+      "field": "seasonality — full 1991–2020 station normals",
+      "attempted": "weather.gov pages 403 through proxy; calendar authored from confirmed DFW freeze/100°F statistics. Check the station table before publication."
+    },
+    {
+      "field": "operations — routeVerified, countiesServed, emergency response",
+      "attempted": "Road miles are the seed straight-line estimate pending the final DFW yard address (ownership decision); counties list and any response commitment require ops sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires at least 1 project and 3 images; never invented."
+    }
+  ]
+}

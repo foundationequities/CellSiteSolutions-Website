@@ -1,0 +1,696 @@
+{
+  "identity": {
+    "slug": "mobile",
+    "city": "Mobile",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "stateAbbr": "AL",
+    "counties": [
+      "Mobile"
+    ],
+    "msa": "Mobile, AL (Mobile County)",
+    "tier": 2,
+    "latitude": 30.6954,
+    "longitude": -88.0399,
+    "elevationFt": 10,
+    "population": {
+      "value": 187041,
+      "source": "2020 U.S. Census figure as republished on the city's Wikipedia entry; confirm against Census QuickFacts before publish",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-10",
+      "I-65",
+      "I-165"
+    ],
+    "majorRoutes": [
+      "US-90/98 (Bankhead Tunnel / Battleship Parkway)",
+      "US-45",
+      "US-43"
+    ]
+  },
+  "metadata": {
+    "title": "Mobile AL Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Mobile, AL — hurricane-conscious compound work, high-water-table foundations, and port-corridor fiber, wireless, and edge builds.",
+    "h1": "Telecom Site Civil Construction in Mobile, Alabama",
+    "intro": "Two facts organize every civil scope in Mobile: the Gulf and the ground. Alabama's only seaport city carries real hurricane exposure — Katrina put 11 feet of water in downtown, Sally arrived as a Category 2 next door in 2020 — and it sits on deep coastal-plain sediments that run to the Mobile-Tensaw Delta's wetlands, with groundwater close enough to surface that dewatering is a line item, not a surprise. The demand side is industrial: APM Terminals is adding a third container berth, Airbus opened its second A320 assembly line in 2025, and Austal is building a submarine-module plant. CellSite Solutions serves Mobile from our Dallas yard on a project-deployment basis, with local staging and in-market material supply.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "City of Mobile enforces the 2021 IBC with local amendments (effective January 7, 2023), which references ASCE 7-16; confirm any wind-map amendment in the adoption ordinance before design",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Wind, not seismic, governs structural design on the Alabama coast. Mobile County lies in the hurricane-prone region of the Gulf, and sites near the coastline may fall inside the IBC wind-borne debris region — that determination, and the numeric Ss/S1 and wind-speed values, must come from a USGS/ASCE hazard query at the site coordinates before publication."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Mobile occupies the low-lying western shore of Mobile Bay on deep, unconsolidated Gulf Coastal Plain sediments — Quaternary alluvial, deltaic, and estuarine deposits at the mouth of the Mobile River Basin, which drains most of Alabama and delivers heavy sediment loads into the Mobile-Tensaw Delta immediately north and east of the city. Delta-margin and bayfront ground is characterized by saturated fine-grained soils, organic backswamp deposits between natural levees, and a shallow water table; no bedrock occurs within engineering depth. (Geology of the Lower Mobile River Basin; Encyclopedia of Alabama, Mobile-Tensaw Delta.)",
+    "dominantSoilTypes": [
+      "Alluvial and estuarine sands, silts, and clays (bayfront and river-margin sites)",
+      "Organic and continuously saturated backswamp soils (delta-margin sites)",
+      "Sandy coastal-plain terrace soils (upland sites west of downtown)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Shrink-swell behavior varies across the metro — sandy terrace soils west of downtown behave very differently from fine-grained bayfront deposits — and no NRCS linear-extensibility query was completed. Treat expansive risk as a boring-level question here; the dominant geotechnical problems in Mobile are water and softness, not clay heave.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Deep unconsolidated coastal-plain sediments; no karst mapping applies to the Mobile metro."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Salt air off Mobile Bay and brackish groundwater near the delta accelerate corrosion of buried steel, ground rings, and reinforcing relative to inland Alabama — corrosion-conscious detailing is standard coastal practice. Numeric NRCS corrosion ratings for the mapped soils were not obtained and should be pulled from Web Soil Survey before publication.",
+    "foundationApproachNarrative": "Foundation design in Mobile starts with water. On bayfront and delta-margin ground the water table can sit near the surface, so excavations plan for dewatering, uplift on below-grade structures gets checked, and soft saturated fines push heavier structures onto deep foundations — driven piles or drilled elements carried to competent bearing, since there is no rock to refuse on. On the sandy terrace uplands west of downtown, conventional spread footings and slab pads perform well and the problem shifts to compaction control in clean sands. Wind then sets the anchorage: hurricane-zone uplift and overturning govern pad and anchor design long before gravity loads do, and coastal surge zones on the FEMA maps can dictate elevation and foundation type outright. Salt exposure closes the spec — added concrete cover, coated or corrosion-resistant embedments, and marine-grade grounding. Borings and the flood map decide the approach; the design just follows them."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Mobile — Build Mobile (Permitting & Inspection Services)",
+        "url": "https://www.buildmobile.org/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Enforces the 2021 I-codes with local amendments effective January 7, 2023. Published review times not posted — confirm current timelines directly. Unincorporated sites fall to Mobile County's inspection services."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Building Code with City of Mobile local amendments, effective January 7, 2023",
+      "source": "City of Mobile adoption ordinance — https://www.buildmobile.org/uploads/2021IBCLocalAmendmentEffectiveJanuary72023.pdf",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Mobile (engineering/ROW) inside city limits; ALDOT district permit office for state-route ROW; Mobile County Engineering for county roads",
+      "url": "https://www.dot.state.al.us/business/permits/index.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ALDOT requires a permit for any work on state right-of-way, applied through the local district office under the ALDOT Utility Manual."
+    },
+    "stateDotDistrict": {
+      "name": "ALDOT Southwest Region (Mobile area office)",
+      "url": "https://www.dot.state.al.us/business/permits/index.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Alabama 811",
+      "url": "https://al811.com/law/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Ala. Code § 37-15-4: notice at least two but not more than ten working days before excavation, not counting the day of notification; a ticket is valid for 20 working days from the proposed start date.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "ADEM — NPDES Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Requires an annual Notice of Registration plus a per-project NOI, with a Construction Best Management Practices Plan prepared by a Qualified Credentialed Professional."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Mobile floodplain administration (via Build Mobile / city engineering)",
+      "url": "https://www.buildmobile.org/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Coastal surge zones along Mobile Bay and the rivers carry mapped flood hazard, including coastal high-hazard areas; pull the current FIRM panel per site before design."
+    },
+    "permitTimelineNarrative": "Mobile permitting stacks a coastal layer on top of the standard Alabama sequence. Building permits run through Build Mobile under the 2021 codes with the city's January 2023 amendments, and mapped flood zones — common near the bay, the rivers, and the delta margin — add floodplain review that can dictate foundation elevation. Anything touching wetlands or waters near the Mobile-Tensaw Delta goes to the USACE Mobile District, whose regulatory office is headquartered in this city, with ADEM handling water-quality certification. The ADEM construction stormwater permit (ALR100000) applies at one acre of disturbance and requires a QCP-prepared BMP plan with the NOI, Alabama 811 wants two working days on locates, and ALDOT district permits cover any work on state-route right-of-way."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Alabama Power",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.alabamapower.com/business/business-customers-and-services/builders-developers.html",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Southern Company operating utility serving the southern two-thirds of Alabama, including the Mobile metro. Builders can apply for service up to 45 days ahead; published lead times for new commercial services are not posted — confirm per project. Spire Alabama distributes natural gas in the metro (legacy Mobile Gas territory) where generator fuel is piped."
+      }
+    ],
+    "ilec": "AT&T Alabama (BellSouth legacy; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Uniti Fiber / Southern Light (regional fiber operator founded and headquartered in Mobile)",
+      "C Spire (former Harbor Communications footprint in Mobile and Baldwin counties)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "Mobile is a genuine regional fiber hub for the upper Gulf Coast: Southern Light built its Gulf Coast network from Mobile before its 2017 acquisition by Uniti, and C Spire completed a 225-mile Gulf Coast fiber route in 2021 that ties its Mississippi network into Mobile and Baldwin counties.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Alabama posts no spring-thaw frost laws; weight limits are year-round engineering-based postings on individual bridges and county roads."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "ALDOT Maintenance Bureau — Permits & Operations Section",
+      "url": "https://www.dot.state.al.us/maweb/permitsoperations.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "bridgeOrClearanceConstraints": "The Mobile River crossings are the constraint: I-10 runs through the George Wallace Tunnel and US-90/98 through the Bankhead Tunnel, both of which carry clearance and cargo restrictions, so oversize and restricted loads route over the Cochrane–Africatown USA Bridge north of downtown. Verify current tunnel restrictions with ALDOT when planning shelter or hut hauls across the river.",
+    "railroads": [
+      {
+        "name": "CSX Transportation",
+        "crossingPermitNote": "One of five Class I railroads with access to the Port of Mobile — the densest Class I convergence in the CSS footprint."
+      },
+      {
+        "name": "Norfolk Southern",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Canadian National",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "CPKC (former Kansas City Southern)",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Terminal Railway Alabama State Docks (TASD)",
+        "crossingPermitNote": "Port-owned switching railroad connecting every terminal at the Port of Mobile; engage early on any alignment near the docks — crossing agreements, not construction, set those schedules."
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Alabama Historical Commission (SHPO)",
+      "url": "https://ahc.alabama.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 review applies to federally funded work, including BEAD-funded builds; Mobile's colonial-era downtown makes cultural resources a live issue on urban routes."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Mobile District (SAM) — Regulatory Division",
+      "url": "https://www.sam.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The district is headquartered in Mobile itself; ADEM issues the state 401 water-quality certification."
+    },
+    "usaceDistrict": "Mobile District (SAM)",
+    "listedSpeciesNote": "Coastal Mobile County is not gray-bat or Indiana-bat cave country — those constraints belong to north Alabama — but the endangered northern long-eared bat is listed statewide, so tree clearing gets a project-level IPaC screen rather than a blanket calendar window. The USFWS Alabama Ecological Services Field Office sits just across the bay in Daphne (251-441-5181), which makes early coordination unusually easy here. Delta-margin and shoreline work should expect wetland and aquatic-species scrutiny before any ground disturbance.",
+    "floodplainPrevalenceNote": "Flood exposure is coastal and riverine at once: Katrina's surge put roughly 11 feet of water in downtown Mobile in 2005, surge reached about 12 feet at the USS Alabama on the causeway, and mapped flood zones cover the bayfront, the river corridors, and the delta margin. The FIRM panel is the first document pulled on any Mobile site."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild, damp; no frost constraint on excavation or concrete",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild; winter rain keeps low-lying ground soft",
+        "earthworkConcrete": "workable",
+        "note": "Dewatering plans matter most on delta-margin sites in the wet season"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming; spring rains and severe-weather days",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Warm and drying; strong working month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Hot; good ground before summer storm pattern sets in",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot and humid; daily convective storms begin; hurricane season opens June 1",
+        "earthworkConcrete": "workable",
+        "note": "Storm-watch contingency begins"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak heat and frequent afternoon thunderstorms",
+        "earthworkConcrete": "constrained",
+        "note": "Morning pour windows; lightning stand-downs are routine"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot, wet, and stormy; hurricane season building",
+        "earthworkConcrete": "constrained",
+        "note": "Site-securing plans required for every open excavation"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Statistical peak of hurricane season on the central Gulf",
+        "earthworkConcrete": "constrained",
+        "note": "Sally made landfall next door as a Category 2 in September 2020"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Storm risk easing; drier, cooler working ground",
+        "earthworkConcrete": "favorable",
+        "note": "Hurricane season runs through November 30"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild and comparatively dry; prime conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild; occasional cold rain, no frost penalty",
+        "earthworkConcrete": "favorable",
+        "note": null
+      }
+    ],
+    "narrative": "Mobile builds year-round — there is no frost season — but the calendar bends around two things: rain and the tropics. This is one of the wettest metros in the country, and the wet arrives differently by season: frontal winter rain that keeps delta-margin ground saturated, then daily convective storms through the summer that cost pour windows and force lightning stand-downs. June 1 through November 30 is hurricane season, peaking in September, and every coastal project carries a written securing-and-demobilization plan as a schedule line item, not an afterthought. The best sustained production windows are October–November and April–May. Confirm the month-by-month figures against NOAA normals for the Mobile station before publishing them as final."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Deep unconsolidated coastal-plain sediments — rock excavation is essentially absent from telecom scopes in the Mobile metro.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Spoil from saturated or organic delta-margin ground may be unsuitable for reuse and can carry handling cost; plan disposal at estimate rather than in the field.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Alabama has no state prevailing wage law; federal Davis-Bacon rates apply to federally funded work, including BEAD-funded broadband construction.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hurricane-season contingency (June–November, peaking September) and summer heat/lightning limits on concrete work are the seasonal items; winter carries no frost premium at all.",
+    "narrative": "Mobile prices around water, wind, and salt rather than rock or frost. Dewatering and soft-ground measures are the first variable — a bayfront or delta-margin site can need well points and select fill where a terrace site two miles west needs neither, so borings move numbers here more than anywhere inland. Wind-conscious anchorage and any surge-zone elevation requirements add structure cost, and the marine environment pushes material specs up: coatings, concrete cover, corrosion-resistant grounding. Alabama's mandatory GC licensing at the $50,000 threshold shapes the bidder pool, and the ADEM stormwater package adds QCP-prepared BMP planning to every acre-plus site. As a Band B market served from Dallas, mobilization is priced per program: crews deploy for scope duration and ready-mix, aggregate, and precast are bought in-market — with the port available when heavy components move better by water than by highway. Drivers only; every site prices to its borings, its flood zone, and its season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Alabama requires a license from the Alabama Licensing Board for General Contractors for commercial or industrial construction where the undertaking, including labor and materials, is $50,000 or more — the only state in the CSS footprint with mandatory GC licensing for this work. Subcontractors at or above the same threshold must also hold licenses, and license classifications cap the type and size of work a contractor may bid.",
+    "additionalRegistrations": [
+      "ADEM NPDES annual Notice of Registration (prerequisite to construction stormwater NOIs under ALR100000)"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "hurricane",
+      "flood",
+      "high wind",
+      "extreme heat"
+    ],
+    "designImplications": "Hurricane exposure shapes everything coastal here: uplift-governed anchorage on pads and enclosures, wind-borne debris-conscious detailing near the shore, and surge-zone elevation requirements that can dictate foundation type before design begins — Katrina flooded downtown to roughly 11 feet in 2005 and Sally hit the adjacent coast as a Category 2 in 2020. The marine environment adds corrosion-resistant grounding and hardware, and compound drainage must handle tropical rainfall rates, not inland averages. Publish numeric wind speeds only after an ASCE hazard query at the site coordinates.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "APM Terminals Mobile adding a third berth — 1.4M TEU capacity",
+        "detail": "The Alabama Port Authority and APM Terminals agreed in October 2025 to build a new 1,300-foot container berth at the Port of Mobile — a $131 million project expanding berth capacity 50% and lifting annual capacity to 1.4 million TEU, alongside more than $200 million in ongoing work including a 33-acre yard expansion and a rail flyover for on-dock rail. Construction begins in 2026.",
+        "category": "transportation",
+        "sourceUrl": "https://www.apmterminals.com/en/news/news-releases/2025/251028-new-berth-extention-port-of-mobile",
+        "asOf": "2025-10-28"
+      },
+      {
+        "headline": "Airbus inaugurates second A320 final assembly line in Mobile",
+        "detail": "Airbus opened its second U.S. A320 final assembly line at the Mobile facility in October 2025, bringing the site to three lines (two A320, one A220), adding roughly 1,000 jobs, and doubling U.S. single-aisle capacity — sustained industrial construction and network demand at the Brookley Aeroplex.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.airbus.com/en/newsroom/press-releases/2025-10-airbus-inaugurates-second-a320-final-assembly-line-in-the-us",
+        "asOf": "2025-10-14"
+      },
+      {
+        "headline": "Austal USA building $450M submarine-module facility",
+        "detail": "Austal USA was awarded $450 million by General Dynamics Electric Boat to build a 369,600-square-foot submarine module fabrication and outfitting facility at its Mobile shipyard — construction from fall 2025 into 2026, roughly 1,000 new jobs, part of over $700 million in shipyard expansion.",
+        "category": "carrier program",
+        "sourceUrl": "https://maritime-executive.com/article/austal-to-expand-mobile-facility-for-more-submarine-component-work",
+        "asOf": "2025-01-15"
+      },
+      {
+        "headline": "Alabama BEAD final proposal approved — $460M across 63 projects",
+        "detail": "NTIA approved Alabama's BEAD final proposal in March 2026; ADECA awarded nearly $460 million to 63 projects reaching about 92,000 unserved locations statewide, with 71% of projects using fiber. Award mapping for Mobile County subgrantees is tracked quarterly.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+        "asOf": "2026-03-31"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "service lateral to hut"
+      ],
+      "narrative": "Mobile is one of the few markets in the CSS footprint that is itself a fiber company town: Southern Light built its Gulf Coast network from headquarters here before Uniti acquired it in 2017, C Spire tied a 225-mile Gulf Coast route into Mobile and Baldwin counties in 2021, and AT&T holds the legacy BellSouth plant. The construction problem is water — bores and duct banks run through saturated fines near the bay and the Mobile-Tensaw Delta margin, where dewatering and wetland permitting through the locally headquartered USACE Mobile District decide schedules. Rail is the other gate: five Class I railroads plus the port's own TASD switching line converge here, and crossing agreements near the docks are sequenced before construction, not after. Alabama's $460 million BEAD award round (March 2026) adds subsidized rural mileage around the metro.",
+      "localSpecificsReferenced": [
+        "Southern Light / Uniti Fiber (Mobile HQ)",
+        "C Spire 225-mile Gulf Coast route",
+        "USACE Mobile District wetland permitting",
+        "TASD port trackage",
+        "Alabama BEAD awards (March 2026)"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "ground ring and halo",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Mobile is hurricane work first. Compounds within reach of the bay get uplift-governed anchorage, debris-conscious detailing under the city's 2021 IBC amendments, and — in mapped surge zones where Katrina put 11 feet of water downtown — foundation elevations the FIRM dictates before design starts. Generator and fuel-containment pads carry more weight here than inland because storm restoration is the network's real test; Spire's gas distribution covers piped-fuel sites while diesel tanks get surge-aware containment. The ground itself splits the metro: sandy terrace sites west of town take conventional pads, while bayfront and delta-margin compounds need dewatering and deep elements. Salt closes every spec — marine-grade grounding and hardware, because an inland ground ring ages fast within sight of Mobile Bay.",
+      "localSpecificsReferenced": [
+        "City of Mobile 2021 IBC amendments (eff. Jan 2023)",
+        "Katrina downtown flooding (11 ft, 2005)",
+        "Mobile Bay surge zones",
+        "Spire Alabama gas territory"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Mobile has no announced hyperscale campus; edge demand here is industrial and port-driven. The buildout is concrete and visible — APM Terminals' third berth pushing the container terminal to 1.4 million TEU, Airbus running three assembly lines at Brookley, Austal's submarine-module plant rising on the waterfront, and ArcelorMittal's Calvert EAF melt shop up the highway — and each of those programs pulls compute, controls, and private-network infrastructure that arrives as hardened enclosures, transformer pads, and generator yards built to coastal wind and corrosion standards. The port is also a logistics asset for this work: heavy electrical gear and prefabricated enclosures can arrive by water and move to site over the Cochrane–Africatown Bridge, avoiding the river tunnels' restrictions. Alabama Power, serving the metro, takes builder applications up to 45 days ahead — utility lead time still belongs at the front of every edge schedule.",
+      "localSpecificsReferenced": [
+        "APM Terminals berth expansion",
+        "Airbus Brookley Aeroplex assembly lines",
+        "Austal submarine-module facility",
+        "ArcelorMittal Calvert EAF",
+        "Cochrane–Africatown Bridge haul route"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 590,
+      "driveTimeHours": 10.0,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Mobile",
+      "Baldwin"
+    ],
+    "stagingApproach": "Project-based staging in the Mobile metro for the duration of a scope: equipment and materials hold at or near the work rather than cycling back to the yard, and the Port of Mobile's terminals give this market an option most of the footprint lacks — heavy or oversize components can arrive by water when that beats a 590-mile highway haul. Staging locations are confirmed per program by ops.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from Gulf Coast suppliers serving the Mobile-Baldwin market rather than hauling from the Dallas yard — at this range in-market supply is the only arithmetic that works. The supplier lineup and pricing are confirmed at estimate for each program by CSS estimating and ops.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Mobile is a deployment market for CSS: crews mobilize from the Dallas yard east along the I-20 corridor through Shreveport and Jackson, then south to the coast — roughly a ten-hour run — and stay for the duration of a scope rather than commuting. That model matches how work arrives here: port-corridor and industrial programs, multi-site carrier scopes, and storm-hardening campaigns that batch efficiently from one mobilization with local staging and in-market concrete, aggregate, and precast. What the model does not support is a same-day service-call promise, and we do not make one. Mobilization lead times are quoted per program after ops review, and hurricane-season deployments carry an explicit securing-and-demobilization plan — on this coast, that is part of the schedule, not an emergency measure.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What wind and hurricane design standards apply to telecom sites in Mobile?",
+      "answer": "The City of Mobile enforces the 2021 IBC with local amendments effective January 7, 2023, and Mobile County sits in the Gulf's hurricane-prone region — sites near the coastline may also fall inside the wind-borne debris region, which changes glazing and detailing requirements. Numeric design wind speeds must come from an ASCE hazard query at the site coordinates; we treat uplift and anchorage as governing loads on every coastal compound.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How does the high water table affect foundations in Mobile?",
+      "answer": "On bayfront and delta-margin ground, water can sit near the surface: excavations plan for dewatering, soft saturated fines push heavier structures onto driven piles or drilled elements, and below-grade structures get checked for uplift. Sandy terrace sites west of downtown are far more forgiving and usually take conventional pads. Borings decide which site you have — the two conditions can sit within a couple of miles of each other.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Do I need a wetlands permit for fiber work near the Mobile-Tensaw Delta?",
+      "answer": "Very possibly. Waters and wetlands around the delta and bay fall under the USACE Mobile District's Regulatory Division — headquartered in Mobile itself — with ADEM issuing the state 401 certification. Delta-margin alignments should be screened for jurisdictional waters before routing is finalized, because permitting, not construction, sets the schedule on those segments. We route around jurisdictional areas where the design allows it.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who issues building permits for a cell site or hut in Mobile?",
+      "answer": "Inside city limits, Build Mobile — the city's permitting and inspection operation — issues building permits under the 2021 codes with local amendments; unincorporated Mobile County sites go through the county's inspection services instead. Sites in mapped flood zones add floodplain review, and any work on state-route right-of-way needs an ALDOT permit through the Southwest Region office. Published review times aren't posted, so we confirm timelines directly when scoping.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroads affect fiber and access routes in Mobile?",
+      "answer": "Five Class I railroads — CSX, Norfolk Southern, CN, CPKC, and BNSF — reach the Port of Mobile, and the port's own Terminal Railway Alabama State Docks switches every terminal. That is the densest rail convergence in our footprint, and crossing agreements near the docks are notoriously schedule-setting. We identify every crossing on an alignment early and open the railroad conversations before construction sequencing is locked.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How do hurricanes affect construction scheduling in Mobile?",
+      "answer": "June 1 through November 30 is hurricane season, peaking in September — Sally made landfall just east of Mobile as a Category 2 in September 2020, and Katrina flooded downtown to roughly 11 feet in 2005. Every open site carries a written securing-and-demobilization plan during the season, and pours and crane work are planned around storm-watch windows. The compensation is a mild winter: there is no frost season, and October through May is strong production time.",
+      "segment": "general"
+    },
+    {
+      "question": "Who provides electric service for a new compound or hut in Mobile?",
+      "answer": "Alabama Power, the Southern Company utility serving the southern two-thirds of the state, serves the Mobile metro. Builders can apply for new service up to 45 days ahead through its builders-and-developers process, but published lead times for new commercial services aren't posted — we get the utility's written schedule during scoping and put it at the front of the project timeline. Spire Alabama distributes natural gas where generator fuel is piped.",
+      "segment": "edge"
+    },
+    {
+      "question": "Can oversize shelter loads be delivered through Mobile's tunnels?",
+      "answer": "Plan around the river crossings: I-10 uses the George Wallace Tunnel and US-90/98 the Bankhead Tunnel, and both carry clearance and cargo restrictions, so oversize and restricted loads route over the Cochrane–Africatown USA Bridge north of downtown. ALDOT's Permits & Operations Section issues oversize/overweight permits statewide. For truly heavy components, the Port of Mobile offers a water-delivery option that skips the highway question entirely.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Pads, piles, and salt: sequencing a coastal Mobile site",
+    "body": "The expensive mistake in Mobile is designing the foundation before pulling the flood map and the borings — in that order. The FIRM comes first because surge-zone elevation requirements can override every other decision: if the map says elevate, the spread-footing-versus-pile question is already answered, and Katrina's 11 feet of water downtown is the reason the maps read the way they do. Borings come second because the metro splits into two ground regimes that sit minutes apart: sandy terrace soils that take conventional pads with routine compaction, and saturated bayfront or delta-margin fines that need dewatering, select fill, or deep foundations with no rock anywhere to refuse on. Only then does the structural work start, and on this coast it is uplift arithmetic — anchorage and overturning under hurricane wind govern long before gravity does. The last pass is the salt pass: added concrete cover, coated embedments, and marine-grade grounding, because the environment within sight of Mobile Bay attacks bare metal on a schedule you can practically calendar. Sites priced in that sequence hold their numbers; sites priced as generic Gulf South work give the difference back in change orders."
+  },
+  "sources": [
+    {
+      "label": "City of Mobile — 2021 IBC adoption ordinance with local amendments (eff. Jan 7, 2023)",
+      "url": "https://www.buildmobile.org/uploads/2021IBCLocalAmendmentEffectiveJanuary72023.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama 811 — excavation law summary (Ala. Code § 37-15-4, two working days)",
+      "url": "https://al811.com/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — NPDES Construction General Permit (ALR100000, one-acre trigger)",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Licensing Board for General Contractors — licensing requirement at $50,000",
+      "url": "https://genconbd.alabama.gov/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Mobile District — Regulatory Division (wetlands permitting)",
+      "url": "https://www.sam.usace.army.mil/Missions/Regulatory/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Mobile — Hurricane Katrina, August 2005 (downtown flooding and surge)",
+      "url": "https://www.weather.gov/mob/katrina",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Mobile — Hurricane Sally, September 2020",
+      "url": "https://www.weather.gov/mob/sally",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "APM Terminals — new berth at Mobile Container Terminal (Oct 2025)",
+      "url": "https://www.apmterminals.com/en/news/news-releases/2025/251028-new-berth-extention-port-of-mobile",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "APM Terminals Mobile — intermodal rail facility (five Class I railroads)",
+      "url": "https://www.apmterminals.com/en/mobile/services/intermodal-rail-facility",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Airbus — second A320 final assembly line inaugurated in Mobile (Oct 2025)",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2025-10-airbus-inaugurates-second-a320-final-assembly-line-in-the-us",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Maritime Executive — Austal USA $450M submarine-module facility expansion",
+      "url": "https://maritime-executive.com/article/austal-to-expand-mobile-facility-for-more-submarine-component-work",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Made in Alabama — AM/NS Calvert EAF expansion (now ArcelorMittal Calvert)",
+      "url": "https://www.madeinalabama.com/2020/08/steelmaker-am-ns-calvert-to-add-electric-arc-furnace-in-500m-expansion/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Uniti Group — acquisition of Mobile-headquartered Southern Light (2017)",
+      "url": "https://investor.uniti.com/news-releases/news-release-details/uniti-group-inc-acquire-southern-light/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "C Spire — 225-mile Gulf Coast fiber route completed (2021)",
+      "url": "https://www.cspire.com/cms/news/wireless/36600006/c-spire-completes-construction-of-225-mile-fiber-optic-cable-route-along-gulf-coast",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor of Alabama — BEAD final proposal approved, $460M awarded (March 2026)",
+      "url": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Power — builders and developers (new service process)",
+      "url": "https://www.alabamapower.com/business/business-customers-and-services/builders-developers.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ALDOT — Maintenance Bureau Permits & Operations (ROW and OS/OW permits)",
+      "url": "https://www.dot.state.al.us/maweb/permitsoperations.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USFWS — Alabama Ecological Services Field Office, Daphne (bats in Alabama)",
+      "url": "https://www.fws.gov/office/alabama-ecological-services/bats-alabama",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Encyclopedia of Alabama — Mobile-Tensaw Delta",
+      "url": "https://encyclopediaofalabama.org/article/mobile-tensaw-delta/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV) + wind-borne debris determination",
+      "attempted": "ASCE Hazard Tool not queryable this session; the liability-critical wind values and the IBC 1609.2 debris-region determination must come from a site-coordinate query and the adopted code before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "The city's 2021 IBC amendment ordinance PDF exists (buildmobile.org) but returned 403 to fetch; the amended footing/frost depth value was not readable. Cite the code section once obtained."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1, groundSnowLoadPsf, designRadialIceIn, design temps",
+      "attempted": "USGS design-maps, ASCE snow figure, TIA-222 county ice data, and ASHRAE design temperatures not accessible this session; all left null rather than estimated."
+    },
+    {
+      "field": "geotech (bearing range, seasonal high groundwater, NRCS soil series and corrosion ratings)",
+      "attempted": "NRCS Web Soil Survey interactive not queryable; geology is sourced qualitatively (Lower Mobile River Basin literature, Encyclopedia of Alabama) and numeric values were left null."
+    },
+    {
+      "field": "identity.population / msa — vintage confirmation",
+      "attempted": "Census QuickFacts not fetched; 187,041 is the 2020 census figure via a republisher. Confirm vintage and the current OMB MSA delineation (Washington County's status) before publish."
+    },
+    {
+      "field": "regulatory — wireless facility ordinance; Build Mobile review times; floodplain FIRM dates",
+      "attempted": "Municipal code chapter for wireless facilities and current FIRM effective dates not sourced; review timelines unpublished — confirm by phone."
+    },
+    {
+      "field": "logistics — tunnel restriction specifics (clearances, cargo rules)",
+      "attempted": "Wallace/Bankhead tunnel restrictions described qualitatively; current posted clearances and restricted-cargo rules must be verified with ALDOT before publishing figures."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Distance calculators cluster at 588-590 mi / ~9.9 h Dallas-Mobile via I-20; recorded as a working estimate with routeVerified false until ops runs real routing."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B drafts written for ops review; RESEARCH.md sources these from CSS ops/estimating, so the gap clears only on ops confirmation."
+    },
+    {
+      "field": "utilities — Alabama Power new-service lead time; AT&T formal ILEC designation",
+      "attempted": "Utility publishes a 45-day advance-application window but no lead-time commitment; FCC ILEC verification not run."
+    },
+    {
+      "field": "environmental — USFWS clearing-window guidance for Mobile County; IPaC species list",
+      "attempted": "No county-specific clearing window found; NLEB statewide listing noted. Run IPaC per project and coordinate the Daphne field office."
+    },
+    {
+      "field": "marketActivity — Mobile County BEAD subgrantee detail",
+      "attempted": "Statewide award round sourced (March 2026); county-level subgrantee mapping not yet published/found. Recheck quarterly."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}

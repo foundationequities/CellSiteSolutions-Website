@@ -1,0 +1,711 @@
+{
+  "identity": {
+    "slug": "houston",
+    "city": "Houston",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Harris"
+    ],
+    "msa": "Houston-The Woodlands-Sugar Land",
+    "tier": 1,
+    "latitude": 29.7604,
+    "longitude": -95.3698,
+    "elevationFt": null,
+    "population": {
+      "value": 2314157,
+      "source": "U.S. Census Bureau Vintage 2023 population estimate (July 1, 2023), as widely republished; direct QuickFacts verification pending (census.gov blocked from this environment)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-10",
+      "I-45",
+      "I-69",
+      "I-610"
+    ],
+    "majorRoutes": [
+      "Beltway 8 (Sam Houston Tollway)",
+      "SH-99 (Grand Parkway)",
+      "US-290"
+    ]
+  },
+  "metadata": {
+    "title": "Houston, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Houston, TX — Chapter 19 floodplain compliance, Gulf Coast clay foundations, duct bank, and compound work for fiber and wireless.",
+    "h1": "Telecom Site Civil Construction in Houston, Texas",
+    "intro": "Every telecom build in Houston eventually answers to water. Hurricane Harvey rewrote the city's floodplain ordinance — Chapter 19 now reaches to the 500-year line and pushes finished floors two feet above it — and the flat coastal-plain clays that once let the region sink several feet under groundwater pumping drain slowly enough that grading and drainage earn as much design attention as the foundation itself. Add a major city with no zoning code, dense industrial rail around the port, and a data center market anchored by the Houston West interconnection campus, and the civil scope rewards contractors who plan permits and weather in the same breath. CellSite Solutions reaches Harris County from our Dallas–Fort Worth yard down I-45, self-performing pads, duct bank, grounding, and compound construction.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC; Houston adopted the 2021 construction codes effective January 1, 2024)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "The upper Texas Gulf Coast is a low-seismicity setting; numeric Ss/S1 values await a USGS design-maps query at site coordinates. Wind governs structural design in this market — Houston sits between inland Texas values and the highest immediate-coast values, and the exact ultimate wind speeds must come from the ASCE Hazard Tool, not interpolation."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Houston occupies the flat Gulf Coastal Plain over a very deep section of Pleistocene deltaic and fluvial sediments — clays, silts, and sands of the Beaumont and Lissie Formations — with no bedrock within engineering reach. The defining regional story is man-made: decades of groundwater withdrawal compacted the Chicot and Evangeline aquifers and produced land subsidence exceeding nine feet in places near the Ship Channel, which led the Legislature to create the Harris-Galveston Subsidence District in 1975 as the first regulatory body of its kind in the country. The coastal-plain section also hosts shallow growth faults that can distort structures crossing them. (USGS Texas Gulf Coast Groundwater and Land Subsidence program; HGSD history.)",
+    "dominantSoilTypes": [
+      "Lake Charles clay (fine, smectitic Vertisol — high shrink-swell)",
+      "Beaumont clay series (poorly drained coastal-prairie Vertisol)",
+      "Sandy loams and terrace sands on Lissie-age uplands (west and northwest metro)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "The dominant urban soils — Lake Charles and Beaumont series — are Vertisols with documented high shrink-swell behavior (NRCS Official Series Descriptions). Movement potential is real but site-dependent: sandier Lissie-age ground on the west side behaves very differently from the prairie clays, so borings decide the design, not the county map.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Deep unconsolidated coastal-plain sediments; karst is not a Houston hazard. The analogous ground-surprise here is the network of shallow growth faults — screen alignments and pad sites against published fault traces."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Poorly drained clays with long saturation periods are a corrosion-relevant environment for buried steel and grounding systems; numeric NRCS corrosion ratings for the mapped series are pending a Web Soil Survey query and should be added before publication.",
+    "foundationApproachNarrative": "Nothing in Houston bears on rock, because there is none to find — foundations work entirely within a deep clay-and-sand column. For shelter and cabinet pads on Lake Charles or Beaumont clay, that means treating the subgrade as an active material: moisture conditioning or select fill under pads, and drilled shafts carried through the seasonal moisture zone into stiffer clay where equipment loads or settlement tolerance demand it. The water table is the second constraint — excavations for vaults and duct bank frequently need dewatering, and trench spoil comes out wet and heavy. The third is elevation: on any site touching the mapped floodplain, Chapter 19 sets finished-floor and fill rules before geotechnical design even starts, so the flood determination belongs at the front of the sequence. Finally, the region's shallow growth faults deserve a screening check on linear routes and compound sites; a pad that straddles an active trace inherits a slow, permanent differential movement no foundation detail can absorb. Site borings and the current FIRM govern every decision above."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Houston — Houston Permitting Center (Houston Public Works)",
+        "url": "https://www.houstonpermittingcenter.org/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Consolidated permitting operation for building, ROW, and floodplain permits. Published plan-review durations were not found — confirm current timelines directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 Houston Construction Code (2021 I-codes with city amendments), adopted by City Council October 25, 2023, effective January 1, 2024",
+      "source": "ICC news release on Houston's 2021 code adoption — https://www.iccsafe.org/about/periodicals-and-newsroom/houstons-city-council-approves-adoption-of-the-2021-international-codes/; Houston Permitting Center code archive",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small cells and network nodes in the public ROW follow the statewide Chapter 284 framework (Texas Local Government Code); the city administers node and pole permitting through Houston Public Works rather than through a discretionary land-use process — Houston has no zoning code to trigger one.",
+    "rowPermitAuthority": {
+      "name": "Houston Public Works — ROW / street cut and excavation permitting via the Houston Permitting Center",
+      "url": "https://www.houstonpermittingcenter.org/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Work in city ROW requires a permit and an approved traffic control plan for lane or sidewalk impacts; Harris County handles ROW on county roads in unincorporated areas."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Houston District (Brazoria, Fort Bend, Galveston, Harris, Montgomery, Waller counties)",
+      "url": "https://www.txdot.gov/about/districts/houston-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Utility installations on state highway ROW are permitted through TxDOT's RULIS portal."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statewide one-call center under Texas Utilities Code Ch. 251.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Texas Commission on Environmental Quality — construction stormwater under TPDES general permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI through STEERS at one acre of disturbance (or smaller sites within a common plan); the City of Houston and Harris County MS4 programs add local site-controls enforcement."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Houston Floodplain Management Office (Houston Public Works), administering Chapter 19 of the City Code",
+      "url": "https://www.houstonpermittingcenter.org/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Post-Harvey Chapter 19 (effective September 1, 2018) regulates to the 500-year floodplain: new construction and substantial improvements go two feet above the 500-year flood elevation, critical facilities three feet, and the zero-net-fill requirement extends across the 500-year zone."
+    },
+    "permitTimelineNarrative": "Houston's famous absence of zoning genuinely shortens the siting path — there is no use-permission hearing standing between a lease and a building permit, only Chapter 42's development-plat and setback rules. What replaces zoning as the schedule driver is water: a Chapter 19 floodplain determination belongs at the very front of every project, because a site in the 500-year zone picks up elevation, fill-balance, and review requirements that can reshape the design. From there the stack is familiar Texas practice — Houston Permitting Center building and ROW permits with traffic control plans, a TCEQ stormwater NOI once disturbance reaches an acre, and a Texas811 ticket two business days ahead of excavation. On state highway ROW, TxDOT Houston District permits utility work through RULIS."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "CenterPoint Energy Houston Electric",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The regulated transmission and distribution utility for the Houston metro inside ERCOT's competitive retail market — CenterPoint builds and owns the wires while the customer selects a Retail Electric Provider for energy. Confirm the current builders/new-service intake with CenterPoint at scoping."
+      }
+    ],
+    "ilec": "AT&T (Southwestern Bell legacy territory)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Comcast Xfinity",
+      "Tachus Fiber Internet (Houston-area overbuilder)"
+    ],
+    "notableDataCenterCampuses": [
+      "DataBank Houston West campus (HOU1–HOU3, former CyrusOne West I–III) — the metro's primary interconnection point",
+      "DataBank 4201 Southwest Freeway (former CyrusOne Galleria)",
+      "Skybox Datacenters Houston campus (west metro, expanding)"
+    ],
+    "longHaulRouteNotes": "Houston's long-haul position is terrestrial: the I-45 Dallas corridor, the I-10 east-west Gulf routes toward San Antonio and Louisiana, and diverse paths east toward Jacksonville via Slidell and Mobile. No in-service transoceanic subsea cable lands at Houston itself — TeleGeography's map places the state's landing-point entry at Freeport — so international traffic rides terrestrial backhaul to out-of-state landings; verify current cable status before citing it in proposals.",
+    "ixPresence": "The Houston West campus carries the metro's densest interconnection — 30+ fiber networks, roughly 3,500 cross connects, and public cloud on-ramps (per DataBank's acquisition materials)."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No spring-thaw weight postings exist anywhere in Texas — restrictions are permanent, engineering-based load zones on specific roads and bridges. For Houston hauls the practical constraints are urban: posted structures, congestion windows, and district permit curfews."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS oversize/overweight permitting and routing",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Most shelter and hut loads self-issue with automated routing; check the Houston district's curfew and restriction list before scheduling a move through the metro."
+    },
+    "bridgeOrClearanceConstraints": "I-45, I-10, and US-290 are designated hurricane evacuation corridors for the upper Texas coast; when contraflow or evacuation operations activate ahead of a storm, heavy hauls into or out of the metro need to be planned around them.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "Heavy Houston presence with major yards and industrial leads; utility crossing agreements routinely take one to several months — start them at route design, not at mobilization."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Port Terminal Railroad Association (PTRA)",
+        "crossingPermitNote": "Switching railroad serving the Port of Houston industrial complex; any fiber alignment near the Ship Channel should assume PTRA coordination in addition to the Class I owners."
+      },
+      {
+        "name": "CPKC (former Kansas City Southern)",
+        "crossingPermitNote": null
+      }
+    ],
+    "urbanRowRequirements": "City ROW work runs on Houston Permitting Center permits with approved traffic control; expect stricter lane-closure windows on major thoroughfares and transit corridors, and county permitting once a route leaves city limits into unincorporated Harris County."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Plan vegetation clearing outside the general songbird nesting season (roughly mid-March through mid-September) or complete nesting surveys first",
+      "driver": "Migratory Bird Treaty Act compliance per TPWD guidance; no Harris County-specific USFWS bat clearing window was located in research",
+      "source": "TPWD environmental review guidance for migratory birds"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission — state and federal cultural reviews filed through eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 applies on federally funded or permitted work; the Antiquities Code of Texas applies on public land."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Galveston District (SWG) — Clean Water Act Section 404 for the upper Texas coast",
+      "url": "https://www.swg.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Harris County's bayous, wetlands, and coastal prairie remnants make 404 screening a routine early step on greenfield and route work."
+    },
+    "usaceDistrict": "Galveston District (SWG)",
+    "listedSpeciesNote": "Run a project-specific USFWS IPaC query for Harris County on every site — the county's species list spans coastal and prairie habitats, and the tricolored bat's final listing status was still unresolved in available sources at research time. No blanket clearing prohibition was identified for the metro.",
+    "floodplainPrevalenceNote": "Mapped floodplain is pervasive: Harris County drains through more than twenty bayou watersheds managed with the Harris County Flood Control District, and Hurricane Harvey (August 2017) delivered historic multi-day rainfall that flooded areas well outside the mapped zones — including neighborhoods affected by releases from the federal Addicks and Barker flood-control reservoirs on the west side. Chapter 19's 500-year-plus-two-feet standard is the city's regulatory answer, and it reaches a large share of buildable land."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild, damp; rare brief freezes",
+        "earthworkConcrete": "favorable",
+        "note": "No frost constraint; watch rain-day muddiness on clay sites"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild; ground firm between fronts",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming, wetter; good production",
+        "earthworkConcrete": "favorable",
+        "note": "Nesting-season clearing guidance window opens"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Warm; spring storm rounds begin",
+        "earthworkConcrete": "favorable",
+        "note": "Slow-draining clays hold water after downpours"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Hot, humid; heavy rain events common",
+        "earthworkConcrete": "workable",
+        "note": "One of the wetter months — build rain days into earthwork"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot and humid; hurricane season opens June 1",
+        "earthworkConcrete": "workable",
+        "note": "Storm-watch and site-securing plans go active"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak heat and humidity",
+        "earthworkConcrete": "constrained",
+        "note": "Morning pour windows; hydration management for crews"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest stretch; tropical activity building",
+        "earthworkConcrete": "constrained",
+        "note": "Hot-weather concrete practice; monitor the tropics continuously"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Statistical hurricane peak; heavy rain risk",
+        "earthworkConcrete": "constrained",
+        "note": "Schedule contingency essential; Harvey fell in late August–September"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Heat breaking; drying ground",
+        "earthworkConcrete": "favorable",
+        "note": "Season runs through November 30 — keep watch plans in place"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild and drier; excellent conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild; occasional cold snaps",
+        "earthworkConcrete": "favorable",
+        "note": "Cold-weather protection only on rare freeze nights"
+      }
+    ],
+    "narrative": "Houston never freezes shut — the working year is shaped by rain, heat, and the tropics instead of frost. October through April is the productive core: mild temperatures, drier ground, and full-day pour windows. Summer brings the double constraint of heat (early-morning concrete, crew hydration discipline) and hurricane season, which opens June 1, peaks statistically in September, and demands a written site-securing and demobilization plan on every active coastal-plain project. The quieter scheduling reality is drainage: the metro's clays shed water slowly, so a two-inch afternoon storm can cost a day of earthwork any month of the year. Confirm the monthly figures against NWS Houston/Galveston station normals before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "The sediment column is clay, silt, and sand to depths far beyond any telecom scope — rock excavation effectively never appears on a Houston estimate.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Wet clay spoil from vault and duct bank excavations is heavy and often unsuitable for reuse — disposal and import-fill lines deserve honest quantities in this market.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Publicly funded work in Texas carries Chapter 2258 prevailing wage obligations, and federal Davis-Bacon attaches to federally funded scopes — which includes BEAD-funded fiber builds; where funding is mixed, pay the higher applicable rate.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hurricane-season contingency (June through November) and midsummer hot-weather concreting are the recurring seasonal items; winter adds almost nothing.",
+    "costDriversNote": null,
+    "narrative": "Houston costs move on water management before anything else. Floodplain touches change the design basis — elevated pads, fill balancing under the zero-net-fill rule, and Chapter 19 review time — and even outside the mapped zones, drainage design and dewatering show up as real line items because the clays refuse to percolate. Expansive-soil treatment (select fill, moisture conditioning, or shafts) is the second driver, and wet-spoil disposal quietly inflates underground scopes. Urban logistics add traffic control and off-hours windows on major corridors, plus railroad coordination anywhere near the Ship Channel's industrial trackage. Working from our DFW yard, mobilization on Houston programs is a modest, per-project line — overnight positioning down I-45 rather than a deployment premium. Drivers only, never unit prices: each site prices to its borings, its flood determination, and its season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "General and civil contractors are not licensed at the state level in Texas — oversight lives with each city's permitting operation. Trade work still carries statewide credentials: electrical contracting through TDLR with a Master Electrician of record, plumbing through TSBPE. For Houston work, contractor and trade registrations run through the Houston Permitting Center as part of pulling permits; confirm current registration requirements at project setup.",
+    "additionalRegistrations": [
+      "Houston Permitting Center contractor/trade registration (confirm current requirements)",
+      "TDI windstorm certification path — only if a structure sits in the designated catastrophe-area portions of Harris County east of SH 146 (La Porte, Morgan's Point, Pasadena, Seabrook, Shore Acres)"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "hurricane",
+      "flood",
+      "extreme heat",
+      "high wind"
+    ],
+    "designImplications": "Flooding is the design hazard that changes drawings: Chapter 19 pushes finished floors two feet above the 500-year elevation (three for critical facilities), which turns shelter pads in mapped zones into elevated structures with engineered fill balance. Hurricane exposure drives anchorage and uplift detailing metro-wide even though the City of Houston proper sits outside TDI's windstorm-certification catastrophe area — that boundary only reaches the Harris County communities east of SH 146. Heat governs summer concrete practice, and generator fuel systems get containment and post-storm access thinking because restoration work is a when, not an if, on this coast.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Texas BEAD construction phase opens with ~$1.3B federally approved",
+        "detail": "NTIA signed off on Texas' final BEAD proposal on November 20, 2025 — roughly $1.3 billion across 22 providers and 240,000+ locations statewide, drawn from the state's $3.3 billion allocation — with grant agreements finalizing in early 2026 and construction starting as early as summer 2026 under the Texas Broadband Development Office.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      },
+      {
+        "headline": "DataBank's $670M CyrusOne acquisition anchors Houston interconnection",
+        "detail": "DataBank agreed in March 2022 to acquire CyrusOne's four Houston data centers, including the Houston West campus — the metro's primary interconnection point with 30+ fiber networks, ~3,500 cross connects, and public cloud on-ramps — and has since completed customer migration; the campus remains the gravitational center of Houston colocation.",
+        "category": "data center",
+        "sourceUrl": "https://dgtlinfra.com/cyrusone-houston-data-centers-databank/",
+        "asOf": "2022-03-14"
+      },
+      {
+        "headline": "Houston data center capacity builds past 200 MW with 150+ MW in the pipeline",
+        "detail": "Industry tracking citing JLL's 2025 Data Center Outlook puts the Houston metro above 200 MW of operational capacity with 150+ MW under construction or planned, with operators including DataBank, Skybox, Digital Realty, and QTS — and Skybox's west-metro campus expansion courting energy-sector HPC demand.",
+        "category": "data center",
+        "sourceUrl": "https://www.mordorintelligence.com/industry-reports/houston-data-center-market",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber civil in Houston is soft-ground work with hard scheduling edges. Bores run through clay and sand the whole way — no rock, but a shallow water table that makes drilling-fluid discipline and wet-spoil handling part of daily production, and vault excavations that frequently need dewatering. The scheduling edges are institutional: crossing agreements with UP and BNSF plus the Port Terminal Railroad Association's Ship Channel trackage sit on the critical path of east-side routes, and city ROW permits with traffic control plans pace work on major thoroughfares. Demand runs on two tracks — metro routes feeding the Houston West interconnection campus and the energy corridor's private-network appetite, plus the statewide BEAD construction wave opening in summer 2026. Chapter 19 even touches hut siting: a hut in the 500-year zone is an elevated hut.",
+      "localSpecificsReferenced": [
+        "Houston West interconnection campus",
+        "Port Terminal Railroad Association (PTRA)",
+        "Chapter 19 floodplain rules",
+        "Texas BEAD summer 2026 construction start"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in America's fourth-largest city starts with a flood map. A compound in Houston's regulatory floodplain elevates: finished floor two feet over the 500-year elevation under Chapter 19, fill balanced to zero net, drainage engineered rather than assumed — and generator fuel containment designed for the storm that will eventually come. Outside the mapped zones, the work is expansive-clay practice on Lake Charles and Beaumont soils: conditioned subgrades or select fill under pads, shafts where tolerance demands. Wind detailing is serious metro-wide, though formal TDI windstorm certification applies only in the catastrophe-area communities east of SH 146, not the city proper — a distinction worth knowing before a spec over-requires it. Node and small-cell work follows the statewide Chapter 284 ROW framework through Houston Public Works, with no zoning hearings in the path.",
+      "localSpecificsReferenced": [
+        "Chapter 19 (500-year + 2 ft standard)",
+        "SH 146 catastrophe-area boundary",
+        "Lake Charles / Beaumont Vertisols",
+        "Chapter 284 node permitting via Houston Public Works"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Houston's edge and data center story is interconnection plus industry rather than hyperscale sprawl: the DataBank Houston West campus (the former CyrusOne West buildings) concentrates the metro's carrier density, Skybox's west-metro campus is expanding toward energy-sector HPC demand, and JLL-cited tracking puts the market past 200 MW operational with 150+ MW building. The civil scope that follows is our lane — transformer and switchgear pads, generator yards with containment, campus conduit, and hardened enclosure pads — built to this coastal plain's rules: elevation checked against Chapter 19 before design, subgrades treated for expansive clay, and CenterPoint coordination started early because the wires company, not the retailer, sets the interconnection timeline in ERCOT's retail-choice market. Petrochemical and LNG operators along the Ship Channel add a private-network edge demand few metros can match.",
+      "localSpecificsReferenced": [
+        "DataBank Houston West campus",
+        "Skybox Houston expansion",
+        "CenterPoint Energy TDU role",
+        "Ship Channel industrial corridor"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 265,
+      "driveTimeHours": 4.6,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Harris",
+      "Fort Bend",
+      "Montgomery",
+      "Galveston",
+      "Brazoria"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Houston sits at the working edge of regional range from our DFW yard — one straight shot down I-45, close enough that crews position overnight and are productive the next morning, far enough that we plan it rather than promise same-day service calls. In practice that looks like batched scopes: multi-site pad, duct bank, or compound programs across greater Houston that run on consecutive days from a single positioning, with materials bought from Houston-area ready-mix and aggregate suppliers rather than trucked down the interstate. The I-45 corridor itself is a scheduling input — it is an evacuation route in storm scenarios and a heavily constructed corridor in normal ones — so storm-season mobilizations carry timing plans, and post-storm restoration support is committed per event after ops review, never as a standing response-time claim. Note: the seed distance is a straight-line estimate; the real I-45 routing is shorter and must be verified before publication.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Does Houston's lack of zoning make telecom siting faster?",
+      "answer": "Genuinely, yes — with a catch. Houston regulates development through Chapter 42 (plats, setbacks, access) rather than a zoning code, so there is no use-permission hearing between a signed lease and a building permit. The catch is that water review replaced land-use review as the long pole: the Chapter 19 floodplain determination, not a zoning board, is what can reshape a Houston site plan.",
+      "segment": "general"
+    },
+    {
+      "question": "What does Chapter 19 require for a shelter or hut in a Houston floodplain?",
+      "answer": "Since September 1, 2018, new construction and substantial improvements in the 500-year floodplain must sit two feet above the 500-year flood elevation — three feet for critical facilities — and fill must balance to zero net across the 500-year zone. For telecom, that converts an at-grade pad into an elevated foundation with engineered fill, which is why we pull the flood determination before any design work starts.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Is the City of Houston in the Texas windstorm certification zone?",
+      "answer": "No. TDI's designated catastrophe area covers the 14 first-tier coastal counties plus only the Harris County communities east of SH 146 — La Porte, Morgan's Point, Pasadena, Seabrook, and Shore Acres. A site inside Houston city limits doesn't need a WPI-8 certificate for TWIA insurability, though wind design per the adopted code still governs. Sites toward Galveston Bay should be checked against the boundary, not assumed either way.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What is the Harris-Galveston Subsidence District, and does it affect telecom sites?",
+      "answer": "It's a real regulatory agency — created by the Legislature in 1975, the first of its kind in the U.S. — that permits and limits groundwater withdrawal because pumping had sunk parts of the region by more than nine feet. Telecom builds rarely pump groundwater, so direct permitting is uncommon; the inherited effects matter more: altered drainage patterns, revised flood elevations, and shallow growth faults that route and pad screening should respect.",
+      "segment": "general"
+    },
+    {
+      "question": "What ground conditions should we expect boring fiber in Houston?",
+      "answer": "Clay and sand all the way — there is no rock within reach anywhere in the metro. The practical issues are water and spoil: a shallow water table that puts dewatering into vault and duct bank work, drilling-fluid management in saturated ground, and wet clay spoil that often can't be reused on site. Production is fast when it's dry; the schedule risk is the day after a two-inch rain, when Lake Charles clay holds water like a liner.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroads complicate fiber routes near the Port of Houston?",
+      "answer": "Union Pacific and BNSF own the heavy trackage, CPKC serves the metro, and the Port Terminal Railroad Association — a switching railroad serving the Ship Channel industries — adds its own coordination layer on east-side alignments. Crossing agreements are the honest critical path: they routinely run one to several months, so we file at route design rather than discovering the timeline at mobilization.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does hurricane season change construction scheduling in Houston?",
+      "answer": "From June 1 through November 30 every active site carries a written storm plan: what gets secured or demobilized on a watch, how fuel and equipment ride it out, and the recovery sequence afterward. September is the statistical peak, and Harvey proved the rain threat can exceed the wind threat — days of flooding well beyond mapped zones. The offset is a mild winter that keeps Houston building straight through months that stop northern markets cold.",
+      "segment": "general"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Houston?",
+      "answer": "CenterPoint Energy Houston Electric builds and owns the wires as the metro's regulated transmission and distribution utility; the energy itself is purchased from a competitive Retail Electric Provider under ERCOT's retail-choice structure. The construction-schedule consequence: it's CenterPoint's new-service queue that sets your energization date, so we open that request during scoping — published lead times weren't found and real ones vary by loading.",
+      "segment": "edge"
+    },
+    {
+      "question": "How quickly can CellSite Solutions crews be working in Houston?",
+      "answer": "Houston is regional range from our Dallas–Fort Worth yard — a single I-45 run that has crews positioned overnight and productive the next morning. We batch Houston work into multi-site visits for efficiency, buy concrete and aggregate locally, and quote mobilization per program. During declared storm events, response support is committed per event after ops review rather than as a standing guarantee, because I-45's evacuation role affects movement timing.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Elevation before foundation: sequencing a Houston telecom site correctly",
+    "body": "The costly Houston mistake is designing the foundation before the flood determination. Inland habits say: get borings, pick spread footing or shaft, then permit. On this coastal plain the sequence inverts. First, pull the current FIRM and the Chapter 19 determination — if the site touches the 500-year zone, you are designing an elevated structure with a finished floor two feet up (three for critical facilities) and a zero-net-fill grading plan, and that decision cascades into access, conduit stub-ups, generator placement, and cost before a single boring is drilled. Second, solve drainage as a design task, not a grading afterthought: Lake Charles and Beaumont clays shed water so slowly that compound ponding is the default outcome of a flat pad, and a modest crown-and-swale scheme at design time beats pumping water off a flooded compound forever. Third, run the geotechnical conversation — conditioned subgrade or select fill for ordinary pads, drilled shafts through the active clay zone where settlement tolerance is tight — and screen linear routes and pad locations against the region's mapped growth faults, because no detail rescues a foundation straddling one. Sites sequenced this way price predictably; sites sequenced inland-style discover Chapter 19 at permit review and reprice with the schedule already spent."
+  },
+  "sources": [
+    {
+      "label": "ICC — Houston City Council adopts the 2021 International Codes (effective Jan 1, 2024)",
+      "url": "https://www.iccsafe.org/about/periodicals-and-newsroom/houstons-city-council-approves-adoption-of-the-2021-international-codes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Houston Permitting Center — code archive and adopted codes",
+      "url": "https://www.houstonpermittingcenter.org/houston-code-archive",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Houston Public Works — Chapter 19 floodplain ordinance summary (March 2018)",
+      "url": "https://www.houstontx.gov/council/committees/tti/20180319sc/chapter19.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Chapter 19 floodplain guidelines summary (Houston Recovers, 2018)",
+      "url": "https://houstonrecovers.org/wp-content/uploads/2018/06/Chapter-19-Guidelines_Aug2018.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Freese and Nichols — new City of Houston floodplain regulations post-Harvey",
+      "url": "https://www.freese.com/blog/new-city-of-houston-floodplain-regulations-post-harvey/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Houston Planning & Development — development regulations (no zoning; Chapter 42)",
+      "url": "https://www.houstontx.gov/planning/DevelopRegs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Harris-Galveston Subsidence District — history (subsidence over nine feet; created 1975)",
+      "url": "https://hgsubsidence.org/about/history/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Harris-Galveston Subsidence District — groundwater regulation program",
+      "url": "https://hgsubsidence.org/planning/groundwater-regulation/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Texas Gulf Coast groundwater and land subsidence program",
+      "url": "https://webapps.usgs.gov/houston_subsidence",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TWIA — designated catastrophe area (14 first-tier counties + Harris County east of SH 146)",
+      "url": "https://www.twia.org/about-us/overview/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Houston District",
+      "url": "https://www.txdot.gov/about/districts/houston-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — excavation notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — construction stormwater general permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDMV — oversize/overweight permitting (TxPROS)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Dgtl Infra — CyrusOne sells $670M Houston data centers to DataBank (Houston West interconnection detail)",
+      "url": "https://dgtlinfra.com/cyrusone-houston-data-centers-databank/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DataBank — completes migration of CyrusOne Houston data centers and customers",
+      "url": "https://www.databank.com/resources/press-releases/databank-completes-migration-of-cyrusone-houston-data-centers-and-customers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "datacenterHawk — Skybox Datacenters expands Houston campus",
+      "url": "https://www.datacenterhawk.com/resources/market-insights/skybox-datacenters-expands-their-houston-data-center-campus",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Mordor Intelligence — Houston data center market (citing JLL 2025 outlook, 200+ MW)",
+      "url": "https://www.mordorintelligence.com/industry-reports/houston-data-center-market",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Houston/Galveston — Hurricane Harvey event page",
+      "url": "https://www.weather.gov/hgx/hurricaneharvey",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Lake Charles clay",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/L/LAKE_CHARLES.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Beaumont clay series",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/B/BEAUMONT.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — Texas BEAD final proposal approval (Nov 20, 2025)",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic / ice / design temps",
+      "attempted": "ASCE Hazard Tool, USGS design-maps API, and TIA-222 county tables all unreachable through the sandbox proxy (403s). Wind is the liability-critical value for this market — query at site coordinates before publish; do not interpolate from Dallas or Corpus Christi."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Houston amendment table to the 2021 code (Table R301.2 equivalent) could not be read — houstonpermittingcenter.org and codelibrary fetches blocked. Cite the amended table cell or leave null."
+    },
+    {
+      "field": "identity.elevationFt",
+      "attempted": "USGS GNIS and city sources unfetchable; Houston spans roughly sea level to modest upland elevations, so a single unsourced figure was not recorded."
+    },
+    {
+      "field": "identity.population — vintage confirmation",
+      "attempted": "census.gov QuickFacts blocked; 2,314,157 is the widely republished Vintage 2023 estimate and must be confirmed against the Census table directly."
+    },
+    {
+      "field": "geotech — bearing range, groundwater depth, NRCS corrosion ratings, growth-fault map reference",
+      "attempted": "NRCS Web Soil Survey interactive is blocked; growth-fault discussion is qualitative pending a citable published fault-trace map (USGS/BEG) for Harris County."
+    },
+    {
+      "field": "regulatory — Houston Permitting Center review times; ROW permit page deep link",
+      "attempted": "houstonpermittingcenter.org subpages returned 403 through the proxy; review durations require direct confirmation anyway per RESEARCH.md."
+    },
+    {
+      "field": "utilities — CenterPoint new-service intake URL and lead times; Tachus/fiber lineup confirmation",
+      "attempted": "centerpointenergy.com not fetchable; lead times need utility/ops confirmation. Fiber-provider list assembled from market knowledge — verify against FCC broadband data before publish."
+    },
+    {
+      "field": "utilities.longHaulRouteNotes — subsea landing status",
+      "attempted": "TeleGeography's Freeport, TX landing-point page returned 403; the no-Houston-landing statement reflects search-level evidence only and must be verified before use in proposals."
+    },
+    {
+      "field": "marketActivity — NHHIP / I-45 rebuild item; Skybox and DataBank item dates",
+      "attempted": "TxDOT project pages 403'd, so the North Houston Highway Improvement Project (a major utility-relocation driver) was omitted rather than described unsourced; Skybox announcement date unconfirmed (review-date used as asOf)."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Seed 265 mi / 4.6 h is a straight-line estimate; the actual DFW–Houston I-45 routing is commonly shorter (~240 mi) and must be verified by ops routing before publish (routeVerified stays false)."
+    },
+    {
+      "field": "operations.countiesServed + any response commitments",
+      "attempted": "Five-county metro list is a draft; ops sign-off required for the confirmed coverage list and for any storm-response language."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 gate needs at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "seasonality — NWS station normals confirmation",
+      "attempted": "weather.gov station-normals tables not fetchable; calendar authored from established climate pattern and must be checked against the IAH/HOU normals table."
+    }
+  ]
+}

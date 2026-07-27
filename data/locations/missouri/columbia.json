@@ -1,0 +1,515 @@
+{
+  "identity": {
+    "slug": "columbia",
+    "city": "Columbia",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "counties": ["Boone"],
+    "msa": "Columbia, MO",
+    "tier": 2,
+    "latitude": 38.9517,
+    "longitude": -92.3341,
+    "elevationFt": 761,
+    "population": {
+      "value": 126254,
+      "source": "U.S. Census Bureau 2020 Census count — confirm against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": ["I-70"],
+    "majorRoutes": ["US-63", "MO-763", "MO-740 (Stadium Blvd)", "MO-163"]
+  },
+  "metadata": {
+    "title": "Columbia, MO Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Columbia, MO — karst-aware foundations, fiber duct bank, and compound work across Boone County and the I-70 corridor.",
+    "h1": "Telecom Site Civil Construction in Columbia, Missouri",
+    "intro": "Columbia's civil conditions are set by two things most Midwest markets don't have at once: textbook karst and a rebuilt interstate. Mississippian limestone lies shallow across southern Boone County — the Devil's Icebox cave system and the natural rock bridge at Rock Bridge Memorial State Park sit five miles south of downtown — so foundations, bores, and duct banks get screened for voids and shallow rock before they get priced. Meanwhile MoDOT's $2.8 billion Improve I-70 program is actively reconstructing the corridor through the city, the University of Missouri and its hospital networks anchor steady wireless and edge demand, and the city's own municipal utility, Columbia Water & Light, runs the electric interconnection queue. CellSite Solutions self-performs telecom civil scope here from its Cedar Rapids, Iowa yard, roughly 250 road miles north.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 I-codes Columbia currently enforces; the city ran a 2024 I-code adoption process in late 2025 — confirm the edition in force before design)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Mid-Missouri sits well outside the New Madrid high-hazard zone in the state's southeast; publish site-specific Ss/S1 only after a USGS design-maps query, and treat site class as site-specific — karst terrain makes blanket site-class assumptions worse here than in most markets."
+    },
+    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Columbia sits on the karst margin where the glaciated plains meet the Ozark border. Mississippian Burlington–Keokuk limestone lies at shallow depth across southern Boone County, dissolved into caves, losing streams, and sinkholes — Rock Bridge Memorial State Park's rock bridge and the Devil's Icebox cave system are five miles south of town, and Missouri DNR maps the state's largest known sinkhole, roughly 700 acres, in western Boone County. Uplands carry loess- and till-derived soils grading southward into cherty clay residuum over carbonate bedrock. (Missouri DNR geologic hazards; Missouri State Parks.)",
+    "dominantSoilTypes": [
+      "Loess- and till-derived silt loams (northern uplands)",
+      "Cherty clay residuum over Burlington–Keokuk limestone (southern Boone County)",
+      "Alluvium along Perche, Hinkson, and Bonne Femme creeks"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "NRCS shrink-swell data for Boone County was not reachable for this draft; clay residuum warrants routine shrink-swell screening in the geotechnical program rather than an assumed rating.",
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": {
+      "present": true,
+      "note": "Boone County is textbook Missouri karst. Sinkholes, caves, and losing streams concentrate in the southern half of the county — the Devil's Icebox system alone runs an estimated seven miles — and DNR maps the state's largest known sinkhole (~700 acres) in western Boone County southeast of the I-70 Missouri River crossing. Screen every site against DNR karst and sinkhole mapping and let borings, not surface impressions, clear the foundation footprint."
+    },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The first question on a Columbia foundation is not frost — it is what the limestone underneath is doing. On the karst side of town, a shelter pad or tower foundation footprint gets borings positioned to catch voids, pinnacled rock, and clay-filled cutters, because a spread footing that straddles a solution feature is a settlement claim waiting to happen. Where competent rock sits shallow, drilled piers socket economically instead of fighting mass rock excavation; where clay residuum runs deep, conventional footings below the code frost depth work fine. North-side sites on loess-derived uplands are the simple cases. The city's amended frost-depth figure could not be read from the code text through our research proxy, so we hold that value until it is cited to the ordinance — and on every site here, the geotechnical investigation governs the design, full stop."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Columbia Community Development — Building and Site Development",
+        "url": "https://www.como.gov/community-development/building-site-development/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Commercial plan review under the 2018 I-codes; the city ran a public 2024 I-code adoption process in late 2025. Confirm the edition in force and the current review queue by phone when scoping."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code, adopted by reference in the Code of Ordinances Ch. 6 with Appendices C, E, F, I, J and N; a 2024 I-code adoption process was underway in late 2025 — verify current edition",
+      "source": "City of Columbia Code of Ordinances Ch. 6 (Buildings and Building Regulations); Be Heard CoMo 2024 building code adoption page",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities across Missouri run under the Uniform Small Wireless Facility Deployment Act (2018 HB 1991, RSMo 67.5110–67.5121), which caps ROW fees, sets shot clocks, and limits bonding to $200 per facility. Columbia administers small-cell applications inside that state preemption — confirm the city's current application path with Public Works.",
+    "rowPermitAuthority": {
+      "name": "City of Columbia Public Works",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Excavation and utility work in city streets is permitted through Public Works. Permit mechanics, bond amounts, and traffic-control submittal requirements were not verifiable through our research proxy — confirm directly before bid."
+    },
+    "stateDotDistrict": {
+      "name": "MoDOT Central District (Boone County)",
+      "url": "https://www.modot.org/missouri-counties-modot-district",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Permits on I-70, US-63, and other state ROW go through the Central District permit office; expect extra coordination anywhere the Improve I-70 work zones are active."
+    },
+    "oneCallCenter": {
+      "name": "Missouri 811 (Missouri One Call System)",
+      "url": "https://missouri-811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "RSMo 319.026 requires notice at least two working days (and not more than ten) before excavation. A 2025 amendment effective August 28, 2025 added a 21-day completion window per ticket — long duct-bank runs need re-ticketing built into the schedule.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Missouri DNR — construction land disturbance general permit (MORA series)",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP required; the permit triggers at one acre of disturbance or any smaller piece of a common plan totaling an acre. Karst drainage south of Columbia — the Bonne Femme cave watershed — makes erosion control consequential beyond compliance: sinkholes route runoff straight into cave streams."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Building permits run through Community Development's Building and Site Development group under the 2018 I-codes (2024 adoption pending — verify). Telecom sites typically stack three more layers: a Public Works ROW permit for street and utility work, a MoDOT Central District permit for anything on I-70 or US-63 right-of-way — with active Improve I-70 work zones adding coordination time through 2030 — and Missouri DNR's MORA land-disturbance permit at one acre. Missouri 811 wants two working days before digging, and tickets now expire 21 days after work starts under the 2025 amendment. The city does not publish standing review times; confirm the current queue when committing a schedule."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Columbia Water & Light (City of Columbia Utilities)",
+        "type": "municipal",
+        "newServiceProcessUrl": "https://www.como.gov/utilities/electric/",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Municipally owned utility serving more than 50,000 customers inside the city; it builds and maintains its own transmission, substations, and distribution. New commercial service to a hut or compound is coordinated through City of Columbia Utilities — confirm lead times directly rather than assuming an IOU-style queue."
+      },
+      {
+        "name": "Boone Electric Cooperative",
+        "type": "cooperative",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves territory in Boone County outside the municipal system. Confirm which utility holds a specific site before submitting a service application — the boundary does not follow city limits cleanly."
+      }
+    ],
+    "ilec": "Brightspeed (legacy CenturyLink/Embarq exchanges serve Columbia) — confirm exchange boundaries against the FCC broadband map before publishing",
+    "notableFiberProviders": [
+      "Socket (fiber ISP headquartered in Columbia)",
+      "Brightspeed Fiber",
+      "City of Columbia dark fiber (leased through Water & Light)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "I-70 through Columbia is Missouri's primary east-west long-haul corridor between St. Louis and Kansas City, and the Improve I-70 rebuild is reconstructing it through Boone County into 2030 — utility relocations and fresh conduit opportunities track the project phases.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Missouri runs no statewide spring frost-law program of the kind Iowa and Wisconsin enforce. Individual county or city postings can still appear on specific roads after wet winters — check Boone County road postings before scheduling a heavy shelter haul to a rural site."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "MoDOT Motor Carrier Services (oversize/overweight permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route OS/OW permits are issued through MoDOT Motor Carrier Services' online system; city and county mileage needs separate local authorization. Active Improve I-70 work zones can force haul-route changes — confirm routing at permit time."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "COLT — Columbia Terminal Railroad (city-owned short line)",
+        "crossingPermitNote": "Columbia owns and operates its own railroad: the COLT runs north from the city to the Norfolk Southern interchange at Centralia, operated by City of Columbia Utilities. Crossing and parallel-occupancy requests go through the city rather than a Class I permit portal — a materially faster conversation than most railroad crossings, but still one to start early."
+      },
+      {
+        "name": "Norfolk Southern (COLT interchange at Centralia)",
+        "crossingPermitNote": null
+      }
+    ],
+    "urbanRowRequirements": "City-street work requires a Public Works ROW permit, and high pedestrian volumes around the University of Missouri campus make traffic-control plans a standard submittal downtown. Specific bond amounts, open-cut limits, and notice periods were not verifiable through our research proxy — confirm with Public Works before pricing restoration."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Federally listed bats — the Devil's Icebox cave south of Columbia is closed to the public to protect the endangered Indiana bat, and listed bats occur across mid-Missouri; a project-specific USFWS IPaC review sets the clearing window",
+      "source": "Rock Bridge Memorial State Park / Devil's Icebox cave closure for Indiana bat protection; USFWS IPaC (site-specific)"
+    },
+    "shpo": {
+      "name": "Missouri State Historic Preservation Office (Missouri DNR)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 review applies on federally funded work, including BEAD-funded broadband routes in rural Boone County."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory program; Missouri DNR issues Section 401 water quality certifications",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Losing streams in karst terrain complicate jurisdictional calls — flag them early in the delineation."
+    },
+    "usaceDistrict": "Kansas City District (NWK) — confirm against the USACE district boundary map before sign-off",
+    "listedSpeciesNote": "The Indiana bat is the headline species here: Devil's Icebox is a documented hibernaculum and the cave is closed to protect it, so cave-proximate sites in southern Boone County can draw federal species review well beyond routine tree-clearing conditions. Run a project-specific USFWS IPaC query for every site.",
+    "floodplainPrevalenceNote": "Mapped floodplain in Columbia follows Perche, Hinkson, and Bonne Femme creeks rather than one major river through town; the Missouri River bottoms lie southwest of the city. Karst adds a second flood mechanism — sinkholes and losing streams that take runoff directly — and the Bonne Femme cave watershed south of town carries heightened stormwater sensitivity. Screen against the effective FIRM and DNR karst mapping together."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Freeze-thaw cycling; frozen crusts alternate with mud rather than deep sustained frost", "earthworkConcrete": "constrained", "note": "Cold-weather concrete protection required on pours" },
+      { "month": "Feb", "groundConditions": "Continued freeze-thaw; wettest cold-season ground of the year", "earthworkConcrete": "constrained", "note": "Ice-storm risk peaks in the cold months — restoration work competes for crews" },
+      { "month": "Mar", "groundConditions": "Thawing, saturated subgrades; drying begins late in the month", "earthworkConcrete": "workable", "note": "Severe-weather season begins" },
+      { "month": "Apr", "groundConditions": "Firming subgrades between spring rain systems", "earthworkConcrete": "favorable", "note": null },
+      { "month": "May", "groundConditions": "Workable; peak severe-storm and heavy-rain season", "earthworkConcrete": "favorable", "note": "SWPPP maintenance matters most in this window — karst drainage south of town takes runoff directly" },
+      { "month": "Jun", "groundConditions": "Warm and workable; thunderstorm downpours intermittent", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Hot and mostly dry between storm systems", "earthworkConcrete": "favorable", "note": "Hot-weather concrete practice on afternoon pours" },
+      { "month": "Aug", "groundConditions": "Hot; ground typically at its driest and hardest", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Sep", "groundConditions": "Drying, firm; excellent production month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Firm with cooling temperatures; first freeze typically arrives late in the month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Nov", "groundConditions": "Cooling fast; intermittent freezes begin", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice resumes" },
+      { "month": "Dec", "groundConditions": "Freeze-thaw cycling sets in; occasional snow and ice events", "earthworkConcrete": "constrained", "note": null }
+    ],
+    "narrative": "Columbia's construction year is longer than the upper Midwest's: winter here is freeze-thaw management rather than months of deep frost, so foundation and underground work continues through December–February with cold-weather protection instead of shutting down. The trade-offs land elsewhere — spring severe-weather season brings heavy-rain shutdowns and real erosion-control obligations in karst drainage, and July–August afternoons call for hot-weather concrete practice. September through early November is the premium window. Month-by-month figures should be checked against the NOAA NCEI climate normals for the Columbia Regional Airport station before publication; this calendar is directional, not a design document."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Burlington–Keokuk limestone sits shallow enough across southern Boone County to form natural bridges and cave systems at the surface — price trench, bore, and foundation work south of town with rock contingencies until borings say otherwise. Karst cuts the other way too: voids and clay-filled cutters can mean over-excavation and lean-concrete backfill rather than rock removal.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Missouri's prevailing wage law, reworked by 2018 HB 1729, applies to public works over $75,000 using the state's Annual Wage Order; projects under 1,000 aggregate work hours pay the Public Works Contracting Minimum Wage (120% of the average county wage) instead. Federal Davis-Bacon attaches separately to BEAD-funded broadband builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter cost here is freeze-thaw management more than deep-frost excavation: cold-weather concrete protection and muddy-site logistics from roughly December through February, not an Iowa-style frost season.",
+    "narrative": "Three things move a civil number in Columbia. First, the ground: karst limestone means either shallow rock or voids, and both cost money — the geotech program is the estimate. Second, the wage regime: public-works and BEAD-funded scopes carry Annual Wage Order or Davis-Bacon rates that private carrier work does not, so identical scopes price differently by funding source. Third, the corridor: Improve I-70 construction through Boone County reroutes hauls and adds coordination on any site near the interstate through 2030. Mobilization from our Cedar Rapids yard sits inside our regional band and prices as day-one travel, not a deployment. Drivers only — every site prices to its own borings and its own month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Missouri issues no statewide general contractor license — qualification happens at the city and county level, and Columbia requires contractors to hold a city business license to pull permits. Trade licensing (electrical, mechanical, plumbing) is likewise administered locally rather than by a state board for most classifications. Confirm current City of Columbia licensing requirements with Community Development before bid day.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["tornado", "ice storm", "hail", "flood"],
+    "designImplications": "Mid-Missouri's severe-weather mix argues for conservative anchorage and hail-tolerant compound hardware, and ice-storm exposure makes standby generator pads and fuel containment a standard part of compound design. The local twist is drainage: in karst terrain, compound grading should never direct runoff toward a sinkhole or losing stream — that is both an environmental obligation and a foundation-protection measure. Publish wind and ice design values only after ASCE 7 and county TIA-222 figures are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Improve I-70 rebuild is under construction through Boone County",
+        "detail": "MoDOT's $2.8B Improve I-70 program is adding a third lane each direction between Blue Springs and Wentzville. The $405M Columbia–Kingdom City section moved first, and the $441M Rocheport-to-Columbia design-build broke ground in May 2026, with corridor completion targeted around 2030 — active utility-relocation and new-conduit territory.",
+        "category": "transportation",
+        "sourceUrl": "https://www.kbia.org/missouri-news/2026-05-08/modot-breaks-ground-on-rocheport-to-columbia-i-70-project",
+        "asOf": "2026-05-08"
+      },
+      {
+        "headline": "Missouri BEAD awards finalized — roughly $792M to 42 providers",
+        "detail": "Missouri's Office of Broadband Development awarded about $792M of the state's $1.7B BEAD allocation to 42 ISPs covering 213,803 locations, roughly 81% of them fiber, with per-location awards published at broadbandmap.mo.gov in early January 2026. Rural Boone County routes are in scope for subgrantee builds.",
+        "category": "broadband program",
+        "sourceUrl": "https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program",
+        "asOf": "2026-01"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["regen and amplifier site civil", "long-haul and metro route construction"],
+      "narrative": "Columbia is an unusually competitive fiber town for its size: Socket, the fiber ISP headquartered here, and Brightspeed both operate FTTH plant, and the city itself leases dark fiber through Water & Light. That means lateral, vault, and restoration work in established ROW under Public Works permits — plus rural Boone County routes as Missouri's BEAD subgrantees build out. The engineering variable is underneath: bores south of town run through Burlington limestone karst, where shallow rock and voids decide the trench-versus-bore call, while the Improve I-70 rebuild generates relocation and conduit work along the corridor into 2030. Missouri 811's two-working-day notice and new 21-day ticket life shape production scheduling on every long run.",
+      "localSpecificsReferenced": [
+        "Socket (Columbia-headquartered fiber ISP)",
+        "City of Columbia dark fiber leasing",
+        "Improve I-70 corridor rebuild",
+        "Burlington–Keokuk limestone boring conditions"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": ["small cell and DAS node civil", "C-band / densification upgrade civil"],
+      "narrative": "Wireless civil work in Columbia divides along the karst line. North-side macro sites on loess uplands build conventionally; south of town, every foundation gets screened against sinkhole and shallow-rock mapping before the drill shows up, because the same limestone that formed the Devil's Icebox runs under compound sites. Demand concentrates around the University of Missouri — campus, stadium-area, and hospital-district capacity work — and small-cell deployments run under Missouri's statewide small-wireless act (RSMo 67.5110–67.5121) rather than a bespoke city ordinance, which caps fees and bonding at the state level. Ice-storm exposure makes generator pads and fuel containment routine scope on Boone County compounds.",
+      "localSpecificsReferenced": [
+        "University of Missouri campus and hospital district",
+        "RSMo 67.5110–67.5121 small-wireless preemption",
+        "southern Boone County karst screening"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": ["security compound and bollards"],
+      "narrative": "Columbia has no hyperscale campus, and this page won't pretend otherwise. What it has is position and load: the I-70 midpoint between Kansas City and St. Louis makes it a natural edge-node and regen geography on east-west routes, and the University of Missouri plus two hospital systems generate the kind of institutional compute and redundancy demand that lands as micro-DC pads, generator yards, and campus duct bank rather than greenfield halls. Interconnection runs through Columbia Water & Light, a municipal utility with its own engineering queue — a different process, and often a different timeline, than an investor-owned utility. Karst screening applies to edge pads exactly as it does to towers: the limestone doesn't care what sits on the foundation.",
+      "localSpecificsReferenced": [
+        "I-70 midpoint between Kansas City and St. Louis",
+        "Columbia Water & Light municipal interconnection",
+        "University of Missouri institutional demand"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 250,
+      "driveTimeHours": 4.3,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Boone", "Callaway", "Cooper", "Howard", "Audrain"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Columbia is reached from the north: crews run the US-218/Avenue of the Saints corridor out of Cedar Rapids and drop straight down US-63 through Kirksville and Moberly into Boone County — roughly 250 road miles, pending route verification. That is a same-morning departure and a working afternoon on site, and multi-day scopes run on overnight stays rather than daily returns, which is how we actually schedule mid-Missouri work. The route is interstate-and-primary the whole way, with no seasonal embargo exposure of the kind Iowa county roads carry. Ice-storm restoration is the emergency case that matters in this market; response commitments are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What does Boone County karst mean for a fiber hut or tower foundation near Columbia?",
+      "answer": "It means the borings come first. Shallow Burlington limestone south of Columbia can put rock at trench depth — or put a void where you wanted bearing. We position borings to catch solution features under the foundation footprint, then choose between footings in residuum, piers socketed to rock, or over-excavation and lean-concrete backfill. Missouri DNR karst and sinkhole mapping is the screening layer; the geotech report makes the call.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for telecom work in Columbia, Missouri?",
+      "answer": "The City of Columbia Public Works department permits excavation and utility work in city streets, with traffic-control plans a standard submittal near the University of Missouri campus. Work on I-70 or US-63 right-of-way needs a separate MoDOT Central District permit instead — and active Improve I-70 work zones add coordination time. Confirm current bond and notice requirements with Public Works before bid.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does Missouri 811 require before we dig in Columbia?",
+      "answer": "At least two working days and not more than ten, under RSMo 319.026. A 2025 amendment effective August 28, 2025 also gives each ticket a 21-day completion window — so a long duct-bank run through town gets re-ticketing built into its production schedule rather than discovered mid-project.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which building code does Columbia enforce for shelter and equipment installations?",
+      "answer": "The 2018 I-codes, adopted by reference in Chapter 6 of the city's Code of Ordinances — with a 2024 I-code adoption process run in late 2025, so confirm the edition in force when your drawings are stamped. Missouri has no statewide building code; each jurisdiction adopts its own, which is why the answer changes at the city line.",
+      "segment": "general"
+    },
+    {
+      "question": "Who provides electric service to a hut or compound site in Columbia?",
+      "answer": "Inside the municipal territory, Columbia Water & Light — the city-owned utility with its own transmission, substations, and engineering queue. Outside it, often Boone Electric Cooperative. The boundary doesn't follow city limits cleanly, so we confirm the serving utility before the service application goes in; a municipal or co-op process runs on a different clock than an investor-owned utility's.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does prevailing wage apply to telecom civil work in Columbia?",
+      "answer": "On public works over $75,000, yes — Missouri's Annual Wage Order applies under the 2018-reworked prevailing wage law, with a Public Works Contracting Minimum Wage for projects under 1,000 work hours. Private carrier builds are not covered, but BEAD-funded broadband routes carry federal Davis-Bacon rates. Funding source changes the labor number on otherwise identical scopes.",
+      "segment": "general"
+    },
+    {
+      "question": "Can you pour a shelter pad in Columbia in January?",
+      "answer": "Yes — mid-Missouri winters are freeze-thaw cycles rather than months of frozen ground, so January pours are routine with cold-weather concrete protection: blankets or enclosures, admixtures, and protected curing. The bigger January risk in this market is ice storms pulling crews onto restoration work; we price winter pours with protection included rather than discovering it mid-pour.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What's driving fiber construction in Columbia right now?",
+      "answer": "Three things at once: Socket and Brightspeed competing on FTTH plant in town, Missouri's BEAD program moving into construction after awarding roughly $792M to 42 providers statewide in early 2026, and MoDOT's Improve I-70 rebuild through Boone County generating relocation and conduit work along the corridor into 2030.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Are there sinkhole risks to watch when siting a compound in Boone County?",
+      "answer": "Yes, and they're mappable. DNR's karst mapping shows sinkholes and losing streams concentrated in southern and western Boone County — including the state's largest known sinkhole, roughly 700 acres, southeast of the I-70 river crossing. We screen candidate sites against that mapping, keep compound drainage from discharging toward karst features, and let borings clear the final footprint.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Boring, trenching, and foundations over Boone County karst",
+    "body": "Columbia forces a decision most Midwest markets never ask: what do you do when the rock might not be there? On the north side, loess-derived soils over deep residuum make trenching cheap and spread footings routine — build conventionally. South of about Stadium Boulevard, the Burlington limestone that formed the Devil's Icebox starts governing. If borings hit competent rock shallow, a drilled pier socketed a few feet into it usually beats mass rock excavation across a pad footprint, and a bore that would fight rock the whole way may lose to an open cut placed where the rock isn't. If borings instead hit clay-filled cutters or voids — the other face of karst — the answer flips to over-excavation, lean-concrete backfill, or relocating the foundation a few dozen feet, which is why we screen sites against DNR sinkhole mapping before land agents fall in love with a parcel. Drainage is part of the same decision: compound grading that sends runoff into a sinkhole feeds the cave system below and can undermine the very feature you built on. Spend the money on borings positioned under the actual foundation, not a single hole in the middle of the lease area — in this county the geotech scope is the design decision.",
+    "heading_note": null
+  },
+  "sources": [
+    {
+      "label": "Missouri DNR — sinkholes and karst geologic hazards (Boone County examples)",
+      "url": "https://dnr.mo.gov/land-geology/hazards/sinkholes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Rock Bridge Memorial State Park — karst features and Devil's Icebox (overview)",
+      "url": "https://en.wikipedia.org/wiki/Rock_Bridge_Memorial_State_Park",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Boone County — Bonne Femme cave watershed program",
+      "url": "https://cavewatershed.boonemo.gov/history.asp",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Columbia — Building and Site Development (2018 I-codes in force)",
+      "url": "https://www.como.gov/community-development/building-site-development/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Be Heard CoMo — 2024 building code adoption process",
+      "url": "https://beheard.como.gov/building-code-adoption",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Columbia — Electric Utility (Columbia Water & Light)",
+      "url": "https://www.como.gov/utilities/electric/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Columbia — COLT Railroad (city-owned short line to the NS interchange at Centralia)",
+      "url": "https://www.como.gov/utilities/columbia-colt-railroad/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "RSMo 319.026 — Missouri One Call notice requirements",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=319.026",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Jefferson City News Tribune — 2025 amendment to Missouri's 811 law (21-day ticket window)",
+      "url": "https://www.newstribune.com/news/2025/aug/10/new-811-law-outlines-earlier-call-requirement/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DNR — construction land disturbance permits (one-acre trigger)",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri Department of Labor — prevailing wage and 2018 changes (HB 1729, $75,000 threshold)",
+      "url": "https://labor.mo.gov/dls/prevailing-wage/2018-changes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "RSMo 67.5110 — Uniform Small Wireless Facility Deployment Act (2018 HB 1991)",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=67.5110",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DED — BEAD program ($1.7B allocation; awards to 42 providers)",
+      "url": "https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KBIA — MoDOT breaks ground on Rocheport-to-Columbia I-70 project (May 2026)",
+      "url": "https://www.kbia.org/missouri-news/2026-05-08/modot-breaks-ground-on-rocheport-to-columbia-i-70-project",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — Missouri counties by district (Boone: Central District)",
+      "url": "https://www.modot.org/missouri-counties-modot-district",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Brightspeed of Missouri — legacy exchange territory including Columbia",
+      "url": "https://en.wikipedia.org/wiki/Brightspeed_of_Missouri",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Socket — Columbia-headquartered fiber provider",
+      "url": "https://en.wikipedia.org/wiki/Socket_(telecommunications)",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables are all unreachable through the sandbox egress proxy; no primary values published. One session from an unproxied machine resolves the set."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Columbia's amended climatic design criteria live in the Code of Ordinances Ch. 6 amendment text; como.gov PDF and Municode were proxy-blocked (403). Secondary SEO frost-depth sites were found and rejected per RESEARCH.md. Cite the ordinance section directly before publish."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, shrink-swell, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and Missouri Geological Survey publication PDFs unreachable through proxy; only qualitative geology sourced from DNR hazard pages and state park documentation."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority + floodplainAdministrator",
+      "attempted": "como.gov Public Works ROW and floodplain program pages could not be fetched to confirm permit mechanics, bonds, or the administrator's office; authority named from department structure only. Floodplain administrator left null."
+    },
+    {
+      "field": "utilities — Boone Electric boundary, Brightspeed ILEC confirmation, CW&L new-service lead time",
+      "attempted": "PSC territory map and FCC broadband map not queryable through proxy; provider identities from secondary sources with confirm notes. Lead times require utility contact."
+    },
+    {
+      "field": "environmental.treeClearingWindow (exact dates)",
+      "attempted": "USFWS Missouri field office guidance not reachable; restriction flagged from documented Indiana bat hibernaculum at Devil's Icebox, but the site-specific window must come from IPaC."
+    },
+    {
+      "field": "logistics.seasonalLoadRestrictions + OS/OW permit URL",
+      "attempted": "MoDOT and Boone County posting pages not fetched; 'no statewide frost law' characterization needs a citable MoDOT/county confirmation before publish."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "NCEI normals for the Columbia Regional Airport station not readable through proxy; calendar authored qualitatively and flagged in the narrative."
+    },
+    {
+      "field": "identity.msa definition + compliance local licensing specifics",
+      "attempted": "OMB delineation for the Columbia MSA county list and the city's exact contractor-licensing mechanics not confirmed; MSA recorded by name only."
+    },
+    {
+      "field": "operations.countiesServed + route verification",
+      "attempted": "Coverage list and any response commitment require ops sign-off; 250 mi / 4.3 hr is the seed straight-line estimate pending real routing."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}

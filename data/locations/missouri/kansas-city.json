@@ -1,0 +1,713 @@
+{
+  "identity": {
+    "slug": "kansas-city",
+    "city": "Kansas City",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "counties": [
+      "Jackson",
+      "Clay",
+      "Platte",
+      "Cass"
+    ],
+    "msa": "Kansas City, MO-KS (bi-state metro)",
+    "tier": 1,
+    "latitude": 39.0997,
+    "longitude": -94.5786,
+    "elevationFt": 910,
+    "population": {
+      "value": 508090,
+      "source": "U.S. Census Bureau, 2020 Census count for Kansas City city, Missouri; confirm the current vintage estimate against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-35",
+      "I-70",
+      "I-29",
+      "I-49",
+      "I-435",
+      "I-470",
+      "I-670"
+    ],
+    "majorRoutes": [
+      "US-71",
+      "US-169",
+      "US-24",
+      "US-40"
+    ]
+  },
+  "metadata": {
+    "title": "Kansas City, MO Telecom Civil Construction | CellSite Solutions",
+    "description": "Fiber, wireless, and edge site civil construction in Kansas City, MO — frost depth, permitting, limestone geology, rail crossings, and mobilization facts.",
+    "h1": "Telecom Site Civil Construction in Kansas City, Missouri",
+    "intro": "Kansas City is a two-state construction market with a one-of-a-kind underground: the metro straddles the Missouri–Kansas line, splits highway work between MoDOT and KDOT, and has mined so much Bethany Falls limestone that 55 million square feet of business park now operates inside the old workings at SubTropolis. The demand drivers are just as concrete — Google Fiber's original 2011 launch market keeps densifying, Meta's Golden Plains campus and the $10 billion Project Mica site are pulling hyperscale civil scope into the Northland, and the nation's second-largest rail hub crosses nearly every fiber route. CellSite Solutions self-performs foundations, underground, and compound construction here on planned regional mobilizations from its Cedar Rapids yard, 320 road miles up I-35 and I-80.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC, adopted effective June 28, 2020 as KCMO Code of Ordinances Ch. 18)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Western Missouri sits in a low national seismic hazard tier — the New Madrid zone is on the far side of the state. Publish Ss/S1 only from a USGS design-maps query at the site coordinates, and treat site class as boring-dependent, especially on 100+ ft of river-valley alluvium."
+    },
+    "frostDepthIn": {
+      "value": 36,
+      "source": "Kansas City, Mo. Code of Ordinances Ch. 18, Art. III, sec. 18-57, amended Table R301.2(1) — search-extracted; a reviewer must open the Municode section text before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Kansas City is built on flat-lying Pennsylvanian bedrock — the alternating limestones and shales of the Kansas City Group, including the Bethany Falls Limestone that hosts the metro's room-and-pillar underground mines — mantled by loess and pre-Illinoian glacial till north of the Missouri River and residual clays on the southern uplands. The Missouri and Kansas River valleys carry 100–150 ft of alluvium filling channels cut into that bedrock during the Pleistocene. (Missouri Geological Survey SP-11, The Geology of Kansas City; Kansas Geological Survey.)",
+    "dominantSoilTypes": [
+      "Loess (windblown silt), thickest north of the Missouri River",
+      "Pre-Illinoian glacial till (Northland uplands)",
+      "Residual clays weathered from Pennsylvanian shales",
+      "Missouri/Kansas River alluvium, 100–150 ft deep (bottoms sites)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Residual clays weathered from the Kansas City Group shales warrant shrink-swell testing on upland sites; no NRCS linear-extensibility data could be pulled through this environment, so the risk grade stays unknown rather than guessed.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Classic karst is not the Kansas City hazard — the local carbonates host mined voids instead. Room-and-pillar limestone workings at the Bethany Falls level (SubTropolis is the famous one, at 1,260 acres and up to 160 ft down) mean undermined-land screening is a real due-diligence step on Northland and bluff-line sites."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation design in Kansas City is a game of which layer you land in. On the uplands, spread footings and shelter pads below the city's 36-inch frost line are routine — until an excavation meets a Kansas City Group limestone ledge above design depth, at which point the choice is rock excavation across the footprint or a redesigned bearing elevation on rock. In the Missouri and Kansas River bottoms the problem inverts: 100–150 ft of alluvium means no rock within reach, soft saturated soils near the rivers, and drilled piers or helical systems doing the work a footing cannot. North of the river, loess adds its own caution — it stands beautifully in cut but can collapse on wetting, so compaction and drainage details matter around pads. And anywhere near the bluff lines, check for mined ground before anything else. Site-specific borings govern every one of these calls."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Kansas City, Mo. — City Planning & Development Department",
+        "url": "https://www.kcmo.gov/city-hall/departments/city-planning-development",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permitting runs through the Compass KC online portal (plans, permits, payments in one system). Published standing review times are not posted — confirm the current queue when scoping. KCMO is one AHJ among dozens in the metro; every suburb and the entire Kansas side permit separately."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code with local amendments, adopted as Code of Ordinances Ch. 18 effective June 28, 2020; 2021 IECC added effective July 1, 2023",
+      "source": "KCMO Building and Rehabilitation Code page — https://www.kcmo.gov/city-hall/departments/city-planning-development/building-and-rehabilitation-code",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Kansas City, Mo. — Public Works Department, Permits Division",
+      "url": "https://www.kcmo.gov/city-hall/departments/public-works/permit-applications",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ROW, excavation, hauling, and traffic-control permits all file through Compass KC. Excavation permits price at $165 per 100 lineal feet (Code sec. 64-118), and cuts in paved ROW carry an additional pavement degradation fee."
+    },
+    "stateDotDistrict": {
+      "name": "MoDOT Kansas City District",
+      "url": "https://www.modot.org/kansas-city-district-office",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District office at 600 NE Colbern Rd., Lee's Summit. Work on the Kansas side of the metro is KDOT's program, not MoDOT's — one route can need two state DOT permits."
+    },
+    "oneCallCenter": {
+      "name": "Missouri 811",
+      "url": "https://missouri-811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Kansas-side segments of a metro route are ticketed separately through Kansas 811 — a two-state metro means two one-call centers on the same project.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Missouri DNR — MORA00000 construction/land disturbance general permit",
+      "url": "https://dnr.mo.gov/water/construction-or-land-disturbance-master-general-stormwater-permit-mora00000",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Electronic ePermitting process; SWPPP required. Current permit term runs Feb. 8, 2022 through Feb. 7, 2027."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Everything city-side funnels through Compass KC — building permit, excavation permit, traffic control — which simplifies filing but not forecasting, since KCMO publishes no standing review clocks; confirm the queue before committing a schedule. Budget the ROW math early: $165 per 100 lineal feet of excavation plus degradation fees on paved streets adds up fast on a duct bank run. Disturb an acre and MoDNR's MORA process (SWPPP, then electronic authorization) must finish before grading. And remember the state line: a route that crosses into Kansas restarts permitting with a different DOT, a different one-call center, and different city licensing."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy (Evergy Metro)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Investor-owned utility serving the Missouri-side metro core. Published new-service lead times were not located — schedule hut and compound energization from Evergy's written engineering confirmation, and confirm the serving entity at the parcel since territory varies across the metro."
+      }
+    ],
+    "ilec": "AT&T Missouri (legacy Southwestern Bell) — attribution from legacy-territory knowledge; confirm exchange boundaries per site before publication",
+    "notableFiberProviders": [
+      "Google Fiber",
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Meta — Golden Plains Technology Park, Northland (announced 2022, first building complete)",
+      "Google — 'Project Mica' 500-acre campus (Port KC bonds approved 2025; Google confirmed 2026)",
+      "Netrality 1102 Grand — downtown carrier hotel",
+      "SubTropolis — underground space with data and cloud storage tenants"
+    ],
+    "longHaulRouteNotes": "1102 Grand is the region's core interconnection point — Netrality reports 140+ unique networks and on-net AWS Direct Connect in the building — making downtown the gateway for long-haul routes through the metro.",
+    "ixPresence": "Netrality reports 60 peering networks and five peering exchanges operating from 1102 Grand."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Missouri posts no statewide spring frost-law embargo — statutory weight limits apply year-round. Verify county-posted roads on rural Northland approaches with the county before a heavy haul rather than assuming the metro pattern; see _gaps."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "MoDOT Motor Carrier Services — MoDOT Carrier Express (online only)",
+      "url": "https://www.modot.org/OSOW",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "OSOW travel runs a half hour before sunrise to a half hour after sunset, with additional Kansas City-area curfews. A haul leg on the Kansas side needs its own KDOT permit."
+    },
+    "bridgeOrClearanceConstraints": "Missouri River crossings concentrate heavy-haul routing onto a limited set of bridges between the Northland and the city core — run the route MoDOT Carrier Express assigns rather than presuming the shortest path.",
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "CPKC (Canadian Pacific Kansas City)",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Norfolk Southern",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Canadian National",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Kansas City Terminal Railway (KCT)",
+        "crossingPermitNote": "KCT operates the terminal trackage for its five Class I owners, so a downtown or crosstown fiber route can require coordination with the terminal railroad in addition to the line-haul carrier. Crossing timelines are not published — file early and route around where possible."
+      }
+    ],
+    "urbanRowRequirements": "All ROW work permits through Public Works via Compass KC; excavation runs $165 per 100 lineal feet plus a degradation fee on paved streets. Along the Main Street streetcar spine — extended 3.5 miles to UMKC in October 2025 — expect track-clearance and utility coordination on top of the standard city permit."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Federally listed bats (Indiana bat, northern long-eared bat) are documented across Missouri; the site-specific USFWS IPaC screening governs whether and when clearing is restricted",
+      "source": "USFWS IPaC (per-site query) — the statewide clearing-window guidance could not be verified this session; see _gaps"
+    },
+    "shpo": {
+      "name": "Missouri State Historic Preservation Office (Missouri DNR)",
+      "url": "https://mostateparks.com/page/state-historic-preservation-office/sec-106-review",
+      "phone": "573-751-7858",
+      "typicalReviewDays": 30,
+      "note": "30-day review clock from receipt of a complete submittal during business hours; expedited review available for emergencies under 36 CFR 800.12 by phone."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory program; Missouri DNR handles Section 401 certification",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Kansas City District (NWK)",
+    "listedSpeciesNote": "Run USFWS IPaC per county — the city itself spans Jackson, Clay, Platte, and Cass counties and lists differ. Listed bats are the recurring construction constraint across Missouri.",
+    "floodplainPrevalenceNote": "The Missouri River crested at 48.9 ft at Kansas City on July 27, 1993 — 2.7 ft over the 1951 record and within inches of overtopping the levees protecting the downtown airport. The industrial bottoms (West Bottoms, East Bottoms) sit behind levees on 100–150 ft of alluvium, so floodplain screening and levee-district coordination lead siting there, ahead of any geotechnical question."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Freeze-thaw cycling rather than deep sustained frost; hard freezes arrive in cold snaps",
+        "earthworkConcrete": "constrained",
+        "note": "Cold-weather concrete protection required; frost rarely approaches the 36-inch design depth for long"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Continued freeze-thaw; mud between cycles",
+        "earthworkConcrete": "constrained",
+        "note": "Ice storms are the characteristic disruption — plan slack, not shutdown"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawing, wet subgrades; severe weather season begins",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying, workable; peak tornado/hail season ramps up",
+        "earthworkConcrete": "favorable",
+        "note": "Build storm-day slack into pour schedules"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Firm; heaviest rain and severe-storm frequency of the year",
+        "earthworkConcrete": "favorable",
+        "note": "SWPPP maintenance earns its keep this month"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; storms taper through the month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and mostly dry",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on afternoon pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot; occasional heavy convective rain",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice continues"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm, drying; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cool and firm; excellent earthwork window",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "First hard freezes late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freeze-thaw cycling establishes; occasional snow",
+        "earthworkConcrete": "constrained",
+        "note": null
+      }
+    ],
+    "narrative": "Kansas City's construction year is longer than an Iowa scheduler expects: winter here is freeze-thaw cycling rather than months of frozen ground, so December through February work is constrained, not shut down — the cost shows up as concrete protection and mud management, not frost excavation. The trade-off is spring: April and May bring the metro's peak tornado, hail, and heavy-rain frequency, which argues for storm-day slack in pour and crane schedules. July and August push the other limit, with hot-weather concrete practice on afternoon placements. Month-by-month figures should be read against the NOAA NCEI normals for the Kansas City station before publication — see _gaps."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Kansas City Group limestone ledges sit at shallow depth across the uplands — the same beds exposed in the metro's road cuts and bluffs — so trench, duct bank, and foundation work meets rock often enough to carry a rock clause. River-bottom sites are the opposite: 100–150 ft of alluvium and no rock in reach.",
+    "aggregateHaulNote": "Crushed limestone is produced inside the metro — the mining that created SubTropolis began as local limestone extraction — keeping aggregate haul distances short.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": "KCMO excavation permits run $165 per 100 lineal feet (Code sec. 64-118) plus a pavement degradation fee on paved ROW — a real line item on long urban duct bank runs.",
+    "prevailingWageExposure": "Missouri prevailing wage (Annual Wage Order) applies to public works over $75,000 under the post-HB 1729 system; federal Davis-Bacon attaches to BEAD-funded builds. Private carrier work is exposed mainly where it rides on public contracts.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter pricing here is freeze-thaw pricing: blankets, heat, and mud management from December through February rather than deep-frost excavation. Spring severe weather adds schedule contingency more than direct cost.",
+    "narrative": "Four things move a civil number in Kansas City. First, which side of the bedrock lottery the site draws — shallow limestone ledges on the uplands (rock clause) versus deep soft alluvium in the bottoms (deep foundations). Second, jurisdiction count: a two-state metro can double permits, licenses, and one-call tickets on a single route, and KCMO's per-100-foot excavation fees compound on long runs. Third, rail: five Class I carriers plus the Kansas City Terminal Railway mean crossing agreements appear on most linear projects, and their timelines are the schedule risk. Fourth, mobilization — 320 road miles from our Cedar Rapids yard, planned in work blocks rather than day trips. Drivers only; every site prices to its own borings and month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Missouri has no statewide general contractor license. Kansas City licenses contractors through City Planning & Development — a Certificate of Qualification for the qualifying individual (typically via ICC exam) plus a company contractor license — and that license stops at the city limits: suburbs license separately, and the Kansas side of the metro is a different state's regime entirely.",
+    "additionalRegistrations": [
+      "Missouri Secretary of State business registration"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "flood"
+    ],
+    "designImplications": "Kansas City sits squarely in severe convective territory: tornado and large-hail exposure argue for conservative anchorage, hail-rated enclosures, and generator fuel containment designed to stay put in high wind. Ice storms are the characteristic winter grid threat, which is exactly why standby generation and its pads keep getting built here. In the levee-protected bottoms, the 1993 flood is the design memory — elevation and floodplain review lead. Publish wind and ice loading values only after the ASCE 7 and TIA-222 county lookups land."
+  ,
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google confirmed behind $10B 'Project Mica' campus in the Northland",
+        "detail": "Port KC's board approved $10 billion in taxable revenue bonds for the 500-acre Project Mica campus near Smithville in July 2025; Google confirmed in February 2026 that it is the company behind the development.",
+        "category": "data center",
+        "sourceUrl": "https://fox4kc.com/news/google-confirms-its-behind-new-data-center-coming-to-northland/",
+        "asOf": "2026-02-13"
+      },
+      {
+        "headline": "Meta's Golden Plains Technology Park data center",
+        "detail": "Meta selected Kansas City's Northland for an $800 million, roughly 1-million-sq-ft hyperscale facility at Golden Plains Technology Park (US-169 at NW 128th St.), announced March 2022; the first building has since been completed.",
+        "category": "data center",
+        "sourceUrl": "https://www.kcur.org/news/2022-03-24/facebook-comes-to-kansas-city-meta-selects-northland-for-800-million-data-center",
+        "asOf": "2022-03-24"
+      },
+      {
+        "headline": "KC Streetcar Main Street extension opened",
+        "detail": "The $352 million, 3.5-mile Main Street extension from Union Station to UMKC opened October 24, 2025 after three and a half years of construction — a corridor where utility work now coordinates around live track.",
+        "category": "transportation",
+        "sourceUrl": "https://www.kcur.org/housing-development-section/2025-10-24/kansas-city-streetcar-main-street-extension-now-open",
+        "asOf": "2025-10-24"
+      },
+      {
+        "headline": "Missouri BEAD final proposal: $792M to 42 ISPs",
+        "detail": "Missouri's Office of Broadband Development submitted its BEAD final proposal to NTIA on September 19, 2025 — $792 million of the state's $1.7 billion allocation, awarded to 42 ISPs to serve 213,803 locations, about 81% with fiber.",
+        "category": "broadband program",
+        "sourceUrl": "https://ded.mo.gov/press-room/ded-releases-final-proposal-broadband-equity-access-and-deployment-bead-program",
+        "asOf": "2025-09-19"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Kansas City has been a fiber construction market longer than almost anywhere — Google chose it as Google Fiber's first city in March 2011, and the overbuild-and-densify cycle never really stopped. Today the constraints are structural: five Class I railroads plus the Kansas City Terminal Railway put crossing agreements on most linear routes, the state line means a single metro route can need Missouri 811 and Kansas 811 tickets plus two DOT permits, and KCMO's excavation fees ($165 per 100 lineal feet, plus degradation charges) reward tight bore planning over open cut. Rural Missouri BEAD routes radiating from the metro add Davis-Bacon payrolls to the mix. We bore, trench, and set vaults on all of it, with shallow limestone the standing bid question.",
+      "localSpecificsReferenced": [
+        "Google Fiber first-city launch (March 2011)",
+        "Kansas City Terminal Railway crossings",
+        "KCMO excavation fee structure (Code sec. 64-118)",
+        "Missouri/Kansas 811 two-state ticketing"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless civil in Kansas City starts at 36 inches — the frost depth in the city's amended Table R301.2(1) — and gets interesting below that: upland compounds can meet Kansas City Group limestone above design depth, while river-bottom sites sit on deep alluvium that pushes shelter pads toward drilled or helical foundations. Severe weather does the rest of the design work; this is tornado and hail country, so anchorage and generator containment get sized conservatively, and the ice-storm grid risk is precisely why backup generation keeps getting added at sites here. Small cell and DAS work follows the new Main Street streetcar spine to UMKC, where clearance coordination with live track now rides on top of the standard Compass KC permit. City licensing (Certificate of Qualification) is jurisdiction-specific — the metro's dozens of AHJs each check their own box.",
+      "localSpecificsReferenced": [
+        "36-inch frost depth (KCMO Code Ch. 18, sec. 18-57)",
+        "Main Street streetcar extension corridor",
+        "Kansas City Group shallow limestone",
+        "KCMO Certificate of Qualification licensing"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The Northland has become one of the Midwest's live hyperscale corridors: Meta's Golden Plains Technology Park campus ($800 million announced, first building complete) and the 500-acre, $10 billion Project Mica site that Google confirmed in February 2026 sit on the same US-169 side of the metro, and both throw off the campus civil scope we self-perform — transformer and switchgear pads, generator yards, duct bank, and heavy-haul access. Downtown, Netrality's 1102 Grand carrier hotel (140+ networks, five peering exchanges) anchors the interconnection that edge deployments attach to, and Kansas City's oddest asset — SubTropolis, 55 million square feet of mined space already housing data and storage tenants — is a reminder that undermined-land screening belongs in every Northland site assessment. Evergy Metro serves the new load; energization schedules run on the utility's confirmation, not assumptions.",
+      "localSpecificsReferenced": [
+        "Golden Plains Technology Park (Meta)",
+        "Project Mica (Google / Port KC)",
+        "1102 Grand carrier hotel",
+        "SubTropolis undermined-land context"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 320,
+      "driveTimeHours": 4.8,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Jackson",
+      "Clay",
+      "Platte",
+      "Cass"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Kansas City sits at the far edge of our regional band: 320 road miles from the Cedar Rapids yard, nearly all of it interstate — I-380 to I-80 west, then I-35 south through Des Moines, about four and three-quarter hours in normal conditions. That geometry makes this a planned-mobilization market rather than a same-day one: crews stage for multi-day work blocks, equipment moves once per scope rather than commuting, and winter runs carry slack for ice and crosswind conditions on the I-35 corridor between Des Moines and the state line. Jackson and Clay County sites come off I-35/I-435 directly; Platte County sites route I-29 at the top of the loop. Any commitment tighter than that is stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do foundations need to go in Kansas City, Missouri?",
+      "answer": "Below 36 inches — the frost depth in Kansas City's amended Table R301.2(1) (Code of Ordinances Ch. 18, sec. 18-57). The practical question is what you meet on the way down: upland sites can hit Kansas City Group limestone above three feet, while river-bottom sites sit on 100+ feet of alluvium with no rock in reach. Borings, not the code table, set the final design.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for telecom work in Kansas City?",
+      "answer": "KCMO Public Works' Permits Division, filed through the Compass KC online portal. Excavation permits price at $165 per 100 lineal feet under Code sec. 64-118, with a pavement degradation fee added for cuts in paved streets. That is the city only — each suburb and every Kansas-side jurisdiction runs its own ROW program.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does Missouri 811 require before we dig in Kansas City?",
+      "answer": "Three working days, excluding weekends and Missouri holidays — and note the law changed under SB 133 effective August 28, 2025, so old two-day assumptions should be rechecked. If a route crosses the state line, the Kansas segments are ticketed separately through Kansas 811 on that state's rules. We build both leads into every metro underground schedule.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What does the two-state metro mean for permitting a single project?",
+      "answer": "Potentially double everything: MoDOT and KDOT each permit their own highways, Missouri 811 and Kansas 811 each ticket their own side, and city contractor licenses do not cross the line — KCMO's Certificate of Qualification means nothing in Kansas City, Kansas. We scope jurisdiction count at the routing stage, because it drives both schedule and cost more than any soil condition.",
+      "segment": "general"
+    },
+    {
+      "question": "Are there haul restrictions for delivering a shelter to a Kansas City site?",
+      "answer": "Yes — timing ones. Missouri OSOW permits issue online through MoDOT Carrier Express, travel is limited to half an hour before sunrise through half an hour after sunset, and the Kansas City area carries additional curfews on top of the statewide rule. Missouri has no seasonal frost-law embargo, so the constraint is daily clock and routing, not calendar.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour a shelter pad in Kansas City in January?",
+      "answer": "Usually, with cold-weather protection. Kansas City winters run freeze-thaw rather than deep sustained frost, so January work is constrained — blankets, heat, mud management — but rarely stopped for weeks the way it is farther north. Ice storms are the disruption to plan around. The premium is real but smaller than the same pour in our Iowa markets.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which railroads affect fiber routes in Kansas City?",
+      "answer": "More than almost any US city: BNSF, Union Pacific, CPKC, Norfolk Southern, and CN all operate here, and the Kansas City Terminal Railway runs the jointly-owned terminal trackage downtown — so a crosstown route can need agreements with both a line-haul carrier and the terminal railroad. Crossing approvals are the long pole; we file at route design, not at construction release.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What is SubTropolis and why does it matter for site work?",
+      "answer": "A 55-million-square-foot business park inside a former Bethany Falls limestone mine, up to 160 feet beneath the Northland. It matters beyond trivia: the same room-and-pillar workings exist elsewhere along the bluffs, so undermined-land screening is a legitimate due-diligence step for Northland compounds and pads — a hazard class most metros simply don't have.",
+      "segment": "edge"
+    },
+    {
+      "question": "What's driving telecom construction demand in Kansas City right now?",
+      "answer": "Hyperscale, mostly: Meta's Golden Plains campus is built and growing, and Google confirmed the $10 billion, 500-acre Project Mica campus in February 2026 — both in the Northland. Layer on Google Fiber's ongoing densification of its original market, Missouri's $792 million BEAD award round, and the interconnection gravity of 1102 Grand downtown, and the fiber, power, and pad work follows.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does Missouri prevailing wage apply to work in Kansas City?",
+      "answer": "On public works over $75,000, yes — rates come from the state's Annual Wage Order under the post-2018 (HB 1729) system, with a 120%-of-average fallback wage where a trade has under 1,000 reported local hours. Federally funded work, including BEAD builds, carries Davis-Bacon instead. Purely private carrier and tower work generally carries neither.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Rock ledge or river bottom: the first question on any Kansas City foundation",
+    "body": "Before frost depth, before wind load, a Kansas City foundation design should answer one question: upland or bottoms? On the uplands, the Kansas City Group's alternating limestones and shales sit close enough to grade that a 36-inch frost excavation can become a rock excavation without warning — and when a ledge shows up above bearing elevation, mass-excavating it across a pad footprint is usually the expensive answer. Founding on the rock at a revised elevation, or switching to piers socketed into it, tends to win. In the Missouri and Kansas River bottoms the logic flips completely: 100 to 150 feet of alluvium means there is no rock to reach, soils are soft and often saturated, and drilled piers, helicals, or improved-ground pads carry what a spread footing cannot — with levee-district and floodplain review layered on top, because 1993 remains the design memory here. North of the river, add two screens: loess that collapses on wetting, and the possibility of mined ground at the Bethany Falls level. The geotech scope that answers all four questions costs a fraction of discovering any one of them in an open excavation."
+  },
+  "sources": [
+    {
+      "label": "KCMO — Building and Rehabilitation Code (2018 codes effective June 28, 2020; 2021 IECC July 1, 2023)",
+      "url": "https://www.kcmo.gov/city-hall/departments/city-planning-development/building-and-rehabilitation-code",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KCMO Code of Ordinances sec. 64-118 — excavation permit fees",
+      "url": "http://kansascity-mo.elaws.us/code/coor_ch64_artiv_sec64-118",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KCMO Public Works — permit applications (Compass KC)",
+      "url": "https://www.kcmo.gov/city-hall/departments/public-works/permit-applications",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — Kansas City District office",
+      "url": "https://www.modot.org/kansas-city-district-office",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — oversize/overweight permitting and travel restrictions",
+      "url": "https://www.modot.org/OSOW",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri 811 — SB 133 changes and three-working-day notice",
+      "url": "https://blog.missouri-811.org/sb-133-major-changes-to-missouris-underground-facility-law-coming-in-august",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDNR — MORA00000 construction/land disturbance general permit",
+      "url": "https://dnr.mo.gov/water/construction-or-land-disturbance-master-general-stormwater-permit-mora00000",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri SHPO — Section 106 review",
+      "url": "https://mostateparks.com/page/state-historic-preservation-office/sec-106-review",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri Geological Survey SP-11 — The Geology of Kansas City, Missouri",
+      "url": "https://share.mo.gov/nr/mgs/MGSData/Books/Special%20Publications/Geologic%20Field%20Trips%20in%20the%20Greater%20Kansas%20City%20Area%20(Western%20Missouri,%20Northeastern%20Kansas,%20and%20Southeastern%20Nebraska)/SP-011_Original%20Digital%20Documents/01Gentile.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "SubTropolis — Hunt Midwest underground business park (Bethany Falls limestone)",
+      "url": "https://en.wikipedia.org/wiki/SubTropolis",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Kansas City rail hub — second-largest US rail center; KCT and five Class I carriers",
+      "url": "https://www.unisco.com/railyards/locations/kansas-city-mo",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KCUR — Meta selects Northland for $800M Golden Plains data center",
+      "url": "https://www.kcur.org/news/2022-03-24/facebook-comes-to-kansas-city-meta-selects-northland-for-800-million-data-center",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Fox4KC — Google confirms it is behind the Northland 'Project Mica' data center",
+      "url": "https://fox4kc.com/news/google-confirms-its-behind-new-data-center-coming-to-northland/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Axios Kansas City — Port KC approves $10B in bonds for Project Mica",
+      "url": "https://www.axios.com/local/kansas-city/2025/07/29/port-kc-google-data-center",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KCUR — KC Streetcar Main Street extension opens (Oct. 24, 2025)",
+      "url": "https://www.kcur.org/housing-development-section/2025-10-24/kansas-city-streetcar-main-street-extension-now-open",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Netrality — 1102 Grand, Kansas City carrier hotel",
+      "url": "https://netrality.com/data-center/1102-grand-kansas-city/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NOAA NWRFC — The Great USA Flood of 1993 (Missouri River crest 48.9 ft at Kansas City)",
+      "url": "https://www.nwrfc.noaa.gov/floods/papers/oh_2/great.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DOLIR — prevailing wage (HB 1729, $75,000 threshold, Annual Wage Order)",
+      "url": "https://labor.mo.gov/dls/prevailing-wage/2018-changes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DED — BEAD final proposal ($792M, 42 ISPs, 213,803 locations)",
+      "url": "https://ded.mo.gov/press-room/ded-releases-final-proposal-broadband-equity-access-and-deployment-bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Startland News — Google Fiber's Kansas City launch (first city, March 2011)",
+      "url": "https://www.startlandnews.com/2016/03/five-years-later-google-fiber-celebrates-kansas-city-milestone/",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps web service, and TIA-222 county tables all unreachable through the sandbox proxy; no primary values found in search. One session from an unproxied machine fills these."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — code text verification",
+      "attempted": "36 in. / Ch. 18 Art. III sec. 18-57 / Table R301.2(1) citation is search-extracted; reviewer must open the Municode section text before sign-off."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, corrosivity, expansive risk grade)",
+      "attempted": "NRCS Web Soil Survey and MGS report PDFs unreachable through the proxy; only qualitative geology from MGS SP-11 and KGS summaries is published."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "The KCMO office holding floodplain administration (within City Planning & Development) was not confirmed to a named division/contact; left null rather than guessed."
+    },
+    {
+      "field": "regulatory.wirelessFacilityOrdinanceNote / Missouri small-wireless statute",
+      "attempted": "Reported RSMo 67.5110 et seq. could not be verified — revisor.mo.gov blocked by proxy, search budget exhausted. Omitted rather than guessed."
+    },
+    {
+      "field": "environmental.treeClearingWindow — specific window",
+      "attempted": "USFWS Missouri field office guidance not reachable; listed-bat presence established, window left null pending IPaC/field-office sourcing."
+    },
+    {
+      "field": "utilities — Evergy new-service lead times; ILEC exchange boundary confirmation",
+      "attempted": "Evergy publishes no standing commercial lead time located this session; AT&T Missouri ILEC attribution is legacy-territory knowledge, unconfirmed against FCC/state maps."
+    },
+    {
+      "field": "seasonality — NOAA normals check",
+      "attempted": "NCEI normals table for the Kansas City station not readable through the proxy; calendar authored qualitatively and must be checked against the station table."
+    },
+    {
+      "field": "identity.population — current vintage estimate",
+      "attempted": "2020 Census count (508,090) published; Census QuickFacts blocked by proxy, so the current vintage estimate is pending."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 publish gate requires at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + response commitments",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response-time commitment."
+    }
+  ]
+}

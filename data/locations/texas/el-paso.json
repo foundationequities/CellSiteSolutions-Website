@@ -1,0 +1,660 @@
+{
+  "identity": {
+    "slug": "el-paso",
+    "city": "El Paso",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "El Paso"
+    ],
+    "msa": "El Paso, TX (El Paso and Hudspeth counties)",
+    "tier": 2,
+    "latitude": 31.7619,
+    "longitude": -106.485,
+    "elevationFt": 3740,
+    "population": {
+      "value": 679000,
+      "source": "Program seed estimate; Census QuickFacts and republishers unreachable through the research proxy — confirm the current Census vintage before publish",
+      "verifiedOn": null
+    },
+    "interstates": [
+      "I-10"
+    ],
+    "majorRoutes": [
+      "US-54 (Patriot Freeway)",
+      "Loop 375 (Border Highway / Transmountain)",
+      "US-62/180 (Montana Avenue)"
+    ]
+  },
+  "metadata": {
+    "title": "El Paso Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in El Paso, TX — caliche and bolson-soil foundations, rift-aware seismic design, and cross-border fiber civil work.",
+    "h1": "Telecom Site Civil Construction in El Paso, Texas",
+    "intro": "El Paso is the market in our footprint that plays by different rules — literally different grids, clocks, and fault lines. The city runs on Mountain Time, takes its power from El Paso Electric on the Western Interconnection rather than ERCOT, and sits inside the Rio Grande rift, where the East Franklin Mountains fault makes this the one metro we serve where seismic design is a genuine conversation instead of a checkbox. The civil work itself is Chihuahuan Desert work: cemented caliche and bolson-fill soils, arroyo flash-flood drainage, and monsoon-season scheduling. The demand side is a border story — international fiber crossings into Ciudad Juárez, Fort Bliss on the city's flank, and Meta's AI data center now under construction. CellSite Solutions serves El Paso from our Dallas yard on a full project-deployment basis.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC; the City of El Paso Code of Ordinances Title 18 adopts the 2021 I-codes — confirm local amendment text and ordinance effective date before sign-off)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "El Paso is the one genuinely elevated-seismicity market in the CSS footprint. The East Franklin Mountains fault, an active normal fault of the Rio Grande rift, runs through the urban area and is carried in the USGS National Seismic Hazard Model; UTEP probabilistic hazard work characterizes it with a slip rate on the order of 0.1 mm/yr and a maximum magnitude near 7, with predicted downtown ground motions as high as 0.4g at 2% probability of exceedance in 50 years, and paleoseismic studies document repeated large Holocene ruptures across the rift. Numeric Ss/S1 and design category must come from a USGS design-maps query at site coordinates before publication — do not generalize from these study values."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "El Paso sits where the Rio Grande rift meets the Franklin Mountains. Most of the metro is underlain by deep basin fill of the Hueco Bolson east of the range — roughly 9,000 ft of silt, sand, and gravel over clay and silt per TWDB Report 345 — and the Mesilla Bolson to the west (about 2,000 ft of clay, silt, sand, and gravel), both filled by the Fort Hancock and Camp Rice Formations of the ancestral Rio Grande. Rio Grande floodplain alluvium lines the valley, bedrock rises to shallow depth along the Franklin Mountains flanks, and UTEP geophysical work notes strongly cemented (caliche-rich) soils in the upland northeast of the city.",
+    "dominantSoilTypes": [
+      "Bolson-fill sands, silts, and gravels (Hueco and Mesilla basin deposits)",
+      "Caliche-cemented calcic upland soils",
+      "Rio Grande floodplain alluvium (silts and clays in the valley)",
+      "Shallow bedrock along the Franklin Mountains flanks"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "low",
+    "expansiveSoilNote": "The dominant condition is granular, carbonate-cemented basin fill — not the smectitic Vertisols of central and coastal Texas — so shrink-swell is not the headline risk it is in Dallas. Clayey Rio Grande floodplain alluvium is the local exception. This assessment is based on TWDB basin-fill lithology; numeric NRCS shrink-swell ratings are pending a Web Soil Survey query, and site-specific investigation governs.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping applies to the bolson basins; where carbonate bedrock rises near the Franklin Mountains the issue is excavatability, not solution features."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Numeric NRCS corrosion-of-concrete and corrosion-of-steel ratings for the mapped soils are pending a Web Soil Survey query and should be added before publication; arid calcareous soils warrant a per-site check on grounding and buried-steel detailing rather than an assumed value.",
+    "foundationApproachNarrative": "El Paso foundations are usually a story about excavation rather than bearing. The granular, often caliche-cemented bolson soils typically make competent subgrade, but cemented horizons and shallow rock near the mountain flanks turn trenching and drilling into hammer-and-core work that must be priced from the borings, not assumed away. The design conversation that is unique to this market is seismic: with the East Franklin Mountains fault in the national hazard model, anchorage and foundation detailing get a real site-specific USGS check here rather than the formality it is elsewhere in Texas. Drainage is the third input — sites on alluvial fans and near arroyos need grading and scour protection sized for monsoon flash flows, because a desert site that floods twice a decade still floods. Valley sites in Rio Grande alluvium flip the script: softer, wetter, occasionally clayey ground where conventional spread footings and moisture management do the work. Borings first; the desert does not reward assumptions."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of El Paso — building permitting (One Stop Shop / Planning & Inspections)",
+        "url": null,
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "The city's permitting portal was not reachable through the research proxy — confirm the current intake path and review times directly before publish. Code adoptions are codified in Code of Ordinances Title 18."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 I-codes (IBC/IRC and companion codes) per City of El Paso Code of Ordinances Title 18 — confirm ordinance effective date and amendment text",
+      "source": "El Paso Code of Ordinances, Title 18 (Building and Construction), Ch. 18.08 Building Code — https://library.municode.com/tx/el_paso/codes/code_of_ordinances?nodeId=TIT18BUCO_CH18.08BUCO",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small cell and network-node work in city ROW runs under the statewide Texas Local Government Code Chapter 284 framework — capped ROW fees and city-retained ROW management — layered over the city's own ROW permitting.",
+    "rowPermitAuthority": {
+      "name": "City of El Paso for municipal ROW; TxDOT El Paso District via the RULIS utility permit system on state highway ROW",
+      "url": "https://www.txdot.gov/business/right-of-way/rulis.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT El Paso District (far west Texas / Trans-Pecos counties including El Paso and Hudspeth)",
+      "url": "https://www.txdot.gov/about/districts/el-paso-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Texas Utilities Code Ch. 251.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI via STEERS; coverage effective 7 days after filing."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of El Paso floodplain administration",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Flood risk here is arroyo and alluvial-fan flash flooding driven by monsoon storms rather than riverine backwater — confirm the current administrator contact and effective FIRM panels per site; city pages were not reachable through the research proxy."
+    },
+    "permitTimelineNarrative": "The El Paso permit stack is the standard Texas sequence with two local twists. Building permits go through the city under its Title 18 adoption of the 2021 I-codes; the TCEQ stormwater NOI covers an acre or more of disturbance on a 7-day effective clock; Texas811 wants two business days; and state-highway ROW work permits through TxDOT's El Paso District in RULIS. The twists: sites in mapped arroyo and alluvial-fan flood zones take floodplain review that can reshape grading and drainage design, and anything near the international boundary — including fiber routes approaching a border crossing — adds federal coordination layers (and, for the crossing itself, a Presidential Permit regime held by the crossing operator) that belong at the front of the schedule, not the end. Published review times were not verifiable remotely; confirm current timelines with the city before committing dates."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "El Paso Electric",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The genuine oddity of this market: El Paso Electric is not in ERCOT. It operates on the Western Interconnection (WECC), tied to the western grid at West Mesa (PNM) and at Greenlee and Springerville (Tucson Electric Power), serving El Paso and Las Cruces, NM. Practically, that means no ERCOT retail-choice REP structure — EPE is the regulated retail provider — and interconnection, protection, and planning follow WECC-side practice. Confirm the current new-service intake at scoping."
+      }
+    ],
+    "ilec": "AT&T (successor to the legacy Bell operating territory here; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Transtelco (cross-border network operator with infrastructure on both sides of the El Paso–Juárez border)"
+    ],
+    "notableDataCenterCampuses": [
+      "Meta El Paso AI data center (under construction; scalable to 1 GW, first phase targeted operational 2028)",
+      "MDC Data Centers El Paso (carrier-neutral border interconnection site)"
+    ],
+    "longHaulRouteNotes": "El Paso is a long-haul junction where east–west routes following the I-10 corridor meet international crossings into Ciudad Juárez. MDC Data Centers operates carrier-neutral international fiber crossings here, with a new El Paso–Juárez route announced to go live in 2025 as part of an eleven-crossing border portfolio, and Transtelco operates cross-border infrastructure headquartered in the El Paso–Juárez region.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas posts no seasonal spring-thaw restrictions; load limits are year-round engineering-based postings. Check the TxDMV district-level permit restriction and curfew list for El Paso before routing oversize loads."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "El Paso adds a practical constraint of its own: I-10 is the single interstate spine through the market, and the Loop 375 Transmountain segment carries mountain grades — route oversize hauls accordingly."
+    },
+    "bridgeOrClearanceConstraints": "I-10 is the sole interstate corridor through El Paso, so haul plans have limited alternatives when construction or incidents close lanes; the Loop 375 Transmountain crossing of the Franklin Mountains involves sustained grades that matter for heavy loads.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "El Paso sits on UP's east–west transcontinental Sunset Route corridor with major local yard operations; crossing and utility-occupancy permits run through UP's standard process, and timelines are long — start early on any route that touches the corridor."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "BNSF also reaches El Paso; confirm the operating line owner segment by segment before filing crossing applications."
+      },
+      {
+        "name": "Ferromex (interchange at the border)",
+        "crossingPermitNote": "Cross-border rail interchange with the Mexican network at Juárez; relevant context for any alignment near the international rail crossings."
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Albuquerque District — regulatory jurisdiction over the Rio Grande basin in far west Texas",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the district regulatory boundary for the specific site; the Rio Grande and its arroyos are the jurisdictional waters that matter here."
+    },
+    "usaceDistrict": "Albuquerque District (SPA) — confirm boundary per site",
+    "listedSpeciesNote": "No county-specific USFWS species list was reachable through the research proxy — run an IPaC screen per project. Practical flags in this market are the Rio Grande riparian corridor and arroyo systems rather than tree-clearing windows; desert uplands carry few clearing constraints, but federal-nexus work (BEAD-funded builds, border-adjacent projects) still takes the full Section 7/Section 106 screen.",
+    "floodplainPrevalenceNote": "Mapped flood hazard in El Paso concentrates along the Rio Grande, its arroyos, and the alluvial fans coming off the Franklin Mountains. The failure mode is short, violent monsoon flash flooding rather than slow riverine rise — site grading, scour protection, and arroyo setbacks are the design response, and FIRM panels should be pulled per site."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Cool, dry desert winter; occasional overnight hard freezes",
+        "earthworkConcrete": "favorable",
+        "note": "Cold-weather concrete practice on cold snaps only"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Dry and warming; excellent working ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Dry; spring wind season begins with blowing-dust days",
+        "earthworkConcrete": "favorable",
+        "note": "Wind and dust affect crane picks and open excavations"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Dry, windy; peak blowing-dust season",
+        "earthworkConcrete": "favorable",
+        "note": "Dust control water is a real line item"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Hot and dry; heat planning begins",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Peak pre-monsoon heat; triple-digit days common",
+        "earthworkConcrete": "constrained",
+        "note": "Hot-weather concrete practice; early pour windows"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Monsoon onset; heat plus sudden convective storms",
+        "earthworkConcrete": "constrained",
+        "note": "Arroyo flash-flood awareness on low-lying sites"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Monsoon peak; flash-flood risk in arroyos and fans",
+        "earthworkConcrete": "constrained",
+        "note": "Storm cells are local and fast — site drainage must be in place"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Monsoon tapering; heat easing",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime season — mild, dry, stable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild days, cold nights; dry ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Cool and dry; occasional freezes",
+        "earthworkConcrete": "favorable",
+        "note": "Watch overnight lows for early-morning pours"
+      }
+    ],
+    "narrative": "El Paso's construction year is generous by any standard: a long, dry October-through-April prime season with only overnight freezes to manage, which is the mirror image of the Midwest calendar our Cedar Rapids markets run on. The constraints cluster in summer — June heat drives hot-weather concrete practice, and the July-through-September monsoon brings short, violent storm cells that flood arroyos and alluvial fans fast. Spring adds a wind-and-dust season that affects crane work and makes dust-control water a standing cost. Pull NWS El Paso normals before publishing month-by-month figures as final; the pattern above is qualitative by design."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Cemented caliche horizons in the upland bolson soils and shallow bedrock along the Franklin Mountains flanks put hammer, rock-saw, or core work on the table for trench and drilled-shaft scopes — highly location-dependent within the metro, so price from borings.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "Sourced in-market from El Paso metro suppliers; at this distance from the yard nothing wet or heavy travels from Dallas.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Texas Government Code Chapter 2258 applies prevailing wage on state and locally funded public works; federal Davis-Bacon applies to federally funded work — including BEAD-funded broadband builds. The higher rate governs on mixed funding.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Summer carries the premiums here: hot-weather concreting from June and monsoon contingency July through September. Winter is nearly free of weather cost — the opposite of the northern half of the CSS footprint.",
+    "narrative": "El Paso prices around distance, digging, and the desert. Mobilization is the honest first line: at roughly 630-plus road miles from our Dallas yard this is a full deployment market, so crews, per diem, and staging are priced into the program rather than absorbed. Excavation is the second: cemented caliche and near-mountain rock can double trenching effort between two sites that look identical on the surface, which is why borings drive the estimate. The desert itself is the third — water for dust control and compaction moisture is a purchased commodity, summer heat compresses pour windows, and monsoon cells add contingency. Two market-specific adders round it out: seismic detailing that other Texas markets never see, and federal wage rates (Davis-Bacon) on the BEAD-funded rural builds around the county. Drivers only — unit pricing belongs to a scoped estimate."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas issues no statewide general contractor license; regulation is municipal, and the City of El Paso's contractor registration requirements should be confirmed with the building department at project setup. Statewide trade licenses still apply — electrical work runs through TDLR with a Master Electrician of record.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme heat",
+      "flood",
+      "high wind"
+    ],
+    "designImplications": "Three environments shape El Paso sites. Monsoon flash flooding drives grading, scour protection, and arroyo setbacks — desert sites flood fast, not often. Heat drives concrete practice and equipment ventilation sizing. And uniquely in the CSS footprint, Rio Grande rift seismicity puts real anchorage and foundation checks into the design path: the East Franklin Mountains fault is in the national hazard model, so the seismic line on the structural calc is site-specific here, never a copy-paste. Spring windstorms with blowing dust round out the operational picture.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Meta breaks ground on a $1.5B AI data center in El Paso",
+        "detail": "Meta announced groundbreaking on October 15, 2025 for an AI-optimized data center in El Paso — an initial investment above $1.5 billion, a campus scalable to 1 GW, roughly 1.2 million square feet, targeted operational in 2028, with over 1,800 construction workers expected at peak. It is the anchor demand signal for edge, utility-yard, and fiber civil work in this market.",
+        "category": "data center",
+        "sourceUrl": "https://about.fb.com/news/2025/10/metas-new-ai-optimized-data-center-el-paso/",
+        "asOf": "2025-10-15"
+      },
+      {
+        "headline": "MDC expands El Paso–Juárez international fiber crossings",
+        "detail": "MDC Data Centers announced new cross-border fiber routes at El Paso (and Laredo) scheduled to go live in 2025, bringing its total to eleven operational international fiber crossings on the U.S.–Mexico border — sustained cross-border route construction and diversity builds in this market.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.mdcdatacenters.com/company/blog/mdc-expands-fiber-cross-border-routes-laredo-el-paso/",
+        "asOf": "2025-06-30"
+      },
+      {
+        "headline": "Texas BEAD approved statewide — far-west allocations pending detail",
+        "detail": "NTIA approved Texas' roughly $1.3B BEAD final proposal in November 2025, with construction beginning as early as summer 2026. County-level detail for El Paso and Hudspeth counties was not yet published at review time; recheck quarterly.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "long-haul and metro route construction"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "restoration"
+      ],
+      "narrative": "Fiber civil in El Paso is border-gateway work. The market's gravity comes from international crossings into Ciudad Juárez — MDC Data Centers' carrier-neutral crossings, with a new El Paso–Juárez route announced for 2025 in an eleven-crossing border portfolio, and Transtelco's cross-border network — which keeps route-diversity, lateral, and duct bank construction moving toward the boundary. Long-haul routes follow the I-10 corridor east and west, and UP's Sunset Route corridor is the crossing-permit gauntlet on many alignments. Underground conditions are the local variable: bolson sands bore cleanly, but cemented caliche horizons turn a routine shot into rock work, so we scope bores off geotech rather than assumptions. BEAD-funded rural builds in the county's outskirts add Davis-Bacon wage compliance to the civil scope.",
+      "localSpecificsReferenced": [
+        "MDC El Paso–Juárez international fiber crossings",
+        "Transtelco cross-border network",
+        "I-10 long-haul corridor",
+        "UP Sunset Route crossings",
+        "caliche boring conditions"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "ground ring and halo",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil here answers to terrain and the rift. Compounds on the Franklin Mountains flanks trade easy bolson digging for shallow rock and grade — access roads, turnarounds, and retaining details carry real weight in the estimate. Every foundation gets the seismic check that makes El Paso unusual in Texas: the East Franklin Mountains fault sits in the national hazard model, so anchorage and pier design run against site-specific USGS values rather than boilerplate. Fort Bliss traffic and coverage demand along the border corridor keep macro and densification work steady, and small-cell work in city ROW runs under the Chapter 284 state framework. Monsoon-season builds get drainage in early — an arroyo-adjacent compound without scour protection is a warranty claim waiting for August.",
+      "localSpecificsReferenced": [
+        "East Franklin Mountains fault seismic check",
+        "Franklin Mountains flank terrain",
+        "Fort Bliss",
+        "Texas LGC Chapter 284",
+        "arroyo scour protection"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "El Paso's edge story changed in October 2025 when Meta broke ground on a $1.5 billion AI data center scalable to 1 gigawatt, targeted operational in 2028 — the kind of anchor that pulls fiber laterals, utility yards, and supporting enclosure work into a market for years. The grid context is the genuine differentiator: this campus and everything around it interconnects with El Paso Electric on the Western Interconnection, not ERCOT, which changes interconnection process, protection practice, and who is across the table. MDC's carrier-neutral border site adds cross-border interconnection demand. Our lane is the civil layer — transformer and generator pads, campus duct bank, crane pads, and heavy-haul access built through caliche-cemented desert soils with monsoon drainage designed in from the start.",
+      "localSpecificsReferenced": [
+        "Meta El Paso 1 GW AI data center",
+        "El Paso Electric / WECC interconnection",
+        "MDC Data Centers El Paso"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 635,
+      "driveTimeHours": 9.5,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "El Paso",
+      "Hudspeth"
+    ],
+    "stagingApproach": "Full project-based staging in the El Paso metro: equipment and materials stage at or near the work for the duration of a program, with laydown arranged in-market — at this range nothing cycles back to the yard mid-scope. Deployment plans account for the time-zone split (El Paso runs on Mountain Time) in crew scheduling and coordination with Dallas-based support. Confirmed per program by ops.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from El Paso-area suppliers, full stop — a 630-plus-mile haul from the Dallas yard is not arithmetic anyone should pay for, and buyers here know it. Water for compaction and dust control is procured locally as well. The supplier lineup is confirmed at estimate for each program by our estimating and ops teams.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "El Paso is the far edge of our Texas coverage, and we describe it honestly: crews mobilize from the Dallas yard west on I-20 and I-10 — roughly 630-plus miles and a nine-plus-hour run — and deploy for the duration of a scope, not a service call. That model fits how work actually arrives in this market: border-corridor fiber programs, data center support civil, and multi-site compound builds that batch efficiently from a single mobilization with local staging and in-market supply. What the distance rules out is any same-day promise, and we don't make one. Mobilization lead times are quoted per program after ops review, with Mountain Time coordination and the single-interstate I-10 approach built into the deployment plan.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Is El Paso on the ERCOT grid, and why does that matter for a telecom site?",
+      "answer": "No — and it's the only major Texas market where that's true. El Paso Electric operates on the Western Interconnection (WECC), tied to the western grid through New Mexico and Arizona, and serves as the regulated retail provider without ERCOT's REP retail-choice structure. Practically, new-service interconnection, protection standards, and planning conversations follow WECC-side practice, and your utility counterpart is EPE itself. We confirm the current new-service intake and lead time with EPE during scoping.",
+      "segment": "general"
+    },
+    {
+      "question": "Do telecom foundations in El Paso really need seismic design attention?",
+      "answer": "More than anywhere else we build. The East Franklin Mountains fault — an active Rio Grande rift fault carried in the USGS National Seismic Hazard Model — runs through the urban area, and UTEP hazard studies characterize it with a maximum magnitude near 7. That doesn't mean exotic foundations; it means the seismic values on the structural calc are pulled from a USGS design-maps query at your coordinates and actually checked, rather than treated as the formality they are in the rest of Texas.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What is caliche and how does it affect boring and trenching in El Paso?",
+      "answer": "Caliche is carbonate-cemented soil — desert basin fill hardened into rock-like horizons. Much of El Paso sits on Hueco and Mesilla Bolson deposits that dig and bore easily, but cemented caliche zones (documented in the city's upland northeast) and shallow bedrock near the Franklin Mountains can turn routine trench or HDD work into hammer and rock-saw production. The honest answer is that two sites a mile apart can price very differently, which is why we scope underground work from borings, not assumptions.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who operates the cross-border fiber crossings between El Paso and Ciudad Juárez?",
+      "answer": "The crossings are operator-held infrastructure: MDC Data Centers runs carrier-neutral international fiber crossings at El Paso — with a new El Paso–Juárez route announced to go live in 2025 within its eleven-crossing border portfolio — and Transtelco operates cross-border network infrastructure on both sides of the boundary. Carriers typically buy into these crossings rather than building their own. Our civil scope is the U.S.-side approach work: duct bank, laterals, vaults, and hut pads feeding the crossing points.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour concrete year-round in El Paso?",
+      "answer": "Very nearly. October through April is prime — mild, dry, and stable, with only overnight freezes to plan around. The real constraints are summer: June's pre-monsoon heat drives hot-weather concrete practice and early pour windows, and the July-through-September monsoon adds storm-cell interruptions. Compared to the frost-governed calendar across the northern half of our footprint, El Paso's construction year is one of the longest we work in.",
+      "segment": "general"
+    },
+    {
+      "question": "How does arroyo flash flooding affect site selection and drainage design in El Paso?",
+      "answer": "It's the dominant flood mode here. Monsoon cells drop intense rain on ground that doesn't absorb it, and arroyos and the alluvial fans below the Franklin Mountains run fast and violent for a few hours. Mapped flood zones follow those features, so we pull FIRM panels per site, keep compounds out of flow paths where possible, and design grading, scour protection, and setbacks where it isn't. A desert site that floods once every few years still needs to be built like it will.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How does CellSite Solutions serve El Paso from a Dallas yard?",
+      "answer": "As a full deployment market, described honestly: it's roughly 630-plus miles west on I-20/I-10 — a nine-plus-hour run — so crews mobilize for the duration of a scope, equipment stages in-market, and concrete, aggregate, and precast are bought from El Paso-area suppliers rather than hauled. That model fits the programs this market generates: border-corridor fiber, data center support, and multi-site builds that batch from one mobilization. Mobilization lead times are quoted per program; we make no same-day claims at this range.",
+      "segment": "general"
+    },
+    {
+      "question": "What does Meta's El Paso data center mean for edge and fiber civil work?",
+      "answer": "Meta broke ground in October 2025 on an AI data center scalable to 1 GW — an initial $1.5 billion phase targeted operational in 2028, with over 1,800 construction workers expected at peak. Anchors like that pull years of surrounding civil work: fiber laterals and route diversity toward the campus, utility-yard and transformer pad construction, and hardened edge enclosures riding the same power and fiber corridors. It also validates the market's power story — the campus interconnects on the WECC side through El Paso Electric.",
+      "segment": "edge"
+    },
+    {
+      "question": "What building code does El Paso enforce for shelter pads and compound structures?",
+      "answer": "The City of El Paso adopts the 2021 I-codes through Title 18 of its Code of Ordinances, so structural and foundation design references the 2021 IBC and its companion codes. We confirm the local amendment text — including any amended frost/footing-depth table — directly with the city at project setup, since amendment details weren't verifiable remotely and they're exactly the values that bite on foundation scopes.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Building where the desert meets an active rift: sequencing El Paso site decisions",
+    "body": "Inland Texas habits mislead in El Paso in both directions. Teams from the I-35 corridor over-plan for expansive clay that mostly isn't here — the bolson fill is granular and often cemented — and under-plan for the three things that are. First, excavation: cemented caliche and near-mountain rock are a production-rate problem, not a design problem, and the only way to price them is borings early, with hammer and rock-saw rates carried in the bid for the zones the geotech flags. Second, the seismic line: this is the one market in our footprint where the East Franklin Mountains fault makes the USGS design-maps query at site coordinates a genuine design input — run it before foundation design, because retrofit anchorage is expensive and looks exactly like a shortcut that got caught. Third, water in a place that has none until it has too much: monsoon cells make arroyo and alluvial-fan drainage a first-order siting question, while day-to-day the same desert makes compaction moisture and dust control purchased commodities. The sequence that works: geotech and FIRM panels first, seismic values second, drainage and grading third, then the utility conversation with El Paso Electric on WECC-side terms — started early, because it follows a different playbook than every ERCOT market around it."
+  },
+  "sources": [
+    {
+      "label": "El Paso Code of Ordinances, Title 18 — Building Code (Ch. 18.08, 2021 I-codes adoption)",
+      "url": "https://library.municode.com/tx/el_paso/codes/code_of_ordinances?nodeId=TIT18BUCO_CH18.08BUCO",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "El Paso Electric — System Expansion Plan 2026-2035 (WECC interconnection; West Mesa, Greenlee, Springerville ties)",
+      "url": "https://www.epelectric.com/el-paso-electric/uploads/2025-epe_system_expansion_plan_2026-2035.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UTEP — An investigation of the seismic hazards of the El Paso–Juárez region (East Franklin Mountains fault)",
+      "url": "https://scholarworks.utep.edu/cgi/viewcontent.cgi?article=3435&context=open_etd",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Quaternary International — Tectonic geomorphology and paleoseismology of the northern East Franklin Mountains fault",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1040618221002822",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TWDB Report 345 — Hueco Bolson aquifer and basin fill, El Paso area",
+      "url": "https://www.twdb.texas.gov/publications/reports/numbered_reports/doc/R345/Majors/hueco.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TWDB — Hueco-Mesilla Bolsons aquifer summary",
+      "url": "https://www.twdb.texas.gov/groundwater/aquifer/majors/hueco-mesilla-bolsons.asp",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UTEP — Geophysical constraints on the Hueco and Mesilla Bolsons (basin structure; cemented NE El Paso soils)",
+      "url": "https://scholarworks.utep.edu/open_etd/803/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Meta — Breaking ground on the El Paso AI-optimized data center",
+      "url": "https://about.fb.com/news/2025/10/metas-new-ai-optimized-data-center-el-paso/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "El Paso Matters — Meta $1.5B El Paso data center (power, water, Borderplex context)",
+      "url": "https://elpasomatters.org/2025/10/15/meta-el-paso-texas-data-center-water-electricity-borderplex-alliance/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MDC Data Centers — El Paso and Laredo cross-border fiber route expansion (11 international fiber crossings)",
+      "url": "https://www.mdcdatacenters.com/company/blog/mdc-expands-fiber-cross-border-routes-laredo-el-paso/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MDC Data Centers — El Paso carrier-neutral data center and international fiber crossings",
+      "url": "https://www.mdcdatacenters.com/data-centers/our-locations/el-paso/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT — El Paso District",
+      "url": "https://www.txdot.gov/about/districts/el-paso-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE Hazard Tool unreachable through the research proxy; no secondary value recorded. Query at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / designTempLowF/HighF",
+      "attempted": "ASCE 7 map, TIA-222 county data, and ASHRAE design-condition sources all unreachable; El Paso's snow load is nonzero at elevation, so it must not be assumed 0."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1 and design category",
+      "attempted": "USGS design-maps query blocked. Qualitative hazard context sourced from UTEP PSHA work (EFM fault, ~0.1 mm/yr slip, Mmax ~7, up to 0.4g PGA at 2%/50yr downtown) — study values, not design values. The single most important pre-publish query for this market."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "El Paso's amended Table R301.2 / footing-depth value not reachable — Municode deep pages and city PDFs blocked by the research proxy. Cite the code section before publish."
+    },
+    {
+      "field": "regulatory — adopted-code ordinance effective date and amendments; AHJ portal, contacts, review times",
+      "attempted": "Municode confirms 2021 I-codes in Title 18, but elpasotexas.gov and ordinance PDFs were unreachable; effective date, amendment text, and permitting-portal details unconfirmed."
+    },
+    {
+      "field": "geotech (bearing range, groundwater, NRCS shrink-swell and corrosion numerics)",
+      "attempted": "NRCS Web Soil Survey unreachable; expansiveSoilRisk 'low' is inferred from TWDB granular basin-fill lithology and needs NRCS confirmation."
+    },
+    {
+      "field": "identity.population and elevation vintage",
+      "attempted": "Census QuickFacts and republishers blocked; population is the program seed value and elevation is the commonly published figure — confirm both against Census/USGS before publish."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Route calculators unreachable; 635 mi / 9.5 h recorded as the working I-20/I-10 driving estimate (seed straight-line was 673 mi) with routeVerified false until ops runs real routing."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B drafts written for ops review; RESEARCH.md sources these from CSS ops/estimating, so they need ops confirmation before the gap clears."
+    },
+    {
+      "field": "utilities — EPE new-service process/lead time; AT&T formal ILEC designation; Texas Gas Service territory",
+      "attempted": "epelectric.com intake page, FCC data, and texasgasservice.com all unreachable; gas provider omitted rather than asserted."
+    },
+    {
+      "field": "environmental — USACE Albuquerque District boundary; USFWS/IPaC county species list; floodplain administrator contact",
+      "attempted": "spa.usace.army.mil, IPaC, and city floodplain pages unreachable; district assignment is watershed-based and flagged for confirmation."
+    },
+    {
+      "field": "logistics — UP Sunset Route/BNSF crossing-permit specifics; TxDMV El Paso district curfew list",
+      "attempted": "Railroad permit pages and the district restriction list were not reachable; notes kept qualitative."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}

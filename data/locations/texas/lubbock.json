@@ -1,0 +1,663 @@
+{
+  "identity": {
+    "slug": "lubbock",
+    "city": "Lubbock",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Lubbock"
+    ],
+    "msa": "Lubbock, TX (Crosby, Lubbock, and Lynn counties)",
+    "tier": 2,
+    "latitude": 33.5779,
+    "longitude": -101.8552,
+    "elevationFt": 3256,
+    "population": {
+      "value": 266000,
+      "source": "Program seed estimate; Census QuickFacts and republishers unreachable through the research proxy — confirm the current Census vintage before publish",
+      "verifiedOn": null
+    },
+    "interstates": [
+      "I-27"
+    ],
+    "majorRoutes": [
+      "Loop 289",
+      "US-62/82 (Marsha Sharp Freeway)",
+      "US-84",
+      "US-87"
+    ]
+  },
+  "metadata": {
+    "title": "Lubbock Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Lubbock, TX — caliche caprock excavation, playa-aware site drainage, and civil support for West Texas rural fiber builds.",
+    "h1": "Telecom Site Civil Construction in Lubbock, Texas",
+    "intro": "Lubbock's civil story is written a few feet down and a few inches below the rim of every playa. The Llano Estacado's caliche caprock — carbonate-cemented calcrete under the Blackwater Draw cover sands — means trenching and boring here get priced like rock work even though no map calls it bedrock. The surface tells the other half: the city drains internally into playa lakes, so floodplain here is a bowl, not a river, and the city's Master Drainage Plan sets the elevations that matter. Add the utility story nobody else has — Lubbock Power & Light finished the largest load migration in Texas history into ERCOT and opened full retail competition in 2024 — plus Texas Tech and a hub position for rural West Texas fiber, and this Tier 2 market earns its page. CellSite Solutions serves it on a project-deployment basis from our Dallas yard.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, which Lubbock adopted March 26, 2024 with enforcement from June 3, 2024)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "The Southern High Plains is a low-seismicity region on the stable interior platform — wind, not seismic, governs structural design in Lubbock. Publish numeric Ss/S1 only after a USGS design-maps query at site coordinates."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Lubbock sits on the Llano Estacado of the Southern High Plains. The surface is the Quaternary Blackwater Draw Formation — wind-blown fine-to-medium quartz sands and silts with caliche nodules and multiple buried calcareous paleosols, up to roughly 90 feet thick — draped over the Ogallala Formation, whose indurated calcrete 'caprock' caliche rims the plateau and is described by the New Mexico Bureau of Geology at roughly 10–40 feet thick where exposed along the escarpment region. Playa basins across the city hold clayey floor deposits, and Yellowhouse Draw cuts the only through-flowing drainage, with the well-studied stratified sequence at the Lubbock Lake site.",
+    "dominantSoilTypes": [
+      "Eolian cover-sand loams and fine sandy loams (Blackwater Draw Formation)",
+      "Caliche — carbonate-cemented calcic horizons and Ogallala caprock calcrete",
+      "Clayey playa-floor deposits in the basin bottoms"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "moderate",
+    "expansiveSoilNote": "A split condition: the upland eolian loams are not the high-plasticity Vertisols of central Texas, but the clayey playa-floor deposits behave badly — moisture-active, slow-draining, and poor founding material. Numeric NRCS shrink-swell ratings for the mapped series are pending a Web Soil Survey query; site-specific investigation governs, especially anywhere near a playa rim.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The caprock caliche is a calcrete, not a karstic limestone; no karst mapping applies to the Southern High Plains surface at Lubbock."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Numeric NRCS corrosion-of-concrete and corrosion-of-steel ratings are pending a Web Soil Survey query; the strongly calcareous profile makes a per-site check on grounding and buried-steel detailing worthwhile rather than assuming inland-default values.",
+    "foundationApproachNarrative": "Lubbock foundations start with a question no soil map fully answers: how shallow is the caliche, and how hard? The cover sands over most of the city excavate easily, but cemented calcic horizons — and, at their worst, caprock-grade calcrete — can appear within a few feet and turn footing excavation, pier drilling, and utility trenching into saw-and-hammer work. The material is a double-edged asset: intact caliche makes excellent bearing and stable trench walls, so shallow spread footings and short piers do well once you're through it; the cost lives in getting through it. The second siting rule is topographic: stay off playa floors and respect the rims. Playa clays are moisture-active and the basins are the city's stormwater system — the Master Drainage Plan assigns them peak water surface elevations, and a pad or hut below the wrong contour is a flood claim on a clear day. Borings that log cementation depth and a site check against the playa mapping settle both questions cheaply, before the bid does it expensively."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Lubbock Building Safety",
+        "url": "https://www.mylubbock.us/529/Building-Safety",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers the 2021 I-codes citywide. Published review times not confirmed — verify current timelines directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 I-codes (IBC, IRC, IECC, IEBC and companions) and 2020 NEC, adopted March 26, 2024; enforcement from June 3, 2024",
+      "source": "City of Lubbock Building Safety — https://www.mylubbock.us/529/Building-Safety; codified at ecode360 (Lubbock Art. 28, International Building Code)",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network-node and small-cell work in city ROW follows the statewide Texas Local Government Code Chapter 284 framework — capped ROW fees with the city retaining ROW management — alongside Lubbock's own ROW permitting.",
+    "rowPermitAuthority": {
+      "name": "City of Lubbock (engineering/ROW permitting) inside city limits; TxDOT Lubbock District via the RULIS utility permit system on state highway ROW",
+      "url": "https://www.txdot.gov/business/right-of-way/rulis.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Lubbock District (South Plains counties including Lubbock, Crosby, Lynn, Hale, and Hockley)",
+      "url": "https://www.txdot.gov/about/districts/lubbock-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Texas Utilities Code Ch. 251.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI via STEERS; coverage effective 7 days after filing."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Lubbock floodplain administration (Chapter 30 — Lakes, Waterways and Floodplains)",
+      "url": "https://www.mylubbock.us/282/Floodplain",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Flood regulation here is built around the playa system: the city's adopted Master Drainage Plan establishes estimated peak water surface elevations for playa lakes and overflow rates between them, and the Playa Lake Development Policy governs building near the basins."
+    },
+    "permitTimelineNarrative": "Lubbock runs the standard Texas permit stack with one local layer worth respecting. Building permits go through Building Safety under the 2021 I-codes (adopted March 2024, enforced from June 2024); the TCEQ stormwater NOI covers an acre-plus of disturbance on a 7-day clock; Texas811 wants two business days; and state-highway ROW permits file through TxDOT's Lubbock District in RULIS. The local layer is drainage review: because the city drains internally to playa lakes rather than to a river, sites near any playa get checked against the Master Drainage Plan's peak water surface elevations and the Playa Lake Development Policy — a review that can move a pad or kill a site candidate, so it belongs in site selection, not in the permit queue. Published review durations were not verifiable remotely; confirm current timelines with the city before committing dates."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Lubbock Power & Light",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "A utility story unique in the state: LP&L completed the largest load migration in Texas history into ERCOT — the final 30% of its system connected December 11, 2023 — and opened full retail competition, with customer shopping from January 5, 2024 and switchover to retail electric providers on March 4, 2024. LP&L now operates as the municipally owned wires company while energy is bought from competitive REPs, so new-service work involves LP&L for the connection and a REP for the account. Confirm current new-service intake at scoping."
+      },
+      {
+        "name": "South Plains Electric Cooperative",
+        "type": "cooperative",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves portions of the surrounding area — confirm the certificated provider at the parcel against the PUCT service territory map before scoping rural sites."
+      }
+    ],
+    "ilec": "AT&T (successor to the legacy Southwestern Bell territory; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Vexus Fiber (Lubbock-rooted operator, formerly NTS Communications — confirm current footprint)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas posts no seasonal spring-thaw restrictions; load limits are year-round engineering-based postings. Check the TxDMV district-level permit restriction and curfew list for the Lubbock district before routing oversize loads."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "bridgeOrClearanceConstraints": "No standout clearance chokepoints surfaced in research — the approach from Dallas runs I-20 to US-84 across open country, and I-27/Loop 289 distribute loads locally. The TxDMV district restriction list governs; verify per haul.",
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "The principal Class I serving the South Plains; crossing and utility-occupancy permits run through BNSF's standard process — timelines are long, so file early on any rural fiber route that crosses the grain-country branches."
+      },
+      {
+        "name": "West Texas & Lubbock Railway (short line)",
+        "crossingPermitNote": "Short-line trackage radiating from Lubbock serves the agricultural region; confirm the current operator and its crossing process per segment before design."
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Note for this market: the Lubbock Lake site in Yellowhouse Draw is a nationally significant stratified archaeological locality — alignments in and along the draws warrant early cultural screening."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (Brazos basin) — confirm; the South Plains sits near district boundaries",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Playa basins raise genuine jurisdictional questions — the city's stormwater program has run 404 evaluation and compliance work as part of its master planning, so treat playa-touching scopes as potentially jurisdictional until screened."
+    },
+    "usaceDistrict": "Fort Worth District (SWF) — confirm per site",
+    "listedSpeciesNote": "No county-specific USFWS list was reachable through the research proxy — run an IPaC screen per project. The practical wildlife context on the South Plains is the playa system itself: the basins function as seasonal wetlands heavily used by migratory waterfowl, which folds into the wetlands screening above rather than imposing a clearing window — there are few trees to clear.",
+    "floodplainPrevalenceNote": "Lubbock floods into itself: the city has no through-flowing river, so runoff collects in dozens of playa lakes whose flood elevations are set by the adopted Master Drainage Plan. Major capital projects — including roughly 11 miles of pipe relieving 12 playas in the South Lubbock Drainage Project and the Northwest Lubbock drainage system — exist precisely because the basins overflow in wet years. Screen every candidate site against the playa mapping before committing."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Cold snaps with hard freezes between mild dry spells; occasional snow or ice",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice on Arctic-front days; work runs between fronts"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Variable — dry ground, alternating freeze and thaw at the surface",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Drying and windy; blowing-dust season on the South Plains",
+        "earthworkConcrete": "workable",
+        "note": "High wind days limit crane picks and open-trench dust"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good ground; severe-weather season begins",
+        "earthworkConcrete": "workable",
+        "note": "Hail and thunderstorm watch enters daily planning"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Peak severe season — hail and supercell risk with good working ground",
+        "earthworkConcrete": "workable",
+        "note": "Protect equipment and fresh flatwork against hail"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot; thunderstorms fill playas after heavy rain events",
+        "earthworkConcrete": "workable",
+        "note": "Playa-adjacent sites can hold water for weeks after a wet spell"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and mostly dry",
+        "earthworkConcrete": "constrained",
+        "note": "Hot-weather concrete practice; early pour windows"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; generally good conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime season — mild, dry, stable ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; first hard freezes arrive",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Cold fronts and occasional winter storms between dry spells",
+        "earthworkConcrete": "workable",
+        "note": "Ice events are short but shut work down while they last"
+      }
+    ],
+    "narrative": "Lubbock's year is defined by wind and short, sharp interruptions rather than long shutdowns. Winter is intermittent, not frozen: Arctic fronts drop hard freezes and occasional ice for days at a time, but the ground between fronts is dry and workable, so December-through-February scheduling is about flexibility, not hibernation. Spring brings the South Plains specialties — blowing-dust days and, from April into June, one of the country's most active hail seasons, which is an equipment-protection and fresh-concrete problem more than a schedule problem. Summer heat constrains pour windows in July and August; September through November is prime. The playa wrinkle is real: after a wet spell, basin-adjacent sites can stand in water for weeks. Pull the NWS Lubbock normals before publishing month-by-month figures as final."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Not bedrock — caliche. Carbonate-cemented calcic horizons and caprock-grade calcrete appear at shallow depth across the Llano Estacado, so trenching, boring, and footing excavation carry rock-saw and hammer production rates far more often than the geologic map suggests. Depth and hardness vary lot to lot; borings that log cementation govern the price.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "Sourced in-market from Lubbock-area suppliers; nothing wet or heavy hauls from the Dallas yard at this range.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Texas Government Code Chapter 2258 applies prevailing wage on state and locally funded public works; federal Davis-Bacon applies to federally funded work — squarely including the BEAD-funded rural broadband builds this region expects. The higher rate governs on mixed funding.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Modest and specific: hot-weather concreting in July–August, hail protection for equipment and fresh flatwork in the April–June severe season, and short cold-weather measures when winter fronts hit. No prolonged winter shutdown premium.",
+    "narrative": "Lubbock prices around what's under the first three feet. Caliche is the number-one mover: a scope bid at soil production rates that meets caprock-grade calcrete at 18 inches is a losing scope, so we carry saw-and-hammer rates wherever borings show shallow cementation — and on the Llano Estacado they usually do somewhere on the route. Drainage is the second driver: playa-adjacent sites can need elevated pads, extended drainage details, or simply a different parcel, and the city's Master Drainage Plan elevations decide which. Mobilization is the third and it's honest arithmetic — a roughly 345-mile deployment from Dallas prices as a program, with local material supply and staged equipment rather than daily windshield time. Rural BEAD-funded fiber work adds Davis-Bacon wage rates and long empty-country drive distances between work fronts. Hail season adds protection measures, not schedule collapse. Drivers only; unit pricing belongs to a scoped estimate."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas issues no statewide general contractor license; regulation is municipal, and the City of Lubbock's contractor registration requirements should be confirmed with Building Safety at project setup. Statewide trade licenses still apply — electrical work runs through TDLR with a Master Electrician of record.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "hail",
+      "tornado",
+      "high wind",
+      "ice storm"
+    ],
+    "designImplications": "This is wind-engineering country in the most literal sense — the 1970 F5 tornado that struck downtown Lubbock led Texas Tech to build what is now the National Wind Institute, and the design culture shows it. Compound work here favors wind-rated anchorage and hardware on everything that stands, hail-conscious choices for exposed equipment and enclosures, and dust-sealed detailing for cabinets on the open plains. Winter ice events are short but real, arguing for de-icing-tolerant hardware and generator autonomy at sites that must ride through a storm. Publish numeric wind and ice design values only after ASCE Hazard Tool and TIA-222 queries at site coordinates.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Texas BEAD approved statewide — South Plains rural builds expected",
+        "detail": "NTIA approved Texas' roughly $1.3B BEAD final proposal in November 2025, with construction beginning as early as summer 2026. The sparsely served counties surrounding Lubbock are exactly the geography the program targets, positioning the city as the natural staging and supply hub for the region's rural fiber construction. County-level award detail was not yet published at review time; recheck quarterly.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      },
+      {
+        "headline": "Lubbock completes the largest load migration in Texas history",
+        "detail": "LP&L connected the final 30% of its system to ERCOT on December 11, 2023, closing an eight-year project, and opened full retail competition — customer shopping from January 5, 2024, with switchover to competitive retail providers on March 4, 2024. The grid modernization behind that move is ongoing utility construction context for the market.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://www.publicpower.org/periodical/article/lubbock-power-light-completes-historic-move-ercot",
+        "asOf": "2024-03-04"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "long-haul and metro route construction"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "narrative": "Fiber civil on the South Plains is a two-condition problem: cover sands that bore beautifully, and caliche that doesn't. The Blackwater Draw sands over most of the region make fast, clean HDD shots — until a cemented calcic horizon or caprock-grade calcrete shows up in the bore path and the production rate collapses, which is why we price routes from borings that log cementation depth, not from the surface soils map. Lubbock's real fiber role is regional: with Texas' roughly $1.3B BEAD program approved in November 2025 and construction opening from summer 2026, the underserved counties around the city are prime program geography, and Lubbock is the staging, supply, and crew-base hub those rural routes will run from. In-town, AT&T and Lubbock-rooted Vexus Fiber define the competitive landscape, and BNSF's grain-country branches set the crossing-permit schedule on rural alignments.",
+      "localSpecificsReferenced": [
+        "Blackwater Draw cover sands vs. caliche boring conditions",
+        "Texas BEAD rural program geography around Lubbock",
+        "Vexus Fiber (Lubbock-rooted operator)",
+        "BNSF branch-line crossings"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "ground ring and halo",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Lubbock is built for wind and sited around water that has nowhere to go. This is the city whose 1970 F5 tornado gave Texas Tech its wind-engineering program — now the National Wind Institute — and compound work here reflects that inheritance: wind-rated anchorage, hail-conscious equipment placement, and dust-sealed cabinet detailing for the open plains. Siting is the quieter discipline: the city drains internally to playa lakes whose flood elevations are fixed by the Master Drainage Plan, so a compound near a basin gets checked against those contours before design starts — caliche makes excellent bearing once you've paid to dig through it, but no foundation fixes a pad below a playa's peak water surface elevation. Texas Tech's campus and student-density corridors, plus Chapter 284 node work in city ROW, round out the local demand mix.",
+      "localSpecificsReferenced": [
+        "1970 Lubbock tornado / Texas Tech National Wind Institute legacy",
+        "playa Master Drainage Plan elevations",
+        "Texas Tech University campus demand",
+        "Texas LGC Chapter 284"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Lubbock has no announced hyperscale campus, and we don't pretend otherwise. The edge case here is regional aggregation: a metro of roughly a quarter-million anchored by Texas Tech, a healthcare sector, and an agricultural economy digitizing fast, sitting a long way from the state's major data center corridors — exactly the profile where carrier edge nodes, micro-DC pads, and hardened enclosures earn their keep. The utility context is genuinely favorable and genuinely unusual: LP&L's completed migration into ERCOT (final connection December 2023, retail competition open since March 2024) means new load interconnects into the state's competitive market through a municipally owned wires company that just finished modernizing its system. Our scope is the civil layer — pads, utility yards, generator foundations, and duct bank — built through caliche with the same wind-rated detailing as everything else on the South Plains.",
+      "localSpecificsReferenced": [
+        "LP&L ERCOT migration and retail competition",
+        "Texas Tech University",
+        "distance from major Texas data center corridors"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 345,
+      "driveTimeHours": 5.5,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Lubbock",
+      "Crosby",
+      "Lynn",
+      "Hale",
+      "Hockley"
+    ],
+    "stagingApproach": "Project-based staging in the Lubbock metro, with the city doubling as the base of operations for rural South Plains routes: equipment stages at or near the work for the duration of a scope, and multi-county fiber programs run their laydown and material logistics from Lubbock rather than cycling to the yard. Confirmed per program by ops.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from Lubbock-area suppliers — at roughly 345 road miles from the yard, hauling concrete-schedule materials from Dallas is arithmetic nobody should pay for, and for rural program work Lubbock's supply base is the practical distribution point for the surrounding counties. The supplier lineup is confirmed at estimate for each program by our estimating and ops teams.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Lubbock is a deployment market at the near edge of that model: the run from our Dallas yard is roughly 345 miles up I-20 and US-84 — call it five and a half hours — which sits right at the boundary between commuting-distance work and true project deployment, and we plan it as the latter. Crews mobilize for the duration of a scope, stage in-market, and buy materials locally; the payoff of the shorter run is faster crew rotation and quicker restart after weather days than our far-west Texas markets allow. What we don't do is dress that up as same-day service — mobilization lead times, and any storm-response commitments after a hail or ice event, are quoted per program after ops review.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What is caliche and how does it affect trenching and boring in Lubbock?",
+      "answer": "Caliche is carbonate-cemented soil — on the Llano Estacado it ranges from nodular hardened horizons in the Blackwater Draw cover sands to the caprock-grade calcrete that rims the plateau, described in geologic literature at roughly 10–40 feet thick where exposed. It isn't bedrock on any map, but it excavates like weak rock: trench, bore, and footing production rates drop hard when cementation shows up shallow. We log cementation depth in borings and carry saw-and-hammer rates where it's indicated — that's the difference between a bid that holds and one that doesn't.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Lubbock?",
+      "answer": "Lubbock Power & Light — with a structure unique in Texas. LP&L completed the largest load migration in state history into ERCOT (final connection December 11, 2023) and opened full retail competition, with customers switched to competitive retail providers on March 4, 2024. New service now means LP&L builds and owns the wires connection while the energy account sits with a REP of your choosing. South Plains Electric Cooperative serves parts of the surrounding area, so we confirm the certificated provider at the parcel before scoping.",
+      "segment": "edge"
+    },
+    {
+      "question": "How do playa lakes affect telecom site selection in Lubbock?",
+      "answer": "More than any river would. Lubbock drains internally — runoff collects in dozens of playa basins instead of flowing out — so the city's adopted Master Drainage Plan assigns each playa an estimated peak water surface elevation, and the Playa Lake Development Policy governs building near them. A pad, hut, or compound below the wrong contour can flood in a wet year with no river in sight, and basin-adjacent ground can stand in water for weeks after heavy rain. We screen every candidate site against the playa mapping before design starts.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour concrete in Lubbock in January?",
+      "answer": "Usually, with planning. Lubbock winters are intermittent rather than frozen: Arctic fronts bring hard freezes and occasional snow or ice for a few days at a time, but the ground between fronts stays dry and workable. We schedule winter pours around the forecast and apply cold-weather concrete practice — protection, mix adjustments, and curing measures — on the cold-snap days. The published frost/footing depth in Lubbock's amended code tables still needs confirmation with Building Safety, and foundation embedment follows the code, not the weather.",
+      "segment": "general"
+    },
+    {
+      "question": "How does hail season affect construction on the South Plains?",
+      "answer": "April through June is among the most active severe-hail seasons in the country, and it's an asset-protection issue more than a schedule issue. Fresh flatwork, exposed equipment, glass, and vehicle fleets are the vulnerable items, so severe-weather watch is part of daily planning, protection measures stage on site, and enclosure and equipment choices lean hail-conscious. Actual lost workdays are few — the storms are violent but short — which is why the calendar stays workable straight through the season.",
+      "segment": "general"
+    },
+    {
+      "question": "Why is Lubbock the staging hub for rural West Texas fiber builds?",
+      "answer": "Geography and supply. Texas' roughly $1.3B BEAD program was approved in November 2025 with construction opening from summer 2026, and the sparsely served counties it targets surround Lubbock in every direction. The city has the ready-mix plants, aggregate sources, equipment rental, lodging, and road network (I-27, US-84, US-87, US-62/82) that multi-county rural routes need — so program work in the region naturally stages here, runs its laydown here, and rotates crews through here. That's how we structure South Plains deployments.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does CellSite Solutions serve Lubbock from a Dallas yard?",
+      "answer": "As a project-deployment market at the near edge of that model — roughly 345 miles up I-20 and US-84, about five and a half hours. Crews mobilize for the duration of a scope, equipment stages in-market, and concrete, aggregate, and precast come from Lubbock-area suppliers rather than the yard. The comparatively short run means faster crew rotation and quicker restarts after weather than our far-west markets, but we quote mobilization lead times per program and make no same-day claims.",
+      "segment": "general"
+    },
+    {
+      "question": "What building code applies to shelter pads and compound structures in Lubbock?",
+      "answer": "The City of Lubbock adopted the 2021 I-codes and the 2020 National Electrical Code on March 26, 2024, with enforcement from June 3, 2024, so structural and foundation design references the 2021 IBC and companions. Local amendment details — including the amended climatic and geotechnical design table that carries the frost/footing depth — weren't verifiable remotely, so we confirm them with Building Safety at project setup before foundation design is finalized.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroads affect fiber routes around Lubbock?",
+      "answer": "BNSF is the Class I serving the South Plains, and short-line trackage — the West Texas & Lubbock Railway among it — radiates from the city through the agricultural region. Rural fiber alignments cross these lines constantly, and crossing or occupancy permits are the long pole: railroad review timelines run months, not weeks, so we identify every crossing during route design and file early rather than letting a single permit stall an otherwise finished segment.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Bidding underground work on the Llano Estacado: price the caliche, respect the playas",
+    "body": "Two local judgments separate a good Lubbock bid from an expensive lesson. The first is refusing to price underground work off the surface: the soils map shows friendly eolian loams, and it is telling the truth — for the top couple of feet. The caliche below is the variable that matters, and it is genuinely variable: nodular and rippable on one block, caprock-grade calcrete demanding rock-saw and hammer work on the next, with no reliable way to know except borings that specifically log cementation depth and hardness. We treat any Llano Estacado scope without that data as unpriced, and we carry rock-mode production rates wherever the logs justify them. The second judgment is topographic humility. In a city that drains into itself, the playa system is the flood map, the stormwater network, and occasionally a jurisdictional wetland all at once — so a site candidate gets checked against the Master Drainage Plan's peak water surface elevations and the city's Playa Lake Development Policy before anyone falls in love with it. Caliche is actually the good news in this pairing: once you've paid to get through it, it makes excellent bearing and stable excavations, so shallow foundations perform well here. Pay for the digging, stay above the water lines, and Lubbock builds fast."
+  },
+  "sources": [
+    {
+      "label": "City of Lubbock Building Safety — 2021 I-codes and 2020 NEC adoption (Mar 26, 2024; enforced Jun 3, 2024)",
+      "url": "https://www.mylubbock.us/529/Building-Safety",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lubbock Code — International Building Code adoption (ecode360)",
+      "url": "https://ecode360.com/38873004",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "American Public Power Association — LP&L completes historic move to ERCOT",
+      "url": "https://www.publicpower.org/periodical/article/lubbock-power-light-completes-historic-move-ercot",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ERCOT — Lubbock Power and Light customers welcomed into the ERCOT system (Dec 12, 2023)",
+      "url": "https://www.ercot.com/news/release/2023-12-12-lubbock-power-and",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lubbock — Playa Lake Development Policy",
+      "url": "https://mylubbock.us/storage/images/sJdnEDwPDDFL6cgpczJHrsjNgjy3Rwa5s7H3CIwF.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lubbock Code — Chapter 30, Lakes, Waterways and Floodplains (Master Drainage Plan definitions)",
+      "url": "https://ci.lubbock.tx.us/storage/images/d7PBI1NZKT9WOGFL1Vq5Qu6np2EemXnURCW7onEd.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lubbock — Floodplain program",
+      "url": "https://www.mylubbock.us/282/Floodplain",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Halff — City of Lubbock Stormwater Master Plan (drainage criteria, 404 evaluation, CIP)",
+      "url": "https://halff.com/project/city-of-lubbock-stormwater-master-plan/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "EPA — Northwest Lubbock drainage improvements CWSRF case study",
+      "url": "https://www.epa.gov/system/files/documents/2024-08/northwest-drainage-improvements-cwsrf-case-study.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Blackwater Draw Formation — Quaternary eolian cover sands, caliche nodules, paleosols (secondary; replace with BEG citation)",
+      "url": "https://en.wikipedia.org/wiki/Blackwater_Draw_Formation",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "New Mexico Bureau of Geology — Llano Estacado caprock caliche (calcrete, ~10–40 ft where described)",
+      "url": "https://geoinfo.nmt.edu/tour/state/oasis/home.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT — Lubbock District",
+      "url": "https://www.txdot.gov/about/districts/lubbock-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE Hazard Tool unreachable through the research proxy. High-wind country where this number matters — query at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / designTempLowF/HighF",
+      "attempted": "ASCE 7 map, TIA-222 county ice data, and ASHRAE design-condition sources unreachable; the South Plains carries real snow, ice, and temperature-extreme values that must not be assumed."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps query blocked; only the qualitative stable-interior/low-seismicity characterization is recorded."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Lubbock's amended Table R301.2 climatic/geotechnical values were not reachable — ecode360 deep pages and city PDFs blocked. Cite the code section from Building Safety before publish."
+    },
+    {
+      "field": "geotech (bearing range, groundwater, NRCS soil-series names and shrink-swell/corrosion numerics)",
+      "attempted": "NRCS Web Soil Survey unreachable; dominant soil types are described from Blackwater Draw Formation literature rather than named NRCS series (Amarillo/Acuff/Randall confirmation pending). Expansive risk 'moderate' reflects the upland-loam vs. playa-clay split and needs NRCS numbers."
+    },
+    {
+      "field": "geotech.dominantGeology — Texas BEG citation",
+      "attempted": "The caprock caliche description currently leans on New Mexico Bureau of Geology and secondary sources; a Texas Bureau of Economic Geology reference for the Llano Estacado should replace or reinforce it before publish."
+    },
+    {
+      "field": "identity.population and elevation vintage",
+      "attempted": "Census QuickFacts and republishers blocked; population is the program seed value and elevation the commonly published figure — confirm both against Census/USGS before publish."
+    },
+    {
+      "field": "regulatory — building-permit review times; city ROW permitting page",
+      "attempted": "mylubbock.us subpages beyond Building Safety and Floodplain were unreachable; review durations and the engineering/ROW intake page unconfirmed."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Route calculators unreachable; 345 mi / 5.5 h recorded as the working I-20/US-84 driving estimate (seed straight-line was 351 mi) with routeVerified false until ops runs real routing. Near the Band A/B boundary — flag for the PLAN §4.3 reassignment check."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B drafts written for ops review; RESEARCH.md sources these from CSS ops/estimating, so they need ops confirmation before the gap clears."
+    },
+    {
+      "field": "utilities — LP&L new-service intake/lead time; SPEC territory; AT&T formal ILEC designation; Vexus footprint; gas provider",
+      "attempted": "lpandl.com, PUCT territory map, FCC data, and Atmos/gas territory pages unreachable; gas provider omitted rather than asserted."
+    },
+    {
+      "field": "environmental — USACE district confirmation for the South Plains; USFWS/IPaC county list; playa jurisdictional status",
+      "attempted": "USACE boundary maps and IPaC unreachable; Fort Worth District is a watershed-based inference (Brazos headwaters) flagged for confirmation, and playa 404 status is genuinely site-specific."
+    },
+    {
+      "field": "logistics — BNSF and West Texas & Lubbock Railway crossing processes and current short-line operator",
+      "attempted": "Railroad permit pages unreachable; notes kept qualitative pending operator confirmation."
+    },
+    {
+      "field": "hazards — 1970 tornado / National Wind Institute citation",
+      "attempted": "NWS Lubbock and TTU NWI pages unreachable through the proxy; the event and institute are extensively documented but a citable URL should be added before publish."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}

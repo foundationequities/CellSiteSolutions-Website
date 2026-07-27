@@ -5,24 +5,24 @@
     "abbr": "KS"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Kansas Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction across Kansas — fiber, wireless, and edge site work under home-rule codes, KDOT districts, and Kansas 811, on a project-deployment basis.",
+    "h1": "Telecom Site Civil Construction in Kansas",
+    "intro": "Kansas is a home-rule state with no statewide building code, which means the rules of a telecom civil project are set city by city and county by county — Wichita builds under a unified 2018 IBC-based city-county code while some rural counties have adopted no code at all. The constants are statewide: Kansas 811's two-full-working-day locate notice, KDHE's construction stormwater permit at one acre of disturbance, KDOT district-level highway ROW permitting, no state general contractor license, and no state prevailing wage law. CellSite Solutions self-performs fiber, wireless, and edge civil scopes across the state on a project-deployment basis, with Wichita and Salina as the anchor markets."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Kansas adopts no statewide commercial building code — code adoption and enforcement are delegated to cities and counties under home rule, and only the Kansas Fire Prevention Code applies statewide. The practical result is a patchwork a construction manager has to check jurisdiction by jurisdiction: Wichita and Sedgwick County enforce a Unified Building and Trade Code based on the 2018 I-codes through the Metropolitan Area Building and Construction Department, Salina adopted the 2018 IBC by Ordinance 25-11264, Johnson County and its cities run their own adoption and contractor-licensing regimes, and a number of rural counties have no building code or building department at all — which does not remove KDHE, KDOT, or one-call obligations. Verify the adopted edition and local amendments (frost depth in particular) with the specific AHJ before design.",
+    "source": "Kansas Corporation Commission codes survey (kcc.ks.gov); Wichita/Sedgwick County UBTC (sedgwickcounty.org); City of Salina Ordinance 25-11264"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Work in state highway right-of-way runs through the Kansas Department of Transportation under its Utility Accommodation Policy, codified at K.A.R. 36-11-6. The vehicle is a Highway Permit — Use of Right-of-Way application (DOT Form 304) filed with the local KDOT Area or District office; the Secretary has delegated execution authority to the six District Engineers, so approvals are district-level, not Topeka-level. Applications must locate the facility by route, county, reference marker, and section-township-range, with construction detail down to depths, materials, and clearances. Parallel installations on fully controlled access highways are generally prohibited absent a hardship determination — plan fiber routes on crossings, not longitudinal occupancy, where I-35, I-70, and I-135 are involved. Wichita sits in District 5 (headquartered in Hutchinson); Salina is home to District 2 headquarters.",
+    "source": "K.A.R. 36-11-6 (Utility accommodation policy); KDOT permits page (ksdot.gov/doing-business/permits); KDOT district pages"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "Kansas 811 (Kansas One Call)",
+    "url": "https://kansas811.com/",
+    "ticketLeadBusinessDays": 2,
+    "source": "Kansas Underground Utility Damage Prevention Act; kansas811.com FAQ — notice of two full working days, excluding the day the ticket is placed, weekends, and holidays"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -30,81 +30,144 @@
       "high": null
     },
     "frostDepthRangeIn": {
-      "low": null,
+      "low": 24,
       "high": null
     },
     "groundSnowRangePsf": {
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "Because Kansas has no statewide code, design minimums are set by local amendment and vary between adjacent jurisdictions. Wichita and Sedgwick County amend footing depth to 24 inches below undisturbed ground in their unified code; other cities set their own figures, and some counties publish none — where no local frost depth exists, the geotechnical engineer's recommendation governs. A statewide ASCE 7 Hazard Tool sweep for wind and ground snow ranges has not yet been run; treat every wind, snow, and frost number on a Kansas project as a per-jurisdiction lookup, not a state constant.",
+    "source": "Wichita/Sedgwick County Unified Building and Trade Code amendment to IRC R403.1.4 (24-inch footing depth)"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Kansas does not operate a spring frost-law program of the kind Iowa, Wisconsin, and Minnesota post — there is no annual statewide thaw-restriction map. Load limits on state routes are year-round, engineering-based bridge and route postings, and county-posted bridges on local roads are the constraint that actually bites on rural shelter hauls. Oversize/overweight moves permit through KDOT's K-TRIPS system, and the Kansas Turnpike (I-35 through Wichita, I-70 east of Salina, I-335) is a separately administered toll authority whose oversize rules should be checked before routing a wide load onto it.",
+    "source": "KDOT permits and K-TRIPS oversize/overweight program (ksdot.gov); confirm current Kansas Turnpike Authority oversize policy with KTA"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "The Kansas SHPO sits inside the Kansas Historical Society, and its Section 106 review clock is 30 days by law — in practice most of its roughly 3,000 annual reviews clear in under two weeks, which makes Kansas one of the faster SHPO queues in this footprint. KDHE's Bureau of Water administers NPDES construction stormwater: disturbance of one acre or more requires a Notice of Intent, a $60 fee, and a site-specific SWPPP, with KDHE targeting authorization within 60 days. Wetlands and waters permitting splits by basin — the Kansas River basin (including Salina's Smoky Hill valley) falls to the USACE Kansas City District, while the Arkansas River basin (including Wichita) is Tulsa District territory; confirm the district boundary for each site.",
+    "source": "Kansas Historical Society SHPO Section 106 page (kshs.org/15543); KDHE NPDES Construction Stormwater Program (kdhe.ks.gov/757)"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Kansas issues no statewide general contractor license — the only state-level requirement is business registration with the Secretary of State. Licensing lives at the city and county level and varies across all 105 counties: Johnson County runs a county contractor licensing program that cities like Olathe and Gardner require before they will issue building permits, and Wichita-area contractors license through the Metropolitan Area Building and Construction Department. Trade licensing (electrical, mechanical, plumbing) is likewise local. For carrier and tower work this means the licensing checklist is rebuilt per jurisdiction, and CellSite Solutions confirms local licensing as part of every Kansas mobilization.",
+    "source": "Johnson County Contractor Licensing (jocogov.org); Harbor Compliance / Procore Kansas licensing summaries — no state-level GC license"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Kansas was allocated $451.7 million under BEAD in 2023; after the 2025 Benefit of the Bargain restructuring, NTIA approved the Kansas Office of Broadband Development's final proposal at $166.6 million in December 2025, with 14 subrecipients and $61.3 million in private match — competitive bids covered 100% of eligible locations, so subsidized fiber construction is funded and moving into the build phase. The private-side landscape is anchored by AT&T Kansas (the Southwestern Bell legacy ILEC), Cox's Wichita cable footprint, and Buhler-based IdeaTek, which is expanding gigabit fiber across south-central Kansas. The demand story splits regionally: Wichita's aerospace manufacturing base — Boeing completed its $4.7 billion reacquisition of Spirit AeroSystems in December 2025, alongside Textron Aviation — drives industrial network and private-infrastructure civil work; the Johnson County side of the Kansas City metro carries the state's fastest commercial growth; and the federal National Bio and Agro-defense Facility in Manhattan anchors a high-security research corridor. No hyperscale campus has been announced in the Wichita or Salina markets — edge demand there is industrial, not cloud-regional.",
+    "source": "Kansas Department of Commerce BEAD final proposal approval (kansascommerce.gov, Dec 2025); Boeing press release Dec 8, 2025; IdeaTek expansion announcements"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "Is there a statewide building code in Kansas?",
+      "answer": "No. Kansas delegates code adoption to cities and counties under home rule; only the Kansas Fire Prevention Code applies statewide. Wichita and Sedgwick County enforce a unified 2018 IBC-based code, Salina adopted the 2018 IBC by ordinance, and some rural counties have no building code at all. Always confirm the adopted edition and local amendments — especially frost depth — with the specific jurisdiction before design."
+    },
+    {
+      "question": "How much notice does Kansas 811 require before excavation?",
+      "answer": "Two full working days, not counting the day the ticket is placed, weekends, or holidays — set by the Kansas Underground Utility Damage Prevention Act. Tickets are placed by phone or through Kansas811.com and remain valid for a limited window, so long-running duct bank and boring jobs need a locate-refresh cadence built into the schedule rather than a single ticket at mobilization."
+    },
+    {
+      "question": "Does Kansas require a state general contractor license?",
+      "answer": "No — Kansas has no statewide GC license. Licensing is municipal and county-level: Johnson County operates a county licensing program its cities rely on, and the Wichita area licenses contractors through the Metropolitan Area Building and Construction Department. The state-level requirement is limited to registering the business entity with the Kansas Secretary of State, so the licensing checklist gets rebuilt for each jurisdiction on a multi-market program."
+    },
+    {
+      "question": "Does prevailing wage apply to telecom construction in Kansas?",
+      "answer": "Kansas repealed its state prevailing wage law in 1987, so purely state- or locally funded work carries no state wage determination. Federal Davis-Bacon still applies to federally funded construction — which includes BEAD-funded broadband builds now moving under the Kansas Office of Broadband Development's approved $166.6 million program — so certified payroll should be assumed on any subsidized fiber scope."
+    },
+    {
+      "question": "What is the status of Kansas BEAD funding?",
+      "answer": "Kansas was originally allocated $451.7 million in 2023. After NTIA's 2025 policy restructuring, the approved final proposal came in at $166.6 million — a 63% reduction — awarded to 14 subrecipients with $61.3 million in private contributions, and bids covering 100% of eligible locations. The program is administered by the Kansas Office of Broadband Development within the Department of Commerce, with construction phasing in from 2026."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Kansas Corporation Commission — county/city adopted building codes survey",
+      "url": "https://www.kcc.ks.gov/images/PDFs/kansas-energy-office/codes/2016_kansas_codes_collaborative_spreadsheet.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wichita/Sedgwick County Unified Building & Trade Code (MABCD)",
+      "url": "https://www.sedgwickcounty.org/media/40170/wichita-sedgwick-county-unified-building-trade-code-ubtc.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Salina — Ordinance 25-11264 adopting the 2018 IBC",
+      "url": "https://www.salina-ks.gov/ordinance-25-11264-adopting-2018-international-building-code",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "K.A.R. 36-11-6 — KDOT utility accommodation policy",
+      "url": "https://www.law.cornell.edu/regulations/kansas/K-A-R-36-11-6",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT — permits (Use of Right-of-Way)",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas811 — FAQ and notice requirements",
+      "url": "https://kansas811.com/faqs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDHE — NPDES construction stormwater program (1-acre trigger, NOI)",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Historical Society — SHPO Section 106 consultation (30-day review)",
+      "url": "https://www.kshs.org/15543",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Johnson County, Kansas — contractor licensing",
+      "url": "https://www.jocogov.org/department/contractor-licensing",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. DOL — states with/without prevailing wage laws (Kansas repealed 1987)",
+      "url": "https://www.dol.gov/agencies/whd/state/prevailing-wages",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Department of Commerce — $166.6M BEAD final proposal federal approval",
+      "url": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Boeing — completion of Spirit AeroSystems acquisition (Dec 8, 2025)",
+      "url": "https://boeing.mediaroom.com/2025-12-08-Boeing-Completes-Acquisition-of-Spirit-AeroSystems",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT — District 2 (Salina HQ) and District 5 (Hutchinson HQ) pages",
+      "url": "https://www.ksdot.gov/about/our-organization/districts",
+      "accessedDate": "2026-07-27"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation.windSpeedRangeMph / groundSnowRangePsf",
+      "attempted": "ASCE 7 Hazard Tool sweep not run — tool unreachable through the session proxy. Only the Wichita 24-inch frost amendment is sourced; the statewide ranges need the hazard-tool sweep plus a local-amendment check."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "seasonalLoadRegime — KTA oversize policy",
+      "attempted": "Kansas Turnpike Authority oversize rules referenced from general KDOT/K-TRIPS knowledge; ksturnpike.com not fetched. Confirm the KTA permit process and the K-TRIPS URL before publish."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "oneCall — ticket life / renewal cadence",
+      "attempted": "Two-full-working-day notice sourced from kansas811.com; exact ticket validity period (search summaries gave 14 business days with renewal on day 12) should be confirmed against the current Kansas811 excavator manual before rendering."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
+      "field": "environmentalReview — USACE district boundary for each basin",
+      "attempted": "Kansas City District (Kansas River basin) vs. Tulsa District (Arkansas River basin) split stated from USACE boundary knowledge; the district boundary map was not fetchable. Confirm per site."
     },
     {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
-    },
-    {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
-    },
-    {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "telecomLandscape — BEAD subrecipient list and county-level awards",
+      "attempted": "Statewide $166.6M approval and 14-subrecipient count sourced from Kansas Commerce; subrecipient names and county allocations were not captured. Recheck quarterly."
     }
   ]
 }

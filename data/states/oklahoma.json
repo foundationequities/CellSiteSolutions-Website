@@ -5,24 +5,24 @@
     "abbr": "OK"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Oklahoma Telecom Civil Construction | CellSite Solutions",
+    "description": "Statewide guide to telecom civil construction in Oklahoma — code adoption, OKIE811, ODOT right-of-way, stormwater, licensing, and the OKC and Tulsa markets.",
+    "h1": "Telecom Site Civil Construction in Oklahoma",
+    "intro": "Oklahoma is one of the more contractor-legible states in the CSS footprint: a single commission sets the statewide minimum building code, there is no spring frost-law season to schedule around, there is no state prevailing wage, and no statewide general-contractor license stands between an out-of-state civil crew and a permit counter. What replaces that friction is weather and ground: the state's tornado and hail climatology is the country's most severe, a decade of induced earthquakes rewrote the seismic conversation for central and north-central Oklahoma, and the red-bed and Pennsylvanian bedrock under the two metros behaves differently enough to change foundation strategy between them. CSS serves Oklahoma City and Tulsa as regional Band-A markets from its Dallas–Fort Worth yard — two different corridors, one up I-35 and one up US-75."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "The Oklahoma Uniform Building Code Commission (OUBCC) adopts the statewide minimum codes that every Oklahoma jurisdiction must enforce. The current commercial minimum is the 2018 International Building Code, second printing (January 2019), as amended by the commission; the OUBCC has adopted the 2024 editions of the IBC, IRC, IEBC, IMC, IPC, IFC, and IFGC with amendments, and those take effect September 14, 2026 — a mid-cycle change worth checking on any project permitting near that date. Municipalities are obligated to enforce at least the minimum and may amend upward, so Oklahoma City, Tulsa, and their suburbs each carry their own amendment packages on top of the state floor. Confirm the enforced edition and local amendments with the specific AHJ; the state minimum tells you the floor, not the permit set.",
+    "source": "OUBCC — International Building Code adoptions, https://oklahoma.gov/oubcc/codes-and-rules/international-building-code-adoptions.html (accessed 2026-07-27)"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "The Oklahoma Department of Transportation administers utility accommodation on state highway right-of-way through its eight numbered field divisions; utility and driveway permits are processed at the division level for the county where the work sits, so a fiber route that runs OKC to Tulsa crosses division boundaries and files more than once. The turnpikes are a separate authority entirely — the Oklahoma Turnpike Authority controls crossings and longitudinal occupancy on the Turner, Will Rogers, Kilpatrick, Creek, and the rest of the toll network, and its process is not ODOT's. Division-by-county assignments and current permit forms were not reachable for direct verification and are flagged as a gap; confirm the receiving division office before submitting.",
+    "source": "Oklahoma Department of Transportation — field divisions and utility permits, https://oklahoma.gov/odot.html (division assignments pending direct verification; egress blocked 2026-07-27)"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "OKIE811 (Oklahoma One-Call System — \"Call Okie\")",
+    "url": "https://okie811.org/",
+    "ticketLeadBusinessDays": 2,
+    "source": "OKIE811 — the law: notice 48 hours before excavation, excluding Saturdays, Sundays, legal holidays, and the date of notification; requests valid no more than ten days ahead. https://okie811.org/law/ (accessed 2026-07-27)"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -37,74 +37,124 @@
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "Two things distinguish Oklahoma design criteria from the rest of the CSS footprint. First, the hazard that defines the state — tornado and giant hail — is not what the basic wind-speed map designs for; code-level wind values are ordinary interior-plains numbers, and the May 3, 1999 Bridge Creek–Moore F5 and May 20, 2013 Moore EF5 sit far outside them, which is why anchorage conservatism and restoration planning carry more weight here than the mapped speed alone. Second, seismic values in central and north-central Oklahoma were reshaped by the induced-seismicity era: wastewater disposal into the Arbuckle Group drove earthquake rates from a handful per year to a mid-2010s peak in the hundreds annually, including the November 2011 Prague M5.7 and the September 3, 2016 Pawnee M5.8 — the strongest earthquakes ever recorded in the state — before Oklahoma Corporation Commission disposal directives brought rates back down. Numeric wind, snow, frost, and Ss/S1 ranges are deliberately left blank pending ASCE 7 Hazard Tool and USGS design-maps queries at specific sites; the seismic story here is narrative context, not a design value.",
+    "source": "Oklahoma Geological Survey earthquake program (https://ou.edu/ogs); USGS; site-specific values require the ASCE 7 Hazard Tool and USGS seismic design maps — both blocked from this session, see _gaps"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Oklahoma runs no spring frost-law season — the posted thaw embargoes that gate shelter hauls across Iowa, Wisconsin, and Illinois simply do not exist here, and statutory weight limits apply year-round. County commissioners can still post individual roads and bridges to lower limits, and rural bridge postings in eastern Oklahoma are the practical constraint worth checking on a hut delivery. Oversize/overweight permits for state highways run through the state's size-and-weight permitting office (under the Department of Public Safety's permitting operation — confirm current office and portal before filing, flagged as a gap), with turnpike moves cleared separately with the Oklahoma Turnpike Authority.",
+    "source": "Oklahoma statutes size-and-weight provisions; permit office assignment pending direct verification (egress blocked 2026-07-27)"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "The Oklahoma State Historic Preservation Office operates within the Oklahoma Historical Society and handles Section 106 consultation for federally funded or licensed work. The distinctive Oklahoma factor is tribal: dozens of federally recognized tribal nations are headquartered in the state, and tower and telecom projects routinely involve tribal historic preservation officers through the FCC's Tower Construction Notification System — schedule Section 106 earlier here than elsewhere in the footprint. Construction stormwater is ODEQ's OKR10 general permit, triggered at one acre of disturbance (or less within a larger common plan), with a stormwater pollution prevention plan required before the NOI; the current permit issued October 18, 2022 and was modified November 1, 2023. Section 404 waters work runs through the USACE Tulsa District for most of the state, with ODEQ issuing 401 certification.",
+    "source": "ODEQ OKR10 construction stormwater program, https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html (accessed 2026-07-27); Oklahoma Historical Society SHPO, https://www.okhistory.org/shpo"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Oklahoma issues no statewide general-contractor license — civil sitework, concrete, and earthwork scopes are not state-licensed trades. The Construction Industries Board (CIB) licenses electrical, plumbing, and mechanical contractors and administers roofing contractor registration, so the licensed-trade portions of a telecom site (service and grounding electrical, mechanical) run through CIB-credentialed contractors. Cities layer their own contractor registration on top for permit issuance, and Oklahoma City and Tulsa each register contractors locally. Confirm current CIB requirements directly — this summary was assembled without a readable CIB source and is flagged accordingly.",
+    "source": "Oklahoma Construction Industries Board, https://oklahoma.gov/cib.html (direct verification pending; egress blocked 2026-07-27)"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Oklahoma's broadband program is large and active: NTIA's June 2023 BEAD allocations gave the state roughly $797.4 million, administered by the Oklahoma Broadband Office, on top of earlier ARPA-funded state grant rounds — current subgrantee status and post-2025 restructuring outcomes need re-verification and are flagged as a gap. Tribal broadband is a second, parallel funding stream unusual in its scale here: multiple Oklahoma tribal nations hold NTIA Tribal Broadband Connectivity Program awards funding fiber construction across their service areas, concentrated east of Tulsa. On the private side, the state's two Tier-1 metros are both growing — Oklahoma City around Paycom-era tech employment, Tinker Air Force Base, and the MAPS 4 public-works program; Tulsa around Tulsa Remote's in-migration and the gravitational pull of Google's long-running hyperscale campus at the MidAmerica Industrial Park in Pryor, about 45 road miles east of downtown Tulsa. AT&T Oklahoma is the legacy ILEC in both metros, with Cox the dominant cable operator and cooperative fiber builders (OEC Fiber and others) working the metro edges. There is no state prevailing wage — Oklahoma's public-works wage act was struck down by the Oklahoma Supreme Court in 1995 — so Davis-Bacon on federally funded work is the wage-compliance question that matters on BEAD and tribal builds.",
+    "source": "Oklahoma Broadband Office, https://oklahoma.gov/broadband.html; NTIA BEAD allocation announcement (June 2023); details pending re-verification — see _gaps"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "Which building code applies to a telecom shelter or hut in Oklahoma?",
+      "answer": "The statewide minimum is the 2018 IBC as amended by the Oklahoma Uniform Building Code Commission, and the OUBCC-adopted 2024 code suite takes effect September 14, 2026. Every municipality must enforce at least that minimum and may amend upward — Oklahoma City and Tulsa both do — so the permit set is always the local AHJ's amended edition, not the state floor. Projects permitting around September 2026 should confirm which edition their plans will be reviewed under."
+    },
+    {
+      "question": "How much notice does OKIE811 require before excavation?",
+      "answer": "Forty-eight hours, excluding Saturdays, Sundays, legal holidays, and the day you file — in practice, two business days. A locate request can be placed no more than ten days before digging starts, which bounds how far ahead tickets can be stacked on a production bore schedule. Emergency work endangering life, health, or property may begin immediately under the statute's exception."
+    },
+    {
+      "question": "Do Oklahoma's earthquakes change how telecom foundations are designed?",
+      "answer": "The context matters more than the code values. Wastewater injection drove an induced-seismicity surge peaking in the mid-2010s — including the 2011 Prague M5.7 and the 2016 Pawnee M5.8, the strongest quakes ever recorded in the state — before regulatory directives cut disposal volumes and rates fell. Design still runs on site-specific USGS Ss/S1 values queried at the coordinates; we treat published seismic parameters as a per-site lookup, never a statewide assumption."
+    },
+    {
+      "question": "Does prevailing wage apply to broadband construction in Oklahoma?",
+      "answer": "There is no state prevailing wage — Oklahoma's public-works wage law was struck down by the state supreme court in 1995 and never replaced. Federal Davis-Bacon requirements still attach to federally funded work, which includes BEAD subgrantee builds and most tribal broadband programs, so certified payroll on those routes is a federal obligation even though the state imposes none."
+    },
+    {
+      "question": "Do civil contractors need an Oklahoma state license?",
+      "answer": "Not for civil sitework — Oklahoma has no statewide general-contractor license. The Construction Industries Board licenses the electrical, plumbing, and mechanical trades and registers roofing contractors, so the licensed-trade slices of a compound build run through CIB-credentialed firms, and cities like Oklahoma City and Tulsa require local contractor registration before issuing permits. The practical barrier to entry is municipal registration and insurance, not a state license exam."
+    }
+  ],
+  "sources": [
+    {
+      "label": "OUBCC — International Building Code adoptions (2018 minimum; 2024 suite effective 2026-09-14)",
+      "url": "https://oklahoma.gov/oubcc/codes-and-rules/international-building-code-adoptions.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OKIE811 — Oklahoma one-call law (48-hour notice)",
+      "url": "https://okie811.org/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ODEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Geological Survey — earthquake program (induced seismicity, Prague 2011, Pawnee 2016)",
+      "url": "https://ou.edu/ogs",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Broadband Office — BEAD program",
+      "url": "https://oklahoma.gov/broadband.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Construction Industries Board — trade licensing",
+      "url": "https://oklahoma.gov/cib.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Historical Society — State Historic Preservation Office",
+      "url": "https://www.okhistory.org/shpo",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Department of Transportation — field divisions",
+      "url": "https://oklahoma.gov/odot.html",
+      "accessedDate": "2026-07-27"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation (wind/frost/snow numeric ranges)",
+      "attempted": "ASCE 7 Hazard Tool and local-amendment sweep — all direct fetches blocked by the session egress proxy; only qualitative narrative published."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "dotRowProcess — division-by-county assignments and utility permit forms",
+      "attempted": "oklahoma.gov/odot returned 403 through the egress proxy; division map unverified. Confirm which division serves each county before filing."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "seasonalLoadRegime — OS/OW permit office confirmation",
+      "attempted": "Oklahoma DPS size-and-weight permitting attribution is from general knowledge; the office, portal, and fee schedule need direct confirmation."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
+      "field": "contractorLicensing — CIB statute citations",
+      "attempted": "CIB site unreachable through proxy; no-state-GC-license and CIB trade-licensing summary needs a primary-source read before sign-off."
     },
     {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
+      "field": "telecomLandscape — BEAD current round status and exact allocation; tribal program details (\"ORBIT\" branding could not be verified)",
+      "attempted": "Oklahoma Broadband Office site blocked; ~$797.4M figure is the June 2023 NTIA allocation from prior knowledge. A tribal program named ORBIT was searched for and not confirmed — do not publish that name without verification."
     },
     {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
+      "field": "prevailing wage — 1995 Oklahoma Supreme Court case citation",
+      "attempted": "The strike-down is well established but the case citation and any subsequent statutory repeal date need verification before the claim renders publicly."
     },
     {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
+      "field": "sources[] — link liveness",
+      "attempted": "Every URL except the three captured from search results was written from canonical knowledge; the egress proxy blocked all direct fetches this session. Run a link check before sign-off."
     },
     {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "metadata + faq — human review",
+      "attempted": "Authored this session; requires editorial and ops review before _verified."
     }
   ]
 }

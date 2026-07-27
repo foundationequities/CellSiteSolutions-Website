@@ -1,0 +1,626 @@
+{
+  "identity": {
+    "slug": "lawrence",
+    "city": "Lawrence",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateAbbr": "KS",
+    "counties": [
+      "Douglas"
+    ],
+    "msa": "Lawrence, KS (Douglas County)",
+    "tier": 3,
+    "latitude": 38.9717,
+    "longitude": -95.2353,
+    "elevationFt": 866,
+    "population": {
+      "value": 94934,
+      "source": "U.S. Census Bureau, 2020 Census count — confirm the current vintage estimate against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-70 (Kansas Turnpike, north edge of the city)"
+    ],
+    "majorRoutes": [
+      "K-10 (South Lawrence Trafficway)",
+      "US-59",
+      "US-40",
+      "US-24"
+    ]
+  },
+  "metadata": {
+    "title": "Lawrence, KS Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for fiber, wireless, and edge sites in Lawrence, KS — foundations, boring, duct bank, and compound work for river-valley and upland ground.",
+    "h1": "Telecom Site Civil Construction in Lawrence, Kansas",
+    "intro": "Two ground conditions share one college town in Lawrence. North of the Kansas River, sites sit on deep valley alluvium with groundwater tied to river stage; south of it, the uplands around Mount Oread put Pennsylvanian limestone and shale within reach of an excavator bucket. CellSite Solutions builds the civil side of fiber, wireless, and edge sites across Douglas County from our Cedar Rapids, Iowa yard — hut and shelter foundations, duct bank and directional bores, grounding, and compound work sized to whichever Lawrence you are building in. The market has genuine momentum: AT&T Fiber and Midco are both overbuilding the city, Kansas BEAD dollars are reaching rural Douglas County, and K-10 now runs straight to the $4 billion Panasonic battery plant at De Soto.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Northeast Kansas is a low seismic hazard area by national standards. Publish Ss/S1 only from a USGS design-maps query at the site coordinates, and treat site class as site-specific — Kansas River alluvium sites can classify less favorably than upland bedrock sites."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Lawrence splits into two distinct foundation settings. The Kansas River corridor — including all of North Lawrence — sits on deep alluvial sands and silts with shallow groundwater tied to river stage. The uplands south of the river, including Mount Oread where the University of Kansas campus stands, are Pennsylvanian cyclothem bedrock: alternating limestone and shale beds, with the Oread Limestone capping the hill the campus is named for. The Wakarusa River valley bounds the city on the south with its own alluvial soils and wetland complexes. (Kansas Geological Survey county mapping — confirm unit details against KGS Douglas County publications before sign-off.)",
+    "dominantSoilTypes": [
+      "Kansas River alluvium — sands and silts (North Lawrence and the river corridor)",
+      "Residual and colluvial clays over Pennsylvanian limestone-shale bedrock (uplands)",
+      "Wakarusa River valley alluvial silts and clays (south Lawrence)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Clay-rich residuum weathered from Pennsylvanian shales can carry shrink-swell potential in eastern Kansas; publish a site grade only after NRCS linear-extensibility data or a geotechnical report is in hand.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Douglas County's Pennsylvanian limestone-shale sequence is not among Kansas's mapped karst concerns, which concentrate in central and south-central gypsum and Flint Hills terrain. Screen individual sites during geotechnical investigation rather than relying on a county-level grade."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The first question on a Lawrence foundation is which side of the river valley the site is on. On alluvial ground — North Lawrence and the corridor along the Kansas River — expect deep, saturated granular soils: foundations trend toward drilled piers or engineered mats, excavations need dewatering planning, and floodplain screening precedes everything. On the uplands, the problem inverts: limestone and shale bedrock can sit shallow enough that rock excavation, not soil bearing, drives foundation and duct bank cost, and footings often bear on or just above rock. Footing depth in the city is governed by Lawrence's code-amended climatic table, which we could not read directly at authoring time — carry that code check, and site-specific borings, in every design package. Nothing here substitutes for a geotechnical investigation."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Lawrence Planning & Development Services — Building Safety Division",
+        "url": "https://lawrenceks.gov/pds/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers building permits and the city's contractor licensing program. Published review times were not found — confirm current queues by phone before committing a schedule."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "International Building Code with local amendments, adopted at City Code Chapter 5 (2018-edition I-codes per the city's 2019 ordinance cycle; the city states it enforces the most recent editions)",
+      "source": "City of Lawrence PDS adopted-codes page — https://lawrenceks.gov/pds/adopted_codes/ — confirm the current edition with Building Safety before relying on it",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Lawrence Municipal Services & Operations (right-of-way and excavation permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "A city permit is required for work in public right-of-way; confirm the current permit portal, bond, and traffic-control submittal requirements with MSO — the city site was not directly reachable at authoring time."
+    },
+    "stateDotDistrict": {
+      "name": "KDOT District One — Northeast Kansas (headquartered in Topeka; covers Douglas County)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Utility and access permits on K-10, US-59, US-40, and US-24 state right-of-way run through District One. I-70 through north Lawrence is the Kansas Turnpike — coordinate turnpike crossings with the Kansas Turnpike Authority."
+    },
+    "oneCallCenter": {
+      "name": "Kansas 811",
+      "url": "https://kansas811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice at least two full working days before excavation, excluding the day of notice, weekends, and holidays. Line markings are valid for 20 calendar days under Kansas law.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Kansas Department of Health and Environment (KDHE) — construction stormwater general permit; City of Lawrence stormwater engineering review applies locally",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "File the NOI with KDHE before disturbing an acre or more. Lawrence layers its own stormwater and erosion-control review on development projects — the seed research flagged this market for comparatively strict local stormwater and environmental review; verify current requirements with the city."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Lawrence (floodplain regulations administered through Planning & Development Services)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "North Lawrence and the Kansas River corridor are the primary mapped floodplain areas; a floodplain development permit precedes work there."
+    },
+    "permitTimelineNarrative": "Sequence a Lawrence site around four permit layers. Building permits run through Planning & Development Services, which also licenses the contractor — get licensing squared away before submittal, not with it. Anything in city right-of-way needs an MSO permit, and downtown work draws closer scrutiny than outlying corridors. Disturb an acre or more and the KDHE stormwater NOI has to be authorized before ground breaks, with the city's own stormwater review running alongside. Near the river, the floodplain development permit leads the schedule. State-route work adds KDOT District One, and a K-10/turnpike touch adds its own authority. None of these agencies publish standing review times we could verify — build the schedule from confirmed queues, not assumptions."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy (Kansas Central, legacy Westar territory)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Evergy is Kansas's largest electric utility, dual-headquartered in Topeka and Kansas City, Missouri. New-service lead times are not published — schedule hut and compound energization from Evergy's written confirmation. Kansas Gas Service is the area's natural gas utility where generator fuel service is relevant."
+      }
+    ],
+    "ilec": "AT&T Kansas (Southwestern Bell legacy territory) — consistent with AT&T's position as the city's largest fiber provider; confirm exchange boundaries against Kansas Corporation Commission maps before publishing",
+    "notableFiberProviders": [
+      "AT&T Fiber (roughly 60% of the city per FCC-derived coverage data)",
+      "Midco (former WOW! plant; $30M Lawrence-area fiber overbuild announced 2022, targeted through 2025)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": {
+        "name": "Douglas County Public Works (posted bridges and local road limits)",
+        "url": null,
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Kansas runs no statewide spring frost-law season of the kind Iowa and Wisconsin haulers plan around. The constraint to check before a shelter or hut delivery to a rural Douglas County site is individually posted bridges and county road limits, which apply year-round rather than on a thaw calendar."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Kansas DOT oversize/overweight permitting (K-TRIPS online routing and permit system)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Covers state-maintained routes; city and county segments need separate local authorization, and turnpike moves involve the Kansas Turnpike Authority. Confirm the current portal and lead times before booking a shelter haul."
+    },
+    "bridgeOrClearanceConstraints": "Every route between the two halves of Lawrence funnels across Kansas River bridges — the Massachusetts Street and US-59/US-40 crossings in town — so an oversize move to North Lawrence should be route-checked rather than assumed.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP's main line runs along the north bank of the Kansas River through North Lawrence; utility and fiber crossings run through UP's real-estate licensing process. Timelines are long — file early."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "BNSF's Topeka Subdivision passes through Lawrence (it carries Amtrak's Southwest Chief); crossings go through BNSF's utility permit process, with railroad protective liability insurance typically required for contractor entry."
+      }
+    ],
+    "urbanRowRequirements": "Downtown Lawrence — the Massachusetts Street corridor and adjacent historic districts — carries higher expectations for surface restoration, equipment placement, and traffic control than outlying corridors, and city review reflects it. Confirm current lane-closure and traffic-control submittal requirements with Municipal Services & Operations before pricing downtown underground work."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Listed bat species range covers eastern Kansas; the clearing window that applies to a given site is confirmed through a project-specific USFWS IPaC review",
+      "source": null
+    },
+    "shpo": {
+      "name": "Kansas Historical Society — State Historic Preservation Office",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 review applies to federally funded builds, including BEAD-funded routes. Lawrence's downtown historic districts make SHPO coordination more likely here than in most Kansas markets of its size."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory program; KDHE for state water quality certification",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Kansas City District (NWK)",
+    "listedSpeciesNote": "Listed bats are the most likely flag on clearing in eastern Kansas woodlots. The Wakarusa valley wetland complexes on the city's south side raise the odds of aquatic-resource review on routes that way. Run a project-specific USFWS IPaC query — nothing at the county level substitutes for it.",
+    "floodplainPrevalenceNote": "The July 1951 Kansas River flood devastated North Lawrence, and the federal flood-control response that followed is why the levee stands along the river's north bank today. North Lawrence and the river corridor remain the floodplain screening zone; most upland Lawrence sits clear. The Wakarusa valley south of town — home to the Baker Wetlands complex that the K-10 South Lawrence Trafficway was famously routed around after years of environmental review — has its own mapped flood and wetland areas."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Intermittent frozen ground; cold snaps alternate with open, workable weeks",
+        "earthworkConcrete": "constrained",
+        "note": "Winter concrete protection required; frost is shallower and less persistent than in the upper Midwest"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw cycling; muddy subgrades on thaw days",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawed, wet, and windy; subgrades firm as the month runs",
+        "earthworkConcrete": "workable",
+        "note": "Severe-weather season begins"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Workable; spring rains build toward the annual peak",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Firm between storms; peak severe weather and rainfall window",
+        "earthworkConcrete": "favorable",
+        "note": "Plan SWPPP maintenance and pump capacity around convective rain"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; heavy thunderstorm rainfall possible",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and generally dry; 95°F-plus stretches occur",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on afternoon pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot, dry subgrades; dust control on granular surfaces",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm, drying, stable — a strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cool and firm; first freeze typically arrives late in the month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; ground open most of the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "First sustained freezes; snow events are usually short-lived",
+        "earthworkConcrete": "constrained",
+        "note": null
+      }
+    ],
+    "narrative": "Northeast Kansas gives back several weeks of construction season compared with our Iowa home market: winters here run to freeze-thaw cycling rather than months of locked frost, so December through February work is constrained — priced with protection — rather than shut down. The tradeoff arrives in spring, when the April-through-June severe weather and rainfall peak does to schedules what frost does further north. Month-by-month characterizations above should be read against NOAA climate normals for the Lawrence/Topeka area stations before publication; that check is an open item."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "A split condition: essentially no rock risk on Kansas River alluvium, but upland sites can meet Pennsylvanian limestone ledges at duct bank and foundation depth. Which Lawrence you are in decides the line item.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Kansas repealed its state prevailing wage act in 1987, so state-funded work carries no state wage determination. Federal Davis-Bacon still applies to federally funded work — including Kansas BEAD broadband builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter protection costs run December through February but are cycling-weather costs, not deep-frost costs. Summer adds hot-weather concrete measures in July and August.",
+    "narrative": "Lawrence civil pricing turns on geography before anything else: an alluvial North Lawrence site buys dewatering, deeper foundations, and floodplain process, while an upland site trades all of that for possible rock excavation in limestone-shale ground. Two market forces sit on top. First, the Kansas City construction market next door — amplified for the past few years by the $4 billion Panasonic build at De Soto, 20-odd miles east on K-10 — has periodically tightened regional subcontractor and material availability, which shows up in lead times more than in unit prices. Second, mobilization from Cedar Rapids is real money on small scopes, so bundling Lawrence work into multi-site trips prices better than one-off visits. Drivers only — every site prices to its own borings, season, and month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Kansas has no statewide general contractor license; licensing is municipal and county-level, and Lawrence runs its own contractor licensing program through Planning & Development Services under City Code Chapter 5. Confirm the current license class and any trade-license requirements for the scope before permit submittal. Standard corporate registration with the Kansas Secretary of State applies to out-of-state contractors.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "flood",
+      "extreme heat"
+    ],
+    "designImplications": "This is severe-convective country: anchorage, fastener schedules, and generator fuel containment get specified for wind and large hail rather than treated as boilerplate. Along the Kansas River, the 1951 flood history and the North Lawrence levee make floodplain elevation the governing design input before structure ever comes up. Ice storms argue for conservative service-entrance and grounding details, and July heat drives concrete placement practice. Publish site wind and ice values only after ASCE 7 and TIA-222 lookups — none are stated here yet.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Kansas BEAD: $451.7M program; restructured final proposal approved",
+        "detail": "Kansas opened application rounds on its $451.7M BEAD allocation in late 2024 (403 project areas, 52,343 locations), and NTIA has since approved the state's restructured $166.6M final proposal — roughly 30% fiber, 67% fixed wireless, 3% LEO. Rural Douglas County locations sit inside that program footprint.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.governor.ks.gov/Home/Components/News/News/866/55",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Midco fiber overbuild across Lawrence, Eudora, and Basehor",
+        "detail": "Midco, which bought the former WOW! plant in the region, announced a $30M fiber buildout for Lawrence, Eudora, and Basehor in 2022 with construction targeted through the end of 2025, alongside AT&T Fiber's coverage of roughly 60% of the city — an active two-provider overbuild market.",
+        "category": "carrier program",
+        "sourceUrl": "https://broadbandnow.com/Kansas/Lawrence",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Panasonic's $4B De Soto plant opens on the K-10 corridor",
+        "detail": "Panasonic Energy's $4 billion EV battery plant at De Soto — the largest economic development project in Kansas history — held its grand opening in July 2025 about 20 miles east of Lawrence on K-10, pulling industrial, utility, and network investment into the corridor between Lawrence and the Kansas City metro.",
+        "category": "data center",
+        "sourceUrl": "https://www.kansascommerce.gov/2025/07/governor-kelly-celebrates-grand-opening-of-panasonic-ev-battery-manufacturing-facility-in-de-soto/",
+        "asOf": "2025-07-14"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Lawrence is a live overbuild market: AT&T Fiber already reaches about 60% of the city and Midco has been constructing its $30M buildout across Lawrence and Eudora, while Kansas BEAD funding targets the rural edges of Douglas County. The physical chokepoint is the river corridor — any route linking the two halves of town has to get past the Kansas River, the UP main line on its north bank, and the BNSF line in close succession, which concentrates bore and crossing-permit risk into a few hundred yards. Alluvial ground makes for fast boring but demands fluid discipline and utility potholing; upland runs can meet limestone at depth. Downtown restoration standards on Massachusetts Street mean lateral and vault work there is priced as finish work, not just excavation.",
+      "localSpecificsReferenced": [
+        "AT&T Fiber / Midco overbuild",
+        "Kansas River–UP–BNSF crossing corridor",
+        "Kansas BEAD rural Douglas County footprint",
+        "Massachusetts Street restoration standards"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless demand in Lawrence concentrates where 25,000-plus University of Kansas students do: capacity around the KU campus, Memorial Stadium, and the downtown blocks between them is what densification means in this market. Small cell and node civil downtown runs into the same historic-district design and restoration expectations that govern all Massachusetts Street ROW work — placement and surface finish get reviewed, not rubber-stamped. Foundation design splits with the geology: compound and pad work on the uplands can bear shallow on limestone-shale ground, while anything in the river corridor designs for saturated alluvium. K-10 and the Kansas Turnpike corridors add highway-serving macro sites where KDOT District One and turnpike-authority coordination shape access and staging.",
+      "localSpecificsReferenced": [
+        "University of Kansas / Memorial Stadium demand",
+        "Downtown Lawrence historic-district ROW standards",
+        "Oread upland vs. river alluvium foundation split",
+        "K-10 / Kansas Turnpike corridors"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads",
+        "hyperscale campus civil support"
+      ],
+      "narrative": "Lawrence has no named data center campus, and this page won't pretend otherwise. Its edge story is positional: the city sits on K-10 between the University of Kansas — a research institution with serious network and compute demand — and the Kansas City metro's data center and interconnection market, with the $4 billion Panasonic plant at De Soto now anchoring the corridor's eastern end. That geography favors edge enclosure pads, utility yards, and hut-scale compute at aggregation points along K-10 and the I-70 turnpike rather than campus-scale work. The civil scope is the same discipline either way: Evergy service coordination and transformer pads, generator yards with containment, and duct bank designed for whichever side of the geology split the site lands on.",
+      "localSpecificsReferenced": [
+        "K-10 corridor between KU and the KC metro",
+        "Panasonic De Soto plant",
+        "University of Kansas network demand",
+        "Evergy service territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 330,
+      "driveTimeHours": 5.7,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Douglas",
+      "Jefferson",
+      "Leavenworth",
+      "Franklin"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Lawrence sits at the far edge of our regional band from Cedar Rapids — a workday's drive down I-380 to I-80, across to Des Moines, I-35 south through the Kansas City metro, then west on K-10 into Douglas County. That geometry sets an honest rhythm: mobilizations are planned overnight moves rather than same-day service calls, and crews on multi-day scopes stay in market for the duration instead of commuting. The K-10 approach keeps the final leg on four-lane divided highway, which simplifies equipment moves relative to markets reached on two-lane routes. Mileage and drive time shown are seed estimates pending a real routing check, and no response-time commitment is published without ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who issues the building permit for a telecom shelter or fiber hut in Lawrence?",
+      "answer": "The City of Lawrence Planning & Development Services department, through its Building Safety Division — which also administers the city's contractor licensing program, so licensing needs to be in place before submittal. The city adopts the I-codes with local amendments at City Code Chapter 5; confirm the current edition and review queue with Building Safety when scoping the schedule.",
+      "segment": "general"
+    },
+    {
+      "question": "How much notice does Kansas 811 require before boring or trenching in Lawrence?",
+      "answer": "At least two full working days, excluding the day the ticket is placed, weekends, and holidays. Line markings stay valid for 20 calendar days under Kansas law. We build the two-day lead into every underground schedule — bores, vault sets, and lateral work included.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What soil conditions should I expect boring near the Kansas River in Lawrence?",
+      "answer": "Deep alluvial sands and silts with groundwater tied to river stage — fast drilling, but plan on careful drilling-fluid management, utility potholing, and dewatering contingency for any open excavation. North Lawrence and the river corridor also sit in the mapped floodplain, so a floodplain development permit typically precedes the work. Site borings govern the final bore plan.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is rock excavation a real risk on upland Lawrence sites?",
+      "answer": "Yes — the uplands south of the river are Pennsylvanian limestone and shale, the same sequence whose Oread Limestone caps Mount Oread, and ledge rock can appear at duct bank or foundation depth. On the valley alluvium the risk is essentially zero. Which side of that line a site sits on is one of the first things we establish, because it moves both the foundation design and the trenching price.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Do seasonal road restrictions affect shelter delivery to Douglas County sites?",
+      "answer": "Not the way they do in Iowa or Wisconsin — Kansas has no statewide spring frost-law season. What you check instead are individually posted bridges and county road limits, which apply year-round, plus KDOT oversize/overweight permitting for state routes and Kansas Turnpike Authority coordination if the move uses I-70. River bridge crossings into North Lawrence deserve a route check for any oversize load.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Does downtown Lawrence's historic district change small cell and ROW work?",
+      "answer": "Practically, yes. The Massachusetts Street corridor and adjacent historic districts carry elevated expectations for equipment placement, surface restoration, and traffic control, and city review reflects it — downtown underground and node work should be priced as finish-quality restoration, not just excavation. Federally funded routes downtown are also more likely to draw SHPO Section 106 coordination than elsewhere in the market.",
+      "segment": "wireless"
+    },
+    {
+      "question": "When does a Lawrence project need a stormwater permit?",
+      "answer": "At one acre of disturbance (or less as part of a larger common plan), a Notice of Intent goes to KDHE under Kansas's construction stormwater general permit before ground breaks. Lawrence adds its own stormwater and erosion-control review on top — this market was flagged in our research for comparatively strict local review, so confirm city requirements early rather than discovering them at submittal.",
+      "segment": "general"
+    },
+    {
+      "question": "Does Kansas require a state general contractor license for this work?",
+      "answer": "No — Kansas has no statewide GC license and, since the 1987 repeal, no state prevailing wage law either. Licensing lives at the city level: Lawrence licenses contractors through Planning & Development Services. Federal Davis-Bacon wage requirements still attach to federally funded work, which includes Kansas BEAD broadband builds.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in Lawrence right now?",
+      "answer": "Three things: a live wireline overbuild, with AT&T Fiber at roughly 60% coverage and Midco constructing its $30M buildout; Kansas BEAD funding reaching rural Douglas County; and the K-10 corridor's transformation, anchored by Panasonic's $4 billion De Soto plant that opened in July 2025 just east of town. University of Kansas capacity demand keeps wireless densification active in the core.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Drilled piers or spread footings? In Lawrence, the river decides",
+    "body": "Ask where the site sits before asking what the structure weighs. On the uplands — most of Lawrence south of the river — Pennsylvanian limestone and shale sit close enough to the surface that a conventional spread footing or thickened pad is usually the economical answer, and the design conversation is really about whether you meet ledge rock above bearing elevation. If you do, don't reflexively blast or hammer through it for a deeper footing; bearing on or socketing into competent rock at a higher elevation is often cheaper than paying for rock removal across a pad footprint. On Kansas River alluvium — all of North Lawrence — the logic inverts. There is no rock to find, groundwater rides with river stage, and loose saturated sands argue for drilled piers or an engineered mat over any excavation-heavy shallow scheme, with dewatering and floodplain permitting priced in from the start. The Wakarusa valley on the south side behaves more like the river corridor than the uplands, with wetland screening layered on. The borings settle all of this for a few thousand dollars; guessing settles it for much more."
+  },
+  "sources": [
+    {
+      "label": "City of Lawrence PDS — adopted building, fire, trade, and contractor licensing codes",
+      "url": "https://lawrenceks.gov/pds/adopted_codes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Code of the City of Lawrence, Chapter V — Building and Construction (code adoption and contractor licensing)",
+      "url": "https://assets.lawrenceks.org/city-code/chapter05.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas 811 — excavator notice requirements (two full working days)",
+      "url": "https://kansas811.com/faqs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT District One — Northeast Kansas (17 counties incl. Douglas and Shawnee)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Department of Commerce — $451.7M BEAD application announcement",
+      "url": "https://www.kansascommerce.gov/2024/09/governor-kelly-announces-applications-to-open-for-451-7m-internet-initiative/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Governor's Office — NTIA approval of $166.6M BEAD final proposal",
+      "url": "https://www.governor.ks.gov/Home/Components/News/News/866/55",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BroadbandNow — Lawrence, KS provider and fiber coverage data (AT&T Fiber, Midco)",
+      "url": "https://broadbandnow.com/Kansas/Lawrence",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Department of Commerce — Panasonic De Soto grand opening ($4B)",
+      "url": "https://www.kansascommerce.gov/2025/07/governor-kelly-celebrates-grand-opening-of-panasonic-ev-battery-manufacturing-facility-in-de-soto/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "National Alliance for Fair Contracting — Kansas prevailing wage repeal (1987)",
+      "url": "https://faircontracting.org/wp-content/uploads/2019/06/kansas_prevailing_wage.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Department of Labor — state prevailing wage coverage table (Kansas: none)",
+      "url": "https://www.dol.gov/agencies/whd/state/prevailing-wages",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic Ss-S1 / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables all unreachable through the sandbox egress proxy; no primary values found in search. One session from an unproxied machine resolves the set."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Lawrence's code-amended Table R301.2(1) lives in City Code Chapter 5 / the 2019 ordinance PDFs (assets.lawrenceks.org), which returned 403 through the proxy. Secondary sources suggest 36 in. but are not publishable under the frost-depth sourcing rule — read the amended table directly."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — current edition",
+      "attempted": "City adopted-codes page not directly readable; 2018-edition I-codes confirmed from the 2019 ordinance cycle in search results, but the city states it enforces 'the most recent editions.' Confirm whether 2021/2024 editions have since been adopted."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority / stormwaterAuthority — portals and local requirements",
+      "attempted": "lawrenceks.gov blocked through proxy; MSO ROW permit details and the city's local stormwater review requirements need direct confirmation, as does the current KDHE construction stormwater general permit page."
+    },
+    {
+      "field": "geotech quantitative values (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and Kansas Geological Survey Douglas County pages unreachable through proxy; only qualitative geology is published, flagged for KGS confirmation."
+    },
+    {
+      "field": "environmental.treeClearingWindow — window dates and source",
+      "attempted": "USFWS IPaC and field-office guidance unreachable; restriction flagged qualitatively for eastern Kansas bat range with the window left null rather than generalized from another state."
+    },
+    {
+      "field": "seasonality — NOAA normals check",
+      "attempted": "NCEI normals tables for area stations not readable through proxy; calendar authored from regional climate knowledge and must be read against station normals before publication."
+    },
+    {
+      "field": "utilities.ilec — KCC exchange boundary confirmation",
+      "attempted": "AT&T Kansas attribution inferred from legacy Southwestern Bell territory and AT&T's dominant fiber position; Kansas Corporation Commission exchange maps not queried."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "330 mi / 5.7 h are seed straight-line-derived estimates; verify against real routing (I-380/I-80/I-35/K-10) before publish. countiesServed list also needs ops sign-off."
+    },
+    {
+      "field": "identity.elevationFt / population vintage",
+      "attempted": "Elevation is the commonly published GNIS figure and the population is the 2020 Census count; Census QuickFacts not directly readable through proxy for the current vintage estimate."
+    }
+  ]
+}

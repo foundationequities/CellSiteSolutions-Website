@@ -5,24 +5,24 @@
     "abbr": "MO"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Missouri Telecom Civil Construction Guide | CellSite Solutions",
+    "description": "Codes, permits, prevailing wage, and market drivers for telecom civil construction across Missouri, from Kansas City to St. Louis — a statewide reference.",
+    "h1": "Telecom Civil Construction Across Missouri",
+    "intro": "Missouri runs on local rules layered over a handful of statewide clocks. There is no mandatory state building code — Kansas City, St. Louis, and hundreds of smaller jurisdictions each adopt their own editions — yet the state's prevailing wage law, its three-working-day one-call notice, and MoDNR's one-acre land disturbance trigger apply everywhere. The market is worth the homework: Missouri holds a $1.7 billion BEAD allocation, one of the largest in the country, and Kansas City has stacked Google Fiber's original launch market, Meta's Golden Plains campus, and the $10 billion Project Mica site into a single metro. Statewide rules live on this page; the city pages carry the ground truth."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Missouri has no mandatory statewide building code — adoption is a local choice, and the result is a genuine patchwork. Reporting on a 2024 statewide-code bill counted 13 counties with building codes, several hundred municipalities enforcing their own, and more than 40 different code books in use across the state, some decades old. The big metros are current but not aligned: Kansas City adopted the 2018 I-codes effective June 28, 2020 (Code of Ordinances Ch. 18) and layered the 2021 IECC on top effective July 1, 2023; the City of St. Louis adopted the 2018 IBC by Ordinance 70794 on August 1, 2018, the first jurisdiction in its region to do so; St. Louis County — a separate jurisdiction from the city since 1876 — enforces amended 2015 editions under its Chapter 1115. In unincorporated areas with no adopted code there may be no plan review at all, which shifts the design burden onto the owner's engineer. Confirm the governing edition per AHJ on every project.",
+    "source": "St. Louis Public Radio, 'Missouri doesn't have a statewide building code' (Mar. 2024) — https://www.stlpr.org/economy-business/2024-03-01/missouri-doesnt-have-a-statewide-building-code-this-bill-seeks-to-change-that; KCMO Building and Rehabilitation Code — https://www.kcmo.gov/city-hall/departments/city-planning-development/building-and-rehabilitation-code; City of St. Louis adopted codes — https://www.stlouis-mo.gov/government/departments/public-safety/building/building-codes.cfm; St. Louis County Code Ch. 1115 (Municode)"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Work in state highway right-of-way requires a MoDOT utility permit, handled through the district that owns the route. MoDOT operates seven districts statewide; the two covering CSS's Missouri Tier 1 markets are the Kansas City District (600 NE Colbern Rd., Lee's Summit) and the St. Louis District (1590 Woodlake Dr., Chesterfield). Oversize/overweight hauls — telecom shelters and fiber huts included — are permitted exclusively online through MoDOT Carrier Express. OSOW travel is limited to a half hour before sunrise through a half hour after sunset, routine moves up to 12'4\" wide need no escort, and additional curfews apply in the Kansas City, St. Louis, Branson, and Lake of the Ozarks areas — a real scheduling input for metro shelter sets.",
+    "source": "MoDOT permits for utility work — https://www.modot.org/permits-utility-work; MoDOT oversize/overweight program and FAQ — https://www.modot.org/OSOW; MoDOT Kansas City District office — https://www.modot.org/kansas-city-district-office"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "Missouri 811 (Missouri One Call System)",
+    "url": "https://missouri-811.org/",
+    "ticketLeadBusinessDays": 3,
+    "source": "Missouri 811 — locate requests are administered on a three-working-day notice (weekends and Missouri holidays excluded); the underlying statute, RSMo 319.026, historically read 'at least two working days but not more than ten,' and SB 133 (signed July 14, 2025, effective Aug. 28, 2025) updated the Underground Facility Safety and Damage Prevention Act. Confirm current statute text — see _gaps. https://blog.missouri-811.org/sb-133-major-changes-to-missouris-underground-facility-law-coming-in-august"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -37,74 +37,147 @@
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "With no statewide code, every design value in Missouri rides on the local adoption ordinance. The one metro amendment figure located so far is Kansas City's 36-inch frost depth (Code of Ordinances Ch. 18, amended Table R301.2(1) — text verification pending); no adopted frost figure has been located for the City of St. Louis. Statewide wind, ground snow, and radial ice ranges await an ASCE 7 Hazard Tool and TIA-222 sweep that could not be completed through this environment's proxy, and the southeast corner of the state adds New Madrid seismic considerations that the rest of CSS's northern footprint never sees. The numeric ranges above stay null until the sweep lands.",
+    "source": "Kansas City, Mo. Code of Ordinances Ch. 18, sec. 18-57, Table R301.2(1) (via Municode; verify text before sign-off)"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Missouri does not run a statewide spring frost-law embargo program of the kind Iowa or Wisconsin post each thaw — statutory weight limits apply year-round, and no statewide seasonal restriction map was located on MoDOT's site. The binding logistics process is instead the OSOW permit itself: MoDOT Carrier Express routing, daylight-only travel, and metro-area curfews around Kansas City and St. Louis. County commissions can still post individual roads, so rural approach routes get verified per project with the county highway department rather than assumed from the state pattern.",
+    "source": "MoDOT oversize/overweight regulations — https://www.modot.org/OSOW (statewide seasonal thaw postings not found; see _gaps)"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "Missouri's SHPO sits inside the Department of Natural Resources and logs Section 106 submittals on a 30-day review clock that starts when a complete package is received during business hours; an expedited path exists for emergencies under 36 CFR 800.12 (573-751-7858). Construction stormwater also runs through MoDNR: land disturbance of one acre or more — or less, within a larger common plan — requires coverage under the MORA00000 general permit, an electronic ePermitting process built around a SWPPP, currently issued for the Feb. 8, 2022 through Feb. 7, 2027 term. Federally listed bats occur across Missouri, so tree clearing gets screened per site through USFWS IPaC; the statewide clearing-window guidance could not be verified through this environment and is tracked as an open gap.",
+    "source": "Missouri SHPO Section 106 review — https://mostateparks.com/page/state-historic-preservation-office/sec-106-review; MoDNR MORA00000 land disturbance permit — https://dnr.mo.gov/water/construction-or-land-disturbance-master-general-stormwater-permit-mora00000"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Missouri issues no statewide general contractor license — business registration with the Secretary of State plus jurisdiction-by-jurisdiction local licensing is the actual regime, and local licenses do not transfer. Kansas City requires a Certificate of Qualification for the qualifying individual (typically via ICC exam) plus a company contractor license; the City of St. Louis requires its Construction Industry Contractor Graduated Business License. The statewide differentiator is prevailing wage: since HB 1729 took effect August 28, 2018, Missouri's law applies to public works over $75,000, pays rates set by the Division of Labor Standards' Annual Wage Order across 20 consolidated occupational titles, and substitutes a Public Works Contracting Minimum Wage — 120% of the local average — where fewer than 1,000 hours of wage data exist for a trade in that county. Federal Davis-Bacon attaches separately to federally funded work, including BEAD builds.",
+    "source": "Missouri DOLIR, 2018 prevailing wage changes (HB 1729) — https://labor.mo.gov/dls/prevailing-wage/2018-changes; Missouri prevailing wage law and Annual Wage Order — https://labor.mo.gov/dls/prevailing-wage; local licensing per KCMO and City of St. Louis program pages (see sources)"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Missouri holds a $1.7 billion BEAD allocation — among the largest in the nation — administered by the Office of Broadband Development inside the Department of Economic Development. The state's final proposal, submitted to NTIA on September 19, 2025, would award $792 million to 42 ISPs (29 of them Missouri-based) to reach 213,803 locations, roughly 81% of them with fiber, while leaving nearly $1 billion of the allocation unspent. The metro story concentrates in Kansas City: Google Fiber's original 2011 launch market, Meta's $800 million hyperscale campus at Golden Plains Technology Park in the Northland, and the $10 billion 'Project Mica' campus for which Port KC approved revenue bonds in July 2025 — confirmed as Google's in February 2026. Carrier-hotel interconnection anchors both ends of the state through Netrality: 1102 Grand in Kansas City, and 210 N. Tucker plus 900 Walnut in St. Louis.",
+    "source": "Missouri DED BEAD program — https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program; DED final proposal release — https://ded.mo.gov/press-room/ded-releases-final-proposal-broadband-equity-access-and-deployment-bead-program; project announcements (see sources)"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "How much notice does Missouri 811 require before excavation?",
+      "answer": "Plan on three working days. Missouri 811 administers locate requests on a three-working-day window that excludes weekends and Missouri holidays, and requests can be placed up to ten working days ahead. The governing statute was also updated by SB 133, effective August 28, 2025, so schedules built on the old two-day reading of RSMo 319.026 should be rechecked against the current law."
+    },
+    {
+      "question": "Does Missouri license general contractors?",
+      "answer": "Not at the state level — Missouri has no statewide general contractor license. Licensing happens city by city and county by county, and it does not transfer: Kansas City requires a Certificate of Qualification plus a company contractor license, while the City of St. Louis requires its Construction Industry Contractor Graduated Business License. A contractor working both metros holds both, separately, along with Secretary of State business registration."
+    },
+    {
+      "question": "What building code applies to a telecom site in Missouri?",
+      "answer": "Whichever code the local jurisdiction has adopted — Missouri has no mandatory statewide building code. Kansas City enforces the 2018 I-codes (effective June 2020, with the 2021 IECC added in 2023), the City of St. Louis adopted the 2018 IBC in August 2018, and St. Louis County runs amended 2015 editions. Some rural jurisdictions have adopted nothing at all, which puts the engineering burden entirely on the owner's design team."
+    },
+    {
+      "question": "When does Missouri prevailing wage apply to telecom civil work?",
+      "answer": "On public works over $75,000, under the system HB 1729 created in 2018: rates come from the Division of Labor Standards' Annual Wage Order, and where a trade logged fewer than 1,000 reported hours in a county, the Public Works Contracting Minimum Wage — 120% of the local average — applies instead. Separately, federal Davis-Bacon rates attach to federally funded builds, which includes Missouri's BEAD-funded fiber projects regardless of the state threshold."
+    },
+    {
+      "question": "What is the status of Missouri's BEAD broadband program?",
+      "answer": "Missouri's $1.7 billion allocation — one of the largest in the country — is run by the Office of Broadband Development in the Department of Economic Development. The final proposal submitted to NTIA on September 19, 2025 would award $792 million to 42 ISPs to serve 213,803 locations, about 81% with fiber, with construction following NTIA approval. That is a multi-year pipeline of funded rural fiber routes, hut sites, and Davis-Bacon payrolls across the state."
+    }
+  ],
+  "sources": [
+    {
+      "label": "St. Louis Public Radio — Missouri has no statewide building code (2024 bill coverage)",
+      "url": "https://www.stlpr.org/economy-business/2024-03-01/missouri-doesnt-have-a-statewide-building-code-this-bill-seeks-to-change-that",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KCMO — Building and Rehabilitation Code (2018 code package, effective June 28, 2020)",
+      "url": "https://www.kcmo.gov/city-hall/departments/city-planning-development/building-and-rehabilitation-code",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of St. Louis — building codes adopted by the city (2018 IBC, Ordinance 70794)",
+      "url": "https://www.stlouis-mo.gov/government/departments/public-safety/building/building-codes.cfm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "St. Louis County Code of Ordinances Ch. 1115 — amended 2015 building code",
+      "url": "https://library.municode.com/mo/st._louis_county/codes/code_of_ordinances?nodeId=TITXIPUWOBURE_CH1115BUCO",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri 811 — SB 133 changes to the Underground Facility Safety and Damage Prevention Act",
+      "url": "https://blog.missouri-811.org/sb-133-major-changes-to-missouris-underground-facility-law-coming-in-august",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "RSMo 319.026 — notice of intent to excavate",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=319.026&bid=57366",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — permits for utility work in state right-of-way",
+      "url": "https://www.modot.org/permits-utility-work",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — oversize/overweight permitting (Carrier Express, travel restrictions, curfews)",
+      "url": "https://www.modot.org/OSOW",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — Kansas City District office (600 NE Colbern Rd., Lee's Summit)",
+      "url": "https://www.modot.org/kansas-city-district-office",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDNR — construction/land disturbance master general permit MORA00000",
+      "url": "https://dnr.mo.gov/water/construction-or-land-disturbance-master-general-stormwater-permit-mora00000",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri SHPO — Section 106 review (30-day clock)",
+      "url": "https://mostateparks.com/page/state-historic-preservation-office/sec-106-review",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DOLIR — 2018 prevailing wage changes (HB 1729, $75,000 threshold)",
+      "url": "https://labor.mo.gov/dls/prevailing-wage/2018-changes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DOLIR — prevailing wage law and Annual Wage Order",
+      "url": "https://labor.mo.gov/dls/prevailing-wage",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DED — BEAD program (Office of Broadband Development, $1.7B)",
+      "url": "https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DED — BEAD final proposal release ($792M to 42 ISPs, 213,803 locations)",
+      "url": "https://ded.mo.gov/press-room/ded-releases-final-proposal-broadband-equity-access-and-deployment-bead-program",
+      "accessedDate": "2026-07-28"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation — numeric wind/frost/snow ranges",
+      "attempted": "ASCE 7 Hazard Tool and TIA-222 county tables unreachable through the sandbox proxy; only Kansas City's 36-inch code amendment figure was located (itself pending Municode text verification). A statewide sweep from an unproxied machine fills the ranges."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "oneCall — current statute text post-SB 133",
+      "attempted": "revisor.mo.gov blocked by the proxy (403). Missouri 811 materials state a three-working-day administration and that SB 133 (eff. Aug. 28, 2025) updated the Act; the pre-2025 statute read 'at least two working days.' A reviewer should read RSMo 319.026 as amended before sign-off."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "seasonalLoadRegime — county posting survey",
+      "attempted": "No statewide seasonal thaw restriction program was found on MoDOT's site; whether individual counties in CSS's Missouri markets post spring limits was not verified and should be checked with county highway departments."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
+      "field": "small wireless facility statute (reported RSMo 67.5110 et seq.)",
+      "attempted": "Missouri's Uniform Small Wireless Facility Deployment Act could not be verified — revisor.mo.gov blocked by proxy and the search budget exhausted before confirmation. Statewide small-cell preemption context is omitted rather than guessed."
     },
     {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
-    },
-    {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
-    },
-    {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "environmentalReview — bat tree-clearing window",
+      "attempted": "USFWS Missouri field office clearing-window guidance not reachable this session; listed-bat presence is established but the specific statewide window (commonly a fall-winter cutting season) must be sourced before publication."
     }
   ]
 }

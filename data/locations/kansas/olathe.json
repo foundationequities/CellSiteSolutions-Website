@@ -1,0 +1,670 @@
+{
+  "identity": {
+    "slug": "olathe",
+    "city": "Olathe",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateAbbr": "KS",
+    "counties": [
+      "Johnson"
+    ],
+    "msa": "Kansas City, MO-KS",
+    "tier": 2,
+    "latitude": 38.8814,
+    "longitude": -94.8191,
+    "elevationFt": 1037,
+    "population": {
+      "value": 145057,
+      "source": "U.S. Census Bureau estimate via kansas-demographics.com — 4th-largest Kansas city; confirm against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-35"
+    ],
+    "majorRoutes": [
+      "US-169",
+      "K-7",
+      "K-10"
+    ]
+  },
+  "metadata": {
+    "title": "Olathe, KS Telecom Civil Construction | CellSite Solutions",
+    "description": "Fiber, wireless, and edge site civil construction in Olathe, KS — foundations, underground, and compound work along the I-35 and BNSF logistics corridor.",
+    "h1": "Telecom Site Civil Construction in Olathe, Kansas",
+    "intro": "Olathe is the Johnson County seat and one of the Kansas City metro's fastest-growing cities — up more than 4% between 2020 and 2023, well above the national rate — with Garmin's 96-acre world headquarters campus in the middle of it and the I-35/BNSF Transcon logistics corridor running through it toward New Century AirCenter, Logistics Park Kansas City at Edgerton, and Panasonic's $4B De Soto battery campus. Growth on that scale is a civil-construction engine: new subdivisions need wireless capacity, logistics buildings need fiber and edge pads, and every scope runs through Olathe's own ROW rules and the county's contractor licensing program. CellSite Solutions self-performs that work from its Cedar Rapids yard.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Seismic demand in eastern Kansas is low on the national maps, but Ss/S1 publish only from a USGS design-maps query at the site; site class is a geotech determination, not a county default."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Olathe occupies an upland drainage divide in central Johnson County where Pennsylvanian cyclothem bedrock lies near the surface: Missourian-stage alternating limestones and shales across most of the city, grading westward toward Virgilian units including the Lawrence Formation — mostly gray shale and sandstone, 140 to 250 feet thick — mapped by KGS across western Johnson County. A thin loess and residuum mantle covers the uplands; Cedar, Mill, and Indian creek headwaters carry narrow alluvial belts. (Kansas Geological Survey, Johnson County geohydrology.)",
+    "dominantSoilTypes": [
+      "Upland silty clay soils formed in loess",
+      "Shale and limestone residuum",
+      "Narrow alluvium along Cedar and Mill creeks"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Limestone is everywhere in the section, but KGS publishes no karst mapping that flags Johnson County; treat dissolution features as a site-screening item in the geotech scope, not a mapped county hazard."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation design in Olathe starts with a stratigraphy question: which unit of the Pennsylvanian section sits at your bearing elevation. On the city's uplands, the KGS-mapped alternation of limestone ledges and shales means one boring can show weathered shale to depth while a site two blocks away refuses an auger on a limestone member at six feet — so we treat rock contingency as a default line on pier and caisson scopes rather than a surprise. Where a ledge arrives above design depth, a socketed drilled pier or a raised bearing elevation is normally cheaper than mass rock removal under a full pad. Westward toward the Lawrence Formation's thicker shales, conventional spread footings and shelter pads behave more predictably. Creek-headwater sites add compressible alluvium in narrow belts. Frost depth comes from the city's amended IRC Table R301.2(1) — Olathe Municipal Code 15.04.100 — which must be read directly before design; site-specific borings govern every final decision."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Olathe — Building Division",
+        "url": null,
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permits are issued by the city against a Johnson County contractor license; adopted construction codes and local amendments are codified in Olathe Municipal Code Title 15. Confirm current portal and review queue directly — published review times were not found."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code, adopted with local amendments in Olathe Municipal Code Ch. 15.02",
+      "source": "Olathe Municipal Code Ch. 15.02 (Building Code); City of Olathe 2018 IBC Amendment Summary, June 2019 — https://content.govdelivery.com/attachments/KSOLATHE/2019/07/29/file_attachments/1256372/Amendment%20Summary_Detailed_v5%202019_0618.pdf",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Kansas preempts local small cell regulation: K.S.A. 66-2019, enacted through 2016's Senate Substitute for HB 2131, lets wireless providers construct and operate facilities in public right-of-way and requires infrastructure lease terms of at least 10 years, so Olathe administers placements rather than restricting them.",
+    "rowPermitAuthority": {
+      "name": "City of Olathe Public Works — right-of-way permits (Olathe Municipal Code Ch. 12.14)",
+      "url": "https://www.olatheks.gov/government/public-works/development-resources/right-of-way",
+      "phone": "913-971-5180",
+      "typicalReviewDays": null,
+      "note": "No cut, excavation, or grading in the ROW without a permit except emergency repairs (OMC 12.14.060–070). Permits run 60 days with one 60-day extension available; a $1,000 performance-and-maintenance bond is held for one year past accepted work; lane reductions need 48-hour notice to Traffic at 913-971-5180."
+    },
+    "stateDotDistrict": {
+      "name": "KDOT District One (Northeast Kansas) — Johnson is one of its 17 counties; HQ in Topeka",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Kansas 811 (Kansas One Call)",
+      "url": "https://kansas811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statutory notice window under K.S.A. 66-1804: no less than two full working days and no more than 20 calendar days ahead of excavation. Olathe's own ROW code requires locating in conformance with the Act.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "KDHE Bureau of Water — construction stormwater general permit (NPDES)",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Notice of Intent with $60 fee and a site-specific erosion and sediment control plan required before disturbing an acre or more (or less within a larger common plan)."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plan Olathe permits in layers. The Johnson County contractor license is the standing prerequisite; the city's Building Division issues permits under the 2018 IBC as amended in OMC Title 15. ROW work adds the Ch. 12.14 permit — 60-day validity, $1,000 bond, 48-hour lane-closure notice — which makes phasing real on long duct bank runs, since a route that outlives its permit needs the extension filed early. KDHE's stormwater NOI must be authorized before an acre of disturbance, and any crossing of the BNSF corridor adds railroad licensing on the railroad's clock, which is the longest lead item on most route builds."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy (listed under the Evergy Kansas Central service area)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Published service-territory listings place Olathe in Evergy's Kansas Central area — a different rate territory than neighboring Overland Park's Evergy Metro — which affects tariffs and interconnection paperwork. Confirm territory and lead time with Evergy for each site."
+      }
+    ],
+    "ilec": "AT&T Kansas (Southwestern Bell Telephone) — verify exchange boundaries against Kansas Corporation Commission mapping before publishing",
+    "notableFiberProviders": [
+      "Google Fiber",
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "The BNSF Southern Transcon and I-35 share the corridor through Olathe and Gardner — the same alignment that carries Logistics Park Kansas City's intermodal volume — making it the natural axis for regional route construction in southwestern Johnson County.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No frost-law season in Kansas: the state posts no springtime load restrictions, so hut and shelter deliveries to Olathe, New Century, or the LPKC corridor schedule on permit conditions alone rather than around a thaw calendar."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "KDOT Central Permit Office — K-TRIPS automated OS/OW permitting",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "phone": "785-368-6501",
+      "typicalReviewDays": null,
+      "note": "K-TRIPS routes and issues oversize/overweight permits statewide; loads over 14 feet wide take registered escorts. Coordinate city-street segments with Olathe Public Works separately."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "BNSF Railway — Southern Transcon corridor through Olathe and Gardner",
+        "crossingPermitNote": "This is BNSF's Chicago–Los Angeles main line, feeding the Logistics Park Kansas City intermodal at Edgerton, so crossing and parallel-occupancy licenses see heavy traffic and long review timelines. File through BNSF's utility permitting process months ahead of the route schedule."
+      },
+      {
+        "name": "New Century AirCenter Railroad (Johnson County Airport Commission short line)",
+        "crossingPermitNote": "Roughly five to six miles of county-owned track inside the New Century Commerce Center, interchanging with BNSF at Gardner; crossing requests route through the Johnson County Airport Commission rather than a Class I process."
+      }
+    ],
+    "urbanRowRequirements": "OMC Ch. 12.14 controls: permit before any ROW cut or grading, restoration to city standards with one-year warranty on failures, $1,000 performance-and-maintenance bond, 48-hour advance notice to Traffic for lane reductions, and utility locating per the Kansas Underground Utility Damage Prevention Act."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Clearing generally confined to the bats' inactive season, October 1 – March 31, where restrictions apply",
+      "driver": "Northern long-eared bat, reclassified as federally endangered in 2022 with Kansas inside its range; state-listed by KDWP",
+      "source": "USFWS NLEB species profile and survey guidance; KDWP threatened & endangered list — confirm project dates via USFWS IPaC"
+    },
+    "shpo": {
+      "name": "Kansas SHPO — Kansas Historical Society",
+      "url": "https://www.kansashistory.gov/shpo",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 submittals go exclusively through the online Kansas Review & Compliance system; standard 30-day response window per complete submittal."
+    },
+    "wetlandsAuthority": {
+      "name": "U.S. Army Corps of Engineers, Kansas City District regulatory branch (Section 404); KDHE for Section 401 certification",
+      "url": "https://www.nwk.usace.army.mil/Missions/Regulatory-Branch/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Kansas City District (NWK)",
+    "listedSpeciesNote": "Expect the northern long-eared bat to drive any clearing constraint on wooded sites; a project-specific IPaC query is the deciding source, not a county list.",
+    "floodplainPrevalenceNote": "Olathe sits on the divide near the headwaters of Indian, Cedar, and Mill creeks, so mapped floodplain within typical build areas is narrower than in downstream Johnson County cities — the metro's record July 2017 flood damage concentrated on Indian and Tomahawk creeks farther east. Floodplain screening still applies on creek-adjacent sites; the city's floodplain administrator contact was not confirmed and is flagged as a gap."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Shallow, intermittent frost; cold snaps alternate with thaws",
+        "earthworkConcrete": "constrained",
+        "note": "Cold-weather concrete practice, but rarely a full stop — a shorter, softer winter than CSS's Iowa base market"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw cycling roughens subgrades",
+        "earthworkConcrete": "constrained",
+        "note": "No embargo season ahead: Kansas posts no spring frost-law restrictions"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Wet, thawed ground; spring rain pattern establishing",
+        "earthworkConcrete": "workable",
+        "note": "Bat clearing window closes March 31 where it applies"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Firming subgrades; severe-weather season begins",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Peak rainfall season; workable between systems",
+        "earthworkConcrete": "favorable",
+        "note": "Erosion controls earn their keep on open subdivisions and route work"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, productive; hail and thunderstorm exposure",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot — KCI's normal high runs near 88°F — and mostly dry",
+        "earthworkConcrete": "favorable",
+        "note": "Shift mass pours to morning; hot-weather concreting plan in effect"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot; dry spells can harden upland clays against compaction",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Moderating heat; reliable production",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Mild, dry, firm — often the best month of the year here",
+        "earthworkConcrete": "favorable",
+        "note": "Clearing window opens October 1 where bat restrictions apply"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; first sustained frosts late in the month",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Intermittent freeze; snowfalls are typically brief",
+        "earthworkConcrete": "constrained",
+        "note": "Winter protection pricing applies to pours"
+      }
+    ],
+    "narrative": "Olathe's construction calendar is generous: roughly March through November runs workable-to-favorable, winter is a protection-cost item rather than a shutdown, and there is no spring embargo period because Kansas posts no frost laws — which matters for a market whose delivery traffic feeds New Century and the LPKC corridor year-round. The risks worth scheduling around are convective: May–June rain and hail, and July–August heat that pushes concrete to morning placements. Confirm the figures against NOAA's 1991–2020 Kansas City station normals before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Limestone members of the Missourian cyclothems can sit within utility and foundation depth on Olathe's uplands; the western shale-dominated Lawrence Formation section digs easier. Depth to the first ledge is the estimate's swing variable.",
+    "aggregateHaulNote": "Crushed limestone production is local to the county's Pennsylvanian section, so aggregate haul is a minor line here compared with markets that import rock.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": "ROW permits carry a $1,000 performance-and-maintenance bond held one year past acceptance (OMC 12.14); building fees per the city schedule.",
+    "prevailingWageExposure": "No state prevailing wage — Kansas repealed its act in 1987. Davis-Bacon attaches only through federal funding, which includes BEAD broadband builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Cold-weather concrete protection December–February and hot-weather controls in July–August; no frost-law haul premiums exist in Kansas.",
+    "narrative": "Three things move an Olathe civil number. First, rock: whether a duct bank or pier meets a limestone ledge above design depth decides more cost than any other variable, and it varies block to block across the cyclothem section. Second, growth-driven congestion: subdivision and logistics-corridor construction keeps ROW inspectors, locators, and traffic control in demand, and the 60-day ROW permit clock with its bond means a route that slips pays in extensions, not just days. Third, railroad exposure: any alignment that touches the BNSF Transcon inherits the railroad's licensing timeline and insurance requirements. Season is the mild variable — winter protection and summer heat controls, with no embargo season on hauls. Every figure above is a driver, not a price; borings and permits set the real number."
+  },
+  "compliance": {
+    "stateContractorLicensing": "There is no Kansas statewide general contractor license. Olathe permits issue against the Johnson County Contractor Licensing Program — the county-run system of Class A (general), Class B (building), and Class C (residential) licenses plus trade classes, managed through the county's online Contractor Management System with continuing-education renewal. That county program is the effective licensing authority for this market and a genuine differentiator from Kansas jurisdictions with no licensing at all. Roofing work additionally requires registration with the Kansas Attorney General.",
+    "additionalRegistrations": [
+      "Johnson County contractor license (Class A/B/C and trade classes via the county Contractor Management System)",
+      "Kansas Attorney General roofing contractor registration (roofing scopes only)"
+    ],
+    "insuranceBondingNorms": "City ROW work requires the $1,000 performance-and-maintenance bond under OMC 12.14, held one year beyond accepted restoration; railroad rights-of-entry carry the operating railroad's insurance requirements.",
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "extreme heat"
+    ],
+    "designImplications": "Severe convective weather is the design driver: tornado and large-hail exposure argue for conservative anchorage, protected cabinets, and generator fuel systems tied down and contained, while ice events size the ice bridge and cable support details. Summer heat shapes concrete operations more than winter cold does. Wind, ice, and snow design values publish only after site-specific ASCE 7 and TIA-222 confirmation — none are stated here.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Panasonic's $4B De Soto battery campus opens next door",
+        "detail": "Panasonic Energy opened the largest EV battery plant in the U.S. on July 14, 2025, on 300 acres in De Soto in northwest Johnson County — about 1,000 hired toward 4,000 planned jobs and 32 GWh of capacity — pulling utility, road, and heavy-industrial construction into Olathe's corridor.",
+        "category": "transportation",
+        "sourceUrl": "https://www.kansascommerce.gov/2025/07/governor-kelly-celebrates-grand-opening-of-panasonic-ev-battery-manufacturing-facility-in-de-soto/",
+        "asOf": "2025-07-14"
+      },
+      {
+        "headline": "Rail-served logistics keeps building at New Century",
+        "detail": "CJ Logistics America opened a rail-served cold-storage warehouse at the county-owned New Century Commerce Center in Q3 2025, and the New Century AirCenter Railroad advanced a $2M short-line improvement program backed by a $1.4M KDOT grant — track rehab, ties, ballast, and crossing upgrades.",
+        "category": "transportation",
+        "sourceUrl": "https://www.ajot.com/news/johnson-county-airport-commission-powers-aviation-and-economic-growth-in-2025",
+        "asOf": "2025"
+      },
+      {
+        "headline": "Kansas BEAD program approved: $166.6M to 14 awardees",
+        "detail": "NTIA approved Kansas's restructured BEAD final proposal on December 5, 2025. The award pool fell from the original $451.7M allocation to $166.6M after the federal Benefit of the Bargain round, with grant agreements executing into 2026 — rural Johnson County edges are candidate territory.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+        "asOf": "2025-12-05"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "long-haul and metro route construction",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "service lateral to hut"
+      ],
+      "narrative": "Olathe was Google Fiber's first announced expansion beyond Kansas City proper — the city council approved the agreement in March 2013 — and AT&T Fiber now overlaps the same streets, so in-town fiber civil runs as densification and new-subdivision extension rather than first-build. The distinctive work is on the corridor: routes serving New Century, Gardner, and the LPKC intermodal must reckon with the BNSF Transcon, where crossing licenses are the schedule's long pole, and with Olathe's 60-day ROW permits under OMC Ch. 12.14, which force honest phasing on long duct bank runs. West and south of town, growth pushes conduit into ground that alternates between diggable shale and limestone ledges — we scope rock-capable boring up front instead of discovering it at the entry pit.",
+      "localSpecificsReferenced": [
+        "Google Fiber Olathe agreement (March 2013)",
+        "BNSF Transcon crossing licensing",
+        "OMC Ch. 12.14 60-day ROW permits",
+        "New Century / LPKC corridor routes"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "small cell and DAS node civil",
+        "access road and turnaround",
+        "ground ring and halo",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "generator and fuel containment pads",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless demand in Olathe tracks rooftops and freight. The city added over 4% population between 2020 and 2023 — among the strongest growth in the metro — and every new subdivision west of K-7 and south along 167th Street is coverage and capacity that did not exist five years ago, while Garmin's 96-acre, 2.25-million-square-foot headquarters campus concentrates thousands of workers and their devices at one exit. Node placements follow Kansas's small cell statute, K.S.A. 66-2019, with the city administering ROW terms it cannot unilaterally restrict, and every crew on a compound needs the Johnson County license in hand. Shelter and equipment hauls benefit from a quirk this far south: no Kansas frost laws, so winter and spring deliveries schedule alike. We build the pads, rings, access drives, and fencing that growth-market programs consume.",
+      "localSpecificsReferenced": [
+        "Olathe 2020–2023 growth above 4%",
+        "Garmin 96-acre / 2.25M sq ft campus",
+        "K.S.A. 66-2019 small cell framework",
+        "No Kansas frost-law delivery restrictions"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "heavy haul access and crane pads"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "hyperscale campus civil support"
+      ],
+      "narrative": "Olathe's edge opportunity rides the industrial corridor that wraps its south and west sides: BNSF's Logistics Park Kansas City intermodal at Edgerton — a 433-acre facility on the Southern Transcon, opened 2013, with tenants like Amazon and Kubota — the county-owned New Century Commerce Center with its own short-line railroad, and Panasonic's $4B De Soto battery campus that opened in July 2025. Automated warehouses, rail operations, and battery manufacturing all pull compute toward the load, and the civil scope that follows is exactly what we self-perform: edge enclosure and micro-DC pads, transformer and switchgear yards, campus duct bank, generator pads with containment, and the heavy-haul access that big equipment moves require. Evergy serves the territory; interconnection paperwork runs through its Kansas Central area for Olathe sites.",
+      "localSpecificsReferenced": [
+        "Logistics Park Kansas City (Edgerton, opened 2013)",
+        "New Century Commerce Center short line",
+        "Panasonic De Soto campus (July 2025)",
+        "Evergy Kansas Central territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 319,
+      "driveTimeHours": 5.5,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Johnson"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "What makes Olathe workable at regional range is that the destination sits on the mobilization route itself: crews coming down I-35 through the metro exit directly into the I-35/US-169 corridor where most of the work is — Olathe proper, New Century, Gardner, and the LPKC approaches — with no cross-town repositioning. That geometry suits how this market buys civil work: logistics-corridor and subdivision scopes come in multi-site packages, so we run them as consecutive production days off one mobilization rather than piecemeal trips, positioning equipment the evening before a program starts. Kansas's lack of frost-law embargoes keeps that plan identical in any month. The 319-mile figure is a seed estimate pending route verification, and response-time commitments publish only with ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What license do I need to build a cell site or fiber hut in Olathe?",
+      "answer": "A Johnson County contractor license — Kansas has no statewide GC license, and Olathe issues permits against the county program's Class A, B, or C licenses plus applicable trade classes, all managed through the county's online Contractor Management System. Budget the license timeline before the permit timeline.",
+      "segment": "general"
+    },
+    {
+      "question": "What are the terms of an Olathe right-of-way permit?",
+      "answer": "Under Olathe Municipal Code Ch. 12.14: no ROW cut or grading without a permit (emergency repairs excepted), 60-day validity with one 60-day extension, a $1,000 performance-and-maintenance bond held one year past accepted restoration, and 48-hour notice to Traffic at 913-971-5180 before lane reductions. Long duct bank routes need phasing planned to that clock.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroad permits does a fiber crossing near Olathe need?",
+      "answer": "Two very different processes. Crossings of the BNSF Southern Transcon — the main line through Olathe and Gardner feeding the LPKC intermodal — go through BNSF's utility licensing and routinely take months, so we file at route design, not at construction. Inside the New Century Commerce Center, the county-owned short line's crossings route through the Johnson County Airport Commission instead.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How far ahead do we call Kansas 811 before boring in Olathe?",
+      "answer": "Two full working days minimum, 20 calendar days maximum, per the Kansas Underground Utility Damage Prevention Act (K.S.A. 66-1804) — weekends and holidays don't count toward the two days. Olathe's ROW code independently requires locating in conformance with the Act, so the ticket is a permit-compliance item as well as a safety one.",
+      "segment": "general"
+    },
+    {
+      "question": "Can shelter pads be poured in Olathe year-round?",
+      "answer": "Effectively yes. Winters bring shallow, intermittent frost rather than months of frozen ground, so December-through-February pours proceed with standard cold-weather protection, and July–August heat is managed with morning placements and hot-weather concreting practice. The pricing difference between seasons is real but modest — protection cost, not schedule loss.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What soil and rock conditions should I expect excavating in Olathe?",
+      "answer": "KGS maps the city on Pennsylvanian cyclothems: alternating limestone ledges and shales near the surface on the uplands, trending into the shale-dominated Lawrence Formation (140–250 ft thick) toward western Johnson County. Practically, one site augers clean while the next refuses on limestone at shallow depth — carry rock contingency on piers and deep duct banks until borings say otherwise.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do seasonal road restrictions affect deliveries to New Century or Logistics Park Kansas City?",
+      "answer": "No — Kansas posts no spring frost-law load restrictions, so heavy deliveries into the New Century and LPKC corridor run on the same rules in March as in September. Oversize and overweight loads permit through KDOT's K-TRIPS system (escorts over 14 feet wide), with city-street segments coordinated through Olathe Public Works.",
+      "segment": "wireless"
+    },
+    {
+      "question": "When does an Olathe site need a stormwater permit?",
+      "answer": "At one acre of disturbance, or less if the site belongs to a larger common plan of development — a threshold new-subdivision telecom work in a growth market crosses more often than expected. Coverage comes from KDHE's construction stormwater general permit: Notice of Intent, $60 fee, and a site-specific erosion and sediment control plan before ground disturbance.",
+      "segment": "general"
+    },
+    {
+      "question": "What is driving edge and data-adjacent construction demand around Olathe?",
+      "answer": "Freight and manufacturing gravity. The LPKC intermodal at Edgerton and the New Century Commerce Center keep adding rail-served logistics buildings — CJ Logistics opened a cold-storage facility there in 2025 — and Panasonic's $4B De Soto battery plant opened in July 2025 about 20 minutes northwest. Compute and power infrastructure follow that industrial load, and its civil scope follows with it.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Boring versus trenching through Olathe's limestone-and-shale section",
+    "body": "The trench-or-bore decision in Olathe is really a stratigraphy bet. KGS maps the city on alternating Pennsylvanian limestones and shales — ledges from a couple of feet to tens of feet thick — under a thin soil mantle, thinning toward the shale-heavy Lawrence Formation on the county's west side. Open trenching prices beautifully in weathered shale and residuum, and in the new-growth areas west of K-7 where restoration is grass instead of pavement, it is usually the right call. But a trench profile that clips a limestone member converts to saw-and-hoe-ram production at several times the unit cost, and in established streets the restoration bond and 60-day ROW permit clock under OMC 12.14 penalize slow rock trenching twice. Directional boring inverts the risk: it clears surface restoration and traffic exposure, but a bore that finds a ledge mid-shot without rock tooling on site is a stalled route. Our rule here: pothole and bore-plan against actual boring logs before committing a long alignment, carry rock-capable heads on any bore near the uplands, and save trenching for confirmed shale runs and greenfield subdivision extensions. On corridor routes toward the BNSF Transcon, the railroad's crossing license — not the digging method — sets the critical path, so lock it first."
+  },
+  "sources": [
+    {
+      "label": "Olathe Municipal Code Ch. 15.02 — building code adoption (2018 IBC with amendments)",
+      "url": "https://olathe.municipal.codes/Code/15.02",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Olathe — 2018 IBC amendment summary (June 2019)",
+      "url": "https://content.govdelivery.com/attachments/KSOLATHE/2019/07/29/file_attachments/1256372/Amendment%20Summary_Detailed_v5%202019_0618.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Olathe — right-of-way permits (Public Works) and OMC Ch. 12.14",
+      "url": "https://www.olatheks.gov/government/public-works/development-resources/right-of-way",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Olathe Municipal Code 12.14.070 — ROW construction requirements (bond, 60-day permits, 48-hour traffic notice)",
+      "url": "https://olathe.municipal.codes/Code/12.14.070",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Olathe Municipal Code 15.04.100 — amended IRC Table R301.2(1), frost line depth column",
+      "url": "https://olathe.municipal.codes/Code/15.04.100",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Johnson County Contractor Licensing — license classes and Contractor Management System",
+      "url": "https://www.jocogov.org/department/contractor-licensing/new-license-license-types",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "K.S.A. 66-1804 — excavation notice: two full working days, max 20 calendar days",
+      "url": "https://ksrevisor.gov/statutes/chapters/ch66/066_018_0004.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "K.S.A. 66-2019 — wireless facilities in public ROW (Senate Sub. for HB 2131, 2016)",
+      "url": "https://www.kslegislature.gov/li_2016/b2015_16/measures/documents/hb2131_enrolled.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KDHE — NPDES construction stormwater program (one-acre trigger)",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KDOT District One — Northeast Kansas, 17 counties including Johnson",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KDOT — K-TRIPS oversize/overweight permitting",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Oversize.io — Kansas posts no frost-law seasonal restrictions",
+      "url": "https://oversize.io/regulations/frost-laws-by-state/kansas",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Kansas Geological Survey — Johnson County geohydrology, outcropping Pennsylvanian rocks",
+      "url": "https://www.kgs.ku.edu/General/Geology/Johnson/05_outcr.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Google Fiber blog — Google Fiber is coming to Olathe (March 2013)",
+      "url": "https://fiber.googleblog.com/2013/03/google-fiber-is-coming-to-olathe-kansas.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Garmin — Olathe campus expansion (96 acres, 2.25M sq ft)",
+      "url": "https://www.garmin.com/en-US/newsroom/press-release/corporate/2018-garmin-growth-continues-to-accelerate-as-the-company-celebrates-200-million-products-sold-and-opens-its-olathe-campus-expansion/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Kansas Dept. of Commerce — Panasonic De Soto grand opening (July 14, 2025)",
+      "url": "https://www.kansascommerce.gov/2025/07/governor-kelly-celebrates-grand-opening-of-panasonic-ev-battery-manufacturing-facility-in-de-soto/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Mid-America Freight Coalition — BNSF Logistics Park Kansas City (Edgerton, Transcon corridor)",
+      "url": "https://midamericafreight.org/index.php/rfs/network-inventory/rail/intermodal-facilities/bnsf-logistics-park-kansas-city/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "AJOT — Johnson County Airport Commission 2025 growth (CJ Logistics, short-line rail program)",
+      "url": "https://www.ajot.com/news/johnson-county-airport-commission-powers-aviation-and-economic-growth-in-2025",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Kansas Dept. of Commerce — BEAD final proposal approved at $166.6M",
+      "url": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Neilsberg — Olathe population growth 2020–2023 (+4.15%)",
+      "url": "https://www.neilsberg.com/insights/olathe-ks-population-by-year/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "eMars — Kansas prevailing wage repealed 1987; Davis-Bacon only",
+      "url": "https://emarsinc.com/prevailing-wages/kansas",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, TIA-222 county tables, and ASHRAE compilations all unreachable or paywalled through the sandbox proxy; nothing publishable surfaced in search."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "OMC 15.04.100 amends IRC Table R301.2(1) including the frost line depth column, but the section text (the actual inch value) was not readable — olathe.municipal.codes returns 403 through the proxy. Read the section directly; do not substitute the county's unincorporated-area 36-inch guideline."
+    },
+    {
+      "field": "regulatory.buildingAHJs — division name, portal URL, review times",
+      "attempted": "City site not directly readable through proxy; division identified generically. Confirm current name, permit portal, and queue by phone."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Olathe's designated floodplain administrator contact not confirmed from a primary source; flagged rather than guessed."
+    },
+    {
+      "field": "geotech numerics (bearing capacity, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and KGS bulletin data tables not readable through proxy; qualitative KGS geology only."
+    },
+    {
+      "field": "seasonality — full NOAA 1991–2020 normals table",
+      "attempted": "NCEI station normals page not readable; calendar authored from NWS-derived KC values pending the station table check."
+    },
+    {
+      "field": "utilities — Evergy Kansas Central territory confirmation; ILEC exchange boundary",
+      "attempted": "Territory from published service-area listings (utility-rates.com); confirm against KCC mapping and Evergy directly."
+    },
+    {
+      "field": "identity.population — current estimate",
+      "attempted": "145,057 is an ACS-derived figure from a secondary aggregator; confirm the vintage-2025 Census estimate at QuickFacts."
+    },
+    {
+      "field": "operations.nearestBase routing",
+      "attempted": "Routing APIs (OSRM) blocked by proxy; 319 mi / 5.5 h are seed estimates, routeVerified false."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires at least 1 project and 3 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required before publishing coverage counties or any response commitment."
+    }
+  ]
+}

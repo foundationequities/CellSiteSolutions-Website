@@ -1,0 +1,678 @@
+{
+  "identity": {
+    "slug": "norman",
+    "city": "Norman",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "stateAbbr": "OK",
+    "counties": [
+      "Cleveland"
+    ],
+    "msa": "Oklahoma City, OK",
+    "tier": 2,
+    "latitude": 35.2226,
+    "longitude": -97.4395,
+    "elevationFt": 1125,
+    "population": {
+      "value": 128026,
+      "source": "U.S. Census Bureau, 2020 Census (see QuickFacts, Norman city, Oklahoma)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-35"
+    ],
+    "majorRoutes": [
+      "US-77",
+      "OK-9"
+    ]
+  },
+  "metadata": {
+    "title": "Norman, OK Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Norman, OK — fiber, wireless, and edge site work shaped by OU, tornado-alley design, and Lake Thunderbird watershed rules.",
+    "h1": "Telecom Site Civil Construction in Norman, Oklahoma",
+    "intro": "Norman is where the country's tornado forecasting actually happens: the Storm Prediction Center, the National Severe Storms Laboratory, and the NWS Norman forecast office all share the National Weather Center on the University of Oklahoma campus. That concentration of federal and university infrastructure — plus OEC, the Norman-headquartered electric cooperative whose OEC Fiber subsidiary has passed 40,000 subscribers — keeps telecom civil work moving here. CellSite Solutions reaches Cleveland County straight up I-35 from our Dallas–Fort Worth yard, building fiber hut pads, wireless compounds, and duct bank under Norman's 2018 IBC adoption and, toward Lake Thunderbird, under the Water Quality Protection Zone rules that guard the city's own drinking-water reservoir.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC, adopted statewide as the OUBCC minimum code and by Norman effective June 22, 2023)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Oklahoma's seismicity story is largely induced: wastewater disposal into the Arbuckle Group drove the statewide rate to roughly 940 M3+ earthquakes in 2015 — briefly the highest in the lower 48 — before regulatory injection cuts brought it well down (USGS/SSA, 2024). Publish site Ss/S1 only from a USGS design-maps query at the coordinates; treat site class as boring-specific."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Norman sits on the Permian red beds of central Oklahoma: the Garber Sandstone and Wellington Formation — fine-grained sandstone interbedded with siltstone and mudstone — which together form the Central Oklahoma (Garber–Wellington) aquifer beneath the city. Hennessey Group shales bound the section to the west, and Canadian River and Little River alluvium and terrace deposits flank the south and east sides of town. (USGS Circular 1019.)",
+    "dominantSoilTypes": [
+      "Garber–Wellington sandstone/mudstone residuum (Permian red beds)",
+      "Hennessey Group shale-derived clays (western edge)",
+      "Canadian River and Little River alluvium and terrace deposits"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Shale-derived clays of the Hennessey Group are the local shrink-swell suspects, but we have not yet pulled NRCS linear-extensibility data for Cleveland County — screen every pad site rather than assuming a county-wide grade.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Carbonate karst is not a mapped concern in the Permian red-bed section under Norman; Oklahoma's gypsum karst sits well to the west. Screen individual sites during geotechnical investigation rather than relying on this county-scale statement."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The Garber Sandstone is the pivotal variable on a Norman foundation. It is friable — fine-grained and weakly cemented — so it usually digs and augers without blasting, but it can stand up well in a drilled shaft while raveling badly in a wide open cut, which tends to favor piers over mass excavation for tower and shelter foundations where it sits shallow. On the west side, Hennessey-derived clays put shrink-swell screening on the checklist before any thin slab or shallow pad is committed. Along the Little River drainage toward Lake Thunderbird, alluvial ground adds a water table question and — first — a Water Quality Protection Zone question, because stream buffers averaging 100 feet can move the pad before geotechnical data ever gets a vote. Norman's code-amended frost depth has not been verified against the municipal code text yet, so we do not publish a number; borings and the adopted code section set final embedment on every site."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Norman — Development Services, Planning and Community Development",
+        "url": "https://www.normanok.gov/your-government/departments/planning-and-community-development/development-services/building-codes",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Norman adopted the 2018 ICC code family with state and local amendments effective June 22, 2023. Permit desk at 225 N Webster Ave. Published plan-review times are not posted — confirm the current queue when scheduling."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code with Oklahoma (OUBCC) and City of Norman amendments, effective June 22, 2023",
+      "source": "City of Norman Building Codes page — https://www.normanok.gov/your-government/departments/planning-and-community-development/development-services/building-codes",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities in Oklahoma rights-of-way run under the statewide Small Wireless Facilities Deployment Act (SB 1388, 2018), which includes deemed-granted shot clocks for collocation applications a municipality fails to act on. Macro towers remain subject to Norman zoning review.",
+    "rowPermitAuthority": {
+      "name": "City of Norman — Engineering Division (Public Works)",
+      "url": "https://www.normanok.gov/your-government/departments/public-works",
+      "phone": "405-366-5452",
+      "typicalReviewDays": null,
+      "note": "A permit is required for any excavation through a paved street or alley and for construction or blockage in the public right-of-way; permits are issued at the 225 N Webster permit desk."
+    },
+    "stateDotDistrict": {
+      "name": "Oklahoma DOT Field Division 3 (Ada) — Cleveland County",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts/district-3/div-3-cleveland-county-maitnenance.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ODOT lists Cleveland County under Division 3 out of Ada — not the Oklahoma City division that serves the rest of the metro. Utility permits on state highways (I-35, US-77, OK-9) route accordingly."
+    },
+    "oneCallCenter": {
+      "name": "OKIE811 (Oklahoma One-Call System)",
+      "url": "https://okie811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Oklahoma's Underground Facilities Damage Prevention Act (63 O.S. §142.6) requires notice at least 48 hours before excavation, excluding the notification date, weekends, and legal holidays, and no more than 10 days ahead.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Oklahoma DEQ — OKR10 Construction General Permit (OPDES)",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Current OKR10 issued October 18, 2022 (modified November 1, 2023). SWP3 prepared before the NOI. In the Lake Thunderbird watershed, the 2013 ODEQ TMDL and Norman's Water Quality Protection Zone add sediment-control expectations beyond the base permit."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Norman — Public Works, Stormwater Division (Flood Hazard Protection)",
+      "url": "https://www.normanok.gov/your-government/departments/public-works/stormwater-division/flood-hazard-protection",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Floodplain development review runs through the Stormwater Division; anything in the Little River or Canadian River mapped floodplain needs screening before civil design starts."
+    },
+    "permitTimelineNarrative": "Sequence a Norman schedule around three separate desks. Building review goes through Development Services under the 2018 codes adopted in June 2023; review times are not published, so ask for the current queue rather than assuming one. Street cuts and right-of-way work need an Engineering Division permit from the 225 N Webster desk before mobilization. And on the southeast side of the market, the Lake Thunderbird watershed adds its own layer: Water Quality Protection Zone buffers (averaging 100 feet along contributing streams) and TMDL-driven erosion-control scrutiny that a standard OKR10 SWP3 does not fully anticipate. OKIE811's 48-hour statutory notice is the shortest clock in the stack — the watershed screening is usually the longest."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "OG&E (Oklahoma Gas & Electric)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.oge.com/web/portal/label_ord/customer-service/overview",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves most of urban Norman; OKC-metro customer line 405-272-9741. New commercial service lead times are not published — schedule from OG&E's written commitment, not assumptions."
+      },
+      {
+        "name": "Oklahoma Electric Cooperative (OEC)",
+        "type": "cooperative",
+        "newServiceProcessUrl": "https://okcoop.org/",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Headquartered in Norman; roughly 63,000 meters across seven central-Oklahoma counties, including much of the rural and fringe territory around the city. Which utility serves a given compound is a parcel-by-parcel question — confirm by address before designing the service."
+      }
+    ],
+    "ilec": "AT&T Oklahoma (legacy Southwestern Bell) — confirm exchange boundaries with the Oklahoma Corporation Commission before publishing",
+    "notableFiberProviders": [
+      "OEC Fiber",
+      "AT&T",
+      "Cox Communications"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Oklahoma has no recurring statewide spring frost-law season like the upper Midwest. Individual county and township roads or bridges can still carry posted limits year-round — check the haul route with Cleveland County before a shelter delivery, not after."
+    },
+    "oversizeOverweightPermitAuthority": null,
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "BNSF Railway (former AT&SF main line through Norman)",
+        "crossingPermitNote": "The BNSF line that carries Amtrak's Heartland Flyer runs through the center of Norman parallel to US-77, splitting the city east–west. Utility crossings apply at bnsf.railpermitting.com with PE-stamped plans showing horizontal and vertical location; expect encasement requirements and bore-pit setbacks (no excavation within 15 feet of track centerline without an approved shoring plan, per the BNSF/UP shoring guidelines). Build the railroad's review time into the route schedule early — it is rarely the fast approval."
+      }
+    ],
+    "urbanRowRequirements": "Engineering Division permit before any excavation through paved streets or alleys or any obstruction of the public right-of-way; inspection is part of the permit's purpose, so coordinate the inspector before closing anything up."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Oklahoma State Historic Preservation Office (Oklahoma Historical Society)",
+      "url": "https://www.okhistory.org/shpo/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 consultation applies to federally funded or licensed builds, including BEAD-funded fiber routes."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Tulsa District regulatory program",
+      "url": "https://www.swt.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Cleveland County falls under the Tulsa District; Section 404 questions on Little River and Canadian River crossings route there."
+    },
+    "usaceDistrict": "Tulsa District (SWT)",
+    "listedSpeciesNote": "We have not run a county-level species review for Cleveland County — run a project-specific USFWS IPaC query on every site and route; no seasonal tree-clearing window is published for this county in the sources we have checked, which is not the same as none applying.",
+    "floodplainPrevalenceNote": "The Little River system drains southeast Norman into Lake Thunderbird — the sensitive water-supply reservoir serving Norman, Del City, and Midwest City, under an ODEQ sediment/nutrient TMDL since 2013 — and the Canadian River bounds the city's southwest. Mapped floodplain and, distinctly, Water Quality Protection Zone stream buffers both constrain siting on the south and east sides of the market."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild winter pattern; brief hard freezes and occasional ice storms rather than sustained frozen ground",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice on cold snaps; ice storms are the outage and access risk, not frost"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Late-winter swings between mild and icy; ground rarely frozen at depth",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming and drying; severe-weather season begins to build",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Workable ground; thunderstorm frequency rising",
+        "earthworkConcrete": "favorable",
+        "note": "Crews track SPC convective outlooks — issued from Norman itself — as a daily scheduling input"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Peak severe-weather and rainfall month; saturated intervals between storm systems",
+        "earthworkConcrete": "workable",
+        "note": "Tornado and giant-hail climatology peaks; SWP3 maintenance and pump-downs run constantly"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Drying and hot; storm activity tapering",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and dry; hard, abrasive digging in red-bed soils",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete plan — early pours, ice or chilled water on large placements"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest stretch of the year; dust control on compound builds",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat breaking; secondary storm season possible",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime conditions — dry, firm, moderate temperatures",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; first freezes arrive but ground stays diggable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild-to-cold swings; ice storm exposure returns",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Norman's construction calendar is nearly year-round — the constraint is violent weather, not frost. Winter shutdowns are measured in days around ice storms and cold snaps rather than months of frozen ground, and the real scheduling event is spring: May is both the wettest month and the peak of the tornado and giant-hail season, so crews here plan around convective outlooks the way northern crews plan around thaw laws. July and August flip the problem to hot-weather concrete. Exact temperature and precipitation figures should be read against the NOAA normals for the Oklahoma City area station before final publication — the month-by-month table above is directional, not numeric."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "The Garber Sandstone is weakly cemented and generally diggable or rippable without blasting, but shallow sandstone slows trenchers and augers and chews teeth — production rates, not rock-clause change orders, are the usual cost effect. Verify per site with borings.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Oklahoma has no state prevailing wage: the Oklahoma Supreme Court struck the state's prevailing wage act down in 1995 (City of Oklahoma City v. State ex rel. Oklahoma Dept. of Labor). Federal Davis-Bacon still applies to federally funded work, including BEAD-funded broadband builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Seasonal premiums here are storm premiums: severe-weather standby and re-mobilization risk in April–June, hot-weather concrete measures in July–August, and ice-storm contingency in December–February. Frost protection is a minor line item compared to the northern half of the CSS footprint.",
+    "narrative": "What moves a Norman civil number is mostly regulatory geography and weather, not depth. The Water Quality Protection Zone can relocate a pad or convert a trenched stream approach into a bore, which is a bigger swing than any excavation quantity on a hut site. Shallow Garber sandstone shows up as slowed boring and trenching production rather than blast-rock pricing. Spring severe weather adds standby and rework risk that a Gulf or Midwest market prices differently, and summer heat adds concrete handling cost. Mobilization from the Dallas–Fort Worth yard is a real but modest Band A line — a straight I-35 run — and it shrinks further on multi-site programs. Drivers only: every site prices to its own borings, its own buffer map, and its own month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Oklahoma issues no statewide general contractor license. The Construction Industries Board (CIB) licenses the electrical, plumbing, and mechanical trades — CSS carries licensed subs or in-house licensees for those scopes — and municipalities can layer their own contractor registration on top, so confirm Norman's local registration requirements before permitting.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "high wind",
+      "ice storm",
+      "extreme heat"
+    ],
+    "designImplications": "This market's benchmark event is close and recent: the May 20, 2013 EF5 tracked from Newcastle across Moore — the city immediately north of Norman — killing 24 along a 14-mile path up to 1.08 miles wide (NWS Norman). Compound design here treats anchorage, shelter tie-downs, generator fuel containment, and debris-resistant equipment placement as first-order items, and ice-storm loading argues for conservative service-entrance and ice-bridge detailing. Publish wind and ice design values only after an ASCE 7 Hazard Tool and TIA-222 county query — none are stated here yet.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Oklahoma BEAD: $797.4M allocation moving toward construction",
+        "detail": "Oklahoma's $797.4 million BEAD allocation was run back through the federal 'Benefit of the Bargain' round in 2025; the state provisionally selected 20 providers for roughly $550 million in deployments, with construction expected to begin in 2026 — rural Cleveland County routes are in scope for subgrantee builds.",
+        "category": "broadband program",
+        "sourceUrl": "https://nondoc.com/2025/08/08/amid-trump-admin-changes-oklahoma-broadband-office-prepares-for-next-stage-of-development/",
+        "asOf": "2025-08-08"
+      },
+      {
+        "headline": "OEC Fiber past 40,000 subscribers from its Norman base",
+        "detail": "Oklahoma Electric Cooperative's fiber subsidiary, headquartered in Norman, reports more than 40,000 subscribers, with the build now pacing alongside electric-system growth after its initial substation-ring construction phase across Cleveland County and surrounding counties.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://okcoop.org/from-the-top-jan-2026-oec-news/",
+        "asOf": "2026-01-01"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Fiber civil in Norman has an unusual owner mix: the market's most aggressive builder is a co-op. OEC Fiber — run out of Oklahoma Electric Cooperative's Norman headquarters — built substation rings first and feeders after, and its 40,000-plus-subscriber network keeps generating hut, vault, and lateral work across Cleveland County, with BEAD-funded rural routes queued behind it as Oklahoma's $797.4 million program moves to construction. Two route constraints define production here: the BNSF main line splits the city alongside US-77, so east–west routes budget for railroad crossing applications with PE-stamped plans, and any alignment draining toward Lake Thunderbird hits Water Quality Protection Zone stream buffers that push crossings from open cut to bore. OKIE811's 48-hour statutory notice is the easy clock; the railroad and the watershed are the hard ones.",
+      "localSpecificsReferenced": [
+        "OEC Fiber / OEC Norman headquarters",
+        "Oklahoma BEAD $797.4M program",
+        "BNSF main line along US-77",
+        "Lake Thunderbird Water Quality Protection Zone buffers"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Norman serves two very different load centers: the University of Oklahoma — 80,000-seat football Saturdays that stress every sector in town — and the National Weather Center's federal campus, whose forecasting mission makes carrier reliability a public-safety issue in this specific city. Small-cell and collocation work in the right-of-way runs under Oklahoma's Small Wireless Facilities Deployment Act (SB 1388), with deemed-granted shot clocks if the city misses its review window, while macro sites still clear Norman zoning. Compound construction is built to the market's defining hazard — the 2013 EF5 passed through Moore, one city north — so anchorage, fuel containment, and hardened generator pads are specified conservatively, and compounds toward Lake Thunderbird get a Water Quality Protection Zone screen before layout is finalized.",
+      "localSpecificsReferenced": [
+        "University of Oklahoma campus",
+        "National Weather Center (SPC/NSSL/NWS Norman)",
+        "Oklahoma SB 1388 small wireless act",
+        "May 20, 2013 Moore EF5"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Norman has no named hyperscale campus, and we will not pretend otherwise — the edge opportunity here is research- and growth-driven. The University of Oklahoma's research enterprise and the NOAA facilities at the National Weather Center are compute- and data-intensive tenants whose supporting infrastructure throws off transformer pads, standby generator yards, and campus duct bank scopes, and the city's approved Rock Creek entertainment district along I-35 (a roughly $1 billion program with a 10,000-seat arena, phasing approved by the city council in May 2025) will pull distributed edge and DAS-supporting civil work with it as construction proceeds. Service design starts with a territory question — OG&E and Norman-based OEC split the map parcel by parcel — and that answer drives both the utility yard layout and the realistic energization date.",
+      "localSpecificsReferenced": [
+        "National Weather Center / OU research campus",
+        "Rock Creek entertainment district at University North Park",
+        "OG&E / OEC split service territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 204,
+      "driveTimeHours": 3.5,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Cleveland"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Norman is the near edge of the Oklahoma City metro from our Dallas–Fort Worth yard: crews cross the Red River on I-35 and reach Cleveland County before touching metro traffic, which matters for equipment moves and early pour windows. At roughly a 200-mile run, the working pattern is honest and simple — multi-day scopes run on overnight rotations with crews lodged locally, while inspections, closeouts, and small punch scopes can turn in a long single day. Storm season is the planning wrinkle this market adds: April-through-June mobilizations carry weather-day contingency in the schedule rather than in apologies afterward. Distance and drive time above are seed estimates pending route verification, and any emergency-response commitment is stated only after ops clears it.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep does a fiber hut or shelter foundation need to be in Norman?",
+      "answer": "We do not publish a Norman frost depth yet: the governing number lives in the city's amendments to the 2018 codes (adopted June 22, 2023), and we have not verified the code section text directly. Practically, embedment on these sites is set by the geotechnical report and the adopted code together — and in Garber Sandstone, the sandstone's depth often matters more to cost than the frost line does.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way and street-cut permits in Norman?",
+      "answer": "The City of Norman Engineering Division (405-366-5452). Any excavation through a paved street or alley, and any construction or blockage in the public right-of-way, requires a permit — issued from the 225 N Webster permit desk — with inspection built into the process. We pull these before mobilizing, not after the bore rig is on site.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does OKIE811 require before digging in Norman?",
+      "answer": "At least 48 hours, excluding the notification date, weekends, and legal holidays — effectively two business days — and no more than 10 days ahead, per Oklahoma's Underground Facilities Damage Prevention Act (63 O.S. §142.6). Every trench, bore, and vault set on our schedules carries that ticket lead, with re-marks requested as tickets age.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What are the Lake Thunderbird watershed rules and do they affect telecom sites?",
+      "answer": "Yes, on the south and east sides of the market. Lake Thunderbird is a sensitive water-supply reservoir under an ODEQ sediment and nutrient TMDL (2013), and Norman's Water Quality Protection Zone ordinance (adopted 2011) requires buffers averaging 100 feet along the streams feeding the lake. A compound or route in that watershed gets buffer screening before civil design starts — it can move a pad or turn a stream crossing into a bore.",
+      "segment": "general"
+    },
+    {
+      "question": "When does a Norman project need a construction stormwater permit?",
+      "answer": "At one acre of disturbance, or under an acre when the work is part of a larger common plan. Coverage comes through Oklahoma DEQ's OKR10 construction general permit (issued October 2022, modified November 2023), with a stormwater pollution prevention plan prepared before the NOI. In the Lake Thunderbird watershed, expect erosion-control scrutiny beyond the base permit.",
+      "segment": "general"
+    },
+    {
+      "question": "Can you pour a shelter pad in Norman in January?",
+      "answer": "Usually, yes. Central Oklahoma winters interrupt work in days, not months — the ground rarely freezes deep, and the real January risks are ice storms and short cold snaps, which we cover with cold-weather concrete practice when forecasts call for it. The season we schedule around most carefully here is actually spring severe weather, not winter.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What does tornado-alley design mean for a wireless compound in Norman?",
+      "answer": "It means conservative anchorage and hardened ancillary design: shelter tie-downs, generator and fuel containment detailing, and equipment placement that respects debris exposure. The May 20, 2013 EF5 crossed Moore, immediately north of Norman, on a 14-mile path — that event is the local design conversation. Specific wind and ice values are published only after ASCE 7 and TIA-222 queries for the site.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which railroad permits come into play on Norman fiber routes?",
+      "answer": "BNSF's. The former Santa Fe main line runs through the middle of Norman alongside US-77, so most east–west routes face a BNSF utility crossing application — filed through the railroad's permitting portal with PE-stamped plans, encasement per its utility accommodation policy, and bore pits held back from the track. It is routinely the longest approval on the route, so we file it first.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who provides electric service to a new hut or compound in Norman?",
+      "answer": "It depends on the parcel: OG&E serves most of urban Norman, while Oklahoma Electric Cooperative — headquartered in Norman, with about 63,000 meters across seven counties — serves much of the fringe and rural territory. The two have different new-service processes, and neither publishes reliable lead times, so we confirm the serving utility by address and get the service application in during design, not after civil completion.",
+      "segment": "edge"
+    },
+    {
+      "question": "Where do CellSite Solutions crews working in Norman come from?",
+      "answer": "Our Dallas–Fort Worth yard, straight up I-35 — Norman is the first major market inside the OKC metro on that run, reached before metro traffic. Multi-day scopes run on overnight crew rotations; short scopes can turn in a day. We do not claim a Norman office, because we do not have one — what we offer is a self-perform crew base a morning's drive down the same interstate.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Drilled piers or spread footings over the Garber Sandstone in Norman",
+    "body": "The deciding property of Norman's bedrock is not strength but behavior. The Garber Sandstone is weakly cemented: it usually digs without blasting, it stands beautifully in an 18- to 36-inch auger hole, and it ravels and sloughs in a wide, open excavation — three facts that push foundation selection in a consistent direction. Where the sandstone sits shallow, a drilled pier bearing in or socketed slightly into the formation is often cheaper than a spread footing, because the pier borrows the sandstone's stand-up time while the footing pays for over-excavation, sloped or shored cuts, and imported backfill. Where a shelter pad can bear on residual soils above the rock, a conventional pad works — but screen Hennessey-derived clays on the west side for shrink-swell before trusting a thin slab, and treat Little River and Canadian River alluvium as a different problem entirely, with groundwater and, near Lake Thunderbird, Water Quality Protection Zone buffers that can relocate the foundation before geotechnical questions are even asked. In every case, the borings decide: this market rewards ordering the geotechnical investigation early, because sandstone depth swings production rates more than any line item in the civil estimate."
+  },
+  "sources": [
+    {
+      "label": "City of Norman — Building Codes (2018 codes with amendments, effective June 22, 2023)",
+      "url": "https://www.normanok.gov/your-government/departments/planning-and-community-development/development-services/building-codes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Norman — A–Z services (excavation and right-of-way permits, Engineering Division)",
+      "url": "http://ci.norman.ok.us/content/a-z-services-directory-P",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ODOT Field Districts — Division 3, Cleveland County maintenance",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts/district-3/div-3-cleveland-county-maitnenance.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Underground Facilities Damage Prevention Act (63 O.S. §142.6), via OKIE811",
+      "url": "https://okie811.org/wp-content/uploads/2023/05/Oklahoma-Underground-Damage-Prevention-Act-LAW-2023.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma DEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Norman — Lake Thunderbird Watershed (Water Quality Protection Zone)",
+      "url": "https://www.normanok.gov/your-government/departments/public-works/stormwater-division/lake-thunderbird-watershed",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma DEQ — Lake Thunderbird TMDL project",
+      "url": "https://oklahoma.gov/deq/divisions/water-quality/watershed-planning/tmdl/lake-thunderbird-tmdl-project.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS Circular 1019 — geology of the Central Oklahoma (Garber–Wellington) aquifer",
+      "url": "https://pubs.usgs.gov/publication/cir1019",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Norman — The Tornado Outbreak of May 20, 2013",
+      "url": "https://www.weather.gov/oun/events-20130520",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NOAA National Severe Storms Laboratory — About (Norman co-location with SPC and NWS Norman)",
+      "url": "https://www.nssl.noaa.gov/about/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Electric Cooperative — OEC Fiber",
+      "url": "https://okcoop.org/learn-oecfiber/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OEC News — From the Top, January 2026 (OEC Fiber subscriber count and build pace)",
+      "url": "https://okcoop.org/from-the-top-jan-2026-oec-news/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Broadband Office — $797.4M BEAD allocation announcement",
+      "url": "https://oklahoma.gov/broadband/office/newsroom/oklahoma-to-receive--797-4-million-for-high-speed-internet-build.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NonDoc — Oklahoma Broadband Office BEAD status (August 2025)",
+      "url": "https://nondoc.com/2025/08/08/amid-trump-admin-changes-oklahoma-broadband-office-prepares-for-next-stage-of-development/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Construction Industries Board — licensing FAQ (no statewide GC license; licensed trades)",
+      "url": "https://oklahoma.gov/cib/frequently-asked-questions.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Oklahoma City v. State ex rel. Oklahoma Dept. of Labor (Okla. 1995) — prevailing wage act void",
+      "url": "https://law.justia.com/cases/oklahoma/supreme-court/1995/4221-1.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OUBCC — 2018 IBC adoption as Oklahoma statewide minimum code",
+      "url": "https://oklahoma.gov/content/dam/ok/en/oubcc/documents/rules/2021%2009%2014%20IBC%202018%20Permanent%20Rule.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BNSF Railway — Utility Accommodation Policy",
+      "url": "https://www.bnsf.com/bnsf-resources/pdf/about-bnsf/utility.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Norman — Flood Hazard Protection (Stormwater Division)",
+      "url": "https://www.normanok.gov/your-government/departments/public-works/stormwater-division/flood-hazard-protection",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts — Norman city and Edmond city, Oklahoma",
+      "url": "https://www.census.gov/quickfacts/normancityoklahoma",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Norman — proposed Rock Creek entertainment district information",
+      "url": "https://www.normanok.gov/information-proposed-entertainment-district",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — reduced injection rates mitigated induced seismicity in Oklahoma (2024)",
+      "url": "https://www.usgs.gov/publications/reduced-injection-rates-and-shallower-depths-mitigated-induced-seismicity-oklahoma",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "LegiScan — Oklahoma SB 1388 (2018), Small Wireless Facilities Deployment Act",
+      "url": "https://legiscan.com/OK/bill/SB1388/2018",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTemps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables not reachable through the sandbox proxy; no primary values found in open search. One session from an unproxied machine resolves these."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Norman's amended value lives in the municipal code (Ch. 6 building regulations); only secondary/aggregator citations surfaced, which RESEARCH.md forbids for frost depth. Read the adopted amendment text at norman.municipalcodeonline.com before publishing a number."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive-soil rating, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and OGS/USGS report PDFs not readable through proxy; only qualitative geology sourced (USGS Circular 1019)."
+    },
+    {
+      "field": "environmental.treeClearingWindow + listedSpeciesNote",
+      "attempted": "USFWS IPaC not queried for Cleveland County; restricted=false reflects no published window found, not a cleared review."
+    },
+    {
+      "field": "logistics.oversizeOverweightPermitAuthority",
+      "attempted": "Oklahoma OS/OW permitting authority (believed to sit with DPS Size & Weights, not ODOT) not confirmed against a primary source before search budget exhausted; left null rather than guessed."
+    },
+    {
+      "field": "utilities.ilec + OG&E/OEC territory boundary",
+      "attempted": "AT&T Oklahoma attribution from legacy-territory knowledge; Oklahoma Corporation Commission exchange/territory maps not queried."
+    },
+    {
+      "field": "regulatory review times (building, ROW) and utility new-service lead weeks",
+      "attempted": "Not published by the city or utilities; confirm by phone per RESEARCH.md."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "NCEI normals for the OKC-area station not read directly; calendar is directional and needs the station table check."
+    },
+    {
+      "field": "operations.nearestBase roadMiles/driveTimeHours",
+      "attempted": "Seed straight-line-derived estimate (204 mi / 3.5 h); real routing from the Dallas yard not yet run — routeVerified stays false."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires 1 project and 3 images; never invented."
+    }
+  ]
+}

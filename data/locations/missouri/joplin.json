@@ -1,0 +1,615 @@
+{
+  "identity": {
+    "slug": "joplin",
+    "city": "Joplin",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "counties": [
+      "Jasper",
+      "Newton"
+    ],
+    "msa": "Joplin, MO",
+    "tier": 3,
+    "latitude": 37.0842,
+    "longitude": -94.5133,
+    "elevationFt": null,
+    "population": {
+      "value": 52000,
+      "source": "Program seed (data/locations.seed.json) — confirm vintage against U.S. Census QuickFacts before publish",
+      "verifiedOn": null
+    },
+    "interstates": [
+      "I-44",
+      "I-49"
+    ],
+    "majorRoutes": [
+      "US-71"
+    ]
+  },
+  "metadata": {
+    "title": "Joplin, MO Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Joplin, MO — storm-hardened compounds and mining-legacy-aware site civil at the I-44/I-49 four-state crossroads.",
+    "h1": "Telecom Site Civil Construction in Joplin, Missouri",
+    "intro": "Two histories decide how you build in Joplin. The first is atmospheric: the May 22, 2011 EF5 tornado destroyed a swath of the city and made Joplin a national reference point for wind-hardened rebuilding, so anchorage, uplift, and standby power get taken seriously here in a way few markets match. The second is underground: a century of Tri-State District lead-zinc mining left the area laced with abandoned workings, chat piles, and an EPA Superfund designation that now covers all of Jasper County — subsidence screening and regulated-soil handling are standing line items on civil work. Add the I-44/I-49 junction at the four-state corner, and Joplin earns its own page. CellSite Solutions serves it from our Dallas yard, 348 road miles by real routing, on a project-deployment basis.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC adopted with local amendments by the City of Joplin)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Publish Ss/S1 only from a USGS design-maps query at the site coordinates; none was obtainable at research time, and site class is site-specific."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Joplin lies in the Tri-State Mining District at the western edge of the Ozarks, on Mississippian carbonate bedrock whose shallow lead-zinc ores were mined, milled, and smelted for more than a century. The legacy ground conditions are the story: abandoned underground workings and shafts, an estimated 150 million tons of mining waste across the district, and surface chat piles — all within the Oronogo-Duenweg Mining Belt Superfund site, whose boundary now takes in all of Jasper County. (EPA Region 7; ITRC mining-waste case study.)",
+    "dominantSoilTypes": [
+      "Cherty residuum over Mississippian limestone",
+      "Mine-disturbed ground and made land (chat, tailings, backfilled workings)",
+      "Alluvium along local stream corridors"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "Two kinds of voids overlap here and get conflated: natural solution features in the Mississippian carbonates, and man-made mine workings. The screening that matters most in Joplin is the man-made kind — historic mine maps and abandoned-mine records belong in every site review, because remedial action within the Superfund site has already included backfilling and capping six open mine shafts."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "In Joplin the first geotechnical question is not bearing capacity — it is undermining. A candidate site over or near historic lead-zinc workings needs mine-map review and, where records are thin, probing or geophysics before a foundation concept is chosen, because a shallow room or an unrecorded shaft under a compound rewrites the design. Where ground is proven sound, the district's shallow carbonates give straightforward, competent bearing, and rock excavation becomes the routine cost item instead. Mine-waste ground adds a second layer: chat and tailings are not clean fill, and excavation on legacy parcels inside the county-wide Superfund boundary can trigger soil testing and managed handling. Frost depth must come from Joplin's amended 2018 code tables — unverified at research time, so no number is published. Records and borings govern; nothing here substitutes for either."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Joplin Building Division",
+        "url": "https://www.joplinmo.org/265/Building-Division",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers the 2018 I-codes with local amendments (City Code Ch. 26). Plan-review timelines are not published — confirm the current queue directly. Sites outside city limits fall to county jurisdiction, whose code adoption was not researched this session."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code including Appendices C, F, G, I, and J, with companion 2018 I-codes and local amendments (City Code Ch. 26)",
+      "source": "City of Joplin Building Division; Joplin Code of Ordinances Ch. 26 — https://library.municode.com/mo/joplin/codes/code_of_ordinances?nodeId=PTIICOOR_CH26BUBURE",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small-cell work statewide ran under Missouri's Uniform Small Wireless Facility Deployment Act (RSMo 67.5110–67.5122), whose text sunsets most sections on January 1, 2025 — verify what framework now governs and how Joplin's ROW process handles node permits before pricing deployments.",
+    "rowPermitAuthority": {
+      "name": "City of Joplin Public Works (right-of-way permitting)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Attribution from standard municipal structure; confirm Joplin's current ROW permit and traffic-control requirements directly — not independently sourced this session."
+    },
+    "stateDotDistrict": {
+      "name": "Missouri DOT — Southwest District (per program brief; unverified)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District boundary and permit contacts need verification; MoDOT pages were unreachable at research time."
+    },
+    "oneCallCenter": {
+      "name": "Missouri 811 (Missouri One Call System)",
+      "url": "https://missouri-811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice of intent at least two working days and no more than ten ahead of excavation under RSMo 319.026, with weekends and Missouri state holidays excluded from the count.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Missouri DNR — construction/land disturbance stormwater permits",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Land disturbance permit with SWPPP at one acre or more of disturbance, or on smaller sites within a larger common plan of development."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Joplin's permit path is compact — a single city AHJ running the 2018 I-codes — but the site-level layers deserve respect. Missouri 811's two-working-day notice and MoDNR's one-acre land disturbance trigger apply as they do statewide; what is Joplin-specific is the Superfund overlay. On legacy-mining parcels inside the county-wide site boundary, soil disturbance can pull EPA and Missouri DNR coordination into the schedule, and that conversation should start before permits are filed, not after a hot sample. Review timelines for building and ROW permits are not published; we confirm the current queue with the Building Division when scoping, and sites outside city limits need a separate county-jurisdiction check."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Liberty Utilities (Empire District Electric)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Empire District Electric — founded 1909 and headquartered in Joplin — was acquired into Liberty Utilities (Algonquin) in January 2017 and serves roughly 218,000 customers across Missouri, Kansas, Oklahoma, and Arkansas. An investor-owned process; confirm new-service intake and lead times at scoping."
+      }
+    ],
+    "ilec": null,
+    "notableFiberProviders": [],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "Joplin sits at the I-44/I-49 junction near the corner of Missouri, Kansas, Oklahoma, and Arkansas — a natural crossroads for regional routes — but named long-haul systems through the market were not sourced this session and are not claimed here.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Far southwest Missouri is outside the upper Midwest's blanket spring frost-law belt; county commissions can still post individual roads, so verify current Jasper and Newton county postings ahead of any heavy haul rather than assuming clear routes."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "MoDOT Motor Carrier Services (oversize/overweight permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the state permitting portal and any separate local authorization for city and county road segments; not independently verified this session."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Listed bat species drive seasonal clearing limits across much of Missouri; the specific window and species list for Jasper and Newton counties were not sourced — obtain them from the USFWS field office before scheduling clearing",
+      "source": null
+    },
+    "shpo": {
+      "name": "Missouri State Historic Preservation Office (Missouri DNR)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 reviews route through Missouri SHPO; mining-era resources are a recurring historic-review topic in this district, so budget the consultation on legacy parcels."
+    },
+    "wetlandsAuthority": null,
+    "usaceDistrict": null,
+    "listedSpeciesNote": "Run a USFWS IPaC query per project. Beyond bats, the district's mining-impacted streams carry their own sensitivities; no county species list is published here because none was sourced this session.",
+    "floodplainPrevalenceNote": "Local stream corridors carry mapped floodplain, and mining-altered drainage complicates runoff behavior on legacy parcels. Check effective FEMA panels per site — the city's floodplain administration contact was not confirmed this session."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Freeze-thaw cycling; sustained frozen ground is uncommon",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete measures on pours"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Thaw-softened ground follows cold snaps",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Wetting up as storm season builds",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Peak severe-weather season opens; frequent rain",
+        "earthworkConcrete": "constrained",
+        "note": "Site securing and crane wind limits matter"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Warm and wet; historically the region's most dangerous storm month",
+        "earthworkConcrete": "constrained",
+        "note": "The 2011 tornado struck May 22 — storm-day slack is not optional here"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Storms taper; strong production conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot with long dry stretches",
+        "earthworkConcrete": "favorable",
+        "note": "Afternoon heat shapes pour timing"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Moderating; excellent working month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Dry and mild — a prime window",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "First freezes; still productive",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Intermittent freeze; occasional ice",
+        "earthworkConcrete": "workable",
+        "note": "Ice accumulation is the winter schedule risk"
+      }
+    ],
+    "narrative": "Joplin's construction year is long by Midwest standards — freeze-thaw winters that rarely lock the ground, a hot but workable summer, and a superb fall window. The calendar's hard center is spring: April and May concentrate the region's severe-weather risk, and this market's history argues for treating storm contingency as a scheduling line, not a footnote. Winter's occasional ice events are the other disruptor, both on site and because utility restoration pulls regional resources. Month-level figures should be confirmed against the NOAA station normals, which were not readable at research time."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Shallow Mississippian carbonates make rock a standing assumption for trenching, boring, and deeper foundations; carry rock tooling in every underground estimate.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "The county-wide Superfund designation changes the spoil conversation: excavated material from legacy-mining parcels may need testing before it leaves the site, and mine chat is not clean fill no matter how convenient the pile. Budget testing and managed disposal on any site with mining history.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Missouri prevailing wage (the Annual Wage Order) applies to public works above $75,000; Davis-Bacon attaches to federally funded scopes, including BEAD broadband construction. Settle applicability at bid.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Spring severe-weather delay risk and winter ice events are the seasonal pricing items; frost-protection needs here are modest compared with the upper Midwest.",
+    "narrative": "Joplin's cost drivers stack differently than any other Missouri market we serve. Underground, the pair to price is rock plus legacy: shallow carbonates put rock in most excavations, and mining history adds screening cost up front — mine-map review, probing where records fail — plus potential soil testing and managed disposal inside the county-wide Superfund boundary, items that are cheap compared with the failures they prevent. Above ground, this community's tornado history pushes hardening choices that add material cost and are worth defending line by line rather than value-engineering away. As a Dallas-served deployment market, mobilization is priced per program with concrete and aggregate bought locally. Drivers, not prices — each site prices to its records review and its borings."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Missouri has no statewide general contractor license; licensing and registration run at the municipal level and should be confirmed with the City of Joplin per scope, along with trade-license requirements, which vary by jurisdiction. Statewide confirmation against a state authority was not completed this session and is flagged in the gap list.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm"
+    ],
+    "designImplications": "The May 22, 2011 EF5 tornado — among the deadliest single tornadoes in modern U.S. records — remade Joplin's expectations for wind performance, and telecom infrastructure here should honor that: conservative anchorage and uplift design, debris-conscious enclosure choices, generator autonomy sized for extended outages, and compound layouts that keep post-event access in mind. Hail and ice storms round out the exposure. Publish numeric wind and ice values only after ASCE 7 and TIA-222 queries; none were obtainable at research time.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Missouri BEAD program clears federal approval",
+        "detail": "Missouri received federal sign-off to deploy more than $814 million of its roughly $1.7 billion BEAD allocation to 200,000-plus unserved and underserved locations through 42 providers, with about 81% of locations funded for fiber. Four-state border geography makes Joplin-area routes worth tracking across neighboring state programs too, with county-level Missouri detail pending from the Office of Broadband Development.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-approval-more-814-million-expand-broadband-access",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "service lateral to hut"
+      ],
+      "narrative": "Fiber work around Joplin answers to geography and to ghosts. The geography: the I-44/I-49 junction puts the market at the practical crossroads of four states, so route segments, laterals, and hut sites here often belong to networks whose owners sit in Kansas, Oklahoma, or Arkansas — and Missouri's $1.7 billion BEAD program, with over $814 million in approved awards at roughly 81% fiber, is funding rural mileage in exactly this kind of terrain. The ghosts: a bore path or trench line through the Tri-State District can cross backfilled workings or chat-covered ground, so records review precedes route design, and drilling plans treat shallow carbonate rock as the default. Restoration on mining-legacy parcels can carry soil-handling requirements ordinary ROW work never sees; inside the county-wide Superfund boundary we treat that as a planning input, not a surprise.",
+      "localSpecificsReferenced": [
+        "I-44/I-49 four-state junction",
+        "Tri-State Mining District legacy ground",
+        "Jasper County Superfund boundary",
+        "Missouri BEAD approved awards"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "ground ring and halo",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil"
+      ],
+      "narrative": "A wireless compound in Joplin gets designed under the longest shadow in American tornado history. The May 2011 EF5 leveled a swath of this city, and the rebuilt community's standard for wind performance is not theoretical — anchorage, uplift resistance, and equipment hardening are conversations owners here are ready to have, and standby power sized for extended outages earns its cost. Below grade, the district's mining legacy adds a screening step most markets skip: mine-map and abandoned-shaft review before a compound footprint is fixed, because a recorded working under a tower compound is a relocation conversation and an unrecorded one is worse. Where ground is clean, shallow limestone gives excellent bearing and the build is conventional — the discipline is in proving which case you have.",
+      "localSpecificsReferenced": [
+        "May 22, 2011 EF5 tornado rebuild standards",
+        "abandoned lead-zinc workings screening",
+        "shallow Mississippian limestone bearing"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "campus duct bank and conduit",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "There is no hyperscale story to tell in Joplin, and we won't invent one. Edge demand here is logistics- and industry-shaped: the I-44/I-49 interchange anchors a freight-corridor economy at the four-state corner, Liberty Utilities — the former Empire District Electric, still headquartered in town — is the investor-owned power provider, and the realistic edge scope is hardened enclosure pads, utility-yard and transformer pads, and generator yards supporting regional networks and industrial sites. Those builds inherit both local disciplines: wind-conscious anchorage above grade and mining-legacy screening below it, because an edge pad over an unverified void is the same mistake as a tower compound over one, at a different scale. Site selection with records review up front keeps this scope boring, which is exactly what edge civil should be.",
+      "localSpecificsReferenced": [
+        "Liberty Utilities / Empire District Joplin headquarters",
+        "I-44/I-49 freight corridor",
+        "mining-void screening"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 348,
+      "driveTimeHours": 5.8,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Jasper",
+      "Newton"
+    ],
+    "stagingApproach": "Deployment staging holds equipment in the Joplin area for the life of a scope — rented laydown or client-site staging arranged per program and sized to batch multiple sites per mobilization. Drafted here for ops review; confirmed per deployment.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from area suppliers rather than hauling — at roughly 350 road miles from the yard, in-market supply is the only viable arithmetic, and the district's quarry base keeps carbonate aggregate close. Supplier selection happens at estimate and remains subject to ops confirmation.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Joplin was the assignment our program flagged for re-check: straight-line estimates suggested Dallas at 383 miles, with a suspicion that real roads through Kansas City might favor Cedar Rapids instead. Route calculation settled it the other way — 348 road miles from the Dallas yard, against roughly 460 to 475 from Cedar Rapids — so Dallas serves this market and the Kansas City theory is retired. At that range Joplin is project-deployment work: crews mobilize for a scope's duration, stage locally, and buy materials in-market, which suits batched multi-site programs far better than one-off calls. We make no same-day claims for this market, and mobilization lead times are quoted per program after ops review.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Does Joplin's 2011 tornado still affect how telecom sites are built here?",
+      "answer": "Practically, yes. The EF5 that struck on May 22, 2011 remains the benchmark disaster in this community, and it shows up in construction as a standing preference for wind-hardened work: conservative anchorage and uplift design on compounds, enclosure and equipment choices made with debris in mind, and generator runtime sized for long outages. Formal design values still come from the adopted code and site-specific ASCE 7 queries — the tornado's legacy is the seriousness with which the margins get treated.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How do you know if a Joplin site sits over old mine workings?",
+      "answer": "Records first: historic Tri-State District mine maps and abandoned-mine information get reviewed before a footprint is fixed. Where mapping is thin or the parcel shows legacy tells — chat, depressions, filled shafts — probing or geophysical screening follows. It's a real hazard, not a formality: remedial work within the Superfund site has already included backfilling and capping open mine shafts. Clean records plus sound borings, and the build proceeds conventionally.",
+      "segment": "general"
+    },
+    {
+      "question": "Does the Superfund designation affect ordinary excavation in Joplin?",
+      "answer": "It can. EPA expanded the Oronogo-Duenweg Mining Belt site boundary to cover all of Jasper County, which means soil disturbance on parcels with mining history can involve lead and zinc testing and managed handling of excavated material. Most non-legacy sites see no practical impact, but the question gets asked on every scope up front — discovering contaminated spoil mid-trench is the expensive version.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What building code applies to telecom structures in Joplin?",
+      "answer": "The City of Joplin Building Division enforces the 2018 International Building Code with local amendments — adopted with Appendices C, F, G, I, and J under City Code Chapter 26 — alongside the companion 2018 I-codes. Frost depth and other amended-table values should be confirmed with the division directly; we have not published numbers we could not verify in the amended tables themselves.",
+      "segment": "general"
+    },
+    {
+      "question": "Who supplies electric power for a new site in Joplin?",
+      "answer": "Liberty Utilities, operating the former Empire District Electric system — a Joplin-headquartered utility founded in 1909, acquired into Liberty (Algonquin) in January 2017, and serving about 218,000 customers across four states. It's an investor-owned process: application, utility engineering, then construction scheduling. Lead times aren't published, so we get written confirmation from the utility during scoping rather than guessing.",
+      "segment": "edge"
+    },
+    {
+      "question": "How much notice does digging in Joplin require under Missouri 811?",
+      "answer": "Between two and ten working days before excavation, per RSMo 319.026, with weekends and Missouri state holidays excluded from the count, and facility owners responding within two working days. On route work we ladder tickets so locates stay current as the bore or trench advances — a discipline that matters in a market where you genuinely do not want to meet the unexpected underground.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Why is Joplin served from Dallas instead of Cedar Rapids?",
+      "answer": "Because the road disagrees with the map. Straight-line estimates made Joplin look like a toss-up, and our program flagged it for verification on the theory that routing through Kansas City might favor Cedar Rapids. Route calculators settled it: about 348 road miles from Dallas versus roughly 460 to 475 from Cedar Rapids. Either way it's deployment-range work — crews mobilize for a scope's duration with local staging and in-market materials.",
+      "segment": "general"
+    },
+    {
+      "question": "When can concrete be poured in Joplin?",
+      "answer": "Nearly year-round. Winters cycle freeze and thaw rather than freezing solid, so cold-weather protection covers most December-through-February pours, and summer needs hot-weather practice on afternoon placements. The months to respect are not winter ones — April and May carry the region's severe-weather peak, and schedules here carry storm-day slack because this market has earned the caution.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Foundations over a mined-out district: prove the ground first",
+    "body": "The engineering habit Joplin punishes is assuming refusal means rock and rock means done. In the Tri-State District, a drill stem can seat on the limestone roof of a room-and-pillar working, and a spread footing designed on that boring is a subsidence claim in waiting. So the decision tree starts earlier than usual. First, records: historic mine maps, abandoned-mine data, and the parcel's own surface tells — chat, circular depressions, suspiciously level made ground. Second, where legacy is confirmed or records are unreliable, spend on investigation proportionate to the structure: angled borings or geophysics for a compound, far less for a handhole. Third, match the response to the finding — relocate when the site allows it (cheapest, and in a market with land options, usually available), grout probed voids when it doesn't, or reach past the workings with piers when the structure justifies the cost. Keep the Superfund overlay in the same conversation, because the parcels most likely to be undermined are the same parcels where spoil needs testing. On clean ground Joplin builds easily — shallow competent limestone is a gift. The discipline is refusing to assume you're on clean ground."
+  },
+  "sources": [
+    {
+      "label": "City of Joplin — Building Division (2018 I-codes)",
+      "url": "https://www.joplinmo.org/265/Building-Division",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Joplin Code of Ordinances — Chapter 26, Buildings and Building Regulations",
+      "url": "https://library.municode.com/mo/joplin/codes/code_of_ordinances?nodeId=PTIICOOR_CH26BUBURE",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "EPA — Oronogo-Duenweg Mining Belt Superfund site profile",
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0701290",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Joplin Globe — Oronogo Superfund site expanded to all of Jasper County",
+      "url": "https://www.joplinglobe.com/news/local_news/oronogo-superfund-site-expanded-to-include-all-of-jasper-county/article_426ca92c-beea-11ee-abaf-83a6a56464f4.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ITRC — Oronogo-Duenweg mining site case study (150M tons of mining waste; shaft capping)",
+      "url": "https://projects.itrcweb.org/miningwaste-guidance/cs34_oronogo_duenweg.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Liberty Utilities — completion of Empire District Electric acquisition",
+      "url": "https://libertyutilities.com/liberty-utilities-completes-acquisition-of-the-empire-district-electric-company.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "RSMo 319.026 — excavation notice to Missouri One Call",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=319.026&bid=57366",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Missouri DNR — construction land disturbance stormwater permits",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Missouri Department of Labor — prevailing wage law and Annual Wage Order",
+      "url": "https://labor.mo.gov/dls/prevailing-wage",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Office of the Governor of Missouri — approval of $814M+ BEAD awards",
+      "url": "https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-approval-more-814-million-expand-broadband-access",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "RSMo 67.5110 — Uniform Small Wireless Facility Deployment Act",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=67.5110",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath — driving distance, Joplin MO to Dallas TX (348 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Joplin,+MO/to/Dallas,+TX",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Distance-cities — driving distance, Cedar Rapids IA to Joplin MO (~475 mi)",
+      "url": "https://www.distance-cities.com/distance-cedar-rapids-ia-to-joplin-mo",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NIST — Joplin tornado investigation (May 22, 2011 EF5)",
+      "url": "https://www.nist.gov/disaster-failure-studies/joplin-tornado-investigation",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool / ATC proxy-blocked; no value publishable. Especially material here given the market's wind history."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / designTempLowF / designTempHighF",
+      "attempted": "Hazard tool, TIA-222 county tables, and ASHRAE compilations unreachable; no secondary source strong enough to publish."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps service blocked; qualitative caution only in seismic.notes."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Value sits in Joplin's amended 2018 code tables (City Code Ch. 26); the amended table text was not readable, so no number is published."
+    },
+    {
+      "field": "hazards / intro — 2011 tornado citation",
+      "attempted": "NIST and NWS event pages were proxy-blocked, so the tornado characterization rests on well-established public record; reviewer should open the listed NIST page and attach the specific report citation before publish."
+    },
+    {
+      "field": "geotech numerics (bearing range, bedrock depth, groundwater, corrosivity, expansive risk)",
+      "attempted": "NRCS Web Soil Survey and state geotechnical publications unreachable; qualitative geology sourced from EPA/ITRC district documentation."
+    },
+    {
+      "field": "logistics.railroads",
+      "attempted": "Operating railroads serving Joplin were not confirmed before the search budget was exhausted — left empty rather than guessed. Identify carriers and crossing processes before publish."
+    },
+    {
+      "field": "utilities.ilec + notableFiberProviders",
+      "attempted": "ILEC designation and competitive fiber lineup not verified against FCC data; left null/empty."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority + stateDotDistrict + county AHJ",
+      "attempted": "City ROW process, MoDOT Southwest District boundary, and county code adoption for sites outside city limits all unverified; pages unreachable at research time."
+    },
+    {
+      "field": "regulatory.wirelessFacilityOrdinanceNote — post-sunset status",
+      "attempted": "RSMo 67.5110–67.5122 text shows a January 1, 2025 expiration for most sections; whether a successor framework exists was not confirmed."
+    },
+    {
+      "field": "environmental — USACE district, wetlands authority, floodplain administrator, tree-clearing window",
+      "attempted": "District boundary maps and USFWS county guidance unreachable; tree-clearing marked restricted with the window null pending USFWS confirmation."
+    },
+    {
+      "field": "compliance.stateContractorLicensing",
+      "attempted": "No-statewide-GC-license statement needs verification against a state authority; municipal requirements need confirmation with the city."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "NCEI station normals unreachable; calendar authored qualitatively and flagged for the station-table check."
+    },
+    {
+      "field": "identity.population / elevationFt",
+      "attempted": "Census QuickFacts unreachable; population carried from program seed unconfirmed, elevation left null."
+    },
+    {
+      "field": "operations — staging and local-supply plans (Band B)",
+      "attempted": "Drafted per CONTENT_MODULES §O for ops review; clears only on ops confirmation."
+    },
+    {
+      "field": "operations.nearestBase — close-call resolution and band confirmation",
+      "attempted": "PLAN §4.3 close call resolved: Dallas 348 mi / 5.8 h (Travelmath; trippy corroborates 348–352 via US-69) vs Cedar Rapids 461–475 mi (rome2rio 461; distance-cities ~475). No reassignment — Dallas confirmed, Kansas City routing theory refuted. NOTE for ops: 348 city-center miles sits just inside the 350-mile Band A line, and the DFW yard coordinates are still a placeholder (PLAN §4.3 open item 1) — Band B retained per program assignment pending routing from the actual yard address. Distances were read via search snippets because calculator sites are proxy-blocked; reviewer should open the route pages once."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 3 publish gate requires 2 images; never invented."
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "identity": {
+    "slug": "irving",
+    "city": "Irving",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Dallas"
+    ],
+    "msa": "Dallas–Fort Worth–Arlington",
+    "tier": 3,
+    "latitude": 32.814,
+    "longitude": -96.9489,
+    "elevationFt": null,
+    "population": {
+      "value": 256684,
+      "source": "U.S. Census Bureau, 2020 Decennial Census count — QuickFacts unreachable this session; reviewer should confirm the current Vintage estimate before sign-off",
+      "verifiedOn": null
+    },
+    "interstates": [
+      "I-635"
+    ],
+    "majorRoutes": [
+      "SH 114 (John W. Carpenter Freeway)",
+      "SH 183 (Airport Freeway)",
+      "SH 161 (PGBT Western Extension)",
+      "Loop 12"
+    ]
+  },
+  "metadata": {
+    "title": "Irving, TX Telecom Site Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Irving, TX — duct bank, pads, and campus civil across Las Colinas and the DFW Airport east side, minutes from our DFW yard.",
+    "h1": "Telecom Site Civil Construction in Irving, Texas",
+    "intro": "Between downtown Dallas and DFW International Airport, Irving packs an unusual amount of network infrastructure into 68 square miles: the Las Colinas urban center with its canal-and-lake drainage district, a growing data center footprint led by PowerHouse's three-building Las Colinas campus and QTS's 40-acre site on Longhorn Drive, the airport's east-side logistics corridor along SH 114 and SH 183, and the headquarters of Frontier Southwest — the former GTE/Verizon local operating company, now under Verizon again. The civil conditions are their own animal too: Eagle Ford shale uplands stepping down to Elm Fork Trinity terraces and floodplain, with a levee-and-pump district in the middle. Our DFW yard works Irving as close-in territory.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-22 (referenced by the 2024 IBC, adopted with Irving amendments by Ordinance No. 2026-11253, March 26, 2026) — confirm the ordinance's referenced-standards text before sign-off",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Dallas County is low-seismicity, though the 2008–2015 Irving earthquake swarm near the old Texas Stadium site drew study; publish Ss/S1 only after a USGS design-maps query at the site coordinates."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Irving straddles the boundary between two very different foundation settings. Western and central Irving sit on the Eagle Ford Group outcrop belt of western Dallas County — bentonitic shale whose residual clays are among the most expansive in the region — while the city's east and south step down onto Pleistocene terrace deposits and Holocene alluvium of the Elm Fork and West Fork of the Trinity River. The published Dallas-area geology literature documents both belts; which one a site occupies changes bearing behavior, excavation, groundwater, and flood exposure. (Environmental & Engineering Geoscience, 'Geology of Dallas, Texas.')",
+    "dominantSoilTypes": [
+      "Eagle Ford residual clays (very high shrink-swell)",
+      "Houston Black and related Blackland Vertisols",
+      "Elm Fork / West Fork Trinity terrace and alluvial deposits"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "Eagle Ford residuum carries some of the highest documented plasticity in the metro — the regional geology literature reports differential swell to roughly 7 inches on Eagle Ford clays. On terrace and alluvial ground the expansive risk drops but groundwater and variable density take its place. Site borings govern.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping applies to the Eagle Ford shale belt or Trinity alluvium; not a design consideration here."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The first geotechnical question in Irving is which Irving you're in. On the Eagle Ford uplands west of Las Colinas, design is expansive-clay management at its most demanding — moisture-conditioned or replaced subgrade for pads, drilled piers below the active zone for anything movement-sensitive, and void detailing where grade beams cross the shale residuum. Down on the Elm Fork terraces and floodplain, the problem inverts: swell risk eases, but shallow groundwater, softer alluvial zones, and flood elevation requirements drive dewatering plans, pad elevations, and sometimes deeper foundations for bearing rather than for movement. In Las Colinas specifically, sites interact with the drainage district's levee, canal, and pump infrastructure, which adds elevation and setback constraints that arrive before any soil question. Frost depth per Irving's amended code was not verified this session and is carried as a gap; it is never the governing dimension on this ground. Borings and the FEMA panel, together, set the design."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Irving — Inspections Department",
+        "url": "https://irvingtx.gov/codes_and_ordinances",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permit portal, contractor registration requirements, and current review times to be confirmed with the department before publish."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2024 IBC with Irving amendments, adopted by Ordinance No. 2026-11253 (March 26, 2026), which repealed and replaced the 2021-family adoption (Ordinance 2023-10684 series, January 12, 2023)",
+      "source": "City of Irving building codes chapter (eCode360) — https://ecode360.com/45598832",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network nodes in the public ROW follow Texas Local Government Code Chapter 284 statewide; Irving's implementing design manual and any Las Colinas-specific aesthetic districts should be confirmed with the city before node submittals.",
+    "rowPermitAuthority": {
+      "name": "City of Irving (right-of-way permits — confirm issuing division)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "City ROW permitting division and portal not verifiable this session. In Las Colinas, work near canals, levees, and district drainage infrastructure additionally coordinates with the Dallas County Utility and Reclamation District (DCURD) — confirm the district's requirements directly."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Dallas District (Collin, Dallas, Denton, Ellis, Kaufman, Navarro, Rockwall counties)",
+      "url": "https://www.txdot.gov/about/districts/dallas-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SH 114, SH 183, and Loop 12 are state system — utility occupancy through RULIS; SH 161 is an NTTA tollway with its own occupancy process."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI through STEERS e-permitting at 1+ acre of disturbance; small-site and large-site tracks at 1 and 5 acres."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Irving's permit stack has a layer most metro cities don't: alongside city building and ROW permits, TxDOT occupancy on the SH 114/183/Loop 12 state system, and NTTA's process on SH 161, work in Las Colinas can touch the Dallas County Utility and Reclamation District — the special district behind the area's levees, canals, Lake Carolyn, and drainage pumping — whose review runs on its own track and belongs in the schedule from day one. Note also that Irving moved to the 2024 code family in March 2026, ahead of most neighboring cities, so current submittals are reviewed against newer editions than a Dallas or Plano job. Texas811 needs two business days; TCEQ stormwater coverage applies at an acre; floodplain development permits apply through the city on Elm Fork-adjacent ground. Specific review durations are carried as gaps until confirmed."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Oncor Electric Delivery",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Oncor delivers for all of Irving inside ERCOT's retail-choice structure; new-service lead times to be confirmed with Oncor construction services at scoping. Atmos Energy is the gas distribution utility where generator fuel service applies."
+      }
+    ],
+    "ilec": "Frontier Southwest (the former GTE Southwest / Verizon Southwest operating company, headquartered in Irving; Verizon completed its acquisition of Frontier in January 2026) — confirm exchange boundaries at the parcel, since ILEC territory in the metro is a patchwork with AT&T exchanges adjacent",
+    "notableFiberProviders": [
+      "Frontier (Verizon) fiber — legacy FiOS footprint",
+      "AT&T Fiber (footprint verification pending)"
+    ],
+    "notableDataCenterCampuses": [
+      "PowerHouse Data Centers Las Colinas campus, 111 Customer Way (three powered-shell buildings, ~946,000 sq ft on 50 acres)",
+      "QTS Irving campus, 6431 Longhorn Dr (40-acre campus)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": "No major internet exchange operates in Irving; the metro's carrier hotels and densest interconnection — the Equinix Infomart complex and 2323 Bryan St — sit along and beyond the Stemmons corridor in central Dallas, a short lateral haul east of Las Colinas."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas posts no seasonal frost-law restrictions; weight limits are year-round load-zoned postings on specific roads and bridges. Around Irving the routing questions are urban — bridge postings on older Loop 12 and Trinity crossings — not calendar-driven."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS (Texas Permitting & Routing Optimization System)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Self-issued, auto-routed permits for most shelter loads; Irving's position on the SH 114/183 airport corridors keeps oversize approach routes simple relative to most metro destinations."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Trinity Railway Express (TRE) corridor through south Irving",
+        "crossingPermitNote": "The DFW commuter corridor between Dallas and Fort Worth, with stations in south Irving — crossings coordinate through the transit owners' process, and freight operating rights on the corridor should be confirmed for the specific crossing."
+      },
+      {
+        "name": "DART Orange Line (Las Colinas urban center to DFW Airport)",
+        "crossingPermitNote": "Light-rail corridor threading the Las Colinas urban center — adjacent work and crossings add DART coordination, including near-canal elevated sections."
+      },
+      {
+        "name": "Class I freight (UP / BNSF metro network)",
+        "crossingPermitNote": "Fiber crossings of Class I lines in the metro run through the railroads' utility-crossing processes; UP quotes roughly 30–45 days for wireline agreements and real timelines run longer — identify the operating railroad on each specific Irving crossing early, as this was not verifiable per-line this session."
+      }
+    ],
+    "urbanRowRequirements": "Two distinct ROW environments share the city: the Las Colinas urban center, where work threads canals, Lake Carolyn frontage, DART's elevated Orange Line, and DCURD drainage infrastructure under district-plus-city review, and the SH 183/south Irving logistics corridors, where conventional arterial traffic control and TxDOT frontage coordination dominate. Scope traffic control and district coordination separately — they price differently."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Schedule vegetation removal outside the general bird nesting season, March 15 – September 15; if unavoidable, pre-construction nesting surveys by a qualified biologist",
+      "driver": "Migratory bird nesting (TPWD guidance under the MBTA); no county-specific USFWS bat clearing window surfaced for Dallas County",
+      "source": "TPWD Environmental Review guidance; TxDOT bird compliance guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code of Texas reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (SWF) — CWA Section 404",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Elm Fork and West Fork Trinity waters and adjacent wetlands put river-corridor work squarely in 404 territory."
+    },
+    "usaceDistrict": "Fort Worth District (SWF)",
+    "listedSpeciesNote": "Run a project-specific USFWS IPaC query for Dallas County; re-check the tricolored bat's listing status, unresolved at research time, before committing to clearing-window language.",
+    "floodplainPrevalenceNote": "Flood exposure is a first-order siting question in east and south Irving, where the Elm Fork and West Fork of the Trinity carry wide mapped floodplain. Las Colinas exists because a special district engineered around that exposure — DCURD's levees, canals, Lake Carolyn, and pump stations manage drainage for the urban center — so district coordination and flood elevations arrive early in design there. The city's floodplain administrator contact is carried as a gap pending confirmation."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild; brief freezes and occasional ice",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather protection on freeze nights; ice days stop travel, not the season"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild; river-bottom sites hold moisture",
+        "earthworkConcrete": "workable",
+        "note": "Terrace and alluvial ground drains slower than the uplands"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Firming; storm season arrives",
+        "earthworkConcrete": "favorable",
+        "note": "DFW's average last freeze is March 12"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good ground; peak severe-weather exposure",
+        "earthworkConcrete": "favorable",
+        "note": "Hail and tornado watch days need contingency"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable; heaviest rain month pressures Elm Fork sites",
+        "earthworkConcrete": "favorable",
+        "note": "Watch river stages on floodplain-adjacent work"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot and drying",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Extreme heat; ~19 days/year at 100°F+ concentrate in this window",
+        "earthworkConcrete": "constrained",
+        "note": "Morning pours, hot-weather concrete practice"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; Eagle Ford clays at maximum shrinkage",
+        "earthworkConcrete": "constrained",
+        "note": "Moisture-condition subgrades before placement"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Cooling; strong working month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Best conditions of the year",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; first freeze averages November 22",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild winter; occasional ice event",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Irving works all twelve months; what the calendar changes is where and how. Summer heat — the DFW station averages about 19 days at or over 100°F — compresses concrete into morning windows in July and August, exactly when Eagle Ford clays hit maximum shrinkage. Spring severe weather adds lost days in April and May, and May's heavy rain matters twice in Irving: once as mud, and again as river stage on Elm Fork-adjacent sites, where a wet spring can hold floodplain work out of the ground longer than any freeze ever will. Winter is mild — the average freeze season is only November 22 through March 12 — with ice storms the one event that stops work. Verify against the NWS Fort Worth/Dallas station normals before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Eagle Ford shale generally excavates and bores without rock tooling, though harder calcareous lenses occur within the group; on terrace and alluvial ground, excavation is soil work with groundwater the complication rather than rock.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Texas Government Code Chapter 2258 applies prevailing wage to state and locally funded public works; federal Davis-Bacon attaches to federally funded scopes over $2,000, including BEAD-funded broadband work. Irving's carrier, data center, and enterprise work is predominantly private.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hot-weather concreting in July–August and spring severe-weather contingency are the recurring seasonal items; floodplain-adjacent scopes carry wet-season schedule risk priced as time, not temperature.",
+    "narrative": "Irving cost drivers split by geography. On the Eagle Ford uplands, expansive-clay measures — piers below the active zone, select fill, moisture conditioning — set the geotechnical baseline, familiar metro economics. East and south, the Trinity side introduces the expensive trio of urban river-bottom work: dewatering, flood-elevation compliance, and soft-ground stabilization for equipment access. Las Colinas adds coordination cost rather than dirt cost — DCURD district review, canal and levee setbacks, and work around the elevated Orange Line stretch schedules more than budgets, but stretched schedules are budget. Traffic control on the SH 114/183 frontage network is a real line item. Mobilization is not: Irving is close-in territory for our DFW yard. Drivers, not prices — the borings and the FEMA panel price the site."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas issues no statewide general contractor license for commercial or civil work — regulation is municipal, so Irving's contractor registration and permitting requirements govern locally (confirm current requirements with the Inspections Department). Statewide trade licensing still applies: electrical through a TDLR Electrical Contractor license with a Master Electrician of record, plumbing through TSBPE.",
+    "additionalRegistrations": [
+      "City of Irving contractor registration (confirm current requirements with the Inspections Department)"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "tornado",
+      "hail",
+      "extreme heat"
+    ],
+    "designImplications": "Flood leads the Irving list because so much of the city's east and south lies in Elm Fork and West Fork Trinity floodplain — pad elevations, equipment platform heights, and fuel-system containment get set by flood elevation before anything else, and Las Colinas sites inherit DCURD's levee and pump-system context. Spring tornado and hail season drives anchorage and hardened HVAC like everywhere in the metro, and the ~19 annual 100°F days shape concrete practice and clay moisture behavior. Publish wind and ice values only after hazard-tool queries at the site.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "PowerHouse builds a three-building campus in Las Colinas",
+        "detail": "PowerHouse Data Centers is developing a hyperscale campus at 111 Customer Way in the Las Colinas district — roughly 946,000 sq ft of powered shell across three buildings on 50 acres — bringing sustained pad, duct bank, and utility-yard civil demand to Irving.",
+        "category": "data center",
+        "sourceUrl": "https://baxtel.com/data-center/powerhouse-irving-tx",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "QTS operates a 40-acre Irving campus",
+        "detail": "QTS's Dallas-market campus at 6431 Longhorn Dr in the Irving/Las Colinas area anchors the city's established colocation footprint alongside the newer PowerHouse development.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenters.com/locations/united-states/texas/irving",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Verizon completes the Frontier acquisition — Irving is the ILEC's home base",
+        "detail": "Verizon closed its $20B acquisition of Frontier Communications on January 20, 2026, returning the former GTE/Verizon Southwest territory — whose operating company is headquartered in Irving — to Verizon ownership, with implications for local fiber investment.",
+        "category": "carrier program",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Frontier_Southwest",
+        "asOf": "2026-01-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "fiber hut pad",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Irving fiber civil is crossing work. Routes between the Dallas carrier hotels and the DFW Airport cell have to get through this city, and everything in the way is a permit: the SH 114 and SH 183 state-system corridors, the TRE commuter rail corridor across south Irving, DART's Orange Line through the Las Colinas urban center, and — unique in the metro — the DCURD canal and levee network, where a bore under a canal or through a levee section is a district engineering conversation, not just a locate ticket. Laterals to the PowerHouse and QTS campuses and to Frontier/Verizon's home-territory network add steady metro demand. Bore conditions are forgiving in Eagle Ford shale, wetter and softer on Elm Fork ground — route-level geotech tells you which you're getting.",
+      "localSpecificsReferenced": [
+        "DCURD canal/levee crossings in Las Colinas",
+        "TRE and DART Orange Line corridors",
+        "SH 114 / SH 183 state-system crossings",
+        "PowerHouse and QTS campus laterals"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "small cell and DAS node civil",
+        "ground ring and halo",
+        "generator and fuel containment pads",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "C-band / densification upgrade civil",
+        "access road and turnaround"
+      ],
+      "narrative": "Wireless civil in Irving serves three very different coverage problems in one city: the Las Colinas urban center's high-rise and venue density, the freight-and-flight logistics corridor on the DFW Airport east side along SH 114/183, and established residential Irving south of it. Node and DAS civil in Las Colinas works under the Chapter 284 framework with the district's aesthetic context layered on; compound work near the Elm Fork means checking the FEMA panel before the geotech report, because pad and generator elevations on floodplain ground are set by flood elevation first. On the Eagle Ford uplands it's classic metro expansive-clay pad work — conditioned subgrade or piers. Storm-season hail hardening applies compound-wide, and the yard's proximity keeps upgrade cycles and pad swaps cheap to schedule.",
+      "localSpecificsReferenced": [
+        "Las Colinas urban center node/DAS environment",
+        "DFW Airport east-side SH 114/183 corridor",
+        "Elm Fork floodplain pad elevations",
+        "Eagle Ford expansive clay uplands"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "hyperscale campus civil support"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Irving's edge and data center geography is defined by position: minutes from DFW Airport, a short lateral from the downtown Dallas interconnection core, with Oncor delivery inside ERCOT's retail-choice market. PowerHouse's three-building, ~946,000 sq ft powered-shell campus at 111 Customer Way is the active civil pipeline — pads, campus duct bank, generator yards, and heavy-haul access on a compressed Las Colinas parcel — while QTS's 40-acre Longhorn Drive campus anchors the established footprint. The site conditions are the differentiator: campus civil here negotiates district drainage infrastructure, flood elevations on Trinity-side parcels, and Eagle Ford clay on the uplands, so the earthwork package varies more parcel-to-parcel than in most metro submarkets. Edge enclosure pads follow the same logic at small scale.",
+      "localSpecificsReferenced": [
+        "PowerHouse Las Colinas campus (111 Customer Way)",
+        "QTS Irving campus (Longhorn Dr)",
+        "DFW Airport proximity / Dallas interconnection laterals",
+        "DCURD drainage context and Trinity flood elevations"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 11,
+      "driveTimeHours": 0.2,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Dallas",
+      "Tarrant"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Irving is about as close to our DFW yard as a market gets — an eleven-mile straight-line estimate today, to be replaced with verified routing when ownership finalizes the yard address. Practically, Irving jobs run on local-work logistics: no mobilization line on the estimate, single-day scopes staged from the yard, and equipment swaps or extra material runs handled within the workday instead of driving the schedule. What governs an Irving start date isn't distance — it's the permit stack (city, TxDOT, NTTA, transit corridors, and DCURD in Las Colinas) and, on Trinity-side sites, river stage. Emergency and storm-response commitments are published only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What is DCURD, and when does it affect telecom construction in Irving?",
+      "answer": "The Dallas County Utility and Reclamation District is the special district whose levees, canals, Lake Carolyn, and pump stations drain the Las Colinas urban center. Any civil work near that infrastructure — canal crossings, bores near levee sections, drainage-adjacent excavation — should be scoped for district coordination on top of city permits. We carry confirmation of DCURD's current permit requirements as an open item; plan the contact early.",
+      "segment": "general"
+    },
+    {
+      "question": "Which data center campuses are actually in Irving?",
+      "answer": "PowerHouse Data Centers is building a three-building, roughly 946,000 sq ft powered-shell campus on 50 acres at 111 Customer Way in Las Colinas, and QTS operates a 40-acre campus at 6431 Longhorn Dr. The metro's famous carrier hotels — the Equinix Infomart and 2323 Bryan St — are in central Dallas, not Irving; Irving's role is campus capacity a short lateral from that interconnection core.",
+      "segment": "edge"
+    },
+    {
+      "question": "Who is the incumbent phone company in Irving?",
+      "answer": "Frontier Southwest — the former GTE Southwest and Verizon Southwest operating company, headquartered in Irving itself — and as of January 20, 2026 it's back under Verizon, which completed its acquisition of Frontier. Exchange boundaries in the metro are a patchwork with AT&T territory adjacent, so confirm the serving ILEC at the specific parcel before planning telco coordination.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does Trinity River flooding affect cell site work in Irving?",
+      "answer": "The Elm Fork and West Fork carry wide mapped floodplain through east and south Irving, so the FEMA panel is a first-stop document here. On floodplain ground, pad and generator elevations are set by flood elevation, floodplain development permits apply, and a wet spring can delay work through river stage alone. Las Colinas sites sit behind DCURD's engineered levee-and-pump system, which changes the exposure but adds district coordination.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What building code does Irving review against right now?",
+      "answer": "The 2024 IBC family with local amendments, adopted by Ordinance No. 2026-11253 on March 26, 2026 — which replaced Irving's 2021-edition adoptions from January 2023. That puts Irving on newer editions than much of the metro, so specs and referenced standards written for a 2021-code city need a check before submittal. Confirm amendment details with the Inspections Department.",
+      "segment": "general"
+    },
+    {
+      "question": "What are boring conditions like for fiber in Irving?",
+      "answer": "Generally favorable, with two personalities. Eagle Ford shale and its residual clays on the western uplands bore without rock tooling, though harder calcareous lenses occur. On Elm Fork terrace and alluvial ground, the issues become groundwater and soft zones rather than rock, and canal or levee-adjacent bores in Las Colinas add district engineering review. Route-level geotech tells you which conditions each segment gets.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Are there seasonal road restrictions affecting shelter delivery to Irving?",
+      "answer": "No — Texas has no spring frost laws; weight limits are year-round postings on specific load-zoned roads and bridges. Oversize shelter hauls permit through TxDMV's TxPROS system, which self-issues and auto-routes most loads, and Irving's position on the SH 114 and SH 183 corridors makes approach routing simpler than most metro destinations. Check current bridge postings on older Loop 12 and Trinity crossings.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour concrete in Irving in the summer?",
+      "answer": "Yes, with hot-weather discipline. The DFW station averages roughly 19 days at or above 100°F, concentrated July through late August, so summer pads go in on morning windows with chilled mix water or ice, retarders, and cure protection — and subgrades on Eagle Ford clay get moisture-conditioned first, because peak heat is also peak clay shrinkage.",
+      "segment": "general"
+    },
+    {
+      "question": "What transit corridors complicate fiber routes through Irving?",
+      "answer": "Two active ones: the Trinity Railway Express commuter corridor across south Irving between Dallas and Fort Worth, and DART's Orange Line threading the Las Colinas urban center on its way to DFW Airport, including elevated sections near the canals. Both add transit-owner coordination for crossings and adjacent work; freight operating rights on any specific crossing should be confirmed during route design, since Class I processes run on their own long clocks.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Uplands or river bottom: siting and foundations across Irving's two grounds",
+    "body": "Irving forces a site-selection judgment that most metro cities don't: the same scope prices very differently on the Eagle Ford uplands than on the Elm Fork side, and the smart money spends an hour on the geology and flood maps before falling in love with a parcel. On the uplands, the enemy is movement. Eagle Ford residual clays are among the most expansive in the region — the geology literature documents differential swell to around 7 inches — so movement-sensitive equipment wants drilled piers below the active zone or a seriously conditioned subgrade, and the cost delta between doing that now and re-leveling a racked cabinet later always favors now. On terrace and alluvial ground, movement risk eases and the enemy becomes water: shallow groundwater in excavations, soft zones under equipment loads, and above all flood elevation, which can drive elevated pads, platform-mounted equipment, and containment details that dwarf the foundation itself. Las Colinas is its own case — engineered drainage behind DCURD levees and pumps, but with district review layered onto everything near the canals. The practical sequence: FEMA panel first, then borings, then foundation scheme — because in Irving the map can move your site before the soil report moves your design. Site-specific investigation governs."
+  },
+  "sources": [
+    {
+      "label": "City of Irving — building codes chapter, Ordinance 2026-11253 (2024 IBC adoption) and prior 2023 ordinance series (eCode360)",
+      "url": "https://ecode360.com/45598832",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Irving — codes and ordinances",
+      "url": "https://irvingtx.gov/codes_and_ordinances",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "PowerHouse Data Centers — Irving / Las Colinas campus (111 Customer Way)",
+      "url": "https://baxtel.com/data-center/powerhouse-irving-tx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Irving, Texas data center inventory (QTS Longhorn Dr campus)",
+      "url": "https://www.datacenters.com/locations/united-states/texas/irving",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Frontier Southwest — former GTE/Verizon operating company headquartered in Irving; Verizon acquisition completed January 20, 2026",
+      "url": "https://en.wikipedia.org/wiki/Frontier_Southwest",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Environmental & Engineering Geoscience — Geology of Dallas, Texas (Eagle Ford belt, Trinity terraces, documented swell)",
+      "url": "https://pubs.geoscienceworld.org/aeg/eeg/article-abstract/xxiii/4/359/60925/Geology-of-Dallas-Texas-United-States-of-America",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — advance notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Dallas District",
+      "url": "https://www.txdot.gov/about/districts/dallas-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDMV — oversize/overweight permits (TxPROS)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Local Government Code Chapter 284 (network nodes)",
+      "url": "https://texas.public.law/statutes/tex._local_gov%27t_code_title_9_subtitle_a_chapter_284",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Union Pacific — wireline crossing procedure",
+      "url": "https://www.up.com/real_estate/utilities/wireline/wireline_procedure/index.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Fort Worth District — regulatory permitting",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Fort Worth/Dallas — DFW records and normals (freeze and 100°F statistics)",
+      "url": "https://www.weather.gov/fwd/dfw_records_normals",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "identity.population / elevationFt",
+      "attempted": "Census QuickFacts and Wikipedia unreachable through the egress proxy (403). 2020 decennial count carried from research notes; confirm the current vintage estimate and elevation before sign-off."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — amendment text",
+      "attempted": "2024 IBC adoption via Ordinance 2026-11253 (March 26, 2026) taken from the eCode360 chapter summary; ecode360 full-text fetch blocked (403). Confirm amendment details, including any amended frost/footing table, with the Inspections Department."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Irving's amended climatic/geographic design criteria table could not be read (ecode360 and irvingtx.gov fetches blocked). Null until read from the city amendment."
+    },
+    {
+      "field": "designCriteria — wind, snow, ice, seismic, design temps",
+      "attempted": "ASCE Hazard Tool, USGS design maps, and TIA-222 county data unreachable through the egress proxy (same blocks documented on the Dallas fixture). Query at site coordinates before publish."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority + DCURD permit requirements",
+      "attempted": "irvingtx.gov and dcurd.org both 403 through the proxy. City ROW issuing division, portal, and DCURD's construction-coordination requirements all need direct confirmation."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain administrator contact not verifiable this session; Elm Fork floodplain description is qualitative pending FEMA panel review."
+    },
+    {
+      "field": "geotech — bearing ranges, groundwater, depth to bedrock, corrosivity",
+      "attempted": "NRCS Web Soil Survey interactive and BEG mapping unreachable; Eagle Ford/terrace description sourced qualitatively from the published Dallas-area geology literature. Numerics await borings or verified mapping."
+    },
+    {
+      "field": "utilities — Oncor lead times; ILEC exchange boundaries; AT&T Fiber footprint",
+      "attempted": "oncor.com unfetchable; Frontier/AT&T exchange boundary within Irving and current fiber footprints need provider-map verification — the ILEC identification rests on the former GTE Southwest territory and Irving headquarters, not a parcel-level map."
+    },
+    {
+      "field": "logistics.railroads — operating railroad per crossing (incl. any CPKC/KCS presence)",
+      "attempted": "Could not verify which Class I freight lines and operating rights cross Irving specifically (a KCS/CPKC presence was suggested but never confirmed — omitted rather than guessed). Identify the operating railroad per crossing during route design."
+    },
+    {
+      "field": "wirelessFacilityOrdinanceNote — Irving node design manual",
+      "attempted": "The city's Chapter 284 implementing design manual could not be fetched; cite the current manual before publish."
+    },
+    {
+      "field": "seasonality — full 1991–2020 station normals",
+      "attempted": "weather.gov 403 through proxy; calendar authored from confirmed DFW freeze/100°F statistics. Check the station table before publication."
+    },
+    {
+      "field": "operations — routeVerified, countiesServed, emergency response",
+      "attempted": "Road miles are the seed straight-line estimate pending the final DFW yard address (ownership decision); counties list and any response commitment require ops sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 3 gate requires 2 images; never invented."
+    }
+  ]
+}

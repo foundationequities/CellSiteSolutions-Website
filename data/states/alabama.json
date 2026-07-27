@@ -5,24 +5,24 @@
     "abbr": "AL"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Alabama Telecom Civil Construction | CellSite Solutions",
+    "description": "Statewide guide to telecom civil work in Alabama — GC licensing, ALDOT permits, karst and coal-field ground risk, BEAD awards, and an honest deployment model.",
+    "h1": "Telecom Site Civil Construction Across Alabama",
+    "intro": "Alabama is the one state in the CSS footprint where a state general contractor license is mandatory for this scope — the Alabama Licensing Board for General Contractors requires it on commercial and industrial work of $100,000 or more, a threshold Act 2024-277 raised from the long-standing $50,000 on October 1, 2024. It is also the footprint's most honest test of the deployment model: all six Alabama markets sit 630 to 780 road miles from a CSS yard, so every one of them is served by traveling crews on a program basis — multi-site delivery, local staging and supply, single-source accountability — never on a local-response pitch. The ground runs from gray-bat karst in the Tennessee Valley to abandoned coal workings under Birmingham to hurricane coast at Mobile, and a $1.4 billion BEAD allocation is now moving to construction."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Alabama has no statewide mandatory building code for privately owned commercial construction — commercial structural code adoption is a local decision, and editions vary widely between adjacent jurisdictions. What is statewide: the Alabama Energy and Residential Codes Board adopts the state's mandatory residential building code and the residential and commercial energy codes (enforced at the local level), and the state Division of Construction Management applies its own building code to state-owned projects. In practice that means the governing edition is set city by city — Huntsville enforces the 2021 international code family per permit-guide sources, while Birmingham's Technical Code is built on the 2015 family — so the adopted-code check is a per-AHJ task on every Alabama project, not a state lookup.",
+    "source": "Alabama Division of Construction Management (dcm.alabama.gov/bldg_code.aspx); Alabama Energy and Residential Codes Board (hacr.alabama.gov/alabama-energy-codes/); city adoption pages"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Work within, over, or across state highway right-of-way requires a Permit Agreement for Accommodation of Utility Facilities from ALDOT under its Utility Manual. The point of initial contact is the local ALDOT district office within the region serving the project — the state is organized into regions (North, East Central, West Central, Southeast, Southwest) subdivided into districts — and the Maintenance Bureau's Permits & Operations Section administers the program. ALDOT's own permit manual notes that permits routed to the central office for approval can take on the order of 90 days even when complete, so ALDOT crossings and longitudinal occupations belong at the front of a fiber route schedule, not the end.",
+    "source": "ALDOT Utility Manual (dot.state.al.us/publications/ROW/pdf/Utilities/UtilityManual.pdf); ALDOT permits pages (dot.state.al.us/business/permits/)"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "Alabama 811",
+    "url": "https://al811.com/",
+    "ticketLeadBusinessDays": 2,
+    "source": "Alabama 811 — law page (al811.com/law/): notice at least two but not more than ten working days before excavation, not counting the day of notification; tickets valid 20 working days from the proposed start date"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -37,74 +37,140 @@
       "low": null,
       "high": null
     },
-    "narrative": null,
+    "narrative": "The pattern is real even where the numbers are pending: design wind climbs steeply toward the Gulf, where Mobile and Baldwin counties sit in hurricane wind and windborne-debris territory, while the inland two-thirds of the state designs for a severe-thunderstorm and tornado climate rather than sustained hurricane wind. Ground snow load is minimal statewide and frost depths are shallow — but per program rules every numeric value (ASCE 7 wind by risk category, frost depth from each AHJ's adopted code text, snow with local amendments) is published only from the ASCE Hazard Tool and the governing code, and that sweep has not been completed for Alabama.",
     "source": null
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Alabama posts no springtime frost-law weight restrictions — there is no seasonal thaw regime like Wisconsin's or Iowa's. Load limits are year-round, engineering-based postings on specific roads and bridges, and county-posted structures can bind a shelter or hut haul even when the state route is clear. Oversize/overweight moves permit through ALDOT's Permits & Operations Section in the Maintenance Bureau, and haul routing should be checked against current bridge postings for each approach, particularly on older county structures in the coal-field and Black Belt counties.",
+    "source": "ALDOT Permit Operations (dot.state.al.us/maweb/permitsoperations.html); ALDOT Permit Manual (revised August 2022)"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "Alabama's SHPO is the Alabama Historical Commission; Section 106 submissions go by email with a 30-calendar-day review clock that restarts on each new submission. Construction stormwater is ADEM's NPDES Construction General Permit ALR100000 — required at one acre of disturbance (or less within a larger common plan), with a Notice of Intent and a best-management-practices plan certified by a Qualified Credentialed Professional. USACE regulatory jurisdiction splits by watershed: the Tennessee River basin across north Alabama is Nashville District territory, with the Mobile District handling most of the rest of the state — confirm county assignment per project. The state's defining biological constraint is its cave country: north Alabama karst holds major hibernacula for the federally endangered gray bat, and USFWS bat guidance drives winter tree-clearing windows, with modified dates possible in karst and hibernaculum areas.",
+    "source": "Alabama Historical Commission Section 106 FAQs (ahc.alabama.gov/section106FAQ.aspx); ADEM Construction General Permit (adem.alabama.gov/water/npdes-programs/construction-general-permit); USFWS Bats in Alabama (fws.gov/office/alabama-ecological-services/bats-alabama)"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Alabama is the only state in the CSS footprint with mandatory statewide general contractor licensing for this scope. The Alabama Licensing Board for General Contractors requires a license for construction, alteration, maintenance, repair, or demolition — expressly including site work, grading, and paving — where the cost of the undertaking is $100,000 or more; subcontractors need their own license at the same threshold. Act 2024-277 raised the trigger from $50,000 to $100,000 effective October 1, 2024. Licenses carry classifications and bid limits, so a prime's license must match both the work type and the contract size. Alabama has no state prevailing wage law; Davis-Bacon applies on federally funded work, including BEAD builds.",
+    "source": "Ala. Code §34-8-1 as amended by Act 2024-277 (law.justia.com/codes/alabama/title-34/chapter-8/article-1/section-34-8-1/); Alabama Licensing Board for General Contractors (genconbd.alabama.gov)"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Alabama's telecom map has two poles. Huntsville is the technology pole: Redstone Arsenal (Army, NASA Marshall, a fast-growing FBI campus), Cummings Research Park — the second-largest research park in the country — Meta's $1.5 billion data center campus, and a genuinely unusual access model in which Huntsville Utilities built roughly 1,300 route miles of municipal fiber that Google Fiber leases rather than owns. Birmingham is the interconnection pole: legacy AT&T (BellSouth) territory where DC BLOX's Tier III, carrier-neutral facility functions as the state's carrier hotel. The broadband program is now real money in the ground: NTIA approved Alabama's $1.4 billion BEAD allocation in October 2024, ADECA's Digital Expansion Division submitted the final proposal in October 2025, and approval in March 2026 awarded $460 million across 63 projects reaching more than 101,000 locations — roughly 75 percent wired construction. On the operating side CSS is candid: all six Alabama markets are Band B or C deployment markets served by traveling crews from the Dallas yard at 630–780 road miles, with local staging, in-market material supply, and program-based scheduling — capability and accountability, not response time.",
+    "source": "ADECA (adeca.alabama.gov 2024-10-17 federal approval release); Governor Ivey final-proposal approval release (governor.alabama.gov, March 2026); Huntsville Utilities/Google Fiber coverage (9to5google.com, huntsvilleal.gov); DC BLOX (dcblox.com)"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "Do I need an Alabama general contractor license for telecom site work?",
+      "answer": "Yes, above the threshold. The Alabama Licensing Board for General Contractors requires a state GC license for commercial or industrial construction — including site work, grading, and paving — where the undertaking costs $100,000 or more, and subcontractors need their own license at the same threshold. Act 2024-277 raised the trigger from $50,000 effective October 1, 2024. Licenses carry work-type classifications and bid limits, so verify both before award."
+    },
+    {
+      "question": "How much notice does Alabama 811 require before digging?",
+      "answer": "At least two working days and not more than ten, not counting the day you file the ticket. Locate requests are valid for 20 working days from the proposed start date, so long fiber pulls need refresh tickets built into the schedule. Non-member facility owners still get the same two full working days to mark, which is why we file early and sequence bore crews behind confirmed marks rather than the calendar."
+    },
+    {
+      "question": "What building code applies to a telecom shelter or hut in Alabama?",
+      "answer": "Whichever edition the local jurisdiction has adopted — Alabama has no statewide mandatory building code for private commercial work. The state's Energy and Residential Codes Board adopts statewide residential and energy codes, but the structural code for a shelter foundation is set city by city: Huntsville enforces the 2021 international family per permit-guide sources while Birmingham's Technical Code is built on the 2015 editions. Confirm the AHJ's adoption ordinance before design, not after."
+    },
+    {
+      "question": "Where does Alabama's BEAD broadband program stand?",
+      "answer": "Approved and moving. NTIA approved Alabama's $1.4 billion allocation in October 2024; ADECA's Digital Expansion Division submitted the final proposal in October 2025; and the March 2026 approval awarded $460 million across 63 projects reaching more than 101,000 locations, with wired construction planned for roughly 75 percent of them. Davis-Bacon prevailing wage applies to that federally funded work even though Alabama has no state prevailing wage law."
+    },
+    {
+      "question": "How does CellSite Solutions actually cover Alabama?",
+      "answer": "With traveling crews, and we say so plainly. Every Alabama market sits 630 to 780 road miles from our nearest yard, so crews deploy for the duration of a scope — staged locally, with ready-mix, aggregate, and precast bought in-market — rather than commuting. That model fits multi-site programs: one contract, consistent crews and QA/QC across a build, single-source accountability. What it does not support is a same-day response claim, and we do not make one."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ala. Code §34-8-1 — general contractor definition and $100,000 threshold (Act 2024-277)",
+      "url": "https://law.justia.com/codes/alabama/title-34/chapter-8/article-1/section-34-8-1/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Licensing Board for General Contractors — statute changes notice",
+      "url": "https://genconbd.alabama.gov/14104/changes-to-the-alabama-licensing-board-for-general-contractors-section-of-the-code-of-alabama/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama 811 — excavation notice law (two working days)",
+      "url": "https://al811.com/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — NPDES Construction General Permit ALR100000 (one-acre trigger)",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ALDOT — Utility Manual (accommodation permits on state ROW)",
+      "url": "https://www.dot.state.al.us/publications/ROW/pdf/Utilities/UtilityManual.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ALDOT — Permit Operations, Maintenance Bureau (OS/OW and ROW permits)",
+      "url": "https://www.dot.state.al.us/maweb/permitsoperations.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Historical Commission — Section 106 review FAQs (30-day clock)",
+      "url": "https://ahc.alabama.gov/section106FAQ.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USFWS Alabama Ecological Services — Bats in Alabama (clearing-window driver)",
+      "url": "https://www.fws.gov/office/alabama-ecological-services/bats-alabama",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADECA — federal approval of Alabama's $1.4B broadband expansion plan (Oct 2024)",
+      "url": "https://adeca.alabama.gov/2024/10/17/alabama-receives-federal-approval-to-deploy-1-4-billion-broadband-expansion-plan/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor Ivey — final BEAD proposal approved, $460M across 63 projects (Mar 2026)",
+      "url": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Division of Construction Management — state building code scope",
+      "url": "https://dcm.alabama.gov/bldg_code.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "9to5Google — Google Fiber launches in Huntsville by leasing municipal fiber",
+      "url": "https://9to5google.com/2017/05/23/google-fiber-huntsville-alabama/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "PLAN §4.2 Alabama approach — leadership decision",
+      "attempted": "Open program decision before the state ships: (1) keep all six markets as Band B/C deployment pages — the plan's default and how these files are written; (2) trim to Huntsville, Birmingham, and Mobile at launch; or (3) treat Alabama as the next yard decision (a Birmingham or Huntsville facility would put all six markets plus much of the Southeast in Band A). Note: real road routing moves Huntsville to the Dallas yard (671 mi vs 706 from Cedar Rapids), which puts all six Alabama markets on Dallas."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "designCriteriaVariation — numeric wind/frost/snow ranges",
+      "attempted": "ASCE Hazard Tool sweep not completed (tool unreachable from this environment); frost depths must come from each AHJ's adopted code text. Narrative is qualitative only until the sweep runs."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "codeAdoption — per-city edition confirmation",
+      "attempted": "Huntsville 2021-family and Birmingham 2015-family editions are from permit-guide and Municode secondary sources; city adoption ordinances (huntsvilleal.gov PDF, Birmingham Technical Code) were proxy-blocked and need direct confirmation."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
+      "field": "dotRowProcess — ALDOT region/district assignments per market",
+      "attempted": "ALDOT region structure confirmed from ALDOT pages, but the specific district office serving each of the six markets was not confirmed; verify against the ALDOT region/district map before publish."
     },
     {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
+      "field": "contractorLicensing — CSS's actual Alabama license status",
+      "attempted": "RESEARCH.md sources CSS qualifications from ops. Do not publish an Alabama licensing claim for CSS until ops confirms the license number, classifications, and bid limit."
     },
     {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
+      "field": "environmentalReview — USACE district county assignments",
+      "attempted": "Nashville District (Tennessee basin) vs Mobile District split is documented on USACE pages, but the county-level boundary page was proxy-blocked; confirm Madison and Jefferson county assignments."
     },
     {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "telecomLandscape — BEAD subgrantee/award detail by market",
+      "attempted": "Statewide award totals sourced (Mar 2026); per-county subgrantee lists not yet compiled. Recheck quarterly as ADECA publishes project detail."
     }
   ]
 }

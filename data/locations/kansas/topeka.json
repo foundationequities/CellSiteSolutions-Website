@@ -1,0 +1,653 @@
+{
+  "identity": {
+    "slug": "topeka",
+    "city": "Topeka",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateAbbr": "KS",
+    "counties": [
+      "Shawnee"
+    ],
+    "msa": "Topeka, KS (Shawnee, Jackson, Jefferson, Osage, and Wabaunsee counties)",
+    "tier": 2,
+    "latitude": 39.0473,
+    "longitude": -95.6752,
+    "elevationFt": 948,
+    "population": {
+      "value": 126587,
+      "source": "U.S. Census Bureau, 2020 Census count — confirm the current vintage estimate against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-70 (Kansas Turnpike east of the city)",
+      "I-470",
+      "I-335 (Kansas Turnpike)"
+    ],
+    "majorRoutes": [
+      "US-75",
+      "US-24",
+      "US-40",
+      "K-4"
+    ]
+  },
+  "metadata": {
+    "title": "Topeka, KS Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Topeka, KS — shelter and hut foundations, duct bank, bores, and compound work for the capital's fiber, wireless, and edge builds.",
+    "h1": "Telecom Site Civil Construction in Topeka, Kansas",
+    "intro": "State capitals concentrate networks, and Topeka proves it: the Capitol complex and state-agency systems, Evergy's headquarters, the BNSF and Union Pacific corridors along the Kansas River, and the I-70/I-470/I-335 turnpike junction all pull fiber, wireless, and edge infrastructure into Shawnee County. CellSite Solutions self-performs the civil scope behind that infrastructure from our Cedar Rapids, Iowa yard — foundations set below Topeka's code-amended 36-inch footing depth, duct bank and directional bores, generator pads, grounding, and compound construction. History does some of the engineering here, too: the 1951 Kansas River flood built the federal levee and Soldier Creek diversion system that still defines north-side siting, and the F5 tornado that tore through the city in 1966 is why hardened, restorable sites matter in this market.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Northeast Kansas sits in a low national seismic hazard tier. Publish Ss/S1 only from a USGS design-maps query at the site coordinates; treat site class as site-specific, particularly on Kansas River alluvium north of downtown."
+    },
+    "frostDepthIn": {
+      "value": 36,
+      "source": "Topeka Municipal Code 14.55.470 (one- and two-family dwelling code amendment): exterior footings placed not less than 12 in. below undisturbed ground and at least 36 in. below final grade; TMC 14.55.480 requires frost protection per the amended Table R301.2(1). Search-extracted — open the section text at topeka.municipal.codes before sign-off and confirm the commercial-code figure matches",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Topeka lends its name to a Pennsylvanian rock unit — the Topeka Limestone — and that is the story of its uplands: gently dipping alternating limestone and shale beds of the Pennsylvanian sequence under a loess and residuum cover. The Kansas River cuts the city in half with a broad alluvial valley of sands and silts, joined from the north by Soldier Creek and its engineered diversion channel; North Topeka, Oakland, and the industrial river corridor all sit on that valley fill. (Kansas Geological Survey mapping and Shawnee County floodplain hydrology documentation — confirm unit details against KGS publications before sign-off.)",
+    "dominantSoilTypes": [
+      "Kansas River and Soldier Creek alluvium — sands and silts (North Topeka, Oakland, river corridor)",
+      "Loess over Pennsylvanian limestone-shale residuum (uplands)",
+      "Colluvial clays on valley-wall slopes"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Shale-derived clays in the Pennsylvanian sequence can carry shrink-swell potential; grade a site only from NRCS linear-extensibility data or a geotechnical report, neither of which was reachable at authoring time.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The limestone-shale bedrock under Shawnee County is not among Kansas's mapped karst concerns, which concentrate in central and south-central gypsum terrain and the Flint Hills. Confirm during site-specific geotechnical investigation."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Topeka foundations start from the code floor — footings at least 36 inches below final grade per the city's amended code — and then diverge by valley position. South-side and upland sites generally offer competent limestone-shale ground where spread footings and conventional shelter pads work well, with the caveat that ledge rock can surface at duct bank depth and shift cost from concrete to excavation. North of the river and through Oakland, sites sit on Kansas River and Soldier Creek alluvium: saturated granular soils that push designs toward drilled piers or engineered mats, demand dewatering planning, and — decisively — sit behind or near the federal levee system, which adds floodplain and levee-coordination screening before foundation type is even discussed. Site-specific borings govern every one of these calls."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Topeka Development Services Division",
+        "url": "https://www.topeka.org/development-services/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers building permits and the city's contractor licensing under the municipal code. Published review times were not found — confirm the current queue by phone before committing a schedule."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Building Code, adopted at Topeka Municipal Code 14.20.010 (Ordinance 20408), with companion I-codes and local amendments",
+      "source": "Topeka Municipal Code Title 14 via topeka.municipal.codes and the Development Services adopted-codes page — verify the section text directly before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Topeka Public Works (right-of-way and excavation permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "A city permit is required for work in public right-of-way; the city's permit pages were not directly reachable at authoring time — confirm current portal, bond, and traffic-control requirements with Public Works."
+    },
+    "stateDotDistrict": {
+      "name": "KDOT District One — Northeast Kansas, headquartered in Topeka (new SE 21st & Rice Rd campus opened March 2026)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District One covers Shawnee County; US-75, US-24, US-40, and K-4 permits run through it. I-70 east of the city and I-335 south are Kansas Turnpike — coordinate turnpike crossings with the Kansas Turnpike Authority."
+    },
+    "oneCallCenter": {
+      "name": "Kansas 811",
+      "url": "https://kansas811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice at least two full working days before excavation, excluding the day of notice, weekends, and holidays; markings are valid 20 calendar days under Kansas law.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Kansas Department of Health and Environment (KDHE) — construction stormwater general permit",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI to KDHE before disturbing an acre or more; the current general permit terms were not directly readable at authoring time — verify with KDHE's Bureau of Water before filing."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Topeka (inside city limits) / Shawnee County floodplain management (unincorporated areas)",
+      "url": "https://www.snco.gov/floodplain/hydrology.php",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The county publishes hydrology documentation for the Kansas River, Soldier Creek, and Shunganunga Creek watersheds; floodplain development permits precede work in mapped zones."
+    },
+    "permitTimelineNarrative": "Plan a Topeka schedule in layers. Development Services issues the building permit under the 2021 IBC and licenses the contractor — line up licensing first. Right-of-way work adds a Public Works permit, and state-route work adds KDOT District One, whose own headquarters is in town; turnpike segments bring in the Kansas Turnpike Authority separately. An acre of disturbance triggers the KDHE stormwater NOI ahead of ground-breaking. The layer people underestimate is the river: sites in North Topeka and Oakland sit in or behind the federal levee system, where floodplain development permits and — for anything touching the levee footprint — USACE coordination lead the schedule rather than follow it. Confirm every queue by phone; none of these authorities publish review times we could verify."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy (Kansas Central, legacy Westar territory)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Evergy is dual-headquartered in Topeka and Kansas City, Missouri — this is one of its two home-office cities — and is the largest electric utility in Kansas at more than 1.7 million customers. New-service lead times are not published; schedule energization from Evergy's written confirmation. Kansas Gas Service is the natural gas utility where generator fuel service applies."
+      }
+    ],
+    "ilec": "AT&T Kansas (Southwestern Bell legacy territory) — consistent with AT&T's position as the city's dominant fiber provider; confirm exchange boundaries against Kansas Corporation Commission maps before publishing",
+    "notableFiberProviders": [
+      "AT&T Fiber (roughly half the city per FCC-derived coverage data)",
+      "Cox Communications (fiber and HFC)",
+      "Giant Communications (regional)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": {
+        "name": "Shawnee County Public Works (posted bridges and local road limits)",
+        "url": null,
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Kansas has no statewide spring frost-law regime; posted bridges and county road limits apply year-round rather than on a thaw calendar. The routing questions for a Topeka shelter haul are turnpike tolling and gates on I-70/I-335 and river-bridge choices, not seasonal embargoes."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Kansas DOT oversize/overweight permitting (K-TRIPS online routing and permit system)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Covers state-maintained routes; Kansas Turnpike segments require separate KTA coordination, and city streets need local authorization. Confirm the current portal and lead times before booking a haul."
+    },
+    "bridgeOrClearanceConstraints": "Oversize moves between the two halves of the city funnel over a small set of Kansas River bridges (US-75, Topeka Boulevard, Kansas Avenue); route-check clearances and load ratings rather than assuming the shortest crossing works.",
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Topeka is historic Santa Fe railroad ground — the ATSF was chartered here and BNSF still operates shop facilities in the city — and BNSF's Topeka Subdivision (host to Amtrak's Southwest Chief) runs through town. Utility crossings go through BNSF's permit process with railroad protective liability insurance typically required; timelines are long, so file early."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP operates along the Kansas River corridor through Topeka; crossings run through UP's real-estate licensing process. Treat crossing approvals as a long-lead item on any river-corridor route."
+      }
+    ],
+    "urbanRowRequirements": "Downtown work around the Capitol complex involves state-owned grounds and facilities alongside city ROW — establish early which authority controls each segment. City traffic-control and restoration requirements were not directly readable at authoring time; confirm submittal requirements with Public Works before pricing downtown underground work."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Listed bat species range covers eastern Kansas; the clearing window applicable to a given site is confirmed through a project-specific USFWS IPaC review",
+      "source": null
+    },
+    "shpo": {
+      "name": "Kansas Historical Society — State Historic Preservation Office (headquartered in Topeka)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 review applies to federally funded builds, including BEAD routes. The Capitol area and Topeka's historic districts raise the odds of SHPO involvement on downtown work."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory program; KDHE for state water quality certification",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Kansas City District (NWK)",
+    "listedSpeciesNote": "The Topeka shiner — the endangered prairie minnow that carries this city's name — is the region's signature listed species and gets flagged on work in and along small prairie streams; listed bats are the likely flag on tree clearing. Run a project-specific USFWS IPaC query rather than relying on county-level generalities.",
+    "floodplainPrevalenceNote": "The July 1951 flood — 24 dead and $760 million in 1951 dollars across the basin — is the event Topeka's flood geography is built around. Congress expanded the Topeka Flood Protection Project in 1954, and the Soldier Creek Diversion Unit, including a 7.8-mile diversion channel, was constructed 1957–1961; USACE still inspects these federal levee systems on a five-year cycle. North Topeka, Oakland, and the river-corridor industrial areas sit behind that system, so floodplain screening and levee coordination are first-order siting questions there. Current FEMA accreditation status of each levee unit was not verified at authoring time."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Intermittent frozen ground; open workable stretches between cold snaps",
+        "earthworkConcrete": "constrained",
+        "note": "Winter concrete protection required; frost is shallower and less persistent than in the upper Midwest"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw cycling; soft subgrades on warm afternoons",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawed and windy; ground firms through the month",
+        "earthworkConcrete": "workable",
+        "note": "Severe-weather season opens"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Workable; rainfall building toward the annual peak",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Productive between storm systems; peak severe-weather month",
+        "earthworkConcrete": "favorable",
+        "note": "Hail and high-wind days interrupt crane and pour schedules"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, workable; heavy convective rainfall possible",
+        "earthworkConcrete": "favorable",
+        "note": "The 1966 tornado and the 1951 flood were both June–July events — peak season for both hazards"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot; extended stretches above 95°F occur",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on afternoon pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot and dry; hard subgrades, dust control on granular surfaces",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm, stable, drying — a strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cool and firm; first freeze typically late in the month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; ground open most of the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "First sustained freezes; snow events typically short-lived",
+        "earthworkConcrete": "constrained",
+        "note": null
+      }
+    ],
+    "narrative": "Topeka's construction year runs longer than a northern crew expects: winter is a freeze-thaw negotiation rather than a shutdown, so December through February carries protection cost instead of lost months, and the 36-inch footing depth keeps winter excavation manageable. What the calendar gives in winter it takes back in storm season — April through June concentrates the rainfall, hail, and tornado risk that interrupts pours and crane days, and both of the city's defining disasters (the 1951 flood, the 1966 tornado) were warm-season events. Read the month-by-month characterizations against NOAA climate normals for the Topeka station before publication; that check is an open item."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Upland duct bank and foundation work can meet Pennsylvanian limestone ledges — including the city's namesake Topeka Limestone — at design depth; valley-fill sites north of the river carry essentially no rock risk but buy water handling instead.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Kansas has had no state prevailing wage law since the 1987 repeal; federal Davis-Bacon applies to federally funded work, including Kansas BEAD broadband builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter cost is freeze-thaw protection rather than deep-frost excavation; summer adds hot-weather concrete measures. Storm-season standby and re-mobilization risk in April–June is the premium peculiar to this region.",
+    "narrative": "What moves a Topeka civil number is position relative to the river. South and west uplands trade in rock risk — limestone ledges at trench depth — while North Topeka and Oakland trade in water: dewatering, deeper foundations on alluvium, floodplain permitting, and levee-coordination time that shows up as schedule cost before it shows up as dollars. The regulatory layers are cheap but sequential — city permit, ROW permit, KDHE NOI, floodplain permit — and the levee-related reviews are the ones that cannot be compressed by paying more. Mobilization from Cedar Rapids is a real line on small scopes, which is why Topeka work prices best bundled into multi-site deployments along the I-70 corridor. Drivers only: every site prices to its own borings and its own month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Kansas licenses no general contractors at the state level — licensing is municipal, and Topeka runs its own contractor licensing through Development Services under the municipal code (which defines multiple license classes, including nontrade contractor licenses at TMC ch. 5.63). Confirm the class and any trade licenses required for the scope before permit submittal; out-of-state contractors also carry standard Kansas Secretary of State corporate registration.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "flood",
+      "hail",
+      "ice storm",
+      "extreme heat"
+    ],
+    "designImplications": "Topeka's two defining disasters still shape site design. The June 8, 1966 F5 tornado cut a 22-mile path a half-mile wide through the heart of the city — 17 dead, damage that was the costliest in U.S. history at the time — and it is the standing argument for conservative anchorage, hardened compounds, and restorable site design here. The 1951 flood built the levee system that makes floodplain position, not just elevation, the first screening question north of the river. Hail and ice drive equipment shielding and grounding detail; July heat drives pour scheduling. Site-specific wind and ice values await ASCE 7 and TIA-222 lookups.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Kansas BEAD: $451.7M program; restructured final proposal approved",
+        "detail": "Kansas ran application rounds on its $451.7M BEAD allocation in late 2024 and NTIA has approved the state's restructured $166.6M final proposal (about 30% fiber, 67% fixed wireless, 3% LEO). Rural Shawnee County and the surrounding counties of the Topeka MSA fall inside the program footprint.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.governor.ks.gov/Home/Components/News/News/866/55",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "KDOT opens new Northeast Kansas headquarters in Topeka",
+        "detail": "KDOT's District One / Northeast Kansas headquarters campus at SE 21st and Rice Road opened in March 2026, consolidating district operations in Topeka — the permitting counterpart for state-route utility and access work across the 17-county district.",
+        "category": "transportation",
+        "sourceUrl": "https://www.wibw.com/2026/03/10/kansas-department-transportation-celebrates-opening-new-topeka-headquarters/",
+        "asOf": "2026-03-10"
+      },
+      {
+        "headline": "AT&T Fiber and Cox compete across roughly 39%-fiber Topeka",
+        "detail": "FCC-derived coverage data shows fiber available to roughly 39% of Topeka, led by AT&T Fiber at about half the city with Cox building fiber in several quadrants — an active competitive wireline market with room to grow, which is what keeps hut, duct bank, and lateral civil work moving.",
+        "category": "carrier program",
+        "sourceUrl": "https://broadbandnow.com/Kansas/Topeka",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber work in Topeka orbits two anchors. The first is the state: capital-city government networks concentrate demand around the Capitol complex and agency campuses, and downtown routes there negotiate state-owned grounds alongside city ROW. The second is the river corridor, where the constraint stack is unusually deep — any north-south route crosses the Kansas River, the BNSF and UP lines, and the federal levee system in sequence, and a bore that touches the levee footprint brings USACE coordination into what would otherwise be a routine crossing. AT&T Fiber and Cox are both building in a market only about 39% fibered, and BEAD-funded routes serve the rural counties ringing the MSA. Alluvium north of the river bores fast but wet; upland routes can meet Topeka Limestone at trench depth.",
+      "localSpecificsReferenced": [
+        "Capitol complex and state-agency networks",
+        "Kansas River / BNSF / UP / levee crossing stack",
+        "AT&T Fiber and Cox builds (~39% fiber coverage)",
+        "Topeka Limestone at trench depth"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Topeka wireless civil is resilience work with an address: the 1966 F5 tornado crossed the whole city on a 22-mile path, and sites here get specified accordingly — anchorage, generator pads with containment, and compounds designed to be restored fast after wind and hail events. Foundations start at the city's 36-inch code footing depth and adjust by geology, shallow-bearing on upland limestone-shale ground versus deeper solutions on North Topeka alluvium. Coverage geometry follows the interchange city: the I-70/I-470/I-335 turnpike ring and the US-75 corridor generate highway-serving macro sites where KDOT District One — headquartered in town — and the Kansas Turnpike Authority shape access, staging, and crossing permissions. Evergy, run from its Topeka home office, is the service counterpart on every compound energization.",
+      "localSpecificsReferenced": [
+        "1966 F5 tornado 22-mile path",
+        "TMC 36-inch footing depth",
+        "I-70/I-470/I-335 turnpike ring and US-75",
+        "Evergy Topeka headquarters"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads",
+        "hyperscale campus civil support"
+      ],
+      "narrative": "Topeka has no announced hyperscale campus, and we won't invent one. Its edge case is built from three real ingredients: a state government whose agencies increasingly need local compute and hardened network rooms; Evergy's home-office presence, which puts utility-yard, transformer-pad, and substation-adjacent civil work in play as the grid modernizes; and a south-side industrial corridor — anchored by the Mars Chocolate and Frito-Lay plants along the US-75 corridor — whose automation traffic favors on-premise edge enclosures over long backhauls. The civil scope repeats across all three: pads, generator yards with fuel containment, campus duct bank, and security hardening. On this geology, edge pads on upland ground bear shallow and well; anything sited in the river-corridor industrial zone inherits the levee-district screening questions first.",
+      "localSpecificsReferenced": [
+        "State-agency compute demand (capital city)",
+        "Evergy home-office grid investment",
+        "Mars / Frito-Lay US-75 industrial corridor",
+        "River-corridor levee screening"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 345,
+      "driveTimeHours": 5.9,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Shawnee",
+      "Jackson",
+      "Jefferson",
+      "Osage",
+      "Wabaunsee"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Topeka from the Cedar Rapids yard means crossing three states — I-80 across Iowa, I-35 down through the Kansas City metro, then the Kansas Turnpike west — so we run Topeka work as planned deployments: crews position the evening before, work the scope in consecutive days, and demobilize once, rather than burning schedule on repeated round trips. Once on the ground, the I-70/I-470/I-335 ring distributes crews across Shawnee County quickly, and the same turnpike geometry serves storm-restoration moves after the wind, hail, and ice events this market is known for. The mileage and drive time shown are seed estimates pending verification against actual routing, and no response-time commitment is published without ops clearance.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do telecom foundations need to go in Topeka?",
+      "answer": "Topeka's municipal code amendments require exterior footings at least 36 inches below final grade (TMC 14.55.470, with frost protection per the amended climatic table at 14.55.480). We design shelter pads, hut foundations, and piers to clear that depth, and site-specific geotechnical work governs the final design — especially on river-valley alluvium where bearing, not frost, controls.",
+      "segment": "general"
+    },
+    {
+      "question": "What building code does Topeka enforce, and who reviews the permit?",
+      "answer": "The City of Topeka Development Services Division reviews permits under the 2021 International Building Code, adopted at Topeka Municipal Code 14.20.010 with local amendments. Development Services also runs the city's contractor licensing, so get licensing settled before submittal. Published review times aren't posted — confirm the current queue by phone.",
+      "segment": "general"
+    },
+    {
+      "question": "Does underground work near the Kansas River levees in Topeka need extra approvals?",
+      "answer": "Assume yes. North Topeka and Oakland sit behind the federal levee and Soldier Creek diversion system built after the 1951 flood, so river-corridor routes stack floodplain development permits on top of ROW permits — and any bore or excavation touching the federal levee footprint brings USACE coordination into the schedule. These reviews can't be compressed by paying more; they lead the schedule.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Topeka in January?",
+      "answer": "Usually, yes. Northeast Kansas winters run to freeze-thaw cycling rather than months of locked frost, so January work is a matter of winter concrete practice — protection, admixtures, and picking pour windows — priced up front. It's a lighter winter premium than our upper-Midwest markets carry, which is one of the quiet advantages of building in this part of Kansas.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Why does tornado history matter for how sites are built in Topeka?",
+      "answer": "Because the benchmark event happened here: on June 8, 1966, an F5 tornado cut a 22-mile path a half-mile wide through the middle of the city, killing 17 and setting what was then the U.S. damage record. That history argues for conservative anchorage, hardened generator and fuel systems, and compounds designed for fast post-storm restoration — and it's why restoration capability is part of how we scope this market.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which railroads affect fiber routes in Topeka?",
+      "answer": "BNSF and Union Pacific. Topeka is old Santa Fe ground — the ATSF was chartered here and BNSF still operates shops in the city — and BNSF's line through town hosts Amtrak's Southwest Chief, while UP works the Kansas River corridor. Both railroads' crossing processes are long-lead items with railroad protective liability insurance typically required, so we file crossing applications at route design, not at construction.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What's the lead time for new Evergy service to a hut or compound in Topeka?",
+      "answer": "Evergy doesn't publish standing lead times for new commercial service, and we won't guess one. The honest schedule practice is to file the service application at design stage, get Evergy's written confirmation, and hold energization as a milestone driven by the utility — Topeka being one of Evergy's two headquarters cities doesn't shorten the queue, but it does make coordination straightforward.",
+      "segment": "edge"
+    },
+    {
+      "question": "Is prevailing wage required on broadband builds in Kansas?",
+      "answer": "There is no Kansas prevailing wage law — the state repealed its act in 1987. Federal Davis-Bacon requirements still apply to federally funded work, which includes Kansas BEAD broadband projects, so BEAD subgrantees should carry certified payroll and federal wage determinations in their pricing even though state-funded work carries neither.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in Topeka right now?",
+      "answer": "A capital city catching up on fiber: only about 39% of Topeka has fiber available, and AT&T Fiber and Cox are both building. Add state-agency network demand around the Capitol complex, BEAD-funded routes in the surrounding rural counties, Evergy grid work generating utility-adjacent civil scope, and the south-side industrial corridor's automation traffic, and the pipeline covers all three segments we build for.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Boring, trenching, and the levee line: routing underground work through Topeka",
+    "body": "The most expensive underground mistake in Topeka is treating the river as one obstacle. A north-south route actually crosses a stack: the Kansas River itself, the BNSF and UP corridors on its flanks, and the federal levee and Soldier Creek diversion system — and each layer has its own authority, its own timeline, and its own veto. The engineering answer is usually a directional bore, and the alluvium bores fast; the schedule answer is that railroad crossing agreements and any USACE levee-footprint coordination are the long poles, so a route that crosses everything at one carefully chosen corridor beats a route that nibbles at the stack in three places. South of downtown the calculus changes entirely: no water, no levees, but Pennsylvanian limestone — including the city's namesake Topeka Limestone — can sit at trench depth, and the trench-versus-bore decision becomes a rock question. Trenching pays until you meet ledge; boring through rock costs more per foot but keeps surface restoration off Capitol-area streets, which carry their own restoration expectations. Pick the crossing corridor first, price the rock second, and file the railroad applications the week the route is drawn."
+  },
+  "sources": [
+    {
+      "label": "Topeka Municipal Code 14.55.470 — minimum footing depth (36 in. below final grade)",
+      "url": "https://topeka.municipal.codes/TMC/14.55.470",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Topeka Development Services — adopted codes (2021 IBC, TMC Title 14)",
+      "url": "https://www.topeka.org/development-services/adopted-codes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Topeka Municipal Code ch. 5.63 — contractor licensing (nontrade contractor license)",
+      "url": "https://topeka.municipal.codes/TMC/5.63.060",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Historical Society — Topeka Tornado 1966 (F5, June 8, 1966)",
+      "url": "https://www.kansashistory.gov/kansapedia/topeka-tornado-1966/17242",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Army — Soldier Creek levee system periodic inspections (1951 flood, 1954 project expansion, 1957–1961 diversion construction)",
+      "url": "https://www.army.mil/article/293505/built_by_disaster_sustained_by_partnerships_conducting_periodic_inspections_of_the_soldier_creek_levee_system",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Shawnee County — floodplain management hydrology (Kansas River, Soldier Creek, Shunganunga Creek)",
+      "url": "https://www.snco.gov/floodplain/hydrology.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas 811 — excavator notice requirements (two full working days)",
+      "url": "https://kansas811.com/faqs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT District One — Northeast Kansas (HQ Topeka; 17 counties)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WIBW — KDOT opens new Topeka headquarters (March 2026)",
+      "url": "https://www.wibw.com/2026/03/10/kansas-department-transportation-celebrates-opening-new-topeka-headquarters/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Governor's Office — NTIA approval of $166.6M BEAD final proposal",
+      "url": "https://www.governor.ks.gov/Home/Components/News/News/866/55",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Evergy — company overview (dual headquarters Topeka and Kansas City, MO; largest Kansas electric utility)",
+      "url": "https://en.wikipedia.org/wiki/Evergy",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BroadbandNow — Topeka, KS provider and fiber coverage data (AT&T Fiber, Cox, Giant)",
+      "url": "https://broadbandnow.com/Kansas/Topeka",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "National Alliance for Fair Contracting — Kansas prevailing wage repeal (1987)",
+      "url": "https://faircontracting.org/wp-content/uploads/2019/06/kansas_prevailing_wage.pdf",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic Ss-S1 / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox egress proxy; no primary values surfaced in search. Resolve from an unproxied machine."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — direct text verification",
+      "attempted": "The 36-in. figure is search-extracted from TMC 14.55.470/14.55.480 (topeka.municipal.codes returned 403 through the proxy). Reviewer must open the section text directly, and confirm the commercial (IBC Ch. 18) figure matches the dwelling-code amendment, before sign-off."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — ordinance verification",
+      "attempted": "2021 IBC / Ordinance 20408 at TMC 14.20.010 confirmed only via search snippets; the city and municipal-code sites were not directly readable. Verify section text before publish."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority / stormwaterAuthority — portals and current permits",
+      "attempted": "topeka.org and KDHE pages blocked through proxy; ROW permit process details and the current KDHE construction stormwater general permit need direct confirmation."
+    },
+    {
+      "field": "geotech quantitative values (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and Kansas Geological Survey publications unreachable through proxy; geology is published qualitatively and flagged for KGS confirmation, including the Topeka Limestone attribution."
+    },
+    {
+      "field": "environmental — levee FEMA accreditation status; tree-clearing window dates",
+      "attempted": "FEMA accreditation status of the Topeka/Soldier Creek levee units not verified; USFWS IPaC unreachable, so the bat clearing window is flagged without dates rather than generalized."
+    },
+    {
+      "field": "seasonality — NOAA normals check",
+      "attempted": "NCEI normals for the Topeka station not readable through proxy; calendar authored from regional climate knowledge pending the station-table check."
+    },
+    {
+      "field": "utilities — ILEC exchange boundaries; Evergy new-service process URL and lead times",
+      "attempted": "AT&T Kansas attribution from legacy Southwestern Bell territory and coverage position; KCC exchange maps not queried. Evergy's new-construction documentation not directly readable."
+    },
+    {
+      "field": "segments.edge — Mars and Frito-Lay corridor attribution",
+      "attempted": "Both plants are widely documented Topeka industrial anchors but no primary source was reachable through the proxy; confirm before sign-off or soften the reference."
+    },
+    {
+      "field": "operations.nearestBase — routing verification; countiesServed",
+      "attempted": "345 mi / 5.9 h are seed straight-line-derived estimates pending a real routing check (I-80/I-35/Kansas Turnpike); the county coverage list needs ops sign-off."
+    },
+    {
+      "field": "identity.elevationFt / population vintage",
+      "attempted": "Elevation is the commonly published GNIS figure; population is the 2020 Census count. Census QuickFacts not directly readable for the current vintage estimate."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 2 publish gate requires at least 1 project and 3 images from the CSS project intake; never invented."
+    }
+  ]
+}

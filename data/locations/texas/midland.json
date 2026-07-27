@@ -1,0 +1,695 @@
+{
+  "identity": {
+    "slug": "midland",
+    "city": "Midland",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Midland",
+      "Ector"
+    ],
+    "msa": "Midland, TX and Odessa, TX — twin metros forming the Midland–Odessa–Andrews combined area (Midland, Ector, Andrews, Martin counties)",
+    "tier": 2,
+    "latitude": 31.9973,
+    "longitude": -102.0779,
+    "elevationFt": 2782,
+    "population": {
+      "value": 134775,
+      "source": "Texas Demographics / World Population Review, republishing U.S. Census 2023 estimates (city of Midland; the four-county combined area is ~365,590) — confirm vintage against Census QuickFacts",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-20"
+    ],
+    "majorRoutes": [
+      "SH-191 (Midland–Odessa corridor)",
+      "Loop 250",
+      "SH-349"
+    ]
+  },
+  "metadata": {
+    "title": "Midland–Odessa Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Midland-Odessa, TX - caliche excavation, oilfield fiber and compound builds for the Permian Basin's private wireless networks.",
+    "h1": "Telecom Site Civil Construction in Midland–Odessa, Texas",
+    "intro": "The Permian Basin buys telecom civil differently than any other Texas market: the customers are as likely to be operators running private LTE across their lease acreage as they are carriers filling coverage maps. Midland–Odessa sits on the Southern High Plains' caliche — cemented petrocalcic hardpan that changes how every trench, bore, and foundation gets priced — and inside a basin where TexNet instruments record real induced earthquakes and the Railroad Commission has drawn seismic response areas across Midland and Ector counties. CellSite Solutions deploys crews from our Dallas yard on a project basis for compound builds, oilfield fiber civil, and pad work across the twin metros, staging locally and buying concrete and aggregate in-market.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC — City of Midland 2018 I-codes effective July 1, 2019; City of Odessa 2018 IBC effective July 1, 2018)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "The Permian Basin is the one Texas market where seismicity is a live, monitored condition rather than a code footnote: UT-Austin's TexNet network operates dense instrumentation here, peer-reviewed TexNet research attributes the recent uptick to saltwater disposal and hydraulic fracturing, and the Railroad Commission's Gardendale Seismic Response Area spans roughly 100 square miles of Midland and Ector counties with injection restrictions. Numeric Ss/S1 design values must still come from a USGS design-maps query at site coordinates before publication — recorded induced events do not translate directly into design category."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Midland–Odessa sits on the Southern High Plains surface: calcareous, loamy eolian and lacustrine sediments of the Pleistocene Blackwater Draw and Tahoka Formations over the Ogallala Formation, whose upper zone carries the region's signature high-percentage calcium-carbonate caliche. The NRCS Midessa series — very deep, well-drained fine sandy loam formed in those calcareous eolian deposits — typifies the uplands, while shallow soils like the Dermott series sit directly on fractured, weathered petrocalcic (caliche) horizons of the Ogallala. (NRCS Official Series Descriptions; New Mexico Bureau of Geology Circular 144 on Ogallala caliche zonation.)",
+    "dominantSoilTypes": [
+      "Midessa fine sandy loam (calcareous eolian uplands)",
+      "Shallow petrocalcic soils over Ogallala caliche (Dermott-type)",
+      "Draw and playa clays along Midland and Monahans Draws"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "low",
+    "expansiveSoilNote": "The upland soils are loamy, calcareous, and generally low shrink-swell — the opposite of the Blackland clays of central Texas. The local exceptions are clayey draw and playa-bottom soils, which behave differently and should be treated as site-specific. Numeric NRCS shrink-swell ratings for the mapped units are pending a Web Soil Survey query; borings govern.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Cemented caliche is a hard cap, not a dissolution feature; no karst mapping applies to the Midland–Odessa uplands. (Evaporite dissolution zones exist in far-west Texas but were not mapped to this market in research.)"
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Calcareous, alkaline West Texas soils warrant attention to buried steel and ground ring detailing; numeric NRCS corrosion-of-steel and corrosion-of-concrete ratings for the mapped series are pending a Web Soil Survey query and should be added before publication.",
+    "foundationApproachNarrative": "The caliche decides the excavation method before the structural engineer decides anything else. Across Midland–Odessa uplands, cemented petrocalcic horizons sit shallow enough that trenching, drilled piers, and even fence-post holes routinely hit rock-like material — production rates drop, teeth wear, and a rock clause belongs in every contract. The compensation is that intact caliche makes a firm, dry bearing stratum: pads and drilled foundations that reach or penetrate the cap sit on ground that barely moves, in a climate too dry to sustain much seasonal soil moisture cycling. The design conversation is therefore about depth-to-caliche and its variability across a single compound, not about expansive clay. Draw-bottom and playa-edge sites flip the logic: clayey, occasionally ponded soils with different bearing and drainage behavior. Borings that log caliche depth and hardness are the highest-value dollars spent on a Permian site."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Midland Development Services",
+        "url": "https://www.midlandtexas.gov/1258/Development-Services",
+        "phone": "432-685-7390",
+        "typicalReviewDays": null,
+        "note": "Permitting, plan submittal, and status tracking run through the PermitMidland online portal. Published review times were not posted at research; confirm current timelines directly."
+      },
+      {
+        "name": "City of Odessa Building Inspection",
+        "url": "https://www.odessa-tx.gov/1222/Building-Inspection-Permits",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Odessa permits separately from Midland under its own 2018-code adoption — a two-AHJ market for any program spanning the twin cities."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "City of Midland: 2018 I-codes (IBC/IRC/IMC/IPC/IFGC), 2015 IFC, 2015 IECC, 2017 NEC, effective July 1, 2019. City of Odessa: 2018 IBC and companion codes with 2017 NEC, effective July 1, 2018",
+      "source": "City of Midland Current Building Codes List — https://www.midlandtexas.gov/DocumentCenter/View/4816/Current-Building-Codes-List; City of Odessa 2018 IBC adoption ordinance — https://www.odessa-tx.gov/DocumentCenter/View/85/2018-International-Building-Code-Amendment-PDF",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small cells and network nodes in the public ROW fall under the statewide Texas Local Government Code Chapter 284 regime — capped fees and administrative review — applied separately by each city; check both Midland and Odessa design standards on a twin-city program.",
+    "rowPermitAuthority": {
+      "name": "City of Midland (Engineering / Development Services via PermitMidland) and City of Odessa inside their limits; TxDOT via the RULIS utility permit system on state highway ROW",
+      "url": "https://www.txdot.gov/business/right-of-way/rulis.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Odessa District (12 counties: Andrews, Crane, Ector, Loving, Martin, Midland, Pecos, Reeves, Terrell, Upton, Ward, Winkler)",
+      "url": "https://www.txdot.gov/about/districts/odessa-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The district also runs the HERO roadside response program on the I-20 energy corridor through Midland and Ector counties."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Locate density around oilfield gathering lines, produced-water lines, and buried power makes clean tickets and potholing especially important in this market.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI through STEERS at one acre of disturbance; coverage effective 7 days after filing."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Midland Engineering Services (floodplain and drainage program; Master Drainage Plan includes Midland Draw); Midland County Floodplain Management for unincorporated areas",
+      "url": "https://www.midlandtexas.gov/818/Floodplain-Drainage",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "County mapping shows Zone A/AE/AH along the draws; the county adopted an interim flood planning framework for Monahans and South Draw in December 2021."
+    },
+    "permitTimelineNarrative": "Plan a Permian program around two facts: it is a two-AHJ market, and much of the work is outside either city. Inside Midland, permits run through the PermitMidland portal under the 2018 codes; inside Odessa, a separate submittal under its own 2018-code adoption. Unincorporated Midland and Ector County sites — most oilfield fiber and many compounds — carry no municipal building permit but still take TxDOT RULIS permits on state ROW, county floodplain review along the draws, the TCEQ construction general permit at an acre of disturbance (7-day NOI clock through STEERS), and Texas811 locates at two business days, with extra care for unmapped private oilfield lines."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Oncor Electric Delivery",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Oncor's West Texas territory reaches Midland and Odessa — the same ERCOT wires-company structure as Dallas, with energy purchased through a competitive Retail Electric Provider. Oilfield load growth keeps distribution construction queues busy; confirm the current new-service intake and realistic lead times when scoping."
+      }
+    ],
+    "ilec": "AT&T (most widely available wireline provider in both cities; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber (~66% of Midland)",
+      "Vexus Fiber (early-stage buildout in both cities)"
+    ],
+    "notableDataCenterCampuses": [
+      "Texas Critical Data Centers site, Ector County (announced 250 MW AI/HPC campus, scalable beyond 1 GW)",
+      "FO Permian Partners 320-acre Midland County site (announced off-grid gas-powered data center capacity)"
+    ],
+    "longHaulRouteNotes": "Metro fiber concentrates along the I-20 and Loop 250 corridors; outer subdivisions and oilfield-adjacent pockets still lean on fixed wireless — which is exactly where private LTE and oilfield fiber builds live.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No spring frost laws in Texas — postings are year-round and engineering-based. The practical constraint here is different: heavy oilfield truck traffic on I-20, SH-349, and the farm-to-market grid, which shapes haul timing more than any seasonal rule."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Self-issued, auto-routed permits for most shelter and equipment hauls; check the district permit restriction list for the Odessa district."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP's line through the twin cities anchors oilfield logistics — the Odessa Railport transloads pipe, frac sand, and heavy equipment with 29,000 feet of track. Fiber routes paralleling or crossing the corridor need UP wireline crossing agreements; file early."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Also active in Permian energy traffic; confirm the operating railroad on each crossing before submitting."
+      }
+    ],
+    "urbanRowRequirements": "City ROW permits through Midland's PermitMidland portal or Odessa's process respectively; TxDOT RULIS on the state system, including the SH-191 corridor between the cities."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Plan any brush or vegetation clearing outside the general March 15 – September 15 nesting season, or precede it with a nesting survey",
+      "driver": "Migratory bird nesting under the MBTA (statewide TPWD guidance); no county-specific USFWS bat clearing window surfaced for Midland or Ector counties",
+      "source": "TPWD Environmental Review guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission — Section 106 / Antiquities Code review through eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE regulatory program (district assignment for Midland and Ector counties to be confirmed — USACE regulatory boundaries are watershed-based)",
+      "url": "https://geospatial-usace.opendata.arcgis.com/datasets/70805e1a8fd74e42b0a9585088d6d151_0/explore",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Jurisdictional waters are sparse on the semi-arid uplands; draws and playas still warrant a screen before duct bank or access-road work crosses them."
+    },
+    "usaceDistrict": null,
+    "listedSpeciesNote": "No county-specific species list was compiled in research — run a project IPaC query for Midland or Ector County per site. Playa and draw features can carry migratory-bird and water-related reviews out of proportion to their size.",
+    "floodplainPrevalenceNote": "Flood risk rides the draws, not rivers: Midland Draw crosses the city (the city's Master Drainage Plan gives it a dedicated section), Monahans and South Draw shape county planning, and county mapping shows Zone A/AE/AH pockets. Flat playa basins pond after intense storms; siting a compound off the low ground is cheap insurance."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Dry, mild days; brief hard freezes possible overnight",
+        "earthworkConcrete": "workable",
+        "note": "Occasional West Texas ice events halt travel for a day or two, then clear"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Dry and firm; cold snaps alternate with 60s and 70s",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Dry; spring wind season builds with blowing-dust days",
+        "earthworkConcrete": "favorable",
+        "note": "High-wind days constrain crane picks and enclosure sets"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Dry, warm; wind remains the schedule variable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Thunderstorm season opens; brief heavy cells over caliche shed fast",
+        "earthworkConcrete": "favorable",
+        "note": "Draw and playa sites can pond after storms"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot and dry; ground conditions excellent",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete practice begins"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak heat, highs in the mid-90s and above; bone-dry working ground",
+        "earthworkConcrete": "constrained",
+        "note": "Early-morning pour windows"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat continues; occasional monsoon-pattern storms",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; one of the wetter months in a 14.6-inch year",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime conditions — dry, mild, low wind",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Dry and cool; excellent working ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Dry, mild days with freeze nights; short cold snaps",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather protection on pour nights only"
+      }
+    ],
+    "narrative": "At roughly 14.6 inches of rain a year, Midland–Odessa is close to a year-round construction market — the desert-steppe climate takes away almost every wet-ground excuse the rest of Texas has. What it substitutes are three drier constraints: summer heat that pushes concrete to early-morning windows in July and August, a spring wind season (with blowing dust) that governs crane and enclosure work more than any rain does, and short, sharp winter cold snaps — including occasional ice events that shut down I-20 briefly. Playa and draw sites are the exception to the dry-ground rule after May-through-September thunderstorms. Confirm the month-by-month detail against NWS Midland climate normals before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Cemented caliche (petrocalcic) horizons sit shallow across the uplands — trenching, boring, and drilled-pier production rates all price around it, and a rock clause belongs in every Permian contract.",
+    "aggregateHaulNote": "Caliche itself is the regional base material; select structural fill and specialty aggregate can travel farther. Confirm per program.",
+    "readyMixProximityNote": "Both metros carry ready-mix capacity, but oilfield demand cycles move availability and lead times — schedule pours with the plant, not at it.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Davis-Bacon rates attach to federally funded scopes over $2,000 — including BEAD broadband work — and Texas Government Code Chapter 2258 covers state and locally funded public works; on blended funding the higher schedule controls.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hot-weather concreting in July–August and wind-day contingency in spring; winter carries only occasional freeze-night protection.",
+    "narrative": "Two forces set Permian civil pricing: rock and the oilfield. Caliche is the rock — assume it, price the excavation method for it, and log its depth in borings, because hitting cemented hardpan with the wrong equipment is the fastest way to blow a trenching budget in this market. The oilfield is the economy — when the basin runs hot, labor, rentals, ready-mix, and hotel rooms all tighten at once, and bids that ignore the cycle miss. Working two AHJs (Midland and Odessa) adds duplicate permitting overhead on twin-city programs, while unincorporated sites trade permit fees for longer drives and locate complexity around unmapped private lines. As a project-deployment market served from Dallas, mobilization is a real line item, planned per program with materials bought locally. Drivers, never unit prices — each site prices to its caliche depth and its moment in the cycle."
+  },
+  "compliance": {
+    "stateContractorLicensing": "No statewide general contractor license exists in Texas — building regulation is municipal, so Midland and Odessa each register and permit separately. Statewide trade licensing still applies: electrical through TDLR under a licensed Electrical Contractor with a Master Electrician of record, plumbing through TSBPE. On oilfield and midstream-adjacent sites, owner safety programs (background, drug-and-alcohol, site orientation) function as a de facto second compliance layer.",
+    "additionalRegistrations": [
+      "Owner/operator safety-qualification programs (e.g., ISNetworld-type registries) commonly required for oilfield site access"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme heat",
+      "high wind",
+      "hail",
+      "flood"
+    ],
+    "designImplications": "Design here answers to heat, wind, dust, and the basin's monitored seismicity. Summer heat drives concrete practice and equipment ventilation; spring winds and blowing dust argue for sealed enclosures, filtered HVAC, and conservative anchorage even before the ASCE hazard values are pulled; hail is a routine West Texas exposure. Flood risk is localized to draws and playas — siting does most of the work. TexNet's recorded induced events (with RRC seismic response areas covering parts of Midland and Ector counties) mean instrument-grade sites may carry client-specific vibration or monitoring requirements; numeric wind and seismic design values publish only after ASCE Hazard Tool and USGS queries.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Permian private LTE keeps building out",
+        "detail": "Rigstar Industrial Telecom USA and BLiNQ Networks launched a private LTE network in Midland with planned expansions, joining incumbents like Infrastructure Networks (iNet), whose 700 MHz private LTE has served Permian drilling, completion, pipeline, and production operations since the early 2010s — a steady source of tower, compound, and backhaul civil work.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.businesswire.com/news/home/20220421005173/en/",
+        "asOf": "2022-04-21"
+      },
+      {
+        "headline": "Texas Critical Data Centers advances 250 MW AI/HPC campus near Odessa",
+        "detail": "The New Era Helium / Sharon AI joint venture closed on 235 acres from Grow Odessa in July 2025 for a natural-gas-powered AI/HPC data center designed at 250 MW with room to scale beyond 1 GW — the Permian's stranded-gas-to-compute thesis landing in Ector County.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterfrontier.com/site-selection/article/55289667/powering-ai-in-the-permian-texas-critical-data-centers-sustainable-energy-play",
+        "asOf": "2025-07-15"
+      },
+      {
+        "headline": "FO Permian Partners pitches 5 GW of off-grid gas power for data centers",
+        "detail": "FO Permian Partners announced plans for over 5 GW of off-grid natural gas generation for Permian data centers, with a 320-acre Midland County site offering 150 MW of near-term capacity and phase one targeted operational in 2026.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/fo-permian-partners-unveils-5gw-off-grid-gas-power-solution-for-texas-data-centers/",
+        "asOf": "2025-09-15"
+      },
+      {
+        "headline": "Texas BEAD approved statewide — Permian award detail pending",
+        "detail": "NTIA approved Texas' ~$1.3B BEAD final proposal in November 2025 with construction starting as early as summer 2026; county-level award detail for Midland and Ector counties was not yet published at review time.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "regen and amplifier site civil",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "service lateral to hut"
+      ],
+      "narrative": "Oilfield fiber is its own discipline, and the Permian is its capital: routes run to well pads, compressor stations, SWD facilities, and tank batteries rather than neighborhoods, and the ROW is as often a lease road as a street. Two local facts dominate production. First, caliche — bores and trenches through cemented Ogallala hardpan price differently than soil, and depth-to-caliche varies along a single route. Second, congestion underground: gathering lines, produced-water lines, and buried power lace the basin, much of it privately owned and thinly mapped, which makes locates, potholing, and as-builts the difference between production and a strike. Crossings of UP's corridor near the Odessa Railport need wireline agreements filed early. Metro fiber rides I-20 and Loop 250, and Texas' BEAD construction season opens in 2026.",
+      "localSpecificsReferenced": [
+        "Ogallala caliche boring conditions",
+        "UP Odessa Railport corridor",
+        "oilfield gathering and produced-water line congestion",
+        "I-20 / Loop 250 fiber corridors"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in the Permian serves two customers at once: carriers covering the twin metros and the I-20 corridor, and operators running private LTE across lease acreage — iNet's 700 MHz network has covered Permian operations since the early 2010s, and Rigstar/BLiNQ launched Midland private LTE capacity in 2022. Private-network compounds are oilfield sites first: lease-road access, dust-sealed enclosures, generator autonomy where utility service lags, and owner safety-program compliance for every crew member on location. Foundations are a caliche conversation — drilled piers that seat in cemented hardpan bear well, but the drilling itself prices like rock. Spring wind and blowing dust shape anchorage, sealing, and crane scheduling; summer pours move to morning windows.",
+      "localSpecificsReferenced": [
+        "iNet 700 MHz Permian private LTE",
+        "Rigstar/BLiNQ Midland private LTE launch",
+        "caliche drilled-pier conditions",
+        "oilfield lease-road access and safety-program compliance"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The Permian edge story is stranded gas turning into compute. Texas Critical Data Centers (the New Era Helium / Sharon AI venture) closed on 235 acres in Ector County for a 250 MW AI/HPC campus designed to scale past 1 GW, and FO Permian Partners is marketing over 5 GW of off-grid gas generation with a 320-acre Midland County site — projects that arrive as utility-yard pads, generator yards, campus duct bank, and heavy-haul access long before anyone racks a server. Alongside the announcements, the working edge demand is operational: drilling automation, remote operations centers, and SCADA aggregation points that want hardened micro-DC pads with generator autonomy near the wellfield. Both flavors sit on the same caliche and price around the same oilfield labor cycle as everything else in the basin.",
+      "localSpecificsReferenced": [
+        "Texas Critical Data Centers Ector County campus",
+        "FO Permian Partners Midland County site",
+        "off-grid gas-powered compute model"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 335,
+      "driveTimeHours": 5.2,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Midland",
+      "Ector",
+      "Martin",
+      "Andrews"
+    ],
+    "stagingApproach": "Deployment staging in the Midland–Odessa metro for the duration of a scope — equipment and materials hold at or near the work, typically at a secured laydown in the SH-191 corridor between the cities so a single staging point serves both AHJs and the surrounding oilfield counties. Drafted for ops confirmation per program.",
+    "localSupplyApproach": "Concrete, base material, and rentals are bought in-market — the twin metros carry real supplier depth, though oilfield demand cycles move lead times, so pours and rental windows get locked with suppliers early. Caliche base is regionally sourced; specialty fill and precast are confirmed at estimate. Supplier lineup subject to ops and estimating confirmation per program.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Midland–Odessa is a project-deployment market for us: crews mobilize west out of the Dallas yard on I-20 — roughly a five-hour run — and stay for the duration of a scope, which suits how Permian work actually arrives: multi-site private-network builds, oilfield fiber segments, and compound programs that batch efficiently from one mobilization with local staging and in-market materials. We don't pretend otherwise, and we don't make same-day service commitments at this range. Mobilization lead times are quoted per program after ops review, and note that published driving distances put this market near the boundary between our regional and extended mobilization bands — final routing from the yard governs how it's scheduled and priced.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How does caliche affect telecom construction costs in Midland–Odessa?",
+      "answer": "Cemented caliche hardpan sits shallow across the Midland–Odessa uplands, so trenches, directional bores, and drilled piers routinely hit rock-like material that slows production and wears tooling — it should be assumed and priced, not discovered. The offset is that intact caliche is a firm, dry bearing stratum, so foundations that reach it sit on ground that barely moves. Borings that log caliche depth and hardness are the highest-value early spend on a Permian site.",
+      "segment": "general"
+    },
+    {
+      "question": "Do earthquakes in the Permian Basin affect cell site or shelter design in Midland?",
+      "answer": "The seismicity is real and monitored — UT-Austin's TexNet network instruments the basin, its research links the increase to saltwater disposal and fracturing, and the Railroad Commission's Gardendale Seismic Response Area covers roughly 100 square miles of Midland and Ector counties with injection limits. For design, code-level seismic values still come from a USGS design-maps query per site; recorded events don't automatically change design category, but instrument-grade or vibration-sensitive installations may carry client-specific requirements.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who issues building permits for a shelter or compound in the Midland–Odessa market?",
+      "answer": "It depends which side of the county line you're on. The City of Midland permits through its PermitMidland portal under 2018 codes effective July 2019; the City of Odessa permits separately under its own 2018 IBC adoption effective July 2018. A large share of oilfield sites sit in unincorporated Midland or Ector County, where there's no municipal building permit — but TxDOT, TCEQ stormwater, floodplain, and Texas811 obligations all still apply.",
+      "segment": "general"
+    },
+    {
+      "question": "What makes boring for oilfield fiber different around Midland?",
+      "answer": "Two things: caliche and congestion. Bores punch through cemented Ogallala hardpan at rock-like production rates, and the ground is laced with gathering lines, produced-water lines, and buried power — much of it privately owned and poorly mapped, so Texas811 tickets alone don't clear a route. We pothole, sweep, and verify before drilling, because a produced-water line strike costs more than the bore.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Midland or Odessa?",
+      "answer": "Oncor Electric Delivery is the transmission and distribution utility for both cities — the ERCOT wires-company model, with energy bought through a competitive Retail Electric Provider. Oilfield load growth keeps Oncor's West Texas construction queue active, so new-service lead times deserve written confirmation during scoping rather than assumption; remote compounds often run generator-first while service catches up.",
+      "segment": "edge"
+    },
+    {
+      "question": "Can you pour concrete in Midland in the summer?",
+      "answer": "Yes, with hot-weather practice: July and August pours move to early-morning windows with mix temperature control and cure protection, because West Texas afternoon heat flashes moisture out of a slab. The compensation is winter — at roughly 14.6 inches of annual rain and only brief cold snaps, the Permian calendar loses fewer days than almost any market we serve; spring wind days are the other constraint worth scheduling around.",
+      "segment": "general"
+    },
+    {
+      "question": "What flood risk should I plan for on a Permian Basin telecom site?",
+      "answer": "Localized but real: flood zones follow the draws — Midland Draw has its own section in the city's Master Drainage Plan, and county mapping shows Zone A/AE/AH pockets along Monahans and South Draw — while flat playa basins pond after intense storms. Most upland sites drain fast and clean. The fix is usually siting: keep the compound off the low ground and confirm the FIRM panel before design, not after.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How do you serve Midland from a Dallas yard?",
+      "answer": "As a deployment market: crews run west on I-20 — about five hours — and stay for the scope's duration, staging at a secured laydown in the Midland–Odessa corridor and buying concrete, base, and rentals locally. That model matches how Permian work batches: multi-site private-network and fiber programs rather than single service calls. Mobilization is planned and priced per program, with lead times quoted after ops review.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in the Permian Basin right now?",
+      "answer": "Three overlapping builds: private LTE networks expanding across lease acreage (iNet's long-running 700 MHz coverage, Rigstar/BLiNQ's Midland launch), the stranded-gas-to-compute wave — Texas Critical Data Centers' 250 MW Ector County campus and FO Permian Partners' 5 GW off-grid generation pitch — and the statewide BEAD program approved in November 2025 with construction from summer 2026. All three throw off fiber, compound, and pad civil.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Trench, bore, or blade: getting through Permian caliche without blowing the budget",
+    "body": "The most expensive assumption in Midland–Odessa civil work is that ground that looks like soft desert soil digs like it. The upland profile is loamy sand for a few feet, then cemented petrocalcic caliche that behaves like weak rock — and where it starts varies across a single compound, let alone a fiber route. The decision framework we use: log caliche depth and hardness in borings or test pits first, because the answer changes the method. Shallow, thin caliche often trenches with a heavy rock chain at a known production penalty. Thick, cemented caprock flips routes to directional boring — the bore itself is slower through hardpan but avoids fighting the cap along the whole alignment, and restoration drops to near nothing on lease roads. For foundations, the same cap is an asset: a drilled pier seated in intact caliche bears reliably in ground too dry for meaningful shrink-swell movement, so pay the drilling premium and take the performance. What loses money is the middle path — pricing a route as dirt, hitting cap at day two, and renegotiating from the hole. Assume the caliche, carry a rock clause tied to the boring log, and the Permian is one of the most schedule-reliable markets in Texas; ignore it and the hardpan will collect the difference.",
+    "_comment": null
+  },
+  "sources": [
+    {
+      "label": "City of Midland — Current Building Codes List (2018 I-codes, effective July 1, 2019)",
+      "url": "https://www.midlandtexas.gov/DocumentCenter/View/4816/Current-Building-Codes-List",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Midland — Development Services / PermitMidland portal",
+      "url": "https://www.midlandtexas.gov/1424/PermitMidland",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Odessa — 2018 IBC adoption ordinance",
+      "url": "https://www.odessa-tx.gov/DocumentCenter/View/85/2018-International-Building-Code-Amendment-PDF",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Odessa District (12-county district including Midland and Ector)",
+      "url": "https://www.txdot.gov/about/districts/odessa-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "RRC — Gardendale Seismic Response Area notice to operators",
+      "url": "https://www.rrc.texas.gov/media/4ryp5kqr/nto-gardendale-seismic-response-action_9-22-2021.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oil & Gas Journal — RRC injection limits in the Gardendale SRA (Midland and Ector counties)",
+      "url": "https://www.ogj.com/exploration-development/article/14222213/west-texas-seismic-activity-constrains-saltwater-well-injection",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UT-Austin Bureau of Economic Geology — TexNet seismic monitoring and CISR research",
+      "url": "https://www.beg.utexas.edu/texnet-cisr",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Midessa series (calcareous eolian uplands)",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/M/MIDESSA.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Dermott series (shallow over Ogallala petrocalcic caliche)",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/D/DERMOTT.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NM Bureau of Geology Circular 144 — caliche zonation of the Ogallala Formation",
+      "url": "https://geoinfo.nmt.edu/publications/monographs/circulars/144/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Midland — floodplain and drainage (Master Drainage Plan, Midland Draw)",
+      "url": "https://www.midlandtexas.gov/818/Floodplain-Drainage",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Midland County — floodplain management (Monahans / South Draw interim framework)",
+      "url": "https://www.co.midland.tx.us/808/Floodplain-Management",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Business Wire — Rigstar Industrial Telecom USA private LTE expansion in the Permian Basin (Midland)",
+      "url": "https://www.businesswire.com/news/home/20220421005173/en/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Infrastructure Networks (iNet) — Permian Basin private LTE coverage",
+      "url": "https://inet.global/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Data Center Frontier — Texas Critical Data Centers Ector County AI/HPC campus",
+      "url": "https://www.datacenterfrontier.com/site-selection/article/55289667/powering-ai-in-the-permian-texas-critical-data-centers-sustainable-energy-play",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Data Center Dynamics — FO Permian Partners 5 GW off-grid gas / Midland County site",
+      "url": "https://www.datacenterdynamics.com/en/news/fo-permian-partners-unveils-5gw-off-grid-gas-power-solution-for-texas-data-centers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Union Pacific — Odessa Railport oilfield transload facility",
+      "url": "https://www.up.com/aboutup/community/community_ties/1104_odessa-railport.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BroadbandNow — Midland, TX provider coverage (AT&T Fiber, Vexus)",
+      "url": "https://broadbandnow.com/Texas/Midland",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Midland — annual precipitation records",
+      "url": "https://www.weather.gov/maf/cli_maf_pcpn_annual",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE Hazard Tool not reachable through the egress proxy; no secondary value trusted enough to publish. Query at 31.9973, -102.0779 before publish."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / designTempLowF / designTempHighF",
+      "attempted": "ASCE hazard and TIA-222 county data not publicly fetchable; ASHRAE design-temperature tables not retrieved. All four gapped rather than estimated."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps query not runnable in sandbox. Qualitative TexNet/RRC context sourced; numeric values required before publication — this is the market where a reviewer will check."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Neither Midland's nor Odessa's amended code tables were readable through the proxy (DocumentCenter PDFs 403). Cite the exact amended table cell per city before publish."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to caliche/bedrock, groundwater, NRCS shrink-swell and corrosivity ratings)",
+      "attempted": "NRCS Web Soil Survey interactive not runnable; OSDs sourced for series identification only. Narrative kept qualitative."
+    },
+    {
+      "field": "identity.population / elevationFt — vintage confirmation",
+      "attempted": "Census QuickFacts not directly fetched; 134,775 (2023 est.) and 2,782 ft are from Census-data republishers. Confirm before publish."
+    },
+    {
+      "field": "regulatory — Midland/Odessa review times, ROW permit specifics, wireless design standards",
+      "attempted": "Portals identified; published review timelines not found. Call both Development Services offices to confirm."
+    },
+    {
+      "field": "environmental.usaceDistrict",
+      "attempted": "USACE regulatory district for Midland/Ector counties not confirmed from an authoritative boundary source; check the USACE regulatory boundary layer before publish."
+    },
+    {
+      "field": "utilities — Oncor new-service intake URL and lead times; AT&T formal ILEC designation",
+      "attempted": "oncor.com intake page not confirmed; lead times need utility/ops confirmation. FCC ILEC check not run."
+    },
+    {
+      "field": "operations.nearestBase — routing verification and band boundary",
+      "attempted": "Published driving sources put Dallas–Midland at ~330–350 mi via I-20 (335/5.2h recorded) — at or below the 350-mile Band A/B boundary. Assigned Band B per program seed; real routing from the actual DFW yard address must settle both the numbers and the band."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B drafts written for ops review; RESEARCH.md sources these from CSS ops/estimating, so the gap clears only on ops confirmation."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}

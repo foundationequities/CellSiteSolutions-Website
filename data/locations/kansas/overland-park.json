@@ -1,0 +1,658 @@
+{
+  "identity": {
+    "slug": "overland-park",
+    "city": "Overland Park",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateAbbr": "KS",
+    "counties": [
+      "Johnson"
+    ],
+    "msa": "Kansas City, MO-KS",
+    "tier": 2,
+    "latitude": 38.9822,
+    "longitude": -94.6708,
+    "elevationFt": 951,
+    "population": {
+      "value": 202893,
+      "source": "U.S. Census Bureau vintage-2024 estimate via World Population Review (confirm against Census QuickFacts before sign-off)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-435",
+      "I-35"
+    ],
+    "majorRoutes": [
+      "US-69",
+      "College Blvd",
+      "Metcalf Ave"
+    ]
+  },
+  "metadata": {
+    "title": "Overland Park, KS Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for fiber, wireless, and edge sites in Overland Park, KS — pads, duct bank, and compound work across Johnson County's corporate corridor.",
+    "h1": "Telecom Site Civil Construction in Overland Park, Kansas",
+    "intro": "Overland Park is the enterprise center of gravity on the Kansas side of the Kansas City metro: Black & Veatch runs its world headquarters at College Boulevard and Lamar, and the former Sprint world headquarters — now the Aspiria campus, T-Mobile's second HQ — anchors 119th and Nall. That corporate density is why the College Boulevard and Metcalf corridors carry some of the thickest enterprise fiber in Kansas, with Google Fiber and AT&T Fiber both built out citywide. CellSite Solutions self-performs the civil scope behind that infrastructure — hut and cabinet pads, duct bank, bores, and compound work — reaching Johnson County over an all-interstate run from our Cedar Rapids yard.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Northeastern Kansas sits in a low national seismic hazard tier; publish Ss/S1 only from a USGS design-maps query at the site's coordinates, and treat site class as site-specific."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Overland Park sits on upland Pennsylvanian bedrock of the Osage Cuestas: Missourian-stage cyclothems — alternating limestones and shales including the Wyandotte, Iola, Dennis, and Swope limestones — with an aggregate outcropping thickness of roughly 500 feet in units 2 to 100 feet thick, under a thin loess and residual-soil mantle. Bedrock is shallow across the uplands, and the Indian, Tomahawk, and Turkey creek corridors carry alluvium. (Kansas Geological Survey, Johnson County geohydrology.)",
+    "dominantSoilTypes": [
+      "Loess-derived silty clay upland soils",
+      "Residuum weathered from limestone and shale",
+      "Creek alluvium (Indian and Tomahawk creek corridors)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Carbonate units underlie the whole city, but no published KGS karst mapping flags Johnson County; confirm during site-specific geotechnical investigation rather than assuming either way."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The controlling question on an Overland Park foundation is usually not frost — it is which member of the limestone-and-shale stack you hit on the way down. KGS maps the county's Missourian cyclothems as alternating ledges 2 to 100 feet thick sitting shallow beneath a thin soil mantle, so a pier or deep duct bank on the uplands can meet competent limestone above its design depth. When that happens, socketing into rock or resetting the bearing elevation usually beats mass rock excavation across a pad footprint. Along the Indian and Tomahawk creek corridors the problem inverts: alluvium, a shallower water table, and — after the record July 2017 floods — hard floodplain screening govern siting before bearing does. The city's amended climatic design table sets the frost/footing depth; verify it in the adopted code text, and let site-specific borings make every final call."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Overland Park Planning and Development Services",
+        "url": "https://www.opkansas.org/city-government/departments/planning-development-services/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Issues building permits citywide. Contractor licensing itself is administered countywide by the Johnson County Contractor Licensing Program, not by the city. Published review times are not posted — confirm the current queue by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code with local amendments (secondary-source attribution — verify the current adopting ordinance in the city code before design)",
+      "source": "Secondary compilations (Steadily code guide; Alliance Permitting) report the 2018 IBC; the city's adopting ordinance text was not directly readable — verify at opkansas.org before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small cell siting in Kansas is state-preempted: 2016 Senate Substitute for HB 2131 (K.S.A. 66-2019) gives wireless providers the right to occupy public right-of-way and to lease city infrastructure on terms of at least 10 years. Overland Park officials have said publicly that the statute limits how far the city can restrict node placement.",
+    "rowPermitAuthority": {
+      "name": "City of Overland Park Public Works — City Engineer (ROW permits under OPMC Ch. 13.12)",
+      "url": "https://www.opkansas.org/city-services/building-construction/buildings-construction-licenses-permits-inspections/right-of-way-permit/",
+      "phone": "913-895-6040",
+      "typicalReviewDays": null,
+      "note": "ROW management ordinance in force since January 1, 2000 (most recently restated by Ord. RW-3296, 2020). Applications require scaled drawings of existing and proposed facilities plus a traffic control plan (OPMC 13.12.450); backfill-under-pavement and concrete-form inspections require 24-hour advance notice."
+    },
+    "stateDotDistrict": {
+      "name": "KDOT District One — Northeast Kansas (17 counties including Johnson), headquartered in Topeka",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Kansas 811 (Kansas One Call)",
+      "url": "https://kansas811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Kansas Underground Utility Damage Prevention Act (K.S.A. 66-1804): notice at least two full working days — excluding weekends and holidays — and not more than 20 calendar days before excavation.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "KDHE Bureau of Water — NPDES construction stormwater general permit",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Coverage via Notice of Intent with a $60 fee and a site-specific erosion and sediment control plan meeting 40 CFR 450 before ground disturbance."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Overland Park (flooding and stormwater program), with Johnson County Stormwater Management Program watershed studies",
+      "url": "https://www.opkansas.org/city-services/residential-city-property-maintenance/maintenance-of-city-property/flooding-stormwater/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "USGS published flood inundation map libraries for Indian and Tomahawk creeks (2014) that inform local floodplain management along both corridors."
+    },
+    "permitTimelineNarrative": "Sequence matters here: the Johnson County contractor license comes first, because city permits are issued against it. Building permits run through Planning and Development Services; anything touching a street or utility corridor also needs a ROW permit from the City Engineer under OPMC Ch. 13.12, with scaled drawings and a traffic control plan in the application and 24-hour notice before covered inspections. Disturb an acre or more and the KDHE construction stormwater NOI — $60 fee, sediment-control plan attached — must be authorized before dirt moves. Small cell applications ride the state framework in K.S.A. 66-2019 rather than a bespoke city ordinance."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy (Evergy Metro rate territory)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Published territory listings place Overland Park in the Evergy Metro (former KCP&L) service area — confirm the rate territory and new-service lead time with Evergy builder services for each site; no standing lead time is published."
+      }
+    ],
+    "ilec": "AT&T Kansas (Southwestern Bell Telephone) — confirm exchange boundaries against Kansas Corporation Commission maps before publishing",
+    "notableFiberProviders": [
+      "Google Fiber",
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Kansas posts no statewide spring frost-law load restrictions — a genuine scheduling difference from CSS's upper-Midwest markets, where county embargoes pin shelter hauls to the calendar. Seasonal conditions appear only on individual oversize/overweight permits."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "KDOT — K-TRIPS (Kansas Truck Routing and Intelligent Permitting System)",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "phone": "785-368-6501",
+      "typicalReviewDays": null,
+      "note": "Automated statewide OS/OW permitting; escort vehicles required for loads over 14 feet wide. City streets need separate coordination with Overland Park Public Works."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [],
+    "urbanRowRequirements": "Every ROW permit application must include scaled drawings showing existing and proposed facilities and a traffic control plan (OPMC 13.12.450); the City Engineer administers permits, ROW fees are set by city resolution (Res. 4658), and backfill and form inspections take 24-hour advance notice."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Inactive-season clearing, generally October 1 – March 31, where bat constraints apply",
+      "driver": "Northern long-eared bat — federally endangered since its 2022 reclassification, with a listed range that includes Kansas; KDWP also lists it as state-threatened",
+      "source": "USFWS northern long-eared bat species profile; Kansas Department of Wildlife & Parks T&E species list — confirm site-specific dates through USFWS IPaC"
+    },
+    "shpo": {
+      "name": "Kansas State Historic Preservation Office (Kansas Historical Society)",
+      "url": "https://www.kansashistory.gov/shpo",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Accepts Section 106 submittals only through its online Review & Compliance system; the office handles roughly 3,000 reviews per year, on the standard 30-day federal clock per complete submittal."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory branch; KDHE issues Section 401 water quality certifications",
+      "url": "https://www.nwk.usace.army.mil/Missions/Regulatory-Branch/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Kansas City District (NWK)",
+    "listedSpeciesNote": "The northern long-eared bat is the listing most likely to be flagged on wooded creek-corridor sites. Run a project-specific USFWS IPaC query — a county-level generalization is not a substitute.",
+    "floodplainPrevalenceNote": "July 26–27, 2017 flash flooding is the defining local event: 5 to 7 inches of rain sent Indian Creek to a record 27.96 ft near State Line Road and Tomahawk Creek to a record 20.81 ft near Roe Avenue, damaging businesses along both corridors. The city has been executing a multiphase stormwater program since (first phase of the 95th/Antioch–Switzer project completed 2022), and USGS maintains flood inundation map libraries for both creeks. Screen any site near either corridor first."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Intermittent shallow freeze; average highs near 39°F between cold snaps",
+        "earthworkConcrete": "constrained",
+        "note": "Midwinter pours are routine with cold-weather protection — a materially longer winter workability window than CSS's Iowa home market"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw cycling; subgrades soften on warm afternoons",
+        "earthworkConcrete": "constrained",
+        "note": "No spring embargo season follows — Kansas posts no frost-law restrictions"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawed, wet subgrades as spring rains begin",
+        "earthworkConcrete": "workable",
+        "note": "Bat-related tree clearing window closes March 31 where restrictions apply"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Firming; severe-weather season ramps up",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable between storm systems; late spring carries peak rainfall",
+        "earthworkConcrete": "favorable",
+        "note": "Plan SWPPP maintenance around convective rain events"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; thunderstorm and hail season",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and mostly dry; normal highs near 88°F at KCI",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concreting controls on afternoon pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot; occasional heavy convective rain (the record 2017 flood was a late-July event)",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm, drying; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Mild and firm; first freezes arrive late in the month",
+        "earthworkConcrete": "favorable",
+        "note": "Tree clearing window opens October 1 where bat restrictions apply"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; ground still unfrozen most of the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins late month"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Shallow intermittent frost; snow events pass quickly",
+        "earthworkConcrete": "constrained",
+        "note": null
+      }
+    ],
+    "narrative": "The Overland Park construction year is longer than a scheduler used to the upper Midwest expects: January highs near 39°F mean winter is a cost item, not a shutdown, and there is no spring embargo season on the back end because Kansas posts no frost-law restrictions. The pressure points are instead late-spring and summer convection — the July 2017 record floods came from a two-day rain event — and July–August heat, which shifts pours early in the day. Verify month-by-month figures against the NOAA 1991–2020 normals for the Kansas City station before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Missourian limestone ledges 2 to 100 feet thick alternate with shales at shallow depth on the uplands; deeper duct banks and pier excavations can meet competent rock above design depth.",
+    "aggregateHaulNote": "The same shallow Pennsylvanian limestone section that complicates excavation supplies crushed-rock production around the Kansas City metro, keeping aggregate hauls short by regional standards.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": "ROW permit fees are set by city resolution (Res. 4658); building permit fees follow the Planning and Development Services schedule.",
+    "prevailingWageExposure": "Kansas repealed its state prevailing wage act in 1987, so only federal Davis-Bacon applies — including on BEAD-funded broadband work.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter concrete protection December through February; hot-weather concreting controls in July and August. No embargo-season haul premiums — Kansas posts no frost laws.",
+    "narrative": "What moves a civil number in Overland Park is rock and water, not distance or season. Shallow limestone ledges set the excavation risk on every deep duct bank and pier — the difference between trenching shale and sawing a 10-foot limestone member is the single biggest line-item swing — and creek-corridor sites carry flood-screening and drainage cost that upland sites do not. Season cuts the other way from CSS's northern markets: winters are workable with protection, and the absence of Kansas frost laws removes the spring haul-restriction premium entirely. Add the Johnson County license as a fixed prerequisite and Davis-Bacon only where federal broadband money is in the stack. Drivers only; every site prices to its own borings."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Kansas issues no statewide general contractor license — licensing is local, and in Overland Park it runs through the countywide Johnson County Contractor Licensing Program: Class A (general), Class B (building, to three stories), or Class C (residential) licenses plus separate trade classes, administered by Johnson County and used across the county's cities. In a no-state-license state, this county-run program is the gate that actually controls who can pull a permit here. Commercial roofing scopes additionally require a Kansas Attorney General roofing contractor registration.",
+    "additionalRegistrations": [
+      "Johnson County Contractor Licensing Program license (Class A/B/C plus applicable trade classes)",
+      "Kansas Attorney General roofing contractor registration (roofing scopes only)"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "flood",
+      "hail",
+      "ice storm"
+    ],
+    "designImplications": "The 2017 Indian and Tomahawk creek floods make drainage and floodplain screening the first design conversation on any creek-corridor compound — pad elevation and overland flow paths before layout. Severe convective wind and hail argue for conservative anchorage and equipment protection, and ice events favor robust ice bridge and cable support details. Publish wind and ice loading values only after site-specific ASCE 7 and TIA-222 figures are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Kansas BEAD final proposal approved at $166.6M",
+        "detail": "NTIA approved the Kansas Office of Broadband Development's revised BEAD final proposal on December 5, 2025 — 14 awardees sharing $166.6M, down from the state's original $451.7M allocation after the federal Benefit of the Bargain restructuring round.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+        "asOf": "2025-12-05"
+      },
+      {
+        "headline": "T-Mobile's future at the Aspiria campus in question",
+        "detail": "T-Mobile operates its second headquarters at Aspiria, the redeveloped former Sprint world headquarters at 119th and Nall, but its lease runs only to mid-2029 and the company has said a proposed Royals stadium on the campus could push it out — a live variable for enterprise network demand in the corridor.",
+        "category": "carrier program",
+        "sourceUrl": "https://johnsoncountypost.com/2025/12/09/t-mobile-leaving-if-royals-overland-park-275610/",
+        "asOf": "2025-12-09"
+      },
+      {
+        "headline": "Google Fiber building underground network next door in Leawood",
+        "detail": "Google Fiber began constructing a fully underground network in adjacent Leawood, extending the Johnson County footprint it built out in Overland Park and signaling continued metro-side fiber investment.",
+        "category": "carrier program",
+        "sourceUrl": "https://johnsoncountypost.com/2023/03/01/leawood-google-fiber-195043/",
+        "asOf": "2023-03-01"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Overland Park is a rare two-gigabit-incumbent city: Google Fiber built here under 2014 council agreements that put its network huts on city property, and AT&T Fiber sells multi-gig across the same footprint — so fiber civil work now skews toward enterprise laterals, hut and cabinet pads, and densification along the College Boulevard and Metcalf corridors rather than greenfield passing. The production constraints are specific: every dig starts with a Kansas 811 ticket two full working days out, ROW work runs under OPMC Ch. 13.12 with scaled drawings and a traffic control plan in the permit application, and bores through the uplands can meet shallow limestone that turns a soft-soil shot into a rock bore. We build laterals, vaults, and restoration to those rules.",
+      "localSpecificsReferenced": [
+        "Google Fiber hut agreements on city property (2014)",
+        "College Boulevard / Metcalf enterprise corridors",
+        "OPMC Ch. 13.12 ROW permit requirements",
+        "Kansas 811 two-working-day notice"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil",
+        "ground ring and halo",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "generator and fuel containment pads",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless civil in Overland Park is densification work in a market carriers cannot ignore: T-Mobile runs its second headquarters at the Aspiria campus, and the daytime population load along College Boulevard — Black & Veatch's world headquarters alone brings thousands of engineers to one interchange — keeps capacity demand high. Small cell deployment here rides Kansas's statewide framework, K.S.A. 66-2019 (2016's HB 2131), which grants ROW access and 10-year minimum infrastructure leases and limits how far the city can restrict node placement. On the ground, the gating items are the Johnson County contractor license behind every permit and shallow limestone under pier and caisson locations. We build node foundations, shelter pads, and compound upgrades to those constraints, with pours running through the mild Kansas winter.",
+      "localSpecificsReferenced": [
+        "Aspiria campus (T-Mobile second HQ)",
+        "Black & Veatch world headquarters, College Blvd and Lamar",
+        "K.S.A. 66-2019 small cell preemption",
+        "Johnson County Contractor Licensing Program"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Overland Park's edge story is corporate, not hyperscale: the city has no named data center campus, but its concentration of enterprise campuses — Aspiria at 119th and Nall, the Corporate Woods-era office stock along College Boulevard, Black & Veatch's 600,000-square-foot headquarters — generates steady demand for the small-footprint work that supports low-latency and on-premise capacity: micro-DC and edge enclosure pads, transformer and switchgear pads, generator yards with containment, and campus duct bank. Twenty-odd miles west, Panasonic's $4B De Soto battery campus (opened July 2025) is pulling utility-scale construction into the county, with Evergy as the serving investor-owned utility on both ends. Shallow Missourian limestone is the recurring civil variable on every deep campus trench.",
+      "localSpecificsReferenced": [
+        "Aspiria campus",
+        "Black & Veatch 600,000 sq ft headquarters",
+        "Panasonic De Soto campus (opened July 2025)",
+        "College Boulevard office corridor"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 307,
+      "driveTimeHours": 5.3,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Johnson"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Johnson County sits at the far edge of our regional band, and we plan it that way: the run from eastern Iowa is interstate the whole way — I-80 across to Des Moines, I-35 south into the Kansas City metro — so crews position the night before and open the site at full production the next morning rather than burning a workday in transit. Overland Park work rewards that rhythm; corporate-corridor scopes like enterprise laterals and campus pad packages batch naturally into multi-day production blocks, and the absence of Kansas frost-law embargoes means equipment moves on the same schedule in March as in July. Distance and drive time above are estimates pending route verification, and any response-time commitment is stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who licenses contractors for telecom civil work in Overland Park?",
+      "answer": "Johnson County — not the city and not the state. Kansas has no statewide general contractor license, so the countywide Johnson County Contractor Licensing Program (Class A general, Class B building, Class C residential, plus trade classes) is the credential Overland Park permits are issued against. Roofing scopes also require a Kansas Attorney General roofing registration.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues the right-of-way permit for fiber work in Overland Park?",
+      "answer": "The City Engineer, through Public Works, under OPMC Chapter 13.12 — an ROW management ordinance in force since 2000. The application must include scaled drawings of existing and proposed facilities and a traffic control plan, and backfill and form inspections require 24-hour advance notice. Fees are set by city resolution.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does Kansas 811 require before excavation?",
+      "answer": "At least two full working days, excluding weekends and holidays, and not more than 20 calendar days before the scheduled start — set by the Kansas Underground Utility Damage Prevention Act (K.S.A. 66-1804). We build the ticket lead into every bore, trench, and vault set in Johnson County.",
+      "segment": "general"
+    },
+    {
+      "question": "Do spring road restrictions affect shelter delivery to Overland Park?",
+      "answer": "No. Kansas posts no frost-law seasonal load restrictions, so a shelter or hut haul that would wait out a county embargo in Iowa or Wisconsin moves on the same rules in March as in August here. Oversize and overweight loads still permit through KDOT's K-TRIPS system, with escorts required over 14 feet wide.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour a shelter pad in Overland Park in January?",
+      "answer": "Usually, yes. January highs average near 39°F, so midwinter pours are routine with cold-weather protection — blankets, admixtures, and monitoring — rather than the extended frozen-ground campaigns of the upper Midwest. Winter here is a modest cost line, not a schedule stop, which is one reason Johnson County programs can run year-round.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What ground conditions should I expect boring along College Boulevard?",
+      "answer": "Plan for the Pennsylvanian stack: KGS maps alternating Missourian limestones and shales — ledges 2 to 100 feet thick — at shallow depth under a thin soil mantle across the uplands. A bore that starts in weathered shale can meet competent limestone mid-shot, so we scope rock-capable tooling and price rock contingency on deep utility crossings. Site borings govern.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does the 2017 Indian Creek flooding affect telecom site selection in Overland Park?",
+      "answer": "It should. The July 2017 event set records on both Indian Creek (27.96 ft near State Line Road) and Tomahawk Creek (20.81 ft near Roe Avenue) and drove a multiphase city stormwater program that is still executing. Anywhere near either corridor, we screen against the USGS flood inundation map libraries and the city's floodplain program before laying out a compound or hut site.",
+      "segment": "general"
+    },
+    {
+      "question": "What rules govern small cell permits in Overland Park?",
+      "answer": "State law leads: K.S.A. 66-2019 — enacted as 2016's Senate Substitute for HB 2131 — grants wireless providers access to public right-of-way and infrastructure leases of at least 10 years, and city officials acknowledge it limits local restriction of node placement. Applications still route through city ROW permitting, so drawings, traffic control, and the county license all apply.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What is driving telecom construction demand in Overland Park right now?",
+      "answer": "Enterprise density and its churn. T-Mobile's second headquarters sits at Aspiria with a lease horizon of mid-2029 and a possible Royals stadium in play; Google Fiber is extending underground construction into adjacent Leawood; and Kansas's $166.6M approved BEAD program will pull crews and materials across the state through the build cycle. Corporate campus and corridor work leads the pipeline here.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Rock ledge or frost line: what really sets foundation depth in Overland Park",
+    "body": "In CSS's northern markets, frost depth is the number that drives foundation cost. In Overland Park it usually is not — the city's frost line is modest by Midwest standards (verify the amended code table before design), and the number that actually moves money is the elevation of the first competent limestone ledge. KGS maps the county as stacked Missourian cyclothems: limestone members 2 to 100 feet thick alternating with shales, sitting shallow beneath a thin soil mantle on the uplands. If your pier, caisson, or deep duct bank reaches rock above design depth, the economical answer is almost never mass excavation — socket into the ledge, or redesign the bearing elevation to use it, and treat the limestone as an asset instead of an obstacle. Trenching decisions follow the same logic: a duct bank profile that stays in weathered shale prices very differently from one that saws through a limestone member, so a modest reroute or depth change found in the borings can be worth more than any production efficiency. The exception is the creek corridors — along Indian and Tomahawk creeks, alluvium and post-2017 flood screening govern before bearing does. Order the geotech early; in this county the boring log is the estimate."
+  },
+  "sources": [
+    {
+      "label": "Johnson County Contractor Licensing — new license and license types (Class A/B/C plus trades)",
+      "url": "https://www.jocogov.org/department/contractor-licensing/new-license-license-types",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Overland Park — Right-of-Way Permit (OPMC Ch. 13.12)",
+      "url": "https://www.opkansas.org/city-services/building-construction/buildings-construction-licenses-permits-inspections/right-of-way-permit/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Overland Park Projects and Procedures Manual — ROW permit plan submission requirements",
+      "url": "https://ppm.opkansas.org/wiki/index.php/Right-of-Way_Permits_-_Plan_Submission_Requirements",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "K.S.A. 66-1804 — Kansas Underground Utility Damage Prevention Act (two full working days' notice)",
+      "url": "https://ksrevisor.gov/statutes/chapters/ch66/066_018_0004.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "K.S.A. 66-2019 — small cell / wireless facilities in public right-of-way (2016 HB 2131)",
+      "url": "https://ksrevisor.gov/statutes/chapters/ch66/066_020_0019.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KSHB — state law limits cities' abilities to restrict small cell towers (Overland Park)",
+      "url": "https://www.kshb.com/news/local-news/investigations/we-are-in-a-difficult-position-state-law-limits-cities-abilities-to-restrict-small-cell-towers",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KDHE — NPDES construction stormwater program (1-acre trigger, NOI process)",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KDOT District One — Northeast Kansas (county list including Johnson)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-1-northeast-kansas",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KDOT — permits and K-TRIPS oversize/overweight system",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Oversize.io — Kansas frost laws and seasonal restrictions (none posted)",
+      "url": "https://oversize.io/regulations/frost-laws-by-state/kansas",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Kansas Geological Survey — Johnson County geohydrology (Pennsylvanian limestone/shale section)",
+      "url": "https://www.kgs.ku.edu/General/Geology/Johnson/05_outcr.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NWS Kansas City/Pleasant Hill — July 26–27, 2017 major flooding across the KC metro",
+      "url": "https://www.weather.gov/eax/July26-272017MajorFloodingAcrossKansasCityMetro",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USGS — flood inundation maps, Indian Creek and Tomahawk Creek, Johnson County (2014)",
+      "url": "https://www.usgs.gov/publications/flood-inundation-maps-indian-creek-and-tomahawk-creek-johnson-county-kansas-2014",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Kansas SHPO (Kansas Historical Society) — Section 106 review and compliance",
+      "url": "https://www.kansashistory.gov/shpo",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KDWP — northern long-eared bat, Kansas threatened & endangered species",
+      "url": "https://ksoutdoors.gov/Services/Threatened-and-Endangered-Wildlife/All-Threatened-and-Endangered-Species/Northern-Long-eared-Bat",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Kansas Department of Commerce — $166.6M BEAD final proposal federally approved",
+      "url": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Johnson County Post — T-Mobile's Aspiria lease and possible Royals stadium",
+      "url": "https://johnsoncountypost.com/2025/12/09/t-mobile-leaving-if-royals-overland-park-275610/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Johnson County Post — Black & Veatch headquarters at Aspiria / College Blvd corridor",
+      "url": "https://johnsoncountypost.com/2023/06/12/black-veatch-aspiria-219568/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri Business Alert — Overland Park council clears Google Fiber agreements (huts on city property)",
+      "url": "https://www.missouribusinessalert.com/news/business/city-council-clears-path-for-google-fiber-s-arrival-in-overland-park/article_8ca4f6d5-5d0b-5925-8f43-f1084ab1c9b7.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "eMars — Kansas prevailing wage status (state act repealed 1987; Davis-Bacon only)",
+      "url": "https://emarsinc.com/prevailing-wages/kansas",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool not reachable through the sandbox egress proxy; no primary value found in search. One query from an unproxied machine resolves it."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / seismic Ss-S1 / design temps",
+      "attempted": "ASCE 7 Hazard Tool, TIA-222 county Annex tables, USGS design-maps service, and ASHRAE county tables all blocked or paywalled through the proxy; nothing publishable from secondary sources."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Overland Park's amended climatic design table was not readable online. Johnson County's building office publishes a 36-inch minimum frost footing depth for unincorporated areas, but per program rules a neighboring jurisdiction's figure is not publishable for the city — read the city's adopted code text."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — primary verification",
+      "attempted": "2018 IBC attribution comes from secondary permitting guides; opkansas.org returned 403 through the proxy. Reviewer must confirm the current adopting ordinance and edition."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and KGS bulletin data pages not readable through proxy; only qualitative KGS geology sourced."
+    },
+    {
+      "field": "seasonality — full NOAA 1991–2020 normals table",
+      "attempted": "NCEI station normals not directly readable; calendar authored from NWS-derived January/July values and needs the station table check."
+    },
+    {
+      "field": "utilities — Evergy Metro territory and lead times; ILEC exchange boundary",
+      "attempted": "Territory attribution from published service-area listings; confirm against KCC maps and Evergy builder services."
+    },
+    {
+      "field": "operations.nearestBase routing",
+      "attempted": "OSRM and other routing endpoints blocked by proxy; 307 mi / 5.3 h are seed straight-line-derived estimates, routeVerified false."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires at least 1 project and 3 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

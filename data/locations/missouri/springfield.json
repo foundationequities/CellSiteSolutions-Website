@@ -1,0 +1,643 @@
+{
+  "identity": {
+    "slug": "springfield",
+    "city": "Springfield",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "counties": [
+      "Greene"
+    ],
+    "msa": "Springfield, MO",
+    "tier": 2,
+    "latitude": 37.209,
+    "longitude": -93.2923,
+    "elevationFt": null,
+    "population": {
+      "value": 170000,
+      "source": "Program seed (data/locations.seed.json) — confirm vintage against U.S. Census QuickFacts before publish",
+      "verifiedOn": null
+    },
+    "interstates": [
+      "I-44"
+    ],
+    "majorRoutes": [
+      "US-65",
+      "US-60",
+      "US-160"
+    ]
+  },
+  "metadata": {
+    "title": "Springfield, MO Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Springfield, MO — karst-aware foundations and fiber, wireless, and edge site work on the Ozarks' Springfield Plateau.",
+    "h1": "Telecom Site Civil Construction in Springfield, Missouri",
+    "intro": "Springfield's civil story starts underfoot: the city sits on the Springfield Plateau of the Ozarks, where Mississippian limestone dissolves into sinkholes, caves, and losing streams, so karst screening belongs at the front of every foundation and boring decision. The market itself is unusual for its size — City Utilities, the community-owned municipal utility, supplies electric, gas, and water plus SpringNet, a fiber network it expanded citywide by more than 1,000 route miles under a long-term carrier lease — and BNSF's Frisco-heritage yards keep Springfield a working railroad town on the I-44 and US-65 corridors. CellSite Solutions builds here on a project-deployment basis from our Cedar Rapids yard, 403 road miles away, with crews staged in-market for the duration of a scope.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC adopted in Springfield City Code Ch. 36, Art. VI)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Numeric Ss/S1 values require a USGS design-maps query at the site coordinates, which was not obtainable at research time; treat site class as site-specific and publish nothing until queried."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Springfield sits on the Springfield Plateau of the Ozarks, underlain by Mississippian-age limestones that weather into cherty red-clay residuum and dissolve into abundant karst — sinkholes, caves, springs, and losing streams are common across Greene County, and the Springfield Plateau aquifer's carbonate units (Burlington-Keokuk and Boone Formation members) carry solution-enlarged openings and locally cavernous zones. (Missouri Geological Survey PUB3002; USGS SIR 2010-5227.)",
+    "dominantSoilTypes": [
+      "Cherty clay residuum over limestone",
+      "Shallow Mississippian limestone bedrock",
+      "Karst-collapse and sinkhole-fill soils (localized)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "This is a genuinely sinkhole-dense market: Greene County's Mississippian limestone is highly susceptible to solution weathering, and sinkholes, caves, and springs are common — county design standards address sinkholes directly. Screen every candidate site and bore path against Missouri Geological Survey sinkhole mapping before committing a layout."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation work on the Springfield Plateau is a rock-and-void problem rather than a soft-ground problem. Cherty residuum over shallow Mississippian limestone means excavations and bores meet rock often enough that rock contingency belongs in every estimate, while the same carbonates that give you refusal can also hide solution voids — so the sequence that matters is karst screening first (state sinkhole mapping plus site reconnaissance), then borings that probe past apparent refusal, then design. Pads and piers bearing on or in competent limestone perform well; the failures here come from bearing over an unfound void or from directing stormwater into a swallow point that enlarges it. Frost depth for the city must be taken from the amended 2018 code tables — no number is published here until that section is verified. Site-specific geotechnical investigation governs every one of these calls."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Springfield Building Development Services",
+        "url": "https://www.springfieldmo.gov/169/Building-Permits-Codes",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers the city's adopted 2018 I-codes. Published plan-review timelines were not found — confirm the current queue directly when scoping a schedule."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code and companion 2018 I-codes with local amendments (City Code Ch. 36); 2017 NEC",
+      "source": "City of Springfield adopted-code documents — https://www.springfieldmo.gov/DocumentCenter/View/46891/2018-International-Building-Code",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Missouri's Uniform Small Wireless Facility Deployment Act (RSMo 67.5110–67.5122) set statewide small-cell permitting rules with capped fees, but the statute text carries a January 1, 2025 expiration for most sections — confirm current status and the city's present small-cell ROW process before scoping node work.",
+    "rowPermitAuthority": {
+      "name": "City of Springfield Public Works (right-of-way permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Department attribution based on standard city structure — confirm the current ROW permit process and any bond requirement directly; not independently sourced this session."
+    },
+    "stateDotDistrict": {
+      "name": "Missouri DOT — Southwest District (program-brief assignment; boundary unverified)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "MoDOT district pages were unreachable at research time; verify the district assignment and its permits contact before publish."
+    },
+    "oneCallCenter": {
+      "name": "Missouri 811 (Missouri One Call System)",
+      "url": "https://missouri-811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "RSMo 319.026: notice of intent at least two working days and not more than ten before excavation; weekends and state holidays do not count as working days.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Missouri DNR — construction/land disturbance stormwater permits",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP-backed land disturbance permit required at one acre or more of disturbance, or less when part of a larger common plan of development."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "The permitting stack in Springfield runs through Building Development Services under the city's 2018 I-codes, with review times not published — build the schedule from a direct conversation with the department, not from assumptions. Underground work adds Missouri 811's two-working-day locate notice, and any site disturbing an acre or more files a SWPPP-backed land disturbance permit with Missouri DNR before dirt moves. Two Springfield-specific layers deserve early attention: karst, since site and stormwater plans draw scrutiny where sinkholes are mapped, and the right-of-way process for fiber work in city streets, which should be confirmed with Public Works at scoping because its current requirements are not published here."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "City Utilities of Springfield",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Community-owned utility providing electric, natural gas, and water — plus SpringNet fiber — under one roof. A municipal process rather than an IOU one, which changes how new-service requests move; confirm current intake and lead times with CU when scoping."
+      }
+    ],
+    "ilec": null,
+    "notableFiberProviders": [
+      "SpringNet (City Utilities fiber division)",
+      "CenturyLink/Lumen FTTH over leased SpringNet dark fiber"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Southwest Missouri sits outside the upper Midwest's blanket spring frost-law belt; individual county commissions can still post specific roads, so check current Greene County postings before scheduling a shelter haul on county routes rather than assuming they are clear."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "MoDOT Motor Carrier Services (oversize/overweight permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route permits run through MoDOT; confirm the current permitting portal and any separate city/county authorization for local road segments — not independently verified this session."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Springfield is a working BNSF hub with deep Frisco heritage — the St. Louis–San Francisco Railway was headquartered here before the 1980 Burlington Northern merger, and BNSF yards and facilities operate in the city today. Crossing and right-of-entry requests run through BNSF's utility permitting process; file early, because railroad timelines are long."
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Listed cave- and forest-dwelling bats are a standing concern across the Ozark karst region; the county-specific species list and clearing window were not sourced this session — obtain them from the USFWS field office before scheduling clearing",
+      "source": null
+    },
+    "shpo": {
+      "name": "Missouri State Historic Preservation Office (Missouri DNR)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 submissions route through Missouri SHPO; confirm the current submission portal and review timeline before scheduling."
+    },
+    "wetlandsAuthority": null,
+    "usaceDistrict": null,
+    "listedSpeciesNote": "Run a project-specific USFWS IPaC query for every site. Karst terrain raises the odds of cave-dependent listed species and of groundwater-connected features that carry their own scrutiny; no county species list is published here because none was sourced.",
+    "floodplainPrevalenceNote": "Springfield's karst adds a twist to flood screening: losing streams and sinkhole drainage mean surface water can appear and disappear in ways FIRM panels alone don't capture. Check the effective FEMA panels for each site and treat mapped sinkhole watersheds as a separate screening layer; the city's floodplain administration contact was not confirmed this session."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Intermittent freeze-thaw; ground rarely stays frozen for long stretches",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete protection on pours; ice-storm exposure is real in this part of Missouri"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw cycling continues; wet ground after thaws",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawed and wetting up; spring rains begin",
+        "earthworkConcrete": "workable",
+        "note": "Severe-weather season approaches"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Wet; spring severe-weather season in full swing",
+        "earthworkConcrete": "constrained",
+        "note": "Tornado and hail watches shape crane and pour windows"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Wet and warm; peak regional severe-weather month",
+        "earthworkConcrete": "constrained",
+        "note": "Carry storm-day slack in the schedule"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Drying and warm; good production between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot with long dry stretches",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on afternoon pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot and mostly dry",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm and moderating; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Mild and comparatively dry — often the best working month of the year here",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; first freezes arrive",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freeze-thaw begins; occasional ice events",
+        "earthworkConcrete": "workable",
+        "note": "Ice storms are the winter wildcard for schedule and power"
+      }
+    ],
+    "narrative": "Southwest Missouri gives up fewer calendar days than the upper Midwest: winters bring freeze-thaw cycling and ice-storm risk rather than months of frozen ground, so foundation work continues with protection through most of the season. The real schedule pressure is spring — April and May stack rain on top of the region's severe-weather peak, and smart schedules carry storm-day slack rather than pretending otherwise. Summer runs hot but productive, and the fall window is excellent. Confirm month-level figures against NOAA normals for the Springfield station before treating this table as final; the station table was not readable at research time."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Shallow Mississippian limestone under cherty residuum makes rock a routine encounter in trenches, bores, and foundation excavations across the plateau — carry rock contingency by default.",
+    "aggregateHaulNote": "Carbonate quarry rock is a local product on the plateau, so aggregate haul distances are generally short; confirm current sources at estimate.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Missouri's prevailing wage law applies the Annual Wage Order to public works above $75,000; federal Davis-Bacon applies to federally funded work — including BEAD-funded broadband construction — and the applicable wage determination should be settled at bid, not discovered at audit.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter carries protection cost, not shutdown; the larger seasonal risk is spring storm delay, and an ice-storm event can pull regional resources without warning.",
+    "narrative": "Springfield civil pricing is driven from below: how much limestone you meet, and whether the karst under a site is benign or expensive. Rock excavation and bore-through-rock premiums are the first line to check, and a mapped or discovered sinkhole can add screening, grouting, or a relocation conversation that no unit price anticipates — which is why karst review comes before estimating, not after. Above ground, prevailing-wage applicability (public works over $75,000, Davis-Bacon on BEAD-funded routes) moves labor pricing, and as a deployment market served from Cedar Rapids, mobilization is a real line item priced per program with materials bought in-market. Drivers only — every site prices to its borings and its karst screen."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Missouri issues no statewide general contractor license — contractor licensing and registration operate at the municipal level, so requirements should be confirmed with the City of Springfield for each scope, along with trade-license requirements, which vary by jurisdiction. Statewide verification against a state authority was not completed this session and is flagged in the gap list.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "flood"
+    ],
+    "designImplications": "Springfield sits in the Ozarks' severe-weather belt: tornado and large-hail exposure argue for conservative anchorage and enclosure ratings, and ice storms — a recurring southwest Missouri event — put a premium on standby power reliability and generator fuel autonomy. Karst adds a flood twist: never discharge compound stormwater toward a sinkhole or losing stream without screening, because concentrated flow enlarges solution features. Publish numeric wind and ice design values only after ASCE 7 and TIA-222 queries at the site.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Missouri BEAD awards approved — $814M-plus to 200,000+ locations",
+        "detail": "NTIA approved Missouri's plan to award more than $814 million of its roughly $1.7 billion BEAD allocation across 42 providers, with about 81% of funded locations slated for fiber — rural Ozarks routes in the region around Springfield are part of the funded map. Pull county-level detail from the Office of Broadband Development as grant agreements execute.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-approval-more-814-million-expand-broadband-access",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "City Utilities' SpringNet built citywide fiber under a carrier lease",
+        "detail": "CU invested roughly $120 million to add more than 1,000 fiber route miles to SpringNet's ~700-mile plant, making fiber available across the city, with CenturyLink leasing dark fiber under a 15-year agreement to deliver FTTH — a municipally owned fiber footprint that keeps lateral, vault, and restoration work active in the metro.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://ozarksindependent.com/2019/08/13/city-utilities-to-bring-gigabit-speed-internet-to-all-of-springfield/",
+        "asOf": "2019-08-13"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Two facts set Springfield apart for fiber civil. First, the city's fiber backbone is municipally owned: City Utilities' SpringNet division grew from a roughly 700-mile business network into citywide plant after CU's $120 million, 1,000-plus-mile expansion, with CenturyLink delivering FTTH over leased dark fiber — so in-city work often means building against a utility's standards rather than a carrier's. Second, the ground fights back: boring on the Springfield Plateau is chert-and-limestone work, with shallow rock and the occasional solution void, so bore plans get karst screening and rock tooling from the start. Outside the city, Missouri's $1.7 billion BEAD program — over $814 million in approved awards, roughly 81% fiber — is funding rural Ozarks routes where those same rock conditions govern production rates.",
+      "localSpecificsReferenced": [
+        "SpringNet / City Utilities citywide fiber",
+        "Springfield Plateau karst boring conditions",
+        "Missouri BEAD approved awards"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless site civil around Springfield starts with a question no other market in our footprint asks quite this way: what's under the compound? Greene County's Mississippian limestone is sinkhole country, and a macro compound, its access road, and its stormwater plan all get screened against mapped karst before the layout is fixed — moving a pad fifty feet is cheap; grouting a void under a poured foundation is not. Ice storms and severe convective weather then shape the above-ground choices: generator autonomy, anchorage conservatism, and drainage that stays away from swallow points. In the ROW, Missouri's small-wireless statute (RSMo 67.5110 et seq.) set the statewide permitting framework, but its sunset provisions mean the city's current node process should be confirmed at scoping.",
+      "localSpecificsReferenced": [
+        "Greene County sinkhole-dense karst",
+        "RSMo 67.5110 small-wireless framework",
+        "southwest Missouri ice-storm exposure"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Springfield has no announced hyperscale campus, and this page won't pretend otherwise — edge demand here follows the city's role as southwest Missouri's commercial hub and the density of its fiber plant. What the market does offer is unusual: a municipally owned utility, City Utilities, supplying electric, gas, and water plus SpringNet fiber from one organization, which simplifies the interconnection conversation for an edge enclosure or micro-data-center pad, and a BNSF-anchored industrial base with rail-served ground in the metro. The civil scope we self-perform for that demand — transformer and switchgear pads, generator yards, security compounds, duct bank — carries the same plateau caveat as everything else here: screen the karst, expect rock, and keep concentrated stormwater away from solution features.",
+      "localSpecificsReferenced": [
+        "City Utilities single-organization interconnection",
+        "SpringNet fiber density",
+        "BNSF rail-served industrial base"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 403,
+      "driveTimeHours": 6.4,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Greene",
+      "Christian",
+      "Webster"
+    ],
+    "stagingApproach": "Project-based staging in the Springfield metro: equipment and materials hold at or near the work for the duration of a scope rather than cycling back to the yard, with rented laydown arranged per program. Staging specifics are drafted here for ops review and confirmed per deployment.",
+    "localSupplyApproach": "Concrete, aggregate, and precast buy in-market — the plateau's quarry economy keeps carbonate aggregate close, and at 400-plus road miles hauling from the yard is not an option anyone would price. The supplier lineup is set at estimate by our estimating and ops teams and remains subject to ops confirmation.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Springfield is the closest thing our footprint has to a coin-flip market — route-calculated driving distance is 403 miles from Cedar Rapids and 416 from Dallas — and it is assigned to Cedar Rapids on that arithmetic. In practice the yard choice barely changes how work gets done here, because this is a project-deployment market either way: crews mobilize for the duration of a scope, stage in the metro, and buy concrete and aggregate locally. Multi-site programs — a BEAD route segment, a densification batch, a hut program — are what deploy efficiently at this range. We do not make same-day service claims for Springfield, and mobilization lead time is quoted per program after ops review.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What happens if karst or a sinkhole shows up on my Springfield site?",
+      "answer": "It gets found on purpose, early. Greene County's limestone is genuinely sinkhole-dense, so we screen candidate sites against state geological survey sinkhole mapping and walk the ground before layout is fixed. Where a feature is mapped or suspected, options run from shifting the compound, to probing and grouting, to redesigning stormwater so nothing discharges toward a swallow point. The expensive version of karst is the one discovered under a poured foundation — screening is cheap by comparison.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How deep do foundations need to go in Springfield, Missouri?",
+      "answer": "Below the frost line in the city's amended 2018 code tables — and we have deliberately not printed a number here, because the amended table itself is the only legitimate source and it was not directly verifiable at research time. Confirm the value with Building Development Services during design. What we can say: on this plateau the governing surprise is usually rock or void, not frost — borings decide the foundation, and karst screening decides the borings.",
+      "segment": "general"
+    },
+    {
+      "question": "How much notice does Missouri 811 require before excavation?",
+      "answer": "At least two working days and not more than ten, per RSMo 319.026 — weekends and Missouri state holidays don't count as working days, and facility owners then have two working days to respond. We build that lead into every trench, bore, and vault schedule, and on larger route work we stage tickets so locates stay fresh as production moves.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who provides electric service for a hut or compound in Springfield?",
+      "answer": "City Utilities of Springfield — a community-owned municipal utility that also supplies natural gas and water and operates the SpringNet fiber network. A municipal shop moves differently from an investor-owned utility: one organization, local decision-making, and a single point of coordination when a site needs both power and fiber. New-service lead times aren't published; we get CU's written confirmation during scoping.",
+      "segment": "edge"
+    },
+    {
+      "question": "What is SpringNet and why does it matter for fiber work here?",
+      "answer": "SpringNet is City Utilities' fiber division. After CU's roughly $120 million expansion added more than 1,000 route miles to its ~700-mile plant, fiber reaches essentially the whole city, with CenturyLink leasing dark fiber on a 15-year term to sell FTTH. For construction, that means much of Springfield's fiber civil work — laterals, vaults, restoration — happens on or beside a municipally owned network built to utility standards.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does Missouri prevailing wage apply to telecom civil work in Springfield?",
+      "answer": "On public works above $75,000, yes — Missouri's Annual Wage Order sets the rates. Separately, federally funded work, including BEAD-funded broadband construction, carries Davis-Bacon wage determinations. Private carrier work on private sites generally carries neither, but funding sources on modern fiber programs mix — settle the wage question at bid.",
+      "segment": "general"
+    },
+    {
+      "question": "Can you pour a shelter pad in Springfield in January?",
+      "answer": "Usually, with protection. Southwest Missouri winters cycle through freeze and thaw rather than locking up for months, so winter foundation work continues with cold-weather concrete practice — blankets, admixtures, and attention to the forecast. The winter wildcard is ice: this part of Missouri has real ice-storm exposure, and an ice event stops site work while regional resources shift to restoration.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How does CellSite Solutions serve Springfield without a local yard?",
+      "answer": "Honestly: on a project-deployment basis. Route-calculated distances put Springfield 403 road miles from our Cedar Rapids yard and 416 from Dallas — nearly equidistant — and it's assigned to Cedar Rapids. Crews deploy for a scope's duration, stage in the metro, and buy concrete and aggregate from plateau suppliers. That model fits multi-site programs well and one-off same-day service calls poorly, so we don't promise the latter.",
+      "segment": "general"
+    },
+    {
+      "question": "What rock should I expect when boring or trenching in Springfield?",
+      "answer": "Chert and limestone, often shallow. The plateau's Mississippian carbonates sit under a cherty clay residuum, so bores and trenches meet rock routinely, and production rates should be estimated with rock tooling in the plan. The flip side of shallow rock is good bearing — once past the karst screen, foundations on competent limestone are straightforward.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Siting a telecom compound in sinkhole country",
+    "body": "The Springfield Plateau punishes a habit that serves contractors fine elsewhere: treating the geotechnical investigation as a formality that follows site selection. Here the order reverses. Karst screening — the state sinkhole inventory, aerial and LiDAR review, a field walk looking for depressions and losing drainage — belongs before layout, because the cheapest karst mitigation is moving the pad and the most expensive is discovering a void under cured concrete. When borings do go down, probe past first refusal: chert layers and limestone pinnacles can read as bedrock a few feet above a solution cavity. Design responses scale with findings — shift the compound, bridge with a stiffened mat, grout a probed void, or socket piers to sound rock. And treat stormwater as part of foundation design: concentrated discharge toward a swallow point doesn't just flood, it actively enlarges the feature under your site. None of this makes Springfield a hard market — limestone bearing is excellent once proven — it makes it a sequence-sensitive one. Screen, probe, then design; run it backward and the plateau will invoice you."
+  },
+  "sources": [
+    {
+      "label": "City of Springfield — Building Permits & Codes (Building Development Services)",
+      "url": "https://www.springfieldmo.gov/169/Building-Permits-Codes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Springfield — 2018 International Building Code adoptive document",
+      "url": "https://www.springfieldmo.gov/DocumentCenter/View/46891/2018-International-Building-Code",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Missouri Geological Survey — Springfield Plateau Groundwater Province (PUB3002)",
+      "url": "https://dnr.mo.gov/document-search/groundwater-provinces-missouri-springfield-plateau-groundwater-province-pub3002/pub3002",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Ozark Plateaus aquifer groundwater-flow model, Greene County (SIR 2010-5227)",
+      "url": "https://pubs.usgs.gov/publication/sir20105227",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Greene County — design standards (sinkhole provisions)",
+      "url": "https://greenecountymo.gov/files/PDF/file.pdf?id=1554",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "RSMo 319.026 — excavation notice to Missouri One Call",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=319.026&bid=57366",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Missouri DNR — construction land disturbance stormwater permits",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Missouri Department of Labor — prevailing wage law and Annual Wage Order",
+      "url": "https://labor.mo.gov/dls/prevailing-wage",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Office of the Governor of Missouri — approval of $814M+ BEAD awards",
+      "url": "https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-approval-more-814-million-expand-broadband-access",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Ozarks Independent — City Utilities citywide gigabit fiber announcement",
+      "url": "https://ozarksindependent.com/2019/08/13/city-utilities-to-bring-gigabit-speed-internet-to-all-of-springfield/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Springfield Business Journal — CU $120M SpringNet fiber expansion",
+      "url": "https://sbj.net/stories/cu-to-invest-120m-on-fiber-expansion,65119",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "RSMo 67.5110 — Uniform Small Wireless Facility Deployment Act",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=67.5110",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath — driving distance, Springfield MO to Cedar Rapids IA (403 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Springfield,+MO/to/Cedar+Rapids,+IA",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath — driving distance, Springfield MO to Dallas TX (416 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Springfield,+MO/to/Dallas,+TX",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia — St. Louis–San Francisco Railway (Frisco headquarters heritage in Springfield)",
+      "url": "https://en.wikipedia.org/wiki/St._Louis%E2%80%93San_Francisco_Railway",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool / ATC blocked by the egress proxy; no primary value found before the search budget was exhausted."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / designTempLowF / designTempHighF",
+      "attempted": "ASCE Hazard Tool, TIA-222 county tables, and ASHRAE design-condition compilations all unreachable through the proxy; no secondary source good enough to publish."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps service blocked; only a qualitative caution recorded in seismic.notes."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Value lives in Springfield's amended 2018 code tables (City Code Ch. 36); the adoptive documents surfaced in search but the table value was not readable — no number published."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, corrosivity, expansive risk)",
+      "attempted": "NRCS Web Soil Survey and detailed IGS/USGS report PDFs unreachable through the proxy; only qualitative geology sourced (MoDNR PUB3002, USGS SIR 2010-5227)."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority + stateDotDistrict",
+      "attempted": "City ROW pages and MoDOT district pages unreachable; Southwest District assignment is from the program brief and needs verification."
+    },
+    {
+      "field": "utilities.ilec",
+      "attempted": "ILEC designation (legacy CenturyLink/United territory, possible Lumen-to-Brightspeed transfer) not verified against FCC data before the search budget was exhausted — left null."
+    },
+    {
+      "field": "environmental — USACE district, wetlands authority, floodplain administrator, tree-clearing window",
+      "attempted": "USACE district boundary maps and USFWS county guidance not reachable; tree-clearing marked restricted with the window left null pending USFWS confirmation."
+    },
+    {
+      "field": "regulatory.wirelessFacilityOrdinanceNote — post-sunset status",
+      "attempted": "RSMo 67.5110–67.5122 text shows a January 1, 2025 expiration for most sections; whether the legislature extended or replaced the framework was not confirmed."
+    },
+    {
+      "field": "compliance.stateContractorLicensing",
+      "attempted": "No-statewide-GC-license statement needs verification against a state authority; municipal requirements need confirmation with the city."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "NCEI station normals for Springfield not readable through the proxy; calendar authored qualitatively and flagged for the station-table check."
+    },
+    {
+      "field": "identity.population / elevationFt",
+      "attempted": "Census QuickFacts unreachable; population carried from program seed with the vintage unconfirmed, elevation left null."
+    },
+    {
+      "field": "operations — staging and local-supply plans (Band B)",
+      "attempted": "Drafted per CONTENT_MODULES §O for ops review; RESEARCH.md sources these from CSS ops/estimating, so the gap clears only on ops confirmation."
+    },
+    {
+      "field": "operations.nearestBase — routing source access",
+      "attempted": "Close-call resolved: Cedar Rapids 403 mi / 6.4 h vs Dallas 416 mi / 6.6 h (Travelmath, corroborated by distancecalc.com at 401 mi). Values were read via search snippets because the calculator sites are proxy-blocked; reviewer should open the route pages once to confirm."
+    },
+    {
+      "field": "marketActivity — county-level BEAD detail",
+      "attempted": "Statewide approval sourced; Greene County award lists not yet found. Recheck quarterly."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    },
+    {
+      "field": "logistics.seasonalLoadRestrictions — county posting practice",
+      "attempted": "Greene County road-posting practice not verified; note written conservatively pending a county highway department check."
+    }
+  ]
+}

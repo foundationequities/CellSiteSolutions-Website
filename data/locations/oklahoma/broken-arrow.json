@@ -1,0 +1,665 @@
+{
+  "identity": {
+    "slug": "broken-arrow",
+    "city": "Broken Arrow",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "stateAbbr": "OK",
+    "counties": [
+      "Tulsa",
+      "Wagoner"
+    ],
+    "msa": "Tulsa, OK MSA (Broken Arrow is the metro's largest suburb)",
+    "tier": 3,
+    "latitude": 36.0526,
+    "longitude": -95.7908,
+    "elevationFt": 750,
+    "population": {
+      "value": 118180,
+      "source": "U.S. Census Bureau 2024 population estimate (QuickFacts, Broken Arrow city) — confirm exact vintage figure before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [],
+    "majorRoutes": [
+      "OK-51 / Broken Arrow Expressway",
+      "Creek Turnpike (toll)",
+      "Muskogee Turnpike (toll)",
+      "US-64"
+    ]
+  },
+  "metadata": {
+    "title": "Broken Arrow, OK Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Broken Arrow, OK — fiber, wireless, and edge site work across Tulsa's largest suburb, built from CellSite Solutions' Dallas yard.",
+    "h1": "Telecom Site Civil Construction in Broken Arrow, Oklahoma",
+    "intro": "Broken Arrow is Oklahoma's third-largest manufacturing city — more than 300 firms including FlightSafety, Zeeco, and CymSTAR — and the Tulsa metro's largest suburb, still adding rooftops along the Creek Turnpike and OK-51 corridors. That combination throws off steady telecom civil scope: fiber laterals into new subdivisions, macro and small-cell work under Oklahoma's statewide small-wireless law, and edge capacity pulled east by Google's multibillion-dollar Pryor campus about 40 road miles up the Muskogee Turnpike. CellSite Solutions builds this market from our Dallas yard, roughly 262 road miles down US-75 — foundations, underground, grounding, and compound construction, priced to Pennsylvanian shale ground rather than guesswork.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "Oklahoma's statewide minimum commercial code is the 2018 IBC (OUBCC), which references ASCE 7-16; the OUBCC has adopted the 2024 I-Code editions effective September 14, 2026, which move references to ASCE 7-22 — confirm the edition in force at permit time",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Publish Ss/S1 only from a USGS design-maps query at the site coordinates. Northeastern Oklahoma has experienced induced seismicity in recent decades; treat site class as site-specific and let the geotechnical report govern."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Broken Arrow sits on gently west-dipping Middle Pennsylvanian bedrock — alternating shales with thinner sandstones and limestones (units mapped in Tulsa and Wagoner counties include the Holdenville, Labette, Wann, and Iola formations), covered by clay-rich residuum and, along the Arkansas River fringe, alluvium. The Oklahoma Geological Survey has published a dedicated geologic map of the Broken Arrow 7.5-minute quadrangle (OGQ-71). (USGS state geologic map compilation, Tulsa County; OGS OGQ-71.)",
+    "dominantSoilTypes": [
+      "Clay-rich residuum weathered from Pennsylvanian shale",
+      "Silty clay loams on uplands",
+      "Arkansas River and tributary-creek alluvium (Haikey and Broken Arrow creeks)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Shale-derived clays in the Tulsa metro are commonly treated as shrink-swell suspects by local practice, but NRCS linear-extensibility data for the specific map units was not confirmed — order the soils data with the geotechnical investigation rather than assuming a rating.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The bedrock section here is shale- and sandstone-dominated with only thin limestone beds; karst is not a mapped concern in the Broken Arrow quadrangle the way it is in carbonate terrain."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The working question on a Broken Arrow foundation is usually clay behavior, not rock depth. Upland sites carry clayey residuum over interbedded Pennsylvanian shale and sandstone: shallow spread footings and shelter pads perform well where the clays are stable, but local practice leans on geotechnical investigation and engineered foundations because shale-derived clays in this metro have a shrink-swell reputation that deserves borings, not assumptions. Where sandstone ledges sit high, excavation usually stays rippable — this is not granite country — and drilled piers for towers can bear in or on competent shale or sandstone at modest depth. Along Haikey and Broken Arrow creeks, alluvial ground adds floodplain screening and softer, wetter subgrades to the mix. The city's frost-depth amendment was not confirmed from primary code text, so footing embedment is quoted only after the adopted-code check; site borings govern everything above."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Broken Arrow — Community Development, Community Permitting & Licensing",
+        "url": "https://www.brokenarrowok.gov/government/community-development/inspection-code-compliance/adopted-building-codes",
+        "phone": "918-259-2411",
+        "typicalReviewDays": null,
+        "note": "One-stop permitting at City Hall, 220 S First St; applications run through the Tyler EnerGov Citizen Self Service portal. Published plan-review timelines are not posted — confirm the current queue by phone. Sites east of the county line fall in Wagoner County but are permitted by the city inside city limits."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "State minimum commercial codes adopted by the Oklahoma Uniform Building Code Commission — the 2018 I-Code family as amended by Oklahoma, with the 2024 editions taking effect statewide September 14, 2026 — plus City of Broken Arrow local amendments; confirm the city's current local editions with Community Development",
+      "source": "City of Broken Arrow adopted building codes page (brokenarrowok.gov); OUBCC adopted-codes rulemaking (oklahoma.gov/oubcc)",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities in Oklahoma rights-of-way are governed by the state's Small Wireless Facilities Deployment Act (11 O.S. §§ 36-501 through 36-512), which caps municipal fees and limits pole-height increases; Broken Arrow administers small-cell permits within that preemptive framework.",
+    "rowPermitAuthority": {
+      "name": "City of Broken Arrow — Engineering & Construction (Public Works)",
+      "url": "https://www.brokenarrowok.gov/government/public-works/engineering-construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ROW work in city streets is permitted through the city's EnerGov portal; construction plans for public infrastructure are reviewed against the city's engineering design criteria. Turnpike ROW is separate — see logistics."
+    },
+    "stateDotDistrict": {
+      "name": "ODOT Field Division 8 (Tulsa) for the Tulsa County side; ODOT Field Division 1 (Muskogee) covers Wagoner County",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-highway utility permits (ODOT Form M4) go to the division holding the route; Broken Arrow work can touch both divisions depending on which side of the county line the crossing sits."
+    },
+    "oneCallCenter": {
+      "name": "OKIE811 (Oklahoma One-Call System)",
+      "url": "https://okie811.org/law/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Oklahoma law requires notice no less than 48 hours before excavation, excluding the date of notification, Saturdays, Sundays, and legal holidays — effectively two full business days.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Oklahoma DEQ — OKR10 Construction General Permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWP3 prepared before the Notice of Intent; the NOI identifies the receiving water and screens for sensitive and scenic-river watersheds before authorization."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Broken Arrow — Stormwater & Floodplain Management (Streets & Stormwater Division)",
+      "url": "https://www.brokenarrowok.gov/government/public-works/streets-stormwater/stormwater-floodplain-management",
+      "phone": "539-250-4191",
+      "typicalReviewDays": null,
+      "note": "The city participates in the NFIP Community Rating System and enforces minimum-elevation and siting rules in mapped floodplains; the division offers site visits for floodplain questions."
+    },
+    "permitTimelineNarrative": "Building and ROW permits both run through Broken Arrow's EnerGov self-service portal, and the city does not publish standing review times — call Community Permitting at 918-259-2411 to scope the current queue before committing a schedule. Layer in the ones that catch telecom work specifically: OKIE811 tickets need two business days before any digging, an OKR10 stormwater authorization (SWP3 then NOI through Oklahoma DEQ) must be in hand before disturbing an acre or more, floodplain development approval applies along Haikey and Broken Arrow creeks, and any crossing of the Creek or Muskogee turnpikes is an Oklahoma Turnpike Authority matter on its own clock, separate from the city entirely."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Public Service Company of Oklahoma (PSO, an AEP company)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "PSO's Tulsa district serves the Broken Arrow area; the utility is headquartered in Tulsa. Cooperative territory abuts the metro fringe, so confirm the serving utility at the parcel before scheduling a new service. Published new-service lead times are not posted — schedule from PSO's written confirmation."
+      }
+    ],
+    "ilec": "AT&T Oklahoma (legacy Southwestern Bell territory) — confirm the exchange boundary at the site before publishing",
+    "notableFiberProviders": [
+      "Cox Communications",
+      "AT&T Fiber",
+      "BTC Broadband (southwest Broken Arrow and Tulsa-metro backbone)"
+    ],
+    "notableDataCenterCampuses": [
+      "Google — Pryor campus at MidAmerica Industrial Park, Mayes County (~40 road miles northeast via the Muskogee Turnpike / OK-51 corridor)"
+    ],
+    "longHaulRouteNotes": "BTC Broadband operates a regional fiber backbone of roughly 90 route miles from Bartlesville to Henryetta that threads the Tulsa metro, including Broken Arrow — one of several competitive routes riding this corridor.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Oklahoma does not run upper-Midwest-style spring frost-law embargoes. County commissioners can post individual roads or bridges at any time, so verify postings on the final approach to a rural Wagoner County site rather than assuming the state network's limits carry through."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Oklahoma Department of Public Safety — Size and Weights Permit Division",
+      "url": "https://oklahoma.gov/dps/programs-services/troop-s/programs-services/size-weight.html",
+      "phone": "877-425-2390",
+      "typicalReviewDays": null,
+      "note": "Oversize movements are daylight-only, and oversize loads are barred from the Interstate System in Tulsa County on weekdays 7:00–9:00 a.m. and 3:30–6:30 p.m. — a real constraint on shelter hauls routed through the metro. Turnpike movements clear separately with the Oklahoma Turnpike Authority."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific (ex-Missouri–Kansas–Texas 'Katy' line — the railroad Broken Arrow was platted on in 1902–03)",
+        "crossingPermitNote": "Fiber crossings of the UP line run through Union Pacific's utility-crossing license process; approvals are notoriously slow, so file the application at design stage, not construction stage."
+      }
+    ],
+    "urbanRowRequirements": "City ROW permits issue through the EnerGov portal with plans reviewed against Broken Arrow's engineering design criteria. The Creek and Muskogee turnpikes are a separate regime: Oklahoma statute (69 O.S. § 1722.1) holds Oklahoma Turnpike Authority rights-of-way inviolate, so any longitudinal occupancy or crossing needs OTA's own permit — plan bores accordingly."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Oklahoma State Historic Preservation Office (Oklahoma Historical Society)",
+      "url": "https://www.okhistory.org/shpo/section106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 comment runs 30 days from receipt of a complete submission; the office does not accept emailed review requests, so build the mail cycle into federally funded schedules."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Tulsa District regulatory program (Section 404); Oklahoma DEQ handles Section 401 certification",
+      "url": "https://www.swt.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Tulsa District regulatory office sits at 2488 E 81st St in Tulsa — unusually close to this market."
+    },
+    "usaceDistrict": "Tulsa District (SWT)",
+    "listedSpeciesNote": "Eastern Oklahoma is longstanding American burying beetle territory, and protected bat species range across the region — but county lists are not a clearance. Run a project-specific USFWS IPaC query for every site; no per-county clearing window was confirmed from USFWS guidance, so treat clearing timing as unresolved until IPaC says otherwise.",
+    "floodplainPrevalenceNote": "Broken Arrow's flood exposure runs through its creeks: Haikey Creek (flanked by a 5,860-foot federal levee completed in 1985) and Broken Arrow Creek, whose watershed FEMA selected for a flood-map revision. The Tulsa County incorporated-area FIRMs became effective September 12, 2024, and the city holds a Community Rating System classification for exceeding NFIP minimums — screen creek-adjacent sites against the current panels, not the old ones."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Cool with freeze-thaw cycling; occasional arctic snaps and ice events",
+        "earthworkConcrete": "constrained",
+        "note": "Cold-weather concrete practice on pour days; ground rarely freezes deep or long"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw continues; wet subgrades after winter storm systems",
+        "earthworkConcrete": "constrained",
+        "note": "Ice storms are the disruption risk, not sustained frost"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming and drying between fronts; severe-weather season begins",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Workable; thunderstorm frequency climbing",
+        "earthworkConcrete": "favorable",
+        "note": "Plan SWP3 maintenance around heavy convective rain"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Peak severe season — heavy rain, hail, tornado risk",
+        "earthworkConcrete": "workable",
+        "note": "Expect storm-day losses in production schedules"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, drying; storms taper through the month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and mostly dry; clay subgrades shrink and crack",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concreting controls — early pours, evaporation retarders"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest stretch of the year; dry, hard clays",
+        "earthworkConcrete": "workable",
+        "note": "Heat governs crew scheduling and mass-pour timing"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Cooling; excellent trenching and boring conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Mild and generally dry; a second severe-weather window can appear",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling with rain systems; ground stays open",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freeze-thaw returns; ice storm exposure peaks",
+        "earthworkConcrete": "constrained",
+        "note": "The December 2007 ice storm corridor ran straight through the Tulsa metro"
+      }
+    ],
+    "narrative": "Broken Arrow's construction year has no frozen-ground season to schedule around — the constraints are storms and heat. Late spring brings the metro's severe-weather peak (rain, hail, tornado watches), July and August impose hot-weather concreting practice, and December through February carries the ice-storm exposure that produced the state's worst outage event in December 2007. Eleven months of the year are genuinely workable for earthwork; the schedule risk is episodic weather days, not season-long shutdowns. Confirm exact figures against the NOAA 1991–2020 normals for the Tulsa station before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Interbedded Pennsylvanian sandstone and shale can sit high under upland sites, but it is generally rippable with heavy excavation equipment — expect harder digging, not blasting, and let borings price the difference.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "Working inside the Tulsa metro keeps ready-mix within normal delivery radius for essentially any site in the city; rural Wagoner County sites east of town deserve a haul check at bid time.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Oklahoma has had no state prevailing wage law since its act was struck down by the state supreme court in 1995; federal Davis-Bacon rates still attach to federally funded scopes, including BEAD-financed fiber work.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Summer heat drives hot-weather concrete measures and shifted pour windows; winter cost shows up as episodic ice-storm delay rather than months of frost protection.",
+    "narrative": "Cost on a Broken Arrow civil scope moves on ground behavior and timing more than on logistics. Clay-rich residuum over shale pushes many designs toward engineered foundations and occasionally drilled piers, and high sandstone ledges buy harder — though usually rippable — excavation. The permitting stack adds cost where a route touches the turnpikes (OTA permits and deeper bores) or a creek floodplain (elevation and floodplain approval). Seasonally, the premiums are heat management in July–August and storm-day contingency in April–June, not winter protection. Mobilization from our Dallas yard is a known, fixed line on the estimate — roughly a four-and-a-half-hour run up US-75 — rather than a variable. Drivers only: every site prices from its own borings, route, and month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Oklahoma issues no statewide general contractor license. The Construction Industries Board licenses the electrical, plumbing, and mechanical trades (with roofing registration), so those scopes ride on CIB-licensed licensees, while general civil contractors register city-by-city where they pull permits — Broken Arrow included.",
+    "additionalRegistrations": [
+      "City of Broken Arrow contractor registration with Community Permitting & Licensing",
+      "Oklahoma Secretary of State registration for out-of-state entities"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "high wind",
+      "extreme heat"
+    ],
+    "designImplications": "This is severe-convective country: anchorage, fencing, and ice-bridge details get engineered for high wind and hail, and generator fuel systems earn conservative containment given tornado-season debris exposure. Ice accretion — the December 2007 storm corridor crossed this metro — argues for realistic radial-ice assumptions on structures, published only after county TIA-222 values are confirmed. Summer heat shapes concrete specs more than winter cold does.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google adds $9B in Oklahoma, expanding the Pryor campus",
+        "detail": "Google announced an additional $9 billion Oklahoma investment in cloud and AI infrastructure, expanding the Pryor data center campus at MidAmerica Industrial Park — already over $4.4 billion invested — and adding a new Stillwater site. Pryor sits about 40 road miles northeast of Broken Arrow.",
+        "category": "data center",
+        "sourceUrl": "https://www.kosu.org/local-news/2025-08-14/google-announces-a-new-9-billion-cloud-and-ai-investment-in-oklahoma",
+        "asOf": "2025-08-14"
+      },
+      {
+        "headline": "Oklahoma BEAD ($797.4M) moves to awards under revised federal rules",
+        "detail": "The Oklahoma Broadband Office completed its 'Benefit of the Bargain' application round on July 23, 2025, with roughly $550 million in provisional awards to 20 ISPs covering about 34,000 locations — rural Wagoner County east of Broken Arrow is exactly the kind of territory these builds target.",
+        "category": "broadband program",
+        "sourceUrl": "https://nondoc.com/2025/08/08/amid-trump-admin-changes-oklahoma-broadband-office-prepares-for-next-stage-of-development/",
+        "asOf": "2025-08-08"
+      },
+      {
+        "headline": "BTC Broadband extends its metro fiber backbone",
+        "detail": "BTC Broadband's ~90-mile Bartlesville-to-Henryetta fiber backbone passes through the Tulsa metro and serves southwest Broken Arrow, with continued expansion into Tulsa — competitive fiber overbuild activity alongside Cox and AT&T Fiber.",
+        "category": "carrier program",
+        "sourceUrl": "https://arnett.substack.com/p/btc-fiber-backbone-expands-into-tulsa",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Three fiber networks are competing for Broken Arrow rooftops at once — Cox, AT&T Fiber, and BTC Broadband, whose regional backbone threads the city's southwest — which keeps lateral, vault, and restoration work moving in established ROW. The bores that price this market are its barriers: Union Pacific's ex-Katy line through the historic core needs a UP crossing license filed early, and the Creek and Muskogee turnpikes are OTA-permitted crossings on their own timeline. East of the county line, Oklahoma's $797.4M BEAD program is funding rural Wagoner County routes where OKIE811's two-business-day ticket and county road postings set the rhythm. Boring here runs through clay and rippable Pennsylvanian shale — honest ground for HDD, priced from borings.",
+      "localSpecificsReferenced": [
+        "BTC Broadband backbone through southwest Broken Arrow",
+        "Union Pacific ex-Katy line crossing licenses",
+        "Creek/Muskogee turnpike OTA permits",
+        "Oklahoma BEAD and rural Wagoner County"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Broken Arrow tracks the growth map: a suburb of 118,000 that keeps annexing rooftops along the Creek Turnpike and OK-51 corridors needs densification, and small-cell work in city ROW runs under Oklahoma's preemptive Small Wireless Facilities Deployment Act (11 O.S. §§ 36-501–512) rather than a bespoke local ordinance. The engineering story is in the ground and the sky — shale-derived clays that push shelter pads and piers toward geotech-driven designs, and a severe-weather climate (hail, tornado-season wind, the 2007-class ice events) that rewards conservative anchorage and fuel containment. PSO's Tulsa district is the serving utility for compound power, and we sequence pours around the metro's spring storm calendar.",
+      "localSpecificsReferenced": [
+        "Oklahoma Small Wireless Facilities Deployment Act",
+        "Creek Turnpike / OK-51 growth corridors",
+        "PSO Tulsa district",
+        "Tulsa-metro shale-derived clays"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The gravitational center of edge and data center demand in this corner of Oklahoma is Google's Pryor campus at MidAmerica Industrial Park — more than $4.4 billion invested and a further $9 billion Oklahoma expansion announced in August 2025 — about 40 road miles northeast of Broken Arrow up the Muskogee Turnpike corridor. That capacity pulls interconnection routes and edge sites through the Tulsa metro, and Broken Arrow's own manufacturing base (Oklahoma's third-largest, 300-plus firms) generates the industrial-park power and conduit scope that looks exactly like edge civil: transformer pads, generator yards, campus duct bank. We self-perform those scopes with the same crews that build our wireless compounds, from the Dallas yard.",
+      "localSpecificsReferenced": [
+        "Google Pryor campus at MidAmerica Industrial Park",
+        "$9B Oklahoma expansion (Aug 2025)",
+        "Muskogee Turnpike corridor",
+        "Broken Arrow manufacturing base (300+ firms)"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 262,
+      "driveTimeHours": 4.3,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Tulsa",
+      "Wagoner"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The run to Broken Arrow is a straight shot north out of our Dallas yard: US-75 through Sherman and Durant, across the Red River, then up the McAlester corridor to the Tulsa metro — about 262 road miles and four and a half hours by verified routing. That makes this a day-one market: crews and iron roll in the morning and are cutting ground after lunch, with multi-day scopes running on a stay-over rotation rather than daily commutes. Shelter and equipment hauls plan around two Oklahoma quirks — oversize loads are barred from Tulsa County interstates at weekday peak hours, and turnpike movements clear separately with the OTA. Emergency and storm-response commitments are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do telecom foundations need to go in Broken Arrow?",
+      "answer": "Quote embedment only after two checks: the city's adopted-code frost provision, which we could not confirm from primary code text and therefore do not publish, and a site geotechnical report — the controlling issue here is usually shale-derived clay behavior, not frost. Engineered foundations sized from borings are normal practice for shelter pads and tower piers in this metro.",
+      "segment": "general"
+    },
+    {
+      "question": "Who permits right-of-way work for fiber in Broken Arrow?",
+      "answer": "The City of Broken Arrow for city streets — ROW and building permits both run through the EnerGov Citizen Self Service portal under Community Development and Engineering & Construction. The Creek and Muskogee turnpikes are not city ROW: Oklahoma Turnpike Authority rights-of-way are held inviolate by statute, so turnpike crossings need OTA's separate permit.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does OKIE811 require before excavation?",
+      "answer": "No less than 48 hours, and the clock excludes the day you call, weekends, and legal holidays — so treat it as two full business days. We put the ticket lead at the front of every underground schedule in Oklahoma, including bores, vault sets, and ground-ring trenching.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Are there seasonal road restrictions that affect shelter delivery to Broken Arrow?",
+      "answer": "Not the frost-law kind — Oklahoma has no spring thaw embargo season. The binding constraints are different: oversize loads are prohibited on Tulsa County interstates on weekdays from 7–9 a.m. and 3:30–6:30 p.m., oversize travel is daylight-only, and turnpike hauls need Oklahoma Turnpike Authority clearance on top of the DPS Size and Weights permit.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What soil conditions should I expect boring or trenching in Broken Arrow?",
+      "answer": "Clay-rich residuum over interbedded Pennsylvanian shale, sandstone, and thin limestone — mapped on the Oklahoma Geological Survey's Broken Arrow quadrangle sheet (OGQ-71). It is honest HDD ground: rock is generally rippable rather than blast-grade, but high sandstone ledges and shrink-swell-suspect clays are exactly what pre-bid borings exist to find.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Broken Arrow in January?",
+      "answer": "Usually, yes. Winters here bring freeze-thaw cycling and ice-storm days rather than months of frozen ground, so January pours proceed with standard cold-weather concrete practice and a weather eye. The bigger seasonal adjustments in this market are summer ones — July and August pours run early in the day with hot-weather controls.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What's driving edge and data center work near Broken Arrow?",
+      "answer": "Google's Pryor campus at MidAmerica Industrial Park, roughly 40 road miles northeast — over $4.4 billion invested and part of a further $9 billion Oklahoma expansion announced in August 2025. That scale of capacity pulls fiber interconnection and edge sites through the Tulsa metro, and Broken Arrow's 300-plus-firm manufacturing base adds steady industrial power-and-conduit civil scope of its own.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does a Broken Arrow site near a creek need a floodplain permit?",
+      "answer": "If it's in a mapped floodplain, yes — the city's Stormwater & Floodplain Management division administers development rules in the Haikey Creek and Broken Arrow Creek corridors, and the current Tulsa County FIRMs took effect September 12, 2024. The city exceeds NFIP minimums under the Community Rating System, so screen early against the new panels rather than discovering an elevation requirement at permit time.",
+      "segment": "general"
+    },
+    {
+      "question": "When does a construction stormwater permit apply in Oklahoma?",
+      "answer": "At one acre of disturbance — or less, if the site is part of a larger common plan of development. Oklahoma DEQ's OKR10 construction general permit requires a stormwater pollution prevention plan (SWP3) before you file the Notice of Intent, which also identifies the receiving water and screens for sensitive watersheds. Compound-plus-access-road scopes cross the acre line more often than expected.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Spread footings vs. drilled piers in Broken Arrow's shale-clay ground",
+    "body": "The foundation decision in Broken Arrow is a clay conversation before it is a depth conversation. Upland sites carry residuum weathered from Pennsylvanian shale, and this metro's clays have earned enough shrink-swell suspicion that local practice leans on geotechnical investigation and engineered designs even for modest structures. For a fiber hut or shelter pad on stable, well-drained clay, a conventional spread footing or thickened-edge pad is the economical answer. Where borings flag movement-prone clays, the calculus shifts: a drilled pier that carries loads past the active zone into competent shale or sandstone usually beats fighting seasonal movement with mass overexcavation and select fill, and the interbedded bedrock here is shallow enough that piers reach it at modest depth without blasting. Creek-adjacent alluvial sites change the question again — softer, wetter ground plus floodplain elevation rules along Haikey and Broken Arrow creeks can drive both the foundation and the pad elevation. Order borings before pricing concrete; in this ground the geotech report is the estimate, and skipping it just moves the cost to change orders."
+  },
+  "sources": [
+    {
+      "label": "City of Broken Arrow — adopted building codes",
+      "url": "https://www.brokenarrowok.gov/government/community-development/inspection-code-compliance/adopted-building-codes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OUBCC — 2018 IBC adoption and 2024 code-edition transition (effective 2026-09-14)",
+      "url": "https://oklahoma.gov/oubcc.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OKIE811 — Oklahoma one-call law (48-hour notice excluding weekends/holidays)",
+      "url": "https://okie811.org/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma DEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ODOT — field division map (Division 8 Tulsa; Division 1 Muskogee/Wagoner)",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma DPS — Size and Weights permits (Tulsa County peak-hour interstate restriction)",
+      "url": "https://oklahoma.gov/dps/programs-services/troop-s/programs-services/size-weight.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "69 O.S. § 1722.1 — turnpike rights-of-way held inviolate (OTA permits)",
+      "url": "https://law.justia.com/codes/oklahoma/title-69/section-69-1722-1/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "11 O.S. §§ 36-501 et seq. — Oklahoma Small Wireless Facilities Deployment Act",
+      "url": "https://law.justia.com/codes/oklahoma/title-11/section-11-36-503/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS state geologic map data — Pennsylvanian units, Tulsa County",
+      "url": "https://mrdata.usgs.gov/geology/state/fips-unit.php?code=f40143",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OGS OGQ-71 — geologic map of the Broken Arrow 7.5' quadrangle",
+      "url": "https://digitalprairie.ok.gov/digital/collection/stgovpub/id/311900/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Broken Arrow — stormwater and floodplain management (CRS, creek floodplains)",
+      "url": "https://www.brokenarrowok.gov/government/public-works/streets-stormwater/stormwater-floodplain-management",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Broken Arrow — third-largest manufacturing city in Oklahoma",
+      "url": "https://www.brokenarrowok.gov/Home/Components/News/News/2353/1317",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KOSU — Google's additional $9B Oklahoma investment (Pryor expansion)",
+      "url": "https://www.kosu.org/local-news/2025-08-14/google-announces-a-new-9-billion-cloud-and-ai-investment-in-oklahoma",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Dept. of Commerce — Google Pryor investment ($4.4B by 2022)",
+      "url": "https://www.okcommerce.gov/google-planning-another-expansion-for-pryor-data-center/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NonDoc — Oklahoma BEAD status: $797.4M program, Benefit of the Bargain round",
+      "url": "https://nondoc.com/2025/08/08/amid-trump-admin-changes-oklahoma-broadband-office-prepares-for-next-stage-of-development/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Historical Society — Broken Arrow founded on the MK&T (Katy) line",
+      "url": "https://www.okhistory.org/publications/enc/entry?entry=BR019",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Norman — December 8–11, 2007 Oklahoma ice storm",
+      "url": "https://www.weather.gov/oun/events-20071208",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Historical Society SHPO — Section 106 review",
+      "url": "https://www.okhistory.org/shpo/section106",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Tulsa District — regulatory program",
+      "url": "https://www.swt.usace.army.mil/Missions/Regulatory/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DriveDistance — Dallas, TX to Broken Arrow, OK driving route (~260–262 mi)",
+      "url": "https://drivedistance.com/from-broken-arrow-ok-to-dallas-tx",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool not reachable through the sandbox proxy; no primary value published. One query at 36.0526, -95.7908 from an unproxied machine resolves it."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / seismic Ss-S1 / design temps",
+      "attempted": "ASCE 7 Hazard Tool, TIA-222 county Annex tables, USGS design-maps service, and ASHRAE county tables all unreachable or paywalled; nothing publishable from secondary SEO sources."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Searched Broken Arrow Municode Ch. 6 and city amendment listings; only unciteable SEO aggregators state a figure (12 in.), which conflicts with regional 18-in. claims. Needs the amended Table R301.2(1) read directly from the city's adopted amendments."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — exact local editions",
+      "attempted": "City adopted-codes page returns 403 through the proxy; value published as the OUBCC state minimum framework pending direct confirmation of Broken Arrow's local editions and amendments."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive rating, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and OGS OGQ-71 PDF not readable through the proxy; only qualitative geology published."
+    },
+    {
+      "field": "environmental.treeClearingWindow",
+      "attempted": "No USFWS field-office clearing-window guidance for Tulsa/Wagoner counties was found; left unrestricted=false with species screening deferred to project IPaC queries rather than asserting a window."
+    },
+    {
+      "field": "seasonality — NOAA 1991–2020 normals table",
+      "attempted": "NCEI normals for the Tulsa station not directly readable; calendar authored qualitatively from NWS event/climate pages and needs the station table check."
+    },
+    {
+      "field": "utilities — PSO new-service lead time and exact territory at metro fringe",
+      "attempted": "PSO publishes no lead-time figures; territory confirmed only at district level (Tulsa district). Confirm per parcel and get lead time in writing from PSO."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response or storm-response commitment."
+    }
+  ]
+}

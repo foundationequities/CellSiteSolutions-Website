@@ -1,0 +1,692 @@
+{
+  "identity": {
+    "slug": "wichita",
+    "city": "Wichita",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateAbbr": "KS",
+    "counties": [
+      "Sedgwick"
+    ],
+    "msa": "Wichita, KS (Butler, Harvey, Sedgwick, and Sumner counties)",
+    "tier": 1,
+    "latitude": 37.6872,
+    "longitude": -97.3301,
+    "elevationFt": 1299,
+    "population": {
+      "value": 397532,
+      "source": "2020 U.S. Census count (Census QuickFacts unreachable through session proxy — confirm current vintage estimate before publish)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-35 (Kansas Turnpike)",
+      "I-135",
+      "I-235"
+    ],
+    "majorRoutes": [
+      "US-54/US-400 (Kellogg Ave)",
+      "K-96",
+      "US-81",
+      "K-254"
+    ]
+  },
+  "metadata": {
+    "title": "Wichita Telecom Site Civil Contractor | CellSite Solutions",
+    "description": "Telecom civil construction in Wichita, KS — foundations, duct bank, and compound work for fiber, wireless, and edge sites in the aerospace capital's soils and codes.",
+    "h1": "Telecom Site Civil Construction in Wichita, Kansas",
+    "intro": "Wichita is an industrial-network market wearing a mid-size city's paperwork. The largest city in Kansas builds under a single unified 2018 IBC-based code that covers both Wichita and unincorporated Sedgwick County through one department, MABCD — a genuine simplification compared to most metros. The ground splits the city in two: deep Arkansas River alluvium over the Equus Beds aquifer on the west and north, Wellington Formation shale rising under the east side. Demand is anchored by aerospace — Boeing closed its $4.7 billion reacquisition of Spirit AeroSystems in December 2025, and Textron Aviation builds across the east-side campuses — which keeps private-network, fiber, and industrial site civil moving regardless of carrier cycles. CellSite Solutions serves Wichita on a project-deployment basis from our Dallas yard, straight up the I-35 corridor.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "Local code basis is the 2018 I-codes (Wichita/Sedgwick County Unified Building and Trade Code), which reference ASCE 7-16; confirm edition and amendments with MABCD at permit",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "South-central Kansas is a low-seismicity region for code purposes, though induced seismicity from oil-field disposal wells has been recorded in the broader region — numeric Ss/S1 must come from a USGS design-maps query at site coordinates before publication. Wind and hail, not seismic, govern telecom structure design here; publish ultimate wind speeds only after an ASCE 7 Hazard Tool query."
+    },
+    "frostDepthIn": {
+      "value": 24,
+      "source": "Wichita/Sedgwick County Unified Building and Trade Code — amended IRC Section R403.1.4: all exterior footings placed at least 24 inches below undisturbed ground surface (sedgwickcounty.org UBTC)",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Sedgwick County is split between two ground regimes. The broad alluvial plain of the Arkansas and Little Arkansas rivers — the west and center of the metro — carries thick unconsolidated Quaternary and Neogene deposits of clay, silt, sand, and gravel, merging northward into the Equus Beds aquifer sediments of the Wellington-McPherson Lowlands, up to roughly 250 feet thick in northwest Sedgwick and southwest Harvey counties. East of the valley, Permian Wellington Formation shale forms the bedrock surface across roughly the eastern two-thirds of the county, rising toward the surface under the east-side uplands. (KGS Sedgwick County geohydrology; GeoKansas Wellington-McPherson Lowlands.)",
+    "dominantSoilTypes": [
+      "Arkansas River valley alluvium (clay, silt, sand, and gravel)",
+      "Equus Beds sand and gravel (north and northwest metro)",
+      "Wellington Formation shale residuum (east-side uplands)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "NRCS Web Soil Survey shrink-swell ratings for Sedgwick County map units were not retrievable this session. Wellington Formation shales and overbank clays can exhibit plasticity, so treat expansive behavior as unresolved until borings and index tests say otherwise — site-specific investigation governs.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping applies to the Wichita metro itself; the Hutchinson Salt Member of the Wellington Formation produces documented dissolution-subsidence features in central Kansas to the north and west, so deep-foundation or dewatering scopes near the county's western edge warrant a geology check."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Numeric NRCS corrosion-of-steel/concrete ratings pending a Web Soil Survey query. Note that saline water intrusion into the Arkansas River alluvium and historic oil-field brine plumes near Burrton are documented in the regional groundwater literature (USGS Equus Beds studies) — grounding-system and buried-steel specification near the well field corridor should account for elevated salinity until tested.",
+    "foundationApproachNarrative": "Which side of Wichita you build on decides the foundation conversation. In the Arkansas Valley alluvium — most of the west side, the north industrial corridor, and anything near the Big Ditch — you are in deep granular and fine-grained sediments with no rock within reach and, in places near the river and the Equus Beds well field, shallow groundwater that puts dewatering on the table for vault sets and deeper pier work. Pads and drilled piers both work; the borings decide between them, and the 24-inch code frost depth is rarely the governing dimension. On the east side the Wellington shale comes up under the uplands: excavation gets firmer, spread footings find competent bearing sooner, and auger refusal in weathered shale is a real possibility that belongs in the drilling plan rather than in a change order. Either way, Wichita is a borings-first market — the two regimes sit close enough together that assuming one from the other's data is how foundations get redesigned mid-project."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "Metropolitan Area Building and Construction Department (MABCD) — City of Wichita and Sedgwick County",
+        "url": "https://www.sedgwickcounty.org/mabcd/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "One unified department administers building permits, inspections, and contractor licensing for both the city and unincorporated Sedgwick County under the Unified Building and Trade Code. Published review times not confirmed — verify current plan-review timelines directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Wichita/Sedgwick County Unified Building and Trade Code based on the 2018 I-codes (2018 IBC/IRC with local amendments)",
+      "source": "Wichita/Sedgwick County Unified Building & Trade Code (sedgwickcounty.org/media/40170); UpCodes Wichita-Sedgwick 2018 IBC/IRC listings",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Wichita Public Works & Utilities (city street and ROW permits); Sedgwick County Public Works on county roads; KDOT District 5 on state highway ROW",
+      "url": "https://www.wichita.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Kellogg Avenue (US-54/US-400) is state highway running through the city core — confirm whether a given segment is KDOT or city jurisdiction before submitting."
+    },
+    "stateDotDistrict": {
+      "name": "KDOT District 5 — South Central Kansas (headquartered in Hutchinson)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-5-south-central-kansas",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Highway ROW permits (Form 304, Use of Right-of-Way) file with the district/area office under K.A.R. 36-11-6."
+    },
+    "oneCallCenter": {
+      "name": "Kansas 811 (Kansas One Call)",
+      "url": "https://kansas811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Kansas Underground Utility Damage Prevention Act.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "KDHE Bureau of Water — NPDES Construction Stormwater General Permit",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "phone": null,
+      "typicalReviewDays": 60,
+      "note": "NOI plus $60 fee and site-specific SWPPP; KDHE targets authorization within 60 days. The City of Wichita operates its own MS4 stormwater program — confirm local erosion-control submittals in parallel."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Wichita floodplain management (Public Works & Utilities); Sedgwick County for unincorporated areas",
+      "url": "https://www.wichita.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Much of the metro's flood exposure is managed by the Wichita–Valley Center Flood Control Project levee system; levee-adjacent and residual-floodplain parcels still carry FIRM zones. Confirm the administrator contact before publish."
+    },
+    "permitTimelineNarrative": "Wichita's permitting stack is simpler than its size suggests because one department runs it: MABCD issues building permits and licenses contractors for both the city and unincorporated Sedgwick County under the unified 2018 code, so a compound in the city and a hut site out in the county move through the same counter. The additions are standard Kansas: Kansas 811 wants two full working days before excavation, KDHE's stormwater NOI applies at an acre of disturbance with a 60-day authorization target (file early — it is the long pole on greenfield sites), and highway ROW work goes to KDOT District 5 via the Form 304 process, including segments of Kellogg Avenue where US-54/US-400 jurisdiction applies. Sites near the floodway system add a floodplain development review. Published plan-review durations were not confirmed this session; verify current MABCD timelines at intake."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy (Evergy Kansas Central — legacy Westar/KGE territory)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Investor-owned utility serving the Wichita metro. New commercial service lead times are not published — obtain written confirmation from Evergy's builders/new-service desk during scoping, and treat transformer availability as a schedule input."
+      }
+    ],
+    "ilec": "AT&T Kansas (Southwestern Bell legacy; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber (roughly 60%+ of city addresses)",
+      "IdeaTek (Buhler-based, ~20% of the city and expanding across south-central Kansas)",
+      "Cox Communications (incumbent cable operator)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Kansas posts no seasonal spring-thaw frost laws; weight limits are year-round engineering-based postings. County-posted bridges on rural Sedgwick County roads are the practical constraint for shelter hauls to greenfield sites — check postings on the last-mile route, not just the state map."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "KDOT — oversize/overweight permits via the K-TRIPS system",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "I-35 through Wichita is the Kansas Turnpike — a separately administered toll authority. A shelter haul arriving from the south should confirm KTA oversize authorization in addition to the KDOT permit, or route via I-135/US-81 from the north."
+    },
+    "bridgeOrClearanceConstraints": "The multi-year reconstruction era on the I-235/US-54 corridors means active work zones periodically constrain Kellogg Avenue clearances — pull current KDOT restriction notices for the approach route when scheduling an oversize move.",
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Class I main line through Wichita; crossing and occupancy permits run through BNSF's utility licensing process — start early, timelines are long."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Wichita Terminal Association (WTA)",
+        "crossingPermitNote": "Switching and terminal railroad in north Wichita jointly owned by BNSF and UP, operating 10+ miles of track between E 9th St N and E 33rd St N and serving as the BNSF–UP interchange. Fiber routes through the north industrial corridor should identify whose track they actually cross — WTA, BNSF, or UP — before filing."
+      },
+      {
+        "name": "Kansas & Oklahoma Railroad (Watco)",
+        "crossingPermitNote": "Watco shortline network radiating from Wichita across central Kansas; confirm current operator and crossing process for any route on ex-ATSF branch alignments."
+      }
+    ],
+    "urbanRowRequirements": "City of Wichita ROW work requires city permits and traffic control per the city's standards; Kellogg (US-54/400) segments may be KDOT jurisdiction. Confirm the current ROW manual and lane-closure requirements with Public Works & Utilities."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Kansas SHPO — Kansas Historical Society, Cultural Resources Division",
+      "url": "https://www.kshs.org/15543",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day statutory review; most of the office's ~3,000 annual reviews clear in under two weeks. State preservation-law review also applies to projects affecting listed properties."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Tulsa District regulatory program (Arkansas River basin); KDHE for Section 401 certification",
+      "url": "https://www.swt.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm district boundary — the Arkansas River basin in Kansas falls under Tulsa District."
+    },
+    "usaceDistrict": "Tulsa District (SWT) — confirm for site basin",
+    "listedSpeciesNote": "A county-specific IPaC query was not runnable this session. Federally listed bat species drive seasonal tree-clearing windows across much of the Midwest, and whooping cranes migrate through central Kansas along the Quivira/Cheyenne Bottoms corridor northwest of the metro — run IPaC per project and coordinate USFWS's Kansas field office before committing clearing dates.",
+    "floodplainPrevalenceNote": "Wichita's flood exposure is defined by the Wichita–Valley Center Flood Control Project — the 'Big Ditch,' renamed the M.S. Mitch Mitchell Floodway in 2019. Built by USACE in 1950–59, it spans about 18 miles of floodway with roughly 50 miles of connecting channels, 100 miles of levees, and 150 control structures protecting the city from Arkansas River, Little Arkansas, and Chisholm Creek flooding. Levee-protected ground still carries residual-risk FIRM zones, and sites near the floodway itself face levee-district and floodplain development review."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen crust possible but rarely deep; frequent open, dry ground",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete protection on pours; wind chill drives crew planning"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw cycling; mud after snow events",
+        "earthworkConcrete": "workable",
+        "note": "Ice storm risk is real in south-central Kansas"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawing, drying; wind picks up",
+        "earthworkConcrete": "favorable",
+        "note": "Severe-weather season begins"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good working ground between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": "Hail and tornado season ramping — April 26, 1991 Andover F5 in this window"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Wettest stretch of the year; storm interruptions",
+        "earthworkConcrete": "workable",
+        "note": "Peak severe season — schedule slack for storm days, protect open excavations"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Drying, heating; storms taper through the month",
+        "earthworkConcrete": "favorable",
+        "note": "Late-season severe events still occur"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and dry; hard surface crust",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete practice; hydration and heat planning for crews"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; dry ground, dusty excavation",
+        "earthworkConcrete": "workable",
+        "note": "Early-morning pour windows beat afternoon highs"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; excellent working conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime fall construction window",
+        "earthworkConcrete": "favorable",
+        "note": "Best sustained stretch of the construction year"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; first freezes, generally workable",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Intermittent frozen ground; shallow frost",
+        "earthworkConcrete": "workable",
+        "note": "24-inch frost depth means winter foundation work continues with protection"
+      }
+    ],
+    "narrative": "Wichita's construction year is interrupted more than it is stopped. The 24-inch frost depth and typically shallow, intermittent ground freeze mean winter work continues with cold-weather protection rather than shutting down — the genuine schedule risks are episodic: ice storms in the January–February window, and the April–June severe season, when hail and tornado-warned days cost workdays and demand that open excavations and staged materials be securable on a few hours' notice. July and August heat pushes pours to morning windows. September and October are the best sustained months of the year. Month-by-month figures here are qualitative pending an NCEI climate-normals pull for the Wichita station; the field-experience half of this table needs CSS ops review."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Valley alluvium sites carry essentially no rock risk. East-side upland sites can meet weathered Wellington Formation shale at excavation depth — usually rippable, but auger refusal on drilled piers belongs in the bid assumptions.",
+    "aggregateHaulNote": "Sand and gravel production from the Arkansas Valley alluvium is local to the metro — aggregate haul is a short-radius cost here, not a premium. Confirm current pit sources at estimate.",
+    "readyMixProximityNote": "Multiple ready-mix producers operate in the metro; delivery radius is not a cost driver inside the urbanized area. Supplier lineup confirmed per program by estimating.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Kansas repealed its state prevailing wage law in 1987, so state and locally funded work carries no state wage determination. Federal Davis-Bacon applies to federally funded work — including BEAD-funded broadband construction under the approved $166.6M Kansas program.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter concrete protection is a modest, intermittent line rather than a season-long premium; the real seasonal cost is severe-weather schedule slack in April–June and make-up time after hail and storm days.",
+    "narrative": "Wichita prices as a logistics-friendly market with a weather asterisk. Materials are cheap to move — aggregate comes out of the valley itself, ready-mix is metro-local, and the unified MABCD permit path removes the multi-jurisdiction friction that pads cost in fragmented metros. What moves numbers here: which ground regime the site sits in (dewatering allowance in the alluvium near the river and well field, auger-refusal contingency in east-side shale), severe-season schedule slack from April through June, and mobilization — as a Band B market served from Dallas, crews deploy for scope duration, so single small scopes carry the mobilization line poorly while batched multi-site programs absorb it well. Davis-Bacon applies on BEAD-funded fiber work. No rock premium, no frost-law premium, no seasonal road embargoes. Drivers only — sites price to their borings and their season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Kansas has no statewide general contractor license — licensing is local. In Wichita, contractor licensing runs through MABCD, which licenses contractors and trades for both the city and unincorporated Sedgwick County under the Unified Building and Trade Code; business-entity registration with the Kansas Secretary of State is the only state-level requirement.",
+    "additionalRegistrations": [
+      "MABCD contractor licensing (Wichita/Sedgwick County)",
+      "KDHE construction stormwater NOI on 1+ acre disturbance"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "high wind",
+      "ice storm",
+      "flood"
+    ],
+    "designImplications": "Wichita sits in the heart of the southern Plains severe-weather corridor: the Andover F5 of April 26, 1991 and the Andover EF3 of April 29, 2022 both tracked the metro's eastern edge, and large hail is a recurring, insurable reality. For telecom civil that means wind-rated anchorage on shelters and cabinets, hail-conscious equipment specification, and compound drainage designed for short violent rain rates. Ice storms load overhead spans and access in mid-winter. Flood design is mostly a solved problem inside the Big Ditch's levee envelope, but residual-risk zones and floodway-adjacent parcels still dictate elevation checks. Publish numeric wind speeds only after the ASCE Hazard Tool query.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Kansas BEAD approved at $166.6M — build phase from 2026",
+        "detail": "NTIA approved the Kansas Office of Broadband Development's restructured BEAD final proposal in December 2025 — $166.6M to 14 subrecipients with $61.3M private match, down from the original $451.7M allocation after the federal Benefit of the Bargain round. Bids covered 100% of eligible locations statewide; south-central Kansas award detail is tracked quarterly.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+        "asOf": "2025-12-15"
+      },
+      {
+        "headline": "Boeing completes $4.7B Spirit AeroSystems acquisition",
+        "detail": "Boeing closed its reacquisition of Wichita-based Spirit AeroSystems on December 8, 2025, folding roughly 15,000 workers across Wichita and other sites into Boeing and signaling increased 737-fuselage production in Wichita — sustained industrial construction, private-network, and site-infrastructure demand across the aerospace corridor.",
+        "category": "carrier program",
+        "sourceUrl": "https://boeing.mediaroom.com/2025-12-08-Boeing-Completes-Acquisition-of-Spirit-AeroSystems",
+        "asOf": "2025-12-08"
+      },
+      {
+        "headline": "IdeaTek pushes gigabit fiber across south-central Kansas",
+        "detail": "Buhler-based IdeaTek announced a $22M fiber expansion reaching roughly 15,000 homes and businesses in Andover, Haysville, Winfield, and Arkansas City — competitive fiber overbuild activity ringing the Wichita metro, on top of its ~20% in-city coverage.",
+        "category": "carrier program",
+        "sourceUrl": "https://markets.financialcontent.com/startribune/article/marketersmedia-2024-10-22-ideatek-is-bringing-gigabit-fiber-internet-to-south-central-kansas",
+        "asOf": "2024-10-22"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "service lateral to hut"
+      ],
+      "narrative": "Fiber civil in Wichita is competitive-overbuild work in easy ground. AT&T Fiber already passes most of the city, IdeaTek is spending $22M ringing the metro — Andover, Haysville, Winfield, Arkansas City — and Cox defends the incumbent cable base, which keeps duct bank, bore, and hut-pad scopes moving without waiting on subsidy maps. The Arkansas Valley alluvium bores fast and clean, with the caveat that groundwater runs shallow near the river and the Equus Beds well-field corridor, so deep vault sets carry a dewatering question. Crossing coordination in the north industrial corridor means sorting out whose track you are actually under — BNSF, UP, or the jointly owned Wichita Terminal Association interchange trackage between 9th and 33rd Streets. Statewide, the approved $166.6M BEAD program brings Davis-Bacon-covered fiber construction from 2026; south-central award detail is tracked quarterly.",
+      "localSpecificsReferenced": [
+        "IdeaTek $22M south-central Kansas expansion",
+        "Equus Beds well-field corridor groundwater",
+        "Wichita Terminal Association trackage",
+        "Kansas BEAD $166.6M approval"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Wichita answers to the Plains severe-weather corridor. The Andover tornadoes of 1991 and April 2022 tracked the metro's eastern edge, and hail days are an annual budget reality — so compound work here leans on wind-rated anchorage, hail-conscious equipment placement, and drainage sized for violent short-duration rain. The regulatory side is unusually clean: one department, MABCD, permits both the city and unincorporated Sedgwick County under the unified 2018 code, so a densification program spanning city macro sites and rural county compounds runs through a single AHJ instead of a patchwork. Foundations follow the geology split — alluvium pads west, shale-bearing footings east — with the code's 24-inch frost depth rarely governing. Storm-restoration civil after wind and hail events is a real recurring scope in this market, not a hypothetical.",
+      "localSpecificsReferenced": [
+        "Andover 1991 F5 / 2022 EF3 tornado tracks",
+        "MABCD unified city-county jurisdiction",
+        "24-inch UBTC frost depth",
+        "Wellington shale / alluvium split"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The honest read: Wichita has no announced hyperscale campus, and its edge demand is industrial. The pull comes from the aerospace plants — Boeing's reacquired Spirit AeroSystems fuselage complex, now slated for increased 737 production, and Textron Aviation's east-side campuses — where private networks, controls infrastructure, and secured compute arrive as hardened enclosure pads, utility yards, generator compounds, and campus duct bank built inside working industrial perimeters. Evergy serves the metro as the investor-owned utility, and new-service and transformer lead times are the schedule driver every edge scope underestimates, so we put the utility application at the front of the sequence, not the end. The same severe-weather envelope that shapes wireless compounds applies doubly to edge assets: anchorage, hail exposure, and fuel-containment drainage are design inputs from day one on this stretch of the Plains.",
+      "localSpecificsReferenced": [
+        "Boeing/Spirit AeroSystems Wichita complex",
+        "Textron Aviation campuses",
+        "Evergy service territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 360,
+      "driveTimeHours": 5.6,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Sedgwick",
+      "Butler",
+      "Harvey",
+      "Sumner"
+    ],
+    "stagingApproach": "Project-based staging in the Wichita metro for the duration of a scope: equipment and materials stage at or near the work — the I-135/K-96 industrial corridors offer laydown options close to most build areas — rather than cycling to the yard between tasks. Staging plan confirmed per program by ops.",
+    "localSupplyApproach": "Concrete, aggregate, and precast source in-market: ready-mix producers operate throughout the metro and Arkansas Valley sand and gravel is produced locally, so nothing structural hauls from the yard. The supplier lineup and any precast lead items are confirmed at estimate by our estimating and ops teams.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Wichita is a deployment market and the arithmetic is straightforward: crews mobilize up the I-35 corridor — roughly 360 road miles, working-estimate five and a half to six hours, pending verified routing — and stay for the duration of a scope rather than commuting. That model fits how Wichita work actually arrives: aerospace-corridor industrial programs, multi-site densification batches, and BEAD-era fiber builds that reward a single mobilization with local staging and in-market supply. It does not support same-day service calls, and we do not claim them. Note the toll-route detail that catches out-of-state haulers: I-35 into Wichita is the Kansas Turnpike, so oversize shelter loads either add KTA authorization to the KDOT K-TRIPS permit or route the final leg via I-135/US-81. Mobilization lead times are quoted per program after ops review; storm-response deployments for this market's hail and tornado seasons are planned commitments, not standing promises.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep does a fiber hut or shelter foundation need to be in Wichita?",
+      "answer": "The Wichita/Sedgwick County Unified Building and Trade Code amends IRC R403.1.4 to require exterior footings at least 24 inches below undisturbed ground — a shallow frost requirement by Midwest standards. In practice the borings govern more than the code minimum: valley alluvium sites may need depth for bearing or groundwater reasons, and east-side sites can hit weathered Wellington shale above the frost line. Confirm the commercial-path requirement with MABCD at permit.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who issues building permits for a cell site in Wichita or rural Sedgwick County?",
+      "answer": "One department for both: the Metropolitan Area Building and Construction Department (MABCD) administers permits, inspections, and contractor licensing for the City of Wichita and unincorporated Sedgwick County under a unified 2018 IBC-based code. That single-AHJ structure is genuinely unusual for a metro this size and simplifies multi-site programs that mix urban and rural compounds.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour a shelter pad in Wichita in January?",
+      "answer": "Usually, yes. Ground freeze in Wichita is typically shallow and intermittent rather than season-long, and the code frost depth is only 24 inches, so winter foundation work continues with cold-weather concrete protection — blankets, heated water, and monitored curing — rather than shutting down. The winter items that actually cost days are ice storms and wind-chill crew limits, not frozen ground. Budget protection measures, not a seasonal stop.",
+      "segment": "general"
+    },
+    {
+      "question": "How do Wichita's tornado and hail seasons affect telecom site construction?",
+      "answer": "April through June is the working risk window: hail and tornado-warned days interrupt schedules, and staged materials and open excavations must be securable on short notice. The Andover F5 of 1991 and the Andover EF3 of April 2022 both ran the metro's east side, so wind-rated anchorage and hail-conscious equipment placement are design inputs here, not upsells. Post-storm restoration civil — pads, fencing, grounding repair — is a recurring scope in this market.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Does the Big Ditch mean Wichita sites are out of the floodplain?",
+      "answer": "Mostly protected, not exempt. The Wichita–Valley Center Flood Control Project — 18 miles of floodway, about 100 miles of levees, built 1950–59 and renamed the M.S. Mitch Mitchell Floodway in 2019 — keeps Arkansas River flooding out of the core city. But levee-protected ground still carries residual-risk FIRM zones, and parcels near the floodway face floodplain development review. Pull the FIRM panel before siting; protection changes the zone, it does not erase the review.",
+      "segment": "general"
+    },
+    {
+      "question": "What soil conditions should I expect boring near the Arkansas River in Wichita?",
+      "answer": "Deep, granular, workable alluvium — clay, silt, sand, and gravel with no bedrock in reach — which makes for fast, clean directional bores. The caveat is water: groundwater runs shallow near the river and along the Equus Beds well-field corridor to the northwest, so deeper vault sets and pier excavations should carry a dewatering allowance until borings prove it unnecessary. East of the valley the picture flips, with Wellington shale rising under the uplands.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Wichita?",
+      "answer": "Evergy — the investor-owned utility for the metro, in the legacy Westar/KGE Kansas Central territory. New commercial service lead times are not published, so we obtain written confirmation from Evergy during scoping and treat transformer availability as a schedule input; the utility application goes at the front of the project sequence. Kansas Gas Service is the gas distributor where generator fuel supply is relevant.",
+      "segment": "edge"
+    },
+    {
+      "question": "Which railroads affect fiber crossings in Wichita's industrial corridor?",
+      "answer": "Three answers, sometimes on one route: BNSF and Union Pacific both run Class I lines through the metro, and the jointly owned Wichita Terminal Association operates over ten miles of switching and interchange trackage between E 9th and E 33rd Streets North. A north-corridor duct route needs to identify which entity's track it crosses before filing, because each carries its own permit process — and railroad crossing timelines, not construction, usually set those segments' schedules.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does CellSite Solutions serve Wichita from a Dallas yard?",
+      "answer": "As a project-deployment market, described honestly: crews mobilize up I-35 — roughly 360 road miles, five and a half to six hours pending verified routing — and stay for the scope's duration, with equipment staged in-market and concrete, aggregate, and precast sourced locally. That fits multi-site programs and industrial-corridor work; it does not support same-day service calls, and we do not claim them. One haul note: I-35 into Wichita is the Kansas Turnpike, so oversize loads add KTA authorization or route via I-135/US-81.",
+      "segment": "general"
+    },
+    {
+      "question": "Are there seasonal road restrictions that affect shelter delivery to Wichita?",
+      "answer": "No spring frost laws — Kansas does not post seasonal thaw restrictions, so shelter hauls run year-round on state routes under standard KDOT K-TRIPS oversize permitting. The two things to check instead: county-posted bridges on the rural last mile to greenfield sites, and the Kansas Turnpike question — I-35 into the city is KTA-administered toll road with its own oversize rules, which is why some hauls route the final leg on I-135 or US-81.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Two ground regimes, one city: reading a Wichita boring log before you price the foundation",
+    "body": "The mistake outside teams make in Wichita is pricing the whole metro off one geotechnical assumption. The city straddles a boundary: the Arkansas Valley alluvium under the west and north — deep clay, silt, sand, and gravel with no rock in reach and, near the river and the Equus Beds well-field corridor, groundwater shallow enough to flood a vault excavation — against Wellington Formation shale rising under the east-side uplands, where excavation firms up and drilled piers can hit auger refusal in weathered rock. Price an east-side compound off west-side borings and you eat a refusal claim; price a west-side hut off east-side data and you mobilize without dewatering. The sequence that works here: locate the site against the valley edge first, then let borings pick the foundation — in the alluvium, pads and piers both work and water depth decides; on the shale side, spread footings usually find competent bearing above pier pricing. The 24-inch code frost depth is almost never the governing number in either regime — treat it as a floor, not a design driver. And on any site near the floodway system, pull the FIRM panel before the geotech, because levee-adjacent zoning can move the pad before the soil gets a vote."
+  },
+  "sources": [
+    {
+      "label": "Wichita/Sedgwick County Unified Building & Trade Code (MABCD; 24-inch footing amendment to IRC R403.1.4)",
+      "url": "https://www.sedgwickcounty.org/media/40170/wichita-sedgwick-county-unified-building-trade-code-ubtc.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UpCodes — Wichita-Sedgwick 2018 IBC adoption listing",
+      "url": "https://up.codes/codes/wichita-sedgwick",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KGS — Geohydrology of Sedgwick County, Kansas (geology, alluvium, Wellington Formation)",
+      "url": "https://www.kgs.ku.edu/General/Geology/Sedgwick/geol01.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "GeoKansas — Wellington-McPherson Lowlands (Equus Beds aquifer)",
+      "url": "https://geokansas.ku.edu/wellington-mcpherson-lowlands",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Equus Beds aquifer groundwater status near Wichita (well field, saline intrusion, Burrton plume)",
+      "url": "https://www.usgs.gov/publications/status-groundwater-levels-and-storage-volume-equus-beds-aquifer-near-wichita-kansas-0",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT — District 5 South Central Kansas",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-5-south-central-kansas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "K.A.R. 36-11-6 — KDOT utility accommodation policy",
+      "url": "https://www.law.cornell.edu/regulations/kansas/K-A-R-36-11-6",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas811 — notice requirements (two full working days)",
+      "url": "https://kansas811.com/faqs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDHE — NPDES construction stormwater program (1-acre NOI, $60 fee, 60-day target)",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Historical Society — SHPO Section 106 review",
+      "url": "https://www.kshs.org/15543",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wichita Terminal Association — railroad overview (joint BNSF/UP ownership, trackage limits)",
+      "url": "https://wtarr.com/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Fairmount Folio (WSU) — The Big Ditch: the Wichita-Valley Center Flood Control Project",
+      "url": "https://journals.wichita.edu/index.php/ff/article/view/37",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KSN — Big Ditch renamed the M.S. Mitch Mitchell Floodway (2019)",
+      "url": "https://www.ksn.com/news/local/renaming-the-big-ditch/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Boeing — completes acquisition of Spirit AeroSystems (Dec 8, 2025)",
+      "url": "https://boeing.mediaroom.com/2025-12-08-Boeing-Completes-Acquisition-of-Spirit-AeroSystems",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Department of Commerce — $166.6M BEAD final proposal approval",
+      "url": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BroadbandNow — Wichita provider coverage (AT&T Fiber, IdeaTek, Cox)",
+      "url": "https://broadbandnow.com/Kansas/Wichita",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "IdeaTek — $22M gigabit fiber expansion in south-central Kansas",
+      "url": "https://markets.financialcontent.com/startribune/article/marketersmedia-2024-10-22-ideatek-is-bringing-gigabit-fiber-internet-to-south-central-kansas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT — permits page (Form 304 / K-TRIPS)",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps, and TIA-222 county data all unreachable through the session proxy. These are the liability-critical numbers — query at 37.6872, -97.3301 before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — commercial (IBC) path confirmation",
+      "attempted": "24 inches sourced from the UBTC amendment to IRC R403.1.4; the commercial-path (IBC 1809.5) local amendment should be confirmed with MABCD so the residential figure is not silently applied to commercial foundations."
+    },
+    {
+      "field": "geotech — bearing range, depth to bedrock, groundwater depth, NRCS shrink-swell and corrosivity ratings",
+      "attempted": "NRCS Web Soil Survey interactive unreachable; KGS county bulletin gave geology but no numeric bearing values. Expansive risk left 'unknown' pending data."
+    },
+    {
+      "field": "identity.population — vintage confirmation",
+      "attempted": "397,532 is the 2020 Census count from general knowledge; census.gov QuickFacts was not fetchable to confirm the current estimate."
+    },
+    {
+      "field": "regulatory — MABCD review times, ROW/floodplain administrator URLs and contacts, wireless facility ordinance",
+      "attempted": "MABCD and wichita.gov pages not fetchable through the proxy; AHJ URL, review timelines, the city wireless/small-cell ordinance, and the floodplain administrator contact all need direct confirmation. wirelessFacilityOrdinanceNote left null."
+    },
+    {
+      "field": "utilities — Evergy new-service URL and lead times; AT&T formal ILEC designation",
+      "attempted": "evergy.com intake page not fetched; FCC ILEC verification not run. Coverage percentages are from BroadbandNow republished FCC data."
+    },
+    {
+      "field": "logistics — KTA oversize process; K-TRIPS URL; KDOT restriction notices",
+      "attempted": "Kansas Turnpike Authority oversize policy stated from general knowledge of the KTA's separate administration; ksturnpike.com not fetched. Confirm before rendering the turnpike-routing advice as a requirement."
+    },
+    {
+      "field": "logistics.railroads — Kansas & Oklahoma Railroad current operations in Wichita",
+      "attempted": "K&O (Watco) presence stated from general knowledge of the shortline's Wichita-centered network; not confirmed against a current Watco system map."
+    },
+    {
+      "field": "environmental — treeClearingWindow, IPaC species list, USACE district confirmation",
+      "attempted": "IPaC unreachable; no Sedgwick County clearing-window source found, so restricted is left false with the uncertainty flagged in listedSpeciesNote. Tulsa District (Arkansas basin) assignment needs boundary-map confirmation."
+    },
+    {
+      "field": "seasonality — NCEI climate normals for the Wichita station",
+      "attempted": "Calendar is qualitative from regional climate knowledge plus severe-weather history; pull ICT station normals and get CSS ops field review before publish."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "360 mi / 5.6 h is a leg-sum working estimate for the Dallas–I-35–Wichita run (seed straight-line said 402). Travelmath, OSRM, and every routing service tried were proxy-blocked; ops must run real routing before routeVerified."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B stagingApproach and localSupplyApproach are drafts per CONTENT_MODULES §O; RESEARCH.md sources these from CSS ops/estimating, so ops confirmation is required before the gap clears."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 gate requires 1+ real project and 4 images; never invented."
+    },
+    {
+      "field": "costDrivers — aggregate/ready-mix supplier confirmation, permit fees, union jurisdiction",
+      "attempted": "Local aggregate and ready-mix availability stated qualitatively from the valley-alluvium production context; CSS estimating to confirm suppliers, MABCD fee schedule not fetched."
+    }
+  ]
+}

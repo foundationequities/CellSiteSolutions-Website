@@ -1,0 +1,483 @@
+{
+  "identity": {
+    "slug": "independence",
+    "city": "Independence",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "counties": ["Jackson"],
+    "msa": "Kansas City, MO-KS",
+    "tier": 3,
+    "latitude": 39.0911,
+    "longitude": -94.4155,
+    "elevationFt": null,
+    "population": {
+      "value": 123011,
+      "source": "U.S. Census Bureau 2020 Census count — confirm against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": ["I-70", "I-470"],
+    "majorRoutes": ["US-24", "US-40", "MO-291"]
+  },
+  "metadata": {
+    "title": "Independence, MO Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil work in Independence, MO — pads, duct bank, and compounds built around IPL's municipal electric territory and the Little Blue River valley.",
+    "h1": "Telecom Site Civil Construction in Independence, Missouri",
+    "intro": "What separates Independence from the rest of the eastern Kansas City metro is who runs the wires: Independence Power & Light, a municipal electric utility the city has operated since 1901, holds the service territory — which changes the interconnection process, the pole-attachment path, and the timeline for every hut, compound, and node built here. The rest of the civil picture is eastern-Jackson-County specific too: Pennsylvanian shale-and-limestone bedrock under the uplands, the flood-prone Little Blue River valley crossing the city's eastern half, the historic Independence Square at its center, and a Google Fiber build that started turning up service in early 2025. CellSite Solutions self-performs telecom civil scope in this market from its Cedar Rapids, Iowa yard, roughly 290 road miles northeast.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 I-codes the city adopted with amendments in November 2018 — confirm no newer adoption before design)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Western Missouri sits far from the New Madrid seismic zone; run site-specific USGS design-map queries rather than assuming values, and treat site class as site-specific."
+    },
+    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Independence sits on Pennsylvanian cyclothem bedrock — thin, alternating limestones and shales of the Kansas City-area section — mantled by loess on the uplands and by alluvium in the Little Blue River valley that crosses the city's eastern half; the Missouri River bottoms form the city's northern edge. Shale-derived residual clays dominate upland subgrades. Confirm unit mapping against Missouri Geological Survey county publications before sign-off.",
+    "dominantSoilTypes": [
+      "Loess-mantled upland silts",
+      "Shale- and limestone-derived residual clays",
+      "Little Blue River and Missouri River alluvium"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Shale-derived clays in the Pennsylvanian section warrant routine shrink-swell screening in the geotechnical program; NRCS linear-extensibility data for Jackson County was not reachable for this draft, so no rating is published.",
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": {
+      "present": false,
+      "note": "The Pennsylvanian shale-limestone terrain here does not develop karst the way mid-Missouri's Mississippian carbonates do; standard geotechnical practice applies without a karst screening layer."
+    },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Upland Independence sites are a clay story: shale-derived residual soils take conventional spread footings and shelter pads well when moisture is managed, but they punish foundations that let bearing soils cycle wet and dry — grading, drainage, and depth of cover matter as much as bearing values, and shrink-swell screening belongs in every boring program until county NRCS data says otherwise. Thin limestone ledges interbedded in the shale can surprise an excavation at any depth, so trench and pier pricing carries a rock-encounter contingency until borings close the question. In the Little Blue valley, the calculus changes: soft alluvium, higher groundwater, and mapped floodplain make pier support and elevated pads the discussion, and the flood screening happens before the geotech does. The city's amended frost-depth figure was not readable through our research proxy — it stays unpublished until cited to the ordinance. Site-specific investigation governs every design."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Independence Community Development Department",
+        "url": "https://www.independencemo.gov/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Plan review under the city's amended 2018 I-codes (City Code Ch. 4); electrical work reviews against the 2023 NEC. Published review times were not found — confirm the current queue by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code, adopted with amendments as City Code Ch. 4, Art. 5 (ordinance dated November 13, 2018); companion 2018 I-codes, with the electrical code updated to the 2023 NEC (Ch. 4, Art. 7)",
+      "source": "Independence City Code Ch. 4 via Municode; city code-amendment ordinances posted at independencemo.gov",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Missouri's Uniform Small Wireless Facility Deployment Act (2018 HB 1991, RSMo 67.5110–67.5121) preempts local small-cell regimes statewide — and it specifically obligates municipal electric utilities like Independence Power & Light to maintain a standard wireless pole-attachment agreement, which is the practical route onto IPL poles in this city.",
+    "rowPermitAuthority": {
+      "name": "City of Independence Municipal Services Department",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Street and utility ROW work runs through Municipal Services; permit mechanics and fees were not verifiable through our research proxy — confirm requirements before bid."
+    },
+    "stateDotDistrict": {
+      "name": "MoDOT Kansas City District (Jackson County)",
+      "url": "https://www.modot.org/missouri-counties-modot-district",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Permits on I-70, I-470, US-24, US-40, and MO-291 right-of-way go through the Kansas City District permit office."
+    },
+    "oneCallCenter": {
+      "name": "Missouri 811 (Missouri One Call System)",
+      "url": "https://missouri-811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice at least two working days (not more than ten) before excavation under RSMo 319.026; the amendment effective August 28, 2025 adds a 21-day completion window per ticket.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Missouri DNR — construction land disturbance general permit (MORA series)",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP and permit required at one acre of disturbance, or less when part of a larger common plan."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Independence Floodplain Management (Municipal Services)",
+      "url": "https://www.independencemo.gov/government/city-departments/municipal-services/floodplain-management",
+      "phone": "816-325-7614",
+      "typicalReviewDays": null,
+      "note": "The city spans 78 square miles across 24 watershed areas; flooding concentrates in the Little Blue River valley and along Rock Creek, Spring Branch, and Adair Creek."
+    },
+    "permitTimelineNarrative": "Building permits move through Community Development under the amended 2018 I-codes; ROW work adds a Municipal Services permit, and state-route work on I-70, US-24, US-40, or MO-291 needs MoDOT Kansas City District authorization instead. Two layers catch telecom builds specifically here: floodplain development review anywhere near the Little Blue valley — the city names it as the principal flood corridor — and IPL coordination, since a municipal utility's interconnection and pole-attachment queues run on their own clock, not Evergy's. DNR's MORA land-disturbance permit triggers at one acre, and Missouri 811 wants two working days before any dirt moves."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Independence Power & Light (IPL)",
+        "type": "municipal",
+        "newServiceProcessUrl": "https://www.independencemo.gov/independence-power-light",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Municipal utility operated by the city since 1901 — a genuinely different interconnection and pole-attachment process from the Evergy territory surrounding it. New commercial service and transformer availability are confirmed with IPL engineering, not assumed from IOU norms."
+      }
+    ],
+    "ilec": "AT&T Missouri (Southwestern Bell legacy territory across the Kansas City metro) — confirm exchange boundaries against the FCC broadband map before publishing",
+    "notableFiberProviders": [
+      "Google Fiber (construction 2024; first Independence service turn-ups in early 2025)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "I-70 through Independence is the Kansas City metro's eastern gateway and Missouri's primary east-west long-haul corridor toward Columbia and St. Louis; I-470 splits off inside the city.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Missouri operates no statewide spring frost-law embargo program of the kind Iowa and Wisconsin enforce; watch for individual county or city postings on specific roads after severe winters, and confirm with Jackson County and the city before an unusual haul."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "MoDOT Motor Carrier Services (oversize/overweight permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route OS/OW permits issue through MoDOT Motor Carrier Services' online system; city and county mileage requires separate local authorization."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific (ex-Missouri Pacific corridor; Amtrak's Missouri River Runner stops at Independence's Truman Depot)",
+        "crossingPermitNote": "Crossing and occupancy applications run through UP's utility-permit process, and its timelines are long — file at project start, not when the bore crew is scheduled. Confirm the complete operating-railroad list for a specific route against the FRA grade-crossing inventory."
+      }
+    ],
+    "urbanRowRequirements": "ROW permits run through Municipal Services. Around the historic Independence Square — the courthouse square at the center of the original city — expect tighter streetscape restoration expectations and possible historic-review triggers than on a standard arterial cut; confirm with Community Development before trenching near the Square. Traffic control on US-24, US-40, and MO-291 coordinates with MoDOT."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Federally listed bats occur across western Missouri; a project-specific USFWS IPaC review sets the site's clearing window",
+      "source": null
+    },
+    "shpo": {
+      "name": "Missouri State Historic Preservation Office (Missouri DNR)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 applies on federally funded builds; Independence's Truman-era historic districts raise the odds a route near the Square draws cultural review."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory program; Missouri DNR issues Section 401 water quality certifications",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Kansas City District (NWK)",
+    "listedSpeciesNote": "Run a project-specific USFWS IPaC query for every site; county-level species lists are not a substitute, and stream corridors along the Little Blue and its tributaries are the likeliest places for flags.",
+    "floodplainPrevalenceNote": "The city itself identifies the Little Blue River valley as its principal flood corridor, with Rock Creek, Spring Branch, and Adair Creek also flooding — and USACE is running a Little Blue River watershed feasibility study with Independence among the partner cities, so flood mapping in the valley should be treated as subject to change. The Missouri River bottoms bound the city on the north. Screen every east-side and north-edge site against the effective FIRM early."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Freeze-thaw cycling with occasional arctic snaps; no deep sustained frost", "earthworkConcrete": "constrained", "note": "Cold-weather concrete protection on all pours" },
+      { "month": "Feb", "groundConditions": "Freeze-thaw continues; thaw days leave muddy subgrades", "earthworkConcrete": "constrained", "note": null },
+      { "month": "Mar", "groundConditions": "Thawing and wet; drying begins late month", "earthworkConcrete": "workable", "note": "Severe-weather season opens across the KC metro" },
+      { "month": "Apr", "groundConditions": "Firming between rain systems", "earthworkConcrete": "favorable", "note": null },
+      { "month": "May", "groundConditions": "Workable; peak severe-storm season", "earthworkConcrete": "favorable", "note": "Flash-flood response on Little Blue tributaries can pause valley work" },
+      { "month": "Jun", "groundConditions": "Warm, workable; thunderstorm downpours intermittent", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Hot; ground firm and dry", "earthworkConcrete": "workable", "note": "Hot-weather concrete practice — KC-metro heat drives afternoon pour limits" },
+      { "month": "Aug", "groundConditions": "Hot and dry; hardest digging of the year in upland clays", "earthworkConcrete": "workable", "note": "Desiccated clays slow trenching and raise compaction water demand" },
+      { "month": "Sep", "groundConditions": "Cooling, firm; strong production month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Firm; first freeze typically late in the month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Nov", "groundConditions": "Intermittent freezes; ground still workable most days", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice resumes" },
+      { "month": "Dec", "groundConditions": "Freeze-thaw cycling; snow and ice events possible", "earthworkConcrete": "constrained", "note": null }
+    ],
+    "narrative": "Independence builds close to year-round: Kansas City-area winters bring freeze-thaw cycling rather than a locked frost season, so December-through-February work continues with concrete protection instead of stopping. The distinctive constraints sit at the other end of the calendar — July and August heat drives hot-weather concrete practice and turns desiccated upland clays into slow, hard digging — and in the spring storm season, when flash-flow on the Little Blue and its tributaries can pause valley work on short notice. September and October are the premium months. Verify month-by-month specifics against NOAA NCEI climate normals for the Kansas City area before publication; this calendar is directional."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "unknown",
+    "rockNote": "Thin Pennsylvanian limestone ledges interbedded with shale are a known feature of the Kansas City-area subsurface, but no site-independent likelihood is published here — depth to a ledge varies lot to lot, so trench and pier pricing carries a rock contingency until borings close it out.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Public works over $75,000 in Missouri carry the state's Annual Wage Order under the prevailing wage law as reworked in 2018 (HB 1729); smaller public projects under 1,000 work hours pay the Public Works Contracting Minimum Wage. BEAD-funded broadband work adds federal Davis-Bacon on top, regardless of state thresholds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Cold-weather concrete protection December through February and hot-weather measures in July and August; summer clay desiccation adds trenching and compaction cost that surprises out-of-market estimators.",
+    "narrative": "The numbers that move in Independence are process numbers as much as dirt numbers. IPL coordination is the schedule driver most estimators miss: a municipal utility's service and pole-attachment queues are real lead time that has to be bought early, not expedited late. In the ground, the swing items are limestone ledges in the shale — priced as a contingency until borings land — and the Little Blue valley, where floodplain compliance adds elevation, permitting, and sometimes pier cost. Wage regime matters too: public and BEAD-funded scopes price to the Annual Wage Order or Davis-Bacon while private carrier work does not. Mobilization from Cedar Rapids sits inside our regional band and prices as day-one travel. Drivers only — no unit pricing; each site prices to its borings and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "There is no statewide general contractor license in Missouri; qualification is local, and Independence licenses contractors through its city processes alongside the permit system. Trade work is reviewed against the city's adopted codes, including the 2023 NEC for electrical. Confirm current city contractor-licensing and business-license requirements with Community Development before bidding.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["tornado", "hail", "ice storm", "flood"],
+    "designImplications": "Kansas City-metro severe weather sets the design posture: conservative anchorage and hail-tolerant compound hardware for spring storm season, and generator pads with fuel containment as standard scope given ice-storm exposure. Flooding is a siting problem more than a design problem — the Little Blue valley is the city's named flood corridor, so the flood screening happens before the foundation design does. Publish wind and ice design values only after ASCE 7 and county TIA-222 figures are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google Fiber turned up its first Independence customers in early 2025",
+        "detail": "Following construction that began in 2024, Google Fiber switched on service to its first Independence addresses in early 2025, making the city the 35th in the Kansas City region with GFiber — with build-out and infill lateral work continuing across the eastern metro.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.kshb.com/news/local-news/gfiber-isnt-novel-anymore-but-residents-still-appreciate-new-high-speed-internet-options",
+        "asOf": "2025"
+      },
+      {
+        "headline": "Missouri BEAD awards finalized statewide",
+        "detail": "Missouri's Office of Broadband Development awarded roughly $792M of the state's $1.7B BEAD allocation to 42 providers for 213,803 locations (about 81% fiber), with awards published at broadbandmap.mo.gov in early January 2026 — subgrantee construction ramps through 2026.",
+        "category": "broadband program",
+        "sourceUrl": "https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program",
+        "asOf": "2026-01"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["long-haul and metro route construction"],
+      "narrative": "Fiber civil work in Independence right now is infill work: Google Fiber's build reached first turn-ups in early 2025 and continues filling in the eastern metro, which means laterals, vault sets, and restoration in established residential ROW under Municipal Services permits. Route engineering here is shaped by three crossings — the Union Pacific corridor that carries Amtrak through the Truman Depot, the Little Blue River and its flood-prone tributaries, and the historic Square area where streetscape restoration standards tighten. Missouri 811's two-working-day notice and 21-day ticket life set the production rhythm, and UP crossing applications go in at project start because they, not the boring, are usually the long pole.",
+      "localSpecificsReferenced": [
+        "Google Fiber Independence build (2024–2025)",
+        "Little Blue River crossings",
+        "Union Pacific corridor / Truman Depot",
+        "Independence Square streetscape"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": ["access road and turnaround", "C-band / densification upgrade civil"],
+      "narrative": "The wireless-civil fact that matters most in Independence is the pole owner: IPL, the city's municipal electric utility, controls the distribution poles, and Missouri's small-wireless act specifically requires municipal utilities to offer a standard wireless pole-attachment agreement — so small-cell and densification work here routes through IPL's process, not Evergy's, with its own engineering queue and make-ready timeline. Macro work is upland clay work: shelter pads and piers in shale-derived soils that reward moisture-managed grading, with a rock contingency for the limestone ledges interbedded through the section. Compounds near the Little Blue valley get flood-screened before anything else is decided.",
+      "localSpecificsReferenced": [
+        "Independence Power & Light standard pole-attachment agreement (RSMo 67.5110–67.5121)",
+        "Kansas City-group shale/limestone subgrades",
+        "Little Blue valley flood screening"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": ["security compound and bollards"],
+      "narrative": "Independence's edge case is the municipal-utility case. An edge enclosure or micro-DC pad in this city interconnects with IPL rather than Evergy — a different application path, a different transformer-availability conversation, and often a different timeline than sites a mile away across the boundary, which is exactly the kind of detail that decides where an eastern-KC-metro node actually lands. The I-70/I-470 junction inside the city puts sites on the metro's principal east-west fiber spine, and upland clay sites take standard pad-and-pier construction with the same rock contingency as wireless work. We price IPL coordination as schedule scope from day one rather than treating it as paperwork.",
+      "localSpecificsReferenced": [
+        "IPL municipal interconnection",
+        "I-70/I-470 junction",
+        "eastern KC-metro utility boundary"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 291,
+      "driveTimeHours": 5.0,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Jackson", "Clay", "Ray", "Lafayette"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Crews reach Independence on the interstate grid — I-380 to I-80 west, I-35 south, then into the eastern metro on I-435 and I-70 — roughly 290 road miles, pending route verification against real routing. In practice that is a morning departure and productive time on site the same day, with multi-day scopes staged on overnight stays; eastern Jackson County sites come off the I-70 side without crossing the metro core, which keeps windshield time predictable. The whole approach is interstate, so winter weather rather than road postings is the only seasonal variable. Emergency-response commitments for ice-storm work are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who provides electric service for a telecom site in Independence — Evergy or someone else?",
+      "answer": "Independence Power & Light. The city has run its own municipal electric utility since 1901, so new service, transformer availability, and pole attachments all go through IPL's engineering process rather than Evergy's — a genuinely different queue than the rest of the eastern metro. We confirm lead times with IPL directly at project start; municipal utility timelines are not interchangeable with IOU assumptions.",
+      "segment": "general"
+    },
+    {
+      "question": "How do small-cell pole attachments work on IPL poles in Independence?",
+      "answer": "Through the standard wireless pole-attachment agreement Missouri's Uniform Small Wireless Facility Deployment Act (RSMo 67.5110–67.5121) requires municipal electric utilities to maintain. The act caps fees and bonding statewide, but the make-ready engineering still runs on IPL's schedule — so attachment applications and make-ready scope go in early, before node civil work is sequenced.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which building code does Independence enforce for shelters and equipment buildings?",
+      "answer": "The 2018 I-codes, adopted with city amendments as Chapter 4 of the City Code in November 2018, with the electrical code since updated to the 2023 NEC. Missouri has no statewide building code, so Independence's amendments — not a neighboring city's — govern here. Confirm no newer adoption with Community Development when drawings are stamped.",
+      "segment": "general"
+    },
+    {
+      "question": "What flood screening applies to sites near the Little Blue River in Independence?",
+      "answer": "The city names the Little Blue valley as its principal flood corridor — along with Rock Creek, Spring Branch, and Adair Creek — and administers floodplain development review through Municipal Services (816-325-7614). USACE is also running a Little Blue watershed feasibility study with Independence as a partner, so treat valley flood mapping as live. We screen east-side sites against the effective FIRM before any design work.",
+      "segment": "general"
+    },
+    {
+      "question": "How much notice does Missouri 811 require before excavation in Independence?",
+      "answer": "Two working days minimum (no more than ten) under RSMo 319.026, and since the August 28, 2025 amendment each ticket carries a 21-day completion window — long lateral and duct-bank runs get re-ticketing planned into production rather than discovered mid-run.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Should we expect rock when trenching or setting piers in Independence?",
+      "answer": "Plan for the possibility. The subsurface here is Pennsylvanian shale interbedded with thin limestone ledges, and the depth to a ledge changes lot to lot — there's no honest blanket answer, which is why we carry a rock-encounter contingency until site borings close the question. What the terrain does not have is karst; this isn't mid-Missouri limestone country.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Independence in January?",
+      "answer": "Yes. Kansas City-area winters cycle between freezes and thaws rather than locking up, so January pours are routine with cold-weather protection — blankets or enclosures, admixtures, protected curing. The season to actually plan around is spring storm season and mid-summer, when hot-weather concrete practice limits afternoon pours.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What should we know about building near the historic Independence Square?",
+      "answer": "The Square — the courthouse square at the center of the original city — carries tighter streetscape restoration expectations than a standard arterial, and routes near it can trigger historic review, particularly on federally funded work where Section 106 applies. We flag Square-adjacent segments during routing and confirm review triggers with Community Development before committing a schedule.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is Google Fiber still building in Independence?",
+      "answer": "Yes — construction began in 2024, first customers were switched on in early 2025 (the 35th Kansas City-region city with GFiber), and infill lateral, vault, and restoration work continues across the eastern metro. That build, plus Missouri BEAD subgrantee construction ramping through 2026, is what's driving fiber civil demand in this market.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Upland clay or valley alluvium: siting decides the foundation in Independence",
+    "body": "Foundation strategy in Independence is mostly decided before the geotech drill arrives, by where the site sits. On the uplands — most of the city — shale-derived residual clays support conventional spread footings and shelter pads economically, provided the design respects moisture: positive drainage away from bearing soils, adequate depth of cover, and shrink-swell screening in the boring program, because a clay that cycles wet and dry moves whatever sits on it. The line items that swing upland budgets are limestone ledges (carry the rock contingency until borings kill it) and summer desiccation, which turns August trenching slow and hard. Drop into the Little Blue valley and the problem changes species: mapped floodplain triggers development review through the city's floodplain office, soft alluvium and shallower groundwater push designs toward piers or elevated pads, and USACE's active watershed study means today's flood mapping may not be tomorrow's. Our default: put the compound on the upland side of the flood line even at the cost of a longer power run or access drive — IPL service extensions are a schedule conversation, but floodplain compliance is a permanent design tax. When the valley is unavoidable, elevation and pier support get priced from day one, not value-engineered in later.",
+    "heading_note": null
+  },
+  "sources": [
+    {
+      "label": "City of Independence — Independence Power & Light (municipal utility since 1901)",
+      "url": "https://www.independencemo.gov/independence-power-light",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Independence City Code Ch. 4, Art. 7 — 2023 NEC adoption (Municode)",
+      "url": "https://library.municode.com/mo/independence/codes/code_of_ordinances?nodeId=CH4BUPLELIN_ART7ELCO",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Independence — 2018 IRC amendments ordinance (Ch. 4 code adoption, Nov. 13, 2018)",
+      "url": "https://www.independencemo.gov/sites/default/files/2023-08/2018%20International%20Residential%20Code%20Amendments.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Independence — Floodplain Management (Little Blue valley; 24 watersheds)",
+      "url": "https://www.independencemo.gov/government/city-departments/municipal-services/floodplain-management",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Mid-America Regional Council — Little Blue River watershed study (USACE partnership)",
+      "url": "https://www.marc.org/environment/environment-plans/little-blue-river-watershed-study",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KSHB — GFiber expansion in the Kansas City region (Independence turn-ups, 35th metro city)",
+      "url": "https://www.kshb.com/news/local-news/gfiber-isnt-novel-anymore-but-residents-still-appreciate-new-high-speed-internet-options",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "RSMo 319.026 — Missouri One Call notice requirements",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=319.026",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "RSMo 67.5110 — Uniform Small Wireless Facility Deployment Act (municipal-utility pole attachment duty)",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=67.5110",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DNR — construction land disturbance permits (one-acre trigger)",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri Department of Labor — prevailing wage, 2018 changes (HB 1729, $75,000 threshold)",
+      "url": "https://labor.mo.gov/dls/prevailing-wage/2018-changes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DED — BEAD program status and awards",
+      "url": "https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — Missouri counties by district (Jackson: Kansas City District)",
+      "url": "https://www.modot.org/missouri-counties-modot-district",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox egress proxy. Resolve from an unproxied session."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Independence's amended climatic criteria live in the Ch. 4 code amendments; the city's amendment PDFs returned 403 through the proxy, so the Table R301.2(1) frost value could not be read. Cite the ordinance section before publish — no secondary-source value accepted."
+    },
+    {
+      "field": "identity.elevationFt",
+      "attempted": "No authoritative elevation figure (USGS GNIS) was reachable; left null rather than copying an unattributed web value."
+    },
+    {
+      "field": "geotech numerics + dominantGeology unit confirmation",
+      "attempted": "NRCS Web Soil Survey and Missouri Geological Survey county publications unreachable through proxy; geology described qualitatively and flagged for MGS confirmation."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority + buildingAHJ specifics",
+      "attempted": "independencemo.gov department pages 403'd through the proxy; Municipal Services named from city department structure, but permit mechanics, fees, and review days unconfirmed."
+    },
+    {
+      "field": "utilities.ilec + IPL new-service lead time",
+      "attempted": "AT&T Missouri attribution is legacy-territory knowledge pending FCC broadband map confirmation; IPL lead times require direct utility contact."
+    },
+    {
+      "field": "environmental.treeClearingWindow (dates) + urbanRowRequirements historic-review triggers",
+      "attempted": "USFWS Missouri guidance and the city's historic-district review procedures not reachable; both flagged as site-specific confirmations."
+    },
+    {
+      "field": "logistics — seasonal restriction confirmation, OS/OW URL, railroad list",
+      "attempted": "MoDOT MCS pages and FRA crossing inventory not fetched; UP presence and Amtrak Truman Depot stop recorded from corridor knowledge pending inventory check."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "NCEI normals for the Kansas City-area station not readable through proxy; calendar authored qualitatively and flagged in the narrative."
+    },
+    {
+      "field": "operations.countiesServed + route verification",
+      "attempted": "Coverage list requires ops sign-off; 291 mi / 5.0 hr is the seed straight-line estimate pending real routing."
+    },
+    {
+      "field": "compliance — city contractor licensing specifics",
+      "attempted": "Independence's exact contractor-licensing classes and fees not verifiable through proxy; described generically with a confirm note."
+    }
+  ]
+}

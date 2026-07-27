@@ -1,0 +1,690 @@
+{
+  "identity": {
+    "slug": "austin",
+    "city": "Austin",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Travis",
+      "Williamson",
+      "Hays"
+    ],
+    "msa": "Austin–Round Rock–San Marcos",
+    "tier": 1,
+    "latitude": 30.2672,
+    "longitude": -97.7431,
+    "elevationFt": 489,
+    "population": {
+      "value": 993771,
+      "source": "World Population Review, republishing 2024 American Community Survey data (confirm vintage against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-35"
+    ],
+    "majorRoutes": [
+      "Loop 1 (MoPac Expressway)",
+      "US-183",
+      "SH-130 toll",
+      "SH-71",
+      "US-290"
+    ]
+  },
+  "metadata": {
+    "title": "Austin, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Austin, TX — clean-water permitting over the Edwards Aquifer, limestone-and-clay foundations, and dense small cell ROW work.",
+    "h1": "Telecom Site Civil Construction in Austin, Texas",
+    "intro": "Austin's civil story is written by a fault line. The Balcones Fault Zone runs north-south through the middle of the city, and which side of it a site lands on changes almost everything: west of the escarpment you trench and drill Edwards and Georgetown limestone under thin rocky soils, east of it you manage deep Blackland Prairie clay. Layer on the Save Our Springs watershed rules and endangered-species habitat on the west side, a dense Chapter 284 small-cell program in the urban core, and the Samsung, Tesla, and data center buildout pulling fiber east and north, and Austin rewards contractors who scope the ground and the permit map before the price. CellSite Solutions runs Austin down the I-35 corridor from our Dallas–Fort Worth yard.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, adopted with Austin amendments approved by City Council June 3, 2021, effective September 1, 2021)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Texas is a low-seismicity region; publish site-specific Ss/S1 only after a USGS design-maps query at the project coordinates. Site class differs sharply across the Balcones Fault Zone — shallow rock west, deep clay east — so the typical-class shorthand used in single-geology markets does not apply here."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Travis County splits into two physiographic provinces separated by the Balcones Fault Zone, which runs north-south through the central county: the Edwards Plateau west of the escarpment — rugged hills of Cretaceous Edwards, Georgetown, and Buda limestones with thin rocky soils — and the Blackland Prairie to the east, flat terrain over deep black clays. Within the 2-to-5-mile-wide fault zone itself, limestone units and clay units (Del Rio Clay, Eagle Ford) are complexly faulted, with total displacement across the zone of roughly 1,000 feet, most faults downthrown to the east. (UT Bureau of Economic Geology; City of Austin geologic assessment documentation.)",
+    "dominantSoilTypes": [
+      "Thin, rocky soils over Edwards/Georgetown limestone (west of the escarpment)",
+      "Deep Blackland Prairie clays (east of the fault zone)",
+      "Faulted mixed limestone/clay units within the Balcones Fault Zone",
+      "Colorado River terrace and alluvial deposits"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "East of the fault zone, the Blackland Prairie carries the same smectitic, high shrink-swell clay family that defines the corridor from San Antonio to Dallas; pads and grade beams there get expansive-soil detailing. West of the escarpment the problem inverts — soils are thin to absent over rock, and excavation, not swell, drives cost. A single risk label understates a two-sided city; borings decide which regime a site is in.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "The Edwards (Balcones Fault Zone) aquifer is a karst aquifer — USGS documents solution-widened voids, caves, and conduits in the Edwards limestone. West-side and fault-zone sites carry real void risk for drilled shafts and utility trenches, plus karst-invertebrate habitat screening under the Balcones Canyonlands Conservation Plan."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation design in Austin starts with a map question: which side of the Balcones Fault Zone is the site on? West of the escarpment, competent limestone sits at or near the surface — drilled piers socket quickly into rock, but every foot of trench and every shaft is rock excavation, and karst voids in the Edwards can surprise a shaft that looked routine on paper. East of the fault zone, Blackland clay behaves like its Dallas cousins: moisture-conditioned or select-fill pad subgrades, drilled piers through the active zone, and void detailing where grade beams cross expansive ground. Inside the fault zone itself, faulted blocks can put rock and clay in the same excavation. Frost never governs here; ground truth does. Site-specific borings settle which regime applies — pricing an east-side site off a west-side assumption, or vice versa, is the most common way Austin bids go wrong."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Austin Development Services Department",
+        "url": "https://austintexas.gov/abc-applications",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permitting runs through the Austin Build + Connect (AB+C) online portal — building permits, ROW applications, and network node submittals all route through it. Published review times vary by permit type; confirm current timelines directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 IBC/IEBC with Austin local amendments, approved by City Council June 3, 2021, effective September 1, 2021 (part of the 2021 technical codes package)",
+      "source": "City of Austin 2021 technical code changes — https://publicinput.com/T4308",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network nodes in the public ROW follow the statewide Texas Local Government Code Chapter 284 framework; Austin processes node and small-cell applications through the AB+C portal, and small-cell-related work requires additional document submittals to Austin Energy, the municipally owned pole and electric-system owner.",
+    "rowPermitAuthority": {
+      "name": "Austin Transportation and Public Works — Right-of-Way Management",
+      "url": "https://www.austintexas.gov/transportation-public-works/right-way-row-permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Excavation (EX) and Driveway/Sidewalk (DS) permits are applied for online and issued by the TPW permitting group. ROW work requires a City of Austin ROW Contractor License, insurance, and a $10,000 bond. A license agreement to encroach on the ROW is NOT an excavation permit — excavation always needs its own EX permit."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Austin District (Bastrop, Blanco, Burnet, Caldwell, Gillespie, Hays, Lee, Llano, Mason, Travis, Williamson counties)",
+      "url": "https://www.txdot.gov/about/districts/austin-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Utility occupancy of state ROW — including the I-35, US-183, and SH-130 corridors — permits through TxDOT's RULIS system."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statewide one-call center under Texas Utilities Code Ch. 251.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI through STEERS at one acre of disturbance. In the Barton Springs Zone and over the Edwards Aquifer recharge and contributing zones, City of Austin water-quality regulations (Land Development Code Ch. 25-8) and state Edwards Aquifer protection review add layers on top of the standard TPDES coverage — confirm applicability at scoping."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Austin Watershed Protection Department — Floodplain Management",
+      "url": "https://www.austintexas.gov/floodplains",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Austin is updating floodplain maps citywide based on the NOAA Atlas 14 rainfall study, which raised the 24-hour 1%-annual-chance rainfall by roughly 3–3.5 inches for the county; regulatory floodplains here can be materially larger than the effective FEMA panels suggest."
+    },
+    "permitTimelineNarrative": "Austin permitting is geography-dependent to a degree few Texas markets match. East-side and core sites run the familiar stack: AB+C building permit, TPW excavation permit with a licensed and bonded ROW contractor, Texas811's two business days, and a TCEQ stormwater NOI at an acre. West of the fault zone, two more layers arrive: the Save Our Springs ordinance caps impervious cover at 15% of net site area in the Barton Springs Zone with variances expressly prohibited, and golden-cheeked warbler habitat triggers Balcones Canyonlands Conservation Plan review — habitat determinations run about three weeks, and no habitat disturbance is allowed during the March 1 – August 31 nesting season, permit or not. Small-cell work adds Austin Energy document review to the Chapter 284 path. Front-load the map work; the west side punishes schedules that discover these layers late."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Austin Energy",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The nation's eighth-largest publicly owned electric utility — more than 420,000 customers across a 437-square-mile service area, almost all in Travis County with the remainder in Williamson County. As a municipal utility inside ERCOT, there is no retail choice: Austin Energy is both the wires company and the energy provider, and it also owns the poles small-cell work attaches to. Sites outside its service area fall to neighboring utilities — confirm the serving utility early."
+      }
+    ],
+    "ilec": "AT&T (Southwestern Bell Telephone Company, LLC) — confirm formal ILEC designation against FCC data before publish",
+    "notableFiberProviders": [
+      "Google Fiber (early GFiber metro, actively expanding across Central Texas)",
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Sabey Data Centers Austin campus, Round Rock — Building A complete (2024); Building B underway, 54 MW design capacity, first 18 MW targeted Ready-for-Service Q3 2027"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No spring-thaw frost laws in Texas — weight limits are permanent, engineering-based postings on specific load-zoned roads and bridges. For shelter and hut hauls into Austin, the check is the posted-route map and the TxPROS routing run, not a seasonal calendar."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS (Texas Permitting & Routing Optimization System)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Most oversize/overweight loads self-issue and auto-route through TxPROS."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP's main line runs through the Austin metro along the I-35 corridor; wireline/utility crossing agreements typically quote weeks to months — put them on the critical path early."
+      },
+      {
+        "name": "CapMetro Rail (Red Line)",
+        "crossingPermitNote": "CapMetro's 32-mile hybrid-rail line between downtown and Leander runs on CapMetro-owned trackage that also carries freight — crossings and adjacent work take transit-agency coordination, a separate process from the Class I railroads."
+      }
+    ],
+    "urbanRowRequirements": "TPW excavation permits with traffic control review for lane and sidewalk closures; ROW contractors must hold a City of Austin ROW Contractor License with insurance and a $10,000 bond; small-cell-related ROW work adds Austin Energy document submittals."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "In golden-cheeked warbler habitat (western Travis County), no habitat disturbance March 1 – August 31, even for permit holders; habitat removal outside the nesting season still requires a BCCP incidental take permit, with habitat determinations issued in about three weeks",
+      "driver": "Golden-cheeked warbler (federally endangered) and covered karst invertebrates under the Balcones Canyonlands Conservation Plan; migratory bird nesting timing applies citywide",
+      "source": "Travis County BCCP permitting pages (traviscountytx.gov)"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code of Texas reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (SWF) — CWA Section 404",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Colorado River, Barton Creek, and tributary crossings fall under Fort Worth District review."
+    },
+    "usaceDistrict": "Fort Worth District (SWF)",
+    "listedSpeciesNote": "Austin carries one of the heaviest endangered-species overlays of any Texas metro: golden-cheeked warbler habitat across western Travis County and a suite of covered karst invertebrates, all administered through the Balcones Canyonlands Conservation Plan's incidental take framework. The Barton Springs Zone adds aquifer-dependent species sensitivity. Run IPaC and a BCCP habitat determination before committing schedule on any west-side or fault-zone site.",
+    "floodplainPrevalenceNote": "Austin sits in the heart of Central Texas' Flash Flood Alley, the corridor along the Balcones Escarpment where thin rocky soils and steep creek basins produce some of the country's fastest-rising floods — Shoal, Waller, and Onion creeks have all produced deadly events. The NOAA Atlas 14 study raised design rainfall roughly 3–3.5 inches for the 24-hour 1% event, and the city is remapping regulatory floodplains to match; check the Atlas 14 floodplain, not just the effective FIRM."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild; only ~12 freeze nights per year citywide",
+        "earthworkConcrete": "workable",
+        "note": "Occasional ice events are the winter disruptor, not frozen ground"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild, drying; freezes taper off",
+        "earthworkConcrete": "workable",
+        "note": "Ice-storm contingency worth carrying through late February"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Good working ground; spring storm season begins",
+        "earthworkConcrete": "favorable",
+        "note": "Warbler nesting season opens March 1 — west-side clearing must already be done"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Favorable; severe-storm and hail risk building",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable between heavy rain events; flash-flood season",
+        "earthworkConcrete": "favorable",
+        "note": "Creek-adjacent sites need rapid-rise awareness and staged materials"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Heat building; east-side clays begin seasonal shrinkage",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot — Austin averages 29 days at 100°F+ per year, concentrated now",
+        "earthworkConcrete": "constrained",
+        "note": "Hot-weather concrete practice; early pour windows"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; Blackland clays at maximum shrinkage",
+        "earthworkConcrete": "constrained",
+        "note": "Moisture-condition east-side pad subgrades before placement"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; fall rain events return",
+        "earthworkConcrete": "workable",
+        "note": "Warbler nesting season closes August 31 — west-side clearing window reopens"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Excellent working conditions; historically a flash-flood month on Onion Creek",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild and dry; prime construction weather",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild; first freezes arrive late in the year",
+        "earthworkConcrete": "favorable",
+        "note": null
+      }
+    ],
+    "narrative": "Austin builds all twelve months; the schedule pinch points are heat, flash floods, and a bird. Summer is the priced season — the city averages 29 triple-digit days a year (1991–2020 normals, Camp Mabry), pushing July–August concrete to morning windows and hot-weather practice. Spring and fall rain events drive the flash-flood risk that gives this stretch of the Balcones Escarpment its Flash Flood Alley name; creek-adjacent sites carry rapid-rise plans. Winter is nearly free — about 12 freeze nights a year, with occasional ice storms the only real disruptor. The constraint unique to Austin is biological: in golden-cheeked warbler habitat on the west side, clearing is prohibited March 1 – August 31, which means west-side site prep is a fall-and-winter activity or it waits a year."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "West of the Balcones escarpment, Edwards and Georgetown limestone sits at or near the surface — trench, duct bank, and shaft excavation there is rock work, and karst voids add contingency. East of the fault zone, rock excavation largely disappears and expansive clay management takes its place.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Federally funded work — including BEAD-financed broadband construction — carries Davis-Bacon prevailing wage above $2,000; Texas Government Code Chapter 2258 separately applies prevailing wage to state and locally funded public works. Where funding is mixed, the higher applicable rate governs.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "July–August hot-weather concreting (early pours, chilled mix, cure protection) is the main seasonal premium; spring flash-flood and hail contingency is a schedule line more than a cost line. Winter carries almost nothing.",
+    "narrative": "Austin prices along an east-west gradient. The same fiber route costs differently on opposite sides of I-35: west means rock trenching, rock bores, karst contingency, and — in the Barton Springs Zone — the design cost of hitting a 15% impervious cover cap with water-quality controls that have no variance path. East means Blackland clay earthwork, select fill, and expansive-soil detailing under pads. The regulatory layer is a genuine cost driver here, not paperwork: BCCP habitat determinations, seasonal clearing prohibitions, and SOS site design can move a west-side schedule by months, which shows up as carrying cost. Heat prices July and August pours, and 29 triple-digit days a year is enough to plan around rather than gamble on. Mobilization from our DFW yard is a real but modest line — an I-35 run, priced per scope, not a deployment. Drivers, never unit prices; every site prices to its borings, its watershed, and its habitat map."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas has no statewide general contractor license for commercial or civil work — regulation happens at the municipal level. Statewide trade licenses still apply: electrical through TDLR with a Master Electrician of record, plumbing through TSBPE. In Austin specifically, working in the right-of-way requires a City of Austin ROW Contractor License with insurance and a $10,000 bond before excavation permits will issue.",
+    "additionalRegistrations": [
+      "City of Austin ROW Contractor License ($10,000 bond, insurance on file with TPW)",
+      "BCCP incidental take permit where golden-cheeked warbler or karst invertebrate habitat is disturbed"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "extreme heat",
+      "hail",
+      "ice storm"
+    ],
+    "designImplications": "Flash flooding is Austin's signature hazard — compound siting, drainage, and equipment elevation get checked against Atlas 14-updated floodplains, not just effective FIRMs, especially near Shoal, Waller, and Onion creeks. Twenty-nine 100°F days a year shape concrete practice and clay moisture behavior on east-side pads. Spring hail argues for hardened HVAC and cable protection, and occasional winter ice events make standby power and grid-independent resilience a live design conversation. Publish wind and ice design values only after ASCE/TIA hazard-tool queries at the site."
+    ,
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Samsung's Taylor fab pushes toward production",
+        "detail": "Samsung's minimum-$17B semiconductor fab in Taylor, 30 miles northeast of Austin — backed by $4B+ in CHIPS Act funding — now targets initial operation in the 2026–2027 window after moving its first node to 2nm, with land held for up to $27B in additional fabs. Fab-scale projects of this size pull fiber routes, substations, and network civil across eastern Williamson County.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.trendforce.com/news/2026/06/02/news-samsung-accelerates-u-s-expansion-as-taylor-fab-targets-2027-start-hq-reportedly-moves-to-texas-in-2026/",
+        "asOf": "2026-06-02"
+      },
+      {
+        "headline": "Tesla keeps building compute and fab capacity at Giga Texas",
+        "detail": "Tesla expanded its Cortex AI training cluster at Gigafactory Texas in 2025 and is building Cortex 2; March 2026 site filings for the Terafab semiconductor venture seek over 5.2 million sq ft of additional building space on the southeast Travis County campus.",
+        "category": "data center",
+        "sourceUrl": "https://electrek.co/2026/03/24/tesla-giga-texas-site-plan-ecological-paradise-terafab-north-campus-travis-county/",
+        "asOf": "2026-03-24"
+      },
+      {
+        "headline": "Sabey expands Round Rock data center campus",
+        "detail": "Sabey Data Centers completed Austin Building A in 2024 and launched construction of Building B in July 2025 — a three-story, 54 MW facility with the first 18 MW targeted Ready-for-Service in Q3 2027, built liquid-cooling-ready for AI and HPC densities above 200 kW per rack.",
+        "category": "data center",
+        "sourceUrl": "https://www.businesswire.com/news/home/20250729106762/en/Sabey-Data-Centers-Announces-Launch-of-Austin-Building-B-Expanding-Presence-in-Key-Technology-Hub",
+        "asOf": "2025-07-29"
+      },
+      {
+        "headline": "Google Fiber builds outward across Central Texas",
+        "detail": "GFiber, already serving hundreds of thousands of Austin customers, kicked off Cedar Park construction in September 2025 and built out Rollingwood April–August 2025, with Lakeway following — a continuing OSP construction program across the metro's west and northwest.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.kxan.com/news/local/cedar-park/google-starts-work-on-gfiber-in-cedar-park/",
+        "asOf": "2025-09-15"
+      },
+      {
+        "headline": "Texas BEAD construction opens statewide",
+        "detail": "NTIA approved Texas' ~$1.3B BEAD final proposal in November 2025; grant agreements finalize in early 2026 with construction starting as early as summer 2026, administered by the Texas Broadband Development Office. Central Texas award detail is tracked quarterly.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber civil in Austin is two different jobs wearing one name. Routes west of the Balcones escarpment bore and trench limestone — slower production, rock tooling, karst contingency — and in the Barton Springs Zone they pick up Save Our Springs water-quality obligations that shape everything from bore pit siting to restoration. East-side routes move fast through Blackland clay but inherit expansive-soil restoration behavior. The active builders keep both sides busy: Google Fiber's continuing expansion through Cedar Park, Rollingwood, and Lakeway, AT&T Fiber densification, and the fiber pull toward Samsung's Taylor fab east of SH-130. Crossings of UP's I-35-corridor main line and CapMetro's Red Line trackage each carry their own agreement timelines, and Texas BEAD construction opens statewide in summer 2026.",
+      "localSpecificsReferenced": [
+        "Balcones Fault Zone limestone/clay split",
+        "Save Our Springs ordinance / Barton Springs Zone",
+        "Google Fiber Cedar Park and Rollingwood builds",
+        "Samsung Taylor corridor",
+        "UP main line and CapMetro Red Line crossings"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "small cell and DAS node civil",
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "ground ring and halo",
+        "compound fencing",
+        "C-band / densification upgrade civil"
+      ],
+      "secondaryScopeIds": [
+        "generator and fuel containment pads",
+        "access road and turnaround"
+      ],
+      "narrative": "Austin's wireless civil market is small-cell-heavy: a dense, young, event-driven urban core has driven years of node and DAS densification, and the city's Chapter 284 process runs through the AB+C portal with a wrinkle most markets don't have — Austin Energy, the municipal utility, owns the poles and requires its own document set on small-cell work. Macro and pad work splits along the fault line: west-side compounds socket piers into shallow limestone and pay for rock excavation; east-side pads manage Blackland clay with select fill and moisture conditioning. On the west side, golden-cheeked warbler habitat closes the clearing window from March 1 to August 31, so raw-land site prep out there is planned as fall-and-winter work. Heat, not cold, sets the concrete calendar — 29 triple-digit days a year.",
+      "localSpecificsReferenced": [
+        "Austin Energy pole ownership and small-cell submittals",
+        "AB+C / Chapter 284 node process",
+        "Golden-cheeked warbler clearing window (BCCP)",
+        "Balcones Fault Zone foundation split"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Austin's compute geography is expanding on three fronts at once, all east and north of the fault zone where the ground is buildable at scale. Sabey's Round Rock campus is mid-buildout — Building A delivered in 2024, the 54 MW Building B underway toward a Q3 2027 first phase. Tesla is stacking AI training compute (Cortex, now Cortex 2) at Gigafactory Texas and has filed for more than 5.2 million sq ft of Terafab semiconductor space in southeast Travis County. And Samsung's Taylor fab — minimum $17B with CHIPS backing — anchors an industrial corridor along SH-130 that needs substation pads, campus duct bank, and generator yards for years. Austin Energy's municipal service territory adds a distinct interconnection path: one utility, no retail-choice split, and a boundary worth confirming before any utility-yard design starts.",
+      "localSpecificsReferenced": [
+        "Sabey Round Rock Building B (54 MW)",
+        "Tesla Giga Texas / Cortex / Terafab filings",
+        "Samsung Taylor fab and SH-130 corridor",
+        "Austin Energy municipal territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 215,
+      "driveTimeHours": 3.7,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Travis",
+      "Williamson",
+      "Hays",
+      "Bastrop",
+      "Caldwell"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Austin is an I-35 run for us — crews roll south from the Dallas–Fort Worth yard through Waco, roughly a half-day of windshield time each way, which shapes how we plan the work honestly. Single-visit scopes like inspections, small pads, and punch work can be day-tripped; production scopes — duct bank runs, compound builds, multi-node small cell batches — are planned as short stays so crews work full days instead of burning them on the highway. The I-35 corridor's perpetual construction zones through Waco and Temple are a real variable, and we schedule around them rather than pretend they don't exist. The 215-mile figure is a seed estimate pending real routing verification, and any response-time commitment for Central Texas is quoted per program after ops review, not promised on a web page.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What makes civil construction different on the west side of Austin versus the east side?",
+      "answer": "The Balcones Fault Zone splits the city into two ground regimes. West of the escarpment, Edwards and Georgetown limestone sits at or near the surface — excavation is rock work, piers socket fast, and karst voids add contingency. East of the fault zone you're in deep Blackland Prairie clay — expansive-soil pad detailing, select fill, and moisture management. Same city, two completely different cost models; borings tell you which one you're in.",
+      "segment": "general"
+    },
+    {
+      "question": "How do Save Our Springs rules affect telecom sites in southwest Austin?",
+      "answer": "The 1992 SOS ordinance caps impervious cover at 15% of net site area in the Barton Springs Zone over the Edwards Aquifer recharge area, with enhanced stormwater treatment and no variance path — changing it takes a City Council supermajority. For compounds, access drives, and hut sites in that zone, impervious cover math becomes a first-order design input, not an afterthought. We screen for the zone boundary at scoping.",
+      "segment": "wireless"
+    },
+    {
+      "question": "When can you clear a raw-land site in western Travis County?",
+      "answer": "Outside the March 1 – August 31 golden-cheeked warbler nesting season — during nesting season, habitat disturbance is prohibited even for permit holders. Removing warbler or karst-invertebrate habitat any time of year requires a Balcones Canyonlands Conservation Plan incidental take permit; habitat determinations are issued in about three weeks of a complete application. West-side site prep gets planned as fall and winter work.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who issues right-of-way permits for fiber work in Austin?",
+      "answer": "Austin Transportation and Public Works — Right-of-Way Management, through the Austin Build + Connect portal. Excavation takes an EX permit, and the contractor must hold a City of Austin ROW Contractor License with insurance and a $10,000 bond. A license agreement to encroach on the ROW is not an excavation permit. Small-cell-related work adds a separate document submittal to Austin Energy.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is boring for fiber harder in Austin than in other Texas metros?",
+      "answer": "West of I-35, usually yes — bores run through limestone with slower production and rock tooling, and Edwards karst can put voids where the plan showed solid rock. East of the fault zone, bores move through clay at conventional rates. Route design that keeps crossings and hut sites on the favorable side of the geology, where the network allows it, is worth real money here.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What should I know about flash flooding when siting a Austin compound?",
+      "answer": "Austin is the middle of Flash Flood Alley — Shoal, Waller, and Onion creeks have all produced deadly rapid-rise floods. The NOAA Atlas 14 study raised the area's 24-hour 1% design rainfall by roughly 3–3.5 inches, and the city is remapping floodplains to match, so a site clear on the effective FIRM can be inside the Atlas 14 floodplain. We check both maps and design compound drainage and equipment elevation accordingly.",
+      "segment": "general"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Austin?",
+      "answer": "Inside the service area, Austin Energy — the nation's eighth-largest publicly owned utility, serving 420,000+ customers across 437 square miles. Because it's municipal, there's no retail-choice split: one utility handles wires and energy, and it also owns the poles for small-cell attachments. New-service lead times aren't published; we get written confirmation from the utility during scoping, and we verify early whether a site actually falls inside the boundary.",
+      "segment": "edge"
+    },
+    {
+      "question": "Can you pour concrete in Austin in the middle of summer?",
+      "answer": "Yes, with discipline. Austin averages 29 days at or above 100°F per year, concentrated in July and August, so summer pours go down in early-morning windows with hot-weather practice — chilled mix water, retarders, and cure protection. On east-side sites the parallel issue is clay shrinkage at peak heat, which is why pad subgrades get moisture-conditioned before placement rather than patched after movement.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in the Austin market right now?",
+      "answer": "Compute and fiber at the same time. Samsung's $17B-minimum Taylor fab is moving toward production with land banked for tens of billions more; Tesla is stacking Cortex AI compute and Terafab filings at Giga Texas; Sabey's Round Rock campus has a 54 MW building underway; Google Fiber keeps expanding across the metro; and Texas' $1.3B BEAD program starts construction in summer 2026. All of it lands as duct bank, substation and pad civil, and hut sites.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Routing and foundations across the Balcones Fault: rock west, clay east",
+    "body": "The most consequential design decision in Austin is often made before an engineer touches it: where the site or route sits relative to the Balcones Fault Zone. Get that wrong at pricing and no foundation detail saves the budget. West of the escarpment, plan every linear foot as rock — trenches, bore pits, and shafts in Edwards and Georgetown limestone — and carry karst contingency, because the same solution features that make the aquifer productive make a drilled shaft unpredictable; a probe hole ahead of critical shafts is cheap insurance. The compensation is foundation quality: short rock sockets end the settlement conversation. East of the fault zone the calculus flips to Dallas-style expansive clay management — moisture-conditioned or select-fill subgrades under pads, piers through the active zone for settlement-sensitive structures, void forms under grade beams. Inside the two-to-five-mile-wide fault zone itself, assume nothing: faulted blocks can put both regimes in one excavation, which is exactly where a few extra borings pay for themselves. And on the west side, stack the non-geotechnical layers into the schedule with the geotech — SOS impervious cover limits and the warbler clearing calendar have moved more Austin schedules than rock ever has. Price the map first; then price the dirt."
+  },
+  "sources": [
+    {
+      "label": "City of Austin — 2021 technical codes adoption (IBC/IEBC, effective Sept 1, 2021)",
+      "url": "https://publicinput.com/T4308",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Austin Transportation and Public Works — Right-of-Way permits (EX/DS, contractor license and bond)",
+      "url": "https://www.austintexas.gov/transportation-public-works/right-way-row-permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Austin Watershed Protection — floodplain management and Atlas 14 remapping",
+      "url": "https://www.austintexas.gov/floodplains",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travis County — Master Flood Plan (Atlas 14 rainfall increase)",
+      "url": "https://www.traviscountytx.gov/tnr/flood-plan",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UT Bureau of Economic Geology — Central Texas geology (Balcones Fault Zone)",
+      "url": "https://www.beg.utexas.edu/geowonders/centtex",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Edwards (Balcones Fault Zone) karst aquifer",
+      "url": "https://www.usgs.gov/mission-areas/water-resources/science/karst-aquifers-edwards-balcones-fault-zone-aquifer",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Austin — Save Our Springs / Ch. 25-8 watershed regulations (15% impervious cover, Barton Springs Zone)",
+      "url": "https://library.municode.com/tx/austin/codes/code_of_ordinances?nodeId=TIT25LADE_CH25-8EN_SUBCHAPTER_BTRNAARPRENSP_ART1TRNAARPR",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travis County — BCCP permits for landowners and developers (nesting-season prohibition, 3-week determinations)",
+      "url": "https://www.traviscountytx.gov/tnr/nr/dev-species/public-participation",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Austin District (11-county district)",
+      "url": "https://www.txdot.gov/about/districts/austin-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Austin Energy — By the Numbers (customers, service area, public power ranking)",
+      "url": "https://austinenergy.com/about/company-profile/numbers",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Office of the Texas Governor — Samsung $17B Taylor facility announcement",
+      "url": "https://gov.texas.gov/news/post/governor-abbott-announces-new-17-billion-samsung-manufacturing-facility-in-taylor",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TrendForce — Samsung Taylor fab 2027 target and expansion (June 2026)",
+      "url": "https://www.trendforce.com/news/2026/06/02/news-samsung-accelerates-u-s-expansion-as-taylor-fab-targets-2027-start-hq-reportedly-moves-to-texas-in-2026/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Electrek — Tesla Giga Texas / Terafab site plan filings (March 2026)",
+      "url": "https://electrek.co/2026/03/24/tesla-giga-texas-site-plan-ecological-paradise-terafab-north-campus-travis-county/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Business Wire — Sabey Austin (Round Rock) Building B launch, 54 MW",
+      "url": "https://www.businesswire.com/news/home/20250729106762/en/Sabey-Data-Centers-Announces-Launch-of-Austin-Building-B-Expanding-Presence-in-Key-Technology-Hub",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KXAN — GFiber Cedar Park construction kickoff; Austin freeze and 100°F statistics (NWS normals)",
+      "url": "https://www.kxan.com/weather/austin-100-degree-stats/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "World Population Review — Austin population (2024 ACS)",
+      "url": "https://worldpopulationreview.com/us-cities/texas/austin",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic.ss/s1 / designRadialIceIn / designTempLowF/HighF",
+      "attempted": "ASCE Hazard Tool, USGS design-maps API, and TIA-222 county data all unreachable from the sandbox (same egress blocks documented on the Dallas fixture). Must be queried at site coordinates before publication."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Austin's amended IRC Table R301.2 could not be read — city amendment PDFs and UpCodes table cells were not retrievable. Cite the amended table cell before publishing a frost line."
+    },
+    {
+      "field": "geotech — bearing ranges, depth to bedrock, groundwater, NRCS corrosivity ratings",
+      "attempted": "NRCS Web Soil Survey interactive is not scriptable from the sandbox; geology is qualitative (BEG/USGS) pending numeric NRCS pulls."
+    },
+    {
+      "field": "regulatory — TCEQ Edwards Aquifer Protection Program (WPAP) specifics",
+      "attempted": "State-level Edwards Aquifer review is flagged qualitatively; the 30 TAC Ch. 213 applicability rules and current WPAP review timelines were not pulled and must be confirmed before publishing them as requirements."
+    },
+    {
+      "field": "utilities — Austin Energy new-service intake URL and lead times; AT&T formal ILEC designation",
+      "attempted": "austinenergy.com construction-services intake page not confirmed; lead times require utility/ops confirmation. FCC ILEC check not run."
+    },
+    {
+      "field": "identity.population — vintage confirmation",
+      "attempted": "Census QuickFacts/api.census.gov blocked; 993,771 is from a Census-data republisher citing the 2024 ACS."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "215 mi / 3.7 h is the seed straight-line-derived estimate; real I-35 routing from the DFW yard (address pending from ownership) must set roadMiles/driveTimeHours before routeVerified flips."
+    },
+    {
+      "field": "operations.countiesServed + any response commitments",
+      "attempted": "Ops sign-off required for the confirmed coverage list; no response-time commitment published."
+    },
+    {
+      "field": "seasonality — full 1991–2020 Camp Mabry normals table",
+      "attempted": "NCEI/weather.gov station tables not retrievable; calendar authored from confirmed 100°F-day (29/yr) and freeze (12/yr) statistics reported from NWS normals. Verify against the station table before publish."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 publish gate requires at least 1 real project and 4 images; never invented."
+    }
+  ]
+}
