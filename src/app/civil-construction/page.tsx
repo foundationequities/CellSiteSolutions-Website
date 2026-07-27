@@ -257,6 +257,14 @@ export default function CivilConstructionPage() {
               </div>
             ))}
           </div>
+          <div className="mt-10">
+            <Link
+              href="/data-center-mec/"
+              className="inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            >
+              Learn More
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -276,6 +284,12 @@ export default function CivilConstructionPage() {
               When you need upgrades to your access road or compound block grading, CellSite can
               provide routine and emergency maintenance.
             </p>
+            <Link
+              href="/general-site-maintenance/"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            >
+              Learn More
+            </Link>
           </div>
 
           <div className="mt-12 grid gap-8 md:grid-cols-3">
@@ -305,6 +319,12 @@ export default function CivilConstructionPage() {
                 excellent shape. We have certified electricians, carpenters, roofers, landscapers, and
                 more ready to serve you.
               </p>
+              <Link
+                href="/general-site-maintenance/"
+                className="mt-4 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
+              >
+                Learn More &rsaquo;
+              </Link>
             </div>
 
             <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
@@ -320,6 +340,12 @@ export default function CivilConstructionPage() {
                 skills and people to take care of it. Whatever your operation needs to reach the next
                 level, we can have it done before you miss a beat.
               </p>
+              <p className="mt-3 text-sm leading-relaxed text-muted">
+                Rapidly evolving technology often means gear needs to be upgraded too. We are able to
+                add new equipment and configure it to your system whenever change happens. With access
+                to just about every piece of gear on the market, you&rsquo;ll never find yourself
+                behind the curve.
+              </p>
               <ul className="mt-4 space-y-2 text-sm text-muted">
                 {[
                   "Equipment Upgrades",
@@ -334,6 +360,12 @@ export default function CivilConstructionPage() {
                   </li>
                 ))}
               </ul>
+              <Link
+                href="/other-isp-services/"
+                className="mt-4 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
+              >
+                Learn More &rsaquo;
+              </Link>
             </div>
 
             <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
@@ -353,6 +385,11 @@ export default function CivilConstructionPage() {
                 battery solutions. If you sustain tower damage we can have a cell-on-wheels (COW) on
                 site without delay thanks to our transportation network. Best of all, CellSite can
                 supply all the restoration services you need; no other vendors needed.
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-muted">
+                No need to panic when the lights flicker. CellSite Solutions has durable backup power
+                solutions that keep you running. You&rsquo;ll be up and working even when the grid
+                needs some downtime.
               </p>
               <Link
                 href="/disaster-recovery/"
@@ -525,9 +562,14 @@ export default function CivilConstructionPage() {
           </div>
           <div className="mt-10 grid grid-cols-2 gap-6 text-center sm:grid-cols-4">
             {coastStats.map((s) => (
-              <p key={s} className="text-sm font-semibold uppercase tracking-wide text-white/85">
-                {s}
-              </p>
+              <div key={s.label}>
+                <p className="font-display text-[70px] font-bold leading-none text-brand lg:text-[120px]">
+                  <CountUp value={s.value} />
+                </p>
+                <p className="mt-3 text-sm font-semibold uppercase tracking-wide text-white/85">
+                  {s.label}
+                </p>
+              </div>
             ))}
           </div>
         </div>
@@ -552,24 +594,17 @@ export default function CivilConstructionPage() {
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {projects.map((p) => (
-              <div
+              <Link
                 key={p}
-                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+                href="/civil-services-showcase/"
+                className="block rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
                 <p className="text-xs font-bold uppercase tracking-wide text-brand">
                   Civil Construction Projects
                 </p>
                 <h3 className="mt-2 text-xl text-ink">{p}</h3>
-              </div>
+              </Link>
             ))}
-          </div>
-          <div className="mt-10">
-            <Link
-              href="/civil-services-showcase/"
-              className="inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
-            >
-              View Civil Services Showcase
-            </Link>
           </div>
         </div>
       </section>
