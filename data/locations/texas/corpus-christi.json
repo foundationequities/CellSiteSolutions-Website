@@ -1,0 +1,676 @@
+{
+  "identity": {
+    "slug": "corpus-christi",
+    "city": "Corpus Christi",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Nueces"
+    ],
+    "msa": "Corpus Christi, TX (Aransas, Nueces, and San Patricio counties)",
+    "tier": 2,
+    "latitude": 27.8006,
+    "longitude": -97.3964,
+    "elevationFt": 7,
+    "population": {
+      "value": 317419,
+      "source": "World Population Review, republishing current U.S. Census data (confirm vintage against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-37",
+      "I-69E (US-77)"
+    ],
+    "majorRoutes": [
+      "SH-358 (South Padre Island Drive)",
+      "US-181"
+    ]
+  },
+  "metadata": {
+    "title": "Corpus Christi Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Corpus Christi, TX — windstorm-certified compound work and coastal foundations for fiber, wireless, and edge builds.",
+    "h1": "Telecom Site Civil Construction in Corpus Christi, Texas",
+    "intro": "Corpus Christi is coastal work, and everything about the civil scope says so: Nueces County sits in Texas' designated windstorm catastrophe area where TWIA insurability rides on TDI windstorm certification, the FEMA maps carry VE coastal high-hazard zones, and the Beaumont Formation's expansive clays meet a salt environment that accelerates concrete and grounding corrosion. CellSite Solutions serves the Coastal Bend from our Dallas yard on a project-deployment basis — crews mobilize for the duration of a scope, stage locally, and source materials in-market. The demand side is industrial-strength: the Port of Corpus Christi's rail and heavy-lift infrastructure and the multi-train LNG buildout keep network construction moving along the ship channel.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, adopted with local amendments effective August 1, 2023); the TDI windstorm program separately applies the 2018 IBC/IRC (effective Sept 1, 2020) for WPI-8 certification",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": 0,
+      "source": "ASCE 7 ground snow load map (Fig. 7.2-1) — 0 psf along the Texas Gulf Coast; confirm no local amendment",
+      "verifiedOn": "2026-07-27"
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "The Texas Gulf Coast is a documented low-seismicity region (UT Austin TXEQ), but numeric Ss/S1 must come from a USGS design-maps query before publication. Wind — not seismic — governs structural design here; secondary sources place the Risk Category II ultimate wind speed in the 140–150 mph range for the coastal zone, pending the ASCE Hazard Tool value."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "The city sits on the Nueces River delta plain of the Pleistocene Beaumont Formation — deltaic and marine clays and sands of the Gulf Coast Prairie, with soils formed in Quaternary alluvial and marine sediments. The dominant Victoria series is a smectitic Vertisol: very deep, very slowly permeable clay with slickensides and documented high shrink-swell behavior, with Edroy and Orelia series alongside. No bedrock occurs within engineering depth; the coastal sediment column is very deep. (AAPG Nueces River delta plain study; NRCS Victoria series OSD; TSSWCB Lower Nueces watershed characterization.)",
+    "dominantSoilTypes": [
+      "Victoria clay (smectitic Vertisol, high shrink-swell)",
+      "Edroy clay",
+      "Orelia loam over clay",
+      "Coastal sands (barrier island and shoreline sites)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "Victoria and Edroy series are well-developed clayey soils with high shrink-swell properties (NRCS), and regional engineering literature describes heavy Beaumont Formation clays with very high plasticity indexes. Site-specific investigation governs; pad and pier design should assume active clay until borings say otherwise.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Deep coastal-plain sediments; no karst mapping applies to Nueces County."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Coastal salt exposure accelerates degradation of concrete and buried steel relative to inland Texas — corrosion-conscious detailing (cover, coatings, grounding materials) is standard practice here. Numeric NRCS corrosion ratings for the mapped soils are pending a Web Soil Survey query and should be added before publication.",
+    "foundationApproachNarrative": "Corpus Christi foundations answer to three masters: expansive clay, wind, and salt. The Victoria-series Vertisols move with moisture like any Blackland clay, so pads get moisture-conditioned subgrades or select fill, and heavier structures reach through the active zone with drilled shafts — there is no bedrock to socket into, only deeper, stiffer clay. Wind is the structural driver on the coast: anchorage, uplift, and windborne-debris considerations enter at design, and in the TWIA catastrophe area the work must be windstorm-certifiable (WPI-8/WPI-8-E) if the owner wants insurability. Salt closes the loop — more cover on rebar, corrosion-resistant grounding, and coastal-rated hardware, because the environment attacks whatever the wind doesn't. In VE flood zones, elevation and foundation type are dictated by the FIRM before any of the above. Borings and the flood map come first; everything else is detailing."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Corpus Christi Development Services",
+        "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Handles planning, development, and permitting citywide. Published review times not posted — confirm current timelines directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 IBC/IEBC/IMC/IPC/IRC with local amendments, effective August 1, 2023; 2020 NEC; 2015 IECC",
+      "source": "City of Corpus Christi 2021 adopted code amendments — https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/2021-adopted-code-amendments/",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network nodes in the ROW follow the statewide Texas Local Government Code Chapter 284 framework: providers get ROW access with capped fees, the city retains ROW management, and consent is required for new node support poles in parks and certain residential-adjacent narrow ROW.",
+    "rowPermitAuthority": {
+      "name": "City of Corpus Christi (Development Services / city engineering) inside city limits; TxDOT via the RULIS utility permit system on state highway ROW",
+      "url": "https://www.txdot.gov/business/right-of-way/rulis.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Corpus Christi District (10 Coastal Bend counties including Nueces and San Patricio)",
+      "url": "https://www.txdot.gov/about/districts/corpus-christi-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Texas Utilities Code Ch. 251.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI via STEERS; coverage effective 7 days after filing."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Corpus Christi (NFIP community since 1970; Development Services flood information program)",
+      "url": "https://www.corpuschristitx.gov/department-directory/development-services/flood-information/flood-maps/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Current effective FIRMs adopted October 13, 2022; revised preliminary Nueces County maps released for public view January 2025. VE coastal high-hazard zones carry elevated-construction requirements."
+    },
+    "permitTimelineNarrative": "Permitting in Corpus Christi layers a coastal set of reviews onto the standard Texas stack. Building permits run through Development Services under the 2021 codes; anything in the TWIA catastrophe area that the owner wants insurable adds TDI windstorm certification (WPI-8, or WPI-8-E through a Texas licensed engineer) to design and inspection. Sites in the mapped floodplain — including VE zones near the water — take floodplain review against the 2022 FIRMs, and barrier-island work on Mustang or North Padre Island adds Dune Protection Permits and Beachfront Construction Certificates through Nueces County and the GLO. The TCEQ stormwater NOI covers an acre-plus of disturbance with a 7-day effective clock, Texas811 wants two business days, and TxDOT ROW work permits through RULIS."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "AEP Texas",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Headquartered in Corpus Christi; the ERCOT transmission & distribution utility for the Coastal Bend — customers buy energy through competitive Retail Electric Providers while AEP Texas owns the wires. Confirm the current new-service intake page when scoping."
+      }
+    ],
+    "ilec": "AT&T (most widely available wireline provider; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber (~83% of the city)",
+      "Astound Broadband (Grande territory, strategic expansion)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas posts no seasonal spring-thaw restrictions; load limits are year-round engineering-based postings. The TxDMV publishes a Corpus Christi district-level permit restriction and curfew list that oversize hauls should be checked against."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "District curfew/restriction list: ftp.txdmv.gov permit_restrictions for Corpus Christi."
+    },
+    "bridgeOrClearanceConstraints": "I-37 is the principal northbound hurricane evacuation corridor with designated evaculanes and contraflow provisions — plan haul timing around any activation windows during storm threats.",
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "One of three Class I carriers serving the port, interchanging at Hilton."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "CPKC (former Kansas City Southern)",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Corpus Christi Terminal Railroad (CCPN, Genesee & Wyoming) / Texas Coastal Bend Railroad (Watco)",
+        "crossingPermitNote": "Port-owned trackage; crossing processes not published — engage early on any route near the inner harbor."
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Galveston District (SWG) — regulatory program for the Texas coast",
+      "url": "https://www.swg.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Coastal wetlands and waters; the district also handles port-area Section 10/404 permitting."
+    },
+    "usaceDistrict": "Galveston District (SWG)",
+    "listedSpeciesNote": "The Coastal Bend carries real federal wildlife constraints: the last wild whooping crane flock winters at Aransas NWR roughly November through March, and designated piping plover wintering critical habitat includes multiple Nueces County units (Mollie Beattie Coastal Habitat, Mustang Island Beach, and others). Barrier-island and shoreline work additionally requires Dune Protection Permits (Nueces County administers, GLO reviews) and Beachfront Construction Certificates. No general clearing window was sourced — coordinate USFWS early and run IPaC per project.",
+    "floodplainPrevalenceNote": "Coastal floodplain is extensive: the city's effective FIRMs date to October 2022, revised preliminaries went public in January 2025, and VE coastal high-hazard zones near the water carry elevated-construction requirements that dictate foundation type before design starts."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild and dry; nights around 48°F, no frost constraint",
+        "earthworkConcrete": "favorable",
+        "note": "Whooping crane wintering season at nearby Aransas NWR"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Driest month (~1.3 in.); excellent working ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming; good conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Warm; clays begin seasonal drying",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Hot; workable with heat planning",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot and humid; hurricane season opens June 1",
+        "earthworkConcrete": "workable",
+        "note": "Storm-watch contingency begins"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak heat; hot-weather concrete practice",
+        "earthworkConcrete": "constrained",
+        "note": "Early-morning pour windows"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest month (~95°F average highs); peak hurricane season approaching",
+        "earthworkConcrete": "constrained",
+        "note": "Clays at maximum shrinkage; secure sites against storm threats"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Wettest month (~5.4 in.); statistical peak of hurricane season",
+        "earthworkConcrete": "constrained",
+        "note": "Schedule contingency and site-securing plans essential"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Heat and storm risk both easing",
+        "earthworkConcrete": "workable",
+        "note": "Hurricane season runs through November 30"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild, drying; prime conditions return",
+        "earthworkConcrete": "favorable",
+        "note": "Crane wintering season begins at Aransas"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild and dry; year-round buildability",
+        "earthworkConcrete": "favorable",
+        "note": null
+      }
+    ],
+    "narrative": "Corpus Christi inverts the northern construction calendar: winter is the prime season. November through April is mild and comparatively dry — February is the driest month — with no frost constraint at all. The pressure arrives in summer: August averages 95°F highs and drives hot-weather concrete practice, and the June 1 – November 30 hurricane season peaks in September, which is also the wettest month. Coastal builds here carry storm contingency as a scheduling line item — what secures the site, what demobilizes, and what the make-up plan is. Pull the CRP station normals table from NCEI before publishing the month-by-month figures as final."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Very deep coastal-plain clays and sands — rock excavation is essentially absent from telecom scopes here.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Texas Government Code Chapter 2258 applies prevailing wage on state/locally funded public works; federal Davis-Bacon applies to federally funded work over $2,000, including BEAD-funded broadband. The higher rate governs on mixed funding.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hurricane-season contingency (June–November, peaking September) and midsummer hot-weather concreting are the seasonal cost items; winter carries none.",
+    "narrative": "The Coastal Bend prices around wind, salt, and distance. Windstorm-certifiable design and inspection (WPI-8/WPI-8-E) adds engineering and QA cost that inland Texas never sees, and it is not optional if the owner wants TWIA insurability. Salt environment pushes material specs up — coatings, cover, grounding metals — and VE-zone sites add elevated foundations. Seasonally, hurricane contingency and September rain are the schedule risks; there is no winter penalty at all. As a Band B market served from Dallas, mobilization is a real line: crews deploy for scope duration and materials source locally, which is why ready-mix, aggregate, and precast are priced in-market rather than hauled. The Port's heavy-lift docks are the wildcard asset — oversize components can arrive by water. Drivers only; sites price to their borings, their flood zone, and their season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas issues no statewide general contractor license; regulation is municipal. Statewide trade licenses still apply — electrical through TDLR with a Master Electrician of record. In the designated catastrophe area, structures the owner wants TWIA-insurable must be windstorm-certified under the TDI program (WPI-8, or WPI-8-E certified by a Texas licensed engineer), with the TDI windstorm building code at the 2018 IBC/IRC since September 2020.",
+    "additionalRegistrations": [
+      "TDI windstorm certification path (WPI-8 / WPI-8-E) for insurable structures in the catastrophe area"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "hurricane",
+      "high wind",
+      "flood",
+      "extreme heat"
+    ],
+    "designImplications": "Hurricane exposure defines the market: Nueces County is one of the 14 first-tier coastal counties in Texas' designated catastrophe area, so compound structures get windstorm-certifiable design, uplift-rated anchorage, and windborne-debris-conscious detailing, while VE flood zones dictate elevated foundations near the water. Salt air accelerates corrosion of concrete, steel, and grounding systems, pushing coastal-rated materials. Summer heat shapes concrete practice. Publish numeric wind speeds only after the ASCE Hazard Tool query — secondary sources place Risk Category II in the 140–150 mph range.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Texas BEAD approved statewide — Coastal Bend allocations pending detail",
+        "detail": "NTIA approved Texas' ~$1.3B BEAD final proposal in November 2025, with construction beginning as early as summer 2026. County-level Coastal Bend award detail was not yet published at review time; the state's BOOT II awards (January 2025) did not list Nueces, San Patricio, or Aransas counties.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      },
+      {
+        "headline": "Cheniere's Corpus Christi Stage 3 LNG buildout rolls on",
+        "detail": "Cheniere completed Stage 3 Trains 1 through 6 between March 2025 and June 2026, targets the full seven-train buildout by end-2026, and took FID on Midscale Trains 8 & 9 in June 2025 — sustained heavy industrial construction along the ship channel that keeps private networks, fiber, and site infrastructure work moving in the market.",
+        "category": "carrier program",
+        "sourceUrl": "https://lngir.cheniere.com/news-events/press-releases/detail/321/",
+        "asOf": "2026-06-30"
+      },
+      {
+        "headline": "AEP Texas 765-kV transmission program approved",
+        "detail": "The PUCT approved AEP Texas' 765-kV Howard–Solstice transmission project in April 2025 — a major grid buildout through South Texas that carries substation and utility-corridor construction with it.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://www.kiiitv.com/article/news/local/aep-texas-to-build-765-kilovolt-transmission-lines/503-6a8f5e99-017e-427e-a9a1-ffff8bb45536",
+        "asOf": "2025-04-15"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "service lateral to hut"
+      ],
+      "narrative": "Fiber civil on the Coastal Bend follows industry more than subsidy: the ship-channel corridor — three Class I railroads interchanging at the port, the terminal railroad's inner-harbor trackage, and the Cheniere Stage 3 trains marching toward a seven-train buildout — generates private network, fiber, and duct bank work that BEAD maps never show. Boring here is clay work top to bottom: Victoria-series Vertisols with no rock anywhere in the column, which bores fast but demands moisture-aware handling. Crossing coordination near the port means early engagement with UP, BNSF, CPKC, and the port's own Watco-operated trackage. Statewide, Texas' BEAD construction opens summer 2026; Coastal Bend county-level detail is still pending, and we track it quarterly.",
+      "localSpecificsReferenced": [
+        "Port of Corpus Christi rail interchange",
+        "Cheniere Stage 3 trains",
+        "Beaumont Formation clays",
+        "Texas BEAD timeline"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "ground ring and halo",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil"
+      ],
+      "narrative": "Wireless civil in Corpus Christi is windstorm work. Nueces County sits in the first tier of Texas' designated catastrophe area, which means compound structures that owners want TWIA-insurable carry TDI windstorm certification — WPI-8-E through a licensed engineer — and anchorage, uplift, and debris-region detailing are design inputs, not afterthoughts. Salt air adds its own layer: coastal-rated hardware, extra concrete cover, and corrosion-conscious grounding, because a standard inland ground ring ages badly here. Barrier-island sites on Mustang or North Padre add dune protection permits and beachfront certificates before a truck moves. And every coastal compound we touch gets evaluated for what happens in a storm: drainage, fuel containment, and post-event access are part of the build, not the recovery.",
+      "localSpecificsReferenced": [
+        "TWIA catastrophe area / WPI-8-E certification",
+        "VE flood zones (2022 FIRMs)",
+        "Dune Protection Permits (Nueces County/GLO)",
+        "marine corrosion environment"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Corpus Christi has no announced hyperscale campus — the honest read is that edge demand here is industrial, not cloud-regional. The LNG trains, the port's logistics complex, and AEP Texas' PUCT-approved 765-kV Howard–Solstice transmission buildout are what pull compute, controls, and private-network infrastructure toward the ship channel, and that arrives as hardened edge enclosures, utility-yard pads, and generator yards built to the same windstorm and corrosion standards as everything else on this coast. The port itself is a genuine asset for this work: breakbulk docks, a heavy-lift harbor crane, and laydown acreage mean oversize electrical gear and prefab enclosures can arrive by water instead of fighting highway constraints. We build the civil side of that arrival path too — crane pads, heavy-haul access, and compound foundations.",
+      "localSpecificsReferenced": [
+        "AEP 765-kV Howard–Solstice program",
+        "Port of Corpus Christi heavy-lift capability",
+        "Cheniere Stage 3 industrial corridor"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 400,
+      "driveTimeHours": 6.0,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Nueces",
+      "San Patricio",
+      "Aransas"
+    ],
+    "stagingApproach": "Project-based staging in the Corpus Christi metro for the duration of a scope: equipment and materials stage at or near the work rather than cycling to the yard, and oversize or heavy components can arrive through the Port of Corpus Christi's breakbulk and heavy-lift docks when water delivery beats the highway. Confirmed per program by ops.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from Coastal Bend suppliers rather than hauling from the yard — at 400 road miles that is the only arithmetic that works, and buyers know it. The supplier lineup is confirmed at estimate for each program by our estimating and ops teams.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Corpus Christi is a deployment market, and we describe it that way: crews mobilize from the Dallas yard down the I-35E/I-37 corridor — roughly a six-hour run — and stay for the duration of a scope rather than commuting. That model fits how work actually arrives here: multi-site programs, industrial-corridor projects, and storm-hardening campaigns that batch efficiently from a single mobilization with local staging and in-market material supply. What it does not support is a same-day service-call promise, and we don't make one. Mobilization lead times and any post-storm response commitments are quoted per program after ops review — hurricane-season deployments in particular are planned with evacuation-corridor timing (I-37's evaculane role) in mind.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What is windstorm certification and does my Corpus Christi telecom site need it?",
+      "answer": "Nueces County is one of the 14 first-tier coastal counties in Texas' designated catastrophe area. If you want a structure insurable through TWIA, it must carry a windstorm Certificate of Compliance — WPI-8 through the TDI inspection path, or WPI-8-E certified by a Texas licensed engineer — with the TDI program currently applying the 2018 IBC/IRC. We build compound structures to be certifiable and coordinate the engineering certification path from design forward.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How does hurricane season affect telecom construction scheduling in Corpus Christi?",
+      "answer": "June 1 through November 30 is Atlantic hurricane season, peaking in September — which is also the city's wettest month. Coastal builds carry storm contingency as a real scheduling item: what secures or demobilizes on a watch, how fuel and equipment ride out an event, and the make-up plan afterward. The flip side is that winter is prime construction season here, with mild, dry conditions and no frost constraint at all.",
+      "segment": "general"
+    },
+    {
+      "question": "What foundations work best in Corpus Christi's coastal clay?",
+      "answer": "The Victoria-series Vertisols are high shrink-swell clays with no bedrock within reach, so pads get moisture-conditioned or select-fill subgrades and heavier structures use drilled shafts through the active zone into stiffer clay. In VE coastal flood zones, the FIRM dictates elevated foundations before soil behavior even enters the conversation. Salt exposure then drives the detailing — cover, coatings, and corrosion-resistant grounding.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Do I need a dune permit for a site on Mustang or North Padre Island?",
+      "answer": "Very likely yes. Work on the barrier islands falls under the Texas Dune Protection Act: Nueces County administers Dune Protection Permits outside Port Aransas city limits, the GLO reviews for consistency, and Beachfront Construction Certificates apply near the public beach. These reviews precede construction and belong at the front of any island site schedule.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroads affect fiber routes near the Port of Corpus Christi?",
+      "answer": "Three Class I carriers — BNSF, Union Pacific, and CPKC — serve the port and interchange at Hilton, while the port's own trackage runs under the Corpus Christi Terminal Railroad with Watco's Texas Coastal Bend Railroad operating the 63-mile port line. Crossing processes for the port trackage aren't published, so we engage the operators early on any inner-harbor alignment — crossings, not construction, set those schedules.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Corpus Christi?",
+      "answer": "AEP Texas — headquartered in the city — is the ERCOT transmission and distribution utility for the Coastal Bend; energy itself is bought through a competitive Retail Electric Provider. New-service lead times aren't published, so we obtain the utility's written confirmation during scoping, and the company's PUCT-approved 765-kV transmission program signals a grid that is actively building capacity in the region.",
+      "segment": "edge"
+    },
+    {
+      "question": "What wildlife constraints come up on Coastal Bend telecom sites?",
+      "answer": "Two headline species: the last wild whooping crane flock winters at Aransas National Wildlife Refuge roughly November through March, and piping plover wintering critical habitat is designated across multiple Nueces County coastal units, including Mustang Island beach segments. Neither imposes a blanket construction ban, but shoreline and island work should engage USFWS early, and every project gets an IPaC screen before commitments are made.",
+      "segment": "general"
+    },
+    {
+      "question": "How do you serve Corpus Christi from a Dallas yard?",
+      "answer": "As a deployment market, honestly described: crews mobilize down I-35E/I-37 — about six hours — and stay for the scope's duration, with equipment staged locally and concrete, aggregate, and precast bought from Coastal Bend suppliers rather than hauled. That model fits multi-site programs and industrial-corridor work, and it means mobilization is planned and priced per program instead of pretended away. Oversize components can even arrive by water through the port's heavy-lift docks.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Designing telecom compounds for the windborne-debris coast",
+    "body": "The mistake inland teams make in Corpus Christi is treating wind as a bigger version of a familiar load, when it's actually a different design regime with its own paperwork. Secondary sources put the coastal zone's Risk Category II ultimate wind speed around 140–150 mph — roughly 30 mph above Dallas — and the practical consequences compound: uplift governs pad and anchor design instead of gravity, equipment and enclosures need debris-region thinking, and if the owner ever wants TWIA insurance, the structure must be windstorm-certifiable, which means the WPI-8-E engineering path is decided before the first pour, not retrofitted after. Salt then attacks whatever the wind spares — so the money you save specifying inland-grade hardware, standard cover, and bare copper comes back as corrosion maintenance within a few years. And in VE flood zones, foundation type isn't a choice at all; the FIRM makes it. The sequence that works: flood zone first, windstorm certification path second, corrosion detailing third, clay behavior fourth. Price it that way up front and coastal sites are predictable; price it like Dallas-with-humidity and the coast will invoice the difference."
+  },
+  "sources": [
+    {
+      "label": "City of Corpus Christi — 2021 adopted code amendments (effective Aug 1, 2023)",
+      "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/2021-adopted-code-amendments/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TDI — windstorm inspections general questions (WPI-8 / catastrophe area)",
+      "url": "https://www.tdi.texas.gov/wind/generalquestio.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TDI — windstorm program adopted codes (2018 IBC/IRC eff. 9/1/2020)",
+      "url": "https://www.tdi.texas.gov/wind/adopted-codes.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TWIA — overview of the designated catastrophe area",
+      "url": "https://www.twia.org/about-us/overview/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Corpus Christi District",
+      "url": "https://www.txdot.gov/about/districts/corpus-christi-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Corpus Christi — flood maps (2022 FIRMs)",
+      "url": "https://www.corpuschristitx.gov/department-directory/development-services/flood-information/flood-maps/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "FEMA — revised preliminary flood maps, Nueces County (Jan 2025)",
+      "url": "https://www.fema.gov/press-release/20250121/revised-preliminary-flood-maps-nueces-county-texas-are-ready-public-view",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Victoria series (Vertisol)",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/V/VICTORIA.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "AAPG — Nueces River delta plain of the Pleistocene Beaumont Formation",
+      "url": "https://txmn.org/st/files/2024/05/1971_AAPG_Aronow_Nueces-River-Delta-Plain-Beaumont.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nueces County — dune protection permitting",
+      "url": "https://www.nuecesbeachparks.com/dune-permitting",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USFWS — Aransas National Wildlife Refuge (whooping crane wintering)",
+      "url": "https://www.fws.gov/refuge/aransas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Federal Register — piping plover wintering critical habitat, Texas revision (2008)",
+      "url": "https://www.federalregister.gov/documents/2008/05/20/E8-10742/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Port of Corpus Christi — rail capabilities (three Class I carriers)",
+      "url": "https://portofcc.com/capabilities/logistics/rail/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Port of Corpus Christi — breakbulk / heavy-lift cargo capabilities",
+      "url": "https://portofcc.com/capabilities/cargo/breakbulk/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Cheniere — Corpus Christi Stage 3 train completions and Trains 8-9 FID",
+      "url": "https://lngir.cheniere.com/news-events/press-releases/detail/321/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT — I-37 evaculane hurricane evacuation brochure",
+      "url": "https://www.txdot.gov/content/dam/docs/division/trf/hurricane-preparation/i37-evaculane.pdf",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE Hazard Tool / ATC blocked; only a 140–150 mph RC II range from secondary/TDI-tier sources. The liability-critical number for this market — must be queried at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "The governing city ordinance PDF (2021 international codes ordinance) exists but corpuschristitx.gov is proxy-blocked; the amended Table R301.2(1) value was not readable."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps API blocked (three attempts); only qualitative low-seismicity support (UT Austin TXEQ)."
+    },
+    {
+      "field": "designCriteria.designRadialIceIn + designTempLowF/HighF",
+      "attempted": "TIA-222 county data not public; ASHRAE/RESNET design-temperature PDFs unfetchable."
+    },
+    {
+      "field": "designCriteria — windborne debris region determination",
+      "attempted": "Secondary confirmation only; the IBC 1609.2 determination should be verified against the adopted code before publishing debris-region language as a requirement."
+    },
+    {
+      "field": "geotech (bearing range, groundwater depth, numeric NRCS corrosion ratings)",
+      "attempted": "NRCS Web Soil Survey interactive and blocked; corrosivity note is qualitative pending numeric ratings."
+    },
+    {
+      "field": "identity.population — vintage confirmation",
+      "attempted": "Census QuickFacts and api.census.gov blocked; 317,419 is from a Census-data republisher."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Driving sources spread 380–411 miles (I-35E→I-37); 400 mi / 6.0 h recorded as the working estimate with routeVerified false until ops runs real routing."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B drafts written for ops review; RESEARCH.md sources these from CSS ops/estimating, so they need ops confirmation before the gap clears."
+    },
+    {
+      "field": "utilities — AEP Texas new-service URL; AT&T formal ILEC designation",
+      "attempted": "aep.com intake page not confirmed before search budget exhausted; FCC ILEC check not run."
+    },
+    {
+      "field": "environmental — USFWS clearing-window guidance for Nueces County",
+      "attempted": "IPaC unreachable; no county-specific guidance found. Coordinate the USFWS field office per project."
+    },
+    {
+      "field": "marketActivity — Coastal Bend BEAD county-level awards",
+      "attempted": "State approval sourced; county-level award lists not yet published/found. Recheck quarterly."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}

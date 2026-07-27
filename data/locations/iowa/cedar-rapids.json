@@ -1,0 +1,668 @@
+{
+  "identity": {
+    "slug": "cedar-rapids",
+    "city": "Cedar Rapids",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "counties": [
+      "Linn"
+    ],
+    "msa": "Cedar Rapids, IA (Linn, Benton, and Jones counties)",
+    "tier": 1,
+    "latitude": 41.9779,
+    "longitude": -91.6656,
+    "elevationFt": 810,
+    "population": {
+      "value": 137904,
+      "source": "U.S. Census Bureau vintage-2024 estimate, via Data Commons (confirm against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-380"
+    ],
+    "majorRoutes": [
+      "US-30",
+      "US-151",
+      "IA-100 (Collins Rd)"
+    ]
+  },
+  "metadata": {
+    "title": "Cedar Rapids, IA Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Cedar Rapids, IA — foundations, underground, and compound work for fiber, wireless, and edge builds from CellSite Solutions' home yard.",
+    "h1": "Telecom Site Civil Construction in Cedar Rapids, Iowa",
+    "intro": "Cedar Rapids is CellSite Solutions' home market: our staffed yard at 4150 C St SW sits in the city's southwest industrial quadrant, minutes from the I-380 / US-30 / US-151 interchange. From here our crews self-perform the civil scope around telecom shelters, fiber huts, wireless compounds, and edge enclosures across Linn County and eastern Iowa — foundations below the city's 42-inch frost line, underground and duct bank, grounding, and compound construction. The market itself is moving fast: ImOn is converting the metro to full fiber, and Google and QTS have both announced major data center campuses at the Big Cedar Industrial Center.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-22 (referenced by the 2024 IBC adopted in Cedar Rapids Municipal Code Ch. 33)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Eastern Iowa sits in the lowest national seismic hazard tier; publish site-specific Ss/S1 only after a USGS design-maps query, and treat site class as site-specific."
+    },
+    "frostDepthIn": {
+      "value": 42,
+      "source": "Cedar Rapids Municipal Code Ch. 33, sec. 33.23, amended Table R301.2(1) — verify section text directly at Municode before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Cedar Rapids sits on the Iowan Surface landform region: pre-Illinoian glacial till with a loess cover over comparatively shallow Silurian and Devonian limestone and dolomite bedrock, with Cedar River alluvium through the valley. Bedrock is close enough to the surface across the region that quarries are common, which matters for deeper excavations and duct bank runs. (USGS Linn County geology and ground-water resources; Iowa Geological Survey, Iowan Surface.)",
+    "dominantSoilTypes": [
+      "Loess-derived Mollisols",
+      "Pre-Illinoian glacial till",
+      "Cedar River alluvium (floodplain sites)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "Localized karst is possible in the underlying Silurian/Devonian carbonates, though Iowa's karst concentration is in the northeast of the state. Screen sites against the Iowa DNR statewide sinkhole/karst GIS layer rather than assuming a county-wide grade."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundations here start from two fixed local facts: the city's amended code requires footings below a 42-inch frost depth, and bedrock across the Iowan Surface can be shallow enough to meet an excavator before design depth. On upland till sites, conventional spread footings and shelter pads below frost depth are the normal approach; where carbonate bedrock is shallow, rock excavation becomes the cost question and drilled piers can be socketed rather than deepened. Alluvial sites near the Cedar River add a shallow water table and — decisively — floodplain screening, because 14% of the city inundated in 2008 and the flood control system is still being built out. Site-specific geotechnical investigation governs every one of these calls; nothing above substitutes for borings."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Cedar Rapids Building Services Department",
+        "url": "https://www.cedar-rapids.org/local_government/departments_a_-_f/building_services/index.php",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Online permitting via the Tyler EnerGov Customer Self-Service portal; commercial questions to commercialpermit@cedar-rapids.org. Published review times are not posted — confirm current timelines by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2024 International Building Code, adopted as Municipal Code Chapter 33 (with 2024 IRC/IMC/NEC companions)",
+      "source": "City of Cedar Rapids Building Services, Codes page — https://www.cedar-rapids.org/local_government/departments_a_-_f/building_services/building_and_trades/codes.php",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities are administered through a City Public Works program page, under the state-preemptive Iowa Cell Siting Act (Iowa Code ch. 8C), including the uniform small-wireless permit rules of sec. 8C.7A.",
+    "rowPermitAuthority": {
+      "name": "City of Cedar Rapids Public Works Department",
+      "url": "https://www.cedar-rapids.org/local_government/departments_g_-_v/public_works/right_of_way_permits.php",
+      "phone": "319-286-5176",
+      "typicalReviewDays": null,
+      "note": "Permit and bond required before any ROW work; excavations may not stay open more than 7 calendar days; lane closures need at least 2 business days' notice to Traffic Engineering."
+    },
+    "stateDotDistrict": {
+      "name": "Iowa DOT District 6 (East Central), headquartered in Cedar Rapids",
+      "url": "https://iowadot.gov/about/districts/district-6",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Iowa One Call",
+      "url": "https://iowaonecall.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP prepared before filing the NOI; public notice and DNR authorization precede ground disturbance. Current permit term runs March 2023 through February 2028."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Cedar Rapids Development Services (Floodplain Management Ordinance, Municipal Code Ch. 32B)",
+      "url": "https://www.cedar-rapids.org/local_government/departments_a_-_f/development_services/floodplain_regulations.php",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "A floodplain development permit is required for any work in the mapped floodplain."
+    },
+    "permitTimelineNarrative": "Building permits run through the EnerGov self-service portal under Building Services; the city does not publish standing review times, so confirm the current queue when scoping a schedule. Plan two extra permit layers that catch telecom sites specifically: a Public Works ROW permit with bond for anything touching the right-of-way, and a floodplain development permit wherever a site falls in the mapped Cedar River floodplain. Disturb an acre or more and the Iowa DNR General Permit No. 2 process — SWPPP, NOI, public notice, then authorization — has to finish before dirt moves."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Alliant Energy (Interstate Power and Light)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.alliantenergy.com/customer-service/new-construction",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Headquartered in Cedar Rapids; new construction service is applied for online. Published lead times are not posted — schedule from utility confirmation, not assumptions."
+      }
+    ],
+    "ilec": "Lumen Technologies (Qwest d/b/a CenturyLink) — legacy Qwest territory; confirm against the Iowa Utilities Commission exchange-boundary GIS before publishing",
+    "notableFiberProviders": [
+      "ImOn Communications",
+      "CenturyLink/Lumen",
+      "South Slope (metro edges)"
+    ],
+    "notableDataCenterCampuses": [
+      "Google — Big Cedar Industrial Center (announced 2025)",
+      "QTS — 612-acre Big Cedar campus, up to 7 buildings (announced 2025)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, roughly late February through April; exact dates are posted each season",
+      "postingAuthority": {
+        "name": "Linn County Secondary Road Department (county embargoes); Iowa DOT publishes an annual spring restriction map",
+        "url": "https://www.linncountyiowa.gov/587/Road-Closures-Restrictions",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Linn County embargoes limit loads to 5 tons on granular roads and 10 tons on hard-surfaced county roads during the thaw. County postings — not the state map — are usually the binding constraint for a shelter haul to a rural site."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Iowa DOT Motor Carrier Services (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "phone": "515-237-3264",
+      "typicalReviewDays": null,
+      "note": "Covers state-maintained routes; most permits issue same-day to within a few hours. City and county roads require separate local authorization."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Canadian National (incl. former Iowa Northern line)",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "CRANDIC (Cedar Rapids and Iowa City Railway)",
+        "crossingPermitNote": "Utility-crossing requests go to its Rockford Rd SW office; contractor right-of-entry requires Railroad Protective Liability insurance at $2M per occurrence / $6M aggregate. Crossing timelines are not published — apply early."
+      }
+    ],
+    "urbanRowRequirements": "ROW permit and bond through Public Works before any work in the right-of-way; lane closures need at least two business days' notice to Traffic Engineering; the assigned inspector gets one to two business days' notice before work starts; open excavations are limited to seven calendar days."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Tree clearing (trees 3 inches diameter and up) confined to October 1 – March 31",
+      "driver": "Listed bats — the northern long-eared bat (federally endangered) has been documented in Linn County mist-net surveys",
+      "source": "Iowa DOT Construction Manual 6.10 / Spec 2101; USFWS northern long-eared bat listing"
+    },
+    "shpo": {
+      "name": "State Historic Preservation Office of Iowa (Iowa Economic Development Authority)",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 review runs 30 days per complete submission; the clock restarts on incomplete submittals."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory program; Iowa DNR issues Section 401 water quality certifications",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Rock Island District (MVR)",
+    "listedSpeciesNote": "Northern long-eared bat (endangered; documented in Linn County), Indiana bat, and rusty patched bumble bee are the species most likely to be flagged. Run a project-specific USFWS IPaC query — the county-level list above is not a substitute.",
+    "floodplainPrevalenceNote": "The June 2008 Cedar River flood crested at a record 31.12 ft and inundated about 14% of the city (roughly 7,200 parcels). Effective FIRMs date to April 2010 and the Cedar River Flood Control System is still under construction — floodplain screening is a first-order siting question anywhere near the river."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen ground; average highs near 28°F with subzero cold snaps",
+        "earthworkConcrete": "restricted",
+        "note": "Winter concrete protection mandatory; frost penetration toward the 42-inch design depth"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Frozen ground, deepest frost of the season",
+        "earthworkConcrete": "restricted",
+        "note": "Late February can open the spring-embargo window on county roads"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw begins; saturated, soft subgrades",
+        "earthworkConcrete": "constrained",
+        "note": "County spring embargoes typically in force; tree-clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying subgrades; last spring freeze typically late April",
+        "earthworkConcrete": "workable",
+        "note": "Embargoes lift as roads firm up"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Firm and workable; spring rains begin",
+        "earthworkConcrete": "favorable",
+        "note": "May–August carries the bulk of annual precipitation — plan dewatering and SWPPP maintenance"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, workable; peak thunderstorm season",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Warm and generally dry between storm systems; average highs near 83°F",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Workable; storm rainfall still concentrated in this window",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Firm, drying; excellent production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First fall freeze arrives around October 8 on average",
+        "earthworkConcrete": "favorable",
+        "note": "Tree-clearing window opens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling fast; ground begins to take frost late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing; snow cover establishes (annual snowfall ~28 in.)",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "The Cedar Rapids construction year is bracketed by frost: ground is typically frozen December through March, the last spring freeze lands in late April, and the first fall freeze arrives around October 8. The productive core runs May through October, but that same window carries most of the ~36 inches of annual precipitation, so erosion control and subgrade protection do real work in early summer. Winter builds are routine here — they just price differently, with frost excavation and concrete protection in the number. Exact month-by-month figures should be read against the NOAA NCEI normals table for the Eastern Iowa Airport station before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Silurian/Devonian carbonate bedrock is comparatively shallow across the Iowan Surface — quarries are common in the county — so deeper foundations and duct banks can meet rock at design depth.",
+    "aggregateHaulNote": "Local limestone quarries are common in the county, keeping aggregate haul distances short by regional standards.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Iowa has no state prevailing wage law. Federal Davis-Bacon applies to federally funded work over $2,000 — which includes BEAD-funded broadband builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter work from roughly December through March carries frost-excavation and concrete-protection cost; the 42-inch frost depth is what drives winter foundation pricing.",
+    "narrative": "What moves a civil number in Cedar Rapids is mostly vertical: how deep you have to go (42-inch frost depth on every foundation), what you meet on the way down (shallow carbonate bedrock on parts of the Iowan Surface), and what season you go there in (December–March frost premiums, spring embargo detours on county roads). Floodplain siting adds elevation and permitting cost near the Cedar River. Working from our own yard in the city takes mobilization out of the equation entirely — the cost drivers here are ground and season, not distance. Drivers only; every site prices to its own borings and its own month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Iowa has no general commercial contractor license. Contractors earning $2,000 or more per year from construction work in Iowa must register with the Iowa Division of Labor ($50 fee); out-of-state contractors also file a $25,000 surety bond. Electrical and plumbing/mechanical trades are licensed separately through Iowa DIAL.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "tornado",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "The 2008 flood is the defining local hazard event: near the Cedar River, pad elevations, floodplain permits, and the advancing flood-control alignment shape siting before anything else. Severe convective weather and ice argue for conservative anchorage and generator fuel containment, and the 42-inch frost depth governs every foundation. Publish ice-loading values only after county TIA-222 figures are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google data center announced at Big Cedar Industrial Center",
+        "detail": "Google confirmed a Cedar Rapids data center at Alliant's Big Cedar Industrial Center as part of a $7B Iowa investment program, with the local facility reported around $576M.",
+        "category": "data center",
+        "sourceUrl": "https://www.alliantenergy.com/news/news-center/2025/06/060425-googlebigcedarannouncement",
+        "asOf": "2025-06-04"
+      },
+      {
+        "headline": "QTS 612-acre data center campus approved at Big Cedar",
+        "detail": "City Council approved a development agreement for a QTS campus of up to seven buildings and up to $10B in investment; Linn County followed with a dedicated data-center zoning ordinance.",
+        "category": "data center",
+        "sourceUrl": "https://cedar-rapids.org/news_detail_T6_R2180.php",
+        "asOf": "2025-02-12"
+      },
+      {
+        "headline": "Iowa BEAD: $400M NOFA out, final proposal federally approved",
+        "detail": "Iowa's broadband office (Department of Management DoIT / Empower Rural Iowa) released NOFA #009 making $400M in BEAD funds available; the state's final proposal was approved by NTIA in late 2025 with grant agreements executing into 2026.",
+        "category": "broadband program",
+        "sourceUrl": "https://dom.iowa.gov/broadband/bead-program",
+        "asOf": "2025-07-09"
+      },
+      {
+        "headline": "ImOn converting the Cedar Rapids metro to full fiber",
+        "detail": "ImOn Communications is converting its entire Cedar Rapids / Marion / Hiawatha network to 100% fiber-to-the-home at 2–5 Gbps, running June 2025 through 2026.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.imon.net/imon-difference/news-events/imon-upgrades-cedar-rapids-network-100-percent-fiber-internet",
+        "asOf": "2025-06-01"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Fiber civil work in Cedar Rapids is running at two speeds right now. In town, ImOn's conversion of the entire Cedar Rapids–Marion–Hiawatha footprint to full FTTH (2025–2026) means dense lateral, vault, and restoration work in established ROW, where the city's permit-and-bond process and seven-day open-excavation limit shape production. Outside town, Iowa's $400M BEAD round is funding rural routes where the real constraints are county spring embargoes and railroad crossings — UP and CN cross the metro daily, and CRANDIC's crossing process runs through its Rockford Road office with railroad protective liability required before entry. Our crews bore and trench from a yard that sits minutes from most of this work.",
+      "localSpecificsReferenced": [
+        "ImOn full-fiber conversion 2025–2026",
+        "Iowa BEAD NOFA #009 ($400M)",
+        "CRANDIC crossing process",
+        "Cedar Rapids ROW permit/bond rules"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless site civil in this market is a frost-depth business: every shelter pad and pier goes below the city's amended 42-inch frost line, and winter builds price in concrete protection from December through March. Schedule risk concentrates in two windows — tree clearing is confined to October 1 through March 31 because the endangered northern long-eared bat is documented in Linn County, and county road embargoes squeeze spring shelter hauls to rural compounds. Small-cell work in the city runs under Iowa's statewide Cell Siting Act (Code ch. 8C) through the Public Works small-wireless program rather than a bespoke local ordinance. Our yard at 4150 C St SW puts compound rebuilds, pad pours, and access-road work on same-day reach across the metro.",
+      "localSpecificsReferenced": [
+        "42-inch frost depth (Municipal Code Ch. 33)",
+        "Oct 1–Mar 31 bat clearing window",
+        "Linn County 5/10-ton embargoes",
+        "Iowa Code ch. 8C small-wireless rules"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Cedar Rapids has jumped from quiet market to named hyperscale geography: Google and QTS both committed to campuses at the Big Cedar Industrial Center in 2025 — QTS alone at 612 acres and up to seven buildings — and Linn County wrote a dedicated data-center zoning ordinance behind them. That buildout throws off exactly the civil scope we self-perform: transformer and switchgear pads, campus duct bank, generator yards, and the edge enclosure pads that follow hyperscale capacity into the metro. Alliant, headquartered here, is the serving utility for new load. Being the local yard means our crews support this corridor without mobilization cost, and the same shallow-bedrock caution that applies to fiber duct banks applies doubly to campus-scale trenching.",
+      "localSpecificsReferenced": [
+        "Google Big Cedar announcement (2025)",
+        "QTS 612-acre campus",
+        "Linn County data-center ordinance",
+        "Alliant Energy service territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 0,
+      "driveTimeHours": 0,
+      "routeVerified": true,
+      "isStaffedFacility": true
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Linn",
+      "Benton",
+      "Jones",
+      "Johnson"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "This is the yard page: CellSite Solutions' staffed Cedar Rapids facility at 4150 C St SW is where the crews, equipment, and shelter inventory live. The site sits in the southwest industrial quadrant, effectively on top of the I-380 / US-30 / US-151 interchange, which puts the whole metro inside a normal working morning and most of eastern Iowa inside a day trip. There is no mobilization line on a Cedar Rapids project — crews roll from the gate. Emergency response commitments and the confirmed county coverage list are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep does a shelter or fiber hut foundation need to go in Cedar Rapids?",
+      "answer": "Below the frost line the city adopts by amendment — 42 inches per Cedar Rapids Municipal Code Chapter 33 (amended Table R301.2(1)). Every pad, pier, and footing we design and build in the city goes below that depth, and winter pours add concrete protection on top of it. Site-specific geotechnical work still governs the final foundation design.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues the right-of-way permit for telecom work in Cedar Rapids?",
+      "answer": "The City of Cedar Rapids Public Works Department. A ROW permit and bond are required before any work in the right-of-way, lane closures need at least two business days' notice to Traffic Engineering, and open excavations are limited to seven calendar days — a real production constraint on duct bank runs through town.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does Iowa One Call require before we dig?",
+      "answer": "Two business days. Iowa One Call (811) requires notice at least 48 hours before excavation, excluding weekends and legal holidays. We build the ticket lead into every underground schedule, including bores and vault sets.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do spring road restrictions affect shelter delivery around Cedar Rapids?",
+      "answer": "Yes — on county roads. Linn County posts spring embargoes limiting loads to 5 tons on granular roads and 10 tons on hard-surfaced county roads during the thaw, typically late February into April. A shelter haul to a rural compound either routes around posted roads or waits for the embargo to lift, so we schedule rural sets against the county postings, not the state map.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour a shelter pad in Cedar Rapids in January?",
+      "answer": "Yes, with winter concrete practice — heated enclosures or blankets, admixtures, and frost excavation through ground that is typically frozen December through March. It's routine work here; it simply carries a seasonal premium that we price up front rather than discover mid-pour.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What tree-clearing restrictions apply on telecom sites near Cedar Rapids?",
+      "answer": "Plan on clearing only between October 1 and March 31. The federally endangered northern long-eared bat has been documented in Linn County, and Iowa practice (per Iowa DOT's construction manual) confines cutting of trees 3 inches and larger to that window. A project-specific USFWS IPaC review confirms what applies to your site.",
+      "segment": "general"
+    },
+    {
+      "question": "When does a Cedar Rapids site need a stormwater permit?",
+      "answer": "At one acre of disturbance (or less, if part of a larger common plan). Iowa DNR's NPDES General Permit No. 2 requires a SWPPP before the Notice of Intent, plus public notice and DNR authorization before ground disturbance. Compound builds with access roads cross the one-acre line more often than people expect.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in Cedar Rapids right now?",
+      "answer": "Two things at once: ImOn is converting the entire metro to full fiber through 2026, and the Big Cedar Industrial Center landed both Google and QTS data center campuses in 2025 — up to $10B on the QTS side alone. Fiber laterals, campus duct bank, and the edge and utility pads that follow hyperscale load are all active scopes in this market.",
+      "segment": "edge"
+    },
+    {
+      "question": "Which railroads do fiber routes have to cross around Cedar Rapids?",
+      "answer": "Union Pacific and Canadian National cross the metro daily, and the CRANDIC — the Cedar Rapids and Iowa City Railway — threads through the city's southwest, near our own yard. CRANDIC crossing requests go through its Rockford Road office and contractor entry requires railroad protective liability coverage ($2M/$6M). Crossing approvals are the long pole on many routes; we file early.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "When frost depth — not bedrock — drives your foundation cost in Cedar Rapids",
+    "body": "Two vertical numbers compete on every Cedar Rapids foundation: the 42-inch frost depth the city adopts by amendment, and the depth at which Silurian–Devonian carbonate bedrock shows up under the Iowan Surface. On most upland till sites, frost governs — you're excavating to 3.5 feet regardless of loads, so a conventional spread footing or thickened pad below frost is the economical answer, and winter construction cost is really frost-depth cost: protection, heat, and frozen-ground excavation from December through March. The calculus flips where bedrock sits shallow. If borings meet rock above design depth, fighting it with mass excavation is usually the wrong move; a drilled pier socketed into competent rock, or a redesigned bearing elevation, beats paying for rock removal across a full pad footprint. And on alluvial ground near the Cedar River, neither number leads — floodplain elevation and permitting do, because 2008 redrew what 'buildable' means along that corridor. Order the borings before the concrete conversation; in this county the geotech report is the estimate."
+  },
+  "sources": [
+    {
+      "label": "Cedar Rapids Building Services — adopted codes (2024 IBC, Municipal Code Ch. 33)",
+      "url": "https://www.cedar-rapids.org/local_government/departments_a_-_f/building_services/building_and_trades/codes.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Cedar Rapids Municipal Code Ch. 33 (frost depth, amended Table R301.2(1))",
+      "url": "https://library.municode.com/ia/cedar_rapids/codes/code_of_ordinances?nodeId=CH33BUCO",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Cedar Rapids Public Works — Right-of-Way permits",
+      "url": "https://www.cedar-rapids.org/local_government/departments_g_-_v/public_works/right_of_way_permits.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DOT District 6 (East Central)",
+      "url": "https://iowadot.gov/about/districts/district-6",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa One Call — 48-hour (two business day) notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2, construction stormwater",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Linn County — road closures, restrictions, and spring embargoes",
+      "url": "https://www.linncountyiowa.gov/587/Road-Closures-Restrictions",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — bat tree-clearing window",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Rock Island District — regulatory program",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Cedar Rapids — 2008 flood and FEMA flood insurance rate maps",
+      "url": "https://www.cedar-rapids.org/discover_cedar_rapids/flood_of_2008/fema_flood_insurance_rate_maps3.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alliant Energy / Google — Big Cedar data center announcement",
+      "url": "https://www.alliantenergy.com/news/news-center/2025/06/060425-googlebigcedarannouncement",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Cedar Rapids — QTS data center campus release",
+      "url": "https://cedar-rapids.org/news_detail_T6_R2180.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Department of Management — BEAD program",
+      "url": "https://dom.iowa.gov/broadband/bead-program",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Geology and ground-water resources of Linn County, Iowa",
+      "url": "https://www.usgs.gov/publications/geology-and-ground-water-resources-linn-county-iowa",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool / ATC Hazards blocked by sandbox egress proxy; no primary value found in search. One query from an unproxied machine resolves it."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf",
+      "attempted": "Primary value lives in the amended Table R301.2(1) (Municode Ch. 33) and the ASCE 7-22 Hazard Tool; neither directly readable. Secondary SEO sites insufficient to publish."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps API (earthquake.usgs.gov/ws/designmaps) blocked by proxy on multiple attempts."
+    },
+    {
+      "field": "designCriteria.designRadialIceIn",
+      "attempted": "TIA-222 county Annex B tables are not freely published; only paywalled copies surfaced."
+    },
+    {
+      "field": "designCriteria.designTempLowF/HighF",
+      "attempted": "ENERGY STAR county-level ASHRAE compilation PDF not directly readable; provisional −8°F/89°F values not publishable until the Linn County row is read."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — text verification",
+      "attempted": "42 in. / sec. 33.23 / Table R301.2(1) citation is search-extracted; reviewer must open the Municode section text directly before sign-off."
+    },
+    {
+      "field": "geotech (expansive risk, corrosivity, groundwater depth, bearing range, numeric depth to bedrock)",
+      "attempted": "NRCS Web Soil Survey and IGS/USGS report PDFs unreachable through proxy; only qualitative geology sourced."
+    },
+    {
+      "field": "seasonality — full NOAA normals table",
+      "attempted": "NCEI normals table for station USW00014990 (Eastern Iowa Airport) not readable; calendar authored from partial NWS-derived values, needs the station table check."
+    },
+    {
+      "field": "utilities.ilec — exchange boundary confirmation",
+      "attempted": "Iowa Utilities Commission exchange-boundary GIS not queried; Lumen/CenturyLink attribution from legacy-territory sources."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 publish gate requires at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "identity": {
+    "slug": "dallas",
+    "city": "Dallas",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Dallas"
+    ],
+    "msa": "Dallas–Fort Worth–Arlington",
+    "tier": 1,
+    "latitude": 32.7767,
+    "longitude": -96.797,
+    "elevationFt": 430,
+    "population": {
+      "value": 1302868,
+      "source": "U.S. Census Bureau QuickFacts, Vintage 2023 estimate (July 1, 2023)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-35E",
+      "I-30",
+      "I-20",
+      "I-45",
+      "I-635"
+    ],
+    "majorRoutes": [
+      "US-75 (Central Expressway)",
+      "Dallas North Tollway"
+    ]
+  },
+  "metadata": {
+    "title": "Dallas, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil construction in Dallas, TX — Blackland clay foundations, duct bank, and compound work for fiber, wireless, and edge from our DFW yard.",
+    "h1": "Telecom Site Civil Construction in Dallas, Texas",
+    "intro": "Dallas is CellSite Solutions' southern yard market: our DFW facility puts crews inside one of the country's largest interconnection and data center geographies without a mobilization line on the estimate. The civil work here has a distinct personality — Blackland Prairie expansive clay that moves seasonally, Austin Chalk that shows up shallow across much of the city, a state small-cell framework (Chapter 284) that shapes ROW work, and a hyperscale corridor pushing south through Lancaster and Red Oak. We self-perform shelter and cabinet pads, drilled foundations, duct bank, grounding, and compound construction across the Metroplex, from downtown carrier hotels to greenfield campus support.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, adopted with Dallas amendments by Ordinance No. 32421, effective May 12, 2023)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "North Texas is a low-seismicity region; publish site-specific Ss/S1 only after a USGS design-maps query at the yard/site coordinates."
+    },
+    "frostDepthIn": {
+      "value": 6,
+      "source": "Dallas local amendment to Table R301.2 (Dallas Residential Code 2021); minimum footing depth 12 in. below undisturbed ground (R403.1.4) governs in practice — verify the amended table text before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Dallas sits on the Blackland Prairie at the updip edge of the Gulf Coastal Plain. Bedrock, in ascending order, is Upper Cretaceous Eagle Ford Shale, Austin Chalk, and Ozan Formation (Taylor Marl), with Quaternary terrace and alluvial deposits along the Trinity River. The Eagle Ford carries bentonitic (montmorillonite) clays — documented differential swell up to about 7 inches — and the Austin Chalk sits at or near the surface across much of central Dallas. (Environmental & Engineering Geoscience, 'Geology of Dallas, Texas'; USACE Fort Worth District Dallas Floodway geotechnical appendix.)",
+    "dominantSoilTypes": [
+      "Houston Black clay (Vertisol, very high shrink-swell)",
+      "Eagle Ford residual clays",
+      "Trinity River terrace and alluvial deposits"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "Houston Black clay — the Texas state soil — is a classic smectitic Vertisol with very high shrink-swell behavior (NRCS Official Series Description; TWDB). Plasticity indexes commonly reported in engineering literature run roughly 35–55, higher on Eagle Ford residuum; treat those figures as typical ranges, with site-specific investigation governing.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No published karst mapping for Dallas County surfaced in research; occasional solution features in the Austin Chalk are possible and belong to the site-specific geotech scope."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation design in Dallas is a clay conversation before it is a load conversation. On Blackland Prairie sites, seasonal movement of Houston Black and Eagle Ford clays drives the approach: drilled piers bearing in or socketed into the Austin Chalk, moisture-conditioned or select-fill pads, and void space detailing where grade beams cross active clay. Where the chalk sits near the surface — common across central Dallas — shallow rock becomes the excavation cost question for duct bank and deeper foundations, and pier sockets get cheaper than fighting swell. Along the Trinity, terrace and alluvial ground adds floodplain permitting and different bearing behavior. The frost line is a non-issue at 6 inches; the 12-inch minimum footing embedment and the clay's plasticity are what actually set depths here. Site-specific borings govern every one of these decisions."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Dallas Development Services Department",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/Pages/DallasNow.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permitting runs through the DallasNow (Accela) portal, live since May 2025. Contractors must register with the city (general liability at $300,000 per occurrence minimum, city as certificate holder) before pulling permits."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 IBC with Dallas amendments (Dallas Building Code, Chapter 53, Dallas City Code), adopted by Ordinance No. 32421, effective May 12, 2023",
+      "source": "City of Dallas code amendment ordinance — https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/2021_codes/23-0468.pdf",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network nodes in the public ROW are governed statewide by Texas Local Government Code Chapter 284; Dallas implements it through its Design Manual for the Installation of Network Nodes and Node Support Poles, adopted under §284.108.",
+    "rowPermitAuthority": {
+      "name": "City of Dallas Public Works — Right-of-Way Management",
+      "url": "https://dallascityhall.com/departments/public-works/Pages/right-of-way-management.aspx",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ROW permit required for any work in or damaging the ROW (City Code Ch. 43, Sec. 43-139); lane, sidewalk, or alley closures need a separate traffic-control permit; pavement cuts follow the city's Pavement Cut and Repair Standards Manual."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Dallas District (Collin, Dallas, Denton, Ellis, Kaufman, Navarro, Rockwall counties)",
+      "url": "https://www.txdot.gov/about/districts/dallas-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Utility occupancy of TxDOT ROW is permitted through the RULIS system."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI filed through STEERS e-permitting; small-site (1 to under 5 acres) and large-site (5+ acres) tracks. Current permit effective March 5, 2023 through March 5, 2028."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Dallas — Director of Public Works and Transportation (designated Floodplain Administrator); floodplain and drainage program via Trinity Watershed Management / DWU Stormwater Operations",
+      "url": "https://dallascityhall.com/departments/waterutilities/stormwater-operations/Pages/FloodplainandDrainageManagement.aspx",
+      "phone": "214-671-2219",
+      "typicalReviewDays": null,
+      "note": "Fill and floodplain alteration permits are required for work in the regulatory 100-year floodplain (Development Code Art. V, Sec. 51A)."
+    },
+    "permitTimelineNarrative": "Building permits move through the DallasNow portal under Development Services, with city contractor registration as a prerequisite — build both into the front of the schedule. Telecom sites pick up two additional layers: a Right-of-Way Management permit (plus a separate traffic-control permit for any lane or sidewalk closure) for work in the ROW, and floodplain fill/alteration permits anywhere the site touches the Trinity's regulatory floodplain. Small-cell node work follows the Chapter 284 framework and the city's design manual rather than a discretionary zoning path. Disturb an acre and the TCEQ construction general permit process runs through STEERS before ground breaks."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Oncor Electric Delivery",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Regulated transmission & distribution utility for Dallas — the largest TDU in Texas, headquartered locally. Dallas is in ERCOT's competitive retail market: customers choose a Retail Electric Provider while Oncor owns and operates the wires. Confirm the current construction-services intake on oncor.com when scoping."
+      }
+    ],
+    "ilec": "AT&T (Southwestern Bell Telephone Company, LLC) — AT&T is headquartered in Dallas",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Spectrum (Charter)"
+    ],
+    "notableDataCenterCampuses": [
+      "Equinix Infomart (1950 N. Stemmons Fwy) — DA1/DA2/DA3/DA6",
+      "Digital Realty 2323 Bryan St carrier hotel",
+      "Digital Realty Richardson campus (8 buildings)",
+      "Digital Realty Garland (first building delivering 2026)",
+      "Southern Dallas County corridor: STACK Lancaster (220 MW), Yondr Lancaster (550 MW), Lincoln Red Oak (up to 540 MW), PowerHouse/Provident hyperscale campus (1.8 GW switchyard)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": "The Equinix Infomart is the market's densest interconnection point, with 140+ networks; Digital Realty's 2323 Bryan St is the second major carrier hotel (60+ carriers)."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas has no statewide spring-thaw / frost-law program. Load limits are year-round, engineering-based load-zoned road and bridge postings (county changes require PE-signed analysis to TxDOT) — check posted routes when hauling shelters, not the calendar."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS (Texas Permitting & Routing Optimization System)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Permits are self-issued and auto-routed through TxPROS for most loads."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "Wireline/utility crossing agreements typically quote ~30–45 days processing; industry-wide, fiber crossings on Class I railroads can run months — file early."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "CPKC (former Kansas City Southern)",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Dallas, Garland & Northeastern (DGNO, Genesee & Wyoming)",
+        "crossingPermitNote": "~170-mile shortline connecting all three Class I carriers across the metro."
+      },
+      {
+        "name": "DART light rail",
+        "crossingPermitNote": "Transit corridors add their own coordination layer for crossings and adjacent work."
+      }
+    ],
+    "urbanRowRequirements": "ROW permit through Right-of-Way Management plus a separate traffic-control permit for any lane, sidewalk, or alley closure; pavement cuts are repaired to the city's Pavement Cut and Repair Standards Manual."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Schedule vegetation removal outside the general bird nesting season, March 15 – September 15; if unavoidable, pre-construction nesting surveys by a qualified biologist",
+      "driver": "Migratory bird nesting (TPWD guidance under the MBTA); no county-specific USFWS bat window was found for Dallas County",
+      "source": "TPWD Environmental Review guidance; TxDOT bird compliance guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code of Texas reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (SWF) — CWA Section 404",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Trinity River Corridor carries a 1988 Record of Decision with specific evaluation criteria for 404 permits."
+    },
+    "usaceDistrict": "Fort Worth District (SWF)",
+    "listedSpeciesNote": "Species that recur on north-Texas project lists include migratory whooping crane and piping plover; the tricolored bat has been appearing on updated Texas IPaC lists with its final listing status unresolved at research time — run a project-specific IPaC query and check current bat status before committing to any clearing-window language.",
+    "floodplainPrevalenceNote": "Dallas is drained by the Trinity River, protected through downtown by the 22.6-mile Dallas Floodway levee system (East and West levees, raised by USACE to Standard Project Flood level, with accreditation restored after the 2009 inspection cycle). Work in the regulatory 100-year floodplain requires city floodplain and fill permits."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild winter; occasional hard freezes and ice events",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice on freeze nights"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild; last freeze approaches (average last freeze March 12)",
+        "earthworkConcrete": "workable",
+        "note": "Ice storms are the disruptive winter event, not frost depth"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Firm, drying; severe-weather season begins",
+        "earthworkConcrete": "favorable",
+        "note": "Bird nesting season guidance window opens March 15"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good working ground; peak tornado/hail month",
+        "earthworkConcrete": "favorable",
+        "note": "Plan severe-weather day contingency"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable; peak severe-weather month with heavy rain events",
+        "earthworkConcrete": "favorable",
+        "note": "Clay sites turn slick fast after storms"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot and drying; clay shrinkage begins",
+        "earthworkConcrete": "workable",
+        "note": "First 100°F day arrives around July 1 on average"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Extreme heat (~19 days at 100°F+ per year, concentrated here)",
+        "earthworkConcrete": "constrained",
+        "note": "Hot-weather concrete practice; early pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Extreme heat continues (average last 100°F day August 27); clays at maximum shrinkage",
+        "earthworkConcrete": "constrained",
+        "note": "Moisture-condition pads before placement"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat breaking; workable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Excellent working conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; average first freeze November 22",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild winter; occasional freeze and ice events",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Dallas builds year-round; the calendar's constraints are heat and storms, not frost. Summer is the season that prices differently — the metro averages about 19 days at or above 100°F, concentrated July through late August, which pushes concrete to early-morning pours and hot-weather practice, and drives expansive clays to maximum shrinkage right when pads want stable moisture. Spring (April–May) is peak tornado and hail season and earns a weather-day contingency. Winter is mild — average first freeze November 22, last March 12 — with ice storms, not frozen ground, as the disruptive event. Confirm the month-by-month table against the NWS Fort Worth/Dallas normals before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Austin Chalk sits at or near the surface across much of central Dallas — shallow rock is a routine duct bank and drilled-shaft cost item, though the chalk also makes an excellent pier bearing stratum.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Texas Government Code Chapter 2258 applies prevailing wage to state/locally funded public works; federal Davis-Bacon applies to federally funded work over $2,000 — including BEAD-funded broadband builds. On mixed funding, the higher rate governs.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hot-weather concreting from roughly July through August (early pours, ice, retarders) and spring severe-weather contingency are the seasonal cost items; winter carries only occasional freeze/ice protection.",
+    "narrative": "The number-movers in Dallas are ground and heat. Expansive clay is the big one: drilled piers, select fill, moisture conditioning, and void detailing all exist to manage Houston Black and Eagle Ford movement, and skipping them shows up later as a cracked pad or a racked cabinet. Shallow Austin Chalk cuts both ways — more rock excavation in trench lines, better bearing for piers. Summer heat converts to premium through pour windows and hot-weather practice, and April–May severe weather earns real schedule contingency. Permitting adds the city registration + DallasNow + ROW/traffic-control stack. Working from our own DFW yard removes mobilization from the equation. Drivers, not prices — every site prices to its borings and its season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas issues no statewide general contractor license for commercial or civil construction; regulation is municipal. Trade licenses still apply statewide — electrical through TDLR (Electrical Contractor license with a Master Electrician of record), plumbing through TSBPE. The City of Dallas additionally requires contractor registration with Development Services, with general liability insurance of at least $300,000 per occurrence, before permits can be pulled.",
+    "additionalRegistrations": [
+      "City of Dallas contractor registration (Development Services)"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "extreme heat",
+      "flood"
+    ],
+    "designImplications": "North Texas' April–May supercell season drives anchorage, equipment protection, and schedule contingency; hail argues for hardened HVAC and cable protection on compounds. Roughly 19 days a year at 100°F+ shape concrete practice and clay moisture behavior. Along the Trinity, the Dallas Floodway levee system and 100-year floodplain permitting govern siting. Publish wind and ice design values only after the ASCE/TIA hazard-tool queries are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Texas BEAD final proposal approved — construction from summer 2026",
+        "detail": "NTIA approved Texas' final BEAD proposal (≈$1.3B, 22 providers, 240,000+ locations — about 123k of them fiber); grant agreements finalize in early 2026 with construction beginning as early as summer 2026, administered by the Texas Broadband Development Office at the Comptroller.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      },
+      {
+        "headline": "PowerHouse/Provident hyperscale campus with 1.8 GW switchyard",
+        "detail": "PowerHouse Data Centers and Provident announced a 768-acre hyperscale campus in the southern DFW corridor with a 1.8 GW switchyard; the first 500 MW is ERCOT-approved.",
+        "category": "data center",
+        "sourceUrl": "https://www.prnewswire.com/news-releases/powerhouse-and-provident-partner-to-develop-hyperscale-data-center-campus-in-dallas-fort-worth-metroplex-302344722.html",
+        "asOf": "2025-01-15"
+      },
+      {
+        "headline": "Southern Dallas County data center corridor accelerates",
+        "detail": "STACK Infrastructure's 220 MW Lancaster campus targets mid-2026 delivery, Yondr's 550 MW Lancaster campus breaks ground in 2026, and Lincoln Property's Red Oak site plans up to 540 MW — a concentrated civil and duct bank pipeline south of the city.",
+        "category": "data center",
+        "sourceUrl": "https://www.stackinfra.com/locations/americas/dallas-fort-worth/",
+        "asOf": "2026-01-15"
+      },
+      {
+        "headline": "Digital Realty expands Garland campus",
+        "detail": "Digital Realty's Garland development delivers its first ~410,000 sq ft building in 2026, extending the established Richardson/Garland data center cluster.",
+        "category": "data center",
+        "sourceUrl": "https://dgtlinfra.com/dallas-data-centers-texas/",
+        "asOf": "2026-01-15"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber civil in Dallas runs from downtown carrier-hotel laterals to the statewide BEAD build that starts turning dirt in summer 2026. The physical constraints are specific: boring through near-surface Austin Chalk is a different production rate than boring Blackland clay, and the metro's rail grid — UP, BNSF, CPKC, the DGNO shortline, and DART corridors — means crossing agreements (UP quotes 30–45 days; plan longer) sit on the critical path of most routes. In the ROW, the city's permit-plus-traffic-control stack and pavement cut standards govern production through town. Routes feeding the Infomart and the southern hyperscale corridor keep metro duct bank demand running independent of subsidy cycles.",
+      "localSpecificsReferenced": [
+        "Texas BEAD approval (Nov 2025)",
+        "Austin Chalk shallow rock",
+        "UP/BNSF/CPKC/DGNO/DART crossings",
+        "Equinix Infomart",
+        "Dallas Pavement Cut and Repair Standards Manual"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Dallas is expansive-clay work first: shelter and cabinet pads on Houston Black or Eagle Ford residuum get moisture conditioning, select fill, or drilled piers into the chalk, because a pad that ignores PI shows up later as a racked cabinet. April–May hail and tornado season shapes anchorage and equipment protection on compounds, and the ~19 annual 100°F days push summer pours to early morning. Small-cell and node work follows the statewide Chapter 284 framework through the city's design manual for network nodes — a defined, non-discretionary ROW path that rewards clean submittals. Our DFW yard puts macro rebuilds, pad replacements, and densification civil on same-day reach across the Metroplex.",
+      "localSpecificsReferenced": [
+        "Houston Black clay / PI ranges",
+        "Chapter 284 + Dallas node design manual",
+        "DFW tornado/hail season",
+        "100°F-day climatology"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Dallas is one of the country's defining data center markets, and the map is moving south: STACK, Yondr, and Lincoln are building out Lancaster and Red Oak, and the PowerHouse/Provident campus brings a 1.8 GW switchyard to the corridor. That pipeline throws off exactly our scope — transformer and switchgear pads, campus duct bank, generator yards, security compounds — plus the edge enclosure pads that follow capacity into the metro's interconnection fabric anchored by the Infomart. Oncor is the wires company for all of it, inside ERCOT's retail-choice market. The same clay-and-chalk foundation logic that governs a shelter pad governs a 500-acre campus; the difference is scale and schedule discipline.",
+      "localSpecificsReferenced": [
+        "Lancaster/Red Oak corridor (STACK, Yondr, Lincoln)",
+        "PowerHouse/Provident 1.8 GW campus",
+        "Equinix Infomart interconnection",
+        "Oncor / ERCOT structure"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 0,
+      "driveTimeHours": 0,
+      "routeVerified": true,
+      "isStaffedFacility": true
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Dallas",
+      "Tarrant",
+      "Collin",
+      "Denton",
+      "Ellis"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "This is the yard page for CellSite Solutions' Dallas–Fort Worth facility — the southern of our two staffed yards, where crews and equipment for the Texas and Oklahoma footprint are based. From the yard, the Metroplex is same-day working territory in every direction on the I-35E/I-30/I-635 grid, and there is no mobilization line on a DFW project. The specific yard address and coordinates are pending from ownership and must replace the Dallas city-center placeholder before this page publishes, since they anchor the LocalBusiness listing and the close-call yard assignments for four boundary markets. Emergency response commitments and the confirmed county coverage list are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How do you build shelter pads on Dallas expansive clay?",
+      "answer": "By respecting the plasticity index before the load chart. On Blackland Prairie sites we moisture-condition or replace the pad subgrade with select fill, or take foundations down as drilled piers into the Austin Chalk, which sits near the surface across much of the city. Houston Black and Eagle Ford clays move seasonally — documented differential swell runs to several inches — so the geotech report drives the design, not a standard detail.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who issues right-of-way permits for telecom work in Dallas?",
+      "answer": "City of Dallas Public Works — Right-of-Way Management, under City Code Chapter 43. Any work in the ROW needs the ROW permit, any lane, sidewalk, or alley closure needs a separate traffic-control permit, and pavement cuts are repaired to the city's Pavement Cut and Repair Standards Manual. Contractors also register with Development Services (with $300k-per-occurrence GL coverage) before pulling permits.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does Texas811 require before digging in Dallas?",
+      "answer": "At least two business days, excluding weekends and holidays. We build the Texas811 ticket lead into every bore, trench, and vault schedule — and add the railroad's own timeline wherever a route crosses UP, BNSF, CPKC, DGNO, or a DART corridor, because crossing agreements, not locates, are usually the long pole.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Are there seasonal road restrictions that affect shelter delivery in Dallas?",
+      "answer": "No spring frost laws — Texas doesn't post seasonal thaw restrictions. Load limits here are year-round, engineering-based load-zoned postings on specific roads and bridges. Oversize/overweight shelter hauls permit through TxDMV's TxPROS system, which self-issues and routes most loads automatically; posted structures get engineered around, not waited out.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour concrete in Dallas in August?",
+      "answer": "Yes — early and carefully. Dallas averages about 19 days at or above 100°F, concentrated July through late August, so summer pads go down in morning windows with hot-weather concrete practice: chilled mix water or ice, retarders, and cure protection. The bigger August issue is clay shrinkage, which is why pad subgrades get moisture-conditioned before placement, not after cracking.",
+      "segment": "general"
+    },
+    {
+      "question": "What's a fiber hut foundation actually governed by in Dallas — frost depth?",
+      "answer": "Not frost. The Dallas amendment sets the frost line at just 6 inches, and the 12-inch minimum footing embedment governs in practice. What actually sets foundation depth here is expansive clay behavior and, on many central sites, how shallow the Austin Chalk runs. Design responds to the borings — pier into chalk or condition the clay — rather than to a frost table.",
+      "segment": "fiber"
+    },
+    {
+      "question": "When does a Dallas site need a TCEQ stormwater permit?",
+      "answer": "At one acre of disturbance, or less if the site is part of a larger common plan. Coverage runs under TCEQ's construction general permit TXR150000, filed through the STEERS e-permitting system, with small-site and large-site tracks at 1 and 5 acres. Compound builds with access drives cross the one-acre line more often than expected — we screen for it at estimate.",
+      "segment": "general"
+    },
+    {
+      "question": "What environmental reviews come up on Dallas telecom sites?",
+      "answer": "Three recur: migratory-bird nesting timing (TPWD guidance says schedule clearing outside March 15 – September 15 or survey first), Section 106 review through the Texas Historical Commission's eTRAC on federally touched projects (30-day clock), and USACE Fort Worth District 404 review near waters — with the Trinity corridor carrying its own 1988 Record of Decision criteria. A project-specific IPaC query settles the species list.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in Dallas right now?",
+      "answer": "Two engines at once. Texas' $1.3B BEAD program cleared federal approval in November 2025 with construction starting summer 2026, and the DFW data center pipeline is enormous — STACK, Yondr, and Lincoln building out Lancaster/Red Oak, the PowerHouse/Provident campus with a 1.8 GW switchyard, and Digital Realty's Garland delivery in 2026. Fiber routes, campus duct bank, and utility-yard civil all follow.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Drilled piers vs. spread footings in Dallas expansive clay",
+    "body": "The Dallas decision isn't depth-to-frost — at a 6-inch frost line, frost never governs. It's whether your foundation opts out of the clay's seasonal movement or manages it. A spread footing or thickened pad on Houston Black clay is betting on moisture stability: it works when the subgrade is moisture-conditioned or replaced with select fill, drainage keeps the moisture regime steady, and the equipment above can tolerate small movements. The bet gets worse as PI climbs — Eagle Ford residuum reported in the 40s and up is where pads start telegraphing seasonal cycles into cabinets and ice bridges. Drilled piers into the Austin Chalk opt out of the problem: across much of central Dallas the chalk is shallow enough that a short pier reaches competent bearing below the active zone, and void forms under grade beams let the clay move without lifting the structure. The pier premium buys certainty, and it's cheapest exactly where the chalk is shallowest. So the sequence is: borings first, check depth to chalk and PI, then price both schemes. When the chalk is within reach, the pier usually wins the ten-year cost argument even when it loses the bid-day one."
+  },
+  "sources": [
+    {
+      "label": "City of Dallas — 2021 code adoption, Ordinance No. 32421",
+      "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/2021_codes/23-0468.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Dallas — DallasNow permitting portal",
+      "url": "https://dallascityhall.com/departments/sustainabledevelopment/Pages/DallasNow.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Dallas Public Works — Right-of-Way Management",
+      "url": "https://dallascityhall.com/departments/public-works/Pages/right-of-way-management.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Dallas District",
+      "url": "https://www.txdot.gov/about/districts/dallas-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — two business days' notice",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Dallas — floodplain and drainage management (Sec. 51A floodplain regulations)",
+      "url": "https://dallascityhall.com/departments/waterutilities/stormwater-operations/Pages/FloodplainandDrainageManagement.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Fort Worth District — Dallas Floodway history",
+      "url": "https://www.swf.usace.army.mil/Portals/47/docs/PAO/DF/DallasFloodwayHistoryPaper.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Houston Black clay",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/H/HOUSTON.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Environmental & Engineering Geoscience — Geology of Dallas, Texas",
+      "url": "https://pubs.geoscienceworld.org/aeg/eeg/article-abstract/xxiii/4/359/60925/Geology-of-Dallas-Texas-United-States-of-America",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Local Government Code Chapter 284 (network nodes)",
+      "url": "https://texas.public.law/statutes/tex._local_gov%27t_code_title_9_subtitle_a_chapter_284",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Dallas Design Manual for Network Nodes and Node Support Poles",
+      "url": "https://dallascityhall.com/departments/public-works/DCH%20Documents/Public%20Works/pdf/Small_Cell%20Design_Manual.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDMV — oversize/overweight permits (TxPROS)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Union Pacific — wireline crossing procedure",
+      "url": "https://www.up.com/real_estate/utilities/wireline/wireline_procedure/index.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Fort Worth/Dallas — DFW records and normals (100°F and freeze statistics)",
+      "url": "https://www.weather.gov/fwd/dfw_records_normals",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "operations.nearestBase — actual DFW yard address and coordinates",
+      "attempted": "Owner decision (PLAN §4.3 open item 1). City-center placeholder in use; the real address anchors LocalBusiness schema and re-runs of all hazard lookups, and may shift four close-call yard assignments."
+    },
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ATC Hazards / ASCE Hazard Tool blocked by egress proxy; secondary sources conflict (105 vs 115 mph RC II). Not publishable until the hazard tool is queried at the yard coordinates."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf",
+      "attempted": "ASCE Hazard Tool unreachable; the amended Dallas Table R301.2 snow cell could not be read (UpCodes/dallascityhall fetches blocked)."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps API blocked (confirmed connect_rejected in proxy log); only a secondary SDS≈0.1g/SDC-A indication found — insufficient."
+    },
+    {
+      "field": "designCriteria.designRadialIceIn",
+      "attempted": "TIA-222-H Annex B county data not freely published; only the Rev G→H factor-relocation commentary surfaced."
+    },
+    {
+      "field": "designCriteria.designTempLowF/HighF",
+      "attempted": "FGIA/ASHRAE compilations unfetchable; secondary ≈19°F / ≈101°F values not publishable without the station table."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — amended table text verification",
+      "attempted": "6-inch value quoted from UpCodes' Dallas IRC amendment text via search; reviewer must confirm the exact table cell before sign-off."
+    },
+    {
+      "field": "geotech (karst, corrosivity, groundwater, bearing range, numeric depth to chalk)",
+      "attempted": "No BEG karst mapping surfaced; NRCS Web Soil Survey interactive and blocked; chalk depth varies 0 ft to tens of ft — qualitative only."
+    },
+    {
+      "field": "environmental — tricolored bat listing status and Dallas County IPaC list",
+      "attempted": "IPaC not runnable in sandbox; bat final-rule status unresolved in sources found. Check fws.gov before publishing clearing-window language."
+    },
+    {
+      "field": "seasonality — full 1991–2020 monthly normals table",
+      "attempted": "weather.gov/fwd pages 403 on fetch; calendar authored from confirmed 100°F/freeze statistics, needs the station table check."
+    },
+    {
+      "field": "utilities — Oncor construction-services URL and new-service lead times",
+      "attempted": "oncor.com unfetchable; lead times require utility/ops confirmation regardless."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 publish gate requires at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

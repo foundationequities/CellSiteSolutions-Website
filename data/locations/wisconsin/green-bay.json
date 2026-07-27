@@ -1,0 +1,666 @@
+{
+  "identity": {
+    "slug": "green-bay",
+    "city": "Green Bay",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "counties": [
+      "Brown"
+    ],
+    "msa": "Green Bay, WI (Brown, Kewaunee, and Oconto counties)",
+    "tier": 2,
+    "latitude": 44.5133,
+    "longitude": -88.0133,
+    "elevationFt": 594,
+    "population": {
+      "value": 106312,
+      "source": "U.S. Census Bureau, 2024 ACS 1-year estimate (via Census Reporter)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-41",
+      "I-43"
+    ],
+    "majorRoutes": [
+      "US-41",
+      "US-141"
+    ]
+  },
+  "metadata": {
+    "title": "Green Bay, WI Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Green Bay, WI — deep-frost foundations, duct bank, and compound work for fiber, wireless, and edge builds across Brown County.",
+    "h1": "Telecom Site Civil Construction in Green Bay, Wisconsin",
+    "intro": "Green Bay sits at the cold end of our footprint, and the civil work here shows it: footings driven at least 48 inches down under Wisconsin's frost rules, a construction calendar bracketed by frozen-road declarations and Class II spring thaw restrictions, and red lacustrine clays in the eastern valleys that behave nothing like upland till. CellSite Solutions serves the Green Bay market from our Cedar Rapids yard — 304 road miles down the US-151/I-41 corridor — self-performing shelter and hut foundations, underground and duct bank, grounding, and compound construction across Brown County, with Wisconsin's own wetland permitting and Diggers Hotline timelines built into every schedule.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, which the Wisconsin Commercial Building Code SPS 361–366 adopted effective September 1, 2025 — plans on or after November 1, 2025 must comply; verify the SPS 361 reference table)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Publish site-specific Ss/S1 only after a USGS design-maps query; Wisconsin also allows its own alternate ground-snow zone map under SPS 362.1608 — read the Green Bay value from that map before publishing snow load."
+    },
+    "frostDepthIn": {
+      "value": 48,
+      "source": "Wis. Admin. Code SPS 321.16 (footings below frost penetration or at least 48 in. below adjacent grade, whichever is deeper — UDC rule); the commercial-code application for Green Bay (SPS 362.1809 / city amendment) should be confirmed with the City Inspection Division before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": {
+      "value": -12,
+      "source": "ASHRAE 99.6% heating dry-bulb for Green Bay, per FGIA compilation of ASHRAE design temperatures for major U.S. cities (confirm edition against the station table)",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Brown County's bedrock is an eastward-dipping Cambrian–Ordovician–Silurian sequence of sandstone, dolostone, and shale, with the Silurian dolostone forming the Niagara Escarpment cuesta through the eastern county. Above it lie Pleistocene glacial and proglacial sediments up to roughly 330 feet thick — with red lacustrine clays prevalent in the eastern valleys, locally 250–300 feet thick, interstratified with sand and gravel — and buried bedrock valleys under the glacial fill. (WGNHS Brown County bedrock mapping; USGS artesian aquifer studies.)",
+    "dominantSoilTypes": [
+      "Kewaunee silty clay loam (dominant series, ~89,700 acres)",
+      "Superior red clays and clay loams",
+      "Glacial sand and gravel interbeds"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "Verified karst — enlarged joints and sinkholes — occurs in the Silurian dolomite along the Niagara Escarpment in eastern Brown County, and the dolomite aquifer is documented as highly susceptible to contamination (WGNHS; USGS). Escarpment-side sites warrant karst screening in the geotech scope."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Two things set foundations apart in Green Bay: depth and clay. Wisconsin's frost rule puts footings at least 48 inches below adjacent grade — deeper than anywhere else in our footprint — so every shelter pier, hut footing, and bollard carries real excavation even before loads enter the conversation, and winter work means frost ripping through the top of that column. The second variable is the red lacustrine clay of the eastern valleys: fine-grained, moisture-sensitive, and slow-draining, it punishes open excavations in wet season and rewards careful subgrade protection. On the eastern side of the county, the Niagara Escarpment brings shallow dolostone and documented karst into play — pier sockets get attractive, but voids get screened first. Site-specific geotechnical investigation governs; the borings decide which of these three stories your site is telling."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Green Bay — Building Inspection Division (Dept. of Community & Economic Development)",
+        "url": "https://www.greenbaywi.gov/312/Building-Permits-Inspections",
+        "phone": "920-448-3300",
+        "typicalReviewDays": null,
+        "note": "Commercial work runs under the Wisconsin Uniform Commercial Building Code (SPS 361–366); state plan review applies by project size. Published local review times not posted — confirm by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Wisconsin Uniform Commercial Building Code (SPS 361–366), on the 2021 IBC effective September 1, 2025; plans submitted on or after November 1, 2025 must comply",
+      "source": "Wisconsin DSPS commercial building code news release — https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small cell deployment is governed statewide by 2019 Wisconsin Act 14 (Wis. Stat. 66.0414): collocation rights in the ROW, limited municipal regulation, and collocation rates capped at the lesser of actual cost or $250 per small wireless facility per year.",
+    "rowPermitAuthority": {
+      "name": "City of Green Bay (ROW permitting contact to be confirmed — city website fetches were blocked during research)",
+      "url": null,
+      "phone": "920-448-3300",
+      "typicalReviewDays": null,
+      "note": "Confirm the ROW/excavation permitting desk with the city before scheduling ROW work; listed in _gaps."
+    },
+    "stateDotDistrict": {
+      "name": "WisDOT Northeast Region (Green Bay office) — serves Brown and ten surrounding counties",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Diggers Hotline (Wisconsin 811)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Wis. Stat. 182.0175.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Wisconsin DNR — WPDES Construction Site Storm Water General Permit (WI-S067831)",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Notice of Intent must be filed at least 14 working days before land disturbance — a longer lead than most states in the footprint."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Green Bay Zoning Administrator (floodplain overlay district, Ch. 44 Art. XIII of the city code)",
+      "url": "https://www.greenbaywi.gov/548/Floodplain-Management",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "permitTimelineNarrative": "Commercial building work in Green Bay runs under the state's uniform code (SPS 361–366, now on the 2021 IBC) with the city's Building Inspection Division as the local AHJ; larger projects add state plan review. The two timeline items that catch out-of-state schedulers are Wisconsin-specific: Diggers Hotline wants three business days' notice before excavation, and the WDNR construction stormwater NOI must be in at least 14 working days before land disturbance — roughly three weeks of lead on any compound or route disturbing an acre. Wetland involvement adds WDNR permitting even where the federal 404 program wouldn't reach, because Wisconsin regulates nonfederal wetlands under Wis. Stat. 281.36."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Wisconsin Public Service (WPS, WEC Energy Group)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Headquartered in Green Bay; roughly 474,000 electric and 350,000 gas customers across northeast and north-central Wisconsin. Confirm the current new-service intake page when scoping."
+      }
+    ],
+    "ilec": "AT&T Wisconsin (confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "TDS (up to 8 Gbps)",
+      "Spectrum",
+      "Nsight/Cellcom (Green Bay-based)",
+      "Bug Tussel (fixed wireless, rural)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Class II spring thaw restrictions typically run early March to the first or second week of May (2026 actuals: February 20 – April 30 depending on zone)",
+      "postingAuthority": {
+        "name": "WisDOT (frozen road declarations and Class II highway restrictions); county, town, and city roads posted separately by local authorities",
+        "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Wisconsin runs a full seasonal sequence: a winter frozen-road declaration (heavier loads allowed), then spring thaw Class II restrictions on about 1,400 miles of vulnerable state highways — and locally posted county and town roads are frequently the binding constraint for a shelter haul. Plan heavy deliveries around the postings, not the calendar."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "WisDOT Oversize/Overweight Permits (wi.gotpermits.com/wiconnect)",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "phone": "608-266-7320",
+      "typicalReviewDays": null,
+      "note": "Wis. Stat. 348.26–348.27; online self-issuance for standard loads."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Canadian National (via Wisconsin Central)",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Fox Valley & Lake Superior Rail System (FOXY, Watco)",
+        "crossingPermitNote": "Operates former CN/WCL lines out of Green Bay toward Luxemburg and Denmark — the shortline most likely to sit over a Brown County fiber route."
+      },
+      {
+        "name": "Escanaba & Lake Superior (E&LS)",
+        "crossingPermitNote": null
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "In suitable northern long-eared bat habitat, the federal transportation programmatic restricts clearing April 1 – October 31; occupied maternity roost trees (and trees within 150 ft) are protected June 1 – July 31, with no removal within 0.25 mile of a hibernaculum",
+      "driver": "Northern long-eared bat (federally endangered)",
+      "source": "WisDOT NLEB non-federal guidance (April 2023) and NLEB real-estate/permit guidance"
+    },
+    "shpo": {
+      "name": "Wisconsin Historical Society — State Historic Preservation Office",
+      "url": "https://www.wisconsinhistory.org/preserve/state-historic-preservation-office/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 submittal form required; review timelines per current SHPO guidance."
+    },
+    "wetlandsAuthority": {
+      "name": "Wisconsin DNR — state wetland permitting under Wis. Stat. 281.36 (covers federal AND nonfederal wetlands; DNR permit constitutes the federal water quality certification)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Nonfederal exemptions are narrow (≤1 acre urban / ≤3 acres rural with 15-day pre-notification) — Wisconsin wetland permitting reaches further than most states in our footprint."
+    },
+    "usaceDistrict": "St. Paul District (MVP)",
+    "listedSpeciesNote": "The northern long-eared bat drives the clearing calendar statewide. A Brown County-specific IPaC query was not runnable during research — generate one per project before committing to a species list.",
+    "floodplainPrevalenceNote": "The Fox River corridor and bay shoreline carry the city's mapped floodplain; the floodplain overlay district is administered by the city Zoning Administrator under Ch. 44 Art. XIII."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Deep-frozen ground; normal highs 25.5°F, lows 11.1°F; heaviest snow month (~14.3 in.)",
+        "earthworkConcrete": "restricted",
+        "note": "Frozen-road declarations can allow heavier hauls on designated routes"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Deep frost continues; thaw cycle can begin late month",
+        "earthworkConcrete": "restricted",
+        "note": "Class II restrictions began February 20 in 2026"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Spring thaw; saturated red clays, soft subgrades",
+        "earthworkConcrete": "restricted",
+        "note": "Class II spring restrictions in force; local road postings binding"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Thaw completing; wet, slow-draining clay sites",
+        "earthworkConcrete": "constrained",
+        "note": "Restrictions typically lift late April to mid-May; NLEB habitat clearing window closed"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Drying; frost out of the ground",
+        "earthworkConcrete": "workable",
+        "note": "Restrictions end by the first or second week in a typical year"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Firm and workable; wettest month (~4.1 in.)",
+        "earthworkConcrete": "favorable",
+        "note": "NLEB roost-tree protection June 1 – July 31"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Prime production; warm and workable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Prime production window continues",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Firm, cooling; excellent conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling fast; first freezes arrive",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins late month"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Ground taking frost; snow season starts (annual ~55.6 in.)",
+        "earthworkConcrete": "constrained",
+        "note": "48-inch footings mean late-season excavation still practical before deep frost"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing hard; winter operations",
+        "earthworkConcrete": "restricted",
+        "note": "Winter concrete protection mandatory"
+      }
+    ],
+    "narrative": "Green Bay's construction year is the shortest in our footprint and the most rule-bound. Deep frost holds the ground from roughly December into April, and the road network follows its own sequence — frozen-road declarations in winter, then Class II spring thaw restrictions on state highways (2026: February 20 through April 30) with county and town postings layered on top. The productive window is effectively May through October, front-loaded against June's peak rainfall on slow-draining red clays and back-checked by the April–October bat-habitat clearing restriction. Winter work is done here, but it is planned work: frost ripping, heated enclosures, and hauls timed to the declarations. Confirm the calendar against the NCEI normals table for Austin Straubel International before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Shallow Silurian dolostone along the Niagara Escarpment side of the county brings rock excavation — and karst screening — into eastern Brown County sites; the deep glacial valleys west of the escarpment rarely see rock at telecom depths.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Wet red lacustrine clay spoil is heavy, slow to dry, and unattractive as fill — plan disposal and import balance accordingly on eastern-valley sites.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Wisconsin repealed its state prevailing wage laws (2017 Act 59; state projects bid after Sept 23, 2017, local after Jan 1, 2018). Federal Davis-Bacon still applies to federally funded work — including BEAD-funded broadband builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "The deepest seasonal premium in our footprint: 48-inch footings through frost, winter concrete protection December through March, and spring-restriction routing for any heavy haul from roughly late February to early May.",
+    "narrative": "Green Bay's cost drivers are the calendar and the clay. Every foundation buys 48 inches of depth before loads are considered, and buying it in winter adds frost excavation and heated cures. Spring adds routing cost instead: Class II restrictions and locally posted roads can turn a 30-minute shelter haul into a staged delivery. The eastern county's red clays drive dewatering, subgrade protection, and spoil handling, while escarpment-side sites trade clay problems for rock and karst screening. Wisconsin's broad wetland jurisdiction — nonfederal wetlands included — adds permitting scope other states don't have, with a 14-working-day stormwater NOI lead on top. Mobilization from Cedar Rapids is a scheduled overnight-crew item rather than a premium. Drivers, never unit prices; each site prices to its borings and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Wisconsin issues no statewide license for commercial general contractors — commercial work is governed through permits, plan review, and trade-specific credentials, and the DSPS Dwelling Contractor certification applies only to 1–2 family residential work. Electrical and plumbing trades carry their own state credentials. Verify current requirements against DSPS directly, as this summary was compiled from secondary sources.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme cold",
+      "ice storm",
+      "flood"
+    ],
+    "designImplications": "Cold is the design driver: a −12°F heating design temperature, 48-inch frost embedment, and roughly 55 inches of annual snow shape foundations, HVAC sizing, and generator enclosures. Ice loading on structures should be published only after Brown County TIA-222 values are confirmed. Along the Fox River and bay shoreline, the floodplain overlay adds elevation and permitting requirements.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Wisconsin BEAD final proposal approved — $1.06B, 76% fiber",
+        "detail": "NTIA approved Wisconsin's final BEAD proposal (allocation $1,055,823,573) in December 2025, administered by the PSC of Wisconsin, with an award mix of roughly 76% fiber, 10% fixed wireless, and 14% satellite plus $397M in matching funds — a statewide rural fiber construction pipeline.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+        "asOf": "2025-12-02"
+      },
+      {
+        "headline": "Microsoft Mount Pleasant campus keeps expanding",
+        "detail": "Microsoft completed its AI supercomputer data center at Mount Pleasant (Racine County) in June 2026, announced a $4B second facility in September 2025, and holds approval for 15 more buildings — the state's largest construction program, about 130 miles south of Green Bay.",
+        "category": "data center",
+        "sourceUrl": "https://dailyreporter.com/2026/06/24/microsoft-completes-supercomputer-data-center-mount-pleasant/",
+        "asOf": "2026-06-24"
+      },
+      {
+        "headline": "Vantage 'Lighthouse' campus underway at Port Washington",
+        "detail": "The Vantage/Cloverleaf hyperscale campus in Port Washington (Ozaukee County) broke ground in December 2025 — four buildings, ~2.5M sq ft, up to 902 MW, completion targeted 2028 — reinforcing eastern Wisconsin's I-41/I-43 corridor as a digital infrastructure geography.",
+        "category": "data center",
+        "sourceUrl": "https://dailyreporter.com/2025/05/23/port-washington-cloverleaf-data-center/",
+        "asOf": "2025-12-15"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration",
+        "service lateral to hut"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Wisconsin's BEAD program — approved in December 2025 at $1.06B with roughly three-quarters of awards going to fiber — puts sustained rural fiber construction into the counties around Green Bay. The build conditions are distinctly Wisconsin: Diggers Hotline wants three business days before any excavation, the WDNR stormwater NOI needs 14 working days, and the state's wetland jurisdiction reaches nonfederal wetlands that a 404-only mindset would miss. Physically, boring the eastern valleys means slow-draining red lacustrine clay, while escarpment-side routes meet shallow dolomite. FOXY's shortline out of Green Bay toward Luxemburg and Denmark is the crossing most likely to sit over a Brown County route. Hut foundations go 48 inches down like everything else here.",
+      "localSpecificsReferenced": [
+        "Wisconsin BEAD approval (Dec 2025, 76% fiber)",
+        "Wis. Stat. 281.36 nonfederal wetland permitting",
+        "FOXY shortline crossings",
+        "Diggers Hotline 3-day / WDNR 14-day leads"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "shelter and cabinet pads",
+        "macro compound construction",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless civil in Green Bay is scheduled around frost twice over. Foundations go at least 48 inches below grade under Wisconsin's rule — the deepest requirement in our footprint — and the road network runs its own frost calendar: heavy shelter hauls ride the winter frozen-road declarations or wait out Class II spring restrictions, which ran February 20 through April 30 in 2026, with locally posted county roads the usual binding constraint. Tree clearing in suitable northern long-eared bat habitat is confined outside the April–October restriction with roost trees protected midsummer, which pushes greenfield clearing into winter. Small-cell work follows the statewide Act 14 framework with its $250-per-node annual cap. We build all of it with crews that treat −12°F design weather as a plannable condition, not an emergency.",
+      "localSpecificsReferenced": [
+        "48-inch frost embedment (SPS 321.16)",
+        "WisDOT Class II restrictions (2026 dates)",
+        "NLEB clearing windows (WisDOT guidance)",
+        "2019 Act 14 / Wis. Stat. 66.0414"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "security compound and bollards"
+      ],
+      "narrative": "Green Bay has no announced hyperscale campus of its own — the honest picture is that Wisconsin's data center gravity sits 130 miles south, where Microsoft's Mount Pleasant program keeps expanding and the Vantage Port Washington campus broke ground in late 2025. What that buildout does for Green Bay is pull the I-41/I-43 corridor into the state's digital infrastructure map: edge enclosures, carrier micro-sites, and utility-yard work follow fiber and power capacity north. WPS — headquartered in Green Bay and serving 474,000 electric customers across the northeast — is the interconnection counterparty for new load here. Edge pads in this climate carry the same 48-inch embedment, snow-shedding, and generator cold-weather packages as any northern compound, which is exactly the work our crews standardize.",
+      "localSpecificsReferenced": [
+        "Microsoft Mount Pleasant expansion",
+        "Vantage Port Washington groundbreaking",
+        "WPS service territory",
+        "I-41/I-43 corridor"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 304,
+      "driveTimeHours": 5.0,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Brown"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Green Bay sits 304 road miles from our Cedar Rapids yard — up US-151 through Dubuque and Madison, then I-41 north through the Fox Valley — a run our crews treat as an overnight-stay market rather than a day trip: mobilize once, work the week, demobilize once. The route itself has seasonal texture that we plan around rather than discover: Class II spring restrictions on Wisconsin highways and locally posted county roads shape when heavy loads and equipment moves happen (2026: late February through the end of April), and winter runs on the I-41 corridor get weather windows built in. Multi-site programs across Brown County and the Fox Valley batch efficiently from a single mobilization. Response commitments beyond that are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do telecom foundations need to go in Green Bay?",
+      "answer": "At least 48 inches below adjacent grade — Wisconsin's frost rule (SPS 321.16 puts footings below frost penetration or 48 inches, whichever is deeper) is the deepest requirement in our nine-state footprint. Every shelter pier, hut footing, and fence post foundation carries that excavation, and winter installs add frost ripping above it. Confirm the commercial-code application with the city's Building Inspection Division for your specific project.",
+      "segment": "general"
+    },
+    {
+      "question": "Do spring road restrictions affect shelter delivery to Green Bay sites?",
+      "answer": "Decisively. Wisconsin posts Class II spring thaw restrictions on about 1,400 miles of state highways — in 2026 they ran February 20 through April 30 — and county and town roads post their own limits, which are usually the binding constraint for the last miles to a rural compound. We schedule heavy sets either on winter frozen-road declarations or after the postings lift, and route around posted segments in between.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How much notice does Diggers Hotline require before excavation?",
+      "answer": "Three business days under Wis. Stat. 182.0175 — a day longer than the Texas and Iowa one-call centers in our footprint. We file tickets as soon as a dig date firms up, and pair that lead with the WDNR stormwater NOI clock (14 working days before disturbance on 1-acre-plus sites) so neither wait lands on the critical path twice.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What's different about wetland permitting on Wisconsin fiber routes?",
+      "answer": "Wisconsin regulates nonfederal wetlands, not just federal ones. Under Wis. Stat. 281.36, filling any wetland needs a WDNR general or individual permit — the DNR permit also serves as the federal water quality certification — with only narrow exemptions (up to 1 acre urban / 3 acres rural, with 15-day pre-notification). Routes planned on a 404-only assumption get surprised here; we screen alignments against wetland mapping before locking them.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Green Bay in January?",
+      "answer": "Yes — it's planned winter work. January normals run 25.5°F highs and 11.1°F lows with the season's heaviest snow, so pours get heated enclosures or blankets, warm mix, and cure monitoring, and excavation rips through established frost. The offsetting advantage: frozen-road declarations can actually make winter the easier season to move heavy loads on some routes.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What tree-clearing restrictions apply on Brown County sites?",
+      "answer": "The northern long-eared bat sets the calendar. Under WisDOT's guidance, clearing in suitable habitat is restricted April 1 through October 31, occupied maternity roost trees (and trees within 150 feet) are protected June 1 – July 31, and nothing comes down within a quarter mile of a hibernaculum. Practically, greenfield clearing gets planned for winter. A project-specific IPaC query confirms what applies to your parcel.",
+      "segment": "general"
+    },
+    {
+      "question": "Who serves electric power for a new hut or compound in Green Bay?",
+      "answer": "Wisconsin Public Service — headquartered in Green Bay and part of WEC Energy Group — serves roughly 474,000 electric customers across northeast Wisconsin. New commercial service timelines aren't published, so we get the utility's confirmation in writing during scoping rather than assuming a transformer date, and we design generator pads so sites can commission ahead of permanent power if the schedule demands it.",
+      "segment": "edge"
+    },
+    {
+      "question": "What soil conditions should we expect boring near the bay?",
+      "answer": "Red lacustrine clay — fine-grained, moisture-sensitive, and locally 250 to 300 feet thick in the eastern valleys. It bores predictably when handled at the right moisture but makes wet-season open cuts and spoil handling slow. East of the city along the Niagara Escarpment the picture flips to shallow Silurian dolomite with documented karst, so escarpment-side routes get rock tooling and void screening instead. Borings tell you which route you're on.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "When frost depth and frost laws set your Green Bay schedule",
+    "body": "Green Bay punishes schedules built from a generic Midwest template, because two frost clocks run here and they don't align. The ground clock says foundations go 48 inches down, ground is hard-frozen December into April, and concrete needs winter protection at both ends of the season. The road clock is offset from it: the state's frozen-road declaration actually makes midwinter the best window to move a 40,000-pound shelter on some routes, while the Class II spring restrictions — plus locally posted county roads — close the same routes exactly when the ground starts to open up. The planning consequence is concrete: if a spring in-service date is fixed, either set the shelter in late winter on the frozen-road window and build around it as the ground thaws, or accept that the haul waits for postings to lift in May and compress everything behind it. Layer the bat-clearing calendar (greenfield clearing effectively pushed to winter) and the WDNR 14-working-day stormwater lead on top, and the sequencing decision — not production rates — is what determines whether a Green Bay site makes its date. We plan these builds backward from the haul."
+  },
+  "sources": [
+    {
+      "label": "Wisconsin DSPS — Commercial Building Code update to 2021 IBC (SPS 361–366)",
+      "url": "https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16 — frost/footing depth",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/2/c/2",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WisDOT — seasonal weight restrictions (frozen road / Class II)",
+      "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Diggers Hotline — excavator's guide (3 business days' notice)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wisconsin DNR — construction site stormwater (WPDES general permit, 14-working-day NOI)",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wisconsin DNR — wetland permits (Wis. Stat. 281.36)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WisDOT — northern long-eared bat non-federal guidance",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Green Bay — building permits and inspections",
+      "url": "https://www.greenbaywi.gov/312/Building-Permits-Inspections",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Green Bay — floodplain management",
+      "url": "https://www.greenbaywi.gov/548/Floodplain-Management",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WisDOT — region offices (Northeast Region, Green Bay)",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "2019 Wisconsin Act 14 — small wireless facilities",
+      "url": "https://docs.legis.wisconsin.gov/2019/related/acts/14",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "PSC of Wisconsin — BEAD process and approval",
+      "url": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WGNHS — caves and karst of the Niagara Escarpment",
+      "url": "https://data.wgnhs.wisc.edu/pubshare/GS22-a05.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — ground-water conditions in artesian aquifers, Brown County",
+      "url": "https://www.usgs.gov/publications/ground-water-conditions-artesian-aquifers-brown-county-wisconsin",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath — Cedar Rapids, IA to Green Bay, WI driving distance (304 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Cedar+Rapids,+IA/to/Green+Bay,+WI",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WisDOT prevailing wage page (2017 Act 59 repeal; Davis-Bacon on federal work)",
+      "url": "https://wisconsindot.gov/Pages/doing-bus/civil-rights/labornwage/prevailing-wage-compliance.aspx",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE Hazard Tool / ATC blocked by egress proxy; no Green Bay-specific primary values surfaced in search."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf",
+      "attempted": "SPS 362.1608 (Wisconsin alternate snow zone map) located but values unreadable through proxy; only an unverified aggregator figure (36–37 psf, wrong edition) found — not publishable."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps API blocked (CONNECT 403, four attempts)."
+    },
+    {
+      "field": "designCriteria.designRadialIceIn",
+      "attempted": "TIA-222 Annex B county data not freely published."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — commercial-code citation for Green Bay",
+      "attempted": "48-in. UDC rule sourced (SPS 321.16); the commercial application (SPS 362.1809 / any city amendment) must be confirmed with the City Inspection Division."
+    },
+    {
+      "field": "designCriteria.designTempHighF",
+      "attempted": "ASHRAE cooling design value not found; heating value (−12°F) from FGIA compilation pending edition confirmation."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority",
+      "attempted": "greenbaywi.gov fetches blocked and search budget exhausted before the ROW query — confirm the city's ROW permitting desk directly."
+    },
+    {
+      "field": "geotech (bearing range, groundwater, corrosivity, numeric bedrock depth)",
+      "attempted": "NRCS Web Soil Survey interactive and blocked; only qualitative WGNHS/USGS geology sourced."
+    },
+    {
+      "field": "seasonality — NCEI freeze-date normals and full monthly table",
+      "attempted": "Normals partially sourced via Wisconsin state climatology pages; official NCEI table and freeze dates not retrieved (budget exhausted)."
+    },
+    {
+      "field": "utilities — WPS new-service page; AT&T formal ILEC designation",
+      "attempted": "WPS site unfetchable; FCC ILEC confirmation not run."
+    },
+    {
+      "field": "environmental — Brown County IPaC species list",
+      "attempted": "IPaC interactive app unreachable in sandbox."
+    },
+    {
+      "field": "compliance — DSPS primary-source confirmation",
+      "attempted": "Licensing summary compiled from consistent secondary sources; dsps.wi.gov itself was not fetchable."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    },
+    {
+      "field": "operations — counties served beyond Brown; drive-hours confirmation",
+      "attempted": "304 driving miles corroborated by two routing sources; ~5.0 h is an estimate pending ops' own routing. Coverage list needs ops sign-off."
+    }
+  ]
+}
