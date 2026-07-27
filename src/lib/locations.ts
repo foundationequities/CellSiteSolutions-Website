@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { LocationSchema, type Location } from "../../data/_schema";
+import { IS_LIVE } from "@/lib/site-mode";
 
 const ROOT = path.join(process.cwd(), "data", "locations");
 let cache: Location[] | null = null;
@@ -35,22 +36,23 @@ export function getPublishedLocations(): Location[] {
   return getAllLocations().filter((l) => l._verified && l._gaps.length === 0);
 }
 
-/** True while the site runs as a noindexed draft (NEXT_PUBLIC_DRAFT=1). */
-const DRAFT = process.env.NEXT_PUBLIC_DRAFT === "1";
-
 /** True when a location has cleared human sign-off with no open gaps. */
 export function isPublishable(l: Location): boolean {
   return l._verified && l._gaps.length === 0;
 }
 
 /**
- * Pages that render on THIS deployment. In production this is exactly the
- * published set. On the noindexed draft, schema-valid pages pending human
- * sign-off also render — with a visible draft banner — because the reviewer
- * has to see a page to verify it. Sitemaps always use the published set.
+ * Pages that render on THIS deployment.
+ *
+ * Draft (default): every schema-valid market renders, with a DRAFT PREVIEW
+ * banner on the ones still pending sign-off — a reviewer has to be able to
+ * see a page to verify it, and the whole deployment is noindexed anyway.
+ *
+ * Live (NEXT_PUBLIC_LIVE=1): only human-verified markets render; the rest
+ * 404. Sitemaps use the verified set in both modes.
  */
 export function getRenderableLocations(): Location[] {
-  return DRAFT ? getAllLocations() : getPublishedLocations();
+  return IS_LIVE ? getPublishedLocations() : getAllLocations();
 }
 
 export function getRenderableLocation(stateSlug: string, citySlug: string): Location | undefined {

@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { siteConfig } from "@/lib/site-config";
+import { IS_LIVE } from "@/lib/site-mode";
 
 // Body font. Headings use halyard-display (Adobe Fonts), loaded via
 // @font-face in globals.css — the same kit the live site serves.
@@ -36,11 +37,9 @@ export const metadata: Metadata = {
       "/images/wp-content/uploads/2024/12/0032-New-Website-Announcement-Post-Large-min.png",
     ],
   },
-  // Draft mode (NEXT_PUBLIC_DRAFT=1): belt-and-braces noindex on every page in
-  // addition to the robots.txt disallow. Remove the env var at go-live.
-  ...(process.env.NEXT_PUBLIC_DRAFT === "1"
-    ? { robots: { index: false, follow: false } }
-    : {}),
+  // Draft by default: belt-and-braces noindex on every page alongside the
+  // robots.txt disallow. Set NEXT_PUBLIC_LIVE=1 in Vercel at go-live.
+  ...(IS_LIVE ? {} : { robots: { index: false, follow: false } }),
 };
 
 export default function RootLayout({
