@@ -5,24 +5,24 @@
     "abbr": "IA"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Iowa Telecom Civil Construction Services | CellSite Solutions",
+    "description": "Statewide guide to telecom civil construction in Iowa — codes, permits, seasonal restrictions, and market activity, served from our Cedar Rapids yard.",
+    "h1": "Telecom Civil Construction Across Iowa",
+    "intro": "Iowa is CellSite Solutions' home state: our staffed Cedar Rapids yard puts every Iowa market inside a regional, same-day-or-overnight mobilization. The state rewards contractors who know its particulars — building codes adopted city by city rather than imposed statewide, spring load embargoes posted county by county, a bat-driven tree-clearing calendar, and a construction boom running on two tracks at once: $400 million of BEAD-funded rural fiber and one of the country's densest hyperscale data center concentrations in the Des Moines and Cedar Rapids metros. This page collects the statewide rules; each city page carries the local ground truth."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Iowa has a State Building Code (Iowa Admin. Code 661, ch. 301, currently adopting the 2024 IBC by reference), but its general provisions apply to state-owned buildings and to construction where no enforced local code exists — so in practice, telecom builders answer to city-adopted codes that vary by jurisdiction. The spread is real: Cedar Rapids and Iowa City have adopted the 2024 I-codes, while Des Moines and West Des Moines enforce the 2021 editions with local amendments. Frost depth, snow load, and administrative amendments ride with each city's adoption ordinance, which is why we confirm the governing edition and amendments per AHJ rather than assuming a statewide standard.",
+    "source": "Iowa Admin. Code 661 ch. 301 — https://www.legis.iowa.gov/docs/ACO/chapter/661.301.pdf; city adoption pages for Cedar Rapids, Des Moines, West Des Moines, Iowa City (see sources)"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Utility work in state highway right-of-way is governed by Iowa DOT's utility accommodation rules, Iowa Admin. Code 761, ch. 115. The utility owner must obtain a utility accommodation permit before work begins, with each application carrying a plan showing centerline and ROW limits, facility location to the nearest foot, burial depth, materials, operating pressures or voltages, and clearances. Permits are processed through the DOT's six district offices — District 6 (Cedar Rapids) covers eastern Iowa including Linn and Johnson counties, District 1 (Ames) covers Polk and central Iowa, and District 4 (Atlantic) covers the southwest including Dallas County — so a long route can require coordination with more than one district.",
+    "source": "Iowa DOT Utility Accommodation & Coordination — https://iowadot.gov/rightofway/Utility-Accommodation-and-Coordination; Iowa Admin. Code 761 ch. 115 — https://www.legis.iowa.gov/docs/iac/chapter/761.115.pdf"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "Iowa One Call",
+    "url": "https://iowaonecall.com/about/",
+    "ticketLeadBusinessDays": 2,
+    "source": "Iowa One Call — https://iowaonecall.com/about/ (notice at least 48 hours before excavation, excluding weekends and legal holidays)"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -37,74 +37,153 @@
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "Because Iowa's design criteria live in city amendments rather than a statewide table, values must be pulled per jurisdiction. The metro amendments confirmed so far cluster at a 42-inch frost depth (Cedar Rapids Municipal Code Ch. 33; City of Des Moines design handouts), while Iowa City and West Des Moines publish no frost figure we have located and are confirmed per project. Statewide wind, ground snow, and ice ranges await an ASCE 7 Hazard Tool and TIA-222 sweep that could not be completed through this environment's proxy — the ranges above stay null until that sweep lands.",
+    "source": "Cedar Rapids Municipal Code Ch. 33 (via Municode); City of Des Moines Development Services handouts (see sources)"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Iowa's spring load restrictions are county business: during the thaw — roughly late February through April, with exact dates posted each season — county secondary road departments post embargoes that typically limit loads to 5 tons on granular-surface roads and 10 tons on paved county roads. Iowa DOT publishes an annual statewide spring restriction map, but the county postings are usually the binding constraint for shelter and hut hauls to rural sites, so delivery schedules are set against the county lists, not the state map alone.",
+    "source": "Iowa DOT spring restriction map — https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf; Linn County road restrictions page (pattern example)"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "Three statewide clocks shape Iowa site schedules. Tree clearing: cutting trees 3 inches diameter and larger is confined to October 1 – March 31 under Iowa DOT construction practice protecting listed bat species — verify each site through USFWS IPaC. Cultural review: Iowa's SHPO, housed in the Iowa Economic Development Authority, runs Section 106 reviews on a 30-day clock per complete submittal, with incomplete packages restarting it. Water: construction disturbing one acre or more needs Iowa DNR's NPDES General Permit No. 2, with the SWPPP prepared before the Notice of Intent and DNR authorization before ground disturbance; wetland and waters permitting for most of the state's telecom footprint runs through the USACE Rock Island District with Iowa DNR issuing Section 401 certifications.",
+    "source": "Iowa DOT CM 6.10 — https://iowadot.gov/erl/current/CM/content/CM%206.10.htm; Iowa SHPO Section 106 — https://opportunityiowa.gov/community/historic-preservation/section-106; Iowa DNR stormwater — https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Iowa licenses trades, not general contractors. Any contractor earning $2,000 or more per year from Iowa construction work must register with the Iowa Division of Labor ($50 annual fee), and out-of-state contractors additionally post a $25,000 surety bond; electrical, plumbing, and mechanical work carry separate state licenses. Iowa has no state prevailing wage law — but federal Davis-Bacon rates attach to federally funded work above $2,000, which pulls every BEAD-funded broadband build into certified-payroll territory.",
+    "source": "Iowa Division of Labor contractor registration — https://www.iowacontractor.gov/contractor-registration/faq; Iowa prevailing wage status — https://emarsinc.com/prevailing-wages/iowa"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Iowa's telecom construction market is running hot on two fronts. Rural: the state's $400 million BEAD allocation moved through NOFA #009 to a federally approved final proposal in late 2025, with grant agreements executing into 2026 — years of funded fiber routes, hut sites, and Davis-Bacon payrolls across the countryside. Metro: the Des Moines area holds Microsoft's five-going-on-six West Des Moines campuses (600+ acres, $6B+) and Meta's 5-million-plus-square-foot Altoona campus, while Cedar Rapids landed both Google and QTS at the Big Cedar Industrial Center in 2025; fiber overbuilders — Metronet, Google Fiber, ImOn, Lumen — are trenching the same metros. Wireless deployment statewide runs under the Iowa Cell Siting Act (Iowa Code ch. 8C), which preempts local variation with uniform siting and small-wireless rules.",
+    "source": "Iowa BEAD — https://dom.iowa.gov/broadband/bead-program; Iowa Code ch. 8C — https://www.legis.iowa.gov/docs/code/8c.pdf; campus and carrier announcements (see sources)"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "How much notice does Iowa One Call require before excavation?",
+      "answer": "Two business days — notice at least 48 hours before digging, excluding weekends and legal holidays. The ticket is required statewide for any excavation, and every CellSite Solutions underground schedule in Iowa builds that lead in, from a single vault set to a multi-mile bore program."
+    },
+    {
+      "question": "Does Iowa license general contractors for telecom civil work?",
+      "answer": "No general contractor license exists in Iowa. Contractors doing $2,000 or more of annual Iowa construction work register with the Iowa Division of Labor ($50/year), out-of-state firms bond at $25,000, and the electrical, plumbing, and mechanical trades hold separate state licenses. There is also no state prevailing wage — though Davis-Bacon applies on federally funded work, including BEAD builds."
+    },
+    {
+      "question": "When do spring load restrictions apply on Iowa roads?",
+      "answer": "During the thaw, roughly late February through April, with exact dates posted each season. The restrictions are posted county by county on secondary roads — commonly 5 tons on granular surfaces and 10 tons on paved county roads — and those county postings, more than the Iowa DOT's statewide map, are what actually gate a rural shelter or hut delivery."
+    },
+    {
+      "question": "What seasonal environmental windows affect Iowa site construction?",
+      "answer": "The big one is tree clearing: trees 3 inches in diameter and larger may only be cut October 1 through March 31 under Iowa's bat-protection practice, confirmed per site through USFWS IPaC. Sites disturbing an acre or more also need Iowa DNR stormwater authorization (General Permit No. 2, SWPPP before NOI), and federally funded projects carry a 30-day SHPO review clock per complete Section 106 submittal."
+    },
+    {
+      "question": "What is driving telecom construction demand in Iowa right now?",
+      "answer": "Two engines at once: $400 million in BEAD funding — final proposal federally approved in late 2025, grant agreements executing into 2026 — pushing rural fiber statewide, and a hyperscale wave in the metros, from Microsoft's West Des Moines campuses and Meta's Altoona buildout to the Google and QTS campuses announced for Cedar Rapids' Big Cedar Industrial Center in 2025. Both generate exactly the civil scope CSS self-performs from its Cedar Rapids yard."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Iowa One Call — two business days' notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2, construction stormwater",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa prevailing wage status (no state law; Davis-Bacon on federal work)",
+      "url": "https://emarsinc.com/prevailing-wages/iowa",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration and out-of-state bond",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — bat tree-clearing window",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa SHPO (IEDA) — Section 106, 30-day review",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — annual spring load restriction map",
+      "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Motor Carrier Services — oversize/overweight permits (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Department of Management — BEAD program ($400M NOFA #009)",
+      "url": "https://dom.iowa.gov/broadband/bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Cell Siting Act — Iowa Code ch. 8C",
+      "url": "https://www.legis.iowa.gov/docs/code/8c.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa State Building Code — Iowa Admin. Code 661 ch. 301",
+      "url": "https://www.legis.iowa.gov/docs/ACO/chapter/661.301.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DOT — utility accommodation and coordination (761 IAC 115)",
+      "url": "https://iowadot.gov/rightofway/Utility-Accommodation-and-Coordination",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Admin. Code 761 ch. 115 — utility accommodation rules",
+      "url": "https://www.legis.iowa.gov/docs/iac/chapter/761.115.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Des Moines — construction codes (2021 I-codes)",
+      "url": "https://www.dsm.city/departments/development_services/permit_development_center/construction_codes.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of West Des Moines — adopted codes (2021 IBC/IRC, 2024 IFC)",
+      "url": "https://www.wdm.iowa.gov/government/development-services/building-inspection/adopted-codes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa City Code 17-1-1 — 2024 I-code adoption",
+      "url": "https://codelibrary.amlegal.com/codes/iowacityia/latest/iowacity_ia/0-0-0-14770",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Cedar Rapids Building Services — 2024 code adoption",
+      "url": "https://www.cedar-rapids.org/local_government/departments_a_-_f/building_services/building_and_trades/codes.php",
+      "accessedDate": "2026-07-27"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation — numeric wind/frost/snow ranges",
+      "attempted": "ASCE 7 Hazard Tool and TIA-222 county tables unreachable through the sandbox proxy; only city-amendment frost figures (42 in. in Cedar Rapids and Des Moines) are sourced. A statewide sweep from an unproxied machine fills the ranges."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "codeAdoption — statewide small-jurisdiction survey",
+      "attempted": "Code editions confirmed for the four largest CSS markets only; adoption status in smaller Iowa jurisdictions (Davenport, Sioux City, Council Bluffs, etc.) remains to be surveyed as those city files are researched."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "dotRowProcess — permit fees and typical processing times",
+      "attempted": "The 761 IAC 115 process and district structure are sourced; per-district processing times and fee schedules were not published on the pages reviewed and should be confirmed with district utility permit staff."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
-    },
-    {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
-    },
-    {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
-    },
-    {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "seasonalLoadRegime — per-county posting authorities beyond Linn",
+      "attempted": "The 5/10-ton pattern and state map are sourced; a county-by-county posting-page list for CSS's Iowa markets is still to be compiled."
     }
   ]
 }

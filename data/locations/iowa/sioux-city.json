@@ -1,0 +1,683 @@
+{
+  "identity": {
+    "slug": "sioux-city",
+    "city": "Sioux City",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "counties": [
+      "Woodbury"
+    ],
+    "msa": "Sioux City, IA-NE-SD",
+    "tier": 3,
+    "latitude": 42.4999,
+    "longitude": -96.4003,
+    "elevationFt": 1135,
+    "population": {
+      "value": 85797,
+      "source": "U.S. Census Bureau, 2020 Decennial Census (QuickFacts, Sioux City city, Iowa)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-29"
+    ],
+    "majorRoutes": [
+      "US-20",
+      "US-75",
+      "US-77",
+      "IA-12"
+    ]
+  },
+  "metadata": {
+    "title": "Sioux City, IA Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil crews for fiber huts, cell sites, and edge builds in Sioux City, Iowa — loess-country earthwork, foundations, and utility work in the tri-state region.",
+    "h1": "Telecom Site Civil Work in Sioux City, Iowa",
+    "intro": "Where the Big Sioux meets the Missouri, three states meet too — Iowa, Nebraska, and South Dakota converge at Sioux City, which makes this the region's natural hub for telecom programs that refuse to respect a state line. The terrain is equally specific: the city is cut into deep windblown loess, a soil that stands in vertical faces and then erodes ferociously once disturbed, with river alluvium filling the valley floors between. Rural fiber money is active across the surrounding counties under Iowa's $400M BEAD program, and MidAmerican is marketing a nearly 900-acre annexed site at Salix, just downriver, for data center development. Our Cedar Rapids crews reach Sioux City on four-lane US-20 end to end — a corridor only completed in 2018.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Northwest Iowa carries minimal mapped seismic demand; still, publishable Ss/S1 values require a USGS design-maps query at the site, and thick loess or valley alluvium can change the assigned site class enough to matter on taller structures."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Sioux City sits in Iowa's deep-loess country at the northern reach of the Loess Hills, the windblown-silt landform that runs the length of the state's Missouri River frontage and reaches thicknesses up to 200 feet — a deposit the Iowa Geological Survey ranks with Shaanxi, China as a global rarity. Beneath and between the loess ridges, the Missouri, Big Sioux, Floyd, and Perry Creek valleys carry alluvial fills of sand, silt, and clay.",
+    "dominantSoilTypes": [
+      "Deep Peoria (Wisconsinan) loess on ridges and bluffs",
+      "Missouri and Big Sioux River alluvium in the valley floors",
+      "Tributary-valley alluvium and colluvium (Floyd River, Perry Creek corridors)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Loess behaves as a collapse-and-erosion problem rather than a shrink-swell one; site-specific NRCS shrink-swell ratings were not readable this session and should be pulled before design.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Karst is not a mapped concern under the deep loess and alluvium of the Sioux City area; Iowa's karst belt lies far to the northeast. Screen individual parcels through the statewide GIS as routine practice."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Two rules organize foundation work here. On the ridges, treat water as the structural variable: dry loess carries light telecom structures on conventional shallow foundations without drama, but the same material collapses when saturated and erodes violently once vegetation is stripped, so grading plans, surface drainage, and moisture-controlled compaction are not finish items — they are the foundation design. In the valleys, the alluvium of the Missouri, Big Sioux, and Floyd systems brings shallow groundwater and softer bearing, pushing heavier compounds toward engineered fill or deeper elements, with flood mapping (reshaped by the Perry Creek flood-control project downtown) setting minimum elevations. Frost depth comes from the city's adopted code, which we have not yet verified — no number is published here — and site borings govern every final design."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Sioux City — Inspection Services Division (Permit Center)",
+        "url": "https://www.sioux-city.org/government/departments-a-f/community-development/inspection-services/permit-center",
+        "phone": "712-224-5216",
+        "typicalReviewDays": null,
+        "note": "Inspection Services, under Community Development, issues building, plumbing, mechanical, and electrical permits; inspectors are reachable weekdays 8:00–4:30. Adopted code editions are not listed online — confirm before design."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "wirelessFacilityOrdinanceNote": "Wireless siting on the Iowa side follows the state-preemptive Iowa Cell Siting Act (Iowa Code ch. 8C) and its uniform small-wireless rules; South Sioux City, NE and North Sioux City, SD each answer to their own state's framework.",
+    "rowPermitAuthority": {
+      "name": "City of Sioux City Engineering Division",
+      "url": "https://www.sioux-city.org/business/permits-bids",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Engineering reviews and approves applications for utility installation, sidewalks, driveways, and oversize/overweight movements on city streets."
+    },
+    "stateDotDistrict": {
+      "name": "Iowa DOT District 3 (Northwest) — headquartered at 6409 Gordon Drive, Sioux City",
+      "url": "https://iowadot.gov/about/districts/district-3",
+      "phone": "712-276-1451",
+      "typicalReviewDays": null,
+      "note": "The district office consolidated into its new Gordon Drive headquarters in 2024; District 3 covers Woodbury, Plymouth, Monona, and sixteen more northwest Iowa counties."
+    },
+    "oneCallCenter": {
+      "name": "Iowa One Call",
+      "url": "https://iowaonecall.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "A tri-state route adds Nebraska 811 and South Dakota 811 tickets, each on its own clock, the moment work crosses a river.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP before NOI, public notice, and authorization before disturbance — and on loess, an SWPPP that would satisfy inspection in eastern Iowa may still fail the hillside; design erosion control to the soil, not the minimum."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Sioux City floodplain administration (confirm responsible office through Community Development)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "FEMA remapped much of the Perry Creek corridor out of the regulatory floodplain after the Corps' flood-control project — mapped risk downtown is a changed landscape, which is exactly why current FIRMs, not memory, decide siting."
+    },
+    "permitTimelineNarrative": "Building permits move through Inspection Services' Permit Center, ROW and utility work through the Engineering Division, and an acre of disturbance triggers the Iowa DNR General Permit No. 2 sequence before grading. Two local wrinkles deserve schedule respect: adopted code editions are unpublished online (a phone call settles in minutes what an assumption gets wrong for months), and any scope that touches South Sioux City or North Sioux City picks up a second state's permits, one-call, and DOT — the tri-state geography is a coordination feature of nearly every regional program run from here."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "MidAmerican Energy",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "MidAmerican's Iowa service territory includes Sioux City. Commercial new-service lead times are unpublished; hold the schedule until the utility commits dates in writing."
+      }
+    ],
+    "ilec": "Lumen Technologies (CenturyLink, legacy Northwestern Bell/Qwest territory) — confirm via the Iowa Utilities Commission exchange-boundary GIS before publication",
+    "notableFiberProviders": [
+      "Long Lines (Sergeant Bluff-based regional fiber operator)",
+      "FiberComm LC (Sioux City)",
+      "Premier Communications"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, posted seasonally — commonly late February into April",
+      "postingAuthority": {
+        "name": "Woodbury County Secondary Roads; Iowa DOT's statewide spring restriction map covers posted state and county segments",
+        "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Sites off the paved network in Woodbury, Plymouth, or Monona counties are reached on embargoed gravel during the thaw; a spring shelter set gets scheduled off the county posting list, and Nebraska and South Dakota counties post their own restrictions on their own dates."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Iowa DOT Motor Carrier Services (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "phone": "515-237-3264",
+      "typicalReviewDays": null,
+      "note": "Iowa permits generally issue same-day for routine loads on state routes; tri-state hauls stack Nebraska DOT and SDDOT permits on top, and city streets need Engineering Division authorization."
+    },
+    "bridgeOrClearanceConstraints": "River crossings gate the tri-state hauls: Missouri River bridges connect to South Sioux City, NE, and Big Sioux crossings reach North Sioux City, SD — verify each structure's ratings and permit conditions for oversize shelter or equipment loads rather than assuming interstate-grade clearance on the older local crossings.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Canadian National",
+        "crossingPermitNote": "Sioux City is served by three Class I carriers — UP, BNSF, and CN — an unusual density for a market this size; fiber route designs should map all three networks early, because each crossing runs its own permit process on its own timeline."
+      },
+      {
+        "name": "D&I Railroad (L.G. Everist)",
+        "crossingPermitNote": "The D&I shortline runs unit aggregate trains from South Dakota quarries into an L.G. Everist transload in Sioux City over BNSF trackage rights — relevant both as a crossing owner and as the reason rail-delivered aggregate exists in this market."
+      }
+    ],
+    "urbanRowRequirements": "Utility installations, excavations, and driveway/sidewalk work in city right-of-way route through the Engineering Division for review and approval before construction; oversize movements on city streets are permitted by the same office."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Woody clearing (3-inch diameter and up) confined to October 1 – March 31",
+      "driver": "Iowa's standard protective practice for federally listed bats; a project IPaC query resolves Woodbury County specifics",
+      "source": "Iowa DOT Construction Manual 6.10 — https://iowadot.gov/erl/current/CM/content/CM%206.10.htm"
+    },
+    "shpo": {
+      "name": "State Historic Preservation Office of Iowa (Iowa Economic Development Authority)",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 review is 30 days per complete submittal. The Loess Hills corridor carries dense archaeological sensitivity — build survey time into federally funded routes."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Omaha District regulatory program; Iowa DNR handles Section 401 certification on the Iowa side",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "A tri-state crossing can involve parallel state 401 processes even under one Corps district."
+    },
+    "usaceDistrict": "Omaha District (NWO)",
+    "listedSpeciesNote": "Bats set the clearing calendar; Missouri River channel work carries its own listed-species screen. Run IPaC per project — the tri-state footprint means the applicable list can change at a river crossing.",
+    "floodplainPrevalenceNote": "Sioux City's defining flood story is Perry Creek: 18 floods between 1904 and 1990, the 1990 event damaging over 1,000 buildings across 330 blocks, answered by a $97M Corps flood-control project completed in 2007 that led FEMA to release most of the corridor from the mapped floodplain. Missouri River risk remains regional — the 2011 and 2019 basin floods both reached the Siouxland reach."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Deep frost; sustained subzero stretches and wind chill are normal",
+        "earthworkConcrete": "restricted",
+        "note": "Northwest Iowa runs colder than the rest of the state — plan protection accordingly"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Maximum frost penetration; ground blizzard season on open terrain",
+        "earthworkConcrete": "restricted",
+        "note": "US-20 and I-29 closures are a real winter logistics risk"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw begins; loess slopes saturate and secondary roads soften",
+        "earthworkConcrete": "constrained",
+        "note": "Embargo postings active; clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Ridgetop sites dry quickly; valley sites lag with high water tables",
+        "earthworkConcrete": "workable",
+        "note": "Get erosion control established before the rain season on any loess cut"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable across the market; storm season opens",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and productive; peak severe-weather month",
+        "earthworkConcrete": "favorable",
+        "note": "Hail and high-wind days interrupt crane and pour schedules"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot, dry, firm — best earthwork of the year",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Continued strong production conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Dry and stable; harvest traffic grows on rural roads",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First hard freeze typically arrives; ground still workable",
+        "earthworkConcrete": "favorable",
+        "note": "Clearing window opens October 1; push late-season pours early in the month"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost establishing; winter weather arrives earlier than central Iowa",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice in force"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Frozen ground, snowpack, and wind",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Sioux City's construction season is the standard Iowa arc compressed at both ends — winter arrives earlier, runs colder, and blows harder than in the state's east, and the open terrain west of the Loess Hills makes ground blizzards a genuine corridor-closure risk on I-29 and US-20 through late winter. The productive core runs May into October. The market's one soil-driven scheduling rule: never let a loess cut sit bare through a rain season, because slopes that survive July will gully by September without established cover. Verify monthly figures against the NOAA NCEI normals for the Sioux Gateway Airport station before sign-off."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Deep loess and alluvial fills mean excavations here almost never meet rock at telecom depths; the vertical cost variables are groundwater in the valleys and moisture-conditioned earthwork on the ridges.",
+    "aggregateHaulNote": "Aggregate arrives partly by rail — the D&I Railroad delivers unit trains from South Dakota quarries to the L.G. Everist transload in Sioux City — which keeps material available in a region without local quarry rock; haul pricing from the transload is an estimating input.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Excavated loess demands covered stockpiles and disciplined containment; left exposed, it silts drainage and generates cleanup costs after routine storms.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Iowa has no state prevailing wage; Davis-Bacon attaches to federally funded work over $2,000, which covers BEAD-funded rural fiber builds. Nebraska and South Dakota scopes carry their own wage frameworks.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter carries frost excavation and concrete-protection cost over a longer season than eastern Iowa, and corridor-closure weather days belong in December–February schedules.",
+    "narrative": "What moves a Sioux City number: earthwork discipline on loess (moisture conditioning, erosion control, covered spoil — costs that repay themselves the first wet week), groundwater and elevation in the valley bottoms, and a winter that starts sooner and bites harder than the statewide average. Materials logistics run through a distinctive channel — rail-delivered aggregate at the Everist transload — while the tri-state geometry adds permit stacking rather than construction cost. Mobilization from Cedar Rapids is real but simple: one four-lane corridor, planned rotations for multi-day scopes. Drivers only — pricing comes from borings, the posting lists, and the month on the calendar."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Iowa's requirement is registration, not licensure: contractors earning $2,000 or more per year from Iowa construction work register with the Iowa Division of Labor, out-of-state firms add a $25,000 surety bond, and the electrical, plumbing, and mechanical trades license individually through Iowa DIAL.",
+    "additionalRegistrations": [
+      "Nebraska contractor registration for South Sioux City scopes",
+      "South Dakota licensing/registration requirements for North Sioux City scopes"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "flood",
+      "ice storm",
+      "extreme cold",
+      "high wind"
+    ],
+    "designImplications": "Plains severe weather — tornado, hail, and straight-line wind — argues for conservative anchorage and equipment protection, while the long, hard winter sets frost depth (publishable only from the adopted code) and demands cold-rated fuel and battery systems for backup power. Flood design is corridor-specific: Perry Creek's mapped risk changed after the Corps project, and Missouri valley sites still answer to basin-scale flood behavior. Wind and ice loading values await sourced Woodbury County figures.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "MidAmerican marketing ~900-acre annexed Salix site for data center development",
+        "detail": "Salix, just south of Sioux City, annexed nearly 900 acres from Woodbury County in April; MidAmerican Energy confirms the site is being marketed for a potential data center campus (no customer secured), while the county board answered with a one-year moratorium on data centers in unincorporated areas.",
+        "category": "data center",
+        "sourceUrl": "https://www.iowapublicradio.org/ipr-news/2026-06-17/potential-data-center-sparks-moratorium-push-in-northwest-iowa",
+        "asOf": "2026-06-17"
+      },
+      {
+        "headline": "Iowa BEAD: $400M program executing into builds",
+        "detail": "With NTIA approval of Iowa's final proposal, the state's $400M BEAD round is moving to subgrantee agreements and construction — northwest Iowa's rural counties around Sioux City hold substantial eligible territory.",
+        "category": "broadband program",
+        "sourceUrl": "https://dom.iowa.gov/broadband/bead-program",
+        "asOf": "2025-07-09"
+      },
+      {
+        "headline": "Four-lane US-20 complete across Iowa, anchoring the Sioux City freight corridor",
+        "detail": "The final 40 miles of four-lane US-20 between Early and Moville opened in October 2018, finishing a 300-mile Dubuque–Sioux City corridor six decades in the making — the route that now carries equipment and crews into the market from eastern Iowa.",
+        "category": "transportation",
+        "sourceUrl": "https://www.iowapublicradio.org/ipr-news/2018-10-18/officials-to-celebrate-four-lane-highway-20-spanning-dubuque-to-sioux-city",
+        "asOf": "2018-10-19"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "HDD / road bore",
+        "OSP duct bank",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber construction around Sioux City is rural-program country. Long Lines builds out from its Sergeant Bluff base across 27 tri-state communities, Premier Communications and FiberComm work the region, and Iowa's $400M BEAD round is funding routes through exactly the townships where spring embargoes and two-day Iowa One Call tickets set the tempo. Two local conditions separate this market's route engineering from eastern Iowa's: the soil — HDD in dry loess drills fast, but bore pits and open trenches in it demand immediate erosion control, and valley crossings hit saturated alluvium — and the crossings, where three Class I railroads (UP, BNSF, CN) plus the D&I shortline each own a permit process, and any river crossing adds a second state's one-call and DOT to the critical path. We run boring, duct, vault, and hut-pad scope on both sides of those lines.",
+      "localSpecificsReferenced": [
+        "Long Lines' Sergeant Bluff-based regional network",
+        "Iowa BEAD $400M rural funding",
+        "UP/BNSF/CN plus D&I crossing landscape",
+        "Tri-state one-call and DOT stacking"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "access road and turnaround",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "ground ring and halo"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil"
+      ],
+      "narrative": "The Loess Hills are what a wireless civil crew remembers about this market. Ridge-top sites deliver the elevation RF designers want, but the access road up a loess spine is the project: cuts stand deceptively clean when dry, then slough and gully once storms find bare soil, so road geometry, surfacing, and interception drainage get engineered up front or rebuilt annually. Compound pads on the ridges are straightforward on dry loess; valley sites near the Floyd or Big Sioux trade the road problem for groundwater and flood-elevation checks. Frost depth must come from Sioux City's adopted code — unverified as of this writing, so no number appears here — and the clearing calendar (October 1 to March 31, protecting listed bats) binds tree work on wooded ridges. Iowa Code ch. 8C governs siting on this side of the rivers; the Nebraska and South Dakota halves of the metro do not.",
+      "localSpecificsReferenced": [
+        "Loess Hills ridge access-road conditions",
+        "Floyd and Big Sioux valley groundwater",
+        "October–March bat clearing window",
+        "Iowa Code ch. 8C"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "security compound and bollards"
+      ],
+      "narrative": "Sioux City's edge story is prospective rather than built, and it should be told honestly: no hyperscale campus operates in the market today, but MidAmerican is actively marketing a nearly 900-acre site at Salix — annexed from Woodbury County in April 2026 — for data center development, a proposal consequential enough that the county imposed a one-year moratorium on unincorporated data center projects while it works out ground rules. If that campus lands, the civil scope follows the pattern we self-perform elsewhere: transformer and switchgear pads, generator yards, duct bank, heavy-haul access. Meanwhile, the practical edge work here is compact — enclosure and micro-DC pads at fiber aggregation points serving a tri-state distribution hub — where MidAmerican's new-service timeline is typically the schedule driver and winterization (cold-rated enclosures, protected fuel systems) is a design requirement, not an option, this far northwest.",
+      "localSpecificsReferenced": [
+        "Salix ~900-acre MidAmerican-marketed site",
+        "Woodbury County data center moratorium",
+        "MidAmerican service territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 264,
+      "driveTimeHours": 4.2,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Woodbury",
+      "Plymouth",
+      "Monona"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Sioux City from our Cedar Rapids yard means one road: US-20, four lanes the entire way since the corridor's 2018 completion, roughly a four-hour run northwest with no metro traffic to fight. That changes what used to be the hardest drive in Iowa into a predictable one — crews and equipment move on a known clock, multi-day scopes run as planned rotations with local lodging, and single-day mobilizations are reserved for genuinely single-day work. Winter is the caveat that deserves respect: this corner of the state gets ground blizzards that close US-20 and I-29 outright, so cold-season commitments in Siouxland carry weather-day contingency rather than bravado. Any response-time commitment beyond that is made by our operations team case by case, never published as a blanket claim.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What is the frost depth requirement for foundations in Sioux City?",
+      "answer": "We don't publish one yet, deliberately: frost depth is set by the city's adopted building code, Sioux City's current code editions are not listed online, and quoting a regional guess is how wrong numbers end up on datasheets. Inspection Services (712-224-5216) can confirm the adopted edition and any local amendment; site design then works from that figure plus geotechnical findings.",
+      "segment": "general"
+    },
+    {
+      "question": "What should we expect when boring or trenching in Sioux City's loess?",
+      "answer": "Fast drilling and fragile surfaces. Dry loess bores and excavates easily and will stand in near-vertical faces — then behaves badly around water: saturation collapses it and bare slopes gully aggressively in ordinary storms. Plan immediate erosion control on every cut and bore pit, covered spoil stockpiles, and moisture-conditioned compaction on backfill. Valley crossings are a different material entirely: saturated alluvium with shallow groundwater.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroads does a fiber route have to plan around in Sioux City?",
+      "answer": "Four operators: Union Pacific, BNSF, and Canadian National — an unusual three-Class-I concentration for a market this size — plus the D&I shortline hauling aggregate into the L.G. Everist transload. Each has its own crossing-permit process and timeline, none of them fast, so we map every rail line during route design and file crossing applications before construction scheduling, not after.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How do the tri-state boundaries affect a telecom build here?",
+      "answer": "Crossing either river changes nearly every administrative layer: Nebraska 811 or South Dakota 811 replaces Iowa One Call, the state DOT and oversize-permit authority change, contractor registration and wage rules reset, and wireless siting law shifts off Iowa's ch. 8C. Construction methods don't change at the water's edge — the paperwork does, so regional programs from Sioux City get planned as parallel state workstreams.",
+      "segment": "general"
+    },
+    {
+      "question": "Is there any data center activity in the Sioux City market?",
+      "answer": "Prospective, and worth watching. MidAmerican Energy is marketing a nearly 900-acre site at Salix — annexed from Woodbury County in April 2026 — for potential data center development, though no customer has been announced. The county responded with a one-year moratorium on data centers in unincorporated areas while it sets policy. Nothing hyperscale operates in the market today; the built activity is fiber and wireless.",
+      "segment": "edge"
+    },
+    {
+      "question": "Do spring road embargoes affect deliveries to rural sites near Sioux City?",
+      "answer": "Yes — Woodbury and the surrounding counties post spring load restrictions on secondary roads during the thaw, typically from late February into April, and gravel-road sites are unreachable for heavy hauls until postings lift or a compliant route is found. Nebraska and South Dakota counties post separately on their own schedules, which matters for tri-state programs staged out of Sioux City.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What flood history matters for siting equipment in Sioux City?",
+      "answer": "Perry Creek first: it flooded 18 times between 1904 and 1990 — the 1990 event damaged more than 1,000 buildings — before a $97M Corps flood-control project, finished in 2007, led FEMA to release most of the corridor from the mapped floodplain. Missouri River basin floods (2011, 2019) remain the regional exposure. The practical rule: pull current FIRMs for every candidate site, because this market's flood maps have genuinely changed.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can foundations and pads be built in Sioux City in winter?",
+      "answer": "They can, with eyes open: northwest Iowa's winter starts earlier, runs colder, and blows harder than the state average, so winter work carries frost excavation, heated concrete protection, and — the honest part — weather-day contingency for the ground blizzards that periodically close US-20 and I-29. Many winter scopes pencil better re-sequenced to put earthwork in fall and enclosure work in the cold months.",
+      "segment": "general"
+    },
+    {
+      "question": "How does CellSite Solutions cover Sioux City from Cedar Rapids?",
+      "answer": "Straight up US-20 — four lanes end to end since 2018 — about 264 road miles and a bit over four hours. Multi-day scopes run as planned crew rotations with equipment secured on site; single-day mobilizations are reserved for single-day work. It's the far edge of our regional band, and we schedule it like professionals rather than pretending it's around the corner.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Engineering the access road: what deep loess demands of a Sioux City compound",
+    "body": "On most Iowa sites the access road is a line item; in the Loess Hills it is the design problem. Deep loess misleads at exactly the wrong moment: a fresh cut stands vertical and clean, the subgrade compacts beautifully dry, and everything about the road looks finished — until the first sustained rain finds bare soil, at which point saturation collapse and gullying can take out shoulders, ditches, and switchback edges in a single season. Build it right the first time and the material is actually forgiving: intercept surface water above every cut with lined or vegetated channels, keep cut faces laid back or armored rather than trusting apparent vertical stability, compact fills at controlled moisture instead of chasing density dry, surface the running width with enough aggregate to survive rutting season, and get cover established on every disturbed slope before the storm months — an SWPPP that merely meets the one-acre permit minimum is not the same thing as erosion control that works on this soil. When a ridge site's road costs threaten the budget, compare honestly against a valley site: flatter access traded for groundwater, softer bearing, and a flood-elevation check. Either answer can be right. What's never right here is pricing the road like it's eastern Iowa till."
+  },
+  "sources": [
+    {
+      "label": "City of Sioux City — Inspection Services Permit Center",
+      "url": "https://www.sioux-city.org/government/departments-a-f/community-development/inspection-services/permit-center",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Sioux City — permits and bids (Engineering Division ROW/utility review)",
+      "url": "https://www.sioux-city.org/business/permits-bids",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT District 3 (Northwest), headquartered in Sioux City",
+      "url": "https://iowadot.gov/about/districts/district-3",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Geological Survey — Loess Hills landform region",
+      "url": "https://iowageologicalsurvey.uiowa.edu/iowa-geology/landforms-iowa/loess-hills",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Sioux City Journal — $97 million Perry Creek flood control project",
+      "url": "https://siouxcityjournal.com/news/97-million-flood-control-tames-perry-creek/article_e268c2e5-86d5-5797-8b93-272dd49be3f4.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Sioux City Journal — Perry Creek property released from floodplain mapping",
+      "url": "https://siouxcityjournal.com/news/local/govt-and-politics/most-perry-creek-property-released-from-flood-plain-map/article_4baec42f-2049-5af5-b5e0-e3f445324e1c.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Union Pacific — D&I Railroad (DAIR) shortline profile",
+      "url": "https://www.up.com/shipping/short-line/lines/dair",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Sioux City Economic Development — transportation (three Class I railroads)",
+      "url": "https://locatesiouxcity.com/transportation",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Long Lines — regional fiber operator, Sergeant Bluff",
+      "url": "https://www.longlines.com/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Public Radio — Salix data center proposal and Woodbury County moratorium",
+      "url": "https://www.iowapublicradio.org/ipr-news/2026-06-17/potential-data-center-sparks-moratorium-push-in-northwest-iowa",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Public Radio — four-lane US-20 completion, Dubuque to Sioux City",
+      "url": "https://www.iowapublicradio.org/ipr-news/2018-10-18/officials-to-celebrate-four-lane-highway-20-spanning-dubuque-to-sioux-city",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Department of Management — BEAD program",
+      "url": "https://dom.iowa.gov/broadband/bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa One Call — required advance notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration and bond",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — seasonal clearing for listed bats",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — spring load restriction map",
+      "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Motor Carrier Services — oversize/overweight permits",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USACE Omaha District — regulatory program",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Check-Distance — Cedar Rapids, IA to Sioux City, IA driving route (264 mi)",
+      "url": "https://check-distance.com/route/cedar-rapids-ia/sioux-city-ia",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "regulatory.adoptedBuildingCode",
+      "attempted": "Sioux City's Inspection Services pages do not list adopted code editions; searches surfaced neighboring cities' codes but not Sioux City's ordinance. Confirm by phone (712-224-5216)."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Depends on the unconfirmed adopted code; no regional substitute is acceptable, so the field stays null."
+    },
+    {
+      "field": "designCriteria — wind (RC II/IV), snow, ice, seismic Ss/S1, design temps, ASCE 7 edition",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps, TIA-222 county tables, and ASHRAE data unreachable or paywalled through the sandbox proxy; the ASCE edition also awaits the code-edition confirmation."
+    },
+    {
+      "field": "geotech numerics (bearing range, bedrock depth, groundwater, corrosivity, shrink-swell)",
+      "attempted": "NRCS Web Soil Survey and IGS county-level reports unreachable through proxy; only landform-scale geology published."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator (named office/contact)",
+      "attempted": "Not surfaced on the city website; confirm through Community Development."
+    },
+    {
+      "field": "utilities — ILEC confirmation and MidAmerican lead time",
+      "attempted": "Lumen attribution from legacy-territory knowledge pending Iowa Utilities Commission exchange GIS; MidAmerican publishes no commercial new-service lead times."
+    },
+    {
+      "field": "logistics — UP and BNSF crossing-permit process details for Sioux City subdivisions",
+      "attempted": "Carrier presence sourced via the city economic development transportation page; per-carrier local crossing workflow not sourced this session."
+    },
+    {
+      "field": "seasonality — NOAA NCEI normals check",
+      "attempted": "Calendar authored qualitatively; verify against the Sioux Gateway Airport station normals before sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 3 publish gate requires 2 images; projects and photos come only from CSS intake."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the coverage list and any response commitment."
+    }
+  ]
+}
