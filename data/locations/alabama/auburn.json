@@ -1,0 +1,667 @@
+{
+  "identity": {
+    "slug": "auburn",
+    "city": "Auburn",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "stateAbbr": "AL",
+    "counties": [
+      "Lee"
+    ],
+    "msa": "Auburn–Opelika, AL (Lee County)",
+    "tier": 3,
+    "latitude": 32.6099,
+    "longitude": -85.4808,
+    "elevationFt": null,
+    "population": {
+      "value": 86786,
+      "source": "World Population Review 2026 estimate, republishing U.S. Census data (2020 census: 76,143; confirm vintage against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-85"
+    ],
+    "majorRoutes": [
+      "US-29 (College St)",
+      "US-280",
+      "AL-14",
+      "AL-147"
+    ]
+  },
+  "metadata": {
+    "title": "Auburn AL Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Auburn, AL — program-based fiber, wireless, and edge site work across the I-85 corridor and Piedmont fall-line ground.",
+    "h1": "Telecom Site Civil Construction in Auburn, Alabama",
+    "intro": "Auburn is the farthest market in CellSite Solutions' footprint, and this page says so up front: crews travel here, deploying from our Dallas yard for the duration of a program, staging locally and buying materials in-market. What makes the trip worth planning around is the market itself. Auburn grew 43 percent in a decade to 76,143 at the 2020 census — Alabama's fastest-growing large city — on an I-85 corridor that runs toward Atlanta, with Auburn University's research engine (including the NASA-partnered National Center for Additive Manufacturing Excellence) and, next door, Opelika's pioneering fiber story: Alabama's first municipal FTTH network, now operated by Point Broadband. Underfoot, Auburn sits where the crystalline Piedmont meets the Coastal Plain at the fall line — which means two different boring and foundation regimes inside one build area.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 I-codes the City of Auburn placed in effect January 1, 2022); confirm amendments with Inspection Services",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Numeric values pending a USGS design-maps query at site coordinates. Note for site-class expectations: shallow crystalline rock on the Piedmont side of the fall line and deep Coastal Plain sediments on the other can yield different site classes within the same market — another reason the query is run per site, not per city."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Auburn straddles Alabama's fall line — the boundary where the faulted crystalline metamorphic and igneous rocks of the Southern Piedmont Upland (schist and gneiss; Chewacla State Park just south of town exposes a gneiss dated at 1.05 billion years, the oldest known rock in Alabama) dip beneath the sands and gravels of the Coastal Plain. The Encyclopedia of Alabama places the fall-line curve near Opelika, with the Piedmont plateau standing 150–200 feet above the Coastal Plain surface. Practically: micaceous saprolite over hard crystalline rock northwest of the line, deep unconsolidated sediments southeast of it.",
+    "dominantSoilTypes": [
+      "Micaceous sandy and silty saprolite weathered from schist and gneiss (Piedmont side)",
+      "Coastal Plain sands and gravelly loams (southeast of the fall line)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Piedmont saprolites are generally not a high shrink-swell setting, but NRCS linear-extensibility ratings for the mapped Lee County series have not been pulled, and Coastal Plain units southeast of the line vary. Unknown until the Web Soil Survey query is run; borings govern.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Crystalline Piedmont rock and Coastal Plain clastics are not karst settings in the classic sense; narrow marble belts occur in the region's metamorphic sequence, so confirm mapped units with the Geological Survey of Alabama on any site where carbonate rock appears in borings."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The engineering identity of this market is the fall line, and foundation work here is a tale of which side of it you are on. Piedmont-side sites weather downward through saprolite — soil-like, diggable, deceptively soft — into partially weathered rock and then hard schist or gneiss, and the transition is neither level nor predictable: refusal depths can vary sharply across a single compound, which is why drilled-pier bids without rock provisions go wrong here. Coastal Plain-side sites are the opposite problem — deep sands with no rock to find, where bearing, groundwater, and caving trenches drive the design instead of excavation difficulty. Shelter pads and hut foundations succeed on both, but they are priced differently, drilled differently, and grounded differently: resistivity on shallow crystalline rock can complicate ground ring performance in ways deep moist sands never will. Our rule for Auburn is to let the borings pick the side of the line before anyone picks a foundation type, and to treat frost depth as a code lookup from the city's adopted amendments — never assumed from another market.",
+    "_note": null
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Auburn — Inspection Services Department",
+        "url": "https://www.auburnal.gov/inspection-services/",
+        "phone": "(334) 501-3170",
+        "typicalReviewDays": null,
+        "note": "Enforces the adopted building, fire, and related codes citywide; the city placed updated 2021-edition codes in effect January 1, 2022. Field inspections are requested 24 hours ahead. Published plan-review durations were not posted — confirm at intake."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 I-code editions effective January 1, 2022 (commercial per the city's significant-changes memo; 2021 IRC with Alabama Residential Building and Energy Code amendments on the residential side)",
+      "source": "City of Auburn — current codes page and updated-building-codes memo — https://www.auburnal.gov/inspection-services/services/current-codes/",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "The city zoning ordinance's telecommunications provisions and any applicable state small-cell framework were not verified this session — confirm with Planning before siting new poles or small cells.",
+    "rowPermitAuthority": {
+      "name": "City of Auburn (municipal ROW) inside city limits; ALDOT for I-85 and state-route ROW; Lee County Highway Department on county roads",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the city's current ROW/lane-closure intake at scoping; Opelika administers its own ROW next door, so multi-site programs in this MSA typically permit through two municipal offices plus the county."
+    },
+    "stateDotDistrict": {
+      "name": "Alabama Department of Transportation (Lee County's current region/area-office assignment to be confirmed against ALDOT's region map)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ALDOT's region map PDF was not retrievable this session; the assignment is recorded as unconfirmed rather than guessed — see gaps."
+    },
+    "oneCallCenter": {
+      "name": "Alabama 811",
+      "url": "https://al811.com/before-you-dig/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "State law: notice at least two, and not more than ten, working days before excavation begins, excluding the day of notice.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "ADEM — NPDES Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "One-acre disturbance trigger (or smaller sites within a common plan); NOI plus a QCP-certified construction BMP plan. Verify against the reissued 2026 CGP."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Auburn floodplain management (confirm current office and contact)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Mapped floodplain in the build area follows Saugahatchee Creek on the north side and Chewacla Creek to the south — creek-adjacent sites get a FIRM check before design."
+    },
+    "permitTimelineNarrative": "Permitting an Auburn site runs through a compact, professional municipal stack: Inspection Services administers the 2021-edition codes it placed in effect January 1, 2022, inspections book on 24 hours' notice, and plan-review durations are confirmed at intake since the city does not publish them. The program-level realities matter more than any single permit. A multi-site build across this MSA usually touches three ROW jurisdictions — Auburn, Opelika, and Lee County — plus ALDOT for anything on I-85 or the US highways, so we map permits to jurisdictions before sequencing crews. ADEM's ALR100000 stormwater coverage (one-acre trigger, QCP-certified BMP plan) and the two-working-day Alabama 811 ticket are statewide constants. Creek-adjacent sites near Saugahatchee or Chewacla Creek add floodplain review, and any BEAD-funded segment brings Section 106 coordination with the Alabama Historical Commission.",
+    "_note": null
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Alabama Power",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Principal electric utility in Lee County by revenue; serves the Auburn build area. New-service lead times unpublished — confirmed in writing at scoping."
+      },
+      {
+        "name": "Opelika Power Services",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The City of Opelika's municipal electric utility next door — relevant to MSA-wide programs because municipal service processes differ materially from IOU processes."
+      },
+      {
+        "name": "Tallapoosa River Electric Cooperative",
+        "type": "cooperative",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Cooperative territory on rural fringes of the county; confirm the serving utility per site before scoping service."
+      }
+    ],
+    "ilec": "AT&T Alabama (legacy BellSouth territory; verify exchange-level ILEC designation for Auburn against FCC data before publish)",
+    "notableFiberProviders": [
+      "Point Broadband (operator of the former OPS ONE network — Opelika's municipal FTTH build, sold by the city in 2018)",
+      "AT&T Fiber (confirm current Auburn footprint)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No spring-thaw frost law in Alabama — weight limits are permanent engineering postings. For shelter hauls, the check that matters is county-posted structures on the last-mile route, verified per delivery."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "ALDOT oversize/overweight permitting (state routes and interstates, including the I-85 approach)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Permit intake and escort/curfew conditions confirmed at scoping; the long inbound haul from Texas crosses multiple state permit regimes, which we sequence as part of program logistics."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "CSX — A&WP Subdivision (the ex-Western Railway of Alabama / West Point Route main from Montgomery toward Atlanta, running through Auburn and Opelika)",
+        "crossingPermitNote": "The corridor parallels the I-85 growth axis, so fiber routes meet it constantly; CSX crossing and occupancy permits are long-lead items we start at route design."
+      },
+      {
+        "name": "Norfolk Southern (ex-Central of Georgia line crossing the CSX corridor at Opelika)",
+        "crossingPermitNote": "Adds a second railroad permitting process for MSA-wide routes; engage early."
+      }
+    ],
+    "urbanRowRequirements": "Downtown Auburn and the campus edge along College Street and Magnolia Avenue carry tight ROW conditions, and Auburn University home-football weekends put six-figure crowds into a compact core — lane closures near campus are realistically off the table those Saturdays. Program schedules here are built against the athletic calendar, not just the permit calendar."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Protected bat species occur in Alabama and USFWS county-level guidance can impose seasonal clearing windows; Lee County-specific guidance was not sourced this session",
+      "source": null
+    },
+    "shpo": {
+      "name": "Alabama Historical Commission (State Historic Preservation Office)",
+      "url": "https://ahc.alabama.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 applies to federally funded and FCC-licensed work; BEAD-funded segments route through this review."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Mobile District regulatory program, with ADEM 401 certification",
+      "url": "https://www.sam.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Creek corridors (Saugahatchee, Chewacla) and their tributaries are the local screening trigger."
+    },
+    "usaceDistrict": "Mobile District (SAM)",
+    "listedSpeciesNote": "Run IPaC per project. East Alabama's creek systems support sensitive aquatic species, and protected bats occur in the state; no Lee County clearing-window determination was sourced this session, so USFWS coordination is a per-project step, not a paper formality.",
+    "floodplainPrevalenceNote": "Floodplain in the build area tracks the creek network — Saugahatchee Creek north of town, Chewacla Creek to the south — rather than a major river; most upland Piedmont sites are clear, creek-crossing fiber alignments are not."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Cool and damp; freezes brief, ground rarely frozen",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Wet; saprolite holds water and ruts under equipment",
+        "earthworkConcrete": "workable",
+        "note": "Track mats on unimproved Piedmont access"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Wet spring; severe-weather season opens",
+        "earthworkConcrete": "workable",
+        "note": "Lee County's reference event is the March 3, 2019 Beauregard EF4"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying; storm-securing discipline through peak severe season",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Warm, generally dry; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot and humid; pop-up thunderstorms",
+        "earthworkConcrete": "workable",
+        "note": "Hydration and heat planning start"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Sustained heat and humidity",
+        "earthworkConcrete": "constrained",
+        "note": "Early pours; heat-index work-rest cycles"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest stretch; afternoon storms",
+        "earthworkConcrete": "constrained",
+        "note": "Concrete temperature control on large pours"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; dry ground",
+        "earthworkConcrete": "workable",
+        "note": "Football Saturdays begin constraining campus-area access"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Dry and mild; best working month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; fall severe-weather window",
+        "earthworkConcrete": "favorable",
+        "note": "Secondary Dixie Alley season — keep securing plans live"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Cool, wetter; occasional freeze nights",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Auburn's construction year has no frost season worth the name — the calendar's real gates are water, heat, storms, and Saturdays. Winter is workable but wet, and the Piedmont saprolite is the complication: it holds moisture and ruts badly under rubber tires, so unimproved access gets matting in the wet months. Late spring and October are the production windows. July and August impose hot-weather concrete practice and heat-index crew management. Severe weather runs on the Dixie Alley pattern — a March–May primary season, with the March 3, 2019 Beauregard EF4 in southern Lee County as the local reference event, and a genuine November window. And uniquely for schedulers: home-football weekends effectively freeze campus-area ROW work. Monthly figures should be finalized against NOAA station normals before publish."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "On the Piedmont side of the fall line, hard schist and gneiss under variable-depth saprolite make rock excavation and partially-weathered-rock drilling a live risk on most upland sites; southeast of the line in Coastal Plain sands, rock risk drops toward zero. The fall line is the pricing boundary.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "The Auburn–Opelika metro supports in-market ready-mix and construction supply; as a deployment market, all concrete, aggregate, and precast is sourced and priced locally per program — nothing structural hauls from the yard.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No state prevailing wage law in Alabama; federal Davis-Bacon attaches to federally funded work including BEAD builds, and mixed funding pulls entire projects under it.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "No winter premium. Cost seasonality is hot-weather concreting in July–August, storm contingency in the spring and November severe windows, and schedule friction from the football calendar on campus-adjacent work.",
+    "narrative": "Three things move an Auburn civil number. First, geology: whether a site sits on Piedmont crystalline rock or Coastal Plain sand decides if the budget carries rock drilling and PWR provisions or dewatering and trench-support money — the fall line splits the market into two estimating regimes, and borings settle which one applies. Second, program structure: this is our footprint's farthest market, so mobilization is priced once into a program and amortized across sites rather than loaded onto every task order — batching Auburn, Opelika, and county work into one deployment is the single biggest lever a buyer controls here. Third, funding source: Alabama has no state prevailing wage, but BEAD-funded segments carry Davis-Bacon, which changes labor pricing on otherwise identical scopes. Multi-jurisdiction permitting — Auburn, Opelika, Lee County, ALDOT — adds coordination cost rather than fee cost. Drivers, not prices; each site prices to its borings and its side of the line."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Alabama requires a statewide general contractor license — the only mandatory-GC state in our footprint. The Alabama Licensing Board for General Contractors licenses work where the undertaking costs $100,000 or more (threshold raised from $50,000 by Act 2024-277); subcontractors under a licensed prime require their own license at $50,000 and up. Site work and grading are expressly within the licensed scope, and classifications must match the work. Confirm current board requirements at bid.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "extreme heat",
+      "flood"
+    ],
+    "designImplications": "Lee County's hazard resume is led by tornado — the March 3, 2019 EF4 that struck Beauregard, south of Auburn, was among the deadliest U.S. tornadoes of the past decade, and it keeps resilience in every local infrastructure conversation. For compounds and huts that translates to wind-governed anchorage, generator and fuel systems planned for multi-day outages, and layouts that stay serviceable when debris closes secondary roads. Summer heat governs concrete practice and crew scheduling; flood exposure is creek-based (Saugahatchee, Chewacla) rather than riverine. Numeric wind design values publish only after the ASCE Hazard Tool query at site coordinates.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Alabama BEAD final proposal approved; $460M in awards statewide",
+        "detail": "NTIA approved Alabama's final BEAD proposal in March 2026, with ADECA awarding $460 million across 63 projects reaching 101,000+ locations — 71% fiber. East Alabama subgrantee and route detail should be tracked as awards convert to construction.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+        "asOf": "2026-03-31"
+      },
+      {
+        "headline": "Point Broadband expanding from the former OPS ONE base in Opelika",
+        "detail": "After acquiring Opelika's municipal FTTH network (Alabama's first gig city, built from 2012; sold for just over $14 million in 2018), Point Broadband has pursued expansion beyond Opelika's city limits — continuing fiber construction activity in the Auburn–Opelika market.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://www.point-broadband.com/news/point-broadband-closes-on-ops-one-and-announces-new-opelika-general-manager",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut"
+      ],
+      "secondaryScopeIds": [
+        "restoration",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "East Alabama's fiber history is unusual: Opelika built the state's first municipal FTTH network starting in 2012 — 425 miles of plant that made it Alabama's first gig city — then sold it to Point Broadband in 2018, and that installed base plus Auburn's 43-percent-per-decade growth keeps last-mile and middle-mile construction rolling along the I-85 corridor. Alabama's March 2026 BEAD approval adds funded rural segments at the county's edges. The construction variable is the fall line: bores northwest of it work through saprolite into hard schist and gneiss where rock tooling and refusal management are real, while southeast alignments run in caving Coastal Plain sands. Add two railroad permitting processes — CSX's A&WP corridor through both cities and the NS crossing at Opelika — and route design here is as much sequencing as engineering.",
+      "localSpecificsReferenced": [
+        "Opelika OPS ONE municipal FTTH (Point Broadband)",
+        "I-85 corridor growth",
+        "fall-line boring transition",
+        "CSX A&WP Subdivision"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": [
+        "C-band / densification upgrade civil",
+        "access road and turnaround"
+      ],
+      "narrative": "Wireless demand in Auburn is a growth-and-surge story. The city added 43 percent to its population in a decade — Alabama's fastest-growing large city — which means new macro capacity and densification tracking subdivisions east and south along the I-85 corridor, while Auburn University's campus concentrates surge demand that peaks when Jordan-Hare Stadium fills on fall Saturdays. Compound civil here carries the fall line in its foundations: shallow schist and gneiss complicate embedment and ground-ring performance on Piedmont sites in ways the Coastal Plain sands a few miles southeast never do, so grounding design follows resistivity, not habit. And Lee County builds with the 2019 Beauregard EF4 in living memory — owners ask hard questions about anchorage and backup power, and the civil scope should answer them.",
+      "localSpecificsReferenced": [
+        "I-85 corridor growth (fastest-growing Alabama city)",
+        "Jordan-Hare Stadium surge demand",
+        "fall-line grounding conditions",
+        "2019 Beauregard EF4"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards"
+      ],
+      "narrative": "Auburn has no hyperscale campus and this page won't invent one. Its edge demand is research-shaped: Auburn University operates the NASA-partnered National Center for Additive Manufacturing Excellence in the Gavin Engineering Research Laboratory — with more than 20 faculty in additive manufacturing and NSF Major Research Instrumentation funding expanding its tomography capability in 2024 — and that class of instrument-heavy research computing drives campus duct bank, utility-yard, and hardened enclosure work rather than greenfield halls. The university's research park model and the I-85 position between Montgomery and Atlanta's data center gravity suggest edge nodes and micro-DC pads as the realistic near-term scope. We build those as programs: enclosure pads, transformer and generator yards, and conduit backbones engineered to whichever side of the fall line the site lands on.",
+      "localSpecificsReferenced": [
+        "NCAME / Gavin Engineering Research Laboratory",
+        "NSF MRI instrumentation award (2024)",
+        "I-85 position between Montgomery and Atlanta"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 702,
+      "driveTimeHours": 10.6,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "C",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Lee"
+    ],
+    "stagingApproach": "Program staging in the Auburn–Opelika metro: secured laydown established at deployment, equipment held on site or in local rental fleets for the program's duration, and the deployment sized so Auburn, Opelika, and county scopes run off one staging footprint. Long-lead and oversize deliveries route directly to staging, not through the yard. Plan confirmed per program by ops.",
+    "localSupplyApproach": "Everything heavy is bought in-market: ready-mix and aggregate from Auburn–Opelika suppliers, precast regionally, rental equipment locally to limit the deployed fleet. At 700-plus road miles nothing structural travels from Texas — buyers know that, and our estimates show it. Supplier and rental lineups are confirmed by estimating and ops at program pricing.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Auburn is the farthest market CellSite Solutions serves, and we lead with what that model is actually good at rather than a response-time claim we couldn't honestly make. Crews travel here — deploying from the Dallas yard for the duration of a program — and what that buys an owner is program capability: multi-site delivery across Auburn, Opelika, and Lee County under one contract, one self-performing crew standard, one QA/QC regime, and single-source accountability instead of a patchwork of local subs with varying documentation. Mobilization is priced and scheduled into the program up front, staged locally, and supplied in-market. Lead times are quoted honestly per program after ops review — a scheduled deployment, not a service-call promise. For a one-off emergency dispatch, a local contractor will beat us; for a multi-site build program that has to look the same at site one and site twenty, this model is the point.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What does the fall line mean for foundations in Auburn?",
+      "answer": "Auburn sits where the crystalline Piedmont meets the Coastal Plain. Northwest of the line, foundations work down through saprolite into partially weathered rock and hard schist or gneiss, with refusal depths that vary sharply across a single compound. Southeast, deep sands mean no rock but caving trenches and bearing-driven design. Borings decide which regime a site is in — and the two price very differently.",
+      "segment": "general"
+    },
+    {
+      "question": "Who built Opelika's fiber network, and who runs it now?",
+      "answer": "The City of Opelika built it — Alabama's first municipal fiber-to-the-home network, constructed from 2012 with roughly 425 miles of plant, making Opelika the state's first gig city. In 2018 the city sold the network (branded OPS ONE) to Point Broadband for just over $14 million, partly because state law barred municipal expansion beyond city limits. Point Broadband operates and expands it today.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is CellSite Solutions local to Auburn?",
+      "answer": "No, and we won't pretend to be. Auburn is the farthest market in our footprint — roughly 700 road miles from our Dallas yard — so crews deploy here for the duration of a program, stage locally, and buy materials in-market. What we offer isn't proximity; it's multi-site program delivery with consistent crews, one QA/QC standard, and single-source accountability across a regional build.",
+      "segment": "general"
+    },
+    {
+      "question": "How should a multi-site build be structured in the Auburn–Opelika market?",
+      "answer": "As one program, deliberately. Batching Auburn, Opelika, and Lee County sites into a single deployment amortizes our mobilization across the whole scope — the biggest cost lever a buyer here controls — and one staging footprint serves all of it. Expect three ROW jurisdictions (both cities plus the county) and ALDOT on state routes, and up to two railroad permit processes, so permit mapping precedes crew sequencing.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroads affect fiber routes between Auburn and Opelika?",
+      "answer": "The CSX A&WP Subdivision — the former Western Railway of Alabama main between Montgomery and the Atlanta gateway — runs through both cities, paralleling the I-85 growth corridor, and a Norfolk Southern ex-Central of Georgia line crosses it at Opelika. Any MSA-wide route likely triggers at least one railroad permit process, and those run long, so we start them at route design.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What building codes apply to telecom structures in Auburn?",
+      "answer": "The City of Auburn's Inspection Services Department enforces the 2021-edition I-codes the city placed in effect January 1, 2022, with the residential side following the 2021 IRC as amended by Alabama's residential and energy code amendments. Inspections book on 24 hours' notice. Confirm local amendments and the frost-depth provision at intake — we publish that number only from the code text.",
+      "segment": "general"
+    },
+    {
+      "question": "Did the 2019 Lee County tornado change how sites are built here?",
+      "answer": "It changed what owners ask for. The March 3, 2019 EF4 that struck Beauregard, south of Auburn, was among the deadliest U.S. tornadoes in a decade, and infrastructure resilience has been a live local topic since. In practice: wind-governed anchorage and embedment, generator and fuel-containment pads sized for multi-day outages, and compound access planned for post-storm conditions.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What drives edge and research-computing construction demand in Auburn?",
+      "answer": "The university's research engine more than any commercial campus. Auburn's NASA-partnered National Center for Additive Manufacturing Excellence, housed in the Gavin Engineering Research Laboratory with NSF instrumentation funding added in 2024, typifies the instrument-heavy computing that drives campus duct bank, utility-yard, and hardened enclosure work. There's no hyperscale campus here — realistic scope is edge nodes and micro-DC pads.",
+      "segment": "edge"
+    },
+    {
+      "question": "Can shelter deliveries reach Auburn year-round?",
+      "answer": "Yes — Alabama has no seasonal frost-law restrictions, so weight limits are permanent engineering postings rather than a spring calendar. The checks that matter are county-posted bridges on the final approach, ALDOT oversize/overweight permits for the I-85 leg, and timing: a delivery that hits Auburn on a home-football Saturday will meet closures and six-figure crowds, so we route and schedule around the athletic calendar.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Does BEAD funding change labor rules on east Alabama fiber work?",
+      "answer": "Yes. Alabama has no state prevailing wage law, but BEAD-funded construction is federal money, which attaches Davis-Bacon prevailing wage requirements — and on mixed-funding projects the federal nexus pulls the entire job in. Alabama's final BEAD proposal was approved in March 2026 with $460 million awarded statewide, so funded segments in Lee County should be bid with certified-payroll compliance priced in.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Boring and drilling across the fall line: one market, two rulebooks",
+    "body": "The judgment call that separates a clean Auburn program from a troubled one is refusing to average the geology. A directional bore or drilled pier northwest of the fall line lives in the Piedmont rulebook: saprolite that drills like soil until it doesn't, partially weathered rock that dulls tooling and slows production unpredictably, and hard schist or gneiss refusal at depths that can change across one compound. The Coastal Plain rulebook a few miles southeast is entirely different: no rock to fear, but uncased bores in clean sands wander and collapse, trenches need protection money, and groundwater arrives earlier than expected. Averaging the two — pricing a program at 'moderate rock risk everywhere' — guarantees you overpay on the sand and underprice the rock. The discipline that works: run borings early enough to sort every site in the program onto its side of the line, carry rock provisions only where the Piedmont says so, and let grounding design follow measured resistivity, because shallow crystalline rock and moist deep sand behave nothing alike under a ground ring. The fall line built this region's towns; it should also build the estimate.",
+    "_note": null
+  },
+  "sources": [
+    {
+      "label": "City of Auburn — Inspection Services current codes (2021 editions; effective Jan 1, 2022 memo)",
+      "url": "https://www.auburnal.gov/inspection-services/services/current-codes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Auburn — updated building codes memo (effective January 1, 2022)",
+      "url": "https://static.auburnalabama.org/media/apps/www/inspection-services/services/current-codes/Memo%20For%202021%20Commercial%20Signifigant%20Changes.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Encyclopedia of Alabama — Fall Line (curve near Opelika; I-85 parallels it; 150–200 ft relief)",
+      "url": "https://encyclopediaofalabama.org/article/fall-line/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Encyclopedia of Alabama — Piedmont Upland Physiographic Section (Chewacla gneiss, 1.05 Ga, oldest rock in Alabama)",
+      "url": "https://encyclopediaofalabama.org/article/piedmont-upland-physiographic-section/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — geologic units in Lee County, Alabama",
+      "url": "https://mrdata.usgs.gov/geology/state/fips-unit.php?code=f01081",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Auburn University Samuel Ginn College of Engineering — NCAME NSF MRI award (LabDCT instrumentation)",
+      "url": "https://eng.auburn.edu/news/2024/01/ncame-nsf-mri-award.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Point Broadband — closing on OPS ONE acquisition (Opelika municipal FTTH)",
+      "url": "https://www.point-broadband.com/news/point-broadband-closes-on-ops-one-and-announces-new-opelika-general-manager",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Institute for Local Self-Reliance / Community Networks — Opelika municipal fiber history (first Alabama gig city; 2018 privatization)",
+      "url": "https://communitynetworks.org/content/opelika-opts-privatize",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia — A&WP Subdivision (CSX; Union City, GA to Montgomery through Auburn/Opelika; NS crossing at Opelika)",
+      "url": "https://en.wikipedia.org/wiki/A%26WP_Subdivision",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Opelika Observer — Auburn seventh-largest Alabama city, 76,143 at 2020 census (43% decade growth)",
+      "url": "https://opelikaobserver.com/2021/08/18/auburn-now-seventh-largest-alabama-city-according-to-2020-census/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "World Population Review — Auburn, AL current population estimate",
+      "url": "https://worldpopulationreview.com/us-cities/alabama/auburn",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama 811 — notice requirements (2–10 working days)",
+      "url": "https://al811.com/before-you-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — NPDES Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Licensing Board for General Contractors — statute changes (Act 2024-277; $100,000 GC threshold)",
+      "url": "https://genconbd.alabama.gov/14104/changes-to-the-alabama-licensing-board-for-general-contractors-section-of-the-code-of-alabama/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor of Alabama — BEAD final proposal approved; $460M awarded (March 2026)",
+      "url": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Birmingham — March 3, 2019 Lee County (Beauregard) tornado event review",
+      "url": "https://www.weather.gov/bmx/event_03032019",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — all numeric values (wind RC II/IV, snow, ice, seismic Ss/S1, design temps)",
+      "attempted": "ASCE Hazard Tool, USGS design-maps, and TIA-222 county data not queryable this session; every numeric criterion left null pending site-coordinate queries."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "City of Auburn code pages confirm 2021 editions but the amended frost-depth provision was not read; publish only from the code text."
+    },
+    {
+      "field": "identity.elevationFt",
+      "attempted": "No authoritative elevation figure captured before the search budget closed; USGS GNIS lookup pending. Left null rather than approximated."
+    },
+    {
+      "field": "regulatory.stateDotDistrict — Lee County region assignment",
+      "attempted": "ALDOT's district/region map PDF returned 403; Tuscaloosa's West Central Region was confirmable from ALDOT news, Lee County's region was not. Recorded as unconfirmed."
+    },
+    {
+      "field": "regulatory — city ROW intake, floodplain administrator office, wireless ordinance provisions, review timelines",
+      "attempted": "Department-level confirmation not completed; entries carry confirm-at-scoping notes instead of invented offices or timelines."
+    },
+    {
+      "field": "geotech — NRCS soil series, bearing ranges, groundwater, depth to rock, corrosivity",
+      "attempted": "Web Soil Survey not queryable this session; fall-line framework sourced from Encyclopedia of Alabama and USGS, quantitative values pending."
+    },
+    {
+      "field": "utilities — serving-utility boundaries within the city, Alabama Power new-service intake, ILEC designation, AT&T Fiber footprint",
+      "attempted": "Provider set sourced from Lee County utility listings; parcel-level territory, intake URLs, and FCC ILEC confirmation still needed."
+    },
+    {
+      "field": "environmental — Lee County USFWS clearing windows and IPaC species list",
+      "attempted": "IPaC not run; bat-driven clearing restriction flagged conservatively with a null window pending USFWS field-office coordination."
+    },
+    {
+      "field": "seasonality.calendar — NOAA station normals",
+      "attempted": "Calendar authored from regional climate pattern and field framing; finalize against NOAA normals for the Auburn–Opelika station before publish."
+    },
+    {
+      "field": "operations — routing verification; Band C staging, local-supply, and self-perform plans; program lead times",
+      "attempted": "Driving sources put Dallas–Auburn at ~702 mi / ~10.6 h (drivedistance, travelmath), which keeps the market just inside Band C (700+); routeVerified stays false until ops runs real routing. Staging and supply narratives are drafts requiring ops and estimating confirmation per RESEARCH.md."
+    },
+    {
+      "field": "compliance.cssQualificationsNote — CSS Alabama GC license specifics",
+      "attempted": "License number, classifications, and limits must come from CSS compliance records; not publishable until provided."
+    },
+    {
+      "field": "marketActivity — east Alabama BEAD subgrantees; I-85 corridor project detail",
+      "attempted": "Statewide award totals sourced; Lee County-level award and transportation-project detail not yet found. Recheck quarterly."
+    },
+    {
+      "field": "sources — NWS Beauregard event page URL",
+      "attempted": "URL follows NWS Birmingham's event-page pattern but was not fetched this session; verify the link (and the event details against it) before publish."
+    }
+  ]
+}
