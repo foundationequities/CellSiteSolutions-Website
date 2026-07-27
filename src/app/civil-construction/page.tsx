@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { CtaBand } from "@/components/cta-band";
+import { CountUp } from "@/components/count-up";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { CIVIL_HEADER_VIDEO } from "@/lib/videos";
 
@@ -99,7 +100,12 @@ const ourServices = [
   "Access Roads",
 ];
 
-const coastStats = ["Decommissioned sites", "Sites Maintained", "Anchor Digs", "Sites Built"];
+const coastStats = [
+  { label: "DECOMMISSIONED SITES", value: 191 },
+  { label: "SITES MAINTAINED", value: 95 },
+  { label: "ANCHOR DIGS", value: 76 },
+  { label: "SITES BUILT", value: 26 },
+];
 
 const projects = [
   "Fiber Optic Regeneration Site",

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
+import { PhotoBand } from "@/components/photo-band";
 import { CtaBand } from "@/components/cta-band";
 
 export const metadata: Metadata = {
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const IMG = "/images/wp-content/uploads";
+const HERO = `${IMG}/2024/11/cellsite-services-disasterrecovery-1920x1014-1.jpeg`;
 
 export default function DisasterRecoveryPage() {
   return (
@@ -17,6 +19,7 @@ export default function DisasterRecoveryPage() {
       <PageHero
         eyebrow="Disaster Recovery"
         title="disaster recovery"
+        image={HERO}
         lede="Weather and other natural disasters can make an impact with little notice. Luckily, so can we. Call CellSite Solutions to restore service and repair or replace broken equipment before your customers notice the outage."
       />
 
@@ -42,43 +45,68 @@ export default function DisasterRecoveryPage() {
               restore critical telecom equipment, providing tailored disaster recovery solutions for
               any situation.
             </p>
-            <h3 className="mt-8 text-xl text-ink">Fast Response</h3>
-            <p className="mt-3 text-base leading-relaxed text-muted">
-              When disaster strikes, you have two immediate concerns as a telecom site owner and
-              operator: will we be able to maintain service, and, if not, how quickly can we get up and
-              running again? CellSite Solutions has the answers you want to hear in either case.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-muted">
-              When bad weather or accidents damage your equipment, we can supply backup equipment and a
-              permanent repair—quickly and efficiently.
-            </p>
           </div>
-          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
-            <Image
-              src={`${IMG}/2024/11/cellsite-services-disasterrecovery3-960x1079-1.png`}
-              alt="Telecom Shelter On-Site Restored"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-          </div>
+          <figure>
+            <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
+              <Image
+                src={`${IMG}/2024/11/cellsite-services-disasterrecovery2-960x1079-1.jpg`}
+                alt="Damaged Telecom Shelter Before Repair"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+            </div>
+            <figcaption className="mt-3 text-sm italic text-muted">
+              Photo: Damaged shelter before repair
+            </figcaption>
+          </figure>
         </div>
       </section>
 
+      {/* ── Fast response — photo band ────────────────────────────── */}
+      <PhotoBand image={HERO} card>
+        <h3 className="text-2xl text-ink">Fast Response</h3>
+        <p className="mt-4 text-base leading-relaxed text-muted">
+          When disaster strikes, you have two immediate concerns as a telecom site owner and
+          operator: will we be able to maintain service, and, if not, how quickly can we get up and
+          running again? CellSite Solutions has the answers you want to hear in either case.
+        </p>
+        <p className="mt-4 text-base leading-relaxed text-muted">
+          When bad weather or accidents damage your equipment, we can supply backup equipment and a
+          permanent repair&mdash;quickly and efficiently.
+        </p>
+      </PhotoBand>
+
       {/* ── No sitting out the storm ──────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-            Full-Service Provider
-          </p>
-          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
-            No Sitting Out The Storm
-          </h2>
-          <p className="mt-5 text-base leading-relaxed text-muted">
-            No need to panic when the lights flicker. CellSite Solutions has durable backup power
-            solutions that keep you running. You&rsquo;ll be up and working even when the grid needs
-            some downtime.
-          </p>
+        <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <figure className="order-last lg:order-first">
+            <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
+              <Image
+                src={`${IMG}/2024/11/cellsite-services-disasterrecovery3-960x1079-1.png`}
+                alt="Telecom Shelter On-Site Restored"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+            </div>
+            <figcaption className="mt-3 text-sm italic text-muted">
+              Photo: Damaged shelter after repair
+            </figcaption>
+          </figure>
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
+              Full-Service Provider
+            </p>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
+              No Sitting Out The Storm
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-muted">
+              No need to panic when the lights flicker. CellSite Solutions has durable backup power
+              solutions that keep you running. You&rsquo;ll be up and working even when the grid needs
+              some downtime.
+            </p>
+          </div>
         </div>
       </section>
 
