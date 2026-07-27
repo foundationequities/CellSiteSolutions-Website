@@ -15,11 +15,49 @@ export const metadata: Metadata = {
 const IMG = "/images/wp-content/uploads";
 
 /** Jump-nav tiles for the opening "Customer Types" section. */
+// Live tiles use FontAwesome symbols: wifi / signal / broadcast-tower / warning
 const customerTypes = [
-  { label: "WIRELESS PROVIDERS", href: "#wireless" },
-  { label: "FIBER PROVIDERS", href: "#fiber" },
-  { label: "TOWER OWNERS", href: "#towers" },
-  { label: "EMERGENCY RESPONSE", href: "#emergency" },
+  {
+    label: "WIRELESS PROVIDERS",
+    href: "#wireless",
+    icon: (
+      <svg viewBox="0 0 640 512" fill="currentColor" className="h-12 w-12" aria-hidden>
+        <path d="M320 416c-35 0-64 29-64 64s29 64 64 64 64-29 64-64-29-64-64-64zm0-352C201 64 89 110 4 194c-6 6-6 15 0 21l43 43c6 6 15 6 21 0 67-66 156-102 252-102s185 36 252 102c6 6 15 6 21 0l43-43c6-6 6-15 0-21-85-84-197-130-316-130zm0 160c-76 0-148 30-202 84-6 6-6 15 0 21l43 43c6 6 15 6 21 0 37-36 86-56 138-56s101 20 138 56c6 6 15 6 21 0l43-43c6-6 6-15 0-21-54-54-126-84-202-84z" transform="translate(0,-32)" />
+      </svg>
+    ),
+  },
+  {
+    label: "FIBER PROVIDERS",
+    href: "#fiber",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="currentColor" className="h-12 w-12" aria-hidden>
+        <rect x="3" y="16" width="3" height="5" rx="0.5" />
+        <rect x="8" y="12" width="3" height="9" rx="0.5" />
+        <rect x="13" y="8" width="3" height="13" rx="0.5" />
+        <rect x="18" y="3" width="3" height="18" rx="0.5" />
+      </svg>
+    ),
+  },
+  {
+    label: "TOWER OWNERS",
+    href: "#towers",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-12 w-12" aria-hidden>
+        <path d="M12 7v15M8 22l4-8 4 8M9.5 12h5M8.5 16h7" />
+        <circle cx="12" cy="4.5" r="2" />
+        <path d="M7.5 4.5a4.5 4.5 0 0 1 9 0M5.5 4.5a6.5 6.5 0 0 1 13 0" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    label: "EMERGENCY RESPONSE",
+    href: "#emergency",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="currentColor" className="h-12 w-12" aria-hidden>
+        <path d="M12 2 1 21h22L12 2zm0 6 1 8h-2l1-8zm0 12.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" fillRule="evenodd" clipRule="evenodd" />
+      </svg>
+    ),
+  },
 ];
 
 type Project = {
@@ -369,37 +407,27 @@ export default function ShelterShowcasePage() {
       {/* ── Customer Types jump-nav over the timelapse video ─────── */}
       <section className="relative overflow-hidden bg-surface-dark pb-20 pt-28 text-white sm:pb-24 sm:pt-36">
         <BgVideo src={SHELTER_TIMELAPSE_VIDEO} overlay="bg-black/60" />
-        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
-          <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-              Jump the Line
-            </p>
-            <h2 className="mt-2 text-[35px] sm:text-[65px]">Customer Types</h2>
-            <p className="mt-5 max-w-xl text-base leading-relaxed text-white/85">
-              Explore our telecom shelter options—click a section on the right to quickly find
-              the ideal solution for your project.
-            </p>
-          </div>
-          <nav aria-label="Customer types" className="flex flex-col gap-4">
+        <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Jump the Line</p>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">Customer Types</h2>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/85">
+            Explore our telecom shelter options—click a customer type to quickly find the ideal
+            solution for your project.
+          </p>
+          <nav
+            aria-label="Customer types"
+            className="mt-12 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4"
+          >
             {customerTypes.map((c) => (
               <a
                 key={c.href}
                 href={c.href}
-                className="group flex items-center justify-between rounded-lg border border-white/30 bg-white/5 px-6 py-5 font-display text-base font-medium uppercase tracking-wide backdrop-blur-sm transition-colors hover:border-brand hover:bg-brand sm:text-lg"
+                className="group flex flex-col items-center gap-4 rounded-lg border border-white/25 bg-white/5 px-4 py-8 backdrop-blur-sm transition-colors hover:border-brand hover:bg-brand sm:py-10"
               >
-                {c.label}
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  aria-hidden
-                  className="transition-transform duration-300 group-hover:translate-x-1"
-                >
-                  <path d="M5 12h14M13 6l6 6-6 6" />
-                </svg>
+                <span className="text-brand transition-colors group-hover:text-white">{c.icon}</span>
+                <span className="font-display text-sm font-medium uppercase tracking-wide sm:text-base">
+                  {c.label}
+                </span>
               </a>
             ))}
           </nav>
