@@ -1,6 +1,11 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getPublishedLocations, getLocation, getNeighbors } from "@/lib/locations";
+import {
+  getRenderableLocations,
+  getRenderableLocation,
+  getNeighbors,
+  isPublishable,
+} from "@/lib/locations";
 import { locationJsonLd } from "@/lib/jsonld";
 
 // Module components — built against docs/civil-locations/CONTENT_MODULES.md
@@ -32,7 +37,7 @@ import SourcesFooter from "@/components/locations/SourcesFooter";
 export const dynamicParams = false; // unknown slugs 404 rather than render empty
 
 export function generateStaticParams() {
-  return getPublishedLocations().map((l) => ({
+  return getRenderableLocations().map((l) => ({
     state: l.identity.stateSlug,
     city: l.identity.slug,
   }));
@@ -44,7 +49,7 @@ export async function generateMetadata({
   params: Promise<{ state: string; city: string }>;
 }): Promise<Metadata> {
   const { state, city } = await params;
-  const loc = getLocation(state, city);
+  const loc = getRenderableLocation(state, city);
   if (!loc) return {};
   return {
     title: loc.metadata.title,
@@ -66,7 +71,7 @@ export default async function CityPage({
   params: Promise<{ state: string; city: string }>;
 }) {
   const { state, city } = await params;
-  const loc = getLocation(state, city);
+  const loc = getRenderableLocation(state, city);
   if (!loc) notFound();
 
   const neighbors = getNeighbors(loc, 4);
@@ -78,6 +83,12 @@ export default async function CityPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(locationJsonLd(loc)) }}
       />
 
+      {!isPublishable(loc) && (
+        <div className="bg-amber-100 px-4 py-3 text-center text-sm font-semibold text-amber-900">
+          DRAFT PREVIEW — this page is pending research verification and human sign-off. It renders
+          on the draft site only and is excluded from sitemaps.
+        </div>
+      )}
       <LocalIntro location={loc} />
       <CtaBar location={loc} />
 

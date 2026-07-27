@@ -5,7 +5,7 @@ import {
   stateHref,
   cityHref,
 } from "@/lib/locations-nav";
-import { getStateLocations } from "@/lib/locations";
+import { getRenderableStateLocations } from "@/lib/locations";
 import { LocationsFooterSwitch } from "@/components/locations-footer-switch";
 
 /**
@@ -40,7 +40,7 @@ function ExpandedStates() {
   return (
     <div className="grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
       {FOOTER_STATES.map((s) => {
-        const cities = getStateLocations(s.slug);
+        const cities = getRenderableStateLocations(s.slug);
         return (
           <section key={s.slug}>
             <h3 className="mb-2 font-display text-sm font-medium uppercase tracking-wide text-ink">

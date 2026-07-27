@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getSeedMarkets, getSeedMarketsByState } from "@/lib/seed";
-import { getPublishedLocations } from "@/lib/locations";
+import { getRenderableLocations } from "@/lib/locations";
 import { FOOTER_STATES, stateHref, cityHref } from "@/lib/locations-nav";
 import { FootprintMap } from "@/components/locations/FootprintMap";
 import { CtaBand } from "@/components/cta-band";
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
  */
 export default function LocationsIndexPage() {
   const published = new Set(
-    getPublishedLocations().map((l) => `${l.identity.stateSlug}/${l.identity.slug}`)
+    getRenderableLocations().map((l) => `${l.identity.stateSlug}/${l.identity.slug}`)
   );
   const total = getSeedMarkets().length;
 

@@ -35,6 +35,40 @@ export function getPublishedLocations(): Location[] {
   return getAllLocations().filter((l) => l._verified && l._gaps.length === 0);
 }
 
+/** True while the site runs as a noindexed draft (NEXT_PUBLIC_DRAFT=1). */
+const DRAFT = process.env.NEXT_PUBLIC_DRAFT === "1";
+
+/** True when a location has cleared human sign-off with no open gaps. */
+export function isPublishable(l: Location): boolean {
+  return l._verified && l._gaps.length === 0;
+}
+
+/**
+ * Pages that render on THIS deployment. In production this is exactly the
+ * published set. On the noindexed draft, schema-valid pages pending human
+ * sign-off also render — with a visible draft banner — because the reviewer
+ * has to see a page to verify it. Sitemaps always use the published set.
+ */
+export function getRenderableLocations(): Location[] {
+  return DRAFT ? getAllLocations() : getPublishedLocations();
+}
+
+export function getRenderableLocation(stateSlug: string, citySlug: string): Location | undefined {
+  return getRenderableLocations().find(
+    (l) => l.identity.stateSlug === stateSlug && l.identity.slug === citySlug
+  );
+}
+
+export function getRenderableStateLocations(stateSlug: string): Location[] {
+  return getRenderableLocations()
+    .filter((l) => l.identity.stateSlug === stateSlug)
+    .sort(
+      (a, b) =>
+        a.identity.tier - b.identity.tier ||
+        a.identity.city.localeCompare(b.identity.city)
+    );
+}
+
 export function getLocation(stateSlug: string, citySlug: string): Location | undefined {
   return getPublishedLocations().find(
     (l) => l.identity.stateSlug === stateSlug && l.identity.slug === citySlug

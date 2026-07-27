@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getStateLocations } from "@/lib/locations";
+import { getRenderableStateLocations } from "@/lib/locations";
 import { getAllStateHubs } from "@/lib/states";
 import { getSeedMarketsByState } from "@/lib/seed";
 import { FOOTER_STATES, LOCATIONS_INDEX_HREF, cityHref } from "@/lib/locations-nav";
@@ -52,7 +52,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
   const { state } = await params;
   const hub = getHubShell(state);
   if (!hub) notFound();
-  const publishedCities = getStateLocations(state);
+  const publishedCities = getRenderableStateLocations(state);
   const publishedSlugs = new Set(publishedCities.map((c) => c.identity.slug));
   const markets = getSeedMarketsByState(state);
   const showResearch = hub._verified && hub._gaps.length === 0;
