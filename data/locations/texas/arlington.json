@@ -1,0 +1,644 @@
+{
+  "identity": {
+    "slug": "arlington",
+    "city": "Arlington",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Tarrant"
+    ],
+    "msa": "Dallas–Fort Worth–Arlington",
+    "tier": 2,
+    "latitude": 32.7357,
+    "longitude": -97.1081,
+    "elevationFt": 604,
+    "population": {
+      "value": 403672,
+      "source": "World Population Review, republishing 2024 U.S. Census estimates (50th-largest U.S. city; confirm vintage against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-20",
+      "I-30"
+    ],
+    "majorRoutes": [
+      "SH-360",
+      "US-287",
+      "Spur 303 (Pioneer Parkway)"
+    ]
+  },
+  "metadata": {
+    "title": "Arlington, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Arlington, TX — stadium-district DAS and small cell civil, Woodbine sand foundations, and mid-cities macro compound work.",
+    "h1": "Telecom Site Civil Construction in Arlington, Texas",
+    "intro": "Arlington concentrates more high-density RF demand per square mile than almost anywhere in Texas: AT&T Stadium carries one of the largest indoor DAS deployments in the country, Globe Life Field added a second roofed venue in 2020, and the entertainment district around them keeps building — most recently the National Medal of Honor Museum, opened March 2025. Under all of it runs the sandy Woodbine ground of the Eastern Cross Timbers, a different digging proposition than the clay and chalk most DFW crews assume. Between the venues sit a 400,000-person mid-cities grid, UT Arlington's 40,000-plus students, and GM's Arlington Assembly plant. CellSite Solutions builds the civil layer for all of it from our DFW-area yard, with Arlington's own ROW permitting stack handled as its own process — not Dallas', not Fort Worth's.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, adopted by City Council November 1, 2022; permit applications must comply starting January 1, 2023)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Low-seismicity North Texas setting; publish numeric Ss/S1 only after a USGS design-maps query at the site coordinates."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Arlington sits squarely in the Eastern Cross Timbers, the narrow north-south belt of sandy ground over the Upper Cretaceous Woodbine Formation — sandstone with local shale and clay layers, roughly 300 feet thick near Arlington — that separates the limestone-based Grand Prairie to the west from the Blackland Prairie clays to the east. Woodbine-derived soils are light-colored, leached, iron-rich sands, historically distinctive enough to carry a post-oak forest through open prairie. Alluvial deposits follow Village Creek and Johnson Creek north toward the West Fork of the Trinity River on the city's north edge. (BRIT ecoscapes; Texas A&M Forest Service Eastern Cross Timbers profile.)",
+    "dominantSoilTypes": [
+      "Woodbine-derived fine sandy soils (Eastern Cross Timbers)",
+      "Sandy clays, shale interbeds, and ironstone lenses within the Woodbine",
+      "Alluvial soils along Village Creek, Johnson Creek, and the West Fork Trinity"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "moderate",
+    "expansiveSoilNote": "The sandy Woodbine profile is a lower-plasticity regime than the Blackland clays east of the city or the limestone-prairie clays west of it — but the formation carries clay and shale interbeds, and transition zones at the belt's edges can behave like their clayey neighbors. Treat the sand assumption as a hypothesis the borings must confirm, not a given.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Sandstone-and-shale bedrock; no karst mapping applies to the Woodbine belt."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Building foundations in Arlington means working sand, which most DFW telecom crews — trained on Dallas chalk-and-clay — find unfamiliar in both directions. Excavation is fast and rock refusal is uncommon, but Woodbine sands stand poorly: trench walls slough, bore pits need discipline, and drilled shafts may need casing where clean sand runs below grade, especially near the Village Creek and Johnson Creek bottoms where alluvium and shallower water complicate open holes. Clay and shale interbeds within the formation can perch water and put a plastic layer exactly where a pad subgrade wants uniformity. The upside is real: less expansive-soil movement than the Blackland to the east, minimal rock cost, and quick restoration in most of the city. Frost is irrelevant to depth selection here; embedment minimums and soil stability set the numbers, and site-specific borings — not the belt map — make the final call."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Arlington Planning & Development Services",
+        "url": "https://www.arlingtontx.gov/City-Services/Permits",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permit applications run through the ArlingtonPermits online portal. The 2021 code family governs applications submitted since January 1, 2023."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 editions of the International codes plus the 2020 NEC, adopted by City Council November 1, 2022; permit applications must comply beginning January 1, 2023",
+      "source": "City of Arlington news release — building code updates (arlingtontx.gov)",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network nodes in the public ROW follow the statewide Texas Local Government Code Chapter 284 framework; Arlington administers ROW access through its Right-of-Way Management ordinance chapter and the city's Public Right-of-Way Permitting and Construction Manual — confirm current node design criteria with the city at scoping.",
+    "rowPermitAuthority": {
+      "name": "City of Arlington — ROW permitting per the Public Right-of-Way Permitting and Construction Manual (permits via the ArlingtonPermits portal)",
+      "url": "https://www.arlingtontx.gov/files/assets/city/v/2/strategic-initiatives/documents/real-estate-services/right-of-way-permitting/row-permitting-and-construction-manual.pdf",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "A separate construction permit is required for work in the public ROW. Contractors post annual Performance, Payment, and Maintenance bonds for ROW construction, and any lane closure requires a site-specific traffic control plan approved by the Public Works and Transportation Traffic Engineering Division."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Fort Worth District (Tarrant County, with eight surrounding counties)",
+      "url": "https://www.txdot.gov/about/districts/fort-worth-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-system corridors through Arlington — I-20, I-30, SH-360, US-287 — take TxDOT utility permits through RULIS rather than city ROW permits."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statutory one-call notice before excavation, statewide.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "One-acre disturbance trigger (or smaller sites within a common plan); NOI via STEERS."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Arlington's process is its own, and it is bond-forward: before ROW construction permits issue, the contractor's annual Performance, Payment, and Maintenance bonds must be on file with the city, and lane closures need a site-specific traffic control plan cleared by Traffic Engineering — all applied for through the ArlingtonPermits portal against the ROW Permitting and Construction Manual. Building-permit scopes run through Planning & Development Services under the 2021 codes. The scheduling layer with no Dallas or Fort Worth equivalent is the event calendar: closures and haul routes near AT&T Stadium and Globe Life Field are best planned around game and event days as a matter of practical coordination. State corridors (I-20, I-30, SH-360) shift the ROW question to TxDOT's RULIS process, and the standard Texas layers — Texas811's two business days, TCEQ stormwater at an acre — apply throughout."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Oncor Electric Delivery",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Arlington sits in Oncor's transmission-and-distribution territory within ERCOT's retail-choice market — Oncor builds and owns the wires while a competitive Retail Electric Provider supplies energy. New-service timing for huts and compounds rides Oncor's design queue; apply early and confirm the current intake path when scoping."
+      }
+    ],
+    "ilec": "AT&T (Southwestern Bell Telephone Company, LLC)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Spectrum (Charter)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No frost laws or seasonal thaw postings in Texas — weight limits are fixed, engineering-based postings on specific structures. For shelter deliveries the governing checks are posted bridges on the approach and, uniquely here, the stadium event calendar's effect on haul timing through the entertainment district."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Self-issued, auto-routed oversize/overweight permits for most telecom loads."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP's line runs east-west through Arlington and serves the city's rail-dependent industry, including an Arlington automotive facility handling GM plant traffic — crossing agreements go in at route design, since UP wireline processing is quoted in weeks and delivered in months."
+      }
+    ],
+    "urbanRowRequirements": "ROW construction permits through the ArlingtonPermits portal against the city's ROW Permitting and Construction Manual; annual Performance, Payment, and Maintenance bonds on file; site-specific traffic control plans approved by Traffic Engineering for any lane closure; event-day coordination expected near the entertainment district venues."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Time vegetation removal outside the general songbird nesting season (approximately mid-March through mid-September per TPWD guidance), or precede in-season clearing with a qualified nesting survey",
+      "driver": "Migratory bird nesting (MBTA); no county-specific USFWS bat clearing window was found for Tarrant County",
+      "source": "TPWD Environmental Review guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (SWF) — CWA Section 404",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Village Creek, Johnson Creek, and West Fork Trinity crossings fall under Fort Worth District jurisdiction."
+    },
+    "usaceDistrict": "Fort Worth District (SWF)",
+    "listedSpeciesNote": "Run IPaC per project. Arlington's urban Tarrant County setting rarely carries blanket species constraints, but creek-corridor work along Village and Johnson creeks warrants the standard migratory-bird timing review, and the tricolored bat's unresolved listing status bears checking before clearing-window language is committed.",
+    "floodplainPrevalenceNote": "Arlington's flood exposure follows its creeks rather than a levee system: Village Creek — a 23-mile tributary that feeds Lake Arlington and joins the West Fork Trinity — and Johnson Creek, which rises near I-20 and runs 13 miles northeast through the city, both carry mapped floodplain through developed areas, and the West Fork corridor forms the city's north edge. Trinity-basin flooding here is historically serious (the May 1949 flood killed 10 across the corridor); creek-adjacent compounds get floodplain screening first."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild; sandy sites drain and firm quickly after winter rain",
+        "earthworkConcrete": "workable",
+        "note": "Occasional ice events; freeze-night concrete protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild late-winter conditions",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Good ground; storm season begins",
+        "earthworkConcrete": "favorable",
+        "note": "Nesting-season timing window opens for clearing work"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Favorable; peak hail and tornado season",
+        "earthworkConcrete": "favorable",
+        "note": "Severe-weather contingency; stadium event season in full swing"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable; heavy rain events, but sand recovers fast",
+        "earthworkConcrete": "favorable",
+        "note": "Creek-corridor sites watch rapid rises on Village and Johnson creeks"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Heat building; dry sand handles well",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot — the metro's ~19 annual 100°F days concentrate here",
+        "earthworkConcrete": "constrained",
+        "note": "Early pours; hydration and cure protection"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; loose dry sand complicates compaction moisture control",
+        "earthworkConcrete": "constrained",
+        "note": "Water the subgrade for compaction, not for swell — the opposite clay problem"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime conditions",
+        "earthworkConcrete": "favorable",
+        "note": "Football season peaks event-day coordination in the entertainment district"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; first freeze typically late in the month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild winter conditions",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Arlington's construction calendar is North Texas standard — year-round buildability, July–August heat management, April–May severe weather — but two local twists matter. First, the ground: sandy Woodbine sites shed rain and return to production faster than the clay markets on either side of the belt, which quietly makes Arlington one of the more weather-resilient dig environments in the Metroplex, though summer drought turns compaction into a moisture-addition exercise rather than a drying one. Second, the calendar within the calendar: the entertainment district's event schedule — NFL Sundays, MLB homestands, concerts — governs when closures, hauls, and crane work near the venues are practical. Verify monthly details against NWS Fort Worth/Dallas station normals before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "The Woodbine sand belt makes rock refusal uncommon in Arlington telecom scopes — ironstone lenses interrupt occasionally, but the systematic shallow-rock cost of the limestone prairie west of SH-360 or the chalk of Dallas is largely absent.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Federally funded scopes — BEAD broadband included — carry Davis-Bacon prevailing wage above $2,000; Texas Government Code Chapter 2258 applies prevailing wage to state and locally funded public works. The higher rate governs mixed funding.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hot-weather concreting in July–August and spring severe-weather contingency are the seasonal items; sandy ground keeps rain-delay costs lower than in the metro's clay belts, and winter adds almost nothing.",
+    "narrative": "Arlington's cost profile trades the metro's usual ground problems for logistics ones. Excavation is cheap by DFW standards — little rock, fast digging, quick restoration — but sand costs come back as shoring, casing, and compaction moisture control, and estimators who only price what the auger hits will miss where this market actually spends. The distinctive line items are procedural and calendrical: Arlington's annual ROW bond stack (Performance, Payment, and Maintenance) has to be in place before permits flow, traffic control plans clear through Traffic Engineering, and work near AT&T Stadium and Globe Life Field is scheduled around an event calendar that can idle a closure window on short notice — a real productivity factor on entertainment-district builds. Creek-corridor sites add floodplain screening. Working from our DFW-area yard keeps mobilization off the estimate entirely. Drivers, not prices; the borings, the bond file, and the event calendar set each site's number."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas has no statewide general contractor license — municipal registration and bonding fill the role, and Arlington's version is bond-centric: annual Performance, Payment, and Maintenance bonds filed with the city for ROW construction. Statewide trade licenses still apply, with electrical work licensed through TDLR under a Master Electrician of record and plumbing through TSBPE.",
+    "additionalRegistrations": [
+      "City of Arlington ROW contractor bonding (annual Performance, Payment, and Maintenance bonds) per the ROW Permitting and Construction Manual"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "extreme heat",
+      "flood"
+    ],
+    "designImplications": "Arlington shares the metro's April–May supercell and large-hail peak — anchorage, hardened HVAC, and cable protection earn their keep on compounds here — and its ~19 annual triple-digit days set summer concrete practice. Flood risk is creek-driven: Village and Johnson creek corridors carry mapped floodplain through developed areas, so compound siting starts with the creek map. Venue-adjacent sites add a human factor — post-event crowd and traffic surges affect access and security design around the entertainment district. Wind and ice design values publish only after ASCE/TIA hazard-tool queries."
+    ,
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "AT&T Stadium keeps rebuilding the DAS benchmark",
+        "detail": "AT&T Stadium's rebuilt distributed antenna system — reported at 2,345 remotes with 238 seating-bowl zones versus the original design's 21 — remains one of the largest indoor DAS deployments in the country, and continuing venue-wireless reinvestment across the entertainment district generates recurring node, conduit, and power civil work.",
+        "category": "carrier program",
+        "sourceUrl": "https://stadiumtechreport.com/feature/att-stadium-rewrites-the-das-playbook-for-new-network/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Entertainment district expands again with the National Medal of Honor Museum",
+        "detail": "The 101,000-sq-ft National Medal of Honor Museum opened March 25, 2025 just north of Globe Life Field — the latest in a run of entertainment-district construction that keeps adding venues, hotels, and the connectivity infrastructure that serves event-scale crowds.",
+        "category": "carrier program",
+        "sourceUrl": "https://fortworthreport.org/2025/03/25/national-medal-of-honor-museum-welcomes-veterans-arlington-residents-in-opening-ceremony/",
+        "asOf": "2025-03-25"
+      },
+      {
+        "headline": "Texas BEAD enters its construction phase",
+        "detail": "With NTIA's November 2025 approval of Texas' ~$1.3B BEAD final proposal, construction begins as early as summer 2026 statewide. Urban Arlington is largely served territory, but the program's Davis-Bacon and materials-demand effects reach every Texas civil market.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "fiber hut pad",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Fiber civil in Arlington is mid-cities lateral and distribution work: densification feeds, venue and hotel laterals in the entertainment district, and backbone segments tying the I-20 and I-30 corridors together. The Woodbine sand belt is genuinely kind to directional drilling — fast penetration, no chalk, rare rock refusal — but bore-pit and trench stability do the cost-shifting that rock does elsewhere, and ironstone lenses occasionally bite an easy bore. Union Pacific's east-west line through the city, which also feeds the GM Arlington Assembly plant's rail traffic, puts a Class I crossing agreement on many north-south routes; we file those at route design. City ROW work runs on Arlington's own bond-and-manual process through the ArlingtonPermits portal, while SH-360 and the interstates shift the permit to TxDOT's RULIS. Event-day closure windows near the stadiums are a routing input, not an afterthought.",
+      "localSpecificsReferenced": [
+        "Woodbine sand HDD conditions",
+        "UP line and GM Arlington rail traffic",
+        "ArlingtonPermits / ROW manual process",
+        "Entertainment district laterals"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "small cell and DAS node civil",
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "ground ring and halo",
+        "compound fencing",
+        "C-band / densification upgrade civil"
+      ],
+      "secondaryScopeIds": [
+        "generator and fuel containment pads",
+        "access road and turnaround"
+      ],
+      "narrative": "Arlington is a venue-RF market first. AT&T Stadium runs one of the country's largest indoor DAS plants — its rebuilt network is reported at 2,345 remotes and 238 seating-bowl zones — and Globe Life Field's 5.5-acre retractable roof added a second enclosed venue in 2020, with Choctaw Stadium and the growing museum-and-hotel district around them. Event-scale surges of a hundred thousand visitors demand the node density, conduit, power, and fiber-fed civil that only stadium districts generate, and they demand it be built around a game calendar. Away from the venues, the work is classic mid-cities densification across a 400,000-person grid plus UT Arlington's 40,000-student campus. Foundations ride the Woodbine sand story — minimal rock, real shoring discipline, casing where clean sands run wet near Johnson Creek — under the statewide Chapter 284 node framework administered through Arlington's own ROW manual.",
+      "localSpecificsReferenced": [
+        "AT&T Stadium DAS scale",
+        "Globe Life Field retractable-roof venue",
+        "UT Arlington campus",
+        "Woodbine sand foundations",
+        "Chapter 284 via Arlington ROW manual"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Arlington has no hyperscale campus, and the honest framing is that its edge demand is venue- and industry-driven rather than cloud-regional. The entertainment district is the sharper driver: stadium-scale wireless, ticketing, broadcast, and security systems increasingly want on-premise compute with hardened power, which arrives as micro-DC pads, generator yards, and campus conduit threaded around an event calendar. The industrial anchor is GM's Arlington Assembly — a roughly 5,400-worker plant building full-size SUVs, backed by a $500M+ investment announced in June 2023 — whose automation and logistics systems represent the private-network edge profile that manufacturing campuses generate. Oncor's design queue times the utility side of every yard and pad. Sandy ground keeps excavation predictable; the belt's shoring-and-compaction discipline, not rock, is the cost variable.",
+      "localSpecificsReferenced": [
+        "GM Arlington Assembly $500M+ investment",
+        "Entertainment district on-premise compute demand",
+        "Oncor service queue",
+        "Woodbine sand excavation profile"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 22,
+      "driveTimeHours": 0.4,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Tarrant",
+      "Dallas"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Arlington sits in the middle of our home metro — the mid-cities corridor between the two halves of the Metroplex is everyday working territory for crews out of our Dallas–Fort Worth yard, reached on the I-30 and I-20 corridors without a mobilization charge or a staging plan. The planning question here isn't distance; it's timing. Entertainment-district work gets scheduled against the stadium calendar, because a closure or crane pick that's routine on a Tuesday is impossible on an NFL Sunday, and we treat event-day access windows as a first-class scheduling input rather than a surprise. The listed mileage is a seed estimate pending real routing from the yard, and per policy, any response-time commitment for Tarrant County work is published only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What is different about digging in Arlington compared to Dallas or Fort Worth?",
+      "answer": "The ground. Arlington sits on the Eastern Cross Timbers — sandy, iron-rich soils over the Woodbine Formation, about 300 feet thick here — rather than Dallas' chalk-and-clay or Fort Worth's limestone prairie. Sand digs fast with little rock cost, but trench walls slough and bores need pit discipline, so shoring and casing replace rock excavation as the cost drivers. Estimators pricing Arlington off a Dallas soil assumption miss in both directions.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for telecom construction in Arlington?",
+      "answer": "The City of Arlington, under its Public Right-of-Way Permitting and Construction Manual, with applications through the ArlingtonPermits portal. A separate construction permit is required for ROW work, contractors post annual Performance, Payment, and Maintenance bonds, and lane closures need traffic control plans approved by the Traffic Engineering Division. On I-20, I-30, SH-360, and US-287, the ROW is TxDOT's and permits run through RULIS instead.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does the stadium event calendar affect construction scheduling in Arlington?",
+      "answer": "Directly. Closures, oversize hauls, and crane work near AT&T Stadium, Globe Life Field, and the surrounding district have to be planned around game days, concerts, and event-season crowds — a closure window that works midweek can be unavailable on an event weekend. We build the venue calendar into entertainment-district schedules from the start, which is the difference between a productive month there and a stalled one.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What kind of DAS and small cell demand does Arlington actually have?",
+      "answer": "Among the densest venue demand in Texas. AT&T Stadium's rebuilt DAS is reported at 2,345 remotes with 238 seating-bowl zones — one of the largest indoor deployments in the country — and Globe Life Field, Choctaw Stadium, and the museum-and-hotel district add more enclosed, high-density venues. Around the district sits ordinary mid-cities densification for 400,000 residents plus UT Arlington's 40,000-student campus. The civil layer is nodes, conduit, power, and pads, built on the Chapter 284 framework.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Do Arlington sites near creeks need floodplain review?",
+      "answer": "Yes — Arlington's flood exposure runs along its creeks. Village Creek, a 23-mile tributary feeding Lake Arlington, and Johnson Creek, which rises near I-20 and runs 13 miles through the city toward the West Fork Trinity, both carry mapped floodplain through developed areas. Creek-adjacent compounds get floodplain screening before siting is fixed, and crossings of those waters bring USACE Fort Worth District into the picture.",
+      "segment": "general"
+    },
+    {
+      "question": "How much notice does Texas811 require before excavation in Arlington?",
+      "answer": "Two business days, excluding weekends and holidays — the statewide Texas811 standard. We put the ticket lead into every bore and trench schedule as a floor, not a target, and where a route crosses Union Pacific's line through the city we add the railroad's own agreement timeline, which is measured in weeks to months and governs the schedule far more often than the locates do.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Arlington in August?",
+      "answer": "Yes, with heat discipline — the metro's roughly 19 annual 100°F days concentrate in July and August, so pours go early with chilled mix, retarders, and cure protection. The sand-belt twist is compaction: bone-dry Woodbine sand needs moisture added to hit density, the opposite of the clay-belt problem of drying subgrades out. It's a manageable difference, but only if the spec and the crew both expect sand.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What's driving telecom investment in Arlington right now?",
+      "answer": "Venues and industry more than subsidy. The entertainment district keeps growing — the 101,000-sq-ft National Medal of Honor Museum opened in March 2025 — and every addition raises the district's connectivity and power baseline. GM's Arlington Assembly, with a $500M+ investment announced in 2023 and roughly 5,400 workers building full-size SUVs, anchors private-network and edge demand. Statewide, Texas' BEAD construction phase begins summer 2026, tightening crews and materials across every DFW market.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Working sand: what changes when the site is in the Woodbine belt",
+    "body": "The engineering habit that serves you in most of the Metroplex — treat the ground as expansive clay until proven otherwise — misleads in Arlington, and the correction runs deeper than 'digging is easier.' In Woodbine sand, open excavations are the risk concentration: a trench that would stand overnight in Dallas clay sloughs by lunch here, so the money saved on rock excavation should be rebudgeted into trench protection, bore-pit management, and casing for any shaft that has to stand open, particularly near the Village Creek and Johnson Creek bottoms where alluvium and shallower water show up. Compaction flips its logic too — summer-dry sand needs water added to reach density, where clay needs drying — and a crew that waters like it's conditioning clay will chase density all week. The traps are the interbeds: the Woodbine carries clay and shale layers that can perch water over a pad subgrade or put plastic material exactly where uniform bearing was assumed, and ironstone lenses that stop an auger that sailed through twenty easy feet. So the sequence for an Arlington site: borings that specifically log interbeds and water, not just blow counts; shoring and casing priced as primary line items; compaction moisture planned per season; and if the site sits in the entertainment district, an event-calendar overlay on the whole schedule — because in this market the calendar constrains production as surely as the ground does."
+  },
+  "sources": [
+    {
+      "label": "City of Arlington — building code updates (2021 codes adopted Nov 1, 2022; compliance from Jan 1, 2023)",
+      "url": "https://www.arlingtontx.gov/News-Articles/2022/September/City-of-Arlington-Proposing-Building-Code-Updates",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Arlington — Public Right-of-Way Permitting and Construction Manual",
+      "url": "https://www.arlingtontx.gov/files/assets/city/v/2/strategic-initiatives/documents/real-estate-services/right-of-way-permitting/row-permitting-and-construction-manual.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Arlington — ROW permit application training (ArlingtonPermits portal)",
+      "url": "https://ap.arlingtontx.gov/AP/jsp/ArlingtonTheme/resources/assets/docs/ROWPermitApplicationTraining.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Fort Worth District",
+      "url": "https://www.txdot.gov/about/districts/fort-worth-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas A&M Forest Service — Eastern Cross Timbers (Woodbine Formation, ~300 ft thick near Arlington)",
+      "url": "http://texastreeid.tamu.edu/content/texasEcoRegions/EasternCrossTimbers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BRIT Ecoscapes — Eastern Cross Timbers ecoregion (sandy Woodbine soils)",
+      "url": "https://ecoscapes.brit.org/ecofactors/ecoregions/eastern-cross-timbers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia — Village Creek (Tarrant County), 23-mile Trinity tributary",
+      "url": "https://en.wikipedia.org/wiki/Village_Creek_(Tarrant_County)_Texas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia — Johnson Creek (Texas), 13-mile creek through Arlington",
+      "url": "https://en.wikipedia.org/wiki/Johnson_Creek_(Texas)",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Stadium Tech Report — AT&T Stadium rewrites the DAS playbook (2,345 remotes, 238 bowl zones)",
+      "url": "https://stadiumtechreport.com/feature/att-stadium-rewrites-the-das-playbook-for-new-network/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "HKS — Globe Life Field retractable-roof design",
+      "url": "https://www.hksinc.com/our-news/articles/seven-surprising-things-about-globe-life-fields-design/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Fort Worth Report — National Medal of Honor Museum opening (March 25, 2025)",
+      "url": "https://fortworthreport.org/2025/03/25/national-medal-of-honor-museum-welcomes-veterans-arlington-residents-in-opening-ceremony/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "GM — $500M+ investment in Arlington Assembly for future SUVs (June 2023)",
+      "url": "https://investor.gm.com/news-releases/news-release-details/gm-investing-500m-arlington-assembly-future-suvs",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Union Pacific — Arlington automotive facility profile",
+      "url": "https://www.up.com/shipping/automotive/facility-profiles/arlington",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "World Population Review — Arlington population (2024)",
+      "url": "https://worldpopulationreview.com/us-cities/texas/arlington",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UTA — fall 2024 enrollment growth news release",
+      "url": "https://www.uta.edu/news/news-releases/2024/09/23/uta-sees-enrollment-growth-for-fall-2024",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic.ss/s1 / designRadialIceIn / designTempLowF/HighF",
+      "attempted": "ASCE Hazard Tool, USGS design-maps API, and TIA-222 county data unreachable from the sandbox. Query at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Arlington's amended IRC Table R301.2 value was not locatable — the construction-chapter ordinance PDFs surfaced but the table cell was not readable. Cite the amended cell before publishing a frost line."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Arlington's designated NFIP floodplain administrator office was not confirmed from a primary source this session — identify and add with URL before publish."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — ordinance number",
+      "attempted": "Adoption date and compliance date sourced from the city's news release; the specific adopting ordinance number should be added from the Construction chapter before sign-off."
+    },
+    {
+      "field": "geotech — bearing ranges, depth to rock, groundwater, NRCS corrosivity ratings",
+      "attempted": "NRCS Web Soil Survey interactive not scriptable from sandbox; sand-belt characterization is qualitative (BRIT/TFS) pending numeric pulls."
+    },
+    {
+      "field": "utilities — Oncor new-service intake URL and lead times",
+      "attempted": "oncor.com unfetchable; lead times require utility/ops confirmation."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "22 mi / 0.4 h is the seed straight-line estimate from Dallas city center; real routing from the actual DFW yard address (pending from ownership) must set these before routeVerified flips."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for coverage list and any response commitment."
+    },
+    {
+      "field": "seasonality — station normals confirmation",
+      "attempted": "Calendar authored from confirmed DFW regional statistics (NWS FWD); verify against station normals table before publish."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}
