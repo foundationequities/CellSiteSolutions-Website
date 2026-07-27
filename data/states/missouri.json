@@ -1,0 +1,110 @@
+{
+  "identity": {
+    "slug": "missouri",
+    "name": "Missouri",
+    "abbr": "MO"
+  },
+  "metadata": {
+    "title": null,
+    "description": null,
+    "h1": null,
+    "intro": null
+  },
+  "codeAdoption": {
+    "narrative": null,
+    "source": null
+  },
+  "dotRowProcess": {
+    "narrative": null,
+    "source": null
+  },
+  "oneCall": {
+    "name": null,
+    "url": null,
+    "ticketLeadBusinessDays": null,
+    "source": null
+  },
+  "designCriteriaVariation": {
+    "windSpeedRangeMph": {
+      "low": null,
+      "high": null
+    },
+    "frostDepthRangeIn": {
+      "low": null,
+      "high": null
+    },
+    "groundSnowRangePsf": {
+      "low": null,
+      "high": null
+    },
+    "narrative": null,
+    "source": null
+  },
+  "seasonalLoadRegime": {
+    "narrative": null,
+    "source": null
+  },
+  "environmentalReview": {
+    "narrative": null,
+    "source": null
+  },
+  "contractorLicensing": {
+    "narrative": null,
+    "source": null
+  },
+  "telecomLandscape": {
+    "narrative": null,
+    "source": null
+  },
+  "faq": [],
+  "sources": [],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "codeAdoption",
+      "attempted": "State code council / adoption ordinance survey"
+    },
+    {
+      "field": "dotRowProcess",
+      "attempted": "State DOT utility accommodation manual"
+    },
+    {
+      "field": "oneCall",
+      "attempted": "State 811 center site"
+    },
+    {
+      "field": "designCriteriaVariation",
+      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
+    },
+    {
+      "field": "seasonalLoadRegime",
+      "attempted": "State DOT seasonal weight restriction program"
+    },
+    {
+      "field": "environmentalReview",
+      "attempted": "SHPO + state environmental agency"
+    },
+    {
+      "field": "contractorLicensing",
+      "attempted": "State licensing board"
+    },
+    {
+      "field": "telecomLandscape",
+      "attempted": "State broadband office + market research"
+    },
+    {
+      "field": "metadata",
+      "attempted": "Authored after research complete"
+    },
+    {
+      "field": "faq",
+      "attempted": "Authored after research complete"
+    },
+    {
+      "field": "sources",
+      "attempted": "Populate as research proceeds"
+    }
+  ]
+}

@@ -420,3 +420,23 @@ export async function POST(req: Request) {
 - After each phase, summarize what changed and what's left. Commit in small, labeled increments.
 - If something on the live site can't be reproduced (a WP plugin widget, an animation), flag it
   in `_reference/INVENTORY.md` and propose the closest clean-code equivalent rather than guessing.
+
+---
+
+## Civil Services Locations program (active workstream)
+
+A 65-market locations cluster (city pages + state hubs + national index) is being
+built under `/civil-services/locations/`. **All rules, phases, and data contracts
+live in `docs/civil-locations/`** — read `docs/civil-locations/CLAUDE.md` first;
+its hard rules (never fabricate engineering/regulatory values, no city-name-swap
+templating, two staffed yards only, humans set `_verified`) override anything else
+for that workstream. Key paths:
+
+- `data/_schema.ts` — location data contract (Zod). Do not loosen constraints.
+- `data/locations.seed.json` — 65 seeded markets (research pending)
+- `data/locations/{state}/{city}.json` — per-market data (Phase 4+)
+- `data/states/*.json` + `src/lib/states.ts` — state hub content model
+- `src/lib/locations.ts` / `src/lib/jsonld.ts` — data access + structured data
+- `scripts/*-audit.ts`, `scripts/validate-locations.ts` — the six content gates,
+  run by `pnpm run audit` and wired into `prebuild`. Never add `|| true`.
+- `docs/civil-locations/kit/` — staged Phase 2/3 files (nav, footer, routes) as `.txt`

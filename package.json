@@ -10,7 +10,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate": "tsx scripts/validate-locations.ts",
+    "audit:uniqueness": "tsx scripts/uniqueness-audit.ts",
+    "audit": "pnpm run validate && pnpm run audit:uniqueness && tsx scripts/word-count-audit.ts && tsx scripts/link-audit.ts && tsx scripts/metadata-audit.ts && tsx scripts/source-audit.ts",
+    "prebuild": "pnpm run audit"
   },
   "dependencies": {
     "next": "16.2.10",
@@ -28,6 +32,7 @@
     "eslint-config-next": "16.2.10",
     "playwright-core": "^1.62.0",
     "tailwindcss": "^4",
+    "tsx": "^4.23.1",
     "typescript": "^5"
   },
   "pnpm": {

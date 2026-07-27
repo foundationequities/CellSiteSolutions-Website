@@ -1,0 +1,63 @@
+/**
+ * Single source of truth for the main nav and the footer.
+ * Nav and footer must never drift — both read from here.
+ */
+
+export type NavItem = {
+  label: string;
+  href: string;
+  /** renders a divider above this item in the dropdown */
+  dividerBefore?: boolean;
+};
+
+export type NavSection = {
+  label: string;
+  href: string;
+  items?: NavItem[];
+};
+
+export const CIVIL_SERVICES_NAV: NavSection = {
+  label: "Civil Services",
+  href: "/civil-services/",
+  items: [
+    { label: "Civil Services Overview", href: "/civil-services/" },
+    { label: "Site Development & Earthwork", href: "/civil-services/site-development/" },
+    { label: "Concrete & Foundations", href: "/civil-services/foundations/" },
+    { label: "Underground & Duct Bank", href: "/civil-services/underground-duct-bank/" },
+    { label: "Directional Boring & HDD", href: "/civil-services/directional-boring/" },
+    { label: "Grounding & Electrical Civil", href: "/civil-services/grounding/" },
+    { label: "Compound & Security", href: "/civil-services/compound-security/" },
+    { label: "Steel, Ice Bridge & Mounting", href: "/civil-services/structural-mounting/" },
+    // Wayfinding, not a service — separated deliberately.
+    // This is the main-nav entry point into the locations cluster. See PLAN §7.
+    { label: "Service Locations", href: "/civil-services/locations/", dividerBefore: true },
+  ],
+};
+
+/** Order shown in the footer. Alphabetical — no implied priority ranking. */
+export const FOOTER_STATES = [
+  { name: "Alabama", slug: "alabama" },
+  { name: "Illinois", slug: "illinois" },
+  { name: "Iowa", slug: "iowa" },
+  { name: "Kansas", slug: "kansas" },
+  { name: "Missouri", slug: "missouri" },
+  { name: "Nebraska", slug: "nebraska" },
+  { name: "Oklahoma", slug: "oklahoma" },
+  { name: "Texas", slug: "texas" },
+  { name: "Wisconsin", slug: "wisconsin" },
+] as const;
+
+export const LOCATIONS_INDEX_HREF = "/civil-services/locations/";
+
+export function stateHref(slug: string) {
+  return `${LOCATIONS_INDEX_HREF}${slug}/`;
+}
+
+export function cityHref(stateSlug: string, citySlug: string) {
+  return `${LOCATIONS_INDEX_HREF}${stateSlug}/${citySlug}/`;
+}
+
+/** Footer renders expanded only inside the civil services cluster. See PLAN §8. */
+export function footerVariantForPath(pathname: string): "compact" | "expanded" {
+  return pathname.startsWith("/civil-services") ? "expanded" : "compact";
+}

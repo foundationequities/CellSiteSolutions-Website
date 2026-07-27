@@ -1,0 +1,38 @@
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import { getStates, getStateLocations } from "@/lib/locations";
+import { getStateHub } from "@/lib/states";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getStates().map((s) => ({ state: s.slug }));
+}
+
+export function generateMetadata({ params }: { params: { state: string } }): Metadata {
+  const hub = getStateHub(params.state);
+  if (!hub) return {};
+  return {
+    title: hub.metadata.title,
+    description: hub.metadata.description,
+    alternates: { canonical: `/civil-services/locations/${params.state}/` },
+  };
+}
+
+/**
+ * State hub. This layer is not decorative — it is the browseable hierarchy that
+ * keeps the city cluster clear of doorway classification. It must carry real,
+ * unique statewide content (1,200-1,500 words), not just a link list.
+ * See PLAN §6.1.
+ */
+export default function StatePage({ params }: { params: { state: string } }) {
+  const hub = getStateHub(params.state);
+  const cities = getStateLocations(params.state);
+  if (!hub || cities.length === 0) notFound();
+
+  // Compose from: statewide code adoption, DOT ROW process, 811 center,
+  // design-criteria variation table, load restriction regime, SHPO and
+  // environmental review, contractor licensing, telecom landscape,
+  // city grid with one-line differentiators, counties served, state FAQ.
+  return <StateHubLayout hub={hub} cities={cities} />;
+}

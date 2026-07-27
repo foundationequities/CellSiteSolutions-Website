@@ -1,0 +1,78 @@
+import Link from "next/link";
+import {
+  FOOTER_STATES,
+  LOCATIONS_INDEX_HREF,
+  stateHref,
+  cityHref,
+} from "@/config/navigation";
+import { getStateLocations } from "@/lib/locations";
+
+/**
+ * CIVIL SERVICES LOCATIONS footer block.
+ *
+ * compact  — sitewide. 10 links total. State hubs carry the city links.
+ * expanded — rendered only within /civil-services/**. All 65 cities.
+ *
+ * Do not render the expanded variant sitewide: a 65-link sitewide boilerplate
+ * block dilutes internal link equity across every page and works against the
+ * per-page uniqueness budget. See PLAN §8.
+ *
+ * Styling note: use the site's existing footer type scale and color tokens.
+ * Do not introduce a separate visual treatment for this block.
+ */
+
+type Props = { variant: "compact" | "expanded" };
+
+export default function LocationsFooter({ variant }: Props) {
+  return (
+    <nav aria-labelledby="footer-locations-heading" className="footer-locations">
+      <h2 id="footer-locations-heading" className="footer-locations__heading">
+        Civil Services Locations
+      </h2>
+
+      {variant === "compact" ? <CompactStates /> : <ExpandedStates />}
+
+      <p className="footer-locations__all">
+        <Link href={LOCATIONS_INDEX_HREF}>View all 65 service locations</Link>
+      </p>
+    </nav>
+  );
+}
+
+function CompactStates() {
+  return (
+    <ul className="footer-locations__states">
+      {FOOTER_STATES.map((s) => (
+        <li key={s.slug}>
+          <Link href={stateHref(s.slug)}>{s.name}</Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function ExpandedStates() {
+  return (
+    <div className="footer-locations__grid">
+      {FOOTER_STATES.map((s) => {
+        const cities = getStateLocations(s.slug);
+        return (
+          <section key={s.slug} className="footer-locations__column">
+            <h3>
+              <Link href={stateHref(s.slug)}>{s.name}</Link>
+            </h3>
+            <ul>
+              {cities.map((c) => (
+                <li key={c.identity.slug}>
+                  <Link href={cityHref(s.slug, c.identity.slug)}>
+                    {c.identity.city}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })}
+    </div>
+  );
+}
