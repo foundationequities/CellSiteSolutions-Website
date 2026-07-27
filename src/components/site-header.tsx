@@ -21,7 +21,7 @@ export function SiteHeader() {
             width={headerWhite.width}
             height={headerWhite.height}
             priority
-            className="h-12 w-auto sm:h-14 lg:h-[72px]"
+            className="h-10 w-auto sm:h-12 lg:h-16"
           />
         </Link>
 
