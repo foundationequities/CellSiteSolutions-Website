@@ -5,24 +5,24 @@
     "abbr": "WI"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Wisconsin Telecom Civil Construction | CellSite Solutions",
+    "description": "Fiber, wireless, and edge site civil work across Wisconsin — 48-inch frost foundations, WPDES stormwater leads, and hauls timed to spring road postings.",
+    "h1": "Telecom Site Civil Construction Across Wisconsin",
+    "intro": "Building a telecom site in Wisconsin means working inside a rulebook that is more uniform — and in places more demanding — than anywhere else in our footprint. One commercial building code applies statewide, footings go at least 48 inches below grade, the DNR's stormwater program wants its Notice of Intent 14 working days before you disturb an acre, and the state regulates wetlands the federal program never reaches. Layer on a road network that runs its own frost calendar, from winter frozen-road declarations to Class II spring thaw postings, and the schedule becomes the engineering problem. CellSite Solutions serves Milwaukee, Madison, Green Bay, Eau Claire, and the markets between them from our Cedar Rapids, Iowa yard, self-performing shelter and hut foundations, duct bank and underground, grounding, and compound construction with Wisconsin's lead times built into every plan."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Wisconsin administers a single statewide commercial code: the Wisconsin Commercial Building Code, SPS 361–366, which moved onto the 2021 IBC effective September 1, 2025 — plans submitted on or after November 1, 2025 must comply with the updated chapters. Municipalities enforce the same code rather than adopting their own editions, so a shelter foundation detailed for Milwaukee reviews against the same base document in Eau Claire; what varies locally is plan-review delegation, fees, and process. The frost floor comes from the Uniform Dwelling Code side of the same rulebook: SPS 321.16 requires footings to extend below frost penetration or at least 48 inches below adjacent grade, whichever is deeper — the deepest baseline in our nine-state footprint — and each city's commercial application of that figure should be confirmed with its inspection office before design release.",
+    "source": "Wisconsin DSPS commercial building code news release (July 30, 2025); Wis. Admin. Code SPS 321.16"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Utility work on state trunk highway right-of-way runs through WisDOT's Utility Accommodation Policy, housed in Chapter 9 of the Highway Maintenance Manual and grounded in Wis. Stat. 86.16. The instrument is the DT1553 utility permit — Application/Permit to Construct, Operate and Maintain Utility Facilities on Highway Right-of-Way — issued through the five WisDOT regions, so a fiber crossing near Madison files with the Southwest Region while an Eau Claire bore files with the Northwest Region. The statute carries a built-in clock: if WisDOT denies a permit or fails to act within 20 days, the applicant can appeal to the Division of Hearings and Appeals. Oversize and overweight moves are permitted separately through WisDOT's online system at wi.gotpermits.com/wiconnect.",
+    "source": "WisDOT utility permits page (Wis. Stat. 86.16, Form DT1553); WisDOT OSOW permits page"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "Diggers Hotline",
+    "url": "https://www.diggershotline.com/excavators-guide",
+    "ticketLeadBusinessDays": 3,
+    "source": "Diggers Hotline excavator's guide; Wis. Stat. 182.0175"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -30,81 +30,127 @@
       "high": null
     },
     "frostDepthRangeIn": {
-      "low": null,
-      "high": null
+      "low": 48,
+      "high": 48
     },
     "groundSnowRangePsf": {
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "Frost is the one criterion Wisconsin fixes statewide: SPS 321.16 sets a 48-inch minimum footing depth (deeper where frost penetration exceeds it), so foundation embedment does not relax as you move south the way it does in Iowa or Missouri. Snow load works differently — Wisconsin publishes its own alternate ground-snow zone map under SPS 362.1608, which supersedes a raw ASCE 7 lookup and must be read per county before a value is published. Site-specific wind speeds come from the ASCE 7 hazard tool at each site's coordinates; we publish per-city values only once queried and verified, so the statewide range is intentionally left blank here.",
+    "source": "Wis. Admin. Code SPS 321.16; SPS 362.1608 (alternate ground snow zones)"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Wisconsin operates a two-sided seasonal weight program that shapes every shelter and hut delivery. In deep winter, WisDOT can declare frozen-road periods that permit heavier loads on designated routes — an advantage for concrete shelter sets if you plan into it. When thaw begins, the state posts Class II spring weight restrictions on roughly 1,400 miles of vulnerable highways; in 2026 the postings ran February 20 through April 30, varying by zone. Counties, towns, and cities post their own roads on top of the state list, and those local postings are usually the binding constraint on the last miles to a rural site. We schedule heavy hauls to the declarations and postings, not to the calendar month.",
+    "source": "WisDOT seasonal weight restrictions program page"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "Three review tracks matter on Wisconsin telecom builds. Wetlands: Wis. Stat. 281.36 gives the DNR jurisdiction over nonfederal wetlands as well as federal ones, with narrow exemptions, so alignments get screened against wetland mapping even where a Section 404 analysis would clear them; the USACE St. Paul District covers the federal side. Species: the northern long-eared bat drives tree clearing — WisDOT guidance restricts clearing in suitable habitat April 1 through October 31, protects occupied roost trees June 1 through July 31, and bars removal near hibernacula, which in practice pushes greenfield clearing into winter. History: the Wisconsin Historical Society's State Historic Preservation Office handles Section 106 review on federally funded work, including BEAD-financed fiber.",
+    "source": "Wisconsin DNR wetland permits page (Wis. Stat. 281.36); WisDOT NLEB non-federal guidance (April 2023); Wisconsin Historical Society SHPO"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Wisconsin issues no statewide license for commercial general contractors. Commercial construction is controlled through the uniform code, plan review, and permits rather than a GC credential — the DSPS Dwelling Contractor certification that out-of-state firms sometimes ask about applies only to one- and two-family residential work. Electrical and plumbing trades carry their own state licenses, and federally funded broadband work adds Davis-Bacon wage compliance because Wisconsin repealed its own prevailing wage statutes under 2017 Act 59. Confirm current requirements against DSPS before bid, as this summary rests partly on secondary compilations.",
+    "source": "Wisconsin DSPS; WisDOT prevailing wage compliance page (2017 Act 59)"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Two programs define Wisconsin's near-term telecom construction market. The first is BEAD: NTIA approved the state's final proposal in December 2025 at $1,055,823,573, administered by the Public Service Commission, with roughly 76 percent of awards going to fiber — a multi-year rural construction pipeline of huts, duct, bores, and drops across every region of the state. The second is hyperscale: Microsoft's Mount Pleasant campus in Racine County completed its first AI data center in June 2026 with a $4 billion second facility announced and approval for more buildings, while Vantage broke ground on a four-building, up-to-902 MW campus at Port Washington in December 2025 — concentrating data center civil work along the I-94/I-43 lakefront corridor. On the wireless side, 2019 Act 14 (Wis. Stat. 66.0414) standardizes small cell deployment statewide, capping ROW collocation rates at the lesser of actual cost or $250 per facility per year, which keeps municipal process differences narrow.",
+    "source": "PSC of Wisconsin BEAD process page; The Daily Reporter (Mount Pleasant, Port Washington coverage); 2019 Wisconsin Act 14"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "How deep do telecom foundations have to go anywhere in Wisconsin?",
+      "answer": "At least 48 inches below adjacent grade, statewide. SPS 321.16 requires footings to reach below frost penetration or 48 inches, whichever is deeper, and the requirement does not shrink in the state's southern counties. That single number drives more excavation, more spoil, and more winter protection than any other line item on a Wisconsin foundation, and each city's inspection office confirms how it applies to a specific commercial project."
+    },
+    {
+      "question": "What advance notice do Wisconsin projects need before digging?",
+      "answer": "Two clocks run in parallel. Diggers Hotline, the state's one-call center, requires three business days' notice before excavation under Wis. Stat. 182.0175. Separately, any project disturbing an acre or more must file its WPDES construction stormwater Notice of Intent with the DNR at least 14 working days before disturbance — close to three weeks of real lead. We start both as soon as a dig date firms up so neither lands on the critical path."
+    },
+    {
+      "question": "Do Wisconsin's spring road restrictions really affect telecom deliveries?",
+      "answer": "Yes, and more than most schedulers expect. WisDOT posts Class II thaw restrictions on about 1,400 miles of state highway — February 20 through April 30 in 2026 — and county and town roads post separately, which is usually what blocks the final approach to a rural compound. The flip side is the winter frozen-road declaration, which can allow heavier loads than normal. Shelter sets get planned to those windows rather than to a target month."
+    },
+    {
+      "question": "Is a contractor license required for commercial telecom civil work in Wisconsin?",
+      "answer": "There is no statewide commercial general contractor license. Wisconsin governs commercial work through its uniform code (SPS 361–366), plan review, and local permits; the DSPS Dwelling Contractor credential covers only 1–2 family residential construction. Licensed electricians and plumbers handle their trades, and BEAD-funded builds carry federal Davis-Bacon wage requirements since the state repealed its own prevailing wage laws in 2017 Act 59."
+    },
+    {
+      "question": "Why does wetland permitting reach further in Wisconsin than in neighboring states?",
+      "answer": "Because Wisconsin regulates nonfederal wetlands. Under Wis. Stat. 281.36, filling a wetland requires a DNR general or individual permit even where federal Section 404 jurisdiction would not attach, with only narrow exemptions of up to one acre urban or three acres rural after pre-notification. Fiber routes planned on a federal-only assumption get caught here, so we screen Wisconsin alignments against wetland mapping before locking a design."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wisconsin DSPS — commercial building code update to 2021 IBC (SPS 361–366)",
+      "url": "https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16 — footing depth / frost",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/2/c/2",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — utility permits on highway right-of-way (Wis. Stat. 86.16, Form DT1553)",
+      "url": "https://wisconsindot.gov/Pages/doing-bus/real-estate/permits/utility-highway.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — seasonal weight restrictions (frozen road / Class II)",
+      "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — oversize/overweight permits (wi.gotpermits.com/wiconnect)",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Diggers Hotline — excavator's guide (3 business days' notice)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — construction stormwater (WPDES general permit, 14-working-day NOI)",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — wetland permits (Wis. Stat. 281.36)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — northern long-eared bat non-federal guidance",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "2019 Wisconsin Act 14 — small wireless facilities (Wis. Stat. 66.0414)",
+      "url": "https://docs.legis.wisconsin.gov/2019/related/acts/14",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "PSC of Wisconsin — BEAD process and final proposal approval",
+      "url": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — prevailing wage (2017 Act 59 repeal; Davis-Bacon on federal work)",
+      "url": "https://wisconsindot.gov/Pages/doing-bus/civil-rights/labornwage/prevailing-wage-compliance.aspx",
+      "accessedDate": "2026-07-28"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation.windSpeedRangeMph / groundSnowRangePsf",
+      "attempted": "ASCE 7 hazard tool blocked by egress proxy in earlier research; SPS 362.1608 alternate snow zone map located but county values unreadable through the proxy. Numeric statewide ranges left null rather than estimated."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
-    },
-    {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
-    },
-    {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
-    },
-    {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
-    },
-    {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
-    },
-    {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "contractorLicensing — DSPS primary-source confirmation",
+      "attempted": "Summary compiled from consistent secondary sources and statute references; dsps.wi.gov licensing pages themselves were not fetchable during research."
     }
   ]
 }
