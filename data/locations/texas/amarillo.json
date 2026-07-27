@@ -1,0 +1,667 @@
+{
+  "identity": {
+    "slug": "amarillo",
+    "city": "Amarillo",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Potter",
+      "Randall"
+    ],
+    "msa": "Amarillo, TX (Potter and Randall counties at its core)",
+    "tier": 3,
+    "latitude": 35.222,
+    "longitude": -101.8313,
+    "elevationFt": 3605,
+    "population": {
+      "value": 200549,
+      "source": "U.S. Census Bureau 2020 Census count for Amarillo city (2024 estimates ~202,400 per Census-data republishers) — confirm current vintage against QuickFacts",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-40",
+      "I-27"
+    ],
+    "majorRoutes": [
+      "US-287",
+      "US-60",
+      "US-87",
+      "Loop 335"
+    ]
+  },
+  "metadata": {
+    "title": "Amarillo, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Amarillo, TX - wind-hardened compounds, I-40 long-haul fiber support and caprock caliche foundations on the High Plains.",
+    "h1": "Telecom Site Civil Construction in Amarillo, Texas",
+    "intro": "Amarillo is where long-haul infrastructure crosses the High Plains: BNSF's Southern Transcon puts roughly a hundred trains a day through the city, I-40 and I-27 intersect here, and Zayo built a 170-mile fiber route from Amarillo toward DFW specifically for route diversity. It is also the roughest construction climate in Texas — the state's highest average winds, real blizzards, hard cold snaps, and hail — sitting on Ogallala caprock caliche and playa-basin clays at 3,600 feet. On the grid, the Panhandle isn't even ERCOT: Xcel Energy's Southwestern Public Service serves Amarillo inside the Southwest Power Pool. CellSite Solutions deploys crews from our Dallas yard on a project basis for compound, fiber, and pad civil across the Panhandle.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 I-codes; the city's Building Safety pages confirm the 2021 IRC with local amendments via Ordinance 7101 — confirm the commercial IBC edition with the Building Official)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "The Panhandle is a low-seismicity region relative to the injection-driven activity further south in the Permian; numeric Ss/S1 values still publish only after a USGS design-maps query at site coordinates. Wind and ice — not seismic — govern structures here, and those numeric values are likewise gapped pending the ASCE Hazard Tool and TIA-222 county data."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Amarillo sits on the High Plains surface above the Ogallala Formation — stream-laid sands and gravels grading up into finer sediments, capped near-surface across much of the area by the resistant caliche 'caprock' formed from leached and re-deposited carbonate. Pleistocene playa-lake deposits and windblown cover sediments dot the surface, with playas sitting up to 20 feet below the surrounding plain; Pullman clay loam and playa-bottom Randall clay carry clayey, slowly permeable subsoils with shrink-swell behavior. South of the city the Prairie Dog Town Fork of the Red River cuts the caprock at Palo Duro Canyon. (WTSU Geological Society Palo Duro guidebook; North Plains GCD Ogallala descriptions; TTU playa soil mineralogy.)",
+    "dominantSoilTypes": [
+      "Pullman clay loam (clayey subsoil, slowly permeable)",
+      "Randall clay (playa bottoms)",
+      "Amarillo-series loams (eolian uplands)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "moderate",
+    "expansiveSoilNote": "Pullman and Randall soils carry clayey subsoil horizons with documented shrink-swell properties — less severe than Blackland Vertisols but not ignorable, particularly at playa margins where Randall clay ponds and cycles. Numeric NRCS linear-extensibility ratings are pending a Web Soil Survey query; site borings govern.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Caprock caliche is a cemented cap, not a dissolution terrain; no karst mapping applies to the Amarillo area within the sources reviewed."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Calcareous High Plains soils and playa clays differ in corrosivity behavior; numeric NRCS corrosion-of-steel and concrete ratings for the mapped units are pending a Web Soil Survey query and should be added before publication.",
+    "foundationApproachNarrative": "Amarillo foundations juggle three variables the rest of Texas rarely stacks together: caprock caliche, playa clays, and a genuine freeze season. On upland sites the cemented caliche cap is both obstacle and asset — excavation prices like weak rock, but a pier or footing seated in intact caprock bears firmly. At playa margins the profile flips to Randall clay: slowly permeable, seasonally ponded, shrink-swell active — the classic wrong place for a pad without moisture-conditioned subgrade, drainage design, or a deeper foundation. And unlike the rest of the state's telecom footprint in Texas, Amarillo winters are real: footing embedment must respect the local frost provisions (the amended code value is gapped pending verification — do not assume a lowland-Texas number), and winter concrete carries cold-weather protection as a matter of course. Borings that log caliche depth and flag playa-influenced soils drive every one of these calls."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Amarillo Building Safety",
+        "url": "https://www.amarillo.gov/building-safety/residential-permits/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers permits and plan review citywide across both Potter and Randall county portions of the city; 2021 IRC with amendments per Ordinance 7101. Confirm the commercial code edition and current review times with the Building Official."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Residential Code with City of Amarillo amendments (Ordinance 7101) per Building Safety; commercial I-code edition pending confirmation with the Building Official",
+      "source": "City of Amarillo Building Safety — residential code information: https://www.amarillo.gov/building-safety/residential-permits/",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "ROW network nodes follow Texas Local Government Code Chapter 284 statewide — administrative review with capped fees — implemented through the city's ROW management; verify Amarillo's node design standards before submitting.",
+    "rowPermitAuthority": {
+      "name": "City of Amarillo Street Division — Service Line Permit for any utility excavation in city streets or alleys; TxDOT via RULIS on the state system",
+      "url": "https://www.amarillo.gov/street/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Excavation and restoration plans are required with the application, restoration follows city paving specifications, and no work begins until the permit is approved; emergency excavations must be reported and permitted within 24 hours or the next working day."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Amarillo District (17 Panhandle counties including Potter and Randall)",
+      "url": "https://www.txdot.gov/about/districts/amarillo-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI via STEERS at one acre of disturbance; playa-adjacent sites deserve early attention in the SWPPP because runoff terminates in closed basins."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Amarillo's permit stack is compact by big-metro standards: Building Safety handles plan review and permits citywide, utility excavation in streets and alleys runs on the Street Division's Service Line Permit with restoration to city paving specs, and TxDOT's Amarillo District permits state-system ROW across seventeen Panhandle counties through RULIS. The statewide layers behave as they do everywhere in Texas — TCEQ's construction general permit at an acre (7-day NOI clock), Texas811 at two business days. The scheduling wildcards are physical, not procedural: BNSF crossing agreements on Transcon-adjacent routes, which run on railroad time, and a winter calendar that can freeze out inspection and pour windows the permit dates assumed."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Xcel Energy — Southwestern Public Service Company (SPS)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Amarillo-headquartered SPS serves ~378,000 customers across the Panhandle, South Plains, and eastern New Mexico — inside the Southwest Power Pool and the Eastern Interconnection, NOT ERCOT, so ERCOT retail choice and interconnection assumptions do not apply. SPS was awarded a $113M Texas Energy Fund 'Outside ERCOT' grant for Panhandle grid reliability projects. Confirm new-service intake and lead times directly."
+      }
+    ],
+    "ilec": "AT&T (most widely available wireline provider in Amarillo; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Vexus Fiber",
+      "AW Broadband (Panhandle regional)"
+    ],
+    "notableDataCenterCampuses": [
+      "Fermi America 'HyperGrid' campus near Pantex (announced 5,800-acre energy-and-AI campus, ~18M sq ft of data centers planned)"
+    ],
+    "longHaulRouteNotes": "Zayo completed a ~170-mile fiber build between Amarillo and Oklaunion in 2022 expressly to add diversity on a key route toward Dallas/Fort Worth — a public marker of Amarillo's role as a Panhandle long-haul junction alongside the I-40 and BNSF Transcon corridors.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas posts no spring frost laws even here in its snowiest metro — load postings are year-round and structure-specific. What winter does restrict is passage itself: Panhandle blizzards and ice close I-40 and US-287 outright a few times most years, so haul plans carry weather contingency instead of thaw restrictions."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Self-issued, auto-routed permits for most loads; high-wind days are the practical constraint on tall or high-profile shelter hauls across the Panhandle."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Amarillo sits on the Southern Transcon — the nation's busiest freight main line, roughly 100 trains daily, four main tracks through the city since 2018, and a crew-change point. Any fiber crossing or parallel occupancy is a BNSF agreement on BNSF's timeline; file at project start, not at mobilization."
+      }
+    ],
+    "urbanRowRequirements": "Street Division Service Line Permit for excavation in city streets and alleys, with excavation and restoration plans submitted up front and restoration to city paving specifications."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Vegetation and brush removal scheduled outside the general March 15 – September 15 nesting window, or preceded by nesting surveys",
+      "driver": "Migratory bird nesting under the MBTA (statewide TPWD guidance); the treeless High Plains make this mostly a grassland- and structure-nesting issue rather than a timber one",
+      "source": "TPWD Environmental Review guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission — Section 106 / Antiquities Code review via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE regulatory program (Panhandle district assignment to be confirmed — the Tulsa District's Section 10 list covers the Canadian River in the Texas Panhandle, but county-level regulatory boundaries were not confirmed)",
+      "url": "https://www.swt.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Playa basins are the wetland question here: closed depressions that hold seasonal water and support waterfowl. Screen any playa-adjacent duct bank, access road, or compound before design commits."
+    },
+    "usaceDistrict": null,
+    "listedSpeciesNote": "No county-specific list was compiled — run IPaC for Potter or Randall County per project. Playas function as significant migratory waterfowl habitat on the High Plains, which can pull water- and bird-related reviews onto otherwise dry-land projects.",
+    "floodplainPrevalenceNote": "Drainage on the plain terminates in playas — closed basins sitting up to 20 feet below the surrounding surface that pond after storms and snowmelt — rather than flowing to rivers, so flood exposure is a siting question around mapped depressions. The exception is the breaks: tributaries of the Prairie Dog Town Fork of the Red River cut the caprock south and east of the city."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen mornings, hard freezes; snow cover possible in a 15.6-inch average season",
+        "earthworkConcrete": "constrained",
+        "note": "Cold-weather concrete protection mandatory; cold waves can reach well below zero"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw cycling; snow and ice events still routine",
+        "earthworkConcrete": "constrained",
+        "note": "Blizzard risk persists; I-40/US-287 closures possible"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawing ground; strongest winds of the year arrive",
+        "earthworkConcrete": "workable",
+        "note": "Late-season snow possible; wind governs crane and enclosure work"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying and warming; peak wind season continues",
+        "earthworkConcrete": "workable",
+        "note": "High-wind days constrain picks; last snows historically into April"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Good ground; severe-weather season with hail and supercells",
+        "earthworkConcrete": "favorable",
+        "note": "Weather-day contingency for hail and lightning"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, mostly dry; excellent conditions at altitude",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Warm High Plains summer — average highs near 91°F, cool nights",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather practice on peak afternoons; far milder than lowland Texas"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Similar — warm days, dry ground, big diurnal swings",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Prime conditions; first cold fronts late month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Excellent working ground; first freezes arrive",
+        "earthworkConcrete": "favorable",
+        "note": "Push freeze-sensitive scopes to completion"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Freeze nights routine; season's first snows",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice resumes"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Winter proper — freezes, snow, ice risk",
+        "earthworkConcrete": "constrained",
+        "note": "Blizzard contingency in haul and pour planning"
+      }
+    ],
+    "narrative": "Amarillo runs on a genuinely different calendar from every other Texas market CSS serves — it is the only one with a real winter. Averages of 15.6 inches of snow, heavy-snow/near-blizzard events about every fifth year, and cold waves that can push far below zero make December through February constrained months, with cold-weather concrete practice and road-closure contingency built into schedules. The compensation is summer: at 3,600 feet, July highs average around 91°F with cool nights — the most comfortable concrete season in the state. Spring is the wildcard, with the year's strongest winds in March and April, then May hail season. Wind is year-round and governs crane picks and enclosure sets in every month. Confirm monthly figures against NWS Amarillo normals before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Caprock caliche near the surface across the uplands — excavation, boring, and pier drilling price around cemented carbonate the same way they do across the High Plains.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Davis-Bacon attaches to federally funded work over $2,000 — BEAD builds included — and Texas Government Code Chapter 2258 covers state/locally funded public works. Federally supported work near Pantex carries its own compliance regime layered on top.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter is the real seasonal premium — cold-weather concrete protection, snow days, and closure risk from December into March — plus wind-day contingency in spring. Summer at altitude is mild and carries little heat premium.",
+    "narrative": "Amarillo civil pricing is weather-led in a way no other Texas market is. Winter carries actual cost: blankets and heat for cold-weather pours, schedule float for blizzards and highway closures, and freeze-window planning for anything moisture-sensitive. Wind is the year-round tax — crane days, enclosure sets, and tall hauls all budget around the state's highest average wind speeds, with spring the worst. Under the surface, caprock caliche prices excavation like weak rock, while playa-margin clays add subgrade treatment where a site drapes into a depression. The utility context cuts the other way: SPS territory means SPP interconnection rules and a utility actively investing in Panhandle reliability, but no ERCOT retail-choice assumptions. Mobilization from Dallas is a genuine line item priced per program, with materials bought locally. Drivers only — no unit pricing; every site prices to its borings, its wind exposure, and its season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas has no statewide general contractor license — regulation is municipal, and Amarillo administers its own contractor registration and permitting through Building Safety. Statewide trade licenses apply: electrical via TDLR under a licensed Electrical Contractor with a Master Electrician of record, plumbing via TSBPE. Work connected to Pantex or other federal facilities layers federal contractor vetting, security, and Davis-Bacon requirements on top of the municipal baseline.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "high wind",
+      "ice storm",
+      "extreme cold",
+      "hail",
+      "tornado"
+    ],
+    "designImplications": "Wind is the defining load: Amarillo carries the highest average wind speed of any Texas city, so anchorage, guying, ice-bridge framing, and enclosure fastening are designed conservatively and erection work is scheduled around wind days — with numeric design speeds published only after the ASCE Hazard Tool query. Winter adds ice storms, blizzards, and cold waves that argue for generator autonomy, propane/fuel cold-weather provisions, and access planning for post-storm response. May–June hail shapes HVAC and cable protection; tornado exposure is the standard High Plains supercell risk. Playa-aware siting handles the flood question.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Fermi America's HyperGrid campus rises next to Pantex",
+        "detail": "Fermi America — co-founded by former Energy Secretary Rick Perry, in partnership with the Texas Tech University System — is developing a 5,800-acre 'HyperGrid' energy-and-AI campus near the Pantex Plant east of Amarillo, targeting some 11 GW of on-site generation and ~18M sq ft of data centers, with first power targeted for late 2026.",
+        "category": "data center",
+        "sourceUrl": "https://abc7amarillo.com/news/local/5800-acre-hypergrid-campus-to-power-next-generation-artificial-intelligence-coming-to-amarillo-fermi-america-governor-rick-perry-pantex-texas-tech-university-texas-panhandle-data-ai",
+        "asOf": "2025-07-25"
+      },
+      {
+        "headline": "Fermi executes 200 MW agreement with SPS",
+        "detail": "Fermi America signed an electric service agreement with Xcel Energy subsidiary Southwestern Public Service for up to 200 MW of grid power to the HyperGrid campus — early utility-scale confirmation of the project's demand.",
+        "category": "data center",
+        "sourceUrl": "https://www.prnewswire.com/news-releases/fermi-america-executes-electric-service-agreement-with-southwestern-public-service-company-a-subsidiary-of-xcel-energy-securing-up-to-200-mw-of-power-302634443.html",
+        "asOf": "2025-12-08"
+      },
+      {
+        "headline": "SPS lands $113M Texas Energy Fund grant for Panhandle grid",
+        "detail": "Southwestern Public Service was awarded a $113M Texas Energy Fund 'Outside ERCOT' grant funding three projects to strengthen reliability for 167,000+ customers across the Panhandle and South Plains — grid construction that carries substation and utility-corridor civil with it.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://newsroom.xcelenergy.com/news/southwestern-public-service-co-awarded-113-million-grant-to-improve-electric-reliability-reduce-costs-for-texas-customers",
+        "asOf": "2025-06-30"
+      },
+      {
+        "headline": "Zayo's Amarillo–Oklaunion route diversity build",
+        "detail": "Zayo constructed more than 170 miles of new fiber between Amarillo and Oklaunion to add diversity on a key route toward Dallas/Fort Worth — evidence of Amarillo's continuing role as a long-haul junction on the Panhandle map.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.businesswire.com/news/home/20211102005225/en",
+        "asOf": "2022-09-30"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "long-haul and metro route construction",
+        "HDD / road bore",
+        "OSP duct bank",
+        "regen and amplifier site civil",
+        "fiber hut pad",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "vault and handhole setting",
+        "service lateral to hut"
+      ],
+      "narrative": "Amarillo's fiber identity is long-haul: transcontinental routes thread the I-40 corridor and the BNSF Transcon right-of-way, and Zayo's 170-mile Amarillo–Oklaunion build exists precisely because carriers want diverse paths from this junction toward DFW. That geography generates regen and amplifier site civil, hut pads, and route construction across enormous, sparsely populated distances — work that rewards a crew that batches efficiently. The physical conditions are High Plains-specific: bores punch caprock caliche at rock-like rates, playa depressions force route micro-adjustments, and any crossing of the Transcon — around 100 trains a day, four main tracks through the city — means a BNSF agreement filed at project start. Winter adds a real construction season boundary that lowland Texas fiber schedules never carry.",
+      "localSpecificsReferenced": [
+        "Zayo Amarillo–Oklaunion diversity route",
+        "BNSF Southern Transcon crossings",
+        "I-40 long-haul corridor",
+        "caprock caliche boring conditions"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ice bridge and cable tray",
+        "ground ring and halo",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "small cell and DAS node civil"
+      ],
+      "narrative": "Wireless civil in Amarillo is wind work before it is anything else. The city posts the highest average wind speed in Texas, the surrounding plains host wind farms at scale — including the 11.5 MW PREP federal wind farm beside Pantex — and every compound detail from anchorage to ice-bridge framing to fence fabric tension gets specified with that in mind, with numeric design speeds pulled from the ASCE Hazard Tool per site rather than assumed. Winter matters equally: ice storms and blizzards make generator pads, fuel autonomy, and plowable access geometry part of the civil scope, because a site that can't be reached in February wasn't finished in October. Corridor coverage along I-40, I-27, and US-287 keeps rural macro work steady, and foundations negotiate the same caprock caliche as everything else on the High Plains.",
+      "localSpecificsReferenced": [
+        "highest average winds in Texas",
+        "PREP wind farm at Pantex",
+        "I-40 / I-27 / US-287 corridor macro coverage",
+        "blizzard-season access design"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "edge enclosure and micro-DC pads"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The Panhandle edge story changed in July 2025 when Fermi America and the Texas Tech University System unveiled the HyperGrid — a 5,800-acre energy-and-AI campus beside Pantex targeting on-site generation at the 11 GW scale, roughly 18 million square feet of data centers, and first power in late 2026, with an executed 200 MW service agreement from SPS already in hand. Whatever fraction of that vision gets built, it lands as exactly our scope: utility yards, transformer and switchgear pads, generator yards, campus duct bank, security compounds, and heavy-haul access. The grid context is distinct — SPS operates in SPP, not ERCOT, and is spending a $113M Texas Energy Fund grant hardening the Panhandle system. Edge enclosures along the I-40 long-haul corridor round out the demand at the small end of the same market.",
+      "localSpecificsReferenced": [
+        "Fermi America HyperGrid campus",
+        "SPS 200 MW electric service agreement",
+        "SPP (non-ERCOT) interconnection context",
+        "Pantex-adjacent siting"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 365,
+      "driveTimeHours": 5.8,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Potter",
+      "Randall",
+      "Carson",
+      "Armstrong",
+      "Oldham"
+    ],
+    "stagingApproach": "Deployment staging in the Amarillo metro for the duration of a scope, with equipment held at a secured laydown positioned for the I-40/I-27 interchange so corridor work east, west, and south stages from one point. Winter deployments carry weather float and plow-capable access planning. Drafted for ops confirmation per program.",
+    "localSupplyApproach": "Ready-mix, aggregate, and rentals source from Amarillo-area suppliers — hauling materials 365 road miles from the yard is not viable and no buyer would expect it. Cold-weather concrete accessories (blankets, heaters, admixtures) are planned into winter supply lists up front. Precast and specialty items are confirmed at estimate; the supplier lineup is subject to ops and estimating confirmation per program.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The Panhandle is project-deployment territory for us: crews run northwest from the Dallas yard up US-287 through Wichita Falls — roughly 365 miles and a six-hour day — and stay for the duration of a scope rather than commuting. That fits the work Amarillo actually generates: long-haul route segments, corridor macro programs, and campus-scale site civil that batch well from a single mobilization with local staging and in-market materials. Two honest caveats come with the geography: we make no same-day commitments at this range, and winter mobilizations are planned around a corridor that genuinely closes in blizzards — US-287 and I-40 both. Mobilization lead times and any storm-response commitments are quoted per program after ops review.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How does wind affect cell site construction in Amarillo?",
+      "answer": "Structurally and operationally at once. Amarillo carries the highest average wind speed of any Texas city — the reason the surrounding Panhandle hosts wind farms at scale — so anchorage, ice-bridge framing, and enclosure fastening get conservative detailing, with the site-specific ASCE design wind speed pulled per project rather than assumed. Operationally, spring wind season governs crane picks and panel sets; we schedule erection work around wind days the way coastal contractors schedule around rain.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour a shelter pad in Amarillo in January?",
+      "answer": "Sometimes — with full cold-weather concrete practice: heated or protected subgrade, blankets or enclosures, admixtures, and monitored curing, because hard freezes are routine and cold waves can go far below zero. The honest answer is that December through February pours carry real cost and schedule risk, and freeze-sensitive scopes are better sequenced October or earlier. Amarillo is the one Texas market on our map with a true winter construction season.",
+      "segment": "general"
+    },
+    {
+      "question": "Who is the electric utility for a new telecom site in Amarillo — and is it ERCOT?",
+      "answer": "Xcel Energy's Southwestern Public Service Company (SPS), headquartered in Amarillo — and no, it is not ERCOT. SPS operates in the Southwest Power Pool within the Eastern Interconnection, so ERCOT retail choice and interconnection assumptions don't transfer. SPS serves roughly 378,000 customers across the region and recently won a $113M Texas Energy Fund grant for Panhandle grid reliability. Confirm new-service lead times with SPS in writing during scoping.",
+      "segment": "edge"
+    },
+    {
+      "question": "What railroad permits does a fiber route need around Amarillo?",
+      "answer": "Almost any east-west route confronts BNSF's Southern Transcon — the busiest freight main line in the country, roughly 100 trains a day on four main tracks through the city. Crossing or occupying that corridor takes a BNSF utility agreement on the railroad's timeline, which is measured in months, not weeks. We file crossing applications at project start and design alignments to minimize the number of crossings before anything mobilizes.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What are playa lakes and why do they matter for Panhandle telecom sites?",
+      "answer": "Playas are closed depressions — up to 20 feet below the surrounding plain — where High Plains drainage terminates; they pond after storms and snowmelt and function as significant waterfowl habitat. For siting they carry two consequences: playa-bottom Randall clay is slowly permeable, shrink-swell soil that's the wrong subgrade for a pad, and playa-adjacent work can pull wetland and bird reviews onto an otherwise dry-land project. We site compounds and route fiber around mapped playas by default.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What soil and rock conditions should I expect excavating in Amarillo?",
+      "answer": "Expect the caprock: cemented Ogallala caliche near the surface across the uplands that excavates like weak rock — bores, trenches, and pier drilling all price around it, and it should be assumed in bids rather than discovered in the field. Above and around it sit Pullman clay loam with clayey, slowly permeable subsoil, and Randall clay in the playa bottoms. Intact caliche bears well once you're through it; borings that log its depth drive foundation and boring method selection.",
+      "segment": "general"
+    },
+    {
+      "question": "Are there seasonal road restrictions affecting shelter delivery to Amarillo?",
+      "answer": "No frost laws — Texas doesn't post spring thaw restrictions even in its snowiest metro, and oversize hauls permit normally through TxDMV's TxPROS system. The real haul constraints are wind and winter: high-wind days sideline tall, high-profile loads on the open plains, and blizzards or ice can close I-40 and US-287 outright for a day or more. Winter delivery plans carry weather float; spring plans carry wind-day contingency.",
+      "segment": "general"
+    },
+    {
+      "question": "What is the Fermi America HyperGrid project and what does it mean for Amarillo construction?",
+      "answer": "It's a 5,800-acre energy-and-AI campus announced in July 2025 by Fermi America — co-founded by Rick Perry — with the Texas Tech University System, sited next to the Pantex Plant east of the city, targeting generation at the 11 GW scale, about 18 million square feet of data centers, and first power in late 2026, with a 200 MW SPS service agreement already executed. For the civil trades it signals campus-scale demand: utility yards, duct bank, generator yards, and heavy-haul access work in a market that historically hasn't seen hyperscale projects.",
+      "segment": "edge"
+    },
+    {
+      "question": "How do you serve Amarillo from a Dallas yard?",
+      "answer": "As a deployment market, described plainly: crews travel up US-287 — about 365 miles, a six-hour run — and stay for the scope's duration, staging at a local laydown and buying concrete, aggregate, and rentals in Amarillo. Long-haul segments, corridor macro programs, and campus civil all batch efficiently that way. We make no same-day claims at this range, and winter mobilizations plan around a corridor that can close in a blizzard; lead times are quoted per program after ops review.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Scheduling Panhandle builds: the wind-and-winter calendar problem",
+    "body": "The scheduling mistake outside contractors make in Amarillo is importing a Texas calendar into a High Plains market. Lowland Texas logic says winter is the easy season and summer is the constraint; Amarillo inverts both halves. Here, December through February is the constrained season — 15.6 inches of average snowfall, near-blizzard events every few years, cold waves that can drop far below zero, and highway closures that strand crews and concrete trucks alike — while July, at 3,600 feet with average highs near 91°F and cool nights, is arguably the best concrete month in the state. The planning sequence that works: put freeze-sensitive scopes — pours, grounding, subgrade work — between April and October, and hold winter for scopes that tolerate it, like interior hut fit-out or bore segments with protected entry pits. Then overlay wind, which never fully leaves: March and April carry the year's strongest winds, so crane-dependent work — steel, shelters, enclosure sets — schedules best in the late-spring-through-fall window with wind-day float even then. Finally, respect the access problem winter creates: a compound finished in November needs plowable geometry and generator autonomy to survive to spring, because the Panhandle will test both. Build the schedule from those three constraints and Amarillo is a productive market; build it from a Dallas template and February will send the invoice."
+  },
+  "sources": [
+    {
+      "label": "City of Amarillo Building Safety — residential code information (2021 IRC, Ordinance 7101)",
+      "url": "https://www.amarillo.gov/building-safety/residential-permits/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Amarillo Street Division — service line / ROW excavation permits",
+      "url": "https://www.amarillo.gov/street/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Amarillo District (17 Panhandle counties)",
+      "url": "https://www.txdot.gov/about/districts/amarillo-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Xcel Energy — Texas (SPS) service area",
+      "url": "https://corporate.my.xcelenergy.com/s/energy/service-areas/texas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Xcel Energy newsroom — SPS $113M Texas Energy Fund 'Outside ERCOT' grant",
+      "url": "https://newsroom.xcelenergy.com/news/southwestern-public-service-co-awarded-113-million-grant-to-improve-electric-reliability-reduce-costs-for-texas-customers",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BNSF — the Southern Transcon (busiest main line; Amarillo fourth main track, 2018)",
+      "url": "https://www.bnsf.com/news-media/railtalk/service/southern-transcon.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ABC7 Amarillo — Fermi America 5,800-acre HyperGrid campus announcement",
+      "url": "https://abc7amarillo.com/news/local/5800-acre-hypergrid-campus-to-power-next-generation-artificial-intelligence-coming-to-amarillo-fermi-america-governor-rick-perry-pantex-texas-tech-university-texas-panhandle-data-ai",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "PR Newswire — Fermi America / SPS 200 MW electric service agreement",
+      "url": "https://www.prnewswire.com/news-releases/fermi-america-executes-electric-service-agreement-with-southwestern-public-service-company-a-subsidiary-of-xcel-energy-securing-up-to-200-mw-of-power-302634443.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Business Wire — Zayo Amarillo–Oklaunion 170-mile route diversity build",
+      "url": "https://www.businesswire.com/news/home/20211102005225/en",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "CNS — About Pantex (17 miles northeast of Amarillo, Carson County)",
+      "url": "https://cns-llc.us/sites/default/files/ptg-16-4137_about_pantex.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DOE/NNSA — PREP wind farm at Pantex (largest federal wind farm)",
+      "url": "https://www.energy.gov/nnsa/articles/meet-prep-largest-federal-wind-farm-america",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WTSU Geological Society — Guidebook of Palo Duro Canyon (Ogallala caprock, playa deposits)",
+      "url": "https://www.gutenberg.org/files/50487/50487-h/50487-h.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TTU — mineralogy of a playa soil (Randall/Pullman shrink-swell context)",
+      "url": "https://ttu-ir.tdl.org/server/api/core/bitstreams/7d98c697-dff3-4561-96f3-4d9eeceedcca/content",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "North Plains GCD — Ogallala aquifer and formation description",
+      "url": "https://northplainsgcd.org/discover-our-aquifers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Tulsa District — Section 10 navigable waters (Canadian River, TX Panhandle)",
+      "url": "https://www.swt.usace.army.mil/Portals/41/docs/missions/regulatory/links/Section_10.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Census QuickFacts — Amarillo city, Texas",
+      "url": "https://www.census.gov/quickfacts/amarillocitytexas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Climates to Travel — Amarillo climate (snowfall, cold waves, wind)",
+      "url": "https://www.climatestotravel.com/climate/united-states/amarillo",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Real Estate Research Center — wind energy takes off in Amarillo (highest average wind speed in Texas)",
+      "url": "https://trerc.tamu.edu/news-talk/wind-energy-takes-off-in-amarillo/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE Hazard Tool unreachable through the proxy. The single most important number for this market — Amarillo's wind reputation is documented, but the design value publishes only from the Hazard Tool query at 35.222, -101.8313."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf / designRadialIceIn / designTempLowF/HighF / seismic Ss-S1",
+      "attempted": "ASCE, TIA-222 county, ASHRAE, and USGS design-map data all unfetchable in sandbox; snow and ice loads are genuinely nonzero here and must be sourced before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Amarillo's amended code tables (Ord. 7101 / municode) not readable through the proxy; frost depth is real in this market and must cite the amended table cell, not a regional map."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — commercial IBC edition",
+      "attempted": "Building Safety pages confirm the 2021 IRC with amendments; the commercial IBC edition and effective date were not directly confirmed. Verify with the Building Official."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain administration page not located in research; playa-basin flood mapping context sourced instead. Identify the NFIP administrator before publish."
+    },
+    {
+      "field": "environmental.usaceDistrict",
+      "attempted": "Tulsa District's Section 10 list covers the Canadian River in the Panhandle, but the county-level regulatory district assignment for Potter/Randall was not confirmed against the USACE boundary layer."
+    },
+    {
+      "field": "geotech numerics (bearing range, caliche depth, groundwater, NRCS shrink-swell/corrosivity ratings)",
+      "attempted": "Web Soil Survey interactive not runnable; series identified from OSD-tier and academic sources, numerics gapped."
+    },
+    {
+      "field": "utilities — SPS new-service process URL and lead times; AT&T formal ILEC designation",
+      "attempted": "SPS intake page not confirmed; lead times require utility confirmation. FCC ILEC check not run."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Published driving sources cluster at ~364–365 mi via US-287 with drive times quoted 5.5–6.5 h; 365 mi / 5.8 h recorded, routeVerified false until ops runs real routing from the actual yard address."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B drafts written for ops review per RESEARCH.md; gap clears on ops confirmation."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 3 publish gate requires 2 images; never invented."
+    }
+  ]
+}
