@@ -1,0 +1,681 @@
+{
+  "identity": {
+    "slug": "grand-island",
+    "city": "Grand Island",
+    "state": "Nebraska",
+    "stateSlug": "nebraska",
+    "stateAbbr": "NE",
+    "counties": [
+      "Hall"
+    ],
+    "msa": "Grand Island, NE (Hall, Hamilton, Howard, and Merrick counties)",
+    "tier": 3,
+    "latitude": 40.9264,
+    "longitude": -98.342,
+    "elevationFt": 1870,
+    "population": {
+      "value": 52884,
+      "source": "U.S. Census Bureau estimate through July 1, 2024, as republished by census-data services (confirm vintage against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-80"
+    ],
+    "majorRoutes": [
+      "US-30",
+      "US-34",
+      "US-281",
+      "NE-2"
+    ]
+  },
+  "metadata": {
+    "title": "Grand Island, NE Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Grand Island, NE — dewatered foundations, duct bank, and compound work for fiber and wireless builds in the Platte valley.",
+    "h1": "Telecom Site Civil Construction in Grand Island, Nebraska",
+    "intro": "Central Nebraska's hub city sits on ground that behaves like no other market in our footprint: the Platte valley's sand-and-gravel alluvium carries a water table measured as shallow as three feet, so foundation and vault work here starts with a dewatering plan, not a rock question. Grand Island is also where long-haul infrastructure concentrates — Union Pacific's transcontinental mainline runs through town, I-80 passes just south, and the Nebraska Central short line is headquartered here — while ALLO's citywide fiber network, finished in 2024, and Nebraska's rural broadband programs keep new construction moving. CellSite Solutions serves Hall County on a project-deployment basis: crews mobilize for the duration of a scope, stage in-market, and buy concrete and aggregate from the valley's own pits.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC, adopted with amendments in Grand Island City Code Chapter 8, Ordinance 9802 effective January 1, 2021)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Nebraska carries low seismic hazard; severe wind and hail — not seismic — drive structural design in this market. Numeric Ss/S1 come from a USGS design-maps query at site coordinates before anything is published, and deep unconsolidated alluvium makes site class a genuinely site-specific call."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Grand Island sits on the floor of the central Platte River valley: unconsolidated Quaternary alluvium — gravel, sand, silt, and clay — with regional valley fills ranging from under 20 to nearly 200 feet thick and no bedrock within engineering depth. The same deposits form the Platte valley alluvial aquifer; measured water tables in the valley alluvium run roughly 3 to 31 feet below grade, and wet-meadow ground near the river holds water within 5 feet of the surface. (USGS Platte River valley studies and NAWQA fact sheets; UNL Conservation and Survey Division valley geology.)",
+    "dominantSoilTypes": [
+      "Platte valley alluvial sands and gravels",
+      "Silty and clayey overbank alluvium",
+      "Wet-meadow soils with near-surface water tables (river-adjacent sites)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Deep unconsolidated alluvium; no karst mapping applies to the Platte valley floor."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation work in Grand Island is groundwater management with concrete at the end. The alluvial sands excavate fast and bear predictably when confined, but the water table can sit within a few feet of grade near the river and wet meadows — so pier holes, vault sets, and deeper footings get scoped with dewatering, sump or well-point sized to the season, instead of discovering water at the bottom of the hole. Caving sands mean trench boxes and casing where a clay soil would have stood open. There is no rock anywhere in the column and no karst. Frost governs vertical design, but Grand Island's amended frost value has to be read from the city's code before we design or publish to it. Borings with a seasonal water-table check govern every site — in this valley, drilled in the wet season by preference."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Grand Island Building Department",
+        "url": "https://www.grand-island.com/page/building-services",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Planning coordination runs through the Hall County Regional Planning Commission, whose director also heads the building department under city code. Review times are not published — confirm the current queue by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code and 2018 IEBC with local amendments, adopted in Grand Island City Code Chapter 8 (Ordinance 9802, effective January 1, 2021)",
+      "source": "Grand Island City Code Ch. 8, Buildings — https://codelibrary.amlegal.com/codes/grandislandne/latest/grandisland_ne/0-0-0-26336 — ordinance history search-extracted; open the chapter text directly before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless deployment follows Nebraska's statewide framework — the Small Wireless Facilities Deployment Act (LB 184, 2019) — rather than a bespoke local ordinance; the city retains zoning and ROW management within that structure.",
+    "rowPermitAuthority": {
+      "name": "City of Grand Island Public Works (right-of-way work under City Code Chapter 32, Streets and Sidewalks)",
+      "url": "https://codelibrary.amlegal.com/codes/grandislandne/latest/grandisland_ne",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Contractors working in city ROW require public works director approval, with proof of insurance — including workers' compensation and employer's liability — on file before work begins."
+    },
+    "stateDotDistrict": {
+      "name": "Nebraska DOT District 4, headquartered in Grand Island (211 N Tilden St)",
+      "url": "https://dot.nebraska.gov/media/kfgfb2u4/dist-map-with-contacts.pdf",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The district office sits in the market — useful for permit questions on US-30, US-281, and US-34 work."
+    },
+    "oneCallCenter": {
+      "name": "Nebraska811",
+      "url": "https://nebraska811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Two business days minimum, ten maximum, ahead of any ground disturbance — weekends and holidays excluded. The One-Call Act sits with the State Fire Marshal.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Nebraska Department of Water, Energy and Environment (formerly NDEE) — construction storm water program",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "One-acre disturbance trigger (or smaller within a common plan); the NOI must reach the department at least 7 days before grading, with the SWPPP written first."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Permits in Grand Island run through the city Building Department under the 2018 IBC (City Code Chapter 8, updated by Ordinance 9802 effective January 2021), with planning coordinated through the Hall County Regional Planning Commission. Right-of-way work needs city authorization under Chapter 32 — the public works director approves the contractor and insurance proof precedes mobilization — while state-highway ROW goes through NDOT District 4, which is headquartered in town. The statewide overlays apply on top: a Nebraska811 ticket at least two business days before excavation, and a DWEE stormwater NOI at least seven days before disturbing an acre. None of the local review times are published; we confirm the current queue before committing a schedule."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Grand Island Utilities Department",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "City-owned electric utility: the 100 MW Platte Generating Station supplies roughly 96% of the city's power, with the six-unit, 187.5 MW C.W. Burdick station as backup. Rural territory around the city belongs to public power districts — confirm the serving utility at the parcel with Nebraska PSC territory maps."
+      }
+    ],
+    "ilec": "Unresolved — CenturyLink/Lumen, Windstream, and Frontier (Citizens) all hold legacy exchange territory in central Nebraska; the Grand Island incumbent must be confirmed against Nebraska PSC exchange-boundary maps before publish.",
+    "notableFiberProviders": [
+      "ALLO Communications (citywide FTTP, completed June 2024)",
+      "Unite Private Networks (business fiber)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "Long-haul infrastructure across Nebraska concentrates on the corridors that pass through this market — Union Pacific's Overland Route mainline through town and I-80 just south — so route work here tends to mean rail and interstate coordination rather than open-field construction.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw; county postings go up as frost leaves the ground and lift when surfaces firm, generally by late April",
+      "postingAuthority": {
+        "name": "Hall County Public Works (county road postings); NDOT for state highways",
+        "url": null,
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "County-posted gravel and secondary roads — the last mile to most rural fiber and tower sites — are the binding constraint during thaw, not the state system. Check current Hall County postings before scheduling a heavy haul."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Nebraska DOT — oversize/overweight permits",
+      "url": "https://dot.nebraska.gov/business-center/permits/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route permits with daytime-movement rules as standard; local road segments need separate city or county authorization."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "The Overland Route transcontinental mainline (Kearney Subdivision) runs through Grand Island — one of the busiest freight corridors in the country. Any fiber crossing or parallel occupation goes through UP's utility-permit process; file early, the queue is long."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "The Ravenna Subdivision passes through town, crossing the UP corridor on an elevated flyover."
+      },
+      {
+        "name": "Nebraska Central Railroad (NCRC)",
+        "crossingPermitNote": "Headquartered in Grand Island, operating ex-UP branch lines north toward Ord with interchanges to both UP and BNSF; crossing process not published — engage the operator directly."
+      }
+    ],
+    "urbanRowRequirements": "City Code Chapter 32 governs work in Grand Island streets and sidewalks: public works director approval of the contractor and proof of insurance — workers' compensation and employer's liability included — before work commences in the right-of-way."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Nebraska State Historic Preservation Office (History Nebraska)",
+      "url": "https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day response window per complete Section 106 submission."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Omaha District regulatory program; state 401 certification through Nebraska DWEE",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Platte valley wet meadows and channel-adjacent wetlands make waters screening a standard early step on river-side alignments."
+    },
+    "usaceDistrict": "Omaha District (NWO)",
+    "listedSpeciesNote": "The central Platte is nationally significant habitat: the river reach from Lexington to Shelton — immediately west of Grand Island — is federally designated whooping crane critical habitat, and roughly 80% of Nebraska crane sightings fall between Lexington and Grand Island during spring and fall migration. Interior least terns and piping plovers nest on Platte sandbars and even on active sand-and-gravel mine spoil in the valley. Tower and river-adjacent compound proposals get early USFWS coordination and a project-specific IPaC screen; no blanket clearing window was sourced for Hall County.",
+    "floodplainPrevalenceNote": "Riverine flood risk is real and recent: March 2019 high water on the Wood River and Platte hit Hall County hard, though Grand Island itself was largely spared because the Central Platte NRD's Prairie/Silver/Moores flood-control project had wrapped up months earlier — an estimated $40M in avoided losses against a $28M project cost. The city's floodplain administrator contact was not confirmed at research time; identify it during scoping on any mapped-floodplain site."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen; wind chill drives crew-exposure planning on the open plains",
+        "earthworkConcrete": "restricted",
+        "note": "Frost excavation plus full winter concrete protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Frost at maximum depth; midwinter thaw windows occasionally open",
+        "earthworkConcrete": "restricted",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw underway; water table rising, county roads posted",
+        "earthworkConcrete": "constrained",
+        "note": "Whooping crane spring migration on the nearby Platte reach — river-adjacent work coordinates with USFWS; March 2019 flooding is the cautionary precedent"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Surfaces firming; excavations near the river still take water readily",
+        "earthworkConcrete": "workable",
+        "note": "County postings typically lift as roads dry"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Good working ground; severe-storm season arrives",
+        "earthworkConcrete": "favorable",
+        "note": "Hail season opens — central Nebraska sits in the high-frequency belt"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; peak severe-weather month",
+        "earthworkConcrete": "favorable",
+        "note": "Site-securing discipline pays for itself in hail and wind events"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot; irrigation season lowers surface soils' moisture while storms recharge it",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot, storms tapering late",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Mild, drying — the most reliable production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling fast; first freeze arrives mid-fall",
+        "earthworkConcrete": "favorable",
+        "note": "Fall crane migration window on the Platte; close open excavations before frost"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Ground taking frost late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice resumes"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freezing down; snow and ground blizzards possible",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Two clocks run the Grand Island construction year. The frost clock is familiar Great Plains: frozen ground from December into March, a posted-roads mud season, then reliable production from late April through October. The water clock is the local one — the alluvial water table rises with spring recharge and river stage, so the same excavation that pumps dry in September may need well points in April, and dewatering is priced by season, not assumed away. Severe-storm season (May–August) costs pour windows to hail and wind rather than whole weeks. Confirm month-by-month figures against NCEI normals for the Central Nebraska Regional Airport station before publishing numbers."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "No bedrock within engineering depth anywhere on the valley floor — rock excavation is effectively absent from telecom scopes in this market.",
+    "aggregateHaulNote": "Sand-and-gravel mining is a Platte valley industry in its own right, with pits along the valley around the metro — aggregate haul distances here are among the shortest in our footprint.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Saturated spoil from dewatered excavations hauls heavy and may need drying or special handling — priced up front on river-adjacent sites.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No state prevailing wage act in Nebraska; the state-level requirement on public bids is the § 73-102 fair-labor-standards filing. Federal Davis-Bacon attaches to federally funded work over $2,000 — which will include BEAD-funded rural fiber segments in Hall County.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Dewatering premiums peak with the spring water table; winter carries frost-excavation and concrete-protection cost; hail season (May–August) costs pour windows on short notice.",
+    "narrative": "Grand Island prices around water and distance. Dewatering is the line item other markets don't carry: shallow alluvial groundwater means well points, pumps, and saturated-spoil handling on river-adjacent foundations, sized to the season. Mobilization is the second real line — this is an extended-range market served on a project-deployment basis from Cedar Rapids, so crews deploy for scope duration and the mobilization is planned and priced per program. Working against those two: no rock premium anywhere in the column, and some of the cheapest aggregate logistics in our footprint, because the valley's own sand-and-gravel pits sit minutes from most sites. Seasonally, frost protection in winter and hail-interrupted pours in early summer round out the list. Drivers only — each site prices to its borings, its water table, and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "State-level requirements in Nebraska are registration, not licensing: the Contractor Registration Act requires contractors and subcontractors doing business in the state to register with the Nebraska Department of Labor before working, with a workers' compensation certificate on file for any employer, while electrical trade work carries separate state licensure. Nebraska has no general contractor license and no prevailing wage act — the wage floor on public work is the fair-labor-standards statement under Neb. Rev. Stat. § 73-102, and Davis-Bacon rates govern federally funded scopes such as BEAD builds.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "flood",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "June 3, 1980 — seven tornadoes looping through Grand Island in one night, five deaths, hundreds of structures destroyed — remains the local argument for uplift-rated anchorage, secured fuel systems, and debris-conscious compound detailing, and central Nebraska's hail frequency reinforces all of it. Flood risk is riverine: Wood River and Platte high water struck Hall County in March 2019, with the NRD's new flood-control project sparing the city the worst. Shallow groundwater shapes every excavation, and frost and cold govern the winter calendar; numeric wind and ice values publish only after ASCE/TIA queries are run.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "ALLO completes $60M citywide fiber network in Grand Island",
+        "detail": "ALLO finished construction of its Grand Island fiber-to-the-premises network in June 2024 — a $60 million build begun in late 2021 — moving the local market from mainline construction into laterals, drops, and restoration.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.centralnebraskatoday.com/2024/06/21/154183/",
+        "asOf": "2024-06-21"
+      },
+      {
+        "headline": "Nebraska BEAD final proposal ($405M) approved",
+        "detail": "NTIA approved Nebraska's BEAD final proposal in December 2025; rural Hall County unserved locations fall within the statewide implementation now ramping into construction.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+        "asOf": "2025-12-07"
+      },
+      {
+        "headline": "PSC's Broadband Bridge Program funds 22 more rural projects",
+        "detail": "The Nebraska PSC awarded over $20 million across 22 projects in the program's fourth cycle (Order C-5561, January 2025), continuing the state-grant pipeline that has driven rural central-Nebraska fiber work.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.nebraska.gov/for-consumers/psc-awards-nebraska-broadband-bridge-program-grants",
+        "asOf": "2025-01-14"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "long-haul and metro route construction",
+        "HDD / road bore",
+        "OSP duct bank",
+        "vault and handhole setting",
+        "fiber hut pad",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "service lateral to hut"
+      ],
+      "narrative": "Grand Island sits on the corridor long-haul builds across Nebraska actually follow: Union Pacific's Overland Route mainline runs through town, I-80 passes just south, and route work along either means railroad and interstate coordination before anything else — UP's utility-permit queue, BNSF's Ravenna Subdivision on its flyover through the city, and the Nebraska Central, a Grand Island-headquartered short line whose ex-UP branches fan north toward Ord. In town, ALLO completed a $60 million citywide fiber network in June 2024, shifting local work toward laterals, drops, and restoration under the city's Chapter 32 ROW rules. Outside town, the PSC's Broadband Bridge grants and Nebraska's $405M BEAD program fund rural Hall County segments. The boring itself is pure Platte valley: saturated sands with the water table sometimes a few feet down, so drilling-fluid control and pit dewatering are planned costs, not surprises.",
+      "localSpecificsReferenced": [
+        "UP Overland Route mainline / I-80 corridor",
+        "ALLO Grand Island network completed June 2024",
+        "Nebraska Central Railroad (Grand Island HQ)",
+        "Platte valley shallow water table"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "June 3, 1980 is still the reference event for hardening in this market: seven tornadoes — several rotating anticyclonically, most looping back over their own paths — struck Grand Island in a single night, killing five and destroying hundreds of structures. Central Nebraska also sits in the country's most active hail belt. We treat both as design inputs, not trivia: conservative anchorage, protected fuel systems, and compound drainage built for violent short-duration rain. Below grade, foundations answer to water instead of rock — the Platte valley water table can put a pier hole below water within a few feet, so river-adjacent pad and pier work plans dewatering from the estimate forward. And siting near the Platte adds a screen most markets never see: the reach immediately west of town is federally designated whooping crane critical habitat, so tower proposals there get early USFWS coordination.",
+      "localSpecificsReferenced": [
+        "1980 Grand Island tornado outbreak",
+        "Platte valley shallow groundwater / dewatering",
+        "whooping crane critical habitat (Lexington–Shelton reach)"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "There is no hyperscale campus in Grand Island and we don't pretend otherwise — edge demand here is the infrastructure of a regional hub. The city generates most of its own electricity: Grand Island Utilities' 100 MW Platte Generating Station supplies roughly 96% of local power with the six-unit Burdick plant behind it, which makes a new-service conversation a municipal one rather than a regional utility queue. Rail is the other anchor — the UP mainline, BNSF's line through town, and Nebraska Central's headquarters make this a genuine freight junction, and the compute that follows logistics, agriculture, and processing arrives as hardened enclosures, utility-yard pads, and generator yards. All of it builds to valley rules: dewatered excavations, hail- and tornado-conscious anchorage, and aggregate sourced from the sand-and-gravel pits that are one of the Platte valley's own industries.",
+      "localSpecificsReferenced": [
+        "Platte Generating Station (Grand Island Utilities)",
+        "Nebraska Central Railroad headquarters",
+        "Platte valley sand-and-gravel industry"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 417,
+      "driveTimeHours": 7.2,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Hall",
+      "Howard",
+      "Merrick",
+      "Hamilton"
+    ],
+    "stagingApproach": "Project-based: crews and equipment deploy to Grand Island for the duration of a scope and stage at or near the work — typically a rented yard or the customer's laydown — rather than cycling back to Cedar Rapids between shifts. Deployment durations and staging sites are confirmed per program by ops.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast buy in-market. Sand-and-gravel production is a Platte valley industry in its own right — pits line the valley around the metro — so aggregate hauls here are short by any standard, and trucking material 400-plus miles from the yard would be indefensible arithmetic that buyers would see through instantly. The supplier lineup is confirmed at estimate by our estimating and ops teams.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Grand Island is an extended-range market — a bit over 400 road miles from our Cedar Rapids yard, essentially I-80 the whole way — and we run it on a project-deployment model rather than a commute: crews mobilize for the duration of a scope, equipment stages in-market, and concrete and aggregate buy locally. That matches how central-Nebraska work actually arrives — rural fiber segments, compound programs, storm-restoration campaigns — which batch efficiently from a single mobilization. We do not offer same-day service calls at this range and won't imply otherwise; mobilization lead time is quoted per program, and any post-storm response commitment carries ops sign-off before it is stated anywhere. The distance figure itself is still a seed estimate pending real routing.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How does Grand Island's shallow groundwater affect foundations and vault setting?",
+      "answer": "It's the first design question in this market. Measured water tables in the Platte valley alluvium run roughly 3 to 31 feet below grade, with wet-meadow ground holding water in the top five feet — so pier holes, vault sets, and deeper footings near the river are scoped with sump or well-point dewatering from the start, and caving sands mean boxes and casing where clay would stand open. A seasonal water-table check belongs in every geotech scope here.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who issues building permits in Grand Island, and to what code?",
+      "answer": "The City of Grand Island Building Department, under the 2018 IBC as adopted with amendments in City Code Chapter 8 (Ordinance 9802, effective January 2021), with planning coordinated through the Hall County Regional Planning Commission. Review times aren't published, so we confirm the queue by phone when scheduling.",
+      "segment": "general"
+    },
+    {
+      "question": "What does right-of-way work in Grand Island streets require?",
+      "answer": "City Code Chapter 32 governs it: the public works director approves the contractor, and proof of insurance — workers' compensation and employer's liability included — must be on file before work starts in the ROW. State-highway work goes through NDOT District 4, whose office is conveniently in town, and every dig carries a Nebraska811 ticket at least two business days ahead.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroads do fiber routes have to deal with in Grand Island?",
+      "answer": "Three. Union Pacific's transcontinental Overland Route mainline runs through town — its crossing and occupation permits are the long pole on most alignments, so we file early. BNSF's Ravenna Subdivision crosses the UP corridor on an elevated flyover, and the Nebraska Central, headquartered here, runs ex-UP branches north toward Ord with interchanges to both Class Is.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do whooping cranes really affect tower siting near Grand Island?",
+      "answer": "Near the river, yes. The Platte reach from Lexington to Shelton — immediately west of the city — is federally designated whooping crane critical habitat, and about 80% of Nebraska sightings occur between Lexington and Grand Island during spring and fall migration. Interior least terns and piping plovers also nest on valley sandbars and mine spoil. River-adjacent proposals get an IPaC screen and early USFWS coordination before commitments.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What did the 1980 tornado outbreak change about building telecom sites here?",
+      "answer": "It set the local design mindset. Seven tornadoes hit Grand Island in one night — June 3, 1980 — several rotating anticyclonically and looping over their own paths, killing five and destroying hundreds of structures. We build compounds in this market with uplift-rated anchorage, secured fuel containment, and debris-conscious detailing, and central Nebraska's hail frequency argues for the same conservatism on equipment specification.",
+      "segment": "general"
+    },
+    {
+      "question": "Is winter construction possible in Grand Island?",
+      "answer": "Routine, with the right pricing: frost excavation, heated protection or blankets, and admixtures from roughly December into March. The number we won't quote is frost depth — Grand Island's amended value has to be read from the city code before we design or publish to it, and that verification hasn't cleared yet.",
+      "segment": "general"
+    },
+    {
+      "question": "Do seasonal road limits affect shelter deliveries to rural Hall County sites?",
+      "answer": "During spring thaw, yes — county-posted gravel and secondary roads are the binding constraint on the last mile, not the state highway system. Hall County postings go up as frost leaves the ground and generally lift by late April; oversize or overweight hauls on state routes permit through NDOT with daytime-movement rules. We schedule rural sets against the county postings.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How does CellSite Solutions cover Grand Island from Cedar Rapids?",
+      "answer": "On a deployment basis, stated plainly: it's a bit over 400 miles, essentially all I-80, so crews mobilize for the duration of a scope, stage in-market, and buy concrete and aggregate from Platte valley suppliers — the local sand-and-gravel industry makes that the easy part. Mobilization lead time is quoted per program; there is no same-day service-call promise at this range.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Dewatering is the foundation problem in Grand Island — plan it before the pour",
+    "body": "In most markets the first geotechnical question is what you'll hit; in the Platte valley it's when you'll hit water. Grand Island sits on unconsolidated alluvium — sands and gravels tens of feet deep with no bedrock in engineering reach — and measured water tables in the valley run from about 3 to 31 feet down, with wet-meadow ground wet in the top five feet. A footing excavation that stays dry on one parcel can take water on the next, and a vault set or pier hole near the river should be assumed to pump. In practice that means scoping dewatering as a line item, never a contingency: well points or sump pumping sized to the season, spoil handling that accounts for saturated material, trench boxes and casing for sands that won't stand, and pour schedules that never leave an open excavation flooding over a weekend. The season matters as much as the site — spring recharge and river stage lift the water table, so the same hole behaves differently in April than in September, and we prefer borings drilled in the wet season for exactly that reason. The compensations are real: excavation is fast in clean sand, there is no rock premium anywhere in the column, and the alluvium that produces the water also feeds the valley's sand-and-gravel pits, keeping aggregate and ready-mix hauls short. Borings plus a seasonal water-table check govern; the map never overrules the auger."
+  },
+  "sources": [
+    {
+      "label": "Grand Island City Code Ch. 8, Buildings (2018 IBC/IEBC adoption, Ord. 9802)",
+      "url": "https://codelibrary.amlegal.com/codes/grandislandne/latest/grandisland_ne/0-0-0-26336",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Grand Island — Building Services",
+      "url": "https://www.grand-island.com/page/building-services",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Grand Island City Code Ch. 32 — Streets and Sidewalks (ROW work requirements)",
+      "url": "http://city.grand-island.com/City_Code/cc32.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska811 — locate notice requirements",
+      "url": "https://nebraska811.com/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska DWEE — construction storm water general permit",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Grand Island Utilities Department — electric production (Platte Generating Station, Burdick)",
+      "url": "https://www.grand-island.com/o/giud/page/electric-production",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS NAWQA — Platte River valley alluvial aquifer water-table depths",
+      "url": "https://pubs.usgs.gov/fs/2000/0151/report.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UNL Tern and Plover Conservation Partnership — sand and gravel mining in the Platte valley",
+      "url": "https://ternandplover.unl.edu/additional-information/sand-and-gravel-mining-industry",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Platte River Recovery Implementation Program — whooping crane (critical habitat reach)",
+      "url": "https://platteriverprogram.org/target-species/whooping-crane",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "1980 Grand Island tornado outbreak — event record",
+      "url": "https://en.wikipedia.org/wiki/1980_Grand_Island_tornado_outbreak",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Hastings — March 2019 catastrophic flooding in central Nebraska",
+      "url": "https://www.weather.gov/gid/march2019flood",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTV — Grand Island flood-control project's 2019 performance (Prairie/Silver/Moores)",
+      "url": "https://nebraska.tv/news/local/grand-island-flood-project-paid-for-itself-in-2019-now-saving-homeowners-money",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Central Nebraska Today — ALLO completes Grand Island fiber construction (June 2024)",
+      "url": "https://www.centralnebraskatoday.com/2024/06/21/154183/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska PSC — Broadband Bridge Program grant awards (Order C-5561)",
+      "url": "https://psc.nebraska.gov/for-consumers/psc-awards-nebraska-broadband-bridge-program-grants",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Office of the Governor — NTIA approval of Nebraska's $405M BEAD final proposal",
+      "url": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska DOT — district map with contacts (District 4, Grand Island)",
+      "url": "https://dot.nebraska.gov/media/kfgfb2u4/dist-map-with-contacts.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Department of Labor — Contractor Registration",
+      "url": "https://dol.nebraska.gov/conreg",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Public Media — NorthWestern Energy serves Grand Island (gas); merger with Black Hills announced",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/2-natural-gas-companies-that-serve-nebraska-announce-merger-plans/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool / ATC blocked by sandbox proxy. One query at 40.9264, -98.342 from an unproxied machine resolves it."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf + designRadialIceIn + designTempLowF/HighF",
+      "attempted": "ASCE tool and TIA-222 county tables not freely readable; ASHRAE design-temperature compilations unfetchable through proxy."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps service blocked by proxy; only qualitative low-hazard support recorded."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "No amended frost value found in searchable text of Grand Island City Code Ch. 8; amlegal section pages returned 403 through the proxy. Read the amended Table R301.2(1) equivalent directly before publishing any value."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — chapter text verification",
+      "attempted": "2018 IBC/IEBC adoption and Ordinance 9802 history are search-extracted from the amlegal code library; the chapter text itself was proxy-blocked. Open it before sign-off."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain administrator contact not identified from reachable pages; confirm with the city (likely Public Works or Regional Planning) during scoping."
+    },
+    {
+      "field": "geotech.seasonalHighGroundwaterFt (single value) + bearing range, corrosivity, expansive risk",
+      "attempted": "USGS publishes valley water tables as a range (≈3–31 ft), not a single design value; NRCS Web Soil Survey unreachable through proxy for numeric ratings."
+    },
+    {
+      "field": "identity.population — vintage confirmation",
+      "attempted": "Census QuickFacts blocked; 52,884 is a republished estimate through July 1, 2024. Confirm before publish."
+    },
+    {
+      "field": "seasonality — NOAA normals station check",
+      "attempted": "NCEI normals for the Central Nebraska Regional Airport station not readable through proxy; calendar authored qualitatively pending the table."
+    },
+    {
+      "field": "utilities.ilec",
+      "attempted": "CenturyLink, Windstream, and Frontier all market service in Grand Island and each holds Nebraska ILEC territory; the incumbent for Grand Island exchanges was not resolvable from reachable sources. Check Nebraska PSC exchange-boundary maps."
+    },
+    {
+      "field": "logistics.seasonalLoadRestrictions — Hall County posting confirmation",
+      "attempted": "County posting practice confirmed only from secondary permitting sources; verify the current Hall County Public Works posting window by phone."
+    },
+    {
+      "field": "environmental.treeClearingWindow",
+      "attempted": "No county-specific mandatory clearing window sourced for Hall County; IPaC unreachable through proxy. Coordinate USFWS Nebraska Ecological Services per project."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "417 mi / 7.2 h is the seed straight-line-derived estimate; real I-80 routing not yet run. routeVerified stays false."
+    },
+    {
+      "field": "operations — staging and local-supply plans (Band B) + countiesServed + response commitments",
+      "attempted": "stagingApproach and localSupplyApproach are drafted to the Band B model per CONTENT_MODULES §O, but RESEARCH.md sources these from CSS ops and estimating — ops must confirm staging sites, supplier lineup, coverage counties, and any response commitment before this gap clears."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 3 publish gate requires 2 images from real project photos; never invented."
+    }
+  ]
+}
