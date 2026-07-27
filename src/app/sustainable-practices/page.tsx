@@ -1,9 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
-import { PageHero } from "@/components/page-hero";
+import { PhotoBand } from "@/components/photo-band";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/faq-accordion";
-import { EbookForm } from "@/components/ebook-form";
 
 export const metadata: Metadata = {
   title: "Sustainable Practices",
@@ -58,16 +58,54 @@ const pillars = [
 export default function SustainablePracticesPage() {
   return (
     <>
-      <PageHero
-        eyebrow="SUSTAINABLE PRACTICES"
-        title="SUSTAINABLE PRACTICES"
-        lede="As both corporate citizens and human beings, CellSite strives to make a positive impact on our planet. True sustainability means making a commitment on multiple levels, across an entire organization. These pillars remind us to always consider the effects of our actions."
-      />
+      {/* ── Hero: stacked two-line title + subtle texture ─────────── */}
+      <section className="relative flex items-center overflow-hidden bg-surface-dark text-white">
+        <div
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage: `url(${IMG}/2024/06/page-texture-img.png)`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          aria-hidden
+        />
+        {/* radial dark overlay, as on the live heroes */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "radial-gradient(ellipse at center, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.25) 100%)",
+          }}
+          aria-hidden
+        />
+        <div className="relative mx-auto w-full max-w-7xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8 lg:pb-20 lg:pt-32">
+          <p className="mb-3 font-display text-sm font-medium uppercase tracking-[0.2em] text-brand">
+            SUSTAINABLE PRACTICES
+          </p>
+          <h1 className="mx-auto max-w-4xl uppercase leading-[1.05] text-[36px] sm:text-[64px] lg:text-[96px]">
+            SUSTAINABLE
+            <br />
+            PRACTICES
+          </h1>
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-white/80">
+            As both corporate citizens and human beings, CellSite strives to make a positive impact on
+            our planet. True sustainability means making a commitment on multiple levels, across an
+            entire organization. These pillars remind us to always consider the effects of our actions.
+          </p>
+        </div>
+      </section>
 
-      {/* ── FAQ ──────────────────────────────────────────────────── */}
-      <section className="bg-white py-20">
+      {/* ── FAQ (white + subtle page texture) ────────────────────── */}
+      <section
+        className="bg-white py-20"
+        style={{
+          backgroundImage: `url(${IMG}/2024/06/page-texture-img.png)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
+          <p className="text-sm font-bold tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
           <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
@@ -100,7 +138,7 @@ export default function SustainablePracticesPage() {
             />
           </div>
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">THE KEY PLAYERS</p>
+            <p className="text-sm font-bold tracking-[0.2em] text-brand">The Key Players</p>
             <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">BUILDING FOR THE FUTURE</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               At CellSite Solutions, sustainability drives every aspect of our business, ensuring we make
@@ -118,32 +156,24 @@ export default function SustainablePracticesPage() {
         </div>
       </section>
 
-      {/* ── Four pillars ─────────────────────────────────────────── */}
+      {/* ── Four pillars (collapsed accordion, as live) ──────────── */}
       <section className="bg-white py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-8 sm:grid-cols-2">
-            {pillars.map((p) => (
-              <div
-                key={p.title}
-                className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg"
-              >
-                <h3 className="text-xl text-ink">{p.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted">{p.copy}</p>
-              </div>
-            ))}
-          </div>
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <FaqAccordion items={pillars.map((p) => ({ q: p.title, a: p.copy }))} />
         </div>
       </section>
 
-      {/* ── eBook download ───────────────────────────────────────── */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SUSTAINABILITY</p>
-            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">KEEP A GOOD THING GOING</h2>
-          </div>
+      {/* ── Keep A Good Thing Going (full-bleed field photo band) ── */}
+      <PhotoBand image={`${IMG}/2024/11/cellsite-sustainability-field-1920x1077-1.jpg`}>
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-sm font-bold tracking-[0.2em] text-brand">SUSTAINABILITY</p>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">KEEP A GOOD THING GOING</h2>
         </div>
-        <div className="mx-auto mt-12 grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
+      </PhotoBand>
+
+      {/* ── eBook download (single button → landing page, as live) ── */}
+      <section className="bg-white py-20">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
           <div className="group relative mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden">
             <Image
               src={`${IMG}/2025/02/Guide-to-Energy-Efficiency-eBook.png`}
@@ -161,23 +191,33 @@ export default function SustainablePracticesPage() {
               cost-benefit analysis, it equips telecom operators and engineers with practical solutions
               for sustainability and cost savings.
             </p>
-            <div className="mt-7 max-w-md">
-              <EbookForm ebook="energy-efficiency" />
-            </div>
+            <Link
+              href="/ebook-energy-efficiency/"
+              className="mt-7 inline-block rounded-md bg-brand px-7 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            >
+              Download eBook
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* ── Founder quote band ───────────────────────────────────── */}
-      <section className="bg-surface-dark py-20 text-white">
+      {/* ── Founder quote band (white + texture, as live) ────────── */}
+      <section
+        className="bg-white py-20"
+        style={{
+          backgroundImage: `url(${IMG}/2024/06/section-texture-mask-4.png)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">WHO WE SERVE</p>
-          <blockquote className="mt-6 font-display text-[28px] font-medium leading-snug sm:text-[36px]">
+          <p className="text-sm font-bold tracking-[0.2em] text-brand">WHO WE SERVE</p>
+          <blockquote className="mt-6 font-display text-[28px] font-medium leading-snug text-ink sm:text-[36px]">
             &ldquo;We want our land, our customers, and our people to thrive. The decisions we make today
             impact that future.&rdquo;
           </blockquote>
-          <p className="mt-6 font-bold">Jim Patterson</p>
-          <p className="text-sm text-white/70">CellSite Solutions</p>
+          <p className="mt-6 font-bold text-ink">Jim Patterson</p>
+          <p className="text-sm text-muted">CellSite Solutions</p>
         </div>
       </section>
 

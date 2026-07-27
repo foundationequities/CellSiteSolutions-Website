@@ -40,21 +40,55 @@ export function ContactForm() {
 
   const field =
     "w-full rounded-md border border-border bg-white px-4 py-3 text-sm text-ink outline-none focus:border-brand";
+  const labelCls = "mb-1.5 block text-sm font-semibold text-ink";
+  const sublabelCls = "mt-1 block text-xs text-muted";
+  const req = <span className="text-brand">*</span>;
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
       {/* honeypot */}
       <input type="text" name="website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden />
-      <div className="grid gap-4 sm:grid-cols-2">
-        <input name="firstName" required placeholder="First Name *" className={field} />
-        <input name="lastName" placeholder="Last Name" className={field} />
+      <div>
+        <label htmlFor="contact-first-name" className={labelCls}>
+          Name {req}
+        </label>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div>
+            <input id="contact-first-name" name="firstName" required className={field} />
+            <span className={sublabelCls}>First</span>
+          </div>
+          <div>
+            <input name="lastName" aria-label="Last name" className={field} />
+            <span className={sublabelCls}>Last</span>
+          </div>
+        </div>
       </div>
       <div className="grid gap-4 sm:grid-cols-2">
-        <input name="email" type="email" required placeholder="Email *" className={field} />
-        <input name="phone" placeholder="Phone" className={field} />
+        <div>
+          <label htmlFor="contact-email" className={labelCls}>
+            Email {req}
+          </label>
+          <input id="contact-email" name="email" type="email" required className={field} />
+        </div>
+        <div>
+          <label htmlFor="contact-phone" className={labelCls}>
+            Phone
+          </label>
+          <input id="contact-phone" name="phone" className={field} />
+        </div>
       </div>
-      <input name="company" placeholder="Company Name" className={field} />
-      <textarea name="message" required rows={5} placeholder="Message *" className={field} />
+      <div>
+        <label htmlFor="contact-company" className={labelCls}>
+          Company Name
+        </label>
+        <input id="contact-company" name="company" className={field} />
+      </div>
+      <div>
+        <label htmlFor="contact-message" className={labelCls}>
+          Message {req}
+        </label>
+        <textarea id="contact-message" name="message" required rows={5} className={field} />
+      </div>
       {status === "error" && <p className="text-sm text-brand">{error}</p>}
       <button
         type="submit"

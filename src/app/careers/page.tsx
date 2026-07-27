@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
-import { CtaBand } from "@/components/cta-band";
 
 export const metadata: Metadata = {
   title: "Careers",
@@ -18,7 +17,7 @@ export default function CareersPage() {
       />
 
       <section className="bg-white py-20">
-        <div className="mx-auto max-w-3xl space-y-6 px-4 text-base leading-relaxed text-muted sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-6xl space-y-6 px-4 text-base leading-relaxed text-muted sm:px-6 lg:px-8">
           <p>
             Our work is about building connections and our internal philosophy is no different. We are
             always looking to give back to our employees, providing opportunities for growth, education,
@@ -36,9 +35,18 @@ export default function CareersPage() {
             it&rsquo;s time to take a look at our open jobs and see where you might fit.
           </p>
         </div>
-      </section>
 
-      <CtaBand />
+        {/* ── Paylocity job board (core content on the live page) ── */}
+        <div className="mx-auto mt-12 max-w-6xl px-4 sm:px-6 lg:px-8">
+          <iframe
+            src="https://recruiting.paylocity.com/recruiting/jobs/All/3e39eefe-ed09-437c-8a96-587fff3db562/Cellsite-Solutions-LLC"
+            title="Job openings"
+            loading="lazy"
+            className="w-full rounded-lg border border-border"
+            style={{ minHeight: "900px" }}
+          />
+        </div>
+      </section>
     </>
   );
 }

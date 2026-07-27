@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
+import { PhotoBand } from "@/components/photo-band";
 import { CtaBand } from "@/components/cta-band";
 import { VideoLightbox } from "@/components/video-lightbox";
 import { MATTERPORT_TOUR } from "@/lib/videos";
@@ -21,10 +22,10 @@ export default function TelecomSheltersPage() {
         eyebrow="Shelters"
         title="SHELTERS"
         lede="At CellSite Solutions, we're proud to provide a wide selection of built-to-spec remanufactured shelters for telecom projects. Our shelters can be shipped nationwide."
-        image={`${IMG}/2024/11/cellsite-products-shelters-960x1078-1.png`}
+        image={`${IMG}/2024/11/cellsite-products-shelters-1920x1014-1.jpeg`}
       />
 
-      {/* ── Largest Selection ────────────────────────────────────── */}
+      {/* ── Largest Selection (text LEFT / Matterport panel RIGHT) ── */}
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
@@ -43,47 +44,52 @@ export default function TelecomSheltersPage() {
               Press the PLAY button to launch a 3D immersive experience of a recently completed
               remanufactured shelter that has new HVAC, ladder rack, and electrical systems installed.
             </p>
+          </div>
+          {/* Matterport 3D tour panel */}
+          <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+            <Image
+              src={`${IMG}/2024/11/cellsite-products-shelters-960x1078-1.png`}
+              alt="Immersive 3D shelter tour preview"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-black/30" aria-hidden />
             <VideoLightbox
               embedUrl={MATTERPORT_TOUR}
               label="Play immersive shelter tour"
-              className="group mt-7 inline-flex items-center gap-3 rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              className="group absolute inset-0 flex items-center justify-center"
             >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-              Play 3D Tour
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform group-hover:scale-110">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" className="ml-1">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </span>
             </VideoLightbox>
-          </div>
-          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
-            <Image
-              src={`${IMG}/2024/11/cellsite-products-shelters-960x1078-1.png`}
-              alt="Remanufactured Telecom Shelter HVACs"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-            />
           </div>
         </div>
       </section>
 
-      {/* ── Telecom Shelters explainer ───────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <h3 className="text-2xl text-ink">TELECOM SHELTERS</h3>
-          <p className="mt-5 text-base leading-relaxed text-muted">
-            Used to safeguard sensitive telecommunication equipment from the surrounding environment,
-            telecom shelters are small independent structures that house communications equipment away
-            from the main switching center and keep telecommunications running smoothly. They are
-            designed to be resistant against all types of weather, from high heat to harsh rain, and
-            they are built to last for years to come, even with little maintenance and upkeep.
-          </p>
-          <p className="mt-4 text-base leading-relaxed text-muted">
-            While we can provide new shelters, CellSite specializes in remanufacturing previously owned
-            communication shelters. These offer top quality at a lower price and are engineer-inspected
-            for like-new appearance and performance.
-          </p>
+      {/* ── Telecom Shelters explainer (photo band, as live) ─────── */}
+      <PhotoBand image={`${IMG}/2024/11/cellsite-products-shelters-1920x1014-1.jpeg`}>
+        <div className="mx-auto max-w-5xl">
+          <h3 className="text-center text-[28px] uppercase sm:text-[40px]">TELECOM SHELTERS</h3>
+          <div className="mt-8 grid gap-8 md:grid-cols-2">
+            <p className="text-base leading-relaxed text-white/85">
+              Used to safeguard sensitive telecommunication equipment from the surrounding environment,
+              telecom shelters are small independent structures that house communications equipment away
+              from the main switching center and keep telecommunications running smoothly. They are
+              designed to be resistant against all types of weather, from high heat to harsh rain, and
+              they are built to last for years to come, even with little maintenance and upkeep.
+            </p>
+            <p className="text-base leading-relaxed text-white/85">
+              While we can provide new shelters, CellSite specializes in remanufacturing previously owned
+              communication shelters. These offer top quality at a lower price and are engineer-inspected
+              for like-new appearance and performance.
+            </p>
+          </div>
         </div>
-      </section>
+      </PhotoBand>
 
       {/* ── eBook CTA (Energy Efficiency) ────────────────────────── */}
       <section className="bg-white py-20">
@@ -115,20 +121,31 @@ export default function TelecomSheltersPage() {
         </div>
       </section>
 
-      {/* ── What's in Stock ──────────────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-            Full-Service Provider
-          </p>
-          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">What&apos;s in Stock</h2>
-          <p className="mt-5 text-base leading-relaxed text-muted">
-            Our secure, long-lasting telecommunication shelters range in size from 6 feet by 8 feet to
-            12 feet by 28 feet so that they can fit any scope of project or job. They are available in
-            several different types, including lightweight, lightweight concrete, concrete, and
-            fiberglass, expanding your options further. Because stock shifts so quickly, it&apos;s best
-            to give us a quick call for the latest availability and pricing.
-          </p>
+      {/* ── What's in Stock (image LEFT / text RIGHT, as live) ───── */}
+      <section className="bg-white py-20">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div className="group relative mx-auto aspect-[8/9] w-full max-w-lg overflow-hidden rounded-lg">
+            <Image
+              src={`${IMG}/2024/11/cellsite-products-shelters-960x1078-1.png`}
+              alt="Remanufactured Telecom Shelters in Stock"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
+              Full-Service Provider
+            </p>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">What&apos;s in Stock</h2>
+            <p className="mt-5 text-base leading-relaxed text-muted">
+              Our secure, long-lasting telecommunication shelters range in size from 6 feet by 8 feet to
+              12 feet by 28 feet so that they can fit any scope of project or job. They are available in
+              several different types, including lightweight, lightweight concrete, concrete, and
+              fiberglass, expanding your options further. Because stock shifts so quickly, it&apos;s best
+              to give us a quick call for the latest availability and pricing.
+            </p>
+          </div>
         </div>
       </section>
 

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
+import { PhotoBand } from "@/components/photo-band";
 import { CtaBand } from "@/components/cta-band";
 
 export const metadata: Metadata = {
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const IMG = "/images/wp-content/uploads";
+const HERO = `${IMG}/2024/11/cellsite-services-generalsitemaintenance-1920x1014-1.jpeg`;
 
 const services = [
   "Electrical Maintenance",
@@ -27,6 +29,7 @@ export default function GeneralSiteMaintenancePage() {
       <PageHero
         eyebrow="General Site Maintenance"
         title="General Site Maintenance"
+        image={HERO}
         lede="CellSite's maintenance is crucial to the ongoing protection of your equipment. To keep your site in the best possible shape, consider some of the following telecom maintenance services."
       />
 
@@ -50,20 +53,11 @@ export default function GeneralSiteMaintenancePage() {
               a focus on safety, efficiency, and quality, CellSite Solutions helps minimize downtime
               and extend the lifespan of your telecom building.
             </p>
-            <h3 className="mt-8 text-xl text-ink">WHY CHOOSE US?</h3>
-            <p className="mt-3 text-base leading-relaxed text-muted">
-              The overall appearance of your site makes an important impression on both neighbors and
-              potential investors. Even more important, site upkeep can extend the life of your
-              equipment by maintaining proper surroundings. Something as simple as removing brush can
-              prevent on-site pests, while fencing repair keeps other kinds of unwanted visitors away.
-              When you need upgrades to your access road or compound block grading, CellSite can
-              provide routine and emergency maintenance.
-            </p>
           </div>
           <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
             <Image
-              src={`${IMG}/2024/11/cellsite-services-generalsitemaintenance3-960x1078-1.jpg`}
-              alt="Telecom Concrete Shelter Site Maintenance"
+              src={`${IMG}/2024/11/cellsite-services-generalsitemaintenance2-960x1078-1.jpg`}
+              alt="Telecom Site Maintenance"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -72,26 +66,45 @@ export default function GeneralSiteMaintenancePage() {
         </div>
       </section>
 
+      {/* ── Why choose us — photo band ────────────────────────────── */}
+      <PhotoBand image={HERO} card>
+        <h3 className="text-2xl text-ink">WHY CHOOSE US?</h3>
+        <p className="mt-4 text-base leading-relaxed text-muted">
+          The overall appearance of your site makes an important impression on both neighbors and
+          potential investors. Even more important, site upkeep can extend the life of your
+          equipment by maintaining proper surroundings. Something as simple as removing brush can
+          prevent on-site pests, while fencing repair keeps other kinds of unwanted visitors away.
+          When you need upgrades to your access road or compound block grading, CellSite can
+          provide routine and emergency maintenance.
+        </p>
+      </PhotoBand>
+
       {/* ── Services we offer ─────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div className="group relative order-last aspect-[4/3] overflow-hidden rounded-lg lg:order-first lg:aspect-[9/10]">
+            <Image
+              src={`${IMG}/2024/11/cellsite-services-generalsitemaintenance3-960x1078-1.jpg`}
+              alt="Telecom Concrete Shelter Site Maintenance"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+          <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
             <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Services We Offer</h2>
+            <ul className="mt-8 grid gap-x-8 gap-y-3 sm:grid-cols-2">
+              {services.map((s) => (
+                <li key={s} className="flex items-center gap-3">
+                  <span className="h-2 w-2 shrink-0 rounded-full bg-brand" />
+                  <span className="text-base font-semibold text-ink">{s}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {services.map((s) => (
-              <li
-                key={s}
-                className="flex items-center gap-3 rounded-lg border border-border bg-white p-5 shadow-sm transition-shadow duration-300 hover:shadow-lg"
-              >
-                <span className="h-2 w-2 shrink-0 rounded-full bg-brand" />
-                <span className="text-base font-semibold text-ink">{s}</span>
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 

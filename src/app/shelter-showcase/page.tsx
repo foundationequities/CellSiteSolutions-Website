@@ -1,7 +1,8 @@
 import Image from "next/image";
 import type { Metadata } from "next";
-import { PageHero } from "@/components/page-hero";
+import { BgVideo } from "@/components/bg-video";
 import { CtaBand } from "@/components/cta-band";
+import { FadeGallery } from "@/components/fade-gallery";
 import { VideoLightbox } from "@/components/video-lightbox";
 import { MATTERPORT_TOUR, SHELTER_TIMELAPSE_VIDEO } from "@/lib/videos";
 
@@ -13,15 +14,25 @@ export const metadata: Metadata = {
 
 const IMG = "/images/wp-content/uploads";
 
+/** Jump-nav tiles for the opening "Customer Types" section. */
+const customerTypes = [
+  { label: "WIRELESS PROVIDERS", href: "#wireless" },
+  { label: "FIBER PROVIDERS", href: "#fiber" },
+  { label: "TOWER OWNERS", href: "#towers" },
+  { label: "EMERGENCY RESPONSE", href: "#emergency" },
+];
+
 type Project = {
   customer: string;
   type: string;
   size: string;
   body: string[];
-  /** Project photo (localized live slider image), shown beside the description. */
+  /** Single project photo (localized live slider image), shown beside the description. */
   image?: string;
+  /** Multiple gallery photos — rendered as an auto cross-fading slideshow. */
+  images?: string[];
   imageAlt?: string;
-  /** Matterport / embed URL for a 3D tour lightbox. */
+  /** Matterport / embed URL — rendered as a poster panel (`image`) with a centered play button. */
   tour?: string;
 };
 
@@ -30,8 +41,8 @@ const wireless: Project[] = [
     customer: "Verizon",
     type: "On-site Remanufacture",
     size: "SHELTER SIZE: 10' x 12'",
-    image: `${IMG}/2025/04/Controller-1.jpg`,
-    imageAlt: "Telecom shelter interior equipment",
+    images: [`${IMG}/2025/04/Verizon_Before.jpg`, `${IMG}/2025/04/Verizon_After.jpg`],
+    imageAlt: "Telecom shelter before and after on-site remanufacture",
     body: [
       "Verizon needed our help after a truck collision had demolished a telecom shelter, leaving the structure barely intact. However, replacing the shelter entirely wasn't an option—since its original installation, critical electrical wires had been added overhead, preventing crane operations from safely lifting the damaged shelter out and setting a new one in its place. The ISP equipment within the shelter remained still operational, so our team meticulously worked around the running network systems without interrupting Verizon's service. Ultimately achieving the goal of an on-site remanufactured shelter that looked virtually indistinguishable from a new telecom shelter.",
     ],
@@ -40,8 +51,12 @@ const wireless: Project[] = [
     customer: "Network Solution",
     type: "Telecom Shelter",
     size: "SIZE: 11' x 20' | SHELTER MODEL: Andrew",
-    image: `${IMG}/2026/06/Roof_1HVAC.png`,
-    imageAlt: "Shelter roof-mounted HVAC",
+    images: [
+      `${IMG}/2026/06/Extr-1-HVAC.png`,
+      `${IMG}/2026/06/2-HVAC.png`,
+      `${IMG}/2026/06/Roof_1HVAC.png`,
+    ],
+    imageAlt: "Telecom shelter exterior with AIRSYS HVAC units",
     body: [
       "CellSite Solutions delivered an 11' x 20' telecom shelter featuring AIRSYS HVAC units installed on both the front and back sides for enhanced airflow and redundancy. This configuration ensures reliable climate control, ideal for supporting sensitive telecom and fiber equipment in demanding environments operations.",
     ],
@@ -60,8 +75,12 @@ const wireless: Project[] = [
     customer: "Network Services",
     type: "Telecom Shelter",
     size: "SIZE: 12' x 20' | SHELTER MODEL: Andrew",
-    image: `${IMG}/2026/06/Interior-black-racks-2-scaled.jpg`,
-    imageAlt: "Interior network racks",
+    images: [
+      `${IMG}/2026/06/Interior-black-racks-2-scaled.jpg`,
+      `${IMG}/2026/06/Interior-Racking-2-scaled.jpg`,
+      `${IMG}/2026/06/Exterior-HVACs-2-scaled.jpg`,
+    ],
+    imageAlt: "Turnkey telecom shelter with network racks",
     body: [
       "This 12' x 20' telecom shelter, built for a network and delivering to Cheyenne, Wyoming, showcases a turnkey ISP infrastructure solution designed for reliable broadband network deployments. The shelter features three 3-ton Bard HVAC units, a new 200-amp 42-space single-phase panel, and an ASCO NEMA 3R Series 300 automatic transfer switch for dependable power and environmental control.",
       "Configured with eight network racks, DC power systems, battery backup, and extensive cable management infrastructure, this shelter provides a secure, scalable environment for critical ISP equipment. A Trilogy Lock 6200 access control system with magnetic door strike adds an extra layer of site security.",
@@ -81,9 +100,11 @@ const fiber: Project[] = [
     ],
   },
   {
-    customer: "Fiber Provider",
+    customer: "Tour Interior",
     type: "Fiber Hut with ISP",
     size: "SIZE: 12' x 28' | SHELTER MODEL: Rohn",
+    image: `${IMG}/2026/06/Interior-Telecom-Shelter-2.jpeg`,
+    imageAlt: "Fiber hut interior 3D tour",
     body: [
       "Tour the interior of the 12' x 28' fiber hut featuring complete ISP buildout deployed in North Carolina.",
     ],
@@ -113,8 +134,12 @@ const fiber: Project[] = [
     customer: "Rural Fiber Provider",
     type: "Rural Provider",
     size: "SIZE: 10' x 20' | SHELTER MODEL: CellXion",
-    image: `${IMG}/2026/06/5136-DC-Power1.jpg`,
-    imageAlt: "DC power plant installation",
+    images: [
+      `${IMG}/2026/06/10-x-20-Concrete-Shelter-Interior.jpeg`,
+      `${IMG}/2026/06/10-x-20-Concrete-Shelter-Interior-2.jpeg`,
+      `${IMG}/2026/06/10-x-20-Concrete-Shelter-Interior-3.jpeg`,
+    ],
+    imageAlt: "10' x 20' fiber hut interior",
     body: [
       "CellSite Solutions delivered a 10' x 20' custom fiber hut for a rural fiber provider in Rock Hill, North Carolina, that features a robust Fike Novec fire suppression system, including a cylinder with agent, actuator, nozzle, SHP Pro control panel with standby batteries, a manual pull station, abort switch, maintenance bypass, horn/strobe, discharge strobe, and all necessary conduit, and wiring for a complete fire protection solution. This showcases our ability to deliver a safe, and fully integrated fiber hut.",
     ],
@@ -133,8 +158,12 @@ const fiber: Project[] = [
     customer: "Amusement Park",
     type: "Amusement Park",
     size: "SIZE: 12' x 30' | SHELTER MODEL: Andrew",
-    image: `${IMG}/2026/06/Controller-7.jpg`,
-    imageAlt: "HVAC controller",
+    images: [
+      `${IMG}/2025/04/Exterior-Gen-Room-1.jpg`,
+      `${IMG}/2025/04/Exterior-Gen-Room-2.jpg`,
+      `${IMG}/2025/04/Exterior-Gen-Room-2-doors.jpg`,
+    ],
+    imageAlt: "Fiber hut exterior with generator room",
     body: [
       "CellSite Solutions partnered with an amusement park to deliver a custom-engineered fiber hut designed to support the park's broadband data infrastructure. This extra-large shelter was uniquely partitioned into two secure rooms—one dedicated to housing a 60kW Generac diesel generator with a 200A automatic transfer switch (ATS), and the other for broadband data equipment to ensure uninterrupted connectivity throughout the park. This tailored solution helps power seamless communication and data flow across one of America's most iconic amusement parks.",
     ],
@@ -156,8 +185,12 @@ const towers: Project[] = [
     customer: "Tower Owner",
     type: "Shelter with Plenum Wall",
     size: "SIZE: 12' x 20' | SHELTER MODEL: Oldcastle",
-    image: `${IMG}/2026/06/surge-suppression-2.jpeg`,
-    imageAlt: "Surge suppression equipment",
+    images: [
+      `${IMG}/2025/04/Exterior-Front-Door-Angle-2-scaled.jpg`,
+      `${IMG}/2025/04/Exterior-HVAC_Front-Door-Angle-1-scaled.jpg`,
+      `${IMG}/2025/04/Exterior-Front-Door-2-scaled.jpg`,
+    ],
+    imageAlt: "Telecom shelter exterior",
     body: [
       "CellSite Solutions customized telecom shelter featured a range of advanced infrastructure upgrades tailored to their specifications. A plenum wall was built and installed at the end of the shelter to create efficient hot/cold aisles for optimized airflow. We provided and installed two new AIRSYS 3–6 ton HVAC units along with an AIRSYS HVAC controller, complete with a supply and return grille for enhanced climate control. Inside the shelter, we installed ladder racks and cabinets.",
     ],
@@ -166,8 +199,12 @@ const towers: Project[] = [
     customer: "Construction Company",
     type: "Turnkey Telecom Shelter",
     size: "SIZE: 12' x 16' | SHELTER MODEL: Cellxion",
-    image: `${IMG}/2026/06/Alarm-66-Block.jpeg`,
-    imageAlt: "Alarm 66 block wiring",
+    images: [
+      `${IMG}/2026/06/delivery1.jpg`,
+      `${IMG}/2026/06/on-truck.jpg`,
+      `${IMG}/2026/06/Set.jpg`,
+    ],
+    imageAlt: "Telecom shelter delivery and set",
     body: [
       "This 12' x 16' Cellxion telecom shelter, delivered to Fort Davis, Texas, is a reliable and fully equipped solution designed to support critical telecommunications infrastructure. The shelter features two new 3-ton Bard HVAC units with a lead-lag controller and 5 kW heat strips for efficient environmental control.",
       "To ensure dependable site operation, the shelter includes three new 200-amp power panels, a Kohler automatic transfer switch, manual transfer switch, cam-lock generator connection, and dual lightning surge arrestors. An R56 grounding system, smoke detection, emergency lighting, and a complete safety kit provide additional protection, making this shelter a secure and turnkey solution for demanding network applications.",
@@ -180,8 +217,12 @@ const emergency: Project[] = [
     customer: "Public Safety Provider",
     type: "Public Safety Provider",
     size: "SIZE: 12' x 28' | SHELTER MODEL: Andrews",
-    image: `${IMG}/2026/06/Interior-CommScope.jpg`,
-    imageAlt: "Interior CommScope equipment",
+    images: [
+      `${IMG}/2026/06/Ext-1.jpeg`,
+      `${IMG}/2026/06/Ext-2.jpeg`,
+      `${IMG}/2026/06/Ext-3.jpeg`,
+    ],
+    imageAlt: "Remanufactured telecom shelter exterior",
     body: [
       "CellSite Solutions recently delivered this remanufactured 12' x 28' Andrews telecom shelter to Maryland, offering a dependable and cost-effective solution for critical communications infrastructure. The shelter features upgraded power distribution with a new 400-amp electrical service, Kohler 400A automatic transfer switch, and Raycap surge protection, along with two new 5-ton Bard HVAC units with lead-lag controls and 5 kW heat strips for reliable climate control. Additional upgrades include LED lighting, enhanced Trilogy 3000 door hardware, and a comprehensive alarm package with door, power failure, and temperature monitoring. Built to support wireless, broadband, utility, and public safety networks, this shelter provides the durability and performance needed for mission-critical operations.",
     ],
@@ -190,6 +231,12 @@ const emergency: Project[] = [
     customer: "Municipal Deployment",
     type: "E911 Solution",
     size: "SIZE: 12' x 28' | SHELTER MODEL: Miller",
+    images: [
+      `${IMG}/2026/06/Exterior-Door-Wall.jpg`,
+      `${IMG}/2026/06/Exterior-Vent-Wall.jpg`,
+      `${IMG}/2026/06/Interior-Gen.jpg`,
+    ],
+    imageAlt: "E911 shelter exterior and generator room",
     body: [
       "CellSite Solutions recently deployed this remanufactured E911 shelter for a municipal building in Maryland, providing a secure and reliable environment for mission-critical emergency communications equipment. The shelter features a dedicated generator room and upgraded climate control systems, including a new 5-ton HVAC unit with lead-lag controls, a 5 kW heat strip, a wall-mounted heater, baseboard heater, and humidistat to maintain optimal operating conditions year-round. Power distribution upgrades include a refurbished 200-amp electrical panel, manual transfer switch, generator cam-lock connector, and multiple new lightning surge arrestors for enhanced system protection. Additional improvements such as new outlets, GFCIs, LED emergency lighting, smoke detectors with relay switches, and a thorough inspection of all wiring help ensure dependable operation. Designed to support E911 and public safety communications, this shelter delivers the reliability, security, and performance required for continuous emergency response connectivity.",
     ],
@@ -212,10 +259,10 @@ const choice = [
 ];
 
 /**
- * One project = a split row: photo on one half, description (customer, type,
- * size, story) on the other, alternating sides — matching the live showcase.
+ * One project = a split row matching the live showcase: photo (or slideshow /
+ * tour panel) on the LEFT, description (customer, type, size, story) on the right.
  */
-function ProjectRow({ p, flip }: { p: Project; flip: boolean }) {
+function ProjectRow({ p }: { p: Project }) {
   const info = (
     <div>
       <p className="text-xs font-semibold uppercase tracking-wide text-muted">
@@ -228,48 +275,63 @@ function ProjectRow({ p, flip }: { p: Project; flip: boolean }) {
           <p key={i}>{para}</p>
         ))}
       </div>
-      {p.tour && (
-        <VideoLightbox
-          embedUrl={p.tour}
-          label="Play 3D tour"
-          className="mt-5 inline-flex items-center gap-2 rounded-md bg-brand px-5 py-2.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
-        >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M8 5v14l11-7z" />
-          </svg>
-          Play 3D Tour
-        </VideoLightbox>
-      )}
     </div>
   );
 
-  const media = p.image ? (
-    <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
-      <Image
-        src={p.image}
+  let media: React.ReactNode = null;
+  if (p.tour && p.image) {
+    // Matterport tour panel: poster photo + centered round play button.
+    media = (
+      <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+        <Image
+          src={p.image}
+          alt={p.imageAlt ?? p.type}
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/30" aria-hidden />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <VideoLightbox
+            embedUrl={p.tour}
+            label="Play 3D tour"
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform duration-300 hover:scale-110 sm:h-20 sm:w-20"
+          >
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </VideoLightbox>
+        </div>
+      </div>
+    );
+  } else if (p.images && p.images.length > 1) {
+    media = (
+      <FadeGallery
+        images={p.images}
         alt={p.imageAlt ?? p.type}
-        fill
-        sizes="(max-width: 1024px) 100vw, 50vw"
-        className="object-cover transition-transform duration-700 group-hover:scale-105"
+        className="aspect-[4/3] rounded-lg"
       />
-    </div>
-  ) : null;
+    );
+  } else if (p.image) {
+    media = (
+      <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
+        <Image
+          src={p.image}
+          alt={p.imageAlt ?? p.type}
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+        />
+      </div>
+    );
+  }
 
   if (!media) return <div className="max-w-3xl">{info}</div>;
 
   return (
     <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
-      {flip ? (
-        <>
-          <div className="lg:order-2">{media}</div>
-          <div className="lg:order-1">{info}</div>
-        </>
-      ) : (
-        <>
-          {media}
-          {info}
-        </>
-      )}
+      {media}
+      {info}
     </div>
   );
 }
@@ -294,7 +356,7 @@ function ProjectGroup({
       </div>
       <div className="mt-12 space-y-16">
         {projects.map((p, i) => (
-          <ProjectRow key={i} p={p} flip={i % 2 === 1} />
+          <ProjectRow key={i} p={p} />
         ))}
       </div>
     </div>
@@ -304,59 +366,48 @@ function ProjectGroup({
 export default function ShelterShowcasePage() {
   return (
     <>
-      <PageHero
-        eyebrow="Shelter Showcase"
-        title="Shelter Showcase"
-        lede="Explore our telecom shelter options and real-world projects—find the ideal solution for wireless providers, fiber providers, tower owners, and emergency response deployments."
-        image={`${IMG}/2025/04/2036-Exterior-side.jpg`}
-      />
-
-      {/* ── Verizon before / after ───────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+      {/* ── Customer Types jump-nav over the timelapse video ─────── */}
+      <section className="relative overflow-hidden bg-surface-dark pb-20 pt-28 text-white sm:pb-24 sm:pt-36">
+        <BgVideo src={SHELTER_TIMELAPSE_VIDEO} overlay="bg-black/60" />
+        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
+          <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-              On-site Remanufacture
+              Jump the Line
             </p>
-            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
-              Verizon — Before &amp; After
-            </h2>
+            <h2 className="mt-2 text-[35px] sm:text-[65px]">Customer Types</h2>
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-white/85">
+              Explore our telecom shelter options—click a section on the right to quickly find
+              the ideal solution for your project.
+            </p>
           </div>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2">
-            <figure>
-              <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
-                <Image
-                  src={`${IMG}/2025/04/Verizon_Before.jpg`}
-                  alt="Verizon telecom shelter before on-site remanufacture"
-                  fill
-                  sizes="(max-width: 640px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
-              <figcaption className="mt-2 text-center text-sm font-semibold uppercase text-muted">
-                Before
-              </figcaption>
-            </figure>
-            <figure>
-              <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
-                <Image
-                  src={`${IMG}/2025/04/Verizon_After.jpg`}
-                  alt="Verizon telecom shelter after on-site remanufacture"
-                  fill
-                  sizes="(max-width: 640px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
-              <figcaption className="mt-2 text-center text-sm font-semibold uppercase text-muted">
-                After
-              </figcaption>
-            </figure>
-          </div>
+          <nav aria-label="Customer types" className="flex flex-col gap-4">
+            {customerTypes.map((c) => (
+              <a
+                key={c.href}
+                href={c.href}
+                className="group flex items-center justify-between rounded-lg border border-white/30 bg-white/5 px-6 py-5 font-display text-base font-medium uppercase tracking-wide backdrop-blur-sm transition-colors hover:border-brand hover:bg-brand sm:text-lg"
+              >
+                {c.label}
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  aria-hidden
+                  className="transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            ))}
+          </nav>
         </div>
       </section>
 
       {/* ── Wireless Providers ───────────────────────────────────── */}
-      <section className="bg-white py-20">
+      <section id="wireless" className="scroll-mt-24 bg-white py-20">
         <ProjectGroup
           eyebrow="Building Networks, Powering Trust."
           title="WIRELESS PROVIDERS"
@@ -366,7 +417,7 @@ export default function ShelterShowcasePage() {
       </section>
 
       {/* ── Fiber Providers ──────────────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
+      <section id="fiber" className="scroll-mt-24 bg-[#f6f6f6] py-20">
         <ProjectGroup
           eyebrow="Powering Connectivity, Protecting Performance."
           title="FIBER PROVIDERS"
@@ -376,7 +427,7 @@ export default function ShelterShowcasePage() {
       </section>
 
       {/* ── Tower Owners ─────────────────────────────────────────── */}
-      <section className="bg-white py-20">
+      <section id="towers" className="scroll-mt-24 bg-white py-20">
         <ProjectGroup
           eyebrow="Wireless Services That Grow and Evolve with You"
           title="TOWER OWNERS"
@@ -386,7 +437,7 @@ export default function ShelterShowcasePage() {
       </section>
 
       {/* ── Emergency Response ───────────────────────────────────── */}
-      <section className="bg-[#f6f6f6] py-20">
+      <section id="emergency" className="scroll-mt-24 bg-[#f6f6f6] py-20">
         <ProjectGroup
           eyebrow="Reliable Emergency Response"
           title="EMERGENCY RESPONSE | E911"

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
+import { PhotoBand } from "@/components/photo-band";
 import { CtaBand } from "@/components/cta-band";
 
 export const metadata: Metadata = {
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const IMG = "/images/wp-content/uploads";
+const HERO = `${IMG}/2024/11/cellsite-services-sitedecommissioning-19200x1014-2.jpg`;
 
 const services = [
   "Cell Tower Removal",
@@ -29,6 +31,7 @@ export default function SiteDecommissioningPage() {
       <PageHero
         eyebrow="Site Decommissioning"
         title="Site Decommissioning"
+        image={HERO}
         lede="Unlike demolition of a simple structure, telecom demolition services are explicitly designed to solve the unique problems that happen when telecom equipment is involved. This can include towers, batteries, internal equipment, hazardous material, and communication shelter removal."
       />
 
@@ -49,25 +52,11 @@ export default function SiteDecommissioningPage() {
               potentially hazardous materials to ensure the land is restored with proper safety in
               mind.
             </p>
-            <h3 className="mt-8 text-xl text-ink">WHY CHOOSE US?</h3>
-            <p className="mt-3 text-base leading-relaxed text-muted">
-              Before we begin telecom decommissioning, we make certain there are no other legal claims
-              to the site work within the law and give proper notice of termination to any third
-              parties. Next, we recover all branded equipment, which you can reuse or have us dispose
-              of safely.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-muted">
-              Our next step is to decommission the radio and microwave-based equipment carefully, so
-              as not to cause damage. Then, we manage the entire process of disconnecting the power
-              supply to the site. Next, we&rsquo;ll remove the communication shelter, including all
-              electrical equipment and wiring. Circuits are tested and can be kept for reuse if you
-              wish. Finally, we dismantle the steelworks or perform selective or full-site demolition.
-            </p>
           </div>
           <div className="group relative aspect-[4/3] overflow-hidden rounded-lg lg:aspect-[9/10]">
             <Image
-              src={`${IMG}/2024/11/cellsite-services-sitedecom3-960x1079-1.jpeg`}
-              alt="Telecom Wireless Tower Decom"
+              src={`${IMG}/2024/11/cellsite-services-sitedecom2-960x1079-1.jpeg`}
+              alt="Telecom Site Decommissioning"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -76,26 +65,50 @@ export default function SiteDecommissioningPage() {
         </div>
       </section>
 
+      {/* ── Why choose us — photo band ────────────────────────────── */}
+      <PhotoBand image={HERO} card>
+        <h3 className="text-2xl text-ink">WHY CHOOSE US?</h3>
+        <p className="mt-4 text-base leading-relaxed text-muted">
+          Before we begin telecom decommissioning, we make certain there are no other legal claims
+          to the site work within the law and give proper notice of termination to any third
+          parties. Next, we recover all branded equipment, which you can reuse or have us dispose
+          of safely.
+        </p>
+        <p className="mt-4 text-base leading-relaxed text-muted">
+          Our next step is to decommission the radio and microwave-based equipment carefully, so
+          as not to cause damage. Then, we manage the entire process of disconnecting the power
+          supply to the site. Next, we&rsquo;ll remove the communication shelter, including all
+          electrical equipment and wiring. Circuits are tested and can be kept for reuse if you
+          wish. Finally, we dismantle the steelworks or perform selective or full-site demolition.
+        </p>
+      </PhotoBand>
+
       {/* ── Our services ──────────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div className="group relative order-last aspect-[4/3] overflow-hidden rounded-lg lg:order-first lg:aspect-[9/10]">
+            <Image
+              src={`${IMG}/2024/11/cellsite-services-sitedecom3-960x1079-1.jpeg`}
+              alt="Telecom Wireless Tower Decom"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+          <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
             <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Our Services</h2>
+            <ul className="mt-8 grid gap-x-8 gap-y-3 sm:grid-cols-2">
+              {services.map((s) => (
+                <li key={s} className="flex items-center gap-3">
+                  <span className="h-2 w-2 shrink-0 rounded-full bg-brand" />
+                  <span className="text-base font-semibold text-ink">{s}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {services.map((s) => (
-              <li
-                key={s}
-                className="flex items-center gap-3 rounded-lg border border-border bg-white p-5 shadow-sm transition-shadow duration-300 hover:shadow-lg"
-              >
-                <span className="h-2 w-2 shrink-0 rounded-full bg-brand" />
-                <span className="text-base font-semibold text-ink">{s}</span>
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 

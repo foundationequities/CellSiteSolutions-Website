@@ -43,14 +43,46 @@ const choice = [
   {
     title: "Affordability",
     copy: "Our remanufactured shelters provide a cost-effective “like new” alternative that delivers the same reliability and durability as brand-new units, but at a fraction of the price.",
+    icon: (
+      // dollar / bill
+      <svg
+        width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden
+      >
+        <path d="M12 2v20" />
+        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+      </svg>
+    ),
   },
   {
     title: "Durability",
     copy: "Each remanufactured shelter is meticulously upgraded with new components, ensuring unmatched durability and energy efficiency, even in the most challenging environments.",
+    icon: (
+      // refresh arrows
+      <svg
+        width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden
+      >
+        <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+        <path d="M3 3v5h5" />
+        <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" />
+        <path d="M16 16h5v5" />
+      </svg>
+    ),
   },
   {
     title: "Timeliness",
     copy: "Our customized shelters are delivered in weeks to months—often much faster than newly manufactured options, helping you stay on schedule and avoid costly delays.",
+    icon: (
+      // clock
+      <svg
+        width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden
+      >
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 6v6l4 2" />
+      </svg>
+    ),
   },
 ];
 
@@ -89,10 +121,30 @@ const sustainability = [
 ];
 
 const equipment = [
-  { title: "HVAC", href: "/hvac-units/" },
-  { title: "Generators", href: "/generators/" },
-  { title: "ISP", href: "/installation-integration/" },
-  { title: "Cabinets", href: "/cabinets/" },
+  {
+    title: "HVAC",
+    href: "/hvac-units/",
+    img: `${IMG}/2024/05/HVAC-Portfolio-Featured-v2.png`,
+    alt: "Telecom Shelter HVAC Units",
+  },
+  {
+    title: "Generators",
+    href: "/generators/",
+    img: `${IMG}/2024/05/Generator-Portfolio-Featured-Image.png`,
+    alt: "Telecom Shelter Generators",
+  },
+  {
+    title: "Cabinets",
+    href: "/cabinets/",
+    img: `${IMG}/2024/05/Cabinets-Portfolio-Featured-Image.png`,
+    alt: "Telecom Equipment Cabinets",
+  },
+  {
+    title: "ISP",
+    href: "/installation-integration/",
+    img: `${IMG}/2024/05/ISP-Portfolio-Featured-Image.png`,
+    alt: "Telecom Shelter ISP Installation",
+  },
 ];
 
 export default function SheltersPage() {
@@ -101,7 +153,6 @@ export default function SheltersPage() {
       <PageHero
         eyebrow="Building the Backbone of Your Network"
         title="Telecom Shelters"
-        lede="Telecom shelters protect critical communications equipment from weather, security threats, and environmental conditions while supporting reliable network operations. CellSite Solutions provides remanufactured, new Datacomm Pro Lightweight and custom telecom shelters that deliver the durability, performance, and energy efficiency of new shelters with faster deployment timelines and significant cost savings for telecom, fiber, utility, and data infrastructure projects."
         image={`${IMG}/2024/09/Shelters-Section-Image.png`}
         video={{ src: SHELTERS_HERO_VIMEO }}
       />
@@ -113,15 +164,32 @@ export default function SheltersPage() {
             Frequently Asked Questions
           </p>
           <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Telecom Shelters</h2>
+          <p className="mt-5 text-base leading-relaxed text-muted">
+            Telecom shelters protect critical communications equipment from weather, security
+            threats, and environmental conditions while supporting reliable network operations.
+            CellSite Solutions provides remanufactured, new Datacomm Pro Lightweight and custom
+            telecom shelters that deliver the durability, performance, and energy efficiency of new
+            shelters with faster deployment timelines and significant cost savings for telecom,
+            fiber, utility, and data infrastructure projects.
+          </p>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
         </div>
       </section>
 
-      {/* ── Our Equipment Shelters ───────────────────────────────── */}
+      {/* ── Our Equipment Shelters (image LEFT / text RIGHT, as live) ── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
+            <Image
+              src={`${IMG}/2024/09/Shelters-Section-Image.png`}
+              alt="Remanufactured Concrete Communication Shelter"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">PREMIUM QUALITY</p>
             <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR EQUIPMENT SHELTERS</h2>
@@ -154,19 +222,10 @@ export default function SheltersPage() {
               Learn More
             </Link>
           </div>
-          <div className="group relative aspect-[4/3] overflow-hidden rounded-lg">
-            <Image
-              src={`${IMG}/2024/09/Shelters-Section-Image.png`}
-              alt="Remanufactured Concrete Communication Shelter"
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-          </div>
         </div>
       </section>
 
-      {/* ── Remanufactured vs New ────────────────────────────────── */}
+      {/* ── Remanufactured vs New (open columns + icons, as live) ── */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -175,13 +234,11 @@ export default function SheltersPage() {
               REMANUFACTURED vs NEW SHELTERS
             </h2>
           </div>
-          <div className="mt-12 grid gap-8 sm:grid-cols-3">
+          <div className="mt-12 grid gap-10 sm:grid-cols-3">
             {choice.map((c) => (
-              <div
-                key={c.title}
-                className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg"
-              >
-                <h3 className="text-xl text-ink">{c.title}</h3>
+              <div key={c.title} className="border-t border-border pt-8">
+                <div className="text-brand">{c.icon}</div>
+                <h3 className="mt-5 text-xl text-ink">{c.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">{c.copy}</p>
               </div>
             ))}
@@ -189,41 +246,56 @@ export default function SheltersPage() {
         </div>
       </section>
 
-      {/* ── Remanufacturing Process (dark band w/ timelapse bg video, as live) ── */}
+      {/* ── Remanufacturing Process (Matterport LEFT / text RIGHT, as live) ── */}
       <section className="relative overflow-hidden bg-surface-dark py-20 text-white">
         <BgVideo
           src={SHELTER_TIMELAPSE_VIDEO}
           overlay="bg-black/30"
         />
-        <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SEE HOW</p>
-            <h2 className="mt-2 text-[35px] sm:text-[65px]">REMANUFACTURING PROCESS</h2>
-            <p className="mt-5 text-base leading-relaxed text-white/80">
-              We specialize in expertly remanufacturing both the exterior and interior of your concrete
-              equipment shelters using industry-leading durable materials. Whether performed on-site or
-              at our fully equipped warehouse, our remanufacturing process restores your shelter to
-              like-new condition, ensuring it meets or exceeds current industry standards.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-white/80">
-              Our high-quality materials and meticulous craftsmanship allow us to offer warranties that
-              often surpass those of brand-new shelters, giving you peace of mind and long-term value.
-              Trust CellSite Solutions to deliver reliable, cost-effective solutions for extending the
-              life of your telecom shelters while maintaining optimal performance and protection.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-white/80">
-              Press the PLAY button to launch an immersive 3D experience that allows you to explore
-              the inside of our shelter that features a complete ISP installation.
-            </p>
-            <VideoLightbox
-              embedUrl={MATTERPORT_TOUR}
-              label="Launch immersive 3D shelter experience"
-              className="group mt-7 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
-            >
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" className="ml-1">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </VideoLightbox>
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            {/* Matterport 3D tour panel */}
+            <div className="relative aspect-video overflow-hidden rounded-lg">
+              <Image
+                src={`${IMG}/2024/09/Shelters-Section-Image.png`}
+                alt="Immersive 3D shelter tour preview"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-black/30" aria-hidden />
+              <VideoLightbox
+                embedUrl={MATTERPORT_TOUR}
+                label="Launch immersive 3D shelter experience"
+                className="group absolute inset-0 flex items-center justify-center"
+              >
+                <span className="flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform group-hover:scale-110">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" className="ml-1">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </span>
+              </VideoLightbox>
+            </div>
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SEE HOW</p>
+              <h2 className="mt-2 text-[35px] sm:text-[65px]">REMANUFACTURING PROCESS</h2>
+              <p className="mt-5 text-base leading-relaxed text-white/80">
+                We specialize in expertly remanufacturing both the exterior and interior of your concrete
+                equipment shelters using industry-leading durable materials. Whether performed on-site or
+                at our fully equipped warehouse, our remanufacturing process restores your shelter to
+                like-new condition, ensuring it meets or exceeds current industry standards.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-white/80">
+                Our high-quality materials and meticulous craftsmanship allow us to offer warranties that
+                often surpass those of brand-new shelters, giving you peace of mind and long-term value.
+                Trust CellSite Solutions to deliver reliable, cost-effective solutions for extending the
+                life of your telecom shelters while maintaining optimal performance and protection.
+              </p>
+              <p className="mt-4 text-base leading-relaxed text-white/80">
+                Press the PLAY button to launch an immersive 3D experience that allows you to explore
+                the inside of our shelter that features a complete ISP installation.
+              </p>
+            </div>
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {process.map((p) => (
@@ -305,6 +377,12 @@ export default function SheltersPage() {
               Since 2009, CellSite Solutions has focused on sustainable remanufacturing. Our core
               philosophy is simple: Reuse, Renew, and Reimagine.
             </p>
+            <Link
+              href="/sustainable-practices/"
+              className="mt-7 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            >
+              Learn More
+            </Link>
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {sustainability.map((s) => (
@@ -343,7 +421,7 @@ export default function SheltersPage() {
         </div>
       </section>
 
-      {/* ── Telecom Shelter Equipment ────────────────────────────── */}
+      {/* ── Telecom Shelter Equipment (photo tiles, as live) ─────── */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
@@ -363,10 +441,27 @@ export default function SheltersPage() {
               <Link
                 key={e.title}
                 href={e.href}
-                className="group rounded-lg border border-border bg-white p-7 text-center shadow-sm transition-shadow duration-300 hover:border-brand hover:shadow-lg"
+                className="group relative block aspect-[3/4] overflow-hidden rounded-lg"
               >
-                <p className="text-xs font-semibold uppercase tracking-wide text-muted">Equipment</p>
-                <h3 className="mt-1 text-xl text-ink group-hover:text-brand">{e.title}</h3>
+                <Image
+                  src={e.img}
+                  alt={e.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div
+                  className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-black/10"
+                  aria-hidden
+                />
+                <div className="absolute inset-x-0 bottom-0 p-6">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/75">
+                    Equipment
+                  </p>
+                  <h3 className="mt-1 text-2xl text-white transition-colors group-hover:text-brand">
+                    {e.title}
+                  </h3>
+                </div>
               </Link>
             ))}
           </div>

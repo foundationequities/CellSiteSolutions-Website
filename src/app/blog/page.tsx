@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { PageHero } from "@/components/page-hero";
-import { CtaBand } from "@/components/cta-band";
+import { ShareRow } from "@/components/share-row";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -82,51 +81,47 @@ const posts = [
 export default function BlogPage() {
   return (
     <>
-      <PageHero
-        eyebrow="Blog"
-        title="News & Insights"
-        lede="Industry knowledge, best practices, and market trends on telecom shelters, civil construction, and site services from the CellSite Solutions team."
-      />
+      {/* Live blog has no hero — slim dark bar clears the fixed header. */}
+      <div className="h-28 bg-surface-dark" aria-hidden />
 
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="bg-white py-16 lg:py-20">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="space-y-16">
             {posts.map((post) => (
-              <article
-                key={post.slug}
-                className="group flex flex-col overflow-hidden rounded-lg border border-border bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg"
-              >
-                <Link href={`/${post.slug}/`} className="relative block aspect-[16/10] overflow-hidden">
+              <article key={post.slug} className="border-b border-border pb-16 last:border-b-0 last:pb-0">
+                <Link
+                  href={`/${post.slug}/`}
+                  className="group relative block aspect-[16/9] w-full overflow-hidden rounded-lg"
+                >
                   <Image
                     src={post.image}
                     alt={post.title}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="(max-width: 1024px) 100vw, 896px"
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </Link>
-                <div className="flex flex-1 flex-col p-6">
-                  <h3 className="text-xl leading-snug text-ink">
-                    <Link href={`/${post.slug}/`} className="hover:text-brand">
-                      {post.title}
-                    </Link>
-                  </h3>
-                  <p className="mt-2 text-xs font-bold tracking-[0.15em] text-brand">{post.date}</p>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{post.excerpt}</p>
-                  <Link
-                    href={`/${post.slug}/`}
-                    className="mt-5 inline-block font-display text-sm font-medium uppercase tracking-wide text-brand hover:text-brand-dark"
-                  >
-                    Read More &rsaquo;
+                <h3 className="mt-8 text-2xl leading-snug text-ink sm:text-3xl">
+                  <Link href={`/${post.slug}/`} className="hover:text-brand">
+                    {post.title}
                   </Link>
+                </h3>
+                <p className="mt-2 text-sm text-muted">{post.date}</p>
+                <p className="mt-4 text-base leading-relaxed text-muted">{post.excerpt}</p>
+                <Link
+                  href={`/${post.slug}/`}
+                  className="mt-5 inline-block text-sm font-semibold text-brand hover:text-brand-dark"
+                >
+                  Read More &rsaquo;
+                </Link>
+                <div className="mt-6">
+                  <ShareRow path={`/${post.slug}/`} title={post.title} />
                 </div>
               </article>
             ))}
           </div>
         </div>
       </section>
-
-      <CtaBand />
     </>
   );
 }

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
+import { PhotoBand } from "@/components/photo-band";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { VideoLightbox } from "@/components/video-lightbox";
@@ -84,6 +85,7 @@ export default function AboutUsPage() {
       <PageHero
         eyebrow="ABOUT US"
         title="WHO WE ARE"
+        image={`${IMG}/2024/10/CellSite-HQ-Full-Sky.png`}
         lede="CellSite Solutions, founded in 2010, quickly became a leader in the telecom infrastructure industry specializing in remanufacturing equipment shelters, offering a more sustainable, eco-friendly alternative to new shelters. In 2021, Fort Point Capital invested in CellSite Solutions, allowing the company to expand its services creating a complete turnkey solution provider with services ranging from civil construction to wireless network services."
       />
 
@@ -102,9 +104,16 @@ export default function AboutUsPage() {
       </section>
 
       {/* ── FAQ ──────────────────────────────────────────────────── */}
-      <section className="bg-white py-20">
+      <section
+        className="bg-white py-20"
+        style={{
+          backgroundImage: `url(${IMG}/2024/06/page-texture-img.png)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
+          <p className="text-sm font-bold tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
           <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">About CellSite Solutions</h2>
@@ -145,7 +154,7 @@ export default function AboutUsPage() {
       <section className="relative flex min-h-[55vh] items-center overflow-hidden bg-surface-dark py-24 text-white lg:min-h-[70vh]">
         <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/30" />
         <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
+          <p className="text-sm font-bold tracking-[0.2em] text-brand">Behind the Scenes</p>
           <h2 className="mt-2 text-[35px] sm:text-[65px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
@@ -179,7 +188,7 @@ export default function AboutUsPage() {
               />
             </div>
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">MAIN PARTNERS</p>
+              <p className="text-sm font-bold tracking-[0.2em] text-brand">Main Partners</p>
               <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR CLIENTS</h2>
               <p className="mt-5 text-base leading-relaxed text-muted">
                 At CellSite Solutions, we proudly serve a wide range of industries, from telecom
@@ -196,28 +205,19 @@ export default function AboutUsPage() {
             </div>
           </div>
 
-          <div className="mt-12 grid gap-8 sm:grid-cols-2">
-            {clients.map((c) => (
-              <div
-                key={c.title}
-                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
-              >
-                <h3 className="text-xl text-ink">{c.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted">{c.copy}</p>
-              </div>
-            ))}
+          {/* Collapsed toggle accordion, as on the live clients block */}
+          <div className="mt-12">
+            <FaqAccordion items={clients.map((c) => ({ q: c.title, a: c.copy }))} />
           </div>
         </div>
       </section>
 
-      {/* ── Sustainable Practices ────────────────────────────────── */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
-            SUSTAINABLE PRACTICES
-          </p>
-          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR CORE PHILOSOPHY</h2>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
+      {/* ── Sustainable Practices (full-bleed photo band, as live) ── */}
+      <PhotoBand image={`${IMG}/2024/10/Recycled-Concrete.png`}>
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-sm font-bold tracking-[0.2em] text-brand">Sustainable Practices</p>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">OUR CORE PHILOSOPHY</h2>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/85">
             At CellSite Solutions, sustainability is at the heart of everything we do. By
             remanufacturing telecom shelters we extend their lifespan and reduce the environmental
             impact of producing new structures. Our eco-friendly approach not only benefits our
@@ -230,13 +230,13 @@ export default function AboutUsPage() {
             Learn More
           </Link>
         </div>
-      </section>
+      </PhotoBand>
 
       {/* ── Meet Our Team ────────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Experts</p>
+            <p className="text-sm font-bold tracking-[0.2em] text-brand">The Experts</p>
             <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">MEET OUR TEAM</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               At CellSite Solutions, our executive team brings together decades of experience in telecom
