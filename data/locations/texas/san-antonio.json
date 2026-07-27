@@ -1,0 +1,694 @@
+{
+  "identity": {
+    "slug": "san-antonio",
+    "city": "San Antonio",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Bexar"
+    ],
+    "msa": "San Antonio-New Braunfels",
+    "tier": 1,
+    "latitude": 29.4241,
+    "longitude": -98.4936,
+    "elevationFt": null,
+    "population": {
+      "value": 1495295,
+      "source": "U.S. Census Bureau Vintage 2023 population estimate (July 1, 2023), as widely republished; direct QuickFacts verification pending (census.gov blocked from this environment)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-10",
+      "I-35",
+      "I-37",
+      "I-410"
+    ],
+    "majorRoutes": [
+      "Loop 1604",
+      "US-281",
+      "US-90"
+    ]
+  },
+  "metadata": {
+    "title": "San Antonio, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil construction in San Antonio, TX — Edwards Aquifer recharge zone permitting, limestone and clay foundations, duct bank, and compound builds.",
+    "h1": "Telecom Site Civil Construction in San Antonio, Texas",
+    "intro": "San Antonio splits along a geologic line, and the split runs straight through every civil estimate. North of the Balcones Escarpment the city climbs onto karst limestone over the Edwards Aquifer, where TCEQ must approve a water pollution abatement plan before the first shovel of a regulated project turns and where trenching means rock. South of it, deep expansive clays take over and the problems go back to moisture and movement. Layer on CPS Energy — the largest municipally owned electric and gas utility in the country, a genuinely different interconnection process than deregulated Texas — plus Microsoft's far-west-side data center corridor, Joint Base San Antonio's network demands, and a flash-flood climate tamed downtown by a three-mile river tunnel, and this market asks for local judgment. CellSite Solutions serves Bexar County from our Dallas–Fort Worth yard down I-35.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-22 (referenced by the 2024 IBC; San Antonio adopted the 2024 ICC codes by Ordinance 2025-01-30-0075, effective May 1, 2025)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "South-central Texas is a low-seismicity setting despite the Balcones fault zone being the city's defining geologic structure — the faults are ancient and considered inactive as seismic sources, but numeric Ss/S1 values still come only from a USGS design-maps query at site coordinates, and the 2024 code cycle's ASCE 7-22 seismic provisions differ from 7-16."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "The Balcones Escarpment crosses the metro from southwest to northeast and divides it into two engineering provinces. The north and northwest sit on Cretaceous carbonates — Edwards Group and associated limestones — that are karstic: solution-widened fractures, caves, and sinkholes, forming the recharge zone of the Edwards Aquifer. The south and central city lie on the Gulf Coastal Plain's clays and marls, including expansive Blackland-type Vertisols such as the Houston Black series, with shallow stony Tarrant-series soils over limestone along the escarpment itself. (TCEQ Edwards Aquifer Protection Program; NRCS Official Series Descriptions.)",
+    "dominantSoilTypes": [
+      "Tarrant series (very shallow, stony clay over limestone — escarpment and north side)",
+      "Houston Black clay (deep smectitic Vertisol — south and east)",
+      "Lewisville / Austin-type calcareous clays over marl (central)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "Risk is strongly location-dependent: south- and east-side Houston Black clays carry the classic high shrink-swell behavior (NRCS OSD), while north-side sites over shallow limestone trade swell risk for rock excavation. Never price a Bexar County pad from the county average — the escarpment decides which problem you have.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "Real and regulated: the northern metro's Edwards limestone is karstic, with caves and solution features that are both a geotechnical void hazard and a regulatory trigger — TCEQ's Edwards Aquifer rules require a geologic assessment identifying sensitive features, and several cave-dwelling invertebrate species in Bexar County are federally listed."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation strategy in San Antonio starts with a map question: which side of the escarpment is the site on? North of it, excavation is the cost center — Tarrant-type soils run inches deep over limestone, so duct bank and foundation work means rock trenching or drilling, while bearing itself is excellent once you're in competent rock; the caveat is karst, where a geologic assessment (required anyway under the Edwards rules on the recharge zone) should inform foundation locations away from solution features and caves. South of the escarpment the calculus flips to classic expansive-clay practice: Houston Black and related Vertisols move with moisture, so pads get conditioned or select-fill subgrades and settlement-sensitive structures ride drilled piers through the active zone. On recharge-zone sites, one more constraint shapes even the foundation plan — temporary and permanent stormwater controls under the approved water pollution abatement plan constrain where and how you excavate. Site-specific borings govern everywhere; here they also tell you which of two different projects you're building."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of San Antonio Development Services Department",
+        "url": "https://www.sanantonio.gov/DSD",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permitting and code enforcement citywide; the 2024 ICC code package took effect May 1, 2025. Published review durations not located — confirm current timelines directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2024 ICC codes with San Antonio local amendments (Chapter 10, City Code), adopted by Ordinance 2025-01-30-0075 on January 30, 2025, effective May 1, 2025",
+      "source": "City of San Antonio 2024 building-related codes (Chapter 10) — https://docsonline.sanantonio.gov/DSDUploads/2024Ch10Building-RelatedCodesFinal.pdf",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "ROW network nodes fall under the statewide Chapter 284 regime (Texas Local Government Code): capped fees, shot-clock timelines, and municipal design-manual authority. San Antonio's historic districts and river-corridor overlays add aesthetic review on some node placements — confirm the current design manual with Development Services.",
+    "rowPermitAuthority": {
+      "name": "City of San Antonio Public Works — right-of-way permitting",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ROW excavation and lane-closure permits inside city limits; Bexar County Public Works covers county roads, and TxDOT's RULIS system covers state highway ROW including Loop 1604 and the interstates."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT San Antonio District (Bexar and surrounding counties)",
+      "url": "https://www.txdot.gov/about/districts/san-antonio-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Utility permits on state ROW through RULIS; TxDOT also publishes specific procedures for construction over the Edwards Aquifer within the district."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statewide one-call notice ahead of any excavation.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES construction general permit TXR150000, plus the Edwards Aquifer Protection Program (30 TAC 213) on the recharge, transition, and contributing zones",
+      "url": "https://www.tceq.texas.gov/permitting/eapp",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "On the Edwards recharge zone, a TCEQ-approved Water Pollution Abatement Plan (WPAP) with a geologic assessment is required before any soil disturbance on regulated activities — a separate approval on top of the standard stormwater NOI."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of San Antonio floodplain administration (Public Works / storm water division), with the San Antonio River Authority as the basin's flood-risk agency",
+      "url": "https://www.sariverauthority.org/services/flood-risk/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Floodplain development permits inside city limits; SARA maintains basin flood-risk modeling and Bexar County administers unincorporated areas."
+    },
+    "permitTimelineNarrative": "The scheduling question that separates San Antonio from every other Texas metro is asked first: is the site over the Edwards Aquifer? A regulated project on the recharge zone cannot disturb soil until TCEQ approves its Water Pollution Abatement Plan — an application built on a professional geologic assessment that locates sensitive karst features — so WPAP preparation and review belong at the top of the schedule, months ahead of mobilization. Off the aquifer, the path is conventional: Development Services building permits under the 2024 codes, Public Works ROW permits with traffic control, the TCEQ stormwater NOI at an acre of disturbance, and the two-business-day Texas811 ticket. Node work follows Chapter 284 timelines, with added aesthetic review in historic and river-corridor overlay districts."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "CPS Energy",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The largest municipally owned electric and natural gas utility in the United States — over 950,000 electric customers across Bexar and parts of seven surrounding counties. San Antonio sits outside ERCOT's retail-choice regime: CPS Energy is generator, wires company, and retailer in one, so new-service requests, easements, and design standards all run through a single utility rather than a TDU-plus-retailer split."
+      }
+    ],
+    "ilec": "AT&T (Southwestern Bell legacy; SBC Communications was headquartered in San Antonio before the AT&T merger era)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Spectrum (Charter)",
+      "Google Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Microsoft Westover Hills campuses (multiple SAT facilities; new multi-phase construction at 3435 Wiseman Blvd)",
+      "Microsoft Texas Research Park campus (158 acres on Lambda Drive; ~$1B, ~1M sq ft planned)"
+    ],
+    "longHaulRouteNotes": "San Antonio anchors the I-35 fiber spine north to Austin and DFW and the I-10 corridor east to Houston and west toward El Paso — the same corridors that carry its mobilization and its backhaul.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas runs no thaw-season weight postings; load limits are permanent engineering-based postings on specific structures. Check posted routes and district curfews when moving shelters through the metro."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS permitting and routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Automated routing for most loads; metro curfew windows apply on some corridors."
+    },
+    "bridgeOrClearanceConstraints": "The I-35 corridor through and northeast of the city carries persistent major construction (the NEX expansion program), which affects lane closures, haul timing, and escort routing on the primary approach from the DFW yard — check current traffic control phases when scheduling oversize moves.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "San Antonio is a significant UP hub with major yard and mainline activity on the Sunset Route corridor; utility crossing agreements take months more often than weeks — file at design."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      }
+    ],
+    "urbanRowRequirements": "City ROW permits with traffic control plans; downtown, River Walk-adjacent, and historic-district work can add coordination and aesthetic conditions beyond standard ROW terms."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Avoid clearing mature oak-juniper woodland during the golden-cheeked warbler nesting season (roughly March through August) on northern Bexar County sites; screen every site through IPaC first",
+      "driver": "Golden-cheeked warbler (federally listed) nests exclusively in Ashe juniper-oak habitat of the Hill Country margin, which reaches the metro's northern edge; general migratory-bird nesting guidance applies citywide",
+      "source": "USFWS Austin Ecological Services field office guidance; confirm per project via IPaC"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission — Section 106 and Antiquities Code reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "San Antonio's mission-era and colonial archaeology makes cultural screening a live issue on downtown and river-corridor alignments, not a formality."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (SWF) — Clean Water Act Section 404",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Fort Worth District (SWF)",
+    "listedSpeciesNote": "Bexar County carries an unusual federal species load for an urban county: multiple cave- and karst-dwelling invertebrates (ground beetles, spiders, and harvestmen of the Bexar County karst fauna) are federally listed with designated critical habitat in karst zones across the north side, and the golden-cheeked warbler occupies oak-juniper habitat on the metro's northern margin. Karst invertebrate surveys are a standard due-diligence item on north-side greenfield sites over the Edwards limestone — the same features TCEQ's geologic assessment maps for water quality are potential species habitat. Run IPaC per project and engage the USFWS Austin Ecological Services office early.",
+    "floodplainPrevalenceNote": "This is 'flash flood alley' — the Balcones Escarpment wrings extreme rainfall out of Gulf moisture, and the metro has repeatedly proven it: the October 1998 storm dropped up to 20 inches in two days and killed 25 people regionally, with major floods again in 2002. Downtown is protected by engineered conveyance, including the San Pedro Creek tunnel (1991) and the three-mile, 24-foot-diameter San Antonio River tunnel (1997), which kept the River Walk level through the 1998 event. Outside the protected core, creek floodplains thread the whole metro, and floodplain screening belongs in every site's due diligence."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild, mostly dry; brief cold snaps",
+        "earthworkConcrete": "favorable",
+        "note": "No frost constraint on the schedule"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild; good working ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming; spring rains begin",
+        "earthworkConcrete": "favorable",
+        "note": "Warbler nesting season opens on northern oak-juniper sites"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Warm; rounds of thunderstorms",
+        "earthworkConcrete": "favorable",
+        "note": "Flash-flood awareness on creek-adjacent sites"
+      },
+      {
+        "month": "May",
+        "groundConditions": "One of the wettest months; storm-prone",
+        "earthworkConcrete": "workable",
+        "note": "Rain-day contingency for earthwork; clays slick when wet"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot; early tropical-moisture surges possible",
+        "earthworkConcrete": "workable",
+        "note": "Heat planning begins in earnest"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and dry; clays shrinking",
+        "earthworkConcrete": "constrained",
+        "note": "Morning pours; hot-weather concrete practice"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; drought-hard ground common",
+        "earthworkConcrete": "constrained",
+        "note": "Rock trenching unaffected; clay sites at maximum shrinkage"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; tropical remnants can bring extreme rain",
+        "earthworkConcrete": "workable",
+        "note": "Historically a flash-flood month in south-central Texas"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Second rainfall peak; otherwise excellent",
+        "earthworkConcrete": "favorable",
+        "note": "October 1998 is the cautionary tale for creek-adjacent work"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild, drying; prime conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild; occasional freezes overnight",
+        "earthworkConcrete": "favorable",
+        "note": "Cold protection only on rare freeze nights"
+      }
+    ],
+    "narrative": "San Antonio builds all twelve months; what the calendar manages is heat and sudden water rather than cold. July and August compress concrete into morning windows and bake south-side clays to maximum shrinkage, which is exactly when pad subgrade moisture discipline matters most. The rainfall pattern is double-peaked — late spring and early fall — and it arrives in bursts: this is flash flood alley, where a stalled storm can put a dry creek ten feet up in an afternoon, so creek-adjacent sites carry drainage and access contingencies year-round. Winter is a scheduling gift, mild and dry with only occasional overnight freezes. Verify the month-by-month characterization against the NWS Austin/San Antonio station normals before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "North of the Balcones Escarpment, limestone sits inches below grade — trenching, duct bank, and foundations price as rock work (sawing, breaking, or drilling), while south-side sites in deep clay may see none at all. The escarpment line is the single biggest cost variable in the metro.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Chapter 2258 of the Texas Government Code attaches prevailing wage to public-body construction contracts, and Davis-Bacon rates govern federally funded scopes including BEAD fiber work; the stricter applicable rate controls on blended funding.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Hot-weather concreting from roughly late June through early September is the main seasonal premium; flash-flood rain days are a contingency item in the two rainfall peaks rather than a season-long cost.",
+    "narrative": "Two cost stories share one city. On the north side, rock and regulation stack: limestone excavation multiplies underground unit costs, and Edwards recharge-zone sites add the WPAP's engineering, geologic assessment, and permanent water-quality BMPs — real money and real calendar before any production starts. On the south side, the spend shifts to expansive-clay treatment: select fill, moisture conditioning, or piers, plus drainage detailing that respects how Houston Black clay sheds water. Common to both: Chapter 284 fees are capped for ROW nodes, TxDMV permits are cheap and fast for hauls, and mobilization from our DFW yard is a planned regional line down I-35 rather than a deployment premium. Heat is the only meaningful seasonal adder. As always we publish drivers, not prices — the escarpment, the aquifer map, and the borings set every number here."
+  },
+  "compliance": {
+    "stateContractorLicensing": "No statewide general contractor license exists in Texas; commercial construction oversight is exercised through municipal permitting and registration. Statewide trade credentials still apply — electrical contractors license through TDLR with a Master Electrician of record, plumbers through TSBPE — and on Edwards recharge-zone projects the water pollution abatement plan requires work by a Texas-licensed professional geologist or engineer for the geologic assessment. Confirm City of San Antonio contractor registration requirements with Development Services at project setup.",
+    "additionalRegistrations": [
+      "City of San Antonio Development Services contractor registration (confirm current requirements)",
+      "TCEQ Edwards Aquifer Protection Program plan approvals for regulated activities on the recharge/transition/contributing zones"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "extreme heat",
+      "hail",
+      "high wind"
+    ],
+    "designImplications": "Flash flooding is the defining hazard: compound siting stays out of creek floodplains where possible, access routes get evaluated for low-water crossings, and drainage design assumes short, violent rainfall rather than gentle accumulation. Heat shapes summer concrete operations and equipment cooling specs. Spring hail argues for protecting HVAC fins and exposed cabling on compounds. Wind design values await the ASCE Hazard Tool query under the newly effective ASCE 7-22 basis — inland San Antonio is well below coastal Texas values, but publishing a number without the tool query would be a guess, and we don't.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Texas BEAD moves to construction with ~$1.3B approved statewide",
+        "detail": "The NTIA approved Texas' final BEAD proposal November 20, 2025 — about $1.3 billion to 22 providers covering 240,000+ locations from the state's original $3.3 billion allocation — with the Texas Broadband Development Office finalizing grant agreements into 2026 and construction beginning as early as summer 2026. South Texas rural counties around the San Antonio metro are among the target areas; county-level award detail is tracked quarterly.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      },
+      {
+        "headline": "Microsoft keeps building on San Antonio's far west side",
+        "detail": "Virtual Builders Exchange reporting shows Microsoft entering a new multi-phase construction round in Westover Hills — three phases at 3435 Wiseman Blvd with a combined estimated value near $213 million — on top of its established SAT-series facilities in the area. Announcement/filing dates need confirmation against TDLR project registrations.",
+        "category": "data center",
+        "sourceUrl": "https://www.virtualbx.com/construction-preview/san-antonio-microsoft-data-center-construction-entering-new-phase/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Microsoft's Texas Research Park campus targets ~1M sq ft",
+        "detail": "Microsoft holds 158 acres at the Texas Research Park on the far west side, with plans reported at roughly $1 billion for about one million square feet of data center space (including the SAT46 facility on Lambda Drive) — a sustained civil, duct bank, and utility-yard pipeline in one corridor of the metro.",
+        "category": "data center",
+        "sourceUrl": "https://baxtel.com/data-center/microsoft-texas-research-park",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber construction in San Antonio prices by geology and permits by aquifer. A bore north of the Balcones Escarpment is a rock bore — Edwards-group limestone with karst voids that demand careful drilling-fluid and frac-out management, on top of TCEQ Edwards-rule approvals when the route crosses the recharge zone. The same bore on the south side is a clay bore with none of that overhead. Google Fiber's citywide overbuild alongside AT&T and Spectrum keeps metro duct bank and restoration work steady, UP's Sunset Route hub means crossing agreements get filed at design on east-west alignments, and the statewide BEAD construction wave from summer 2026 adds rural routes in the counties ringing the metro. Route design that respects the escarpment line — and the aquifer map — is where San Antonio fiber budgets are won.",
+      "localSpecificsReferenced": [
+        "Balcones Escarpment rock/clay split",
+        "TCEQ Edwards Aquifer recharge-zone approvals",
+        "Google Fiber overbuild",
+        "UP Sunset Route hub"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil here is a tale of two subgrades — rock anchors and grounding challenges in the shallow limestone of the north side, expansive-clay pad discipline on Houston Black soils in the south — with a third player no other Texas metro has at this scale: the military. Joint Base San Antonio's installations (Lackland, Randolph, Fort Sam Houston) concentrate secure-network and coverage demand, and work near installations carries its own coordination layer. North-side greenfield compounds add environmental due diligence for listed karst invertebrates and golden-cheeked warbler habitat before clearing. Small-cell and node deployments follow the Chapter 284 framework through the city's design standards, with extra aesthetic review downtown and along the river corridor. Grounding design deserves early attention on rock sites — a halo in inches of soil over limestone is a design problem, not a commodity.",
+      "localSpecificsReferenced": [
+        "Joint Base San Antonio (Lackland, Randolph, Fort Sam Houston)",
+        "Bexar County karst invertebrates / golden-cheeked warbler",
+        "north-side shallow limestone grounding conditions",
+        "Chapter 284 node process with historic-district overlays"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "San Antonio's data center gravity sits on the far west side, where Microsoft has stacked campuses — the Westover Hills SAT facilities now entering another multi-phase construction round at 3435 Wiseman Blvd, and the 158-acre Texas Research Park holding with roughly a million square feet planned. That corridor generates exactly the civil scope we self-perform: transformer and switchgear pads, campus conduit and duct bank, generator yards, and security perimeters. The utility relationship is the market's quiet differentiator — CPS Energy is a single vertically integrated municipal utility, so capacity, easements, and interconnection run through one organization instead of a wires-company-plus-retailer split, which changes both timeline and negotiation. Edge demand off-campus follows JBSA's footprint and the I-35 corridor's growth, and every west-side greenfield still gets the karst and aquifer screening before a pad is placed.",
+      "localSpecificsReferenced": [
+        "Microsoft Westover Hills / Texas Research Park corridor",
+        "CPS Energy single-utility interconnection",
+        "JBSA-driven edge demand"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 298,
+      "driveTimeHours": 5.1,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Bexar",
+      "Comal",
+      "Guadalupe",
+      "Medina"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "San Antonio is the far end of our regional band from the DFW yard, and the run is the I-35 spine — through the Austin corridor, which any Texas contractor will tell you is the state's most congested stretch and is compounded by the NEX construction program northeast of the city. We plan around it: crews position the evening before, work batched multi-day scopes, and time equipment moves outside the corridor's worst windows rather than pretending the drive is a constant. Concrete, aggregate, and rental equipment come from San Antonio-area suppliers as a matter of arithmetic at this distance. What we don't do is promise same-day service calls at three hundred road miles — recurring maintenance and densification programs get scheduled cadences instead, which serves carriers better than a response-time claim that traffic on I-35 would eventually break. Distances shown are seed estimates pending real routing verification.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What is the Edwards Aquifer recharge zone, and how does it affect telecom construction?",
+      "answer": "The recharge zone is the band of fractured, cavernous Edwards limestone across northern San Antonio where surface water enters the aquifer that supplies the region's drinking water. TCEQ regulates construction there under its Edwards Aquifer Protection Program (30 TAC 213): regulated projects need an approved Water Pollution Abatement Plan — built on a geologic assessment that maps caves and sensitive features — before any soil disturbance. It is a genuine schedule item, not a formality, and it belongs at the front of planning.",
+      "segment": "general"
+    },
+    {
+      "question": "Who approves construction over the Edwards Aquifer — the city or the state?",
+      "answer": "The state. TCEQ's regional program reviews and approves Water Pollution Abatement Plans for regulated activities on the recharge, transition, and contributing zones, separately from City of San Antonio building and ROW permits — you need both. TxDOT likewise applies specific Edwards-compliance procedures on state ROW within the district. Budget the WPAP as its own workstream with its own clock.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Will we hit rock trenching or boring in San Antonio?",
+      "answer": "Depends entirely on which side of the Balcones Escarpment the route runs. North and northwest — including much of the Loop 1604 growth arc — limestone sits inches below grade, so trenching and boring price as rock work and karst voids need managing. South and east, routes run in deep clays with no rock at all. The escarpment crosses the metro diagonally, so a single long route can see both conditions; we design and price to the geology segment by segment.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What endangered-species issues come up on San Antonio sites?",
+      "answer": "Two clusters, both concentrated on the north side: federally listed karst invertebrates — cave-dwelling beetles, spiders, and harvestmen with designated critical habitat in the Edwards limestone — and the golden-cheeked warbler, which nests in oak-juniper woodland on the metro's northern margin roughly March through August. Karst species surveys are standard due diligence on north-side greenfield compounds, and every project gets an IPaC screen before clearing commitments are made.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How is getting power from CPS Energy different from the rest of Texas?",
+      "answer": "Most Texas metros split electric service between a regulated wires company and a competitive retailer. San Antonio doesn't: CPS Energy — the largest municipally owned electric and gas utility in the country — generates, delivers, and sells the power as one organization. For a hut or compound, that means one counterparty for capacity, easements, design standards, and energization. Lead times aren't published; we open the service request during scoping and get commitments in writing.",
+      "segment": "edge"
+    },
+    {
+      "question": "How serious is flood risk for San Antonio telecom sites?",
+      "answer": "Serious enough to have a nickname — this is flash flood alley. The October 1998 storm dropped up to 20 inches of rain in two days; 2002 brought another catastrophic flood. Downtown is defended by engineered tunnels (the three-mile San Antonio River tunnel among them), but creek floodplains lace the rest of the metro, and a dry channel can rise dramatically in hours. We screen every site and its access route against the floodplain maps, and design compound drainage for burst rainfall.",
+      "segment": "general"
+    },
+    {
+      "question": "What are the small cell rules in San Antonio's right-of-way?",
+      "answer": "The statewide Chapter 284 framework governs: capped ROW fees, defined shot clocks, and city authority through a design manual. San Antonio layers aesthetic review on top in its historic districts and river-corridor overlays, which affects node placements downtown more than in outlying areas. Clean, manual-compliant submittals move on statutory timelines; nonstandard poles in sensitive districts are where schedules stretch.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which building code applies to San Antonio telecom structures right now?",
+      "answer": "The 2024 ICC code family with local amendments, adopted January 30, 2025 by Ordinance 2025-01-30-0075 and effective May 1, 2025 — which makes San Antonio an early Texas adopter of the 2024 cycle and moves structural design to the ASCE 7-22 basis. That matters practically: wind and seismic parameters differ from the 7-16 basis still used in most Texas metros, so carry-over structural calcs from other markets need rechecking.",
+      "segment": "general"
+    },
+    {
+      "question": "How does CellSite Solutions cover San Antonio from Dallas–Fort Worth?",
+      "answer": "As planned regional work down the I-35 corridor: crews position the evening ahead, run batched multi-day scopes, and source concrete, aggregate, and rentals from local suppliers. We schedule moves around the Austin corridor's congestion and the NEX construction zone rather than promising same-day arrivals we can't control, and recurring programs run on committed cadences. Mobilization is quoted per program; routing figures are being verified against real driving data.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "North of the escarpment or south of it: the first question on every San Antonio site",
+    "body": "Before borings, before the utility request, before the lease is even final, ask where the site sits relative to the Balcones Escarpment — because the answer forks the entire project. North: assume shallow limestone. Excavation becomes rock work, grounding needs design attention in thin soils, karst features are both a void risk and a habitat question for listed cave invertebrates, and if the site is on the Edwards recharge zone, a TCEQ-approved Water Pollution Abatement Plan stands between you and the first shovel — put its geologic assessment on the critical path immediately, and let that same assessment inform where the foundations go. South: assume active clay. The spend shifts from excavation to subgrade treatment — select fill or moisture conditioning under pads, piers through the active zone for settlement-sensitive structures — and drainage detailing that anticipates how Houston Black clay behaves in this climate's wet bursts and drought bakes. The expensive mistake is pricing one side's project on the other side's assumptions: a clay-priced duct bank hitting limestone at Loop 1604, or a rock-priced pad sitting on unconditioned Vertisol that racks a cabinet two summers later. One city, two projects — decide which one you're building first."
+  },
+  "sources": [
+    {
+      "label": "City of San Antonio — Chapter 10 building-related codes, 2024 editions (effective May 1, 2025)",
+      "url": "https://docsonline.sanantonio.gov/DSDUploads/2024Ch10Building-RelatedCodesFinal.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of San Antonio — 2024 ICC building-related code update process (SASpeakUp)",
+      "url": "https://www.saspeakup.com/Y07323?lang=en",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Edwards Aquifer Protection Program",
+      "url": "https://www.tceq.texas.gov/permitting/eapp",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Edwards Aquifer protection plans (WPAP requirements)",
+      "url": "https://www.tceq.texas.gov/permitting/eapp/apps.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT construction manual — complying with TCEQ requirements for work over the Edwards Aquifer",
+      "url": "https://www.txdot.gov/manuals/cst/cah/environment/water_resources-cfadfcff/complying_with_tceqrequirements_for_work_over_the_.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "CPS Energy — about us (largest municipally owned electric and gas utility in the U.S.)",
+      "url": "https://www.cpsenergy.com/en/about-us.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT San Antonio District",
+      "url": "https://www.txdot.gov/about/districts/san-antonio-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — excavation notice",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — construction stormwater general permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDMV — oversize/overweight permitting (TxPROS)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Public Radio — San Antonio's 3-mile underground flood tunnel",
+      "url": "https://www.tpr.org/arts-culture/2021-07-01/san-antonio-wasnt-built-for-rain-but-this-3-mile-underground-flood-tunnel-was",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "San Antonio Report — dam, tunnels, and gates protecting downtown (1998 flood performance)",
+      "url": "https://sanantonioreport.org/dam-tunnels-gates-keep-downtown-safe-and-the-river-walk-full/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "San Antonio Report — San Antonio is flash flood alley",
+      "url": "https://sanantonioreport.org/amid-cycles-of-drought-san-antonio-is-flash-flood-alley/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "San Antonio River Authority — flood risk services",
+      "url": "https://www.sariverauthority.org/services/flood-risk/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Virtual Builders Exchange — Microsoft San Antonio data center construction entering new phase (Westover Hills)",
+      "url": "https://www.virtualbx.com/construction-preview/san-antonio-microsoft-data-center-construction-entering-new-phase/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Baxtel — Microsoft Texas Research Park data center campus",
+      "url": "https://baxtel.com/data-center/microsoft-texas-research-park",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "San Antonio Report — Microsoft data centers in the San Antonio region",
+      "url": "https://sanantonioreport.org/microsoft-data-centers-san-antonio-region/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Houston Black clay",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/H/HOUSTON.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Tarrant series (shallow soils over limestone)",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/T/TARRANT.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USFWS — Austin Ecological Services field office (Bexar County listed species)",
+      "url": "https://www.fws.gov/office/austin-ecological-services",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — Texas BEAD final proposal approval (Nov 20, 2025)",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind, snow, ice, seismic Ss/S1, design temperatures (ASCE 7-22 basis)",
+      "attempted": "ASCE Hazard Tool, USGS design-maps API, and TIA-222 tables unreachable through the sandbox proxy. The 2024-code/ASCE 7-22 basis makes carried-over 7-16 values doubly unusable — query at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "San Antonio's amended climatic/geographic design table under the 2024 code adoption could not be read (city PDF fetches blocked); cite the amended table cell or leave null."
+    },
+    {
+      "field": "identity.elevationFt and population vintage",
+      "attempted": "USGS GNIS and census.gov blocked; 1,495,295 is the widely republished Vintage 2023 estimate pending direct confirmation. Elevation varies several hundred feet across the metro, so no single unsourced figure was recorded."
+    },
+    {
+      "field": "geotech — bearing ranges, depth-to-rock figures, groundwater, corrosivity ratings",
+      "attempted": "NRCS Web Soil Survey interactive and BEG publications not fetchable; north/south characterization is qualitative from OSDs and the TCEQ Edwards program's own geologic framing."
+    },
+    {
+      "field": "regulatory — City of San Antonio DSD and Public Works ROW page URLs and review times",
+      "attempted": "sanantonio.gov fetches 403'd; the DSD URL recorded is the standard portal path and needs confirmation, and ROW authority is recorded without a deep link."
+    },
+    {
+      "field": "environmental — karst invertebrate species list and critical habitat citation; warbler window dates",
+      "attempted": "USFWS ECOS/IPaC and Federal Register API blocked. The listed-karst-invertebrates and golden-cheeked warbler facts are well-established but must be pinned to specific USFWS/FR citations (species list, 2012 critical habitat rule) before publish."
+    },
+    {
+      "field": "utilities — CPS Energy new-service process URL and lead times; Google Fiber footprint confirmation",
+      "attempted": "cpsenergy.com deep pages and provider maps unfetchable; provider lineup from market knowledge pending FCC data check."
+    },
+    {
+      "field": "logistics — I-35 NEX program citation",
+      "attempted": "TxDOT project pages 403'd; the NEX construction reference in bridge/clearance notes is common knowledge in the corridor but needs the TxDOT project URL attached before publish."
+    },
+    {
+      "field": "marketActivity — Microsoft filing dates and current values",
+      "attempted": "Virtual Builders Exchange article date unretrievable (403); asOf recorded as review date with the caveat in the item detail. Confirm against TDLR TABS filings."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Seed 298 mi / 5.1 h is a straight-line estimate; the I-35E/I-35 drive is commonly quoted near 275 miles — ops routing check required (routeVerified stays false)."
+    },
+    {
+      "field": "operations.countiesServed + response commitments",
+      "attempted": "Four-county draft list pending ops sign-off; no response-time commitments published without ops clearance."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 gate needs at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "seasonality — NWS station normals confirmation",
+      "attempted": "weather.gov normals tables not fetchable; calendar authored from established regional climate pattern and the documented 1998/2002 flood history — verify against the SAT station normals table."
+    }
+  ]
+}

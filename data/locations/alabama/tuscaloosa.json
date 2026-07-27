@@ -1,0 +1,661 @@
+{
+  "identity": {
+    "slug": "tuscaloosa",
+    "city": "Tuscaloosa",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "stateAbbr": "AL",
+    "counties": [
+      "Tuscaloosa"
+    ],
+    "msa": "Tuscaloosa, AL (Tuscaloosa, Hale, and Pickens counties per recent delineations — confirm current OMB definition)",
+    "tier": 3,
+    "latitude": 33.2098,
+    "longitude": -87.5692,
+    "elevationFt": null,
+    "population": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "interstates": [
+      "I-20/59",
+      "I-359"
+    ],
+    "majorRoutes": [
+      "US-82 (McFarland Blvd)",
+      "US-43",
+      "US-11",
+      "AL-69"
+    ]
+  },
+  "metadata": {
+    "title": "Tuscaloosa Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Tuscaloosa, AL — fiber, wireless, and edge site work built for Pottsville rock, river terraces, and tornado-hardened compounds.",
+    "h1": "Telecom Site Civil Construction in Tuscaloosa, Alabama",
+    "intro": "Tuscaloosa's network demand has two anchors a construction manager can plan around: a flagship campus and an automotive corridor. The University of Alabama enrolled a record 42,360 students in fall 2025 — its fifth straight record — and Mercedes-Benz builds electric SUVs at Vance with batteries from its Bibb County plant, keeping industrial network work moving along I-20/59. The ground splits the same way the demand does: Pennsylvanian Pottsville Formation sandstone, shale, and coal under the uplands, young alluvium along the Black Warrior River. CellSite Solutions serves West Alabama on a project-deployment basis from our Dallas yard — crews mobilize for the duration of a scope, stage in the metro, and buy concrete and aggregate locally. And because the April 27, 2011 EF4 tornado crossed this city, hardening is not an abstraction here; it is the local design culture.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (the load standard referenced by the 2021 IBC, which Tuscaloosa has adopted); confirm any local amendment at permit intake",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Numeric Ss/S1 must come from a USGS design-maps query at site coordinates before publication. The practical structural conversation in Tuscaloosa is tornado and straight-line wind resilience — the April 27, 2011 EF4 (190 mph estimated peak winds, NWS Birmingham survey) is the local reference event — but tornado wind is a resilience and owner-criteria decision, not a code wind speed; the ASCE 7 basic wind speed still governs design and must be pulled from the Hazard Tool."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Two distinct settings in one county. The uplands sit on the Pennsylvanian Pottsville Formation of the Black Warrior basin — up to roughly 3,000 m of interbedded shale, sandstone, and coal (USGS) — the same coal measures that support one of the nation's densest coalbed methane fields, with methane produced from over 4,000 wells in Tuscaloosa County (Geological Survey of Alabama). Along the Black Warrior River, Quaternary alluvium and terrace deposits overlie the bedrock, giving deep, softer, wetter ground within a short distance of shallow-rock upland sites.",
+    "dominantSoilTypes": [
+      "Residual fine sandy loams and clay loams weathered from Pottsville sandstone and shale (uplands)",
+      "Alluvial and terrace sands, silts, and clays along the Black Warrior River"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Residual soils over Pottsville sandstone and shale are not a classic expansive-clay setting, but shale-derived clays can be moisture-sensitive and NRCS shrink-swell ratings for the mapped series have not yet been pulled. Treat as unknown until the Web Soil Survey query is run; site borings govern.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The Pottsville is a clastic (sandstone-shale-coal) sequence, not carbonate — classic karst is not the local hazard. The subsurface legacy to respect instead is mining and gas: coalbed methane wells and historic coal workings east of the city require utility and records screening before any bore."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation design in Tuscaloosa starts with one question: upland or river bottom? On the Pottsville uplands, weathered sandstone or shale can sit close to grade — favorable bearing once you reach it, but excavation can turn into rock work mid-dig, so pricing carries a rock clause and borings are not optional. Down on the Black Warrior terraces the problem inverts: deep alluvial sands and silts, shallower groundwater, and compressible zones that push heavier structures toward deeper foundations or improved subgrades rather than simple spread footings. Shelter pads and hut foundations on either setting are routine work once the borings are in hand — the expensive surprises come from pricing an upland site like a terrace site or vice versa. One more local layer: with thousands of coalbed methane wells producing from the upper Pottsville across the county, subsurface due diligence includes well and pipeline screening, not just an 811 ticket. Frost depth must come from the city's adopted code amendments — it is shallow here by Midwest standards, but we publish the code number only once cited.",
+    "_comment": null
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Tuscaloosa — Building & Inspections (adopted-codes program)",
+        "url": "https://www.tuscaloosa.com/adoptedcodes",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "The city has adopted the 2021 International Building Code as the Building Code of the City of Tuscaloosa (Code of Ordinances Ch. 6, Art. II, §6-30). Published plan-review timelines were not posted — confirm current review times directly. Unincorporated Tuscaloosa County sites follow a different enforcement posture; verify jurisdiction before design."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Building Code, adopted per City of Tuscaloosa Code of Ordinances Ch. 6, Art. II, §6-30 (companion residential code adopted at Art. IX; confirm local amendment package at intake)",
+      "source": "Municode — Tuscaloosa Code of Ordinances, §6-30 Adoption of International Building Code — https://library.municode.com/al/tuscaloosa/codes/code_of_ordinances?nodeId=CO_CH6BUCOREAC_ARTIIBUCO_S6-30ADINBUCOIB",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Municipal wireless-facility zoning and ROW provisions were not verified at research time — confirm the city zoning ordinance's telecommunications provisions and any state small-cell framework applicability before siting small cells or new support poles.",
+    "rowPermitAuthority": {
+      "name": "City of Tuscaloosa (municipal right-of-way permitting) inside city limits; ALDOT for state-route ROW; county road ROW through Tuscaloosa County",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the current city ROW permit intake and traffic-control requirements before mobilizing — department naming and portals change; we verify at scoping."
+    },
+    "stateDotDistrict": {
+      "name": "ALDOT West Central Region (regional offices in Tuscaloosa; the region covers Tuscaloosa, Bibb, Fayette, Greene, Hale, Lamar, Marion, Perry, Pickens, Sumter, Walker, Winston, and Chilton counties)",
+      "url": "https://www.aldotnews.com/2026/07/06/west-central-region-transportation-planning-meeting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route utility and ROW permits run through the region; confirm the current permit intake office."
+    },
+    "oneCallCenter": {
+      "name": "Alabama 811",
+      "url": "https://al811.com/before-you-dig/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Alabama law requires notice at least two but not more than ten working days before excavation, not counting the day of notification.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "ADEM — NPDES Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI required; CBMPP prepared and certified by a Qualified Credentialed Professional (QCP). A reissued CGP with 2026 permit changes is in effect — check the current version at NOI time."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Tuscaloosa floodplain management (confirm current office and contact)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Mapped floodplain follows the Black Warrior River and its tributary creeks through the city; sites on the river terraces get a FIRM check before design."
+    },
+    "permitTimelineNarrative": "The Tuscaloosa permit stack is straightforward by footprint standards, with two local wrinkles. Building permits run through the city under the 2021 IBC (Code of Ordinances §6-30); published review timelines are not posted, so we confirm them at scoping rather than quote stale numbers. ADEM's construction stormwater general permit ALR100000 triggers at one acre of disturbance and wants an NOI plus a QCP-certified BMP plan — build that authorship into the schedule, not just the fee. Alabama 811 requires two full working days' notice. The wrinkles: sites near the Black Warrior River pick up a floodplain review, and anything crossing or paralleling the NS or Watco rail corridors adds railroad permitting, which runs on the railroad's clock, not the city's. Unincorporated county sites sit under a different enforcement regime than city sites — confirm jurisdiction first, because it changes both the code conversation and the ROW office.",
+    "_comment": null
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Alabama Power",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The serving electric utility for the Tuscaloosa metro. New-service lead times are not published; we obtain written confirmation from the utility during scoping. Rural fringes of the county may fall to cooperative territory — confirm the serving utility per site."
+      }
+    ],
+    "ilec": "AT&T Alabama (legacy BellSouth territory; confirm exchange-level ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "C Spire Fiber (Tuscaloosa/Northport build announced under the 2019 C Spire–Alabama Power partnership: Alabama Power middle-mile fiber, C Spire last mile)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Alabama has no spring-thaw frost law; posted weight limits are year-round engineering-based postings. Check county-posted bridges and roads on the specific haul route — county postings, not a seasonal calendar, are the binding constraint here."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "ALDOT oversize/overweight permit office (statewide permits for shelter and hut hauls on state routes)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the current ALDOT permit intake and any escort/curfew conditions for the I-20/59 approach at scoping."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Norfolk Southern (AGS South District — the Birmingham–Meridian main through Tuscaloosa)",
+        "crossingPermitNote": "Crossing and parallel-occupancy permits run through NS's public utility process; timelines are long and belong at the front of any fiber route schedule."
+      },
+      {
+        "name": "Alabama Southern Railroad (Watco; ex-KCS line from Columbus, MS through Tuscaloosa to Brookwood, with trackage rights toward Birmingham)",
+        "crossingPermitNote": "Shortline crossing processes are handled through Watco; engage early — the ABS line threads through the same corridors fiber routes want."
+      }
+    ],
+    "urbanRowRequirements": "University of Alabama home-game Saturdays reshape access across the city — road closures and traffic management around Bryant-Denny Stadium make fall weekend lane closures near campus effectively unavailable. We schedule campus-area ROW work around the football calendar and confirm the city's traffic-control requirements per permit."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Protected bat species occur across much of Alabama; USFWS county-level guidance determines whether seasonal clearing windows apply to a given site",
+      "source": null
+    },
+    "shpo": {
+      "name": "Alabama Historical Commission (State Historic Preservation Office)",
+      "url": "https://ahc.alabama.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 review applies to federally funded or licensed work, including BEAD-funded builds and FCC-licensed facilities."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Mobile District (regulatory program for Alabama) with ADEM water-quality certification",
+      "url": "https://www.sam.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Riverine and tributary wetlands along the Black Warrior system are the local trigger to screen for."
+    },
+    "usaceDistrict": "Mobile District (SAM)",
+    "listedSpeciesNote": "Run IPaC per project. The Black Warrior basin carries real aquatic sensitivity — listed fish, mussels, and other aquatic species in the river system can bear on crossing and dewatering permits — and several protected bat species occur in Alabama. County-specific USFWS clearing-window guidance was not sourced at research time; coordinate the Alabama Ecological Services Field Office early.",
+    "floodplainPrevalenceNote": "Mapped floodplain follows the Black Warrior River and tributary creeks through town; upland Pottsville sites are generally clear of it, river-terrace sites are not. FIRM check before design on anything near the river."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild winter; wet ground, brief freezes, no sustained frost",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice only on occasional freeze nights"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Wet season; soils near saturation on shale-derived ground",
+        "earthworkConcrete": "workable",
+        "note": "Mud management on unimproved access"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Wet; severe-weather season building",
+        "earthworkConcrete": "workable",
+        "note": "Dixie Alley primary tornado season begins — site securing discipline"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying ground; peak severe-weather month",
+        "earthworkConcrete": "favorable",
+        "note": "April 27, 2011 is the local reference event; storm watch on open excavations"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Good working ground; warming",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot, humid; afternoon thunderstorms",
+        "earthworkConcrete": "workable",
+        "note": "Heat planning begins"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak heat and humidity",
+        "earthworkConcrete": "constrained",
+        "note": "Hot-weather concrete practice; morning pour windows"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; dry ground",
+        "earthworkConcrete": "constrained",
+        "note": "Crew heat management governs production"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; generally dry",
+        "earthworkConcrete": "workable",
+        "note": "Football season begins — campus-area access constrained on home Saturdays"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Typically the driest stretch; prime working ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; secondary severe-weather season",
+        "earthworkConcrete": "favorable",
+        "note": "Dixie Alley's fall tornado window is real — keep securing discipline"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild, wetter; occasional freezes",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Tuscaloosa builds essentially year-round — the constraint calendar is about storms and heat, not frost. Winters are mild and wet: workable with mud management, with only occasional freeze nights requiring cold-weather concrete measures. The two severe-weather windows are the schedule risks that matter — the March–May primary season and a genuine November secondary season, both part of the Dixie Alley pattern that produced the April 27, 2011 EF4 — so open excavations and staged material carry storm-securing plans in those months. July and August heat drives morning pours and crew heat management. One scheduling input no weather map shows: seven-plus home football Saturdays between September and November effectively close campus-area ROW access. Pull NOAA station normals before publishing the monthly figures as final."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Pottsville sandstone and shale can sit near grade on upland sites — rock clauses belong in upland pricing — while Black Warrior terrace sites are deep soil. The county's split geology means rock risk is a per-site question, not a market-wide answer; depth-to-refusal data pending borings.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "The Tuscaloosa metro supports local ready-mix supply; as a deployment market, concrete, aggregate, and precast are priced in-market at estimate rather than hauled — supplier lineup confirmed per program by estimating.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Alabama has no state prevailing wage law. Federal Davis-Bacon applies to federally funded work — including BEAD-funded broadband construction — at the $2,000 federal threshold, and a federal nexus pulls the whole project in on mixed funding.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "No winter frost premium to speak of. The seasonal cost items are severe-weather contingency in the spring and November windows, hot-weather concreting in July–August, and campus-area schedule friction during football season.",
+    "narrative": "What moves a civil number in Tuscaloosa is mostly beneath the surface and on the calendar. Upland sites carry rock risk — Pottsville sandstone near grade turns trenching and drilling into rock work, so we price it with borings and a rock clause instead of discovering it at mobilization. River-terrace sites trade rock for water: shallower groundwater and soft alluvium can add dewatering and subgrade improvement. Subsurface due diligence costs a little more here than in most Tier 3 markets because the county sits on an active coalbed methane field — well and pipeline screening is a real line item on fiber routes. Mobilization from the Dallas yard is priced per program, Band B style: crews deploy for scope duration, materials buy local. Davis-Bacon applies on BEAD-funded scopes even though Alabama has no state prevailing wage. Drivers only — sites price to their borings, their side of the river, and their season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Alabama is the one state in our footprint with mandatory statewide general contractor licensing for this scope of work. The Alabama Licensing Board for General Contractors requires a GC license where the cost of the undertaking is $100,000 or more — the threshold was raised from $50,000 by Act 2024-277 — and covers construction, site work, grading, and related improvements; subcontractors under a licensed prime need their own license at $50,000 or more. License classification must match the work performed. Verify current board rules at bid time.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "extreme heat",
+      "flood"
+    ],
+    "designImplications": "Tornado is the defining hazard, and Tuscaloosa is the market where clients already know it: the April 27, 2011 EF4 crossed the city with 190 mph estimated peak winds on an 80.68-mile path (NWS Birmingham survey), and the rebuild that followed shaped local expectations for hardened infrastructure. For telecom civil that means anchorage and embedment designed with wind governing, generator pads and fuel systems sized for extended outage response, debris-conscious compound layout, and equipment protection that assumes the grid goes down before the network does. Flood exposure concentrates along the Black Warrior terraces; summer heat shapes concrete practice. Numeric design wind speeds publish only after the ASCE Hazard Tool query.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Alabama's $1.4B BEAD program approved — $460M awarded across 63 projects",
+        "detail": "NTIA approved Alabama's final BEAD proposal in March 2026; ADECA awarded $460 million to 63 projects reaching more than 101,000 locations statewide, with 71% of projects using fiber. West Alabama route-level detail should be tracked as subgrantee builds schedule.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+        "asOf": "2026-03-31"
+      },
+      {
+        "headline": "C Spire fiber build in Tuscaloosa and Northport",
+        "detail": "Under the 2019 C Spire–Alabama Power partnership, Alabama Power's fiber provides middle mile while C Spire builds last-mile fiber service in Tuscaloosa and Northport — sustained OSP construction activity in the metro.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.cspire.com/web/home-services/fiber-towns/alabama/tuscaloosa",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "service lateral to hut",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Tuscaloosa's fiber market is being actively overbuilt: C Spire's last-mile construction in Tuscaloosa and Northport rides Alabama Power middle-mile under their 2019 partnership, AT&T Fiber competes across the metro, and Alabama's newly approved $1.4B BEAD program ($460M awarded statewide in March 2026) adds subsidized rural routes at the county's edges. The civil conditions split by landform: upland bores can hit Pottsville sandstone near grade, while Black Warrior terrace alignments bore soft and wet. Two coordination items are genuinely local — crossings of the NS main and Watco's Alabama Southern line, and utility screening on an active coalbed methane field with over 4,000 wells in the county. We schedule both before the drill arrives.",
+      "localSpecificsReferenced": [
+        "C Spire–Alabama Power middle-mile partnership",
+        "Pottsville Formation shallow rock",
+        "Alabama Southern Railroad / NS AGS corridor",
+        "Tuscaloosa County coalbed methane field"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "ground ring and halo",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Tuscaloosa serves a capacity market with a hardening conscience. The University of Alabama's record 42,360-student enrollment concentrates enormous seasonal demand — gameday crowds around Bryant-Denny Stadium are a densification driver few Tier 3 markets can match — and the April 27, 2011 EF4 left this city with a rebuilt-tougher mindset that extends to network infrastructure: owners here ask about anchorage, backup power, and post-storm access because they watched the grid and towers go down. Our compound work matches that: wind-governed embedment, generator and fuel-containment pads sized for extended outages, and access designed for storm response. One scheduling reality — campus-area work plans around seven-plus home football Saturdays each fall.",
+      "localSpecificsReferenced": [
+        "University of Alabama record enrollment (42,360, fall 2025)",
+        "Bryant-Denny Stadium gameday densification",
+        "April 27, 2011 EF4 tornado rebuild"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The honest read on Tuscaloosa edge demand: there is no announced hyperscale campus here, and we don't pretend otherwise. What exists is industrial and institutional. Mercedes-Benz U.S. International's Vance plant — building electric SUVs with batteries from the company's Bibb County plant, and with a new model announced for 2027 — anchors an automotive corridor along I-20/59 whose plants, suppliers, and logistics operations consume private networks, controls infrastructure, and hardened on-premise compute. The university adds research computing and campus infrastructure on the other side of town. That demand arrives as edge enclosure pads, utility-yard and transformer pads, generator yards, and campus duct bank — built on ground that requires the same upland-rock-versus-river-terrace foundation judgment as everything else in this county.",
+      "localSpecificsReferenced": [
+        "Mercedes-Benz U.S. International (Vance) EV production",
+        "Bibb County battery plant",
+        "I-20/59 automotive corridor"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 586,
+      "driveTimeHours": 9.5,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Tuscaloosa",
+      "Hale",
+      "Pickens"
+    ],
+    "stagingApproach": "Project-based staging in the Tuscaloosa metro for the duration of a scope: equipment and materials stage at or near the work — laydown secured per program — rather than cycling to the yard. West Alabama scopes batch efficiently: campus work, county fiber routes, and I-20/59 corridor sites can share a single mobilization. Staging plan confirmed per program by ops.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from Tuscaloosa-area suppliers rather than hauling from the yard — at nearly 600 road miles the arithmetic permits nothing else, and buyers know it. Rental equipment supplements the deployed fleet. The supplier lineup is confirmed at estimate for each program by our estimating and ops teams.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Tuscaloosa is a deployment market for us, and the model is simple to describe honestly: crews run the I-20 corridor from the Dallas yard — roughly 586 miles, a long day's drive — and stay for the duration of a scope rather than commuting. That fits how work actually arrives in West Alabama: multi-site fiber segments, campus programs, and compound builds that batch into a single mobilization with local staging and in-market concrete, aggregate, and precast. What the model does not support is a same-day service call, and we don't offer one — mobilization lead times are quoted per program after ops review. Storm-response deployments after a tornado event are planned the same way: scoped, scheduled, and staged deliberately, because that is what actually restores a network.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Will I hit rock excavating for a telecom site in Tuscaloosa?",
+      "answer": "It depends which landform you're on. Upland sites sit on the Pottsville Formation, where weathered sandstone or shale can be near grade — good bearing, real rock-excavation risk. Black Warrior River terrace sites are deep alluvium with essentially no rock but softer, wetter ground. We price the difference with borings and a rock clause rather than guessing, because the two settings can sit within a mile of each other.",
+      "segment": "general"
+    },
+    {
+      "question": "How did the April 27, 2011 tornado change telecom construction expectations in Tuscaloosa?",
+      "answer": "The EF4 crossed the city with estimated 190 mph peak winds on an 80-mile path (NWS Birmingham survey), and the rebuild established a local hardening culture. Owners here ask about anchorage, embedment, generator runtime, fuel containment, and post-storm site access as a matter of course. We build compounds to that expectation: wind-governed foundations, outage-sized backup power pads, and access that works when the grid doesn't.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Do coalbed methane wells affect fiber construction in Tuscaloosa County?",
+      "answer": "They can. Tuscaloosa County sits on the Black Warrior basin's coalbed methane field, with methane produced from over 4,000 wells in the county per the Geological Survey of Alabama. Gas wells and gathering lines add a subsurface screening step beyond the standard Alabama 811 ticket on rural route segments — we run well and pipeline records checks before boring, not after a strike.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What building code applies to a shelter or equipment building in Tuscaloosa?",
+      "answer": "The City of Tuscaloosa has adopted the 2021 International Building Code as its building code (Code of Ordinances Ch. 6, Art. II, §6-30). Local amendments and the frost-depth table should be confirmed at permit intake, and unincorporated county sites sit under a different enforcement posture than city sites — jurisdiction is the first question we settle on any new site.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroads complicate fiber routes in Tuscaloosa?",
+      "answer": "Two operators matter: Norfolk Southern's AGS main line (the Birmingham–Meridian corridor) runs through the city, and Watco's Alabama Southern Railroad — the ex-KCS line from Columbus, Mississippi through Tuscaloosa to Brookwood — threads the same corridors a fiber route wants. Crossing and occupancy permits run on the railroads' timelines, which are long, so we put them at the front of the route schedule.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour concrete in Tuscaloosa in the winter?",
+      "answer": "Almost always, yes. Winters are mild — wet ground and occasional freeze nights are the constraints, not sustained frost — so December through February is workable with mud management and cold-weather concrete measures on the few freezing nights. The real schedule risks are elsewhere in the calendar: spring and November severe-weather windows and July–August heat, which pushes pours to morning windows.",
+      "segment": "general"
+    },
+    {
+      "question": "Does gameday season affect site work near the University of Alabama campus?",
+      "answer": "Meaningfully. Home football Saturdays bring road closures and traffic management around Bryant-Denny Stadium, which effectively removes campus-area lane closures and ROW work for those weekends — seven or more Saturdays between September and November. We build the football calendar into campus-adjacent schedules from the start; it's a real constraint that surprises out-of-market contractors.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Do I need an Alabama general contractor license for telecom civil work in Tuscaloosa?",
+      "answer": "For work of $100,000 or more, yes — Alabama requires licensure through the Alabama Licensing Board for General Contractors, a threshold raised from $50,000 by Act 2024-277, and subcontractors need their own license at $50,000 or more under a licensed prime. Alabama is the only state in our footprint with mandatory statewide GC licensing for this scope, so verify the license and classification of any contractor you engage here.",
+      "segment": "general"
+    },
+    {
+      "question": "How does CellSite Solutions serve Tuscaloosa from a Dallas yard?",
+      "answer": "As a deployment market: crews run the I-20 corridor — roughly 586 miles — and stay for the duration of a scope, with equipment staged in the metro and concrete, aggregate, and precast bought locally. That model fits multi-site fiber segments, campus programs, and compound builds that batch into one mobilization. Lead times are quoted per program after ops review; we don't make same-day promises at this range.",
+      "segment": "general"
+    },
+    {
+      "question": "What permits does a one-acre-plus telecom site disturbance need in Alabama?",
+      "answer": "Land disturbance of one acre or more (or less within a larger common plan) requires coverage under ADEM's NPDES Construction General Permit ALR100000 — an NOI plus a construction BMP plan prepared and certified by a Qualified Credentialed Professional. Add the city building permit, ROW permits for any street or state-route work, and an Alabama 811 ticket at least two working days before excavation.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Upland rock or river terrace: pricing the two Tuscaloosas",
+    "body": "The most expensive assumption in this market is treating Tuscaloosa as one geotechnical setting. It is two. On the Pottsville uplands, weathered sandstone and shale can sit close to grade: spread footings and short piers find excellent bearing quickly, but trench and drilled-shaft production is hostage to where refusal actually is, and a bid without a rock clause is a bid that eats the risk. On the Black Warrior terraces, the ground inverts — deep alluvial sands and silts, shallower groundwater, no rock to find — so bearing is the question instead of excavation, and heavier foundations shift from 'reach rock' to 'improve or bypass soft ground,' with dewatering as the hidden line item. The two settings interleave within short distances, which is why we treat borings as the first construction activity, not a design formality. Two local overlays sharpen the point: fiber routes across the county's coalbed methane field get well and pipeline screening before any bore, and anything near the river gets a FIRM check before foundation design starts. Price the landform first and the site second, and Tuscaloosa is predictable; assume one Tuscaloosa and the other one will send the invoice.",
+    "_comment": null
+  },
+  "sources": [
+    {
+      "label": "Municode — City of Tuscaloosa Code of Ordinances, §6-30 (2021 IBC adoption)",
+      "url": "https://library.municode.com/al/tuscaloosa/codes/code_of_ordinances?nodeId=CO_CH6BUCOREAC_ARTIIBUCO_S6-30ADINBUCOIB",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Tuscaloosa — adopted codes page",
+      "url": "https://www.tuscaloosa.com/adoptedcodes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Birmingham — Tuscaloosa–Birmingham tornado, April 27, 2011 (EF4, 190 mph, 80.68-mi path)",
+      "url": "https://www.weather.gov/bmx/event_04272011tuscbirm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Depositional environments of the Pennsylvanian Pottsville Formation, Black Warrior basin, Alabama",
+      "url": "https://www.usgs.gov/publications/depositional-environments-pennsylvanian-pottsville-formation-black-warrior-basin",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Geological Survey of Alabama — coal systems / Black Warrior basin coalbed methane (4,000+ wells, Tuscaloosa County)",
+      "url": "http://www2.gsa.state.al.us/gsa/coal_sys.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama 811 — notice requirements (2–10 working days)",
+      "url": "https://al811.com/before-you-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — NPDES Construction General Permit ALR100000 (1-acre trigger; QCP-certified CBMPP)",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — 2026 Construction General Permit changes",
+      "url": "https://adem.alabama.gov/sites/default/files/2026-04/CSWGP2026CGPPermitChanges.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Licensing Board for General Contractors — Code of Alabama changes (Act 2024-277 threshold increase to $100,000)",
+      "url": "https://genconbd.alabama.gov/14104/changes-to-the-alabama-licensing-board-for-general-contractors-section-of-the-code-of-alabama/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor of Alabama — final BEAD proposal approved; $460M awarded to 63 projects (March 2026)",
+      "url": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "University of Alabama News — record fall 2025 enrollment of 42,360",
+      "url": "https://news.ua.edu/2025/09/uas-record-enrollment-growth-reinforces-in-state-investment-academic-excellence/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Made in Alabama — Mercedes-Benz launches EV production in Alabama (Vance plant / Bibb County batteries)",
+      "url": "https://www.madeinalabama.com/2022/08/mercedes-benz-launches-ev-production-in-alabama-as-new-chapter-begins/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Germany Partnership — Mercedes-Benz announces new vehicle for Vance plant in 2027",
+      "url": "https://alabamagermany.org/mercedes-benz-announces-new-vehicle-coming-to-alabama-plant-in-vance-in-2027/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "C Spire — Tuscaloosa fiber (last-mile build; Alabama Power middle-mile partnership)",
+      "url": "https://www.cspire.com/web/home-services/fiber-towns/alabama/tuscaloosa",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Yellowhammer News — C Spire bringing high-speed broadband to Tuscaloosa and Northport (partnership detail)",
+      "url": "https://yellowhammernews.com/game-changing-c-spire-bringing-high-speed-broadband-internet-services-to-tuscaloosa-northport/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Railway Gazette — Alabama Southern Railroad (Watco; Columbus–Tuscaloosa–Brookwood, ex-KCS)",
+      "url": "https://www.railwaygazette.com/data/knowledge-hub/organisation-categories/freight/alabama-southern-railroad-abs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ALDOT News Hub — West Central Region (Tuscaloosa) planning and county coverage",
+      "url": "https://www.aldotnews.com/2026/07/06/west-central-region-transportation-planning-meeting/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic ss-s1 / designTempLowF-HighF",
+      "attempted": "ASCE Hazard Tool, USGS design-maps, and TIA-222 county data not queryable this session (tool/proxy limits). All numeric design criteria left null — must be pulled at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Municode §6-30 confirms 2021 IBC adoption but the amended frost-depth table was not readable this session. Cite the exact code section before publishing a number."
+    },
+    {
+      "field": "identity.population / identity.elevationFt",
+      "attempted": "Census QuickFacts blocked; the city secured an updated 2020 decennial count above 100,000 after a challenge (tuscaloosa.com, Sept 2023) but the exact revised figure could not be confirmed, and web elevation figures conflicted (190–223 ft). Both left null rather than guessed."
+    },
+    {
+      "field": "identity.msa — current OMB delineation",
+      "attempted": "Sources describe both a three-county (Tuscaloosa, Hale, Pickens) and four-county metro; confirm the current OMB bulletin before publish."
+    },
+    {
+      "field": "geotech (soil series, bearing range, groundwater, corrosivity, depth to rock)",
+      "attempted": "NRCS Web Soil Survey interactive not queryable this session; geology sourced from USGS/GSA publications, soils described qualitatively pending WSS data."
+    },
+    {
+      "field": "regulatory — city ROW permit intake, floodplain administrator office, review timelines, wireless facility ordinance",
+      "attempted": "City department-level pages not fetchable (proxy 403 on tuscaloosa.com posts); named generically with confirm-at-scoping notes rather than invented."
+    },
+    {
+      "field": "logistics — ALDOT OS/OW permit office URL and county bridge postings",
+      "attempted": "ALDOT permit page and district map PDF returned 403; authority named without URL, haul-route postings deferred to scoping."
+    },
+    {
+      "field": "environmental — USFWS county clearing-window guidance and IPaC species list",
+      "attempted": "IPaC not queryable; bat-driven clearing restriction flagged conservatively with window null. Coordinate the Alabama Ecological Services Field Office per project."
+    },
+    {
+      "field": "utilities — Alabama Power new-service process URL and lead time; AT&T formal ILEC designation; cable provider footprint",
+      "attempted": "Utility intake page not verified; FCC broadband data not queried. Notes carry confirm-at-scoping language."
+    },
+    {
+      "field": "seasonality.calendar — NOAA station normals",
+      "attempted": "Calendar drafted from regional climate pattern (Dixie Alley severe-weather windows, mild winters, summer heat) plus CSS field framing; pull NOAA normals for the Tuscaloosa station before publishing monthly figures as final."
+    },
+    {
+      "field": "operations — routing verification, staging and local-supply plans, self-perform split",
+      "attempted": "Driving sources converge on ~586 mi / ~9.5 h via I-20 (distance-cities, travelmath, drivedistance); routeVerified stays false until ops runs real routing. Band B staging and local-supply drafts written for ops review per RESEARCH.md — ops confirmation required before the gap clears."
+    },
+    {
+      "field": "compliance.cssQualificationsNote — CSS's Alabama GC license details",
+      "attempted": "License number, classification, and limit must come from CSS ops/compliance records; not publishable until provided."
+    },
+    {
+      "field": "marketActivity — West Alabama BEAD subgrantee/route detail",
+      "attempted": "Statewide approval and award totals sourced (March 2026); county-level project lists not yet found. Recheck quarterly."
+    }
+  ]
+}
