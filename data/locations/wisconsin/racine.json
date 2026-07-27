@@ -1,0 +1,663 @@
+{
+  "identity": {
+    "slug": "racine",
+    "city": "Racine",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "counties": [
+      "Racine"
+    ],
+    "msa": "Racine, WI (Racine County)",
+    "tier": 2,
+    "latitude": 42.7261,
+    "longitude": -87.7829,
+    "elevationFt": 617,
+    "population": {
+      "value": 77816,
+      "source": "U.S. Census Bureau, 2020 Census (check the current estimate vintage at QuickFacts before sign-off)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-94 (through western Racine County at Mount Pleasant)"
+    ],
+    "majorRoutes": [
+      "WIS 20",
+      "WIS 32",
+      "WIS 38",
+      "WIS 11"
+    ]
+  },
+  "metadata": {
+    "title": "Racine, WI Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for fiber, wireless, and edge sites in Racine, WI — the county where Microsoft's Mount Pleasant campus is resetting build demand.",
+    "h1": "Telecom Site Civil Construction in Racine, Wisconsin",
+    "intro": "No Wisconsin county has more digital-infrastructure momentum than Racine. Microsoft finished its first Mount Pleasant data center — the 'Fairwater' AI supercomputer facility — in June 2026, committed $4 billion to a second in September 2025, and holds approval for fifteen more buildings, all within a few miles of the city. The telecom civil work that follows — hut pads, duct bank, compound builds, edge enclosures — lands on lake-plain clay over Silurian dolomite, under a 48-inch state frost rule, between the Root River floodplain and an active lakefront rail corridor. CellSite Solutions self-performs that scope here from our Cedar Rapids yard, 236 road miles west.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16, referenced by the 2021 IBC that Wisconsin's SPS 361–366 commercial code adopted September 1, 2025 (plans from November 1, 2025 must comply); verify against the SPS 361 standards table",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Seismic parameters publish only from a site-specific USGS design-maps query. Wisconsin's alternate ground-snow zone map (SPS 362.1608) should be read for the Racine value before any snow load is stated."
+    },
+    "frostDepthIn": {
+      "value": 48,
+      "source": "Wis. Admin. Code SPS 321.16 — footings extend below frost penetration or a minimum 48 in. below adjacent grade, whichever is deeper. The City of Racine Building Inspection office should confirm the commercial application before design is released.",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Like the rest of the southeastern Wisconsin lakeshore, Racine County is a glaciated lake plain: clay-rich till and glacial-lake deposits blanket Silurian dolomite bedrock, the same dolomite that gave the 'Racine Formation' its name in the geologic literature. The Root River cuts through the plain and reaches Lake Michigan at the city's harbor, adding alluvial soils and mapped floodplain through town. (WGNHS preliminary bedrock geologic map of southeastern Wisconsin; WGNHS subsurface stratigraphy studies of southeastern Wisconsin; FEMA/Racine County floodplain data.)",
+    "dominantSoilTypes": [
+      "Clay-rich glacial till",
+      "Glacial-lake (lacustrine) clays and silts",
+      "Root River alluvium (floodplain reaches)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "County-specific karst mapping was not located in this research pass. Dolomite here is generally buried under thick glacial cover, but any site with shallow rock or heavy dewatering should include a karst check in its geotechnical scope — set as a screening item, not a known hazard."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Racine foundations are designed against three facts. Fact one: the 48-inch frost floor, which means even a modest cabinet foundation is a real excavation and every winter pour carries protection cost. Fact two: the clay. Till and lakebed deposits here drain slowly, so foundation excavations need dewatering discipline and disturbed subgrades want stone before they see truck traffic; on soft or saturated pockets, helical piles can beat conventional footings on both schedule and risk. Fact three: the water around the edges — sites near the Root River or the harbor front trade soil questions for floodplain elevation and permitting questions, which belong at the siting stage rather than the design stage. Geotechnical borings settle the argument on any specific parcel; treat everything above as the regional prior, not the answer."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Racine — Building Inspection Department",
+        "url": "https://cityofracinewi.gov/citydevelopment/building-inspection/",
+        "phone": "262-636-9464",
+        "typicalReviewDays": null,
+        "note": "730 Washington Avenue, Room 304. Administers city and state building, HVAC, plumbing, electrical, and zoning codes; commercial projects follow the statewide SPS 361–366 framework with state plan review by size. Review durations unpublished — confirm by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Wisconsin Uniform Commercial Building Code (SPS 361–366) on the 2021 IBC, effective September 1, 2025; compliance mandatory for plans submitted on or after November 1, 2025",
+      "source": "Wisconsin DSPS commercial building code news release — https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities across Wisconsin operate under 2019 Act 14 (Wis. Stat. 66.0414): ROW collocation by right, constrained municipal review, and collocation rates capped at the lesser of actual cost or $250 per node per year.",
+    "rowPermitAuthority": {
+      "name": "City of Racine Department of Public Works (Engineering Division)",
+      "url": "https://cityofracinewi.gov/publicworks/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "DPW publishes its permit forms online; the specific ROW/excavation desk and its requirements were not confirmed during research — verify before scheduling street work. County trunk highways are permitted separately through Racine County Public Works."
+    },
+    "stateDotDistrict": {
+      "name": "WisDOT Southeast Region (Waukesha office), serving Racine among seven southeastern counties",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Diggers Hotline (Wisconsin 811)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Wis. Stat. 182.0175 governs.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Wisconsin DNR — WPDES construction site stormwater program",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "File the NOI at least 14 working days ahead of disturbing an acre or more."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Racine Zoning Administrator — flood regulations, Municipal Code Ch. 114 Art. VIII",
+      "url": "https://library.municode.com/wi/racine/codes/code_of_ordinances?nodeId=PTIIMUCO_CH114ZO_ARTVIIIFLRE_DIV10DE_SS114-914_114-915RE",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Watercourse alterations in mapped floodplain trigger written notice to adjacent municipalities, WDNR, and FEMA before a permit can issue."
+    },
+    "permitTimelineNarrative": "The permitting picture in Racine is the statewide Wisconsin stack plus a floodplain layer. Building review runs through the city's Building Inspection Department under SPS 361–366; underground and street work adds DPW involvement; and the two long fuses are the WDNR stormwater NOI (14 working days before an acre of disturbance) and Diggers Hotline (3 business days before excavation). Where a route or site touches the Root River corridor, the flood regulations in Municipal Code Ch. 114 add a zoning-administrator review — with mandatory notifications to WDNR and FEMA for watercourse changes — that can outlast every other approval on the list. Screen for floodplain first; it is the permit you cannot compress."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "We Energies (WEC Energy Group)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The serving utility for Racine County, now planning new gas-fired generation specifically to meet southeastern Wisconsin's growing demand — a signal of how much load the Microsoft program adds. Written service-date commitments beat assumptions here more than in most markets."
+      }
+    ],
+    "ilec": "AT&T Wisconsin (Wisconsin Bell) — historic Bell exchange territory; verify the ILEC boundary against FCC data before publish",
+    "notableFiberProviders": [
+      "Spectrum",
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Microsoft — Mount Pleasant campus (Racine County): first facility complete June 2026, $4B second facility announced September 2025, approval in hand for 15 additional buildings"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Statewide Class II spring restrictions, typically early March to early May; the 2026 season ran February 20 – April 30 by zone",
+      "postingAuthority": {
+        "name": "WisDOT (state highway postings and frozen-road declarations); Racine County and municipalities post local roads independently",
+        "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "The I-94 spine through Mount Pleasant carries full loads year-round, but city and county streets between the interstate and a lakefront site follow local postings during thaw. A shelter set in March lives or dies on the local segment, so we verify postings on the actual approach route before locking a crane date."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "WisDOT Oversize/Overweight Permits (wi.gotpermits.com self-issuance portal)",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "phone": "608-266-7320",
+      "typicalReviewDays": null,
+      "note": "Per Wis. Stat. 348.26–348.27; municipal streets need separate local approval."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific — Kenosha Subdivision",
+        "crossingPermitNote": "Passes through the city near the lakefront on the Chicago–Milwaukee lakeshore corridor; utility crossings go through UP's permitting process, which runs long — file before route lock."
+      },
+      {
+        "name": "CPKC — Chicago–Milwaukee main line (Amtrak Hiawatha corridor)",
+        "crossingPermitNote": "Crosses the county at Sturtevant, west of the city, with an active Amtrak station stop; any fiber route between Racine and the I-94/Microsoft corridor likely has to get across it."
+      }
+    ],
+    "urbanRowRequirements": "City street work coordinates through the Department of Public Works and its Engineering Division; the specific excavation-permit requirements (bonding, restoration standards, lane-closure notice) were not confirmed during research and should be verified with DPW before mobilizing to a street job."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "April 1 – October 31 clearing restriction in suitable northern long-eared bat habitat under the transportation programmatic; roost trees plus a 150-ft buffer protected June 1 – July 31; quarter-mile no-cut around hibernacula",
+      "driver": "Northern long-eared bat (federally endangered)",
+      "source": "WisDOT NLEB non-federal guidance (April 2023)"
+    },
+    "shpo": {
+      "name": "Wisconsin Historical Society — State Historic Preservation Office",
+      "url": "https://www.wisconsinhistory.org/preserve/state-historic-preservation-office/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 applies to federally funded builds, including BEAD-financed fiber."
+    },
+    "wetlandsAuthority": {
+      "name": "Wisconsin DNR — Wis. Stat. 281.36 wetland permitting, covering nonfederal as well as federal wetlands (the DNR permit carries the federal water quality certification)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Exemptions are narrow; a route that would clear a 404-only review in another state can still need a WDNR permit here."
+    },
+    "usaceDistrict": "St. Paul District (MVP)",
+    "listedSpeciesNote": "The northern long-eared bat sets clearing calendars statewide. No Racine County IPaC report was generated in this pass — produce one per project.",
+    "floodplainPrevalenceNote": "FEMA mapping for the county addresses multiple flood sources, with the Root River the dominant one through the city (a NOAA river gauge operates at Racine); the city administers flood regulations under Municipal Code Ch. 114 Art. VIII."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen through; lake tempering keeps shoreline slightly milder than inland",
+        "earthworkConcrete": "restricted",
+        "note": "Frozen-road declarations can favor midwinter heavy hauls"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Peak frost depth in the clay",
+        "earthworkConcrete": "restricted",
+        "note": "Watch for early Class II postings (2026 start: Feb 20)"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw onset; clay saturates, Root River runs high",
+        "earthworkConcrete": "restricted",
+        "note": "Local road postings binding; floodplain sites at seasonal high water"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Frost out by late month; subgrades soft and wet",
+        "earthworkConcrete": "constrained",
+        "note": "Bat-habitat clearing window closes April 1"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Postings lift; sites drain and firm",
+        "earthworkConcrete": "workable",
+        "note": "Spring haul backlog clears"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Full production; thunderstorm rainfall on slow-draining clay",
+        "earthworkConcrete": "favorable",
+        "note": "Roost-tree protection through July 31"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Warm, stable, workable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Typically the driest working ground of the year",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Strong production month; cooling late",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First frosts; lake delays the hard freeze near shore",
+        "earthworkConcrete": "workable",
+        "note": "Clearing window reopens November 1 in restricted habitat"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Ground beginning to freeze; late-season excavation still practical",
+        "earthworkConcrete": "constrained",
+        "note": "Cold-weather concrete measures in force"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Winter conditions established",
+        "earthworkConcrete": "restricted",
+        "note": "Full winter protection on pours"
+      }
+    ],
+    "narrative": "Racine's construction calendar is the southeastern Wisconsin standard — hard-frozen midwinter, a thaw season ruled by road postings (2026: February 20 through April 30), and a May-to-October production core — with two local modifiers. Lake Michigan stretches the shoulders slightly, holding off the first hard freeze near shore, and the Root River imposes its own spring schedule on floodplain sites, which see high water exactly when the clay is at its worst. The one-line version for schedulers: plan concrete and earthwork for May through October, move heavy loads midwinter or after postings lift, and never put a floodplain scope in March. Verify monthly specifics against NCEI normals before publication — this table is built from the restriction record and regional pattern."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Thick glacial cover keeps the Silurian dolomite out of reach of typical telecom excavation depths across most of the county; borings flag the exceptions.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "The Microsoft program concentrates enormous concrete demand in the county — availability and batch scheduling, not plant distance, are the variables worth checking each season.",
+    "spoilDisposalNote": "Wet clay spoil is export material on most urban sites; balance cut and fill on paper before pricing disposal.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "State prevailing wage was repealed by 2017 Act 59; federally funded scopes (BEAD included) still carry Davis-Bacon.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Frost work December–March (48-inch embedment plus pour protection) and thaw-season routing are the two recurring premiums.",
+    "narrative": "Two forces move civil numbers in Racine. The first is physical and familiar: clay that needs dewatering and stone, a 48-inch frost floor under every foundation, winter protection four months a year, and floodplain elevation cost near the Root River. The second is newer and market-wide: the Mount Pleasant buildout is the largest construction program in Wisconsin, and it competes for the same ready-mix, aggregate trucking, crane time, and craft labor a telecom scope needs. That competition surfaces as lead time and scheduling friction before it surfaces as price. Our estimating treats resource availability in Racine County as a line item to confirm, not an assumption — and as always we publish the drivers, never the unit prices, because every site prices to its borings and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "No statewide commercial general contractor license exists in Wisconsin; commercial construction is regulated through permitting, plan review, and licensed trades (electrical, plumbing) rather than GC licensure. The DSPS Dwelling Contractor certification is residential-only. Confirm current requirements with DSPS — this summary rests on secondary sources.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "extreme cold",
+      "ice storm",
+      "tornado"
+    ],
+    "designImplications": "Flood is the siting-stage hazard: Root River and lakefront parcels need FEMA screening and possibly elevated pads before design begins. Cold governs the rest — 48-inch embedment, generator cold-weather packages, and winter pour protection — while the severe-weather season argues for conservative anchorage. Wind and ice design values await site-specific ASCE and TIA-222 lookups.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Microsoft commits $4B to a second Mount Pleasant data center",
+        "detail": "On September 18, 2025 Microsoft announced a $4 billion second facility at Mount Pleasant — described as a companion to the first at similar scale, targeting completion by 2028 — lifting its total Wisconsin commitment past $7 billion.",
+        "category": "data center",
+        "sourceUrl": "https://dailyreporter.com/2025/09/18/microsoft-4b-ai-data-center-wisconsin-mount-pleasant/",
+        "asOf": "2025-09-18"
+      },
+      {
+        "headline": "First Mount Pleasant facility complete; 15 more buildings approved",
+        "detail": "Microsoft completed construction of its first Mount Pleasant data center — the 'Fairwater' AI supercomputer facility — in June 2026, and holds village approval for up to 15 additional data center buildings on the campus, extending the construction pipeline for years.",
+        "category": "data center",
+        "sourceUrl": "https://dailyreporter.com/2026/06/24/microsoft-completes-supercomputer-data-center-mount-pleasant/",
+        "asOf": "2026-06-24"
+      },
+      {
+        "headline": "Wisconsin's $1.06B BEAD program clears federal approval",
+        "detail": "NTIA signed off on Wisconsin's final BEAD proposal in December 2025: $1,055,823,573 through the PSC, with about 76% of funded locations going to fiber — a multi-year rural construction pipeline statewide, including western Racine County's unserved pockets.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+        "asOf": "2025-12-02"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration",
+        "long-haul and metro route construction"
+      ],
+      "secondaryScopeIds": [
+        "service lateral to hut",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Hyperscale campuses eat fiber, and Mount Pleasant is no exception — network routes feeding the Microsoft campus, plus middle-mile and BEAD-funded rural work in the western county, define Racine's fiber civil demand. Getting across the county involves two rail negotiations: UP's lakefront subdivision through the city and CPKC's Hiawatha-corridor main at Sturtevant sit between the harbor and I-94, and both carry slow crossing-permit processes we start before route lock. The digging itself is lake-plain work — clay that bores well and trenches badly when wet — under Wisconsin's full regulatory stack: three-day Diggers Hotline tickets, the 14-working-day stormwater NOI, and WDNR wetland jurisdiction that reaches nonfederal wetlands under Wis. Stat. 281.36.",
+      "localSpecificsReferenced": [
+        "Microsoft Mount Pleasant network demand",
+        "UP lakefront / CPKC Sturtevant crossings",
+        "Wis. Stat. 281.36 wetland jurisdiction",
+        "Wisconsin BEAD (76% fiber)"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "shelter and cabinet pads",
+        "macro compound construction",
+        "ground ring and halo",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "C-band / densification upgrade civil"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "access road and turnaround"
+      ],
+      "narrative": "Wireless civil in Racine tracks where the county is growing: densification along the I-94 corridor as thousands of construction and operations jobs concentrate at Mount Pleasant, upgrades through the city, and coverage work westward. The engineering constants are Wisconsin's — every pier and pad below the 48-inch frost floor, cold-weather concrete December through March, and thaw-season haul planning against Class II and local postings (2026: February 20 – April 30). Small cells follow the Act 14 statewide framework with its capped collocation rates. Site drainage deserves particular respect here: compound grading into slow-draining clay without positive outfall creates spring standing-water problems that a properly designed stone section and swale avoid for almost nothing during construction.",
+      "localSpecificsReferenced": [
+        "I-94 / Mount Pleasant growth corridor",
+        "SPS 321.16 48-inch embedment",
+        "2026 Class II restriction dates",
+        "Act 14 small-cell rates"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "edge enclosure and micro-DC pads"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "This is the county where Wisconsin's data center era physically lives. Microsoft's Mount Pleasant campus finished its first facility in June 2026, has $4 billion of second-facility construction running, and is approved for fifteen more buildings — a decade-scale civil pipeline of transformer pads, generator yards, campus duct bank, security perimeters, and crane and heavy-haul infrastructure, plus the satellite edge and carrier sites that hyperscale capacity spawns around itself. We Energies is adding generation to keep up with the load growth, which tells you what interconnection queues look like. Our position is the support tier: self-performed pads, conduit, grounding, and compound work for the carriers, fiber operators, and site owners building around the campus — scoped, mobilized, and scheduled from Cedar Rapids as a planned deployment.",
+      "localSpecificsReferenced": [
+        "Mount Pleasant campus (Fairwater, $4B second facility, 15 approved buildings)",
+        "We Energies generation buildout",
+        "I-94 heavy-haul corridor"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 236,
+      "driveTimeHours": 4.4,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Racine"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Racine mobilizes from Cedar Rapids as an overnight-crew market: 236 road miles, run once per deployment rather than commuted, with crews working consecutive days on site until the scope closes. The routing east across southern Wisconsin ends on the I-94 corridor, which stays unposted through thaw season — useful, because the last leg from I-94 into the city crosses local streets that do post in spring. Racine and Kenosha counties sit fifteen minutes apart for us, so combined multi-site programs across both amortize a single mobilization particularly well, and staging near the I-94/WIS 20 area covers the whole county efficiently. Any response-time commitment beyond this description requires ops sign-off first.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep must a shelter or hut foundation go in Racine?",
+      "answer": "Below frost penetration or 48 inches under adjacent grade, whichever is deeper — Wisconsin's SPS 321.16 standard. Practically, plan every foundation excavation in the county at four feet minimum, with winter work adding frost ripping and pour protection. The city's Building Inspection office (262-636-9464) confirms the commercial-code application for a specific project.",
+      "segment": "general"
+    },
+    {
+      "question": "What is actually built and building at the Microsoft Mount Pleasant campus?",
+      "answer": "As of mid-2026: the first facility — the 'Fairwater' AI supercomputer data center — finished construction in June 2026; a $4 billion second facility announced September 2025 targets completion by 2028; and the village has approved up to 15 additional buildings. Total announced Wisconsin investment exceeds $7 billion, making this the state's largest construction program.",
+      "segment": "edge"
+    },
+    {
+      "question": "Which office reviews building permits in the City of Racine?",
+      "answer": "The Building Inspection Department at 730 Washington Avenue, Room 304, which administers the city and state building, HVAC, plumbing, electrical, and zoning codes. Commercial telecom structures run under Wisconsin's uniform SPS 361–366 code — now on the 2021 IBC — with state plan review added by project size. Review times aren't published; call before you schedule.",
+      "segment": "general"
+    },
+    {
+      "question": "Do fiber routes in Racine County have to cross railroads?",
+      "answer": "Almost any east–west route does. UP's Kenosha Subdivision runs through the city near the lakefront, and CPKC's Chicago–Milwaukee main — the Amtrak Hiawatha corridor, with a station at Sturtevant — crosses the county between the city and I-94. Railroad crossing agreements are the slowest permits on a typical route, so we file them before final route engineering, not after.",
+      "segment": "fiber"
+    },
+    {
+      "question": "When can heavy equipment and shelters move on roads around Racine in spring?",
+      "answer": "I-94 carries legal loads all year, so the constraint is the posted network: Class II state-highway restrictions ran February 20 through April 30 in 2026, and city and county roads post their own thaw limits on top. We check the postings on the specific approach route — interstate to gate — before booking a crane or haul, and shift sets to midwinter frozen-road windows or post-thaw dates when the last mile is posted.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Does the Root River floodplain change telecom siting in the city?",
+      "answer": "Yes, at the site-selection stage. The city enforces flood regulations under Municipal Code Ch. 114 Art. VIII through its zoning administrator, and altering a watercourse in mapped floodplain requires notifying adjacent municipalities, WDNR, and FEMA before a permit issues. A floodplain parcel can absolutely host a compound — but the elevation and permitting cost belongs in the site comparison, not discovered at design.",
+      "segment": "general"
+    },
+    {
+      "question": "What wetland permitting applies beyond the federal 404 program?",
+      "answer": "Wisconsin's own: Wis. Stat. 281.36 gives WDNR jurisdiction over nonfederal wetlands as well as federal ones, with the DNR permit serving as the water quality certification. Exemptions are narrow. Routes and compounds that would face only USACE review in Iowa or Illinois can need a state wetland permit here, so we run wetland screening on every alignment before locking it.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can the grid around Racine absorb new telecom load right now?",
+      "answer": "We Energies is the serving utility, and it is visibly racing demand — the company is planning new gas-fired generation specifically for southeastern Wisconsin's growth, driven substantially by data center load. For a hut or compound, that means interconnection timelines deserve written confirmation early, and designs should allow generator-first commissioning where an in-service date is fixed.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Building telecom sites next to Wisconsin's biggest construction program",
+    "body": "The standard Racine civil questions — clay, frost, floodplain — have standard answers. The judgment call unique to this county is how to schedule around Mount Pleasant. A program consuming billions of dollars of construction over a decade doesn't just raise demand for telecom infrastructure; it drains the same resource pool every other project draws from. Ready-mix plants batch against campus pour schedules measured in thousands of yards. Crane availability, escort services, flaggers, and craft labor price to hyperscale urgency. Even permit counters and utility interconnection queues carry the program's load. The practical guidance: first, book resources against dates earlier than you would anywhere else in Wisconsin — the constraint is availability, not price. Second, treat We Energies' interconnection timeline as the critical path on any powered site and design for generator-first commissioning if the in-service date is hard. Third, exploit the upside — the corridor's heavy-haul routes, upgraded roads, and year-round I-94 access exist because of the campus, and a well-planned telecom scope rides that infrastructure. A traveling self-perform crew with its own equipment sidesteps part of the local resource competition entirely; that is precisely how we structure Racine deployments."
+  },
+  "sources": [
+    {
+      "label": "Wisconsin DSPS — commercial code moves to 2021 IBC (SPS 361–366)",
+      "url": "https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16 — 48-inch frost/footing rule",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/2/c/2",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Racine — Building Inspection Department",
+      "url": "https://cityofracinewi.gov/citydevelopment/building-inspection/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Racine — Department of Public Works",
+      "url": "https://cityofracinewi.gov/publicworks/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Racine Municipal Code Ch. 114 Art. VIII — flood regulations",
+      "url": "https://library.municode.com/wi/racine/codes/code_of_ordinances?nodeId=PTIIMUCO_CH114ZO_ARTVIIIFLRE_DIV10DE_SS114-914_114-915RE",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Daily Reporter — Microsoft announces $4B second Mount Pleasant data center",
+      "url": "https://dailyreporter.com/2025/09/18/microsoft-4b-ai-data-center-wisconsin-mount-pleasant/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Daily Reporter — first Mount Pleasant data center complete (June 2026)",
+      "url": "https://dailyreporter.com/2026/06/24/microsoft-completes-supercomputer-data-center-mount-pleasant/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Datacenter Dynamics — 15 more Mount Pleasant buildings approved",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-given-greenlight-for-15-more-data-center-buildings-in-mount-pleasant-wisconsin/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WPR — We Energies plans new gas-fired generation for southeastern Wisconsin demand",
+      "url": "https://www.wpr.org/news/we-energies-plans-new-gas-fired-power-plant-to-meet-growing-demand-in-southeast-wisconsin",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS — preliminary bedrock geologic map, southeastern Wisconsin counties",
+      "url": "https://wgnhs.wisc.edu/catalog/publication/000851/resource/wofr200418",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Racine County — FEMA floodplain open data",
+      "url": "https://data-racinecounty.opendata.arcgis.com/datasets/fema-floodplain-1",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NOAA — Root River gauge at Racine",
+      "url": "https://water.noaa.gov/gauges/racw3",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — seasonal weight restrictions",
+      "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Diggers Hotline — excavator's guide",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — construction stormwater program",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — wetland permits (Wis. Stat. 281.36)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — NLEB non-federal guidance",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "PSC of Wisconsin — BEAD approval",
+      "url": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Distance-cities — Cedar Rapids, IA to Racine, WI driving distance (236 mi / 4h21m)",
+      "url": "https://www.distance-cities.com/distance-cedar-rapids-ia-to-racine-wi",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind, snow, ice, seismic, design temperatures",
+      "attempted": "ASCE Hazard Tool / USGS design-maps / TIA-222 Annex B unreachable or paywalled from the sandbox; SPS 362.1608 snow zone map not readable. No Racine primary values publishable."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — commercial-code citation",
+      "attempted": "48 in. rests on SPS 321.16 (UDC); the SPS 362 commercial application and any city amendment need confirmation from Racine Building Inspection."
+    },
+    {
+      "field": "geotech numerics and karst screening",
+      "attempted": "NRCS Web Soil Survey not usable through the proxy; geology is qualitative (WGNHS/county sources). Bearing range, bedrock depth, groundwater, corrosivity all unsourced; karst mapping not found."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority — specific excavation-permit requirements",
+      "attempted": "DPW forms page located but individual ROW/excavation permit terms (bond, notice, restoration) not confirmed; verify with Racine DPW Engineering."
+    },
+    {
+      "field": "utilities — We Energies new-service process/lead times; ILEC boundary; fiber list",
+      "attempted": "No published lead times; ILEC and provider list from coverage summaries pending FCC map check."
+    },
+    {
+      "field": "environmental — Racine County IPaC report",
+      "attempted": "IPaC not reachable from the sandbox; statewide NLEB guidance applied."
+    },
+    {
+      "field": "seasonality — NCEI normals for the Racine area",
+      "attempted": "Station normals table not retrieved; calendar authored from restriction record plus regional climate pattern."
+    },
+    {
+      "field": "operations — drive-time confirmation and county coverage",
+      "attempted": "236 mi / 4h21m from one routing aggregator; ops routing and coverage-list sign-off still needed."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 2 publish gate requires 1+ project and 3 images from CSS records; not fabricated."
+    },
+    {
+      "field": "compliance — DSPS direct confirmation",
+      "attempted": "dsps.wi.gov not fetchable; licensing summary from secondary sources."
+    }
+  ]
+}

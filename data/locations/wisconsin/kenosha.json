@@ -1,0 +1,654 @@
+{
+  "identity": {
+    "slug": "kenosha",
+    "city": "Kenosha",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "counties": [
+      "Kenosha"
+    ],
+    "msa": "Chicago-Naperville-Elgin, IL-IN-WI (Kenosha County is the Wisconsin end of the Chicago MSA)",
+    "tier": 2,
+    "latitude": 42.5847,
+    "longitude": -87.8212,
+    "elevationFt": 604,
+    "population": {
+      "value": 99986,
+      "source": "U.S. Census Bureau, 2020 Census (confirm against current QuickFacts vintage before sign-off)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-94"
+    ],
+    "majorRoutes": [
+      "WIS 50",
+      "WIS 31",
+      "WIS 32",
+      "WIS 158"
+    ]
+  },
+  "metadata": {
+    "title": "Kenosha, WI Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil work in Kenosha, WI — lake-plain clay foundations, duct bank, and compound builds where I-94 meets Microsoft's data center corridor.",
+    "h1": "Telecom Site Civil Construction in Kenosha, Wisconsin",
+    "intro": "Kenosha is the southern gate of Wisconsin's busiest infrastructure corridor. Microsoft bought 240 acres at I-94 and WIS 142 in January 2025 with a four-building data center campus in mind, the Mount Pleasant campus sits one county north, and the 107-acre Kenosha Innovation Neighborhood is turning the old Chrysler engine plant site into mixed-use ground. The dirt under all of it is Lake Michigan lake plain — clayey till and glacial lakebed deposits over Silurian dolomite — and every foundation goes at least 48 inches down under the state frost rule. CellSite Solutions runs this market from Cedar Rapids, 234 road miles west, self-performing hut pads, duct bank, grounding, and compound civil across Kenosha County.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 via the 2021 IBC — Wisconsin's commercial code (SPS 361–366) moved to the 2021 I-codes effective September 1, 2025, binding on plans submitted November 1, 2025 or later; confirm the SPS 361 referenced-standards table",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Run USGS design-maps at the site coordinates before publishing seismic values. Open-shoreline sites within a mile of Lake Michigan may also warrant an exposure-category check — do not assume Exposure B."
+    },
+    "frostDepthIn": {
+      "value": 48,
+      "source": "Wis. Admin. Code SPS 321.16: footings bear below the frost line or 48 in. below adjacent grade, whichever is deeper. Confirm the commercial-code application and any local amendment with the Kenosha Building Inspection Division before design release.",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Kenosha County occupies the Lake Michigan lake plain. Silurian dolomite bedrock lies roughly 25 to 50 feet below the surface across much of the county, capped by clayey glacial till with pockets of lacustrine (glacial lakebed) silt and clay; the shoreline north of the city rises into clayey bluffs up to about 35 feet high near the Racine County line. (City of Kenosha comprehensive plan resource inventory; USGS state geologic compilation for Kenosha County; WGNHS preliminary bedrock geologic map of southeastern Wisconsin.)",
+    "dominantSoilTypes": [
+      "Clayey glacial till of the lake plain",
+      "Lacustrine silts and clays",
+      "Shoreline bluff clays (northern lakefront)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No Kenosha County karst mapping was sourced during research. The Silurian dolomite here generally sits 25–50 ft down — below telecom foundation depths — but include a karst screen in any geotech scope with deep foundations or dewatering, since karst is documented in the same dolomite elsewhere in eastern Wisconsin."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The Kenosha foundation conversation starts with clay and ends with the calendar. Lake-plain till and lakebed deposits hold water, so open excavations that would drain overnight in sandy ground stay wet here, and subgrades rut fast once disturbed — pump capacity and crushed-stone working pads earn their keep on most sites. Because the dolomite typically sits 25 to 50 feet down, rock rarely complicates a hut footing or shelter pier; what governs instead is Wisconsin's 48-inch frost embedment, which fixes the excavation depth on every foundation regardless of load. Spread footings and thickened pads below frost handle most telecom structures in this soil, with helical or drilled options reserved for bluff-adjacent or soft lakebed pockets. Borings decide, not the county map — order them early."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Kenosha — Building Inspection Division, Dept. of Community Development & Inspections",
+        "url": "https://www.kenosha.org/departments/city_inspection/index.php",
+        "phone": "262-653-4263",
+        "typicalReviewDays": null,
+        "note": "625 52nd Street, Room 100. Commercial work runs under the statewide SPS 361–366 code; state plan review applies by project size. Review-queue times are not published — call before committing a schedule."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Wisconsin Uniform Commercial Building Code (SPS 361–366), based on the 2021 IBC effective September 1, 2025 (mandatory for plans submitted on or after November 1, 2025)",
+      "source": "Wisconsin DSPS commercial building code news release — https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "2019 Wisconsin Act 14 (Wis. Stat. 66.0414) preempts most local small-cell regulation statewide: ROW collocation is a permitted use, municipal fees are constrained, and annual collocation charges cap at the lesser of actual cost or $250 per small wireless facility.",
+    "rowPermitAuthority": {
+      "name": "City of Kenosha Public Works Department",
+      "url": "https://www.kenosha.org/departments/public_works/permits_forms___applications.php",
+      "phone": "262-653-4050",
+      "typicalReviewDays": null,
+      "note": "Two-step process: a Public Right-of-Way Registration (form PWE010) must be on file before the excavation permit (form PWE002) is issued, and work on a main thoroughfare requires a traffic-control plan approved by the City Engineer."
+    },
+    "stateDotDistrict": {
+      "name": "WisDOT Southeast Region (Waukesha office) — covers Kenosha, Racine, Milwaukee, Walworth, Waukesha, Washington, and Ozaukee counties",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Diggers Hotline (Wisconsin 811)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statutory basis: Wis. Stat. 182.0175.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Wisconsin DNR — WPDES construction site stormwater general permit",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Notice of Intent goes in no later than 14 working days before land-disturbing work begins on sites of an acre or more."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plan a Kenosha schedule around three separate clocks. The building permit clock runs through the city's Building Inspection Division under the statewide SPS code, with state plan review layered on for larger structures. The ROW clock is the city's two-step Public Works process — registration on file first, then the excavation permit, plus an approved traffic-control plan before touching a main thoroughfare. The environmental clock is usually the longest: Diggers Hotline needs three business days before any dig, and the WDNR stormwater NOI needs 14 working days before an acre of disturbance, which puts roughly three weeks of unavoidable lead in front of a compound or route build. None of these clocks run concurrently by default — sequencing them is the scheduler's job."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "We Energies (Wisconsin Electric Power Co., WEC Energy Group)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves electric and natural gas across Kenosha County as part of its southeastern Wisconsin territory. New-service lead times aren't published — get the utility's commitment in writing during scoping, especially with data center load queuing on this corridor."
+      }
+    ],
+    "ilec": "AT&T Wisconsin (Wisconsin Bell) — legacy Bell territory in southeastern Wisconsin; confirm the formal ILEC exchange boundary against FCC data before publish",
+    "notableFiberProviders": [
+      "Spectrum",
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Microsoft — planned Kenosha campus: 240 acres northwest of I-94/WIS 142, four 250,000 sq ft buildings plus a substation in concept plans (land purchased January 2025; project plans not yet final)",
+      "Microsoft — Mount Pleasant campus, one county north in Racine County"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Class II spring thaw restrictions statewide, typically early March into early May (2026 postings ran February 20 – April 30 by zone)",
+      "postingAuthority": {
+        "name": "WisDOT posts frozen-road declarations and Class II highway restrictions; Kenosha County and municipal roads carry their own postings",
+        "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "I-94 itself carries loads year-round, so the corridor spine stays open through thaw season — it's the last miles on posted county and town roads that decide whether a spring shelter haul goes through or waits. Check local postings, not just the WisDOT map."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "WisDOT Oversize/Overweight Permits — online self-issuance at wi.gotpermits.com",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "phone": "608-266-7320",
+      "typicalReviewDays": null,
+      "note": "Wis. Stat. 348.26–348.27. Standard shelter hauls typically self-issue; local roads need separate municipal authorization."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific — Kenosha Subdivision",
+        "crossingPermitNote": "The lakefront corridor through the city; Metra's UP-North commuter service terminates at Kenosha station, so crossing work near the depot coordinates with an active passenger schedule."
+      },
+      {
+        "name": "CPKC — Chicago–Milwaukee main line",
+        "crossingPermitNote": "Runs just west of the lakeshore through the county on the Amtrak Hiawatha corridor; a busy Class I passenger/freight main, so budget long lead times for wireline crossing agreements."
+      }
+    ],
+    "urbanRowRequirements": "City ROW work requires the Public Works registration (PWE010) before an excavation permit (PWE002) will issue; applications identify which part of the ROW is disturbed — travel lane, curb lane, sidewalk, curb and gutter, or lawn park — and main-thoroughfare work needs a City Engineer-approved traffic-control plan. Degradation fees apply to pavement cuts."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Clearing in suitable northern long-eared bat habitat is restricted April 1 – October 31 under the transportation programmatic; occupied maternity roost trees and trees within 150 ft are protected June 1 – July 31; no removal within 0.25 mile of a hibernaculum",
+      "driver": "Northern long-eared bat (federally endangered)",
+      "source": "WisDOT NLEB non-federal guidance (April 2023)"
+    },
+    "shpo": {
+      "name": "Wisconsin Historical Society — State Historic Preservation Office",
+      "url": "https://www.wisconsinhistory.org/preserve/state-historic-preservation-office/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Relevant to federally funded broadband work; the redeveloping industrial core (former auto plant lands) can also carry archaeological review interest."
+    },
+    "wetlandsAuthority": {
+      "name": "Wisconsin DNR — wetland permits under Wis. Stat. 281.36, which reaches nonfederal wetlands as well as federal ones",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The DNR permit doubles as the federal water quality certification; nonfederal exemptions are narrow."
+    },
+    "usaceDistrict": "St. Paul District (MVP)",
+    "listedSpeciesNote": "Statewide, the northern long-eared bat drives clearing calendars. A Kenosha County IPaC report was not generated during this research pass — run one per project before finalizing a species list.",
+    "floodplainPrevalenceNote": "Mapped floodplain in the city concentrates along the Pike River and the Lake Michigan shoreline; confirm extents against FEMA's National Flood Hazard Layer per site, and identify the city's floodplain administrator during due diligence (not confirmed in this research pass)."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Hard frost established; lake moderates extremes slightly near shore",
+        "earthworkConcrete": "restricted",
+        "note": "Winter protection on all pours; frozen-road declarations can help heavy moves"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Deepest frost of the year in the clay",
+        "earthworkConcrete": "restricted",
+        "note": "Class II postings can begin as early as late February (2026: Feb 20)"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw begins; lake-plain clay saturates and holds water",
+        "earthworkConcrete": "restricted",
+        "note": "Spring postings in force on state and local roads"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Frost leaving; soft, wet subgrades on undrained clay sites",
+        "earthworkConcrete": "constrained",
+        "note": "NLEB habitat clearing window closed as of April 1"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Sites firming; postings lift",
+        "earthworkConcrete": "workable",
+        "note": "Backlogged heavy hauls move once local postings clear"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; convective rain events",
+        "earthworkConcrete": "favorable",
+        "note": "Roost-tree protection June 1 – July 31"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak production conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Dry, firm sites; best month for clay work",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Excellent conditions continue; cooling begins",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freezes; lake keeps shoreline sites open longer",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice starts late month"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost taking hold in the clay",
+        "earthworkConcrete": "constrained",
+        "note": "Last practical window for full-depth excavation without frost ripping"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing through; winter operations",
+        "earthworkConcrete": "restricted",
+        "note": "Heated enclosures and warm mix on any pour"
+      }
+    ],
+    "narrative": "Kenosha's build year runs on a southeastern Wisconsin rhythm with a slight lake assist: Lake Michigan delays the first hard freeze along the shoreline and takes the sharpest edge off midwinter, but the clay still freezes deep and the state's road calendar applies in full — frozen-road declarations in winter, Class II thaw postings from late February into spring (2026: February 20 through April 30). The reliable production window is May through October. The clay is the tiebreaker month to month: a wet June site here behaves worse than the rain gauge suggests, and a dry August one better. Confirm the monthly picture against NCEI normals for the Kenosha area before publication — this calendar is authored from the state restriction record plus regional climate pattern, not a station table."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "With dolomite typically 25–50 ft down, rock almost never enters telecom-depth excavation on the lake plain; the exception risk is isolated shallow-bedrock highs, which borings catch.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Saturated lake-plain clay spoil hauls heavy and dries slowly; on urban sites with tight footprints, plan export and import rather than assuming reuse.",
+    "permitFeeNote": "City ROW excavation permits carry pavement degradation fees on top of the base fee — full-depth street cuts price differently than lawn-park bores.",
+    "prevailingWageExposure": "No state prevailing wage since the 2017 Act 59 repeal took effect. Davis-Bacon still attaches to federally funded scopes, including BEAD builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter concrete protection December through March and the 48-inch embedment are the recurring premiums; spring adds haul-routing cost while local postings are up.",
+    "narrative": "Cost on a Kenosha civil scope is driven by water management, depth, and timing more than by anything exotic. The clay dictates dewatering, stone working pads, and spoil export on wet sites; the 48-inch frost rule fixes excavation volume on every foundation; and the season decides whether those two facts price normally or with winter protection and thaw-season routing layered on. In the city, ROW degradation fees reward boring over open-cutting streets. One forward-looking driver is competition for resources: the Microsoft program at Mount Pleasant — with a Kenosha campus behind it — is absorbing regional concrete, trucking, and labor capacity, which shows up in lead times before it shows up in prices. We publish drivers, not rates; every estimate here starts from borings and a calendar."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Wisconsin has no statewide general contractor license for commercial work — projects are controlled through permits, plan review, and trade credentials instead. Electrical and plumbing carry state licenses; the DSPS Dwelling Contractor credential applies only to 1–2 family residential. Compiled from secondary sources — verify current requirements with DSPS directly.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme cold",
+      "ice storm",
+      "tornado",
+      "flood"
+    ],
+    "designImplications": "Winter governs foundations (48-inch embedment) and generator enclosure design, while southeastern Wisconsin's severe-weather season argues for conservative anchorage and hail-tolerant equipment placement. Along the Pike River and lakefront, floodplain screening precedes siting. Publish wind and ice design values only after ASCE hazard and TIA-222 county lookups are completed for this location.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Microsoft buys 240 acres in Kenosha for data center development",
+        "detail": "Microsoft purchased 240 acres northwest of the I-94/WIS 142 interchange in January 2025, with concept plans for four single-story 250,000 sq ft data center buildings plus a utility substation; the city rezoned the land and will annex it, though project plans and timeline were not final at announcement.",
+        "category": "data center",
+        "sourceUrl": "https://dailyreporter.com/2025/01/27/microsoft-kenosha-data-center-development/",
+        "asOf": "2025-01-27"
+      },
+      {
+        "headline": "Mount Pleasant campus next door keeps compounding",
+        "detail": "One county north, Microsoft finished its first Mount Pleasant data center (the 'Fairwater' AI supercomputer facility) in June 2026, is building a $4B second facility announced September 2025, and holds approval for 15 more buildings — sustained heavy-civil demand on the same I-94 corridor Kenosha sits on.",
+        "category": "data center",
+        "sourceUrl": "https://dailyreporter.com/2026/06/24/microsoft-completes-supercomputer-data-center-mount-pleasant/",
+        "asOf": "2026-06-24"
+      },
+      {
+        "headline": "Wisconsin BEAD: $1.06B approved, three-quarters fiber",
+        "detail": "NTIA approved Wisconsin's final BEAD proposal in December 2025 — $1,055,823,573 administered by the PSC, with roughly 76% of locations awarded to fiber — funding rural fiber construction statewide, including underserved pockets of southeastern Wisconsin.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+        "asOf": "2025-12-02"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "fiber hut pad",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber demand in Kenosha pulls from two directions at once: hyperscale capacity following Microsoft down the I-94 corridor, and last-mile work seeded by Wisconsin's $1.06B BEAD program in the rural western county. The construction realities are specific. City streets sit under a two-step ROW regime — registration before permit, traffic-control plan on main thoroughfares, degradation fees on cuts — which tilts urban routes toward directional boring, and the lake-plain clay bores cleanly when moisture is managed. Two active rail corridors cross the geography: UP's Kenosha Subdivision on the lakefront, where Metra service terminates, and CPKC's Chicago–Milwaukee main to the west. Both are long-lead crossing counterparties; we file crossing applications before route design is final, not after.",
+      "localSpecificsReferenced": [
+        "I-94 corridor / Microsoft demand pull",
+        "City of Kenosha PWE010/PWE002 ROW process",
+        "UP Kenosha Subdivision and CPKC main line crossings",
+        "Wisconsin BEAD ($1.06B, Dec 2025)"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "small cell and DAS node civil",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Kenosha's wireless civil market is corridor densification: population growth, logistics parks, and the coming data center workforce all sit along I-94 and the lakeshore, and the sites serving them need pads, power, and grounding built into heavy clay. Every foundation carries Wisconsin's 48-inch frost embedment, so even a small cabinet pad involves real excavation, and winter pours run under full cold-weather protocol. Small-cell and DAS work in the city operates under the statewide Act 14 framework — collocation as a permitted ROW use with the $250 annual cap — rather than a bespoke local ordinance. Delivery logistics favor this market: I-94 stays unposted through thaw season, so spring shelter sets here hinge only on the last-mile local roads, a narrower problem than most Wisconsin markets face.",
+      "localSpecificsReferenced": [
+        "48-inch frost embedment (SPS 321.16)",
+        "2019 Act 14 small-cell framework",
+        "I-94 unposted through spring thaw",
+        "Kenosha Innovation Neighborhood redevelopment corridor"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Few Tier 2 markets anywhere have Kenosha's edge trajectory: Microsoft owns 240 acres at I-94 and WIS 142 with a four-building campus in concept plans, and the Mount Pleasant program ten miles north — first facility complete June 2026, $4B second underway, 15 more buildings approved — is already the largest construction program in Wisconsin. That gravity produces exactly the scope tier we self-perform: transformer and switchgear pads, campus conduit and duct bank, generator yards, security compounds, and the micro-edge pads that follow hyperscale capacity into secondary sites. We Energies is the interconnection counterparty, and its queue is filling with data center load — power lead time, not civil production, is the schedule risk we flag first on this corridor.",
+      "localSpecificsReferenced": [
+        "Microsoft Kenosha 240-acre site (I-94/WIS 142)",
+        "Mount Pleasant campus expansion",
+        "We Energies interconnection queue",
+        "I-94 corridor heavy-haul access"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 234,
+      "driveTimeHours": 4.5,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Kenosha"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "At 234 road miles, Kenosha is a comfortable single-mobilization market for our Cedar Rapids crews: out on US-151 through Dubuque and Madison, then across southern Wisconsin on the interstate network, with crews staying over for the duration of a scope rather than commuting. What makes this market operationally distinctive is the corridor itself — I-94 gives posting-free heavy-haul access straight to most site clusters even in thaw season, so equipment and shelter moves that would wait on rural postings elsewhere in Wisconsin can often proceed here. Multi-site programs across Kenosha County, and combined programs with neighboring Racine County, batch onto one mobilization efficiently. Response-time commitments are made only with ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What frost depth applies to telecom foundations in Kenosha?",
+      "answer": "Wisconsin's SPS 321.16 rule governs: footings bear below the frost line or at least 48 inches below adjacent grade, whichever is deeper. That fixes minimum excavation on every shelter pier, hut footing, and bollard in the county. Confirm the commercial-code application and any local amendment with the city's Building Inspection Division (262-653-4263) during design.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for underground work in the City of Kenosha?",
+      "answer": "The Public Works Department, in two steps: a Right-of-Way Registration (form PWE010) must be on file before the excavation permit (form PWE002) will issue. Applications specify which part of the ROW is disturbed, main-thoroughfare work needs a City Engineer-approved traffic-control plan, and pavement cuts carry degradation fees — one reason boring usually beats open-cut on city streets.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is Microsoft actually building a data center in Kenosha?",
+      "answer": "The land is bought; the buildings aren't final. Microsoft purchased 240 acres northwest of I-94 and WIS 142 in January 2025, the city rezoned it for data center use, and concept plans show four 250,000 sq ft buildings plus a substation — but Microsoft had not finalized project plans or timeline at announcement. The active construction today is at Mount Pleasant, one county north.",
+      "segment": "edge"
+    },
+    {
+      "question": "Do spring road postings delay shelter deliveries around Kenosha?",
+      "answer": "Less than in most of Wisconsin. The Class II thaw restrictions (2026: February 20 – April 30) apply to posted state highways, and county and town roads add local limits — but I-94 carries legal loads year-round, so the corridor spine stays open. A spring set here usually turns on the final miles of local road, which we scout against current postings before committing a haul date.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How much permitting lead time should an underground schedule carry?",
+      "answer": "Bank three weeks minimum for a disturbance of an acre or more: the WDNR stormwater Notice of Intent must be in 14 working days before ground breaks, and Diggers Hotline requires 3 business days before any excavation. Add the city's two-step ROW process for street work. We run these clocks in parallel wherever the sequence allows so only one of them sits on the critical path.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What ground conditions should we expect boring in Kenosha County?",
+      "answer": "Clayey glacial till and lakebed silts and clays of the Lake Michigan lake plain, with Silurian dolomite typically 25–50 feet down — deep enough that rock rarely enters telecom-depth work. The clay bores predictably at the right moisture but holds water in open cuts and ruts fast under trucking. Site borings settle the question; near the northern lakefront, bluff-edge stability adds a check.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How are small cells permitted in the city?",
+      "answer": "Under the statewide framework of 2019 Wisconsin Act 14 (Wis. Stat. 66.0414), not a city-specific ordinance: small wireless facilities are a permitted use in the ROW, municipal review is constrained, and annual collocation charges cap at the lesser of actual cost or $250 per facility. The civil work — node foundations, conduit, restoration — still runs through the normal Public Works ROW process.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Kenosha?",
+      "answer": "We Energies, the investor-owned utility serving southeastern Wisconsin. Published new-service timelines don't exist, and the regional queue is absorbing serious data center load, so we treat power lead time as a first-order schedule risk: utility commitment in writing at scoping, and generator-ready designs where the in-service date can't float.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Bore or open-cut? How Kenosha's clay and ROW rules decide",
+    "body": "On paper the bore-versus-trench call in Kenosha looks like any urban market's; in practice three local facts stack the deck. First, the city's ROW fee structure charges degradation fees on pavement cuts on top of the base permit, so every foot of open-cut street carries restoration cost that a lawn-park or bore alignment avoids — on a multi-block route that difference compounds fast. Second, the lake-plain clay is a good boring medium at normal moisture: it holds a bore path, doesn't cave like granular soils, and the dolomite is far too deep to interfere. The same clay is a poor open-cut medium in the wet months, when trench walls need boxes, subgrades pump, and spoil turns to export. Third, the corridor's two rail lines — UP's lakefront subdivision and CPKC's main — cross most east–west routes, and a bored crossing is the only realistic option at either. The honest summary: in Kenosha, open-cut earns its place on short laterals, dry-season work, and greenfield edges; anything crossing pavement, rail, or a wet calendar month usually prices and schedules better as a bore. Route design should start from that assumption and let the exceptions prove themselves."
+  },
+  "sources": [
+    {
+      "label": "Wisconsin DSPS — commercial building code update to 2021 IBC (SPS 361–366)",
+      "url": "https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16 — footing depth / 48-inch frost rule",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/2/c/2",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Kenosha — Inspections Department (Building Inspection Division)",
+      "url": "https://www.kenosha.org/departments/city_inspection/index.php",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Kenosha Public Works — ROW excavation permit (PWE002) and registration (PWE010)",
+      "url": "https://www.kenosha.org/departments/public_works/permits_forms___applications.php",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Kenosha comprehensive plan, Ch. 3 — natural resources inventory (geology, lake plain, bluffs)",
+      "url": "https://www.kenosha.org/Document%20Center/Departments/City%20Development/Planning%20&%20Zoning/Long%20Range%20Planning/Comprehensive%20Plans/CH-3-AGRICULTURE.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USGS — geologic units in Kenosha County, Wisconsin",
+      "url": "https://mrdata.usgs.gov/geology/state/fips-unit.php?code=f55059",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS — preliminary bedrock geologic map of southeastern Wisconsin counties",
+      "url": "https://wgnhs.wisc.edu/catalog/publication/000851/resource/wofr200418",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Daily Reporter — Microsoft buys 240 acres from Kenosha for data center development",
+      "url": "https://dailyreporter.com/2025/01/27/microsoft-kenosha-data-center-development/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Daily Reporter — Microsoft completes supercomputer data center at Mount Pleasant",
+      "url": "https://dailyreporter.com/2026/06/24/microsoft-completes-supercomputer-data-center-mount-pleasant/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Urban Milwaukee — Innovation Center opens on former Kenosha auto plant site",
+      "url": "https://urbanmilwaukee.com/2025/10/06/innovation-center-opens-on-site-of-former-kenosha-auto-plant/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — seasonal weight restrictions (frozen road / Class II)",
+      "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Diggers Hotline — excavator's guide (3 business days' notice)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — construction stormwater program (14-working-day NOI)",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — northern long-eared bat non-federal guidance",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "2019 Wisconsin Act 14 — small wireless facilities (Wis. Stat. 66.0414)",
+      "url": "https://docs.legis.wisconsin.gov/2019/related/acts/14",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "PSC of Wisconsin — BEAD final proposal approval",
+      "url": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MARK Rail — corridor description (UP Kenosha Subdivision, Metra UP-North, CPKC)",
+      "url": "https://www.markrail.org/about",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Distance-cities — Cedar Rapids, IA to Kenosha, WI driving distance (234 mi)",
+      "url": "https://www.distance-cities.com/distance-cedar-rapids-ia-to-kenosha-wi",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic / designRadialIceIn / design temps",
+      "attempted": "ASCE Hazard Tool, USGS design-maps, and TIA-222 Annex B remain unreachable or paywalled from the research sandbox; no Kenosha-specific primary values found. Also check Wisconsin's alternate snow zone map (SPS 362.1608)."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — commercial application",
+      "attempted": "48-in. value sourced to SPS 321.16 (UDC); the commercial-code section and any City of Kenosha amendment need confirmation with the Building Inspection Division."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, corrosivity, expansive risk) + karst screening",
+      "attempted": "NRCS Web Soil Survey interactive not usable through proxy; only qualitative city-plan/USGS/WGNHS geology sourced. No county karst mapping found — karstRisk.present set false on the strength of 25–50 ft bedrock depth, flagged for geotech screening."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain desk not identified in search results; Pike River/lakefront floodplain noted qualitatively. Confirm with City of Kenosha zoning/development staff."
+    },
+    {
+      "field": "utilities — We Energies new-service page and lead times; AT&T ILEC boundary; fiber provider list",
+      "attempted": "We Energies process URL and lead-week figures not published; ILEC and provider list from territory/coverage summaries, pending FCC broadband map confirmation."
+    },
+    {
+      "field": "environmental — Kenosha County IPaC list",
+      "attempted": "IPaC interactive not reachable in sandbox; statewide NLEB guidance applied."
+    },
+    {
+      "field": "seasonality — NCEI station normals",
+      "attempted": "Calendar authored from state restriction record and regional pattern; Kenosha-area NCEI normals table not retrieved."
+    },
+    {
+      "field": "operations — drive time and counties served",
+      "attempted": "234 driving miles from a routing aggregator (two sources disagreed on drive time: 4.4–5.3 h); 4.5 h recorded as estimate pending ops routing. Coverage list needs ops sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 2 gate needs 1+ real project and 3 images from the CSS project intake; never invented."
+    },
+    {
+      "field": "compliance — DSPS primary confirmation",
+      "attempted": "Licensing summary from consistent secondary sources; dsps.wi.gov direct confirmation still outstanding."
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "identity": {
+    "slug": "madison",
+    "city": "Madison",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "counties": [
+      "Dane"
+    ],
+    "msa": "Madison, WI",
+    "tier": 2,
+    "latitude": 43.0731,
+    "longitude": -89.4012,
+    "elevationFt": null,
+    "population": {
+      "value": 280305,
+      "source": "U.S. Census Bureau population estimate (V2023 vintage), compiled via secondary reporting — re-verify against Census QuickFacts before publish",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-39",
+      "I-90",
+      "I-94"
+    ],
+    "majorRoutes": [
+      "US-151",
+      "US-12/14/18/151 (Beltline)"
+    ]
+  },
+  "metadata": {
+    "title": "Madison, WI Telecom Civil Construction | CellSite Solutions",
+    "description": "Madison telecom site civil work — fiber and hut construction around the isthmus, city ROW excavation permits, and foundations built to Wisconsin's frost rule.",
+    "h1": "Telecom Site Civil Construction in Madison, Wisconsin",
+    "intro": "Two lakes decide how things get built in Madison. The capital sits on an isthmus between Mendota and Monona, underlain by soft sediments left by glacial Lake Yahara — and every downtown fiber route, node, or hut either crosses that pinch point or detours around a lake to avoid it. City government adds its own texture: Madison's Engineering Division issues its own excavation-in-the-ROW permit, Building Inspection reviews under the state uniform code, and the university and state-capital campuses concentrate network demand into a few square miles. This is also our closest Wisconsin market — 164 road miles from the Cedar Rapids yard straight up US-151 — which makes Dane County the part of the state where our crews respond fastest, self-performing foundations, duct bank, grounding, and compound work.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 via the 2021 IBC, which underlies SPS 361–366 statewide (September 1, 2025 effective date; November 1, 2025 mandatory for new submittals)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Ss/S1 publish only after a USGS design-maps query at the site; on the isthmus, site class deserves particular care given soft lacustrine soils — treat it as strictly site-specific."
+    },
+    "frostDepthIn": {
+      "value": 48,
+      "source": "SPS 321.16 — Wisconsin's footing rule (below frost penetration, minimum 48 in. below adjacent grade). Research found no Madison ordinance stating a different figure; confirm commercial application with Building Inspection",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Dane County is Green Bay Lobe country: Wisconsin-glaciation till, drumlins, and outwash over Cambrian sandstone and Prairie du Chien dolomite (WGNHS ES043; field-trip guide FTGB06). The isthmus itself is different ground — glaciolacustrine sand, silt, and clay settled out of glacial Lake Yahara roughly 17,000–13,000 years ago over a buried bedrock ridge between Lakes Mendota and Monona. Downtown alignments cross soft, wet, compressible lake deposits; upland sites a mile away work in firm till or shallowing sandstone.",
+    "dominantSoilTypes": [
+      "Glacial Lake Yahara lacustrine sand, silt, and clay (isthmus)",
+      "Green Bay Lobe till (uplands)",
+      "Glacial outwash sand and gravel"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst documentation for the Madison area was reviewed; the Prairie du Chien dolomite is carbonate, so screen for solution features only where excavation actually reaches rock."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Madison foundations divide by landform. On the uplands — most of the Beltline corridor, the west side, the suburban ring — Green Bay Lobe till and outwash take shallow foundations without drama, and the question is simply Wisconsin's 48-inch embedment and whether sandstone shallows enough to slow an excavator. On the isthmus, the calculus inverts: glacial Lake Yahara left compressible, saturated fine-grained sediments where groundwater sits near lake level, so hut and equipment foundations may need overexcavation and engineered fill, deeper elements, or flotation checks on below-grade vaults. The pragmatic move we make on every downtown Madison scope is to treat the geotechnical boring as routing input, not just foundation input — shifting an alignment or a pad a block off the worst lake sediments is routinely cheaper than engineering through them."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Madison Building Inspection Division",
+        "url": "https://www.cityofmadison.com/dpced/bi/",
+        "phone": "608-266-4551",
+        "typicalReviewDays": null,
+        "note": "215 Martin Luther King Jr. Blvd., Suite 017; plan review and permit counter by appointment. Review under the statewide SPS 361–366 code; no published timeline commitments found."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "SPS 361–366 (Wisconsin's uniform commercial code) on the 2021 IBC, effective September 1, 2025, mandatory for plans filed on or after November 1, 2025",
+      "source": "Wisconsin DSPS commercial building code news release — https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Deployment of small wireless facilities is standardized by 2019 Act 14 (Wis. Stat. 66.0414): ROW access rights, constrained municipal review, and the $250-per-facility annual collocation cap. Madison's own ROW instruments — the Engineering excavation permit and Traffic Engineering street occupancy permit — still govern the physical work.",
+    "rowPermitAuthority": {
+      "name": "City of Madison Engineering Division — Excavation in the Right-of-Way Permit (street occupancy via Traffic Engineering)",
+      "url": "https://www.cityofmadison.com/engineering/permits/excavation-in-the-right-of-way-permit",
+      "phone": "608-242-4761",
+      "typicalReviewDays": null,
+      "note": "Required for any excavation or disturbance of public ROW or public sewer/greenway easements; drawing attachment required with the application; Traffic Engineering reviews and calculates fees."
+    },
+    "stateDotDistrict": {
+      "name": "WisDOT Southwest Region (Madison office) — Dane County",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Diggers Hotline",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Statutory basis Wis. Stat. 182.0175; the campus and capitol districts are locate-heavy, so ticket early.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Wisconsin DNR WPDES construction program, plus City of Madison Engineering erosion control/stormwater permitting (MGO Ch. 37)",
+      "url": "https://www.cityofmadison.com/engineering/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The state NOI (14 working days ahead of 1-acre disturbance) and the city's own erosion-control ordinance run in parallel — Madison's local thresholds are stricter than the state baseline; confirm applicability at concept stage."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plan on three parallel tracks in Madison. Building Inspection reviews the structure under the statewide code, by-appointment at the MLK Jr. Blvd. counter. The ROW track runs through City Engineering's excavation permit — with its required drawing exhibit — plus a Traffic Engineering street occupancy permit where lanes or parking are taken; fees are calculated at review. The environmental track combines the WDNR stormwater NOI (14 working days before acre-plus disturbance) with Madison's own erosion control ordinance, which reaches smaller disturbances than the state program. Diggers Hotline's three-business-day locate lead threads through all of it. None of these is individually slow; the schedule risk is starting them sequentially instead of together."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Madison Gas and Electric (MGE)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Subsidiary of publicly traded MGE Energy (NASDAQ: MGEE) — investor-owned despite the municipal-sounding name. Serves the Madison area; confirm the current commercial new-service intake path during scoping."
+      }
+    ],
+    "ilec": null,
+    "notableFiberProviders": [
+      "TDS Telecom",
+      "Spectrum (Charter)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Class II thaw postings on state highways (February 20 – April 30 in 2026), with Dane County and township postings governing the rural last mile",
+      "postingAuthority": {
+        "name": "WisDOT statewide program; county/town/city postings issued locally",
+        "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Madison-proper sites are reachable on interstates and the Beltline; posted town roads matter mainly for rural Dane County hut and tower sites during the thaw window."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "WisDOT oversize/overweight permits — wi.gotpermits.com/wiconnect",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "phone": "608-266-7320",
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Wisconsin & Southern (WSOR, Watco)",
+        "crossingPermitNote": "WSOR is headquartered in Madison and hubs its Madison division here — lines radiate toward Reedsburg, Cottage Grove, and Watertown (Waterloo Spur), so a Dane County fiber route very likely crosses WSOR track. Its crossing agreement, not the city permit, is usually the longest-lead item."
+      }
+    ],
+    "urbanRowRequirements": "City Engineering's excavation permit covers any disturbance of public ROW or public easements, with a drawing exhibit required at application; taking a travel or parking lane adds a Traffic Engineering street occupancy permit. On the isthmus grid and around the Capitol Square, expect tighter staging, event-driven scheduling constraints, and restoration to city standards."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "April 1 – October 31 clearing restriction in suitable habitat; June 1 – July 31 protection for occupied roost trees and a 150-ft radius",
+      "driver": "Northern long-eared bat (federally endangered)",
+      "source": "WisDOT NLEB non-federal guidance (April 2023)"
+    },
+    "shpo": {
+      "name": "Wisconsin Historical Society — State Historic Preservation Office (headquartered in Madison)",
+      "url": "https://www.wisconsinhistory.org/preserve/state-historic-preservation-office/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Capitol-area historic districts and campus landmarks make Section 106 adjacency screening a real step on federally funded downtown work."
+    },
+    "wetlandsAuthority": {
+      "name": "Wisconsin DNR — wetland permitting under Wis. Stat. 281.36, reaching nonfederal wetlands",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Yahara-chain shorelines and low corridors warrant early wetland screening on route work."
+    },
+    "usaceDistrict": "St. Paul District (MVP)",
+    "listedSpeciesNote": "NLEB sets the clearing calendar; a Dane County IPaC query was not runnable during research — pull one per project.",
+    "floodplainPrevalenceNote": "Not independently reviewed. The isthmus sits between two lakes on the Yahara chain, so screen low-lying parcels against current FEMA panels; the city office holding floodplain administrator authority was not confirmed and is listed in _gaps."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Hard frost; normals near 27°F high / 12°F low",
+        "earthworkConcrete": "restricted",
+        "note": "Winter concreting protocol on any pour"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Frost at depth; late-month thaw onset possible",
+        "earthworkConcrete": "restricted",
+        "note": "2026 state postings started February 20"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw; isthmus soils saturate first and drain last",
+        "earthworkConcrete": "restricted",
+        "note": "Class II and local postings in force"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Frost out; upland till firms ahead of lake-sediment sites",
+        "earthworkConcrete": "constrained",
+        "note": "Postings lift around April 30 in a 2026-type year"
+      },
+      {
+        "month": "May",
+        "groundConditions": "General workability returns",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Peak season opens; also the wettest month (~5.3 in.)",
+        "earthworkConcrete": "favorable",
+        "note": "Roost-tree window June 1 – July 31"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Warm, dry, full production",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Full production",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Prime fall conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freezes; ground open",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather practice starts late month"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Freeze-up; snow season begins (~52 in. annually)",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Winter conditions set in",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Madison's build year runs colder than its latitude suggests — roughly 52 inches of snow and January normals of 27°F/12°F — and the working season is effectively May into October, with June's peak rainfall landing hardest on the isthmus, where lake-sediment sites saturate early and shed water late. Spring postings (state Class II plus town roads, February 20 – April 30 in 2026) gate heavy moves to rural Dane County sites more than to the city itself, which is reached on interstates and the Beltline. Winter work proceeds with frost excavation and heated cures. Climate figures here come from secondary compilations of the 1991–2020 normals and should be re-verified against the Wisconsin State Climatology Office station table."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Cambrian sandstone and Prairie du Chien dolomite shallow under parts of upland Dane County, so deeper duct bank and foundation excavations off the isthmus can meet rock; the lake-sediment corridors almost never do at telecom depths.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Saturated fine-grained spoil from isthmus excavations is poor fill and priced accordingly; upland till and outwash spoil is comparatively easy to place or dispose.",
+    "permitFeeNote": "City Engineering calculates excavation and occupancy fees at permit review; the city's own erosion-control ordinance can add compliance scope on disturbances below the state's one-acre trigger.",
+    "prevailingWageExposure": "State prevailing wage repealed (2017 Act 59); Davis-Bacon attaches to federally funded scopes, including BEAD fiber work in Dane County.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Standard Wisconsin winter package — frost excavation, protected cures — plus the isthmus-specific cost of wet-ground work in early spring.",
+    "narrative": "What moves a Madison number is where the site sits. Isthmus and near-lake work carries the geotechnical premium: potential overexcavation, dewatering, flotation-checked vaults, and wet spoil disposal. Upland work trades that for a rock-contingency question in shallowing sandstone. Layered over both are Madison's process costs — a city excavation permit with engineered exhibits, street occupancy fees near the Capitol and campus, and an erosion-control ordinance that reaches smaller sites than the state program — and the statewide constants: 48-inch embedment, winter protection, three-day locates, and the 14-working-day stormwater NOI. Mobilization from Cedar Rapids is the shortest in our Wisconsin coverage and prices as routine. Drivers only; site-specific bids follow the borings."
+  },
+  "compliance": {
+    "stateContractorLicensing": "No statewide GC license exists for commercial work in Wisconsin; oversight runs through SPS 361–366 plan review and municipal permitting, with state licensure limited to trades like electrical and plumbing (the DSPS Dwelling Contractor credential is residential-only). Verify current requirements with DSPS — this summary draws on secondary sources.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme cold",
+      "flood"
+    ],
+    "designImplications": "Deep frost sets the 48-inch embedment floor and the winter concreting regime; roughly 52 inches of annual snow informs enclosure and access design. The flood consideration is the lakes: low isthmus and shoreline parcels justify FEMA screening and conservative pad elevations, and below-grade structures near lake level get buoyancy checks. Wind, ice, and snow structural values publish only after site-specific verification.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "QTS's $12B DeForest campus proposal — advanced, then stalled",
+        "detail": "QTS announced a $12B data center development in DeForest/Vienna (northern Dane County) in late October 2025 with a $50M community commitment; by January 2026 village officials deemed the proposal not feasible after sustained pushback. Either outcome shapes Dane County's power-and-fiber planning conversation.",
+        "category": "data center",
+        "sourceUrl": "https://dailyreporter.com/2025/11/07/qts-12b-deforest-data-center-development/",
+        "asOf": "2026-01-31"
+      },
+      {
+        "headline": "BEAD construction phase reaches south-central Wisconsin",
+        "detail": "With Wisconsin's $1.056B BEAD final proposal federally approved December 2, 2025 (76% fiber, PSC-administered), subgrantee builds move into unserved pockets of Dane and surrounding counties — hut, duct, and drop construction through the program window.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+        "asOf": "2025-12-02"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "fiber hut pad",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Madison fiber routing is a geography exercise before it is a construction exercise: everything crossing downtown funnels onto the isthmus, where glacial Lake Yahara's soft saturated sediments complicate bores, vaults, and open cuts alike — and where the city's excavation-in-the-ROW permit, drawing exhibit included, governs every disturbance. WSOR's Madison-hubbed lines toward Reedsburg, Cottage Grove, and Watertown put a railroad crossing agreement on many county routes, typically the longest-lead permit in the stack. Madison's own erosion-control ordinance reaches below the state's one-acre WPDES trigger, a compliance step out-of-town builders miss. BEAD-funded segments in rural Dane County add hut pads and duct into the mix through the program years.",
+      "localSpecificsReferenced": [
+        "Isthmus / glacial Lake Yahara sediments",
+        "City of Madison excavation-in-the-ROW permit",
+        "WSOR Madison division crossings",
+        "Madison erosion-control ordinance vs WPDES trigger"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "small cell and DAS node civil",
+        "shelter and cabinet pads",
+        "macro compound construction",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "C-band / densification upgrade civil",
+        "generator and fuel containment pads"
+      ],
+      "narrative": "Wireless demand in Madison concentrates where the people do: the UW campus, the Capitol Square, and the event corridors between them — small-cell and DAS territory governed statewide by Wis. Stat. 66.0414 and physically executed under city Engineering and Traffic Engineering permits. Macro and rural-Dane sites carry Wisconsin's 48-inch foundation embedment; on the isthmus, pole and cabinet foundations get engineered against soft lacustrine ground instead of the upland till a design template assumes. Spring thaw postings on town roads gate rural tower access February into late April, so compound builds and shelter sets in the county get sequenced around the posting calendar. From Cedar Rapids, Dane County is our fastest-reached Wisconsin coverage.",
+      "localSpecificsReferenced": [
+        "UW campus / Capitol Square densification geography",
+        "Wis. Stat. 66.0414 framework",
+        "Isthmus soft-ground foundations",
+        "Town-road thaw postings in rural Dane County"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "hyperscale campus civil support"
+      ],
+      "narrative": "Madison's edge story is demand-led: state government, the university's research computing, and a metro of about 280,000 generate steady micro-DC, node, and interconnection needs even without a resident hyperscale campus. The QTS DeForest proposal — $12B announced October 2025, stalled by January 2026 after village opposition — showed both the scale of interest in Dane County land and power, and the siting friction that redirects such projects; the power planning it triggered doesn't disappear with one site. MGE, investor-owned despite the name (MGE Energy, NASDAQ: MGEE), is the interconnection counterparty for new load in the city. Edge pads here get the full northern package: 48-inch embedment, snow-rated enclosures, cold-climate generator provisions, and drainage designed for freeze-thaw.",
+      "localSpecificsReferenced": [
+        "QTS DeForest proposal and outcome",
+        "MGE (MGE Energy, NASDAQ: MGEE)",
+        "UW / state-capital demand base",
+        "48-inch embedment"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 164,
+      "driveTimeHours": 3.0,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Dane"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Madison is the Wisconsin market our yard reaches fastest: 164 road miles, essentially one road — US-151 four-lane the whole way, crossing the Mississippi at Dubuque and entering Wisconsin at Dickeyville, the route's halfway point. That geometry changes how we staff Dane County work. Site walks, inspections, punch-list returns, and small scopes are realistic day trips; production crews still mobilize for the week, but a forgotten fitting or a weather re-shuffle costs hours, not days. US-151's divided cross-section also keeps spring posting season from touching equipment moves until the final approach on county or town pavement, which we check against local postings before any heavy set. Commitments on response times are made by ops, not by a web page.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What makes building telecom infrastructure on the Madison isthmus different?",
+      "answer": "The ground. The isthmus is underlain by soft, saturated sand, silt, and clay left by glacial Lake Yahara between 17,000 and 13,000 years ago, with groundwater near lake level. Foundations may need overexcavation or deeper elements, below-grade vaults get flotation checks, and wet spoil disposal costs real money. Upland Madison sites a short distance away work in firm glacial till — which is why routing decisions carry so much of the cost.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which city office permits excavation in Madison's right-of-way?",
+      "answer": "The City of Madison Engineering Division issues the Excavation in the Right-of-Way Permit — required whenever public ROW or a public sewer or greenway easement is disturbed, with a drawing exhibit attached to the application. Traffic Engineering reviews, calculates fees, and separately permits street occupancy when lanes or parking are taken. Both run alongside, not instead of, the building permit from Building Inspection.",
+      "segment": "general"
+    },
+    {
+      "question": "Is Madison Gas and Electric a municipal utility?",
+      "answer": "No — the name misleads. MGE is a subsidiary of MGE Energy, a publicly traded company (NASDAQ: MGEE), making it an investor-owned utility. That matters procedurally: new commercial service for a hut or compound follows an IOU's application and engineering path rather than a city department's. We obtain interconnection dates in writing during scoping instead of assuming a transformer timeline.",
+      "segment": "edge"
+    },
+    {
+      "question": "How deep must a fiber hut foundation go in Madison?",
+      "answer": "Wisconsin's SPS 321.16 governs: below frost penetration and never less than 48 inches beneath adjacent grade. Research turned up no Madison ordinance altering that, so 48 inches is the working floor — confirmed per project with Building Inspection. On isthmus soils the frost number is rarely the binding constraint anyway; bearing and settlement in soft lake sediments usually drive the design deeper or wider first.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Whose railroad tracks will a Dane County fiber route cross?",
+      "answer": "Most likely Wisconsin & Southern's. WSOR — a Watco railroad headquartered in Madison — hubs its Madison division here with lines toward Reedsburg, Cottage Grove, and Watertown via the Waterloo Spur. Each crossing needs the railroad's utility crossing agreement, which routinely takes longer than any city or county permit on the same route, so we open railroad applications at design stage rather than construction stage.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does Madison regulate stormwater beyond the state requirements?",
+      "answer": "Yes. The WDNR's WPDES construction permit applies from one acre of disturbance with a 14-working-day NOI lead, but Madison also enforces its own erosion control and stormwater ordinance through City Engineering, with thresholds that reach smaller projects than the state trigger. Out-of-town contractors get caught by that gap; we scope the city requirement at concept stage on every Madison site.",
+      "segment": "general"
+    },
+    {
+      "question": "Can crews respond quickly to Madison from your Cedar Rapids yard?",
+      "answer": "Dane County is our closest Wisconsin coverage — 164 miles up four-lane US-151 through Dubuque. Site visits, inspections, and small scopes work as day trips; production work mobilizes for the week like any regional market. Formal response-time commitments come from our operations team on a per-program basis, but the geography is the most favorable we have in the state.",
+      "segment": "wireless"
+    },
+    {
+      "question": "When can trees be cleared for a tower or route in Dane County?",
+      "answer": "Outside the bat windows. WisDOT's northern long-eared bat guidance restricts clearing in suitable habitat from April 1 through October 31, with occupied roost trees and a 150-foot radius protected June 1 – July 31. Functionally, greenfield clearing gets scheduled November through March. A project-specific IPaC query — which we pull per site — confirms what applies to a given parcel.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Isthmus or around: routing Madison's soft ground",
+    "body": "The recurring Madison decision is whether a route or site engages the isthmus at all. Crossing it is shortest on paper — and every alternative means going around a lake — but the glacial Lake Yahara sediments under downtown convert distance savings into geotechnical spend: bores that need fluid discipline and casing contingency in saturated fines, vaults checked for buoyancy, pads that may want overexcavation and engineered fill, and spoil too wet to reuse. Upland routes and sites trade all of that for longer footage in cooperative till, with a rock contingency where Cambrian sandstone shallows. Our rule of thumb on Dane County work: price the alignment alternatives before optimizing the construction method, because moving the problem is usually cheaper than solving it. A hut relocated two blocks off the lake plain can save more than any foundation redesign; a bore realigned to firmer ground saves the standby time that soft-ground surprises burn. When the isthmus is unavoidable — laterals to downtown and campus endpoints — we weight the budget toward investigation and dewatering readiness up front, because discovering soft ground during construction is the most expensive way to learn Madison's geology. The borings drive the routing here, not just the foundations."
+  },
+  "sources": [
+    {
+      "label": "City of Madison — Building Inspection Division contact",
+      "url": "https://www.cityofmadison.com/dpced/bi/contact/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Madison Engineering — Excavation in the Right-of-Way Permit",
+      "url": "https://www.cityofmadison.com/engineering/permits/excavation-in-the-right-of-way-permit",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Madison Traffic Engineering — Street Occupancy Permit",
+      "url": "https://www.cityofmadison.com/traffic-engineering/permits/street-occupancy-permit",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS FTGB06 — glacial landscapes of Dane County (glacial Lake Yahara)",
+      "url": "https://data.wgnhs.wisc.edu/pubshare/FTGB06.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS ES043 — Landscapes of Dane County, Wisconsin",
+      "url": "https://data.wgnhs.wisc.edu/pubshare/ES043.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MGE Energy — corporate structure (NASDAQ: MGEE)",
+      "url": "https://www.mgeenergy.com/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Watco — Wisconsin & Southern Railroad (WSOR)",
+      "url": "https://www.watco.com/service/rail/wsor/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Union Pacific — WSOR short line profile (Madison-area leased lines)",
+      "url": "https://www.up.com/shipping/short-line/lines/ws",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "The Daily Reporter — QTS $12B DeForest data center development",
+      "url": "https://dailyreporter.com/2025/11/07/qts-12b-deforest-data-center-development/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "The Cap Times — DeForest data center proposal loses village support",
+      "url": "https://captimes.com/news/government/finally-able-to-breathe-deforest-data-center-critics-get-their-wish/article_f2959453-4dbc-4341-a81c-7b4c00114131.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "PSC of Wisconsin — BEAD program and final proposal approval",
+      "url": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16 — footing/frost depth rule",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/1",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DSPS — commercial building code update (2021 IBC)",
+      "url": "https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — region offices (Southwest Region, Madison)",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — seasonal weight restrictions program",
+      "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Diggers Hotline — excavator's guide",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — WPDES construction stormwater",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — NLEB non-federal guidance",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DriveDistance — Cedar Rapids, IA to Madison, WI (164 mi via US-151; halfway Dickeyville)",
+      "url": "https://drivedistance.com/from-cedar-rapids-ia-to-madison-wi",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "2019 Wisconsin Act 14 — small wireless facility framework",
+      "url": "https://docs.legis.wisconsin.gov/2019/related/acts/14",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "identity.population / identity.elevationFt",
+      "attempted": "census.gov and censusreporter.org fetches returned 403; 280,305 (V2023 PEP) rests on secondary reporting. Elevation figures found only for the former Town of Madison — left null."
+    },
+    {
+      "field": "designCriteria — wind, snow, seismic, ice, design temperatures",
+      "attempted": "ASCE hazard tool, USGS design maps, and SPS 362.1608 snow-zone values all unreachable through the egress proxy; ASHRAE design temps not found."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — Madison commercial confirmation",
+      "attempted": "State 48-in. rule cited; no Madison-specific ordinance located — confirm with Building Inspection."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "No named city floodplain administrator found in search; Yahara-lakes flood context also not independently sourced — screen against FEMA panels and confirm the administrator with the city."
+    },
+    {
+      "field": "regulatory.stormwaterAuthority — MGO Ch. 37 citation detail",
+      "attempted": "City erosion-control/stormwater ordinance confirmed to exist via city Engineering pages, but the specific ordinance text and thresholds were not directly readable — verify MGO Ch. 37 sections before publish."
+    },
+    {
+      "field": "utilities.ilec / notableFiberProviders verification",
+      "attempted": "AT&T Wisconsin's ILEC status for Madison not confirmed at a primary source — ilec left null; TDS/Spectrum presence compiled from market reporting, pending an FCC broadband map check. TDS Telecom's Madison headquarters also needs primary confirmation."
+    },
+    {
+      "field": "geotech — bearing ranges, bedrock depth, groundwater numbers",
+      "attempted": "NRCS Web Soil Survey interactive unavailable; only qualitative WGNHS characterization sourced."
+    },
+    {
+      "field": "seasonality — normals verification",
+      "attempted": "Jan 27°F/11.8°F, ~51.8 in. snow, June ~5.28 in. from secondary compilations of 1991–2020 normals; the State Climatology Office table itself returned 403."
+    },
+    {
+      "field": "environmental — Dane County IPaC list",
+      "attempted": "IPaC not reachable from this environment."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 2 gate requires 1+ project and 3 images from CSS intake — never invented."
+    },
+    {
+      "field": "operations — drive time and counties served",
+      "attempted": "164 road miles corroborated by two routing sites (route via US-151, halfway Dickeyville); published drive-time estimates ranged 2.7–3.4 h, 3.0 recorded pending ops routing. Coverage list needs ops sign-off."
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "identity": {
+    "slug": "iowa-city",
+    "city": "Iowa City",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "counties": [
+      "Johnson"
+    ],
+    "msa": "Iowa City",
+    "tier": 3,
+    "latitude": 41.6611,
+    "longitude": -91.5302,
+    "elevationFt": 656,
+    "population": {
+      "value": 74828,
+      "source": "U.S. Census Bureau, 2020 Census count for Iowa City, Iowa — https://www.census.gov/quickfacts/iowacitycityiowa (confirm current vintage estimate before sign-off)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-80"
+    ],
+    "majorRoutes": [
+      "US-6",
+      "US-218 (Avenue of the Saints)",
+      "IA-1"
+    ]
+  },
+  "metadata": {
+    "title": "Iowa City Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil in Iowa City, IA — hut and shelter foundations, boring, and compound builds shaped by the Iowa River floodplain and shallow Devonian rock.",
+    "h1": "Telecom Site Civil Construction in Iowa City, Iowa",
+    "intro": "Twenty-seven miles of I-380 and US-218 separate a Johnson County job site from our Cedar Rapids yard, which makes Iowa City the closest thing to a second home market CellSite Solutions has. The work here orbits two institutions and one river: the University of Iowa and its hospital system drive dense fiber and DAS-adjacent civil demand, while the Iowa River — which put 22 university buildings underwater in June 2008 at a record 31.53-foot crest — makes floodplain screening the first question on any river-corridor site. Underneath it all sits Devonian limestone, close enough to the surface along the river that the 1993 spillway flood at Coralville Lake scoured straight down to a fossil seafloor. We build hut and shelter foundations, duct bank, bores, and compounds across the county with that geology and that flood history in the plan from day one.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-22 (referenced by the 2024 IBC Iowa City has adopted)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Eastern Iowa's seismic hazard sits in the lowest national tier; site Ss/S1 publish only after a USGS design-maps query at the coordinates."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Johnson County straddles landform boundaries: rolling, loess-mantled pre-Illinoian till of the Southern Iowa Drift Plain dominates around Iowa City, grading toward the Iowan Surface to the north, with Iowa River alluvium through the valley that bisects the city. Devonian carbonate bedrock lies close beneath the river corridor — famously exposed when 1993 floodwater over the Coralville Lake emergency spillway stripped the soil cover down to a 375-million-year-old fossil seafloor, now the Devonian Fossil Gorge. (Iowa Geological Survey landform regions; Devonian Fossil Gorge accounts.)",
+    "dominantSoilTypes": [
+      "Loess over pre-Illinoian glacial till (upland sites)",
+      "Iowa River alluvium (valley and floodplain sites)",
+      "Shallow Devonian carbonate residuum along the river corridor"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "The Devonian carbonates beneath the river corridor can host localized solution features, though Iowa's mapped karst belt concentrates farther northeast. Screen sites against the Iowa DNR karst/sinkhole GIS layer instead of applying a county-wide grade."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Iowa City foundations sort by distance from the river. Upland loess-over-till sites — most of the east and west sides — take conventional spread footings and thickened pads below frost depth, with the standing caution that loess weakens when saturated, so wet-season excavations get subgrade protection rather than optimism. The river corridor is the interesting ground: alluvium of variable density over Devonian limestone that can arrive shallower than design depth, which turns some foundations into a rock-socket conversation and some bores into rock-tooling decisions. And on any parcel near the Iowa River, the 2008 flood — a 31.53-foot crest that closed a quarter of the university's classroom space — makes elevation screening and floodplain permitting the gating analysis before geotech even starts. The city has adopted the 2024 IBC, but we have not located a published frost depth amendment to cite; the design value is confirmed with the city per project. Site borings govern the final design everywhere."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Iowa City — building permits (Development Services / Title 17 code enforcement)",
+        "url": "https://www.icgov.org/government/permits-licenses-and-plans",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permits, licenses, and plan submittals run through the city's online systems; published standing review times were not found — confirm the queue by phone when scheduling."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2024 International Building Code (including Appendix K) and 2024 IRC, adopted with amendments in City Code Title 17, Ch. 1",
+      "source": "Iowa City Code 17-1-1, Codes Adopted — https://codelibrary.amlegal.com/codes/iowacityia/latest/iowacity_ia/0-0-0-14770",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facility applications are among the permit types the city routes through its online Customer Self Service system, operating under the uniform state framework of the Iowa Cell Siting Act (Iowa Code ch. 8C).",
+    "rowPermitAuthority": {
+      "name": "City of Iowa City Public Works Department — right-of-way excavation permits",
+      "url": "https://www.icgov.org/government/departments-and-divisions/public-works/permit-information",
+      "phone": "319-356-5139",
+      "typicalReviewDays": null,
+      "note": "Excavation in the public ROW requires a Public Works permit with a refundable restoration deposit and certificate of insurance; applications (excavation, temporary ROW use, oversized loads, small wireless) are submitted through the city's online CSS portal."
+    },
+    "stateDotDistrict": {
+      "name": "Iowa DOT District 6 (East Central), headquartered in Cedar Rapids — Johnson County",
+      "url": "https://iowadot.gov/about/districts/district-6",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The same district office that covers our home yard covers Iowa City, which keeps state-route utility accommodation work with one familiar counterpart."
+    },
+    "oneCallCenter": {
+      "name": "Iowa One Call",
+      "url": "https://iowaonecall.com/about/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP precedes the NOI; DNR authorization and public notice precede disturbance."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Iowa City runs its permitting — building, ROW excavation, temporary ROW use, oversized loads, and small wireless — through an online Customer Self Service portal, with ROW work additionally requiring a restoration deposit and insurance certificate before issuance. Review durations are not published, so schedule-critical work starts with a call to Public Works (319-356-5139). Layer in the state constants: two business days of Iowa One Call notice before digging, DNR General Permit No. 2 stormwater authorization at an acre of disturbance, and floodplain review anywhere a site approaches the Iowa River's mapped corridor."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "MidAmerican Energy",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Iowa City is named among the major communities in MidAmerican's Iowa territory (midamericanenergy.com/territory-communitylist). New-service lead times are unpublished; energization dates come from the utility's written confirmation."
+      }
+    ],
+    "ilec": "Lumen Technologies (CenturyLink, legacy Qwest territory) — confirm against the Iowa Utilities Commission exchange-boundary GIS before publishing",
+    "notableFiberProviders": [
+      "ImOn Communications",
+      "Metronet",
+      "Lumen / CenturyLink"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, roughly late February into April, posted by the county each season",
+      "postingAuthority": {
+        "name": "Johnson County Secondary Roads (county embargoes); Iowa DOT publishes the statewide spring restriction map",
+        "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "The Iowa county pattern — 5-ton postings on granular roads, 10-ton on paved county roads — applies during the thaw. Rural Johnson County compound and hut deliveries schedule against the postings; in-town streets are unaffected."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Iowa DOT Motor Carrier Services (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route OS/OW permits issue online; note that Iowa City itself also lists oversized-load permits among its own CSS-portal applications for city streets."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Iowa Interstate Railroad (IAIS)",
+        "crossingPermitNote": "The IAIS main line (former Rock Island) passes through Iowa City on its Council Bluffs–Chicago route; utility crossings require an IAIS agreement with unpublished timelines — file during design."
+      },
+      {
+        "name": "CRANDIC (Cedar Rapids and Iowa City Railway)",
+        "crossingPermitNote": "The CRANDIC connects Iowa City to Cedar Rapids; crossing requests run through its Cedar Rapids office, and contractor right-of-entry requires railroad protective liability coverage. Apply early — approvals, not construction, set the pace."
+      }
+    ],
+    "urbanRowRequirements": "ROW excavation needs a Public Works permit backed by a refundable restoration deposit and a certificate of insurance, applied for through the city's online CSS portal; temporary use of ROW and lane impacts are separate permit types in the same system. Downtown and campus-area work should anticipate tighter traffic-control review."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Trees 3 inches diameter and larger cleared only October 1 – March 31",
+      "driver": "Protected bat species (northern long-eared bat, Indiana bat) — the statewide Iowa DOT construction window; confirm site-level requirements via USFWS IPaC",
+      "source": "Iowa DOT Construction Manual 6.10 — https://iowadot.gov/erl/current/CM/content/CM%206.10.htm"
+    },
+    "shpo": {
+      "name": "State Historic Preservation Office of Iowa (Iowa Economic Development Authority)",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day Section 106 review per complete submittal; Iowa City's historic districts and the original state capitol area make cultural resources a live screening item on core-city routes."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory program; Iowa DNR issues Section 401 water quality certifications",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Coralville Lake, immediately upstream of the city, is itself a Rock Island District flood-control project."
+    },
+    "usaceDistrict": "Rock Island District (MVR)",
+    "listedSpeciesNote": "Northern long-eared bat and Indiana bat are the common flags on wooded Johnson County parcels; run a project-specific USFWS IPaC query rather than relying on county lists.",
+    "floodplainPrevalenceNote": "June 2008 set the benchmark: the Iowa River crested at a record 31.53 feet in Iowa City — flood stage is 22 feet — damaging 22 university buildings and closing a quarter of UI's classroom space, with damage estimates up to $750 million. Coralville Lake provides upstream flood control, and 1993 proved its emergency spillway can run. Mapped floodplain follows the river through the heart of the city; riverside sites get elevation-screened before anything else."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen ground throughout; subzero snaps common",
+        "earthworkConcrete": "restricted",
+        "note": "Winter concrete protection and frost excavation are mandatory practice"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Peak frost penetration",
+        "earthworkConcrete": "restricted",
+        "note": "Watch for early county embargo postings toward month-end"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw; loess and till subgrades soften and rut",
+        "earthworkConcrete": "constrained",
+        "note": "Johnson County postings typically active; clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Ground firming, scattered wet spots persist",
+        "earthworkConcrete": "workable",
+        "note": "Embargoes lift as county postings come down"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Firm and productive; rains build toward summer",
+        "earthworkConcrete": "favorable",
+        "note": "River levels and SWPPP upkeep both demand attention"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; historically the flood-risk month",
+        "earthworkConcrete": "favorable",
+        "note": "2008's record crest came in June — monitor river forecasts on corridor sites"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot, drier between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Workable; episodic heavy rainfall",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Dry and firm — a top production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freeze arrives during the month",
+        "earthworkConcrete": "favorable",
+        "note": "Bat-window tree clearing may resume October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; frost establishes late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete procedures return"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing, snow cover building",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "The Iowa City build year matches the eastern-Iowa pattern — frozen ground from roughly December into March, a soggy thaw shoulder, then a strong late-April-through-October core — with one local addition: June is both a prime production month and the month the Iowa River set its 2008 record, so river-corridor schedules carry a flood-watch contingency that upland sites skip. Annual precipitation near 37 inches and snowfall in the 20s of inches frame the drier fall window as the schedule-recovery period. Check these figures against NOAA NCEI 1991–2020 normals for the Iowa City station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Devonian limestone rises close to the surface along the Iowa River corridor — shallow enough that the 1993 spillway flood exposed bare bedrock at Coralville Lake — so corridor foundations and bores can meet rock at design depth. Upland loess-till sites rarely do.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Iowa has no prevailing wage statute of its own; Davis-Bacon determinations attach only to federally funded scopes, which includes BEAD-financed broadband work above the $2,000 federal floor.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "December–March foundations price in frost excavation and protected curing; March adds soft-subgrade handling during the thaw.",
+    "narrative": "What separates one Iowa City bid from another is usually position, not scope. Corridor sites near the river can carry three premiums at once — floodplain process, potential rock at depth, and wet alluvium — while an upland pad a mile away carries none of them. Season is the second axis: winter pours buy frost protection, and the March thaw buys mud. What this market does not charge for is distance — at 27 road miles from our Cedar Rapids yard, mobilization is a rounding error, day trips are normal, and small punch-list scopes stay economical here in a way they cannot in markets two hours out. Railroad crossings (IAIS, CRANDIC) cost schedule more than money. As always: drivers listed, prices quoted only from borings, drawings, and dates."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Iowa's system is registration, not general-contractor licensure: any contractor doing $2,000 or more of construction work in the state per year registers with the Iowa Division of Labor at a $50 annual fee, with out-of-state registrants bonding at $25,000. Electricians, plumbers, and mechanical trades hold separate Iowa DIAL licenses.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "tornado",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "Flood is the defining hazard: the 2008 record crest and the 1993 spillway event both argue for siting above mapped flood elevations, elevating pads and fuel systems on corridor sites, and treating river forecasts as schedule inputs in early summer. Convective wind and ice loads warrant conservative anchorage — numeric design values publish only after ASCE 7 and TIA-222 county confirmation — and frost governs foundation depth to the value the city confirms per project under its 2024 code.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Fiber competition builds out across Iowa City",
+        "detail": "ImOn Communications markets gigabit fiber service in Iowa City, and Metronet's fiber footprint covers substantial portions of the west and south sides, with Lumen fiber available in parts of the city — an active multi-provider overbuild environment generating lateral and restoration civil work.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.imon.net/residential/iowa-city",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Iowa BEAD funding reaches construction phase",
+        "detail": "Iowa's $400M BEAD round (NOFA #009) received federal approval of the state's final proposal in late 2025, with grant agreements executing into 2026; rural Johnson County and adjacent counties are within funded footprints administered by the state broadband office.",
+        "category": "broadband program",
+        "sourceUrl": "https://dom.iowa.gov/broadband/bead-program",
+        "asOf": "2025-07-09"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Iowa City's fiber map is contested ground — ImOn sells gigabit service here, Metronet covers much of the west and south sides, and Lumen holds the legacy plant — so the day-to-day civil work is laterals, vault sets, and restoration executed under Public Works excavation permits that require a restoration deposit and insurance certificate before the first cut. Route design carries two railroad checkpoints: the IAIS main line through town and the CRANDIC toward Cedar Rapids, each needing crossing agreements whose timelines nobody publishes. Bores near the river deserve rock-aware tooling decisions, because Devonian limestone runs shallow along the corridor. Rural Johnson County routes in the BEAD footprint add county embargo timing to the calendar. Working 27 miles from our yard, we can turn small fiber scopes here — a single hut pad, a failed bore rescue — that would not pencil at deployment distance.",
+      "localSpecificsReferenced": [
+        "ImOn / Metronet / Lumen overbuild",
+        "Public Works ROW deposit + insurance requirement",
+        "IAIS and CRANDIC crossings",
+        "shallow Devonian rock along the Iowa River"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "small cell and DAS node civil",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Capacity demand in this market clusters where 30,000-plus students and a major academic medical center concentrate people: the University of Iowa campus, its hospital complex, and the downtown blocks between them. That geography favors small cell and DAS-adjacent civil work — node foundations, cabinet pads, conduit tie-ins — which Iowa City routes through its online CSS portal as a defined small-wireless permit type under the Iowa Code ch. 8C framework. Macro work rides the edges: I-80 corridor sites and rural Johnson County compounds where shelter hauls answer to spring county postings. Foundations design to the frost value the city confirms under its newly adopted 2024 IBC — we have found no published local amendment to cite, and we will not guess one. Proximity does the rest: a compound rebuild or emergency generator pad here is a same-day roll from Cedar Rapids, not a mobilization event.",
+      "localSpecificsReferenced": [
+        "University of Iowa / UIHC demand cluster",
+        "Iowa City CSS small-wireless permit type",
+        "2024 IBC adoption (Title 17)",
+        "I-80 corridor macro sites"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads",
+        "hyperscale campus civil support"
+      ],
+      "narrative": "Iowa City has no hyperscale campus and we will not pretend otherwise — the nearest announced campuses are Google's and QTS's Big Cedar projects up I-380 in Cedar Rapids. What it does have is an anchor institution with serious compute and uptime needs: the University of Iowa and its hospital system, whose research and clinical networks justify the micro-DC enclosures, redundant-power yards, and hardened utility pads that constitute edge civil at institutional scale. The 2008 flood is the design backdrop for all of it; after $750 million in campus damage, resilient siting — elevation above mapped floodplain, elevated generator and fuel systems — is not a sales point here, it is the entry requirement. MidAmerican serves the load, and its written energization dates anchor our sequencing. When Cedar Rapids' hyperscale corridor pushes edge capacity down the I-380 spine, Johnson County sites inherit the same standards.",
+      "localSpecificsReferenced": [
+        "University of Iowa / UIHC institutional edge demand",
+        "2008 flood resilience requirements",
+        "I-380 corridor to Big Cedar campuses",
+        "MidAmerican service territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 27,
+      "driveTimeHours": 0.6,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Johnson",
+      "Washington",
+      "Iowa",
+      "Cedar"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The I-380/US-218 corridor puts Johnson County about 35 minutes from our gate — 27 road miles — which changes what kinds of work make sense here. Half-day scopes are viable: a vault set, a pad inspection, a restoration punch list can share a day with yard work instead of consuming a trip. Crews, spare equipment, and materials effectively operate out of the home yard, so weather windows get used opportunistically rather than planned weeks out, and an equipment failure is a parts run, not a schedule slip. The corridor itself is four-lane the whole way and rarely a constraint; winter storms that close it close the job too, and we plan both together. Response commitments beyond this proximity description are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What building code does Iowa City apply to telecom structures?",
+      "answer": "Iowa City has adopted the 2024 International Building Code (with Appendix K) and 2024 IRC, with local amendments, under Title 17, Chapter 1 of the city code. We have not located a published frost-depth amendment to cite, so foundation design depth is confirmed with the city per project rather than assumed.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues the permit to dig in an Iowa City street or parkway?",
+      "answer": "The Public Works Department (319-356-5139). ROW excavation permits are applied for through the city's online CSS portal and require a refundable restoration deposit plus a certificate of insurance before issuance — two prerequisites worth handling a week before the crew arrives, not the day of.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Will a bore near the Iowa River in Iowa City hit rock?",
+      "answer": "Treat it as a real possibility. Devonian limestone lies shallow along the river corridor — the 1993 flood over Coralville Lake's emergency spillway scoured down to bare fossil-bearing bedrock — so corridor bores get planned with rock-capable tooling options and borings ahead of the drill. Upland loess-and-till sites rarely see rock at telecom depths.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does the 2008 flood affect telecom siting in Iowa City today?",
+      "answer": "It defines the screening standard. The Iowa River crested at a record 31.53 feet in June 2008 — nine feet over previous records territory — damaging 22 University of Iowa buildings with losses estimated up to $750 million. Any site near the mapped corridor gets an elevation and floodplain check before layout, and generator or fuel systems go above the checked elevation.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroads require crossing agreements around Iowa City?",
+      "answer": "Two. The Iowa Interstate Railroad's main line runs through the city on its Council Bluffs–Chicago route, and the CRANDIC links Iowa City with Cedar Rapids — contractor entry on it requires railroad protective liability coverage. Neither publishes crossing timelines, so agreements get filed during route design.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do county road restrictions affect equipment delivery near Iowa City?",
+      "answer": "In spring, yes. Johnson County posts thaw-season embargoes on secondary roads — Iowa's usual 5-ton granular and 10-ton paved pattern — from roughly late February into April. Shelter or hut deliveries to rural county sites are scheduled against those postings; the city street grid is unaffected.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How fast can a crew reach an Iowa City site from your yard?",
+      "answer": "The drive is 27 road miles down I-380/US-218 — roughly 35 minutes — making Johnson County the closest market to our Cedar Rapids facility. Day trips and even half-day scopes are routine here. We publish that proximity as geography, not as a response-time guarantee; committed response windows come from ops, per contract.",
+      "segment": "general"
+    },
+    {
+      "question": "What environmental windows constrain site work in Johnson County?",
+      "answer": "The biggest is tree clearing: cutting trees 3 inches and larger is confined to October 1 – March 31 under Iowa's bat-protection practice, verified per site through USFWS IPaC. Add the standing gates — two business days of Iowa One Call notice, DNR stormwater authorization at one acre, and a 30-day SHPO clock on Section 106 reviews for federally funded work.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Corridor or upland: the first fork in every Iowa City site decision",
+    "body": "Before foundation type, before permit strategy, an Iowa City site decision forks on one question: is the parcel in the Iowa River corridor or on the uplands? Choose corridor and you inherit three coupled problems — floodplain process benchmarked against the 31.53-foot crest of 2008, alluvium whose density a single boring will not resolve, and Devonian limestone that can sit shallow enough to turn a routine auger pier into a rock socket. None of these is disqualifying; all of them cost time, and together they can double a civil schedule. Choose upland loess-over-till and the file thins dramatically: spread footings below confirmed frost depth, standard SWPPP work, and the only recurring caution is keeping saturated loess subgrades protected in the wet months. Our practice is to price that fork explicitly — when a client holds candidate sites on both sides of it, the geotechnical and permitting delta belongs in the site-selection conversation, not discovered after acquisition. Being 27 miles from the yard, we can walk candidates with a client the same week they shortlist. The river gives Iowa City its character; respecting its corridor is what keeps a project boring in the good sense."
+  },
+  "sources": [
+    {
+      "label": "Iowa City Code 17-1-1 — codes adopted (2024 IBC/IRC)",
+      "url": "https://codelibrary.amlegal.com/codes/iowacityia/latest/iowacity_ia/0-0-0-14770",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Iowa City Public Works — permit information (ROW excavation, CSS portal)",
+      "url": "https://www.icgov.org/government/departments-and-divisions/public-works/permit-information",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Iowa City — permits, licenses, and plans",
+      "url": "https://www.icgov.org/government/permits-licenses-and-plans",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DOT District 6 (East Central) — Johnson County",
+      "url": "https://iowadot.gov/about/districts/district-6",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa One Call — two business days' notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2 construction stormwater",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — spring load restriction map",
+      "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Motor Carrier Services — oversize/overweight permits",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — bat tree-clearing window",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa SHPO (IEDA) — Section 106 review",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "QC Times — Flood of 2008 damages University of Iowa campus (record 31.53-ft crest)",
+      "url": "https://qctimes.com/news/local/flood-of-2008-flooding-damages-university-of-iowa-campus/article_1306e1f2-c1c1-51ce-b10a-1498a75d343a.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "University of Iowa College of Engineering — NYT feature on the 2008 flood recovery",
+      "url": "https://engineering.uiowa.edu/news-all/2019/05/new-york-times-how-university-iowa-recovered-unfathomable-flood-ruined-it",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Little Village — Devonian Fossil Gorge, exposed by the 1993 Coralville spillway flood",
+      "url": "https://littlevillagemag.com/fossil-gorge-uncovered-30-years-ago-preserves-a-375-million-year-old-ocean-floor/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Geological Survey — Southern Iowa Drift Plain landform region",
+      "url": "https://iowageologicalsurvey.uiowa.edu/iowa-geology/landforms-iowa/southern-iowa-drift-plain",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ImOn Communications — Iowa City fiber service",
+      "url": "https://www.imon.net/residential/iowa-city",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MidAmerican Energy — service territory community list",
+      "url": "https://www.midamericanenergy.com/territory-communitylist",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Driving route, Cedar Rapids to Iowa City (27 miles, ~36 minutes)",
+      "url": "https://www.distance-cities.com/distance-iowa-city-ia-to-cedar-rapids-ia",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Searched Iowa City code amendments and Development Services documents; no published frost-depth amendment found, and only contractor blogs assert 42 in., which fails the code-section-only rule. Confirm with the city and cite the amended Table R301.2(1)."
+    },
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox proxy; resolve from an unproxied session."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and IGS Johnson County publications not readable through the proxy; landform-level geology only."
+    },
+    {
+      "field": "regulatory.buildingAHJs — department naming and review times",
+      "attempted": "The precise current department name administering building permits (post-reorganization) and typical review durations were not confirmed; icgov.org permit pages cited, phone confirmation needed."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "The city office holding NFIP floodplain administration was not located with a citable URL; left null rather than inferred."
+    },
+    {
+      "field": "utilities.ilec + electric — exchange boundary and new-service process",
+      "attempted": "Lumen ILEC attribution from legacy-territory knowledge (IUC GIS not queried); MidAmerican territory sourced but new-service URL and lead times unconfirmed."
+    },
+    {
+      "field": "logistics.railroads — CRANDIC contact specifics for Iowa City-area crossings",
+      "attempted": "CRANDIC process details are carried over from its published Cedar Rapids office practice; confirm the current crossing-application contact for Johnson County segments."
+    },
+    {
+      "field": "seasonality — NOAA NCEI normals table",
+      "attempted": "Iowa City station normals not directly readable through the proxy; calendar authored from compiled summaries (≈37 in. precip) and needs the station-table check."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Coverage list and any committed response window require ops sign-off."
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "identity": {
+    "slug": "davenport",
+    "city": "Davenport",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "counties": [
+      "Scott"
+    ],
+    "msa": "Davenport–Moline–Rock Island, IA-IL (Quad Cities)",
+    "tier": 2,
+    "latitude": 41.5236,
+    "longitude": -90.5776,
+    "elevationFt": null,
+    "population": {
+      "value": 101724,
+      "source": "U.S. Census Bureau QuickFacts, 2020 Decennial Census — aggregator figures vary between 101,584 and 101,724; confirm the QuickFacts row before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-80",
+      "I-74",
+      "I-280"
+    ],
+    "majorRoutes": [
+      "US-61",
+      "US-6",
+      "US-67"
+    ]
+  },
+  "metadata": {
+    "title": "Davenport, IA Fiber & Cell Site Civil Work | CellSite Solutions",
+    "description": "Fiber, wireless, and edge site civil construction in Davenport and the Iowa Quad Cities — river-market foundations, boring, and compound work.",
+    "h1": "Fiber, Wireless & Edge Site Civil Construction in Davenport, Iowa",
+    "intro": "Three interstates — I-80, I-74, and I-280 — ring Davenport where they meet the Mississippi, and that geometry defines telecom construction in the Quad Cities: a bi-state market of roughly 100,000 people on the Iowa side alone, laced with river, rail, and highway crossings that decide how every fiber route gets built. Metronet has already converted Davenport to a citywide FTTH network, Iowa's $400M BEAD round is now funding the rural edges of Scott County, and the city famously operates without a permanent floodwall, which makes flood elevation a first question on any riverfront site. CellSite Solutions crews reach Davenport in about an hour and a half from our Cedar Rapids yard, close enough for same-day civil work across the Iowa side of the metro.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (the reference standard of the 2021 IBC, which Davenport adopts with local amendments in City Code Ch. 15.12)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Seismic demand in east-central Iowa is among the lowest in the country, but Ss/S1 values belong on this page only after a USGS design-maps query at the site coordinates; deep Mississippi valley alluvium can shift the site class, so treat class as a per-site determination."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Scott County's bedrock surface is mostly Silurian dolomite and limestone, underlain by the Maquoketa shale, and it is cut in the west and north by the Cleona Channel — a buried bedrock valley, likely an ancestral Mississippi course, filled with Pre-Illinoian glacial till. Uplands carry Wisconsinan loess over older glacial deposits, while the modern Mississippi valley holds thick Quaternary alluvium. (Iowa Geological Survey, Bedrock Geology of Scott County, OFM-2011-04.)",
+    "dominantSoilTypes": [
+      "Wisconsinan loess over Illinoian and Pre-Illinoian till (uplands)",
+      "Mississippi River alluvium — sands, silts, and clays (valley floor)",
+      "Pre-Illinoian till in the buried Cleona Channel"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "Silurian carbonates at the bedrock surface can host localized solution features, though mapped karst in Iowa concentrates well northeast of Scott County. Run any specific site through the Iowa DNR sinkhole/karst GIS layer instead of assuming a county grade."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Davenport foundations split by landscape position. Up on the loess-and-till uplands, shallow spread footings and conventional shelter pads below frost depth are the workable default, with the caveat that Silurian dolomite can sit close enough to the surface near the bluff line to turn a deep excavation into a rock question. Down on the valley floor, the problem inverts: alluvium runs deep, seasonal groundwater runs shallow, and the depth to competent bearing — not rock removal — controls the design, so heavier structures near the river tend toward engineered fill or deep elements. Flood elevation is the third variable, and in this city it is not theoretical: downtown flooded in 2019 when temporary barriers failed, and there is no permanent floodwall. Every one of these calls is made from site borings, not from this page."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Davenport — Building & Land Development (Development & Neighborhood Services)",
+        "url": "https://www.davenportiowa.com/our_community/building_land_development/codes_and_regulations/building_codes",
+        "phone": "563-326-7745",
+        "typicalReviewDays": null,
+        "note": "Common building, excavation, and right-of-way permits are submitted electronically; the permit counter operates from the Public Works Center at 1200 E 46th St. Published plan-review timelines are not posted — confirm the current queue by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Building Code with local amendments, codified at Davenport City Code Ch. 15.12 (2021 IRC and IEBC companions)",
+      "source": "City of Davenport building codes page and City Code Ch. 15.12 via eCode360 — https://ecode360.com/35576522",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities in Iowa are governed by the state-preemptive Iowa Cell Siting Act (Iowa Code ch. 8C), including the uniform small-wireless permitting rules of sec. 8C.7A; Davenport administers applications within that framework rather than under a free-standing local ordinance.",
+    "rowPermitAuthority": {
+      "name": "City of Davenport Construction and Engineering Department",
+      "url": "https://www.davenportiowa.com/our_community/building_land_development/what_does_does_not_requires_a_permit__",
+      "phone": "563-326-7745",
+      "typicalReviewDays": null,
+      "note": "Administers permits for construction, encroachment, and installation within public right-of-way and on storm, sewer, and access easements — including excavation in a public way, driveways, sidewalks, and wireless communication towers."
+    },
+    "stateDotDistrict": {
+      "name": "Iowa DOT District 6 (East Central) — Davenport field office, 8721 NW Blvd",
+      "url": "https://iowadot.gov/locations/district-6-davenport-field-office",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District 6 covers Scott County along with Linn, Clinton, and the rest of east-central Iowa; the Illinois side of the metro falls under IDOT District 2 — a separate permitting track for any bi-state route."
+    },
+    "oneCallCenter": {
+      "name": "Iowa One Call",
+      "url": "https://iowaonecall.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Tickets on the Illinois side of a Quad Cities route go through JULIE, not Iowa One Call — two systems, two clocks.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP first, then NOI, public notice, and DNR authorization before disturbance. The current permit term runs through February 2028."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Davenport floodplain administration (confirm the current responsible office with Public Works)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Floodplain screening matters more here than in most Iowa cities: Davenport manages Mississippi flooding with temporary HESCO barriers rather than a permanent floodwall, and the 2019 barrier breach flooded downtown."
+    },
+    "permitTimelineNarrative": "Building permits file electronically with Building & Land Development, and right-of-way and excavation permits run on a separate track through Construction and Engineering — plan both when a scope touches street or easement. A route or compound disturbing an acre or more adds the Iowa DNR General Permit No. 2 sequence, which must finish before grading starts. On riverfront ground, budget time for floodplain review, and on any crossing into Rock Island or Moline, remember the Illinois side carries its own AHJ, its own one-call system (JULIE), and its own DOT district."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "MidAmerican Energy",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "MidAmerican serves Davenport and Bettendorf and operates a Davenport service center on North Marquette Street. New commercial service lead times are not published — get the utility's written schedule before committing a hut or compound in-service date."
+      }
+    ],
+    "ilec": "Lumen Technologies (CenturyLink, legacy Qwest/Northwestern Bell territory) — confirm against the Iowa Utilities Commission exchange-boundary GIS before publishing",
+    "notableFiberProviders": [
+      "Metronet (citywide FTTH)",
+      "Lumen/CenturyLink"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, generally late February into April, per each season's postings",
+      "postingAuthority": {
+        "name": "Scott County Secondary Roads Department; Iowa DOT publishes the statewide spring restriction map",
+        "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "County-posted embargoes on granular and lightly surfaced secondary roads — not the state map — are what actually reroute a shelter or hut delivery to a rural Scott County site during the thaw. Check the county posting list the week of the haul."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Iowa DOT Motor Carrier Services (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "phone": "515-237-3264",
+      "typicalReviewDays": null,
+      "note": "State permits cover Iowa-maintained routes only; an oversize load continuing across the river needs a separate Illinois DOT permit, and city or county roads need local authorization."
+    },
+    "bridgeOrClearanceConstraints": "Every route east crosses the Mississippi on a fixed set of structures — the I-74 twin spans (opened 2021), the I-280 bridge, the Centennial Bridge, and the Government Bridge — and the I-80 crossing at LeClaire (Fred Schwengel Memorial Bridge) is slated for replacement with construction beginning in 2028, which will add staging and closure constraints on the corridor. Verify clearances and permit conditions per structure for oversize hauls.",
+    "railroads": [
+      {
+        "name": "Canadian Pacific Kansas City (CPKC)",
+        "crossingPermitNote": "CPKC's main line runs along the Davenport riverfront with its operating base at Nahant Yard west of downtown; post-merger traffic and the city's ongoing Riverfront Quiet Zone work make riverfront crossings both busy and slow to permit — file early."
+      },
+      {
+        "name": "Iowa Interstate Railroad (IAIS)",
+        "crossingPermitNote": "IAIS enters Davenport from the northwest, runs in the pavement of Fifth Street for several blocks, and crosses the Mississippi on the Government Bridge — street-running track means some 'road' crossings downtown are actually railroad permits."
+      }
+    ],
+    "urbanRowRequirements": "Excavation in a public way requires a permit from the Construction and Engineering Department before work begins; barricading and traffic control follow City Code Ch. 12.40. Common ROW permit types file electronically."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Clearing of trees 3 inches diameter and larger held to October 1 – March 31",
+      "driver": "Federally listed bats (northern long-eared bat, Indiana bat) drive Iowa's standard seasonal cutting practice; a project IPaC query establishes what applies in Scott County",
+      "source": "Iowa DOT Construction Manual 6.10 — https://iowadot.gov/erl/current/CM/content/CM%206.10.htm"
+    },
+    "shpo": {
+      "name": "State Historic Preservation Office of Iowa (Iowa Economic Development Authority)",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day Section 106 review per complete submittal; incomplete packages restart the clock. Riverfront Davenport carries significant historic fabric, so federally funded work downtown should assume review."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory branch; Iowa DNR issues the Section 401 certification",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Rock Island District is headquartered on Arsenal Island in the middle of the Quad Cities — the regulating district office sits inside this market."
+    },
+    "usaceDistrict": "Rock Island District (MVR)",
+    "listedSpeciesNote": "Expect bats (northern long-eared, Indiana) on the terrestrial side and federally listed freshwater mussels — including the Higgins eye pearlymussel — anywhere a scope touches the Mississippi channel or its margins. A project-specific USFWS IPaC query is the deciding document, not this note.",
+    "floodplainPrevalenceNote": "Davenport is the notable large upper-Mississippi city without a permanent floodwall: it defends its riverfront with parkland and temporary HESCO barriers. On April 30, 2019, a barrier section along River Drive failed at record-length flooding and downtown inundated. Mapped floodplain along the river and its tributary creeks is a primary siting screen."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen ground and hard frost; single-digit lows arrive in cold snaps",
+        "earthworkConcrete": "restricted",
+        "note": "Foundation work continues only with frost excavation and heated concrete protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Deepest frost of the winter; late-month thaw onset possible",
+        "earthworkConcrete": "restricted",
+        "note": "Watch for county embargo postings to open late in the month"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawing, saturated subgrades; Mississippi begins its spring rise",
+        "earthworkConcrete": "constrained",
+        "note": "Bat clearing window closes March 31; embargoes typically active"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Subgrades firming; river crest risk peaks on the riverfront",
+        "earthworkConcrete": "workable",
+        "note": "2019's downtown flood came April 30 — riverfront schedules carry crest contingency"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable and drying between spring rains; river stages receding most years",
+        "earthworkConcrete": "favorable",
+        "note": "Erosion control earns its keep as the wet-season storms begin"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, productive; thunderstorm rainfall in pulses",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and generally dry between systems",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on afternoon pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Workable; humidity and storm cells persist",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Dry, firm subgrades; prime production window",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling; first freeze typically mid-to-late month",
+        "earthworkConcrete": "favorable",
+        "note": "Tree clearing window opens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost beginning to set late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete measures resume"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing; snowpack establishing",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Two clocks run the Davenport construction year. The frost clock is the familiar Iowa one — frozen ground from roughly December into March, full production May through October, winter work priced with protection. The second clock is the river: the Mississippi's spring rise typically peaks between late March and early May, and because the city holds it back with temporary barriers rather than a floodwall, riverfront civil work in that window carries a crest contingency that upland sites never see. Confirm month-level figures against the NOAA NCEI normals for the Quad Cities station before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Silurian dolomite forms most of the county's bedrock surface and can run shallow near the bluffs, while valley-floor and Cleona Channel sites may never see rock at any practical depth — refusal risk here is a map question before it is a price question.",
+    "aggregateHaulNote": "Carbonate bedrock at shallow depth supports quarrying in the county; confirm current haul distance from the supplying quarry to the site with estimating rather than assuming a metro average.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No Iowa state prevailing wage exists; Davis-Bacon rates attach to federally funded scopes over $2,000, which sweeps in BEAD-funded fiber work in rural Scott County.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "December–March adds frost excavation and concrete protection; on riverfront sites, add spring-crest schedule risk in April–May as a second, separate seasonal premium.",
+    "narrative": "Davenport pricing swings on position more than on any single number. The same fiber hut costs differently on the upland (possible shallow dolomite, straightforward drainage) than on the valley floor (deep alluvium, shallow groundwater, flood elevation), and a route that crosses the river changes jurisdictions, one-call systems, and DOT permits mid-alignment — bi-state coordination is a real line item, not overhead. Winter carries the usual frost premiums, and the spring crest can idle riverfront work outright. Mobilization from Cedar Rapids is minor at this distance. Drivers only; unit costs come from borings and the season, not from a webpage."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Iowa registers rather than licenses general construction: any contractor earning $2,000 or more per year from Iowa construction work registers with the Iowa Division of Labor, and out-of-state contractors additionally post a $25,000 surety bond. Electrical, plumbing, and mechanical trades license separately through Iowa DIAL.",
+    "additionalRegistrations": [
+      "Illinois contractor and local registrations apply on the Rock Island/Moline side of any bi-state Quad Cities program — the Iowa registration does not carry across the river"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "tornado",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "Flood is the differentiator: with no permanent floodwall, riverfront pads and electronics get sited and elevated against mapped flood profiles, and 2019 is the reference event. Severe convective wind, ice accretion, and deep winter cold argue for conservative anchorage, fuel containment, and frost-protected foundations — with wind and ice design values published only once county figures are sourced.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Metronet completes citywide fiber, declares Davenport a Gigabit City",
+        "detail": "Metronet's Davenport FTTH build, started in 2019 at an announced $33–40M, reached substantially citywide coverage — ongoing laterals, drops, and restoration work continue across the metro network.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.businesswire.com/news/home/20221013005090/en/Metronet-Declares-Davenport-Certified-Gigabit-City-as-100-Percent-Fiber-Optic-Network-Expands",
+        "asOf": "2022-10-13"
+      },
+      {
+        "headline": "Iowa BEAD: $400M available, final proposal approved",
+        "detail": "Iowa's broadband office released NOFA #009 making $400M in BEAD funds available; NTIA approved the state's final proposal, with subgrantee builds — including rural Scott County territory — executing into 2026.",
+        "category": "broadband program",
+        "sourceUrl": "https://dom.iowa.gov/broadband/bead-program",
+        "asOf": "2025-07-09"
+      },
+      {
+        "headline": "I-80 Mississippi River bridge replacement advancing toward 2028 construction",
+        "detail": "Iowa and Illinois DOTs are designing twin replacement spans for the Fred Schwengel Memorial Bridge at LeClaire, with construction slated to begin in 2028 — a decade-scale heavy civil program on the corridor, with utility relocation implications.",
+        "category": "transportation",
+        "sourceUrl": "https://www.i80mississippibridge.com/",
+        "asOf": "2024-10-28"
+      },
+      {
+        "headline": "Riverfront Quiet Zone agreement approved with CPKC",
+        "detail": "Davenport approved a roughly $3.8M contract implementing quiet zones on the CPKC riverfront line from Mound Street to Marquette Street, funded through FRA and state grants plus the CP settlement — active crossing-improvement work along the rail corridor.",
+        "category": "transportation",
+        "sourceUrl": "https://www.kwqc.com/2025/08/28/davenport-leaders-approve-railroad-deal/",
+        "asOf": "2025-08-28"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "fiber hut pad",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "The Quad Cities fiber map is defined by what has to be crossed. Metronet's completed citywide FTTH network means Davenport's in-town work now skews toward laterals, drops, node additions, and restoration in occupied right-of-way, permitted through the city's Construction and Engineering Department. New route construction runs into the market's real gatekeepers: the CPKC main line hugging the riverfront, the Iowa Interstate track running in the pavement of Fifth Street, and the Mississippi itself, where crossings concentrate on a handful of bridges. BEAD-funded builds in rural Scott County trade those urban constraints for county road embargoes and two-business-day Iowa One Call tickets — and any route continuing east of the river changes state, one-call system (JULIE), and DOT district mid-project. We bore, trench, and set vaults on both sides of that seam, staged from Cedar Rapids.",
+      "localSpecificsReferenced": [
+        "Metronet citywide FTTH network",
+        "CPKC riverfront main line / Nahant Yard",
+        "IAIS Fifth Street street-running track",
+        "Iowa BEAD NOFA #009"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Siting a wireless compound in Davenport starts with an elevation check. Valley-floor sites near the Mississippi inherit the city's defining exposure — no permanent floodwall, a downtown that flooded in April 2019 — so pads, generators, and fuel containment on low ground get designed against mapped flood profiles, not just frost. Upland sites simplify to the standard Iowa problems: foundations below a frost depth that must be confirmed with the Building & Land Development office (Davenport's amended 2021 code governs, and we publish no number until the amendment is read), tree clearing held to October–March for listed bats, and spring embargoes on Scott County secondary roads that can reroute a shelter set. Small cells run under Iowa Code ch. 8C's uniform state rules. From Cedar Rapids, compound civil work here is a same-day round trip.",
+      "localSpecificsReferenced": [
+        "April 2019 HESCO barrier failure / absence of a permanent floodwall",
+        "Davenport City Code Ch. 15.12 (2021 IBC with amendments)",
+        "Scott County secondary road embargoes",
+        "Iowa Code ch. 8C small-wireless framework"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Davenport has no announced hyperscale campus — Iowa's named projects sit in Cedar Rapids and Council Bluffs — and an honest edge story here is about the interconnection geography instead: a bi-state metro of two ILEC territories stitched together at the I-80/I-74/I-280 triangle, with Metronet's citywide fiber plant creating dense aggregation points that micro-edge deployments attach to. The civil scope that follows is compact and repeatable — enclosure pads, transformer and utility yards, conduit runs between hut and meter — sized for carrier and enterprise edge rather than campus earthwork. MidAmerican is the serving electric utility on the Iowa side, and its new-service schedule, not the concrete, is usually the long pole; we sequence pad, conduit, and grounding around the utility's dates. Flood-aware siting applies to edge gear more than anything else on this page: on the valley floor, the flood map sets the pad elevation before the electrical design does.",
+      "localSpecificsReferenced": [
+        "I-80 / I-74 / I-280 interstate triangle",
+        "MidAmerican Energy Iowa-side service territory",
+        "Metronet fiber plant as edge aggregation"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 82,
+      "driveTimeHours": 1.4,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Scott",
+      "Muscatine",
+      "Clinton",
+      "Cedar"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Davenport sits at the easy end of our Iowa footprint: crews run I-380 south to I-80 east and are on site in about an hour and a half, which keeps pad pours, bore setups, and compound work on a same-day, round-trip basis with no overnight premium. The route is all interstate, so winter is rarely the constraint in town — the seasonal watch-items are instead the spring embargoes on Scott County's secondary roads for rural deliveries and, on riverfront sites, Mississippi crest forecasts that can pause low-ground work in April and May. Reaching the Illinois cities takes the same drive plus a bridge, but a different set of permits — we schedule bi-state scopes so each state's approvals, not the driving, set the sequence. Emergency response commitments are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do foundations need to go in Davenport?",
+      "answer": "Below the frost depth in Davenport's locally amended 2021 building code (City Code Ch. 15.12) — and we deliberately publish no inch value until that amendment text is verified, because a wrong frost number is worse than none. Confirm the adopted figure with Building & Land Development at 563-326-7745; site geotechnical work then governs the final design.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way and excavation permits for fiber work in Davenport?",
+      "answer": "The City of Davenport Construction and Engineering Department, which administers all permits for work within public right-of-way and on storm, sewer, and access easements — excavation, driveways, sidewalks, and wireless structures included. Common permit types are submitted electronically. Building permits run separately through Building & Land Development.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does Davenport really have no floodwall, and what does that mean for a telecom site?",
+      "answer": "Correct — Davenport defends its riverfront with parkland and temporary HESCO barriers rather than a permanent floodwall, and a barrier section failed on April 30, 2019, flooding downtown. For telecom civil work it means low-elevation sites near the Mississippi get floodplain screening, elevated pads, and spring-crest schedule contingency as standard practice, not as extras.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which railroads complicate fiber routes in Davenport?",
+      "answer": "Two, in unusual ways. CPKC's main line runs the length of the riverfront from its Nahant Yard base, so river-parallel routes face a busy Class I corridor. The Iowa Interstate Railroad runs in the pavement of Fifth Street downtown and crosses the Mississippi on the Government Bridge — meaning some street crossings are actually railroad crossings requiring railroad permits. Both processes are slow; we file at route design, not at construction.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do spring road restrictions affect shelter or hut deliveries around Davenport?",
+      "answer": "In the countryside, yes. Scott County posts spring embargoes on granular and lightly surfaced secondary roads during the thaw, typically late February into April, and those county postings — not the Iowa DOT statewide map — are what force a heavy delivery to reroute or wait. In-town deliveries on the interstate and arterial network are generally unaffected.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What's different about building a fiber route that crosses into Illinois?",
+      "answer": "Almost everything administrative. Mid-route, a bi-state Quad Cities build changes building jurisdiction, one-call system (Iowa One Call at two business days' notice versus JULIE in Illinois), DOT district (Iowa D6 to Illinois D2), oversize permitting, and contractor registration requirements. The construction methods don't change at the river — the paperwork does, so we sequence approvals on both sides before mobilizing either.",
+      "segment": "fiber"
+    },
+    {
+      "question": "When is a stormwater permit required for site work in Scott County?",
+      "answer": "At one acre of ground disturbance, or less when the work belongs to a larger common plan of development. Iowa DNR's NPDES General Permit No. 2 applies: SWPPP prepared first, then the Notice of Intent, public notice, and DNR authorization before dirt moves. Fiber routes and compound builds with access roads cross the acre threshold more often than expected.",
+      "segment": "general"
+    },
+    {
+      "question": "What soil conditions should we expect boring near the Mississippi in Davenport?",
+      "answer": "Deep saturated alluvium — sands, silts, and clays with shallow groundwater — which favors careful drilling-fluid management and frac-out monitoring on HDD shots. Upland bores contend instead with loess over till, and near the bluffs, Silurian dolomite can appear at shallow depth. The county's buried Cleona Channel means bedrock depth changes quickly; borings along the route beat assumptions.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How quickly can CellSite Solutions get a crew to Davenport?",
+      "answer": "Our staffed yard is in Cedar Rapids, about 82 road miles away via I-380 and I-80 — roughly an hour and a half of driving — so Davenport civil work operates on a same-day basis with crews returning to the yard at night. Specific response-time commitments for emergency work are made through our operations team, not published here.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Bore or open-cut? Reading Davenport's valley and upland ground",
+    "body": "Method selection in Davenport is really a landform question. On the valley floor, saturated alluvium and shallow groundwater make open trench a dewatering exercise and make directional drilling attractive — but the same conditions demand disciplined fluid pressure management, because frac-out risk climbs in loose saturated sands and the receiving environment is the Mississippi. Casing requirements at the CPKC riverfront line and the Iowa Interstate's street-running track add fixed crossing costs that don't care which method you chose. Up on the loess-and-till uplands, the calculus flips: soils bore predictably and trench cheaply, and the variable to respect is dolomite — Silurian rock sits shallow enough in parts of Scott County to stop a bore or slow an excavation, while the buried Cleona Channel means two sites a mile apart can have wildly different depths to rock. So the honest sequence is: pull the bedrock mapping, put borings where the route commits (river approaches, rail crossings, hut sites), and let refusal depth and groundwater — not habit — pick trench versus bore per segment. A route priced one method end-to-end in this county is a route priced wrong somewhere."
+  },
+  "sources": [
+    {
+      "label": "City of Davenport — building codes (2021 IBC, City Code Ch. 15.12)",
+      "url": "https://www.davenportiowa.com/our_community/building_land_development/codes_and_regulations/building_codes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Davenport City Code — IBC/IRC adoption (eCode360)",
+      "url": "https://ecode360.com/35576522",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Geological Survey — Bedrock Geology of Scott County, Iowa (OFM-2011-04)",
+      "url": "http://publications.iowa.gov/26254/1/ofm-2011-04.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT District 6 — Davenport field office",
+      "url": "https://iowadot.gov/locations/district-6-davenport-field-office",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa One Call — two business day notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WVIK — engineering report on the 2019 Davenport temporary levee failure",
+      "url": "https://www.wvik.org/government-politics/2019-07-22/report-reveals-why-davenports-temporary-levee-failed",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "I-80 Mississippi River Bridge project (Iowa DOT / Illinois DOT)",
+      "url": "https://www.i80mississippibridge.com/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Metronet — Davenport Gigabit City announcement",
+      "url": "https://www.businesswire.com/news/home/20221013005090/en/Metronet-Declares-Davenport-Certified-Gigabit-City-as-100-Percent-Fiber-Optic-Network-Expands",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "KWQC — Davenport Riverfront Quiet Zone agreement with CPKC",
+      "url": "https://www.kwqc.com/2025/08/28/davenport-leaders-approve-railroad-deal/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Department of Management — BEAD program ($400M)",
+      "url": "https://dom.iowa.gov/broadband/bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration and out-of-state bond",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — spring load restriction map",
+      "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — seasonal tree clearing for listed bats",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Motor Carrier Services — oversize/overweight permits",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USACE Rock Island District — regulatory program",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DistanceCalc — Cedar Rapids, IA to Davenport, IA driving route (82 mi)",
+      "url": "https://distancecalc.com/how-far-from-cedar-rapids-ia-to-davenport-ia",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool not reachable through the sandbox proxy; no primary value published elsewhere for the site coordinates."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf",
+      "attempted": "Requires the ASCE 7-16 Hazard Tool value plus a check of Davenport's Ch. 15.12 amendments; neither directly readable this session."
+    },
+    {
+      "field": "designCriteria.designRadialIceIn",
+      "attempted": "TIA-222 county ice tables (Annex B) are not freely published; only paywalled copies located."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps web service blocked by the egress proxy."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "The value lives in Davenport's amended Table R301.2 within City Code Ch. 15.12; the eCode360 section text could not be read this session, so no number is published."
+    },
+    {
+      "field": "designCriteria.designTempLowF/HighF",
+      "attempted": "ASHRAE design-condition tables for the Quad Cities station not directly readable; not publishable from secondary summaries."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, corrosivity, expansive risk)",
+      "attempted": "NRCS Web Soil Survey and IGS county report PDFs unreachable through proxy; only qualitative geology from the Scott County bedrock map is published."
+    },
+    {
+      "field": "identity.elevationFt",
+      "attempted": "No authoritative elevation source read this session; left null rather than citing an aggregator."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator (named office/contact)",
+      "attempted": "City website does not clearly surface the floodplain administrator; confirm office and contact with Public Works by phone."
+    },
+    {
+      "field": "utilities.ilec + MidAmerican new-service lead time",
+      "attempted": "Lumen attribution is from legacy-territory sources pending the Iowa Utilities Commission exchange GIS; MidAmerican publishes no commercial lead-time figures."
+    },
+    {
+      "field": "seasonality — NOAA NCEI normals check",
+      "attempted": "Calendar authored qualitatively; verify against the NCEI normals table for the Quad Cities International Airport station before sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 2 publish gate requires 1 project and 3 images from the CSS project intake; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

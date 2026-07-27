@@ -1,0 +1,663 @@
+{
+  "identity": {
+    "slug": "west-des-moines",
+    "city": "West Des Moines",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "counties": [
+      "Polk",
+      "Dallas"
+    ],
+    "msa": "Des Moines-West Des Moines",
+    "tier": 2,
+    "latitude": 41.5772,
+    "longitude": -93.7113,
+    "elevationFt": 955,
+    "population": {
+      "value": 68723,
+      "source": "U.S. Census Bureau, 2020 Census count for West Des Moines city, Iowa — https://www.census.gov/quickfacts/westdesmoinescityiowa (confirm current vintage estimate before sign-off)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-80",
+      "I-35",
+      "I-235"
+    ],
+    "majorRoutes": [
+      "US-6 (Grand Ave)",
+      "IA-28",
+      "Veterans Parkway"
+    ]
+  },
+  "metadata": {
+    "title": "West Des Moines Telecom Civil Contractor | CellSite Solutions",
+    "description": "Site civil for fiber huts, cell sites, and data center campuses in West Des Moines, IA — from conduit-network laterals to Microsoft-corridor pad work.",
+    "h1": "Telecom Site Civil Construction in West Des Moines, Iowa",
+    "intro": "No city of 70,000 in the Midwest concentrates more telecom-relevant construction than West Des Moines. Microsoft has built five data center campuses here since 2012 — more than 600 acres, over $6 billion committed, with a sixth campus, Project Ruthenium, moving through approvals — and the city answered its broadband question by building a citywide municipal conduit network with Google Fiber as anchor tenant. CellSite Solutions self-performs the civil scope that buildout generates — hut and shelter foundations, duct bank and laterals, transformer and generator pads, compound construction — serving the western metro from our staffed Cedar Rapids yard, 133 road miles east via I-80, across a city that straddles Polk and Dallas counties along the Jordan Creek growth corridor.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC the city enforces with amendments)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Seismic hazard in central Iowa is in the lowest national tier; publish site Ss/S1 only after a USGS design-maps query at the coordinates."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "West Des Moines occupies the terminal reach of the Des Moines Lobe — the last late-Wisconsinan glacial advance stopped at the Des Moines metro, fixing the modern course of the Raccoon River, which bounds the city's historic north edge at Valley Junction. Lobe-margin Dows Formation till underlies the northern and central city; Raccoon River alluvium fills the valley floor; and the newer annexations running south and west toward Veterans Parkway climb onto loess-mantled, pre-Illinoian till terrain of the Southern Iowa Drift Plain. (Iowa Geological Survey, Des Moines Lobe landform region and surficial map OFM-2005-2.)",
+    "dominantSoilTypes": [
+      "Dows Formation glacial till at the lobe margin (northern/central city)",
+      "Raccoon River alluvium (Valley Junction and valley-floor sites)",
+      "Loess over pre-Illinoian till (southern growth corridor)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The thick glacial cover of the metro is not mapped karst terrain — Iowa's sinkhole belt is in the northeast of the state — but individual sites still get screened against the Iowa DNR karst GIS layer as routine practice."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "West Des Moines hands a builder three different subsurfaces inside one city limit, which is why the geotech report is ordered before the foundation type is argued. Down in the Raccoon valley around Valley Junction, alluvium and shallow groundwater favor deeper investigation, careful dewatering plans, and a hard look at flood elevation. Across the till of the central city, spread footings and thickened pads below frost depth carry shelters and huts economically — with the caveat that lobe-margin till drains slowly and a spring excavation needs a water plan. On the southern growth corridor where the hyperscale campuses and Veterans Parkway development sit, loess-mantled till is generally cooperative but moisture-sensitive: loess loses strength when saturated, so subgrade protection during wet months is a design input, not a field improvisation. The city has not published a frost depth we can cite, so we design to the value its Building Inspection division confirms per project. Borings govern; everything above is framing."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of West Des Moines Development Services — Building Inspection",
+        "url": "https://www.wdm.iowa.gov/government/development-services/building-inspection/adopted-codes",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permit applications run through the city's access portal (registration required); review durations are not published — confirm the current queue by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Building Code and 2021 IRC (with amendments); 2024 International Fire Code",
+      "source": "City of West Des Moines — adopted codes page, https://www.wdm.iowa.gov/government/development-services/building-inspection/adopted-codes",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facility applications follow the uniform, state-preemptive framework of the Iowa Cell Siting Act (Iowa Code ch. 8C) rather than a bespoke local regime.",
+    "rowPermitAuthority": {
+      "name": "City of West Des Moines Engineering Services — Right-of-Way permits",
+      "url": "https://www.wdm.iowa.gov/government/engineering-services/utilities",
+      "phone": "515-222-3475",
+      "typicalReviewDays": null,
+      "note": "ROW permits cover excavation for fiber, electric, gas, sewer, and water work; applications are submitted through the city's permitting SharePoint site, with access arranged through Engineering Services staff before first submittal."
+    },
+    "stateDotDistrict": {
+      "name": "Iowa DOT District 1 (Ames) for the Polk County side; District 4 (Atlantic) for the Dallas County side",
+      "url": "https://iowadot.gov/locations/district-1-office",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The city line crosses the district boundary: Polk County belongs to District 1 and Dallas County to District 4, so a route that runs west along the growth corridor can need utility accommodation permits from two district offices."
+    },
+    "oneCallCenter": {
+      "name": "Iowa One Call",
+      "url": "https://iowaonecall.com/about/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP before NOI, then public notice and DNR authorization before disturbance begins."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Building permits go through Development Services' online access portal, and ROW work needs a separate Engineering Services permit submitted through the city's permitting SharePoint — plan the access-setup step for that system into a first-time schedule. Neither office publishes standing review times, so we confirm queues by phone when dates matter. The state layers stack as usual: Iowa DNR General Permit No. 2 stormwater authorization at one acre of disturbance, and Iowa DOT utility accommodation permits for state-route crossings — from two different DOT districts if a route spans the Polk/Dallas county line."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "MidAmerican Energy",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The Des Moines metro, West Des Moines included, is core territory for MidAmerican (Berkshire Hathaway Energy; territory list at midamericanenergy.com/territory-communitylist). Large-load and hyperscale service is utility-negotiated — energization dates come from MidAmerican's written commitment, never from an estimate."
+      }
+    ],
+    "ilec": "Lumen Technologies (CenturyLink, legacy Qwest territory) — confirm against the Iowa Utilities Commission exchange-boundary GIS before publishing",
+    "notableFiberProviders": [
+      "Google Fiber (anchor tenant on the city conduit network)",
+      "Mi-Fiber",
+      "Lumen / CenturyLink",
+      "Mediacom Business"
+    ],
+    "notableDataCenterCampuses": [
+      "Microsoft — five campuses built since 2012 (600+ acres citywide)",
+      "Microsoft — Project Ruthenium, sixth campus at Veterans Parkway and Woodland Avenue (in approvals)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, posted county by county, roughly late February through April",
+      "postingAuthority": {
+        "name": "Polk and Dallas county secondary road departments; statewide postings summarized on the Iowa DOT spring restriction map",
+        "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "City streets are not embargoed, but the westward growth corridor reaches rural Dallas County quickly, where 5-ton granular and 10-ton paved postings can gate a spring shelter or generator haul. Check both counties' postings — the city itself sits across the line."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Iowa DOT Motor Carrier Services (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route permits issue online through gotpermits; the city and county legs of a haul route need their own authorizations."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Iowa Interstate Railroad (IAIS)",
+        "crossingPermitNote": "The former Rock Island main line — the railroad that created Valley Junction, West Des Moines' original townsite — is today's IAIS Council Bluffs–Des Moines route through the north side of the city. Fiber crossings of it need an IAIS utility-crossing agreement; timelines are unpublished, so applications go in at route design."
+      }
+    ],
+    "urbanRowRequirements": "Excavation in city right-of-way — including fiber work — requires an Engineering Services ROW permit submitted through the city's permitting SharePoint, with portal access arranged in advance through Engineering staff (515-222-3475). Coordinate early where work touches the municipal conduit corridors, which the city manages as infrastructure of its own."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Clearing of trees 3 inches diameter and larger limited to October 1 – March 31",
+      "driver": "Protected bat species (northern long-eared bat, Indiana bat); Iowa DOT construction practice applies this window statewide — verify per-site through USFWS IPaC",
+      "source": "Iowa DOT Construction Manual 6.10 — https://iowadot.gov/erl/current/CM/content/CM%206.10.htm"
+    },
+    "shpo": {
+      "name": "State Historic Preservation Office of Iowa (Iowa Economic Development Authority)",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 review runs on a 30-day clock per complete submittal. Note that Valley Junction's historic district makes cultural screening a live issue on north-side routes."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory program; Iowa DNR issues Section 401 certifications",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Rock Island District (MVR)",
+    "listedSpeciesNote": "Run USFWS IPaC per project; northern long-eared bat and Indiana bat are the typical central-Iowa flags on wooded parcels.",
+    "floodplainPrevalenceNote": "The Raccoon River bounds the city's north edge, and its 1993 flood — which overwhelmed the Des Moines Water Works levee downstream — remains the metro's benchmark event. Valley-floor sites near Valley Junction warrant floodplain screening first; the upland growth corridor to the south and west sits well clear of the river."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Hard-frozen ground, extended subfreezing spells",
+        "earthworkConcrete": "restricted",
+        "note": "Foundations proceed only with frost excavation and heated protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Maximum seasonal frost penetration",
+        "earthworkConcrete": "restricted",
+        "note": "County embargo postings can begin late in the month"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw underway; till and loess subgrades soften badly",
+        "earthworkConcrete": "constrained",
+        "note": "Dallas County postings gate rural hauls; clearing window ends March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Firming ground with lingering wet spots",
+        "earthworkConcrete": "workable",
+        "note": "Embargoes lift as postings come down"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Good production ground; storm season begins",
+        "earthworkConcrete": "favorable",
+        "note": "Loess subgrades need protection when saturated"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; peak thunderstorm frequency",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot, mostly dry between systems",
+        "earthworkConcrete": "favorable",
+        "note": "Mass pours on campus-scale pads shift to hot-weather practice"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Workable with episodic heavy rain",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Dry, firm — prime schedule-recovery month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freeze typically mid-month",
+        "earthworkConcrete": "favorable",
+        "note": "Tree clearing may resume October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost taking hold late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice resumes"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing; snow cover establishing",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "The West Des Moines construction calendar is the central-Iowa standard — a late-April-to-October core season, a frost-priced winter, and a thaw shoulder in March when lobe till and saturated loess both punish equipment. What is distinctive here is exposure mix: campus-scale earthwork and pad pours on the south corridor run all summer with hot-weather concrete practice, while rural Dallas County hauls answer to spring embargo postings the city grid never sees. Verify the month-level figures against NOAA NCEI 1991–2020 normals for the Des Moines International Airport station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Thick glacial cover keeps bedrock well below telecom foundation depths across the city; the subsurface line items that move numbers here are dewatering and subgrade stabilization, not rock clauses.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Iowa sets no state prevailing wage. Davis-Bacon wage determinations attach to federally funded work — BEAD builds included — at the federal $2,000 threshold.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter foundation work from December into March prices in frost excavation and protected curing; spring adds water handling on till and loess subgrades.",
+    "narrative": "Three things move a West Des Moines civil number more than anything else. First, the calendar: identical scopes diverge sharply in price between June and January because of frost protection, and in March because of water. Second, the subsurface lottery across a city that spans river alluvium, lobe-margin till, and loess-covered uplands — the same hut foundation can need three different water-management plans depending on which third of the city it lands in. Third, competition for resources: with hyperscale campuses under near-continuous construction, local concrete, aggregate, and subcontractor capacity tightens when campus pours are running, and scheduling around those demand spikes is a real cost skill. Mobilization from Cedar Rapids — 133 miles, one interstate — prices as a regional trip, batched for multi-day scopes. Drivers, not prices; numbers come from borings and dates."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Rather than licensing general contractors, Iowa requires registration: construction contractors with $2,000 or more of annual Iowa work register with the Iowa Division of Labor ($50 per year), and contractors based out of state additionally file a $25,000 surety bond. Trade licensing for electrical, plumbing, and mechanical work runs separately through Iowa DIAL.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "ice storm",
+      "extreme cold",
+      "flood"
+    ],
+    "designImplications": "Severe convective wind and winter ice are the recurring loads — shelter anchorage, ice-bridge design, and generator enclosures get specified conservatively, with numeric wind and ice values published only after ASCE 7 and TIA-222 county confirmation. Flood exposure is geographically specific: Raccoon valley sites near Valley Junction get elevation-screened against the river's 1993 benchmark, while the upland campuses face wind and ice, not water. Frost governs foundations to whatever depth the city confirms per project.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Microsoft advances Project Ruthenium, its sixth West Des Moines campus",
+        "detail": "West Des Moines approved a development agreement for Microsoft's sixth local data center — a 103-acre site at Veterans Parkway and Woodland Avenue — lifting the company's cumulative local data center investment past $6 billion.",
+        "category": "data center",
+        "sourceUrl": "https://www.businessrecord.com/west-des-moines-approves-agreement-with-microsoft-for-6th-data-center/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Citywide open-access conduit network with Google Fiber as anchor",
+        "detail": "The city built a roughly $60 million municipal conduit system — more than 5 million feet planned across nearly 50 square miles — leased to any ISP, with Google Fiber committed as anchor tenant (estimated $16M in lease payments) and Mi-Fiber among the additional users.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://ilsr.org/article/community-broadband-networks/open-access-conduit-des-moines-fiber/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Google Fiber service live across West Des Moines",
+        "detail": "Google Fiber began connecting West Des Moines customers via the city conduit network, its first new market under the conduit-lease model.",
+        "category": "carrier program",
+        "sourceUrl": "https://fiber.google.com/blog/2022/03/hello-west-des-moines.html",
+        "asOf": "2022-03-01"
+      },
+      {
+        "headline": "Iowa BEAD moving from award to construction",
+        "detail": "Iowa's $400M BEAD round (NOFA #009) cleared federal approval of the state's final proposal in late 2025; grant agreements execute into 2026, feeding rural fiber construction across the counties west of the metro.",
+        "category": "broadband program",
+        "sourceUrl": "https://dom.iowa.gov/broadband/bead-program",
+        "asOf": "2025-07-09"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber civil in West Des Moines is unlike anywhere else in Iowa because the city owns the ducts: a municipal open-access conduit network — planned at more than 5 million feet across nearly 50 square miles — carries Google Fiber as anchor tenant and leases to competitors like Mi-Fiber. Practical consequence for builders: much of the in-city scope is laterals, vault and handhole setting, hut pads, and tie-ins coordinated with Engineering Services around city-owned conduit corridors, rather than mile-after-mile of new mainline trench. Crossings of the IAIS line through Valley Junction — the old Rock Island route the city literally grew up around — need railroad agreements filed at design. West of the county line, BEAD-funded rural routes in Dallas County answer to spring embargoes and two DOT districts. We build in both regimes and keep the paperwork ahead of the drill.",
+      "localSpecificsReferenced": [
+        "West Des Moines municipal conduit network (5M+ ft)",
+        "Google Fiber anchor tenancy / Mi-Fiber",
+        "IAIS Valley Junction crossing",
+        "Polk/Dallas DOT district split"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless demand in West Des Moines tracks its growth geometry: the Jordan Creek retail and office district and the Veterans Parkway corridor keep adding structures, traffic, and users faster than legacy macro coverage was designed for, which makes densification civil — small cell foundations, cabinet pads, C-band upgrade work — the steady book of business, permitted under the uniform Iowa Cell Siting Act (Iowa Code ch. 8C) framework. Macro compound work concentrates at the rural west and south edges, where a Dallas County shelter set has to respect spring load postings the city grid never imposes. The city has no published frost depth we can cite, so foundation depth is confirmed with Building Inspection per project — and winter pours carry protection costs regardless. ROW-touching node work goes through the Engineering Services permit desk and its SharePoint submittal system.",
+      "localSpecificsReferenced": [
+        "Jordan Creek / Veterans Parkway growth corridor",
+        "Iowa Code ch. 8C small-cell framework",
+        "Dallas County spring postings",
+        "Engineering Services ROW permit system"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "edge enclosure and micro-DC pads"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "West Des Moines is the hyperscale capital of Iowa: Microsoft has constructed five data center campuses here since 2012, holds more than 600 acres, has crossed $6 billion in cumulative local investment, and is moving its sixth campus — Project Ruthenium at Veterans Parkway and Woodland Avenue — through approvals. Campus programs at that scale generate continuous ancillary civil scope in exactly our lane: transformer and switchgear pads, generator yards, security perimeters, campus duct bank, and the heavy-haul access and crane pad work that precedes every building phase. MidAmerican Energy serves the load, and utility-yard work sequences to the utility's written energization commitments. The same buildout radiates edge demand outward — enclosure pads and interconnection civil that put capacity near the conduit network and the campuses rather than inside them. Loess-mantled corridor ground is workable but moisture-sensitive; wet-season subgrade protection is standing practice.",
+      "localSpecificsReferenced": [
+        "Microsoft five campuses / 600+ acres / $6B+",
+        "Project Ruthenium (Veterans Pkwy & Woodland Ave)",
+        "MidAmerican Energy service",
+        "Veterans Parkway corridor ground conditions"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 133,
+      "driveTimeHours": 2.1,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Polk",
+      "Dallas",
+      "Madison",
+      "Warren"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "West Des Moines sits at the far end of the metro from our approach: crews run I-80 west past the downtown mixmaster to the western interchanges — 133 road miles, a shade over two hours. That geography rewards batching: we group western-metro work into multi-day blocks with overnight stays rather than commuting the corridor daily, which keeps crew-hours on the compound instead of the interstate. Campus-adjacent scopes get sequenced around utility and GC milestones so a mobilization lands when the pad, not the paperwork, is ready. Winter runs carry weather float; spring hauls into Dallas County check embargo postings first. Any commitment faster than this description requires ops sign-off before it is put in writing.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What building code applies to telecom structures in West Des Moines?",
+      "answer": "The city enforces the 2021 International Building Code and 2021 IRC with local amendments, plus the 2024 International Fire Code, per its adopted-codes page. Frost depth is not published there — we confirm the design value with Building Inspection on each project rather than assuming a metro-standard number.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for fiber work in West Des Moines?",
+      "answer": "Engineering Services (515-222-3475). ROW excavation permits — covering fiber, electric, gas, sewer, and water work — are submitted through the city's permitting SharePoint site, and portal access has to be arranged with Engineering staff before your first application, a setup step worth building into the schedule.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can other providers use the West Des Moines conduit network?",
+      "answer": "Yes — that is its design. The city built its roughly $60 million network as open-access infrastructure: Google Fiber anchors it with committed lease payments, and additional ISPs such as Mi-Fiber lease space too. Builders coordinate lateral and tie-in work with the city, since the conduit is municipal infrastructure, not carrier plant.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How big is Microsoft's data center footprint in West Des Moines?",
+      "answer": "Five campuses built since 2012, more than 600 acres, and over $6 billion in cumulative investment — with a sixth campus, Project Ruthenium at Veterans Parkway and Woodland Avenue, moving through city approvals. It is the largest hyperscale concentration in Iowa and a steady source of ancillary civil scope.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does a West Des Moines route deal with one Iowa DOT district or two?",
+      "answer": "Potentially two. The city straddles the Polk/Dallas county line, and Polk County belongs to Iowa DOT District 1 (Ames) while Dallas County falls under District 4 (Atlantic). A route running west along the growth corridor can therefore need utility accommodation permits from both district offices.",
+      "segment": "general"
+    },
+    {
+      "question": "Are there seasonal truck restrictions affecting equipment hauls here?",
+      "answer": "On county roads, yes. City streets are not embargoed, but rural Dallas and Polk county roads post spring limits — the Iowa pattern is 5 tons granular, 10 tons paved — from roughly late February through April. Shelter and generator hauls to edge-of-metro sites get scheduled against those postings.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What ground conditions should a hut or pad build expect in this city?",
+      "answer": "It depends on the third of the city: Raccoon River alluvium with shallow groundwater near Valley Junction, slow-draining Des Moines Lobe till through the center, and moisture-sensitive loess over older till on the southern growth corridor. Same city, three different water-management plans — borings decide the design.",
+      "segment": "general"
+    },
+    {
+      "question": "How much notice does digging in West Des Moines require?",
+      "answer": "Iowa One Call (811) requires two business days' notice statewide before excavation, and that lead sits inside every bore and trench schedule we build. Add the city's own ROW permit lead through Engineering Services, and a first-time submitter should start paperwork well before the drill shows up.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Building around the campuses: sequencing civil work in a hyperscale town",
+    "body": "The distinctive estimating problem in West Des Moines is not geology — it is congestion of demand. With Microsoft running near-continuous campus construction and a sixth campus in approvals, the local market for ready-mix, aggregate, cranes, and experienced subcontractors tightens whenever a major campus phase pours, and a telecom civil scope that ignores that rhythm pays for it in lead times. Our approach: lock material commitments early for any scope scheduled alongside a campus phase, batch western-metro work into multi-day mobilizations from Cedar Rapids so crew time is spent on site rather than on I-80, and sequence utility-yard and interconnection work to MidAmerican's written energization dates instead of target dates. Subsurface strategy follows the city's three grounds — alluvium, lobe till, loess — but the schedule strategy follows the campuses. One more local rule: because the city publishes no frost depth, we get the foundation design value from Building Inspection in writing per project. In a market this busy, the cheap mistakes are the assumed ones."
+  },
+  "sources": [
+    {
+      "label": "City of West Des Moines — adopted building codes (2021 IBC/IRC, 2024 IFC)",
+      "url": "https://www.wdm.iowa.gov/government/development-services/building-inspection/adopted-codes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of West Des Moines Engineering Services — utility permitting and ROW",
+      "url": "https://www.wdm.iowa.gov/government/engineering-services/utilities",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ILSR Community Broadband Networks — West Des Moines open-access conduit and Google Fiber",
+      "url": "https://ilsr.org/article/community-broadband-networks/open-access-conduit-des-moines-fiber/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Google Fiber — \"Hello, West Des Moines!\" service launch",
+      "url": "https://fiber.google.com/blog/2022/03/hello-west-des-moines.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Business Record — West Des Moines approves Microsoft's sixth data center (Project Ruthenium)",
+      "url": "https://www.businessrecord.com/west-des-moines-approves-agreement-with-microsoft-for-6th-data-center/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WPR — Microsoft's five data center campuses in West Des Moines",
+      "url": "https://www.wpr.org/news/microsoft-data-center-iowa-wisconsin-expect",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DOT District 1 office (Polk County) ",
+      "url": "https://iowadot.gov/locations/district-1-office",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DOT District 4, Southwest (Dallas County)",
+      "url": "https://iowadot.gov/about/districts/district-4",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa One Call — two business days' notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2 construction stormwater",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — spring load restriction map",
+      "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Motor Carrier Services — oversize/overweight permitting",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — tree-clearing window for bats",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Geological Survey — Des Moines Lobe landform region",
+      "url": "https://iowageologicalsurvey.uiowa.edu/iowa-geology/landforms-iowa/des-moines-lobe",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Department of Management — BEAD program",
+      "url": "https://dom.iowa.gov/broadband/bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Driving route, Cedar Rapids to West Des Moines (133 miles via I-80)",
+      "url": "https://distancecalc.com/how-far-from-west-des-moines-ia-to-cedar-rapids-ia",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "The city's adopted-codes page and searchable amendments do not publish a frost depth; only contractor marketing pages assert 42 in., which does not meet the code-section-only sourcing rule. Confirm with WDM Building Inspection and cite the amended Table R301.2(1)."
+    },
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox proxy; resolve from an unproxied machine."
+    },
+    {
+      "field": "geotech numerics (bearing range, bedrock depth, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and IGS county-level publications not readable through the proxy; landform-level geology only."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain program page not located with a citable URL; left null rather than named from inference."
+    },
+    {
+      "field": "utilities.ilec — exchange boundary confirmation",
+      "attempted": "Lumen/CenturyLink attribution from legacy-territory knowledge; Iowa Utilities Commission exchange GIS not queried."
+    },
+    {
+      "field": "utilities.electricProviders — MidAmerican new-service URL and lead times",
+      "attempted": "Territory sourced; the current new-construction application URL and typical commercial lead weeks were not confirmed."
+    },
+    {
+      "field": "logistics.railroads — additional carriers",
+      "attempted": "IAIS through Valley Junction is sourced; whether other carriers touch the city limits was not confirmed against the Iowa DOT rail map at readable resolution."
+    },
+    {
+      "field": "seasonality — NOAA NCEI normals table",
+      "attempted": "Airport-station normals table not directly readable; calendar authored from compiled summaries and needs the station check."
+    },
+    {
+      "field": "marketActivity — original publication dates",
+      "attempted": "The Business Record (Ruthenium) and ILSR (conduit) items carry access dates because original publication dates were not visible through the proxy; replace with publication dates on review."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 2 publish gate needs at least 1 real project and 3 images from the CSS project intake; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Coverage list and response commitments require ops sign-off."
+    }
+  ]
+}

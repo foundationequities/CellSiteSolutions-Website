@@ -1,0 +1,688 @@
+{
+  "identity": {
+    "slug": "milwaukee",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "counties": [
+      "Milwaukee"
+    ],
+    "msa": "Milwaukee–Waukesha, WI Metro Area",
+    "tier": 1,
+    "latitude": 43.0389,
+    "longitude": -87.9065,
+    "elevationFt": 614,
+    "population": {
+      "value": 563512,
+      "source": "U.S. Census Bureau, 2024 ACS 1-year estimate (via Census Reporter)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-94",
+      "I-43",
+      "I-41",
+      "I-794",
+      "I-894"
+    ],
+    "majorRoutes": [
+      "US-41",
+      "US-45 (Zoo Freeway)"
+    ]
+  },
+  "metadata": {
+    "title": "Milwaukee, WI Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for Milwaukee telecom sites — shelter foundations in deep glacial clay, urban ROW duct bank under Ch. 115 permits, and edge pad work.",
+    "h1": "Telecom Site Civil Construction in Milwaukee, Wisconsin",
+    "intro": "Wisconsin's largest market is also its most layered civil environment: five interstates converge on a downtown where 35-plus carriers interconnect at the Wells Building, street excavation runs through the city's Chapter 115 permit system, and everything below grade sits in the Oak Creek Formation's dense glacial clay. Hyperscale gravity is close on both sides — Microsoft's Mount Pleasant program about 25 miles south and Vantage's Port Washington campus to the north — pulling fiber, power, and edge work through Milwaukee County. CellSite Solutions builds the civil scope here from our Cedar Rapids yard, 244 road miles west: shelter and hut foundations to Wisconsin's 48-inch embedment floor, duct bank and vaults in dense urban right-of-way, grounding, and compound construction.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (the 2021 IBC basis of Wisconsin's uniform commercial code, SPS 361–366, in force for plans submitted on or after November 1, 2025 — confirm the SPS 361 reference tables)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Query USGS design maps at the site's coordinates before publishing Ss/S1; lakefront exposure and Wisconsin's SPS 362.1608 alternate snow-zone map both deserve a check during structural review."
+    },
+    "frostDepthIn": {
+      "value": 48,
+      "source": "Wis. Admin. Code SPS 321.16(1)(a) — footings extend below frost penetration or a minimum of 48 in. below adjacent grade, whichever governs. No Milwaukee-specific amendment surfaced in research; confirm application with the Permit and Development Center for each commercial project",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Milwaukee County's bedrock is Silurian dolomite — the Racine and Waubakee formations — with Devonian strata including the namesake Milwaukee Formation preserved along the north lakefront (WGNHS GS12, Mikulic & Kluessendorf). Over it lies the Oak Creek Formation: a gray, overconsolidated clayey till exceeding 30 meters thick along the Lake Michigan shore, interbedded with lacustrine silt and clay (TRB Record 1479). Telecom excavations in most of the county work entirely within that stiff clay column and never see rock.",
+    "dominantSoilTypes": [
+      "Oak Creek Formation clayey till (overconsolidated, gray)",
+      "Lacustrine silt and clay interbeds (lakeshore)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping for Milwaukee County was reviewed during research. The bedrock is carbonate, so any excavation that actually reaches the Silurian dolomite should include routine void screening in the geotech scope — but the thick till cover keeps most telecom work far above rock."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The Oak Creek till is the defining material: dense, overconsolidated, and consistent enough that conventional spread footings and drilled piers both perform well once you are below Wisconsin's 48-inch frost floor. What the clay gives in bearing it takes back in handling — excavations stand up but the spoil is heavy, wet-season subgrades smear, and the lacustrine silt and clay interbeds near the lakefront can surprise a bore crew that planned on uniform till. Downtown and valley sites add the urban variables: utility congestion that turns every dig into a potholing exercise, staged excavation under Chapter 115 permits, and restoration specs that often cost more than the hole. Site-specific borings govern; in this county they mostly confirm depth and moisture rather than change the foundation concept."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Milwaukee Permit and Development Center (Dept. of Neighborhood Services)",
+        "url": "https://city.milwaukee.gov/DNS/permits",
+        "phone": "414-286-8210",
+        "typicalReviewDays": null,
+        "note": "809 N. Broadway. Commercial plan review under the state uniform code; published review-time commitments were not found — confirm current intake timelines by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Wisconsin's statewide commercial code, SPS 361–366 — updated to the 2021 IBC (effective September 1, 2025; mandatory for plans submitted November 1, 2025 onward)",
+      "source": "Wisconsin DSPS commercial building code news release — https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities in Milwaukee follow the statewide framework of Wis. Stat. 66.0414 (2019 Act 14), which limits municipal discretion in the ROW and caps collocation charges at actual cost or $250 per node annually, whichever is less. Physical occupation of city streets still runs through the Ch. 115 excavation permit and, for structures over/under the ROW, Ch. 245 special privileges.",
+    "rowPermitAuthority": {
+      "name": "City of Milwaukee DPW — Infrastructure Services Division (Ch. 115 street excavation permits; Ch. 245 special privileges)",
+      "url": "https://city.milwaukee.gov/dpw/Infrastructure",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Lane-occupancy fees are tiered by street class — the 2018 published schedule listed $167 arterial / $112 collector / $55 local base fees; verify the current schedule before bidding ROW work."
+    },
+    "stateDotDistrict": {
+      "name": "WisDOT Southeast Region (Waukesha office) — serves Milwaukee County",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "phone": "262-548-5902",
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Diggers Hotline (statewide one-call)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Advance notice required by Wis. Stat. 182.0175; in a utility-dense downtown grid, expect large ticket footprints and plan locates street by street.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Wisconsin DNR — WPDES construction stormwater program",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI filed a minimum of 14 working days ahead of disturbing an acre or more; MMSD's watershed programs shape drainage design in the Kinnickinnic, Menomonee, and Milwaukee River basins."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "A Milwaukee build typically stacks three clocks. The Permit and Development Center handles commercial plan intake under the state uniform code — budget conservatively since published review commitments don't exist. Any street cut needs a Ch. 115 excavation permit from DPW Infrastructure Services with class-based lane occupancy fees, and aerial or subsurface encroachments trigger Ch. 245 special privilege review, which involves the Common Council and moves slowly. Statewide leads run underneath it all: three business days for Diggers Hotline locates and 14 working days for the WDNR stormwater NOI on acre-plus disturbance. On dense downtown segments, the ROW sequence — not plan review — usually sets the critical path."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "We Energies (WEC Energy Group)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.we-energies.com/services/new-service",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves Milwaukee among 2.3M+ Wisconsin electric customers; PSCW approved a dedicated very-large-customer (data center) rate class in April 2026. Get service commitments in writing during scoping."
+      }
+    ],
+    "ilec": "Wisconsin Bell, Inc. d/b/a AT&T Wisconsin",
+    "notableFiberProviders": [],
+    "notableDataCenterCampuses": [
+      "Microsoft Mount Pleasant (Racine County, ~25 mi south)",
+      "Vantage Port Washington (Ozaukee County, north along I-43)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": "The Wells Building at 324 E. Wisconsin Ave. is the region's carrier hotel — 35+ network providers and roughly 12 MW of capacity (Critical Systems Realty MIWI1) — making downtown Milwaukee the interconnection point that metro fiber laterals are built to reach."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "State Class II thaw postings ran February 20 – April 30 in 2026; interstate access into Milwaukee blunts their effect on urban deliveries, but county and local postings still bind on collector streets and outlying sites",
+      "postingAuthority": {
+        "name": "WisDOT (statewide frozen-road and Class II thaw program); Milwaukee County and municipal postings for local streets",
+        "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Because shelter hauls into Milwaukee ride I-94/I-43/I-41 nearly door to door, spring postings cost less schedule here than anywhere else in Wisconsin — the exposure concentrates in the final blocks of posted local pavement."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "WisDOT OSOW permitting (wi.gotpermits.com/wiconnect)",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "phone": "608-266-7320",
+      "typicalReviewDays": null,
+      "note": "Self-issuance online for standard envelopes under Wis. Stat. 348.26–348.27."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "CPKC",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Canadian National (Wisconsin Central)",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Wisconsin & Southern (WSOR, Watco)",
+        "crossingPermitNote": "Operates a North Milwaukee division — metro fiber routes crossing its trackage need the railroad's utility crossing agreement; start that application early, railroad reviews are the slowest permit on most route builds."
+      }
+    ],
+    "urbanRowRequirements": "Street work in Milwaukee means a Ch. 115 excavation permit with lane-occupancy fees tiered by street classification, traffic control per city requirements, DPW street-closure coordination, and restoration to city spec. Anything occupying space over or under the ROW long-term — vaults, canopies, conduits under special conditions — routes through Ch. 245 special privilege grants."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Suitable northern long-eared bat habitat carries an April 1 – October 31 clearing restriction under WisDOT's programmatic guidance; occupied roost trees plus a 150-ft buffer are off-limits June 1 – July 31",
+      "driver": "Northern long-eared bat (federally endangered)",
+      "source": "WisDOT NLEB non-federal guidance (April 2023)"
+    },
+    "shpo": {
+      "name": "Wisconsin Historical Society — State Historic Preservation Office",
+      "url": "https://www.wisconsinhistory.org/preserve/state-historic-preservation-office/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 applies to federally funded or licensed work; downtown Milwaukee's building stock makes historic-district adjacency worth screening early."
+    },
+    "wetlandsAuthority": {
+      "name": "Wisconsin DNR (Wis. Stat. 281.36 — jurisdiction includes nonfederal wetlands)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The DNR permit doubles as the state water quality certification; exemptions are narrow."
+    },
+    "usaceDistrict": "St. Paul District (MVP)",
+    "listedSpeciesNote": "NLEB governs the clearing calendar; run a project-specific IPaC query for Milwaukee County before committing a species list — one was not runnable during this research.",
+    "floodplainPrevalenceNote": "MMSD's flood management program defines the local risk picture: 660+ structures sit in the Kinnickinnic River 100-year floodplain, and Menomonee River projects have removed 277 structures from mapped floodplain. Valley and river-adjacent telecom sites should be screened against FEMA panels at concept stage. The city office holding floodplain administrator authority was not confirmed in research."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen ground; lake-moderated normals of 30.9°F high / 17.2°F low at Mitchell Intl",
+        "earthworkConcrete": "restricted",
+        "note": "Heated protection mandatory for any pour"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Frost near maximum depth; occasional thaw cycles near the lake",
+        "earthworkConcrete": "restricted",
+        "note": "Statewide Class II postings began February 20 in 2026"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw underway; clay subgrades soften and smear",
+        "earthworkConcrete": "restricted",
+        "note": "Spring postings in force on state and local routes"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Frost releasing; till sites drain slowly",
+        "earthworkConcrete": "constrained",
+        "note": "2026 postings ran through April 30; NLEB clearing window closed"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Ground open; clay still holding spring moisture",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Full production; statistically the wettest month (~4.4 in.)",
+        "earthworkConcrete": "favorable",
+        "note": "Roost-tree protection June 1 – July 31"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Dry, firm clay; peak season",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak season continues",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Excellent working conditions, cooling lake air",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First frosts; ground still open",
+        "earthworkConcrete": "workable",
+        "note": "Begin cold-weather concrete practice late month"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Freeze-up begins; snow season opens (~48.7 in. annually)",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground locking up for winter",
+        "earthworkConcrete": "restricted",
+        "note": "Frozen-road declarations can favor heavy hauls"
+      }
+    ],
+    "narrative": "Lake Michigan gives Milwaukee a slightly gentler winter than the rest of Wisconsin — January normals of 30.9°F/17.2°F versus deep-interior cold — but the construction consequences are the same: frozen ground from December into April, winter concrete protection, and the state's spring posting season (February 20 – April 30 in 2026) bracketing the thaw. The dependable production window is May through October, with June carrying the heaviest rain onto slow-draining clay. Milwaukee's real seasonal advantage is logistical: interstate access means heavy deliveries dodge most posted-road exposure that rural Wisconsin sites eat every spring. Verify figures against the NWS Milwaukee/Sullivan normals before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "With the Oak Creek till running past 30 meters thick along the lakeshore, telecom-depth excavations across most of Milwaukee County finish long before bedrock enters the picture.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Dense clay spoil hauls heavy and reuses poorly; urban sites add tight staging and trucking cycles through city traffic to the disposal math.",
+    "permitFeeNote": "Ch. 115 lane-occupancy fees scale with street classification (2018 schedule: $167/$112/$55 base by arterial/collector/local — verify current), so route design that favors local streets over arterials shows up directly in permit cost.",
+    "prevailingWageExposure": "No state prevailing wage since 2017 Act 59 took effect; federally funded scopes — BEAD builds included — carry Davis-Bacon.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter adds frost excavation and heated cures; spring shifts cost into routing and staging on posted local streets rather than the interstates.",
+    "narrative": "Milwaukee prices as an urban-logistics market more than a ground-conditions market. The till is predictable; what moves numbers is everything around it — Ch. 115 permits and lane-occupancy fees on every street cut, traffic control and night-work windows on arterials, potholing through utility-dense corridors, heavy clay spoil trucked through city traffic, and restoration to municipal spec. Foundations buy the same 48 inches of embedment as everywhere in Wisconsin, plus winter protection across the cold months. Mobilization from Cedar Rapids rides the interstate network, so it stays a scheduling line, not a premium. As always: drivers published, unit pricing never — each site prices to its borings, its street class, and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Commercial general contractors are not licensed at the state level in Wisconsin — control comes through the uniform code, plan review, and permits, while the DSPS Dwelling Contractor credential covers only 1–2 family residential work. Electrical and plumbing trades hold state licenses. Compiled partly from secondary sources; confirm against DSPS before bid.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme cold",
+      "flood",
+      "ice storm"
+    ],
+    "designImplications": "Cold drives embedment (48-inch floor), HVAC sizing, and winter concreting practice. Flood is corridor-specific: the Kinnickinnic and Menomonee valleys carry documented 100-year floodplain, so pad elevations and drainage in valley sites get set against FEMA panels rather than street grade. Publish ice and wind loading only after county TIA-222 and ASCE values are verified.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Microsoft proposes $13.3B further expansion at Mount Pleasant",
+        "detail": "After completing its first AI data center in 2026 and announcing a $4B second facility in September 2025, Microsoft proposed a $13.3B expansion of the Mount Pleasant campus in January 2026 — sustained hyperscale civil demand roughly 25 miles south of Milwaukee.",
+        "category": "data center",
+        "sourceUrl": "https://racinecountyeye.com/2026/01/20/microsoft-13b-expand-mount-pleasant/",
+        "asOf": "2026-01-20"
+      },
+      {
+        "headline": "PSCW approves We Energies data-center rate; ~$19.3B generation plan",
+        "detail": "Wisconsin regulators approved a modified very-large-customer rate for We Energies in April 2026, alongside an approximately $19.3B five-year generation buildout — the utility also added $1B in capex tied to 500 MW of Microsoft load. Grid construction follows the data centers.",
+        "category": "data center",
+        "sourceUrl": "https://www.wpr.org/news/state-regulators-change-we-energies-data-center-rate-proposal-to-protect-customers",
+        "asOf": "2026-04-15"
+      },
+      {
+        "headline": "Wells Building carrier hotel anchors downtown interconnection",
+        "detail": "Critical Systems Realty's MIWI1 at 324 E. Wisconsin Ave. hosts 35+ network providers with about 12 MW — the metro's principal meet-me point and the destination for a steady pipeline of downtown lateral and duct bank construction.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.datacenters.com/1547-critical-systems-realty-miwi1-wells-building",
+        "asOf": "2026-07-28"
+      },
+      {
+        "headline": "Wisconsin BEAD: $1.06B approved, three-quarters fiber",
+        "detail": "NTIA signed off on Wisconsin's final BEAD proposal December 2, 2025 (PSC-administered, ~76% fiber awards) — southeastern Wisconsin's unserved pockets feed the same construction pipeline.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+        "asOf": "2025-12-02"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "vault and handhole setting",
+        "HDD / road bore",
+        "service lateral to hut",
+        "restoration",
+        "fiber hut pad"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Metro fiber in Milwaukee is built toward one address: the Wells Building carrier hotel at 324 E. Wisconsin Ave., where 35-plus providers interconnect. Getting a lateral there means Ch. 115 excavation permits with lane-occupancy fees that climb with street class, potholing through a century of stacked utilities, and restoration to city spec — the civil cost lives in the street, not the trench. Bores run in dense Oak Creek clay, which cuts predictably but demands attention where lacustrine silt interbeds appear near the lakefront. Crossings of UP, CPKC, CN, and WSOR's North Milwaukee trackage each carry their own railroad agreement lead times. BEAD-funded rural segments start at the metro's edge; downtown, the work is laterals, vaults, and duct bank.",
+      "localSpecificsReferenced": [
+        "Wells Building carrier hotel (MIWI1)",
+        "Milwaukee Code Ch. 115 excavation permits",
+        "Oak Creek Formation clayey till",
+        "UP/CPKC/CN/WSOR crossings"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "shelter and cabinet pads",
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil",
+        "macro compound construction",
+        "ground ring and halo",
+        "generator and fuel containment pads"
+      ],
+      "secondaryScopeIds": [
+        "compound fencing",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Milwaukee is Wisconsin's densification market: the state's largest population, a high-rise downtown, stadium and festival venues, and a small-cell regime standardized by Wis. Stat. 66.0414 with its $250-per-node annual cap. Node and DAS civil work here is ROW work — Ch. 115 permits, class-tiered lane fees, traffic control on arterials, and Ch. 245 special-privilege review when equipment occupies space above or below the street long-term. Macro and rooftop-support scopes still carry Wisconsin's 48-inch foundation embedment through dense glacial clay that excavates cleanly but hauls heavy. Interstate access takes most of the sting out of spring posting season for shelter sets, a logistical break the rest of the state doesn't get.",
+      "localSpecificsReferenced": [
+        "Wis. Stat. 66.0414 small-cell framework",
+        "Ch. 115 / Ch. 245 ROW process",
+        "48-inch embedment in Oak Creek till",
+        "I-94/I-43/I-41 delivery access"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "hyperscale campus civil support"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Milwaukee sits at the center of Wisconsin's data center corridor: Microsoft's Mount Pleasant program — first AI facility complete, $4B second building announced, a $13.3B further expansion proposed in January 2026 — is about 25 miles south, and Vantage's Port Washington campus rises to the north along I-43. That gravity shows up in Milwaukee as edge and interconnection work: micro-DC pads feeding the Wells Building meet-me point, transformer and generator yards, and campus-support duct bank. We Energies is the power counterparty, now operating under a PSCW-approved very-large-customer rate with a ~$19.3B generation plan behind it — evidence that interconnection queues deserve early attention. Pads here carry deep-frost embedment, snow-rated enclosures, and cold-package generators as baseline scope.",
+      "localSpecificsReferenced": [
+        "Microsoft Mount Pleasant expansion (Jan 2026 proposal)",
+        "Vantage Port Washington / I-43 corridor",
+        "We Energies data-center rate (PSCW, Apr 2026)",
+        "Wells Building interconnection"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 244,
+      "driveTimeHours": 3.9,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Milwaukee"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Milwaukee from our Cedar Rapids yard is a 244-mile interstate run — US-151 northeast through Dubuque to Madison, then I-94 east into the metro — that our crews plan as a week-on-site market: one mobilization covers a multi-day urban scope or several sites across the county. The corridor's character matters more than its length: it is four-lane or interstate the entire way, so spring posting season barely touches equipment moves into Milwaukee, and winter runs are planned around lake-effect weather windows on the I-94 approach rather than road bans. Urban work adds its own staging discipline — permitted lane occupancy, tight laydown, night windows on arterials — which we build into the mobilization plan up front. Response-time commitments are published only after ops clears them.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who reviews building permits for a telecom shelter in Milwaukee?",
+      "answer": "The City of Milwaukee Permit and Development Center at 809 N. Broadway (Department of Neighborhood Services, 414-286-8210) handles commercial permit intake and plan review under Wisconsin's uniform commercial code, SPS 361–366. The city publishes no standing review-time commitment, so we confirm current intake and exam timelines by phone at project kickoff and schedule the civil sequence around that answer.",
+      "segment": "general"
+    },
+    {
+      "question": "What permits does a street excavation in Milwaukee require?",
+      "answer": "A Chapter 115 street excavation permit from DPW Infrastructure Services, with lane-occupancy fees tiered by street classification — the 2018 published base fees were $167 arterial, $112 collector, $55 local, so verify current rates. Long-term occupation of space over or under the ROW (vaults, conduits in special conditions) adds a Chapter 245 special privilege grant, which routes through the Common Council and should be started early.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How deep do shelter and hut foundations go in Milwaukee?",
+      "answer": "Plan on 48 inches of embedment minimum. Wisconsin's SPS 321.16(1)(a) requires footings below frost penetration or at least 48 inches below adjacent grade, whichever is deeper, and research surfaced no Milwaukee amendment relaxing it. In the county's dense Oak Creek clay that depth excavates cleanly but produces heavy spoil — a real line item on urban sites with no lay-down room.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What ground conditions should a bore crew expect in Milwaukee County?",
+      "answer": "Gray, overconsolidated clayey till of the Oak Creek Formation — more than 30 meters thick along the Lake Michigan shore — with lacustrine silt and clay interbeds near the lakefront. It bores predictably and stands well in excavation, but the interbeds can change drilling behavior mid-run, and bedrock is essentially never a factor at telecom depths. Borings confirm moisture and interbedding rather than the basic picture.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Where do carriers interconnect in Milwaukee?",
+      "answer": "The Wells Building at 324 E. Wisconsin Ave. — Critical Systems Realty's MIWI1 — is the region's carrier hotel, hosting 35-plus network providers with roughly 12 MW of capacity. Practically, that makes it the terminus that downtown lateral and duct bank projects are engineered toward, and it concentrates the metro's densest underground congestion in the surrounding blocks.",
+      "segment": "edge"
+    },
+    {
+      "question": "How close is hyperscale construction to Milwaukee?",
+      "answer": "Close on both flanks. Microsoft's Mount Pleasant campus in Racine County — roughly 25 miles south — completed its first AI data center in 2026, has a $4B second facility announced, and saw a $13.3B further expansion proposed in January 2026. North along I-43, Vantage's Port Washington campus broke ground in December 2025. Milwaukee sits between them on the fiber and power corridors both depend on.",
+      "segment": "edge"
+    },
+    {
+      "question": "Do spring road weight limits slow shelter deliveries into Milwaukee?",
+      "answer": "Less than anywhere else in Wisconsin. Hauls arrive on I-94, I-43, or I-41 nearly to the site, and interstates don't carry Class II thaw postings — those ran February 20 through April 30 statewide in 2026. The exposure that remains is the last stretch of posted county or local pavement, so we check municipal postings for the final approach and time the set accordingly.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who provides electric service for new telecom sites in Milwaukee?",
+      "answer": "We Energies, the WEC Energy Group utility serving Milwaukee among 2.3 million-plus Wisconsin electric customers, with new-service intake through its online process. The utility is mid-buildout on a roughly $19.3B generation plan tied to data center load, so we treat interconnection dates as commitments to obtain in writing during scoping — and design generator pads so a site can commission ahead of permanent power.",
+      "segment": "edge"
+    },
+    {
+      "question": "What environmental lead times apply to Milwaukee-area builds?",
+      "answer": "Three recur: the WDNR stormwater NOI at least 14 working days before disturbing an acre or more; Diggers Hotline locates three business days before excavation; and, on treed greenfield sites, the northern long-eared bat window that restricts clearing April 1 – October 31 in suitable habitat. Wetland involvement brings WDNR jurisdiction even off federal waters under Wis. Stat. 281.36.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Urban ROW strategy: what actually sets cost on a Milwaukee lateral",
+    "body": "On most Milwaukee fiber and small-cell work, the engineering is routine and the street is the project. The same block can price three different ways depending on how you occupy it. Open-cutting an arterial maximizes production but buys the top lane-occupancy tier under Ch. 115, full traffic control, and arterial-grade restoration — often the largest line on the job. Boring from side-street pits keeps you in the cheaper occupancy class and off the main traffic lanes, and Milwaukee's dense Oak Creek clay is about as favorable a bore medium as urban ground gets; the tradeoffs are pit real estate in tight blocks and potholing cost, because a century of stacked utilities under downtown makes verified clearance non-negotiable. Anything that will live in the ROW long-term — a vault under sidewalk, equipment over the line — adds a Ch. 245 special privilege review measured in council calendar time, not working days. Our default on downtown laterals: bore the arterials, open-cut only on local streets where restoration is cheap, front-load the Ch. 245 items, and let locate tickets and potholing lead the schedule rather than chase it. The borings rarely change a Milwaukee design; the permit strategy changes the bid."
+  },
+  "sources": [
+    {
+      "label": "Census Reporter — Milwaukee city, WI (ACS 2024 1-year)",
+      "url": "https://censusreporter.org/profiles/16000US5553000-milwaukee-wi/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Milwaukee — Permit and Development Center (DNS permits)",
+      "url": "https://city.milwaukee.gov/DNS/permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Milwaukee Code of Ordinances Ch. 115 — street excavation",
+      "url": "https://city.milwaukee.gov/ImageLibrary/Groups/ccClerk/Ordinances/Volume-1/CH115.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Milwaukee Code of Ordinances Ch. 245 — special privileges",
+      "url": "https://city.milwaukee.gov/ImageLibrary/Groups/ccClerk/Ordinances/Volume-2/CH245.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS GS12 — Silurian/Devonian geology of Milwaukee County (Mikulic & Kluessendorf)",
+      "url": "https://wgnhs.wisc.edu/pubshare/GS12.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "TRB Record 1479 — Oak Creek Formation till properties, Milwaukee lakeshore",
+      "url": "https://onlinepubs.trb.org/Onlinepubs/trr/1995/1479/1479-012.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NWS Milwaukee/Sullivan — climate normals (Mitchell Intl)",
+      "url": "https://www.weather.gov/mkx/Climate_Normals",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MMSD — Kinnickinnic River flood management",
+      "url": "https://www.mmsd.com/what-we-do/flood-management/kinnickinnic-river",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "We Energies — company overview and new service",
+      "url": "https://www.we-energies.com/services/new-service",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Critical Systems Realty MIWI1 — Wells Building carrier hotel",
+      "url": "https://www.datacenters.com/1547-critical-systems-realty-miwi1-wells-building",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Racine County Eye — Microsoft $13.3B Mount Pleasant expansion proposal",
+      "url": "https://racinecountyeye.com/2026/01/20/microsoft-13b-expand-mount-pleasant/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WPR — PSCW modifies We Energies data-center rate",
+      "url": "https://www.wpr.org/news/state-regulators-change-we-energies-data-center-rate-proposal-to-protect-customers",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16(1)(a) — footing/frost depth",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/1/a",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DSPS — commercial code update to 2021 IBC",
+      "url": "https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — seasonal weight restrictions",
+      "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — MPO/region contacts (Southeast Region, Waukesha)",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/local-gov/plning-orgs/contacts.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin & Southern Railroad (WSOR) — Watco",
+      "url": "https://www.watco.com/service/rail/wsor/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DistanceCalc — Cedar Rapids, IA to Milwaukee, WI driving distance (244 mi)",
+      "url": "https://distancecalc.com/how-far-from-cedar-rapids-ia-to-milwaukee-wi",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — northern long-eared bat non-federal guidance",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — construction stormwater program",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic / designRadialIceIn",
+      "attempted": "ASCE hazard tool and USGS design-maps API blocked by egress proxy; SPS 362.1608 snow-zone value for Milwaukee County not readable; TIA-222 county ice data not freely published."
+    },
+    {
+      "field": "designCriteria.designTempLowF / designTempHighF",
+      "attempted": "ASHRAE design temperatures for Mitchell Intl not retrieved; only NWS normals (not design values) sourced."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — Milwaukee commercial application",
+      "attempted": "State 48-in. rule sourced; no city amendment found — confirm with the Permit and Development Center."
+    },
+    {
+      "field": "regulatory.buildingAHJs — plan review timelines",
+      "attempted": "No published commitments on city pages; confirm by phone."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain administrator title not found; MMSD watershed roles documented but the NFIP administrator designation needs confirmation with the city."
+    },
+    {
+      "field": "logistics — Ch. 115 lane-occupancy fee currency",
+      "attempted": "Only the 2018 DPW fee schedule surfaced; current fees must be verified before bidding."
+    },
+    {
+      "field": "geotech — bearing range, depth to bedrock, groundwater, corrosivity",
+      "attempted": "NRCS soil series pages returned 403; only qualitative WGNHS/TRB characterization sourced."
+    },
+    {
+      "field": "utilities.notableFiberProviders",
+      "attempted": "Metro FTTH provider claims (AT&T Fiber, Spectrum) could not be independently verified — left empty pending an FCC broadband map check."
+    },
+    {
+      "field": "seasonality — NCEI normals confirmation",
+      "attempted": "weather.gov fetches blocked; Jan normals and snowfall extracted via search from the NWS normals page — verify the table directly."
+    },
+    {
+      "field": "environmental — Milwaukee County IPaC species list",
+      "attempted": "IPaC interactive app not reachable from this environment."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 1 gate needs 1+ real project and 4 images from CSS project intake — never invented."
+    },
+    {
+      "field": "operations — drive time and counties served",
+      "attempted": "244 road miles corroborated by two routing sites; 3.9 h is those sites' estimate pending ops' own routing. County coverage list needs ops sign-off."
+    }
+  ]
+}

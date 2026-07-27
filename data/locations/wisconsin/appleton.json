@@ -1,0 +1,663 @@
+{
+  "identity": {
+    "slug": "appleton",
+    "city": "Appleton",
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "counties": [
+      "Outagamie",
+      "Calumet",
+      "Winnebago"
+    ],
+    "msa": "Appleton, WI (Outagamie and Calumet counties)",
+    "tier": 3,
+    "latitude": 44.2619,
+    "longitude": -88.4154,
+    "elevationFt": 790,
+    "population": {
+      "value": 75644,
+      "source": "U.S. Census Bureau, 2020 Census (recheck the current estimates vintage before sign-off)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-41"
+    ],
+    "majorRoutes": [
+      "US-10",
+      "WIS 441",
+      "WIS 47",
+      "WIS 96"
+    ]
+  },
+  "metadata": {
+    "title": "Appleton, WI Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Appleton and the Fox Cities — red-clay foundations, duct bank, and compound work along Wisconsin's expanding I-41 corridor.",
+    "h1": "Telecom Site Civil Construction in Appleton, Wisconsin",
+    "intro": "Appleton anchors the Fox Cities, and right now the defining fact of building here is the road: WisDOT is widening 23 miles of I-41 from four to six lanes between Appleton and De Pere through 2030, reshaping access, utility relocations, and haul routes across the whole corridor. Beneath the schedule noise, the ground is glacial Lake Oshkosh legacy — red clays filling the Fox River lowland over eastward-dipping Paleozoic bedrock — and Wisconsin's 48-inch frost rule sets the floor under every foundation. From our Cedar Rapids yard, 274 road miles southwest, CellSite Solutions self-performs hut pads, duct bank, grounding, and compound civil across Outagamie, Calumet, and Winnebago county portions of the metro.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 through the 2021 IBC, which Wisconsin's commercial code (SPS 361–366) adopted effective September 1, 2025 with mandatory compliance for plans submitted November 1, 2025 onward; check the SPS 361 reference table",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Query USGS design-maps per site before publishing seismic parameters, and read Wisconsin's alternate ground-snow zone map (SPS 362.1608) for the Fox Valley value before stating a snow load."
+    },
+    "frostDepthIn": {
+      "value": 48,
+      "source": "Wis. Admin. Code SPS 321.16 sets footings below frost penetration or at least 48 in. below adjacent grade, whichever governs. Confirm commercial application and any local amendment with the City of Appleton Inspections Division before releasing a design.",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Appleton sits in the Green Bay–Fox River lowland. Glacial drift and lake deposits blanket a Paleozoic bedrock sequence — sandstone, dolomite, limestone, and shale of Cambrian and Ordovician age — that dips eastward at roughly 25 to 30 feet per mile; the lowland west and south of Lake Winnebago was floored by glacial Lake Oshkosh, which left the red clays that fill the valley, and the Fox River has cut a shallow valley through the city. (USGS Water-Supply Paper 1421, Geology and ground-water resources of Outagamie County; WGNHS, Green Bay and Fox River lowland.)",
+    "dominantSoilTypes": [
+      "Glacial Lake Oshkosh red clays",
+      "Glacial till and drift",
+      "Fox River alluvium (valley reaches)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping specific to the Appleton area was found in this research pass. Documented Wisconsin karst concentrates in the Silurian dolomite of the Niagara Escarpment east of the Fox Valley; keep a screening line in geotech scopes near the escarpment side of the metro."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Red clay is the recurring character in Fox Valley foundation work. It carries load adequately when confined and dry, but it drains slowly, softens dramatically when worked wet, and turns an unprotected subgrade into rutted mush under equipment traffic — so the construction sequence (stone early, water managed, excavations closed fast) matters as much as the foundation type. Wisconsin's 48-inch embedment applies to every footing and pier regardless, making excavation depth a code fact rather than an engineering choice for most telecom structures. Where the clay is deep and soft, helical piles or drilled piers bypass the problem layer; where till or shallower competent material shows up in the borings, conventional spread footings below frost remain the economical default. The borings, not the landform map, make the call per site."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Appleton — Inspections Division (Community Development Department)",
+        "url": "https://www.appleton.org/business/building-inspection",
+        "phone": "920-832-6411",
+        "typicalReviewDays": null,
+        "note": "100 North Appleton Street. Inspector in-office hours run 8:00–9:30 a.m. weekdays; commercial work follows the statewide SPS 361–366 code with state plan review by project size. Review durations unpublished — confirm current queues by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Wisconsin Uniform Commercial Building Code (SPS 361–366), 2021 IBC base, effective September 1, 2025; plans submitted on or after November 1, 2025 must comply",
+      "source": "Wisconsin DSPS commercial building code news release — https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small-cell deployments statewide run under 2019 Wisconsin Act 14 (Wis. Stat. 66.0414) — ROW collocation as a permitted use, limited municipal discretion, and collocation charges capped at the lesser of actual cost or $250 per facility annually.",
+    "rowPermitAuthority": {
+      "name": "City of Appleton Department of Public Works — Engineering (Permit to Excavate in the Public ROW)",
+      "url": "https://appletonwi.gov/government/departments/public_works/engineering/excavation_permit.php",
+      "phone": null,
+      "typicalReviewDays": 5,
+      "note": "Excavation permits must be in hand at least 48 hours before work starts, with the approved permit on site; a sketch or site plan accompanies the application. ROW occupancy permits allow up to five full business days for approval."
+    },
+    "stateDotDistrict": {
+      "name": "WisDOT Northeast Region (Green Bay office) — Outagamie County's regional office",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The I-41 expansion project office is the added coordination point for any work touching the corridor through 2030."
+    },
+    "oneCallCenter": {
+      "name": "Diggers Hotline (Wisconsin 811)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Per Wis. Stat. 182.0175.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Wisconsin DNR — WPDES construction site stormwater general permit",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "14-working-day NOI lead ahead of disturbing one acre or more; the city also issues its own erosion-control permits through the Inspections Division."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Appleton's permit stack is navigable if the leads are respected. City building and erosion-control permits run through the Inspections Division under the statewide SPS code; ROW excavation permits come from Public Works Engineering with a 48-hour minimum lead (occupancy permits up to five business days); Diggers Hotline wants three business days before any dig; and the WDNR stormwater NOI needs 14 working days ahead of an acre of disturbance. The wildcard through 2030 is the I-41 project: scopes near the corridor coordinate with WisDOT's Northeast Region and the project office, whose ramp closures and staging can move an access plan mid-season."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "We Energies (WEC Energy Group)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Maintains an Appleton service center (800 S Lynndale Dr) and serves much of the Fox Cities; territory boundaries in the valley interleave with WPS — confirm the serving utility per parcel on the PSC territory map."
+      },
+      {
+        "name": "Wisconsin Public Service (WPS, WEC Energy Group)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Green Bay-headquartered sister utility serving northeastern Wisconsin; adjoins and interleaves with We Energies territory around the Fox Valley."
+      }
+    ],
+    "ilec": "AT&T Wisconsin (Wisconsin Bell) presumed for the Appleton exchange — unverified; confirm against FCC exchange data before publish",
+    "notableFiberProviders": [
+      "TDS (fiber to roughly three-quarters of the city, up to 8 Gbps)",
+      "AT&T Fiber",
+      "Spectrum"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Class II spring restrictions on vulnerable state highways, typically early March to early-to-mid May (2026 season: February 20 – April 30 by zone)",
+      "postingAuthority": {
+        "name": "WisDOT statewide postings and frozen-road declarations; Outagamie, Calumet, and Winnebago county highway departments and towns post local roads",
+        "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "The Fox Valley's rural fringes are where postings bite: I-41 and the four-lane network stay open to legal loads, but town and county roads to greenfield sites post hard during thaw. In 2026 the restriction season started February 20 — early prep matters."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "WisDOT Oversize/Overweight Permits — wi.gotpermits.com",
+      "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/osow.aspx",
+      "phone": "608-266-7320",
+      "typicalReviewDays": null,
+      "note": "Wis. Stat. 348.26–348.27; through 2030, OSOW routing near the I-41 work zone between Appleton and De Pere deserves an extra check against active lane and ramp closures."
+    },
+    "bridgeOrClearanceConstraints": "The I-41 reconstruction between WIS 96 (Appleton) and County F (De Pere) runs staged closures — including interchange ramps such as WIS 47/Richmond Street in 2026 — that change truck routing season to season; verify against the project's current traffic bulletins before scheduling heavy loads.",
+    "railroads": [
+      {
+        "name": "Canadian National (Wisconsin Central)",
+        "crossingPermitNote": "CN retains the main freight spine through the Fox Valley area; crossings process through CN's public-projects/utility permitting channel, which is a long-lead item."
+      },
+      {
+        "name": "Fox Valley & Lake Superior Rail System (FOXY, Watco)",
+        "crossingPermitNote": "Since 2022 FOXY has operated the former CN/Wisconsin Central branch network out of Appleton — including the Appleton–Shawano and Appleton–New London lines — so a Fox Cities fiber route often crosses shortline track downtown rather than Class I track."
+      }
+    ],
+    "urbanRowRequirements": "Appleton's ROW rules are concrete: an excavation permit from Public Works Engineering at least 48 hours before work, the approved permit physically on site, and a site sketch with each application; separate occupancy permits (up to five business days' processing) cover non-excavation uses of the ROW such as staging."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Suitable northern long-eared bat habitat carries an April 1 – October 31 clearing restriction under the transportation programmatic; occupied roost trees and a 150-ft radius are protected June 1 – July 31; no clearing within 0.25 mile of hibernacula",
+      "driver": "Northern long-eared bat (federally endangered)",
+      "source": "WisDOT NLEB non-federal guidance (April 2023)"
+    },
+    "shpo": {
+      "name": "Wisconsin Historical Society — State Historic Preservation Office",
+      "url": "https://www.wisconsinhistory.org/preserve/state-historic-preservation-office/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Applies to federally funded work; the Fox River's paper-era industrial waterfront can carry historic-resource sensitivity in the urban core."
+    },
+    "wetlandsAuthority": {
+      "name": "Wisconsin DNR — state wetland permitting under Wis. Stat. 281.36, reaching both federal and nonfederal wetlands",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The DNR permit includes the federal water quality certification; exemptions are tight (≤1 acre urban / ≤3 rural with pre-notification)."
+    },
+    "usaceDistrict": "St. Paul District (MVP)",
+    "listedSpeciesNote": "NLEB restrictions drive the clearing calendar statewide; an Outagamie/Calumet/Winnebago IPaC pull was not run in this pass and must be generated per project.",
+    "floodplainPrevalenceNote": "The Fox River corridor through the city carries the principal mapped floodplain; the city's floodplain administrator was not identified during research — confirm with Appleton Community Development, and screen river-adjacent parcels against FEMA mapping first."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Deeply frozen; interior Wisconsin cold without much lake moderation",
+        "earthworkConcrete": "restricted",
+        "note": "Frozen-road declarations may permit heavier hauls on designated routes"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Maximum frost; thaw can begin at month's end",
+        "earthworkConcrete": "restricted",
+        "note": "2026 Class II postings began February 20"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw underway; red clay saturates and loses strength",
+        "earthworkConcrete": "restricted",
+        "note": "Postings binding on town and county roads to rural sites"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Frost exits; clay sites stay soft weeks after snowmelt",
+        "earthworkConcrete": "constrained",
+        "note": "NLEB clearing restriction begins April 1 in suitable habitat"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Postings lift; subgrades firm with drying weather",
+        "earthworkConcrete": "workable",
+        "note": "Deferred hauls and sets move early in the month"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Good working ground between rain events",
+        "earthworkConcrete": "favorable",
+        "note": "Roost-tree protection window June 1 – July 31"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak season; clay workable when moisture is managed",
+        "earthworkConcrete": "favorable",
+        "note": "I-41 work-zone traffic at its heaviest — plan deliveries off-peak"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Best sustained production window",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Firm ground, moderating temperatures",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freezes; season winds down",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice resumes late month"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost re-entering the clay; snowpack begins",
+        "earthworkConcrete": "constrained",
+        "note": "Clearing window open in restricted habitat (Nov 1 – Mar 31)"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Winter operations; ground freezing toward design depth",
+        "earthworkConcrete": "restricted",
+        "note": "Enclosures, warm mix, and cure monitoring on any pour"
+      }
+    ],
+    "narrative": "The Fox Valley construction year is interior-Wisconsin short: real winter from December into April, a thaw season governed by weight postings (2026: February 20 – April 30), and a production core of May through October that the red clay can shorten further after wet stretches. Two calendars overlay the weather here. The bat-clearing window pushes greenfield tree removal into winter, and the I-41 project calendar — active construction through 2030 — moves traffic, closes ramps, and concentrates regional contractor demand in the same summer months every year. Validate the month-by-month detail against NCEI normals for the Appleton area before publication; this table reflects the restriction record and regional pattern rather than a station data pull."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Thick drift and lake-clay fill keep bedrock below telecom excavation depths through most of the lowland; borings screen the exceptions toward the valley edges.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Wet red clay spoil compacts poorly and reuses badly — assume export on urban sites and price import backfill accordingly.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Wisconsin repealed state prevailing wage (2017 Act 59); Davis-Bacon governs federally funded scopes, BEAD builds included.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "The standard northern premiums apply — 48-inch embedment, December–March pour protection, thaw-season routing — plus work-zone logistics costs near the I-41 corridor through 2030.",
+    "narrative": "Four drivers do most of the moving on a Fox Cities civil number. Depth: 48 inches of frost embedment on every foundation, which is excavation, spoil, and backfill before loads are even discussed. Water: red clay that must be worked at the right moisture, protected with stone, and dewatered in season — the difference between a good and bad clay month can exceed any other line on the estimate. Season: winter protection on one end of the year, posted roads on the other. And through 2030, the corridor: the I-41 expansion consumes regional contractor capacity, complicates deliveries, and adds coordination hours to any scope near it, while also generating relocation and access work of its own. Drivers only — unit pricing comes from borings, routes, and dates, not from a county page."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Wisconsin licenses no commercial general contractors at the state level; commercial projects are governed by SPS-code permitting and plan review, with electrical and plumbing trades individually licensed. The DSPS Dwelling Contractor credential covers only 1–2 family residential work. Summary compiled from secondary sources — verify with DSPS before relying on it.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme cold",
+      "ice storm",
+      "tornado",
+      "flood"
+    ],
+    "designImplications": "Interior-Wisconsin winter drives the design agenda: 48-inch foundations, generator cold-start packages, and snow-tolerant compound layouts. Severe summer convection warrants conservative equipment anchorage, and Fox River-adjacent parcels add floodplain screening before siting. Wind, ice, and snow design values publish only after ASCE hazard and TIA-222 lookups specific to this location.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "I-41 expansion through the Fox Cities in full construction",
+        "detail": "WisDOT is reconstructing and widening 23 miles of I-41 from four to six lanes between WIS 96 in Appleton and County F in De Pere, with 2026 workfronts including the Buchanan Street overpass and WIS 47 interchange and full completion scheduled for 2030 — a multi-year source of utility relocation and access-planning work along the corridor.",
+        "category": "transportation",
+        "sourceUrl": "https://i41project.wisconsindot.gov/",
+        "asOf": "2026-04-06"
+      },
+      {
+        "headline": "Wisconsin BEAD funds a statewide fiber pipeline",
+        "detail": "The NTIA-approved December 2025 final proposal routes $1.056 billion through the PSC of Wisconsin with roughly 76% of funded locations on fiber — sustained rural fiber construction across northeastern Wisconsin, including unserved edges of the Fox Valley counties.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+        "asOf": "2025-12-02"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "HDD / road bore",
+        "OSP duct bank",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Appleton is one of Wisconsin's most contested fiber markets — TDS has overbuilt roughly three-quarters of the city with multi-gig fiber against AT&T and Spectrum — and competitive overbuild means continuous lateral, vault, and restoration work in live ROW. The city's rules reward preparation: excavation permits 48 hours ahead minimum, approved permit on site, sketch with every application. Crossing the metro means crossing rail that changed hands recently — Watco's FOXY shortline now runs the former CN branches out of downtown Appleton toward Shawano and New London, while CN keeps the Class I spine nearby — and each carries its own crossing process. Under it all, the glacial Lake Oshkosh red clay bores beautifully at the right moisture and punishes open trenches after rain.",
+      "localSpecificsReferenced": [
+        "TDS fiber overbuild (~3/4 of the city, 8 Gbps)",
+        "Appleton 48-hour ROW excavation permit rule",
+        "FOXY Appleton–Shawano / Appleton–New London lines",
+        "Glacial Lake Oshkosh red clay"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "shelter and cabinet pads",
+        "macro compound construction",
+        "ground ring and halo",
+        "compound fencing",
+        "generator and fuel containment pads",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "The wireless story in the Fox Cities is corridor coverage plus growth-edge capacity: the I-41 spine carries the metro's traffic and its densification demand, and the expansion project will keep shifting both through 2030 — a compound access plan written in 2026 may need rewriting after the next ramp configuration. Foundations follow Wisconsin's coldest-in-the-footprint rules: 48 inches of embedment minimum, winter pours under protection from December into March, and greenfield tree clearing effectively banished to the November–March window by bat habitat restrictions. Spring shelter sets to rural Outagamie or Calumet county sites wait on town-road postings even while I-41 itself stays open. We sequence Fox Valley wireless programs backward from those two constraints — the haul date and the clearing window.",
+      "localSpecificsReferenced": [
+        "I-41 expansion (2026–2030) access impacts",
+        "48-inch frost embedment",
+        "NLEB winter-only clearing",
+        "Town/county road postings in thaw season"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards"
+      ],
+      "narrative": "The honest edge picture for Appleton: no hyperscale campus is announced here, and the state's data center gravity sits southeast — Microsoft at Mount Pleasant, Vantage at Port Washington — but the Fox Cities are exactly the kind of regional metro where edge capacity lands next: a strong fiber base (TDS's multi-gig overbuild plus AT&T and Spectrum), an interstate corridor being widened to six lanes, and a two-utility power market where We Energies and WPS territories interleave and the serving utility is a parcel-level question. Edge enclosure pads, utility yards, and generator compounds here build to interior-Wisconsin specs — 48-inch foundations, snow-shedding layouts, cold-start generation — which is standard work for crews that winter in Iowa.",
+      "localSpecificsReferenced": [
+        "TDS/AT&T/Spectrum fiber base",
+        "I-41 six-lane expansion",
+        "We Energies / WPS interleaved territories",
+        "Mount Pleasant and Port Washington campuses (regional context)"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 274,
+      "driveTimeHours": 4.4,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Outagamie",
+      "Calumet",
+      "Winnebago"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The Fox Cities run from Cedar Rapids is a US-151 story: northeast through Dubuque, across to Madison and up through Fond du Lac, then I-41 north into the valley — 274 road miles that our crews treat as a deploy-and-stay market, mobilizing once per scope and working the week on site. Arriving from the south means the I-41 work zone between Appleton and De Pere sits beyond most site clusters rather than across the approach, but any program extending north toward Green Bay threads the construction corridor, and we route equipment moves against the project's current closure bulletins. Appleton pairs naturally with Green Bay and Oshkosh stops on a single Fox Valley mobilization. Response-time commitments require ops sign-off before they are stated.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do telecom foundations go in the Fox Cities?",
+      "answer": "Forty-eight inches below adjacent grade at minimum — or deeper if frost penetration demands it — under Wis. Admin. Code SPS 321.16. That rule holds for shelter piers, hut footings, fence posts, and bollards alike, and it is why even small Fox Valley foundations carry real excavation quantities. The Appleton Inspections Division (920-832-6411) confirms the application to a specific commercial project.",
+      "segment": "general"
+    },
+    {
+      "question": "What should we expect from the red clay when boring around Appleton?",
+      "answer": "Glacial Lake Oshkosh left the valley floored with red clay: a consistent, fine-grained boring medium at proper moisture that holds a bore path well, with bedrock generally too deep to interfere. Its weakness is water — after rain or thaw it softens, smears, and makes open cuts and mud management slow. Plan bores over trenches in wet season and keep drilling fluid programs tuned for clay.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who permits and inspects building work in Appleton?",
+      "answer": "The City of Appleton Inspections Division within Community Development, at 100 North Appleton Street. Commercial telecom structures fall under Wisconsin's uniform SPS 361–366 code (2021 IBC base since September 2025), with state plan review layered on by size, and the city also issues its own erosion-control permits. Inspectors hold in-office morning hours from 8:00 to 9:30 on weekdays.",
+      "segment": "general"
+    },
+    {
+      "question": "How far ahead do we need Appleton ROW permits?",
+      "answer": "The excavation permit from Public Works Engineering must be issued at least 48 hours before work begins — with the approved copy on site — and applications need a sketch or site plan. Occupancy permits for non-excavation ROW use (staging, equipment) allow up to five full business days for approval. Stack those on Diggers Hotline's three business days and the sequence sets your earliest dig date.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does the I-41 construction affect telecom site work in the metro?",
+      "answer": "Through 2030, yes. WisDOT is widening 23 miles of I-41 to six lanes between Appleton and De Pere, and the active work zone closes ramps and shifts traffic season to season — the WIS 47/Richmond Street interchange spent much of 2026 closed, for example. Site access plans, OSOW routings, and delivery windows near the corridor need re-checking against the project's current bulletins, not last year's map.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which railroads will a Fox Cities fiber route encounter?",
+      "answer": "Most often the FOXY — Watco's Fox Valley & Lake Superior Rail System, which took over the former CN/Wisconsin Central branches in 2022 and runs lines out of downtown Appleton toward Shawano and New London — plus CN's retained freight spine in the valley. Shortline crossings can process faster than Class I ones, but neither is quick; crossing applications go in before route lock either way.",
+      "segment": "fiber"
+    },
+    {
+      "question": "When do spring weight limits hit roads around Appleton?",
+      "answer": "Typically early March into late April or May — the 2026 Class II season ran February 20 through April 30 — with town and county roads in Outagamie, Calumet, and Winnebago counties posting their own limits that usually bind before the state map does. I-41 and the four-lane network stay open to legal loads, so thaw-season planning comes down to the local segment between highway and gate.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who supplies power to a new hut or edge enclosure in Appleton?",
+      "answer": "It depends on the parcel: We Energies and Wisconsin Public Service — both WEC Energy Group utilities — interleave service territory around the Fox Cities, so the serving utility is confirmed per address on the PSC territory map. Neither publishes new-service lead times for commercial connections; we obtain the utility's schedule in writing during scoping and design for generator-first commissioning when dates are fixed.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Working red clay: the sequencing call that decides Fox Valley schedules",
+    "body": "In most soils the foundation design is the decision and the construction sequence follows. Fox Valley red clay inverts that: for typical telecom loads, several foundation types will work on paper — spread footing below frost, thickened pad, helicals — and the project is instead won or lost on when and how the clay gets opened. Opened wet, this material smears in the excavation, pumps under rubber tires, refuses compaction, and turns a two-day footing into a week of muck-out and stone. Opened dry, or frozen, it excavates clean and holds a neat wall. So the sequencing rules do the heavy lifting: schedule excavation against the weather window rather than the calendar week; bring the stone in with the excavator, not after the ruts; close and backfill fast instead of leaving holes open over a rain; and in the shoulder seasons, consider letting a winter excavation through frozen clay beat a spring one through saturated clay — the frost you rip through is more predictable than the mud you pump out. Helical piles earn their premium here mostly as a weather hedge: they turn a subgrade-quality problem into a torque log. The 48-inch embedment is fixed by code either way; what a Fox Cities builder actually controls is the moisture state of the clay on the day the bucket goes in."
+  },
+  "sources": [
+    {
+      "label": "Wisconsin DSPS — commercial building code adoption of the 2021 IBC (SPS 361–366)",
+      "url": "https://dsps.wi.gov/Documents/NewsMedia/20250730CommercialBuildingCodeNewsRelease.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wis. Admin. Code SPS 321.16 — frost depth / footing rule",
+      "url": "https://docs.legis.wisconsin.gov/code/admin_code/sps/safety_and_buildings_and_environment/320_325/321/iv/16/2/c/2",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Appleton — Building Inspection (Inspections Division)",
+      "url": "https://www.appleton.org/business/building-inspection",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Appleton — Permit to Excavate in the Public ROW",
+      "url": "https://appletonwi.gov/government/departments/public_works/engineering/excavation_permit.php",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Appleton — Permit to Occupy the Public ROW",
+      "url": "https://appletonwi.gov/government/departments/public_works/engineering/occupancy_permit.php",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USGS Water-Supply Paper 1421 — Geology and ground-water resources of Outagamie County",
+      "url": "https://pubs.usgs.gov/publication/wsp1421",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WGNHS — Green Bay and Fox River lowland (glacial Lake Oshkosh red clays)",
+      "url": "https://wgnhs.wisc.edu/wisconsin-geology/major-landscape-features/green-bay-fox-river-lowland/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — I-41 Project (Appleton to De Pere expansion)",
+      "url": "https://i41project.wisconsindot.gov/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Daily Reporter — WisDOT 2026 construction season preview (I-41, 400 projects)",
+      "url": "https://dailyreporter.com/2026/04/06/wisdot-400-highway-projects-2026-i41-i94-expansion/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Railfan & Railroad — CN's Fox Valley sale to Watco (FOXY, 2021–22)",
+      "url": "https://railfan.com/canadian-nationals-fox-valley-finale/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wikipedia — Fox Valley and Lake Superior Rail System (Appleton–Shawano, Appleton–New London mileages)",
+      "url": "https://en.wikipedia.org/wiki/Fox_Valley_and_Lake_Superior",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — seasonal weight restrictions (frozen road / Class II)",
+      "url": "https://wisconsindot.gov/Pages/dmv/com-drv-vehs/mtr-car-trkr/ssnl-wt-rsrctns/default.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Diggers Hotline — excavator's guide (3 business days)",
+      "url": "https://www.diggershotline.com/excavators-guide",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — construction stormwater (14-working-day NOI)",
+      "url": "https://dnr.wisconsin.gov/topic/Stormwater/construction",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wisconsin DNR — wetland permitting (Wis. Stat. 281.36)",
+      "url": "https://dnr.wisconsin.gov/topic/Wetlands/permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — northern long-eared bat non-federal guidance",
+      "url": "https://wisconsindot.gov/Documents/doing-bus/eng-consultants/cnslt-rsrces/environment/NLEBnon-federalguidance.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "WisDOT — region offices (Northeast Region, Green Bay)",
+      "url": "https://wisconsindot.gov/Pages/about-wisdot/who-we-are/dtsd/dtsd-region-offices.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "PSC of Wisconsin — BEAD process and December 2025 approval",
+      "url": "https://psc.wi.gov/Pages/ServiceType/Broadband/BEADProcess.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "BroadbandNow — Appleton provider overview (TDS fiber ~77%, AT&T, Spectrum)",
+      "url": "https://broadbandnow.com/Wisconsin/Appleton",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Distance-cities — Cedar Rapids, IA to Appleton, WI driving distance (274 mi)",
+      "url": "https://www.distance-cities.com/distance-cedar-rapids-ia-to-appleton-wi",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind, snow, ice, seismic, design temperatures",
+      "attempted": "ASCE Hazard Tool, USGS design-maps, TIA-222 Annex B, and the SPS 362.1608 snow map all unreachable or paywalled from the research sandbox; no Appleton primary values found."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — commercial-code confirmation",
+      "attempted": "48 in. sourced to SPS 321.16; the commercial application and any City of Appleton amendment need confirmation from the Inspections Division."
+    },
+    {
+      "field": "geotech numerics (bearing, bedrock depth, groundwater, corrosivity, expansive risk)",
+      "attempted": "NRCS Web Soil Survey interactive unusable through the proxy; USGS WSP 1421 abstract-level geology only — the report PDF's quantitative tables were not read."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Fox River floodplain noted qualitatively; the city's floodplain administrator was not identified in search results. Confirm with Appleton Community Development."
+    },
+    {
+      "field": "utilities — We Energies vs WPS parcel-level boundary; ILEC confirmation; new-service leads",
+      "attempted": "PSC electric territory map PDF not readable in sandbox; both utilities listed with an interleaving note. AT&T ILEC attribution unverified. No published lead times."
+    },
+    {
+      "field": "environmental — county IPaC species lists",
+      "attempted": "IPaC interactive unreachable; statewide NLEB guidance applied pending project-specific reports."
+    },
+    {
+      "field": "seasonality — NCEI normals for Appleton",
+      "attempted": "Station normals not retrieved; calendar authored from the restriction record and regional pattern."
+    },
+    {
+      "field": "operations — drive-time and coverage confirmation",
+      "attempted": "274 mi / ~4.4 h from a routing aggregator; ops routing check and county coverage sign-off outstanding."
+    },
+    {
+      "field": "identity.msa / counties",
+      "attempted": "City limits span Outagamie, Calumet, and Winnebago counties per common reference; confirm the OMB MSA definition and county list against the current Census delineation file."
+    },
+    {
+      "field": "compliance — DSPS direct confirmation",
+      "attempted": "Licensing summary compiled from secondary sources; DSPS site not fetchable."
+    }
+  ]
+}

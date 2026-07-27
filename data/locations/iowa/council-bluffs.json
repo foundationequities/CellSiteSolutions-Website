@@ -1,0 +1,684 @@
+{
+  "identity": {
+    "slug": "council-bluffs",
+    "city": "Council Bluffs",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "counties": [
+      "Pottawattamie"
+    ],
+    "msa": "Omaha–Council Bluffs, NE-IA",
+    "tier": 2,
+    "latitude": 41.2619,
+    "longitude": -95.8608,
+    "elevationFt": null,
+    "population": {
+      "value": 62799,
+      "source": "U.S. Census Bureau, 2020 Decennial Census (QuickFacts, Council Bluffs city, Iowa)",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-80",
+      "I-29",
+      "I-480"
+    ],
+    "majorRoutes": [
+      "US-6",
+      "US-275",
+      "IA-92"
+    ]
+  },
+  "metadata": {
+    "title": "Council Bluffs, IA Telecom Civil Contractor | CellSite Solutions",
+    "description": "Telecom civil construction in Council Bluffs, Iowa — deep-loess foundations, hyperscale campus support, and fiber and wireless site work near Omaha.",
+    "h1": "Telecom Civil Construction in Council Bluffs, Iowa",
+    "intro": "Roughly $6 billion of Google data center investment sits in Council Bluffs — a campus expanding since 2007, most recently by $1 billion announced in July 2024 — and around it has grown one of the Midwest's denser fiber markets, with Google Fiber now overbuilding a metro already served by Lumen and Cox. The construction ground is just as distinctive: the city sits where the Missouri River's leveed valley floor meets the deep-loess bluffs that give Council Bluffs its name, two soil regimes that demand different foundations, different drainage, and different flood logic. CellSite Solutions crews work this market from Cedar Rapids, a straight interstate run across I-80, self-performing pads, underground, and compound civil scope.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Western Iowa's mapped seismic hazard is low, but no Ss/S1 pair is published here without a USGS design-maps query at the coordinates — and site class deserves real attention in this market because deep loess and soft valley alluvium are exactly the profiles that move a site off default assumptions."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Council Bluffs spans two of Iowa's most contrasting ground conditions: the Missouri River's alluvial valley floor, where most of the city and its industrial corridors sit behind levees, and the Loess Hills along its eastern edge — windblown silt deposits up to 200 feet thick, a landform matched in depth and extent only in China's Shaanxi region. (Iowa Geological Survey, Loess Hills landform region.)",
+    "dominantSoilTypes": [
+      "Deep Wisconsinan (Peoria) loess — moisture-sensitive silt of the bluffs",
+      "Missouri River alluvium — interbedded sands, silts, and clays",
+      "Colluvium and fan deposits at the bluff toes"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Loess is not an expansive clay problem — its governing behaviors are collapse on wetting and severe erodibility. Shrink-swell ratings for specific map units should still come from NRCS data before design; none were readable this session.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The deep loess and alluvial cover of the Missouri valley is not mapped karst terrain; Iowa's karst concentrates in the state's northeast. Statewide GIS screening still applies to any specific parcel."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Ask first which Council Bluffs you are building in. On the leveed valley floor — where the interstates, rail yards, and the Google campus corridor sit — foundations deal with soft, saturated alluvium and shallow groundwater: expect engineered fill or deeper bearing elements for heavier loads, dewatering line items on excavations, and flood-elevation logic inherited from the levee system's accreditation status. On the bluff side, the deep loess will stand in near-vertical cuts when dry and then lose strength dramatically when wetted, so compound grading, compaction moisture control, and — above all — drainage design decide whether a hillside site performs or gullies out. Bearing values, groundwater depths, and settlement estimates belong to site-specific borings; the pattern above only tells you which questions to drill for."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Council Bluffs Building Division (Public Works), 209 Pearl Street",
+        "url": "https://www.councilbluffs-ia.gov/2273/Building-Division",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Handles applications, plan review, and inspections for commercial work citywide; unincorporated sites fall to Pottawattamie County Planning & Development. Review timelines are not published — call before committing a permit date to a schedule."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Construction and life-safety codes as adopted and amended by the State of Iowa; the specific I-code editions in force are not published on the city's code information page — confirm with the Building Division",
+      "source": "City of Council Bluffs — Building Code Information page, https://www.councilbluffs-ia.gov/2513/Building-Code-Information",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Iowa's Cell Siting Act (Iowa Code ch. 8C) preempts local wireless siting standards statewide, including uniform small-wireless permitting under sec. 8C.7A — the Nebraska side of the metro operates under entirely separate Nebraska law.",
+    "rowPermitAuthority": {
+      "name": "City of Council Bluffs Public Works — Right-of-Way Division",
+      "url": "https://www.councilbluffs-ia.gov/562/City-Right-of-Way",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Reviews and approves permits for any work in city right-of-way — street excavations, utility installations, driveways, and sidewalks."
+    },
+    "stateDotDistrict": {
+      "name": "Iowa DOT District 4 (Southwest) — Council Bluffs field office, 3538 S. Expressway",
+      "url": "https://iowadot.gov/locations/district-4-council-bluffs-field-office",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District 4 covers Pottawattamie and sixteen more southwest Iowa counties from offices in Council Bluffs and Atlantic."
+    },
+    "oneCallCenter": {
+      "name": "Iowa One Call",
+      "url": "https://iowaonecall.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Omaha-side work notifies Nebraska 811 instead — a bi-state program runs two locate clocks.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP, NOI, public notice, and DNR authorization precede disturbance. Erosion control deserves extra attention here — disturbed loess erodes aggressively."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Council Bluffs floodplain administration (confirm the responsible office with Community Development)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The floodplain picture is tied to the 26-mile Missouri River levee system and the city's ongoing effort to keep it accredited — accreditation status directly controls how FEMA maps the western portion of the city."
+    },
+    "permitTimelineNarrative": "Building permits go through the Building Division at 209 Pearl Street under state-adopted codes, with right-of-way work permitted separately by the Public Works ROW Division. Add the Iowa DNR General Permit No. 2 track at an acre of disturbance, and floodplain review anywhere the levee-protected valley floor is involved. The recurring schedule surprise in this market is bi-state scope creep: the moment a program touches the Nebraska side, it picks up a second AHJ, a second one-call center, and a second DOT — none of which honor the Iowa clock."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "MidAmerican Energy",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "MidAmerican serves Council Bluffs and has powered the Google campus's successive expansions. New commercial service lead times are not published; schedule from the utility's written commitment."
+      }
+    ],
+    "ilec": "Lumen Technologies (CenturyLink) — identified as the incumbent alongside Cox in industry reporting on Google Fiber's Council Bluffs entry; confirm against the Iowa Utilities Commission exchange-boundary GIS",
+    "notableFiberProviders": [
+      "Google Fiber (GFiber)",
+      "Cox Communications",
+      "Lumen/CenturyLink",
+      "Unite Private Networks"
+    ],
+    "notableDataCenterCampuses": [
+      "Google — Council Bluffs campus (operating since 2007; ~$6B invested, nearly 3M sq ft after the 2024 expansion)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, commonly late February through April as posted each season",
+      "postingAuthority": {
+        "name": "Pottawattamie County Secondary Roads; statewide postings on the Iowa DOT spring restriction map",
+        "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Rural Pottawattamie County sites — and the county's gravel network is large — are reached on roads that carry posted embargoes during the thaw; the county posting list is the binding document for a spring hut or shelter haul."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Iowa DOT Motor Carrier Services (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "phone": "515-237-3264",
+      "typicalReviewDays": null,
+      "note": "Iowa permits stop at the state line; a load continuing into Omaha needs a Nebraska DOT permit, and Missouri River bridge crossings should be verified for the specific structure and load."
+    },
+    "bridgeOrClearanceConstraints": "Missouri River crossings concentrate on the I-80 and I-480 bridges plus local structures, and the metro's interstate geometry changed in November 2025 when Iowa DOT completed the $1.5B Council Bluffs Interstate System program — including the I-80/I-29 dual, divided freeway, where through and local traffic are physically separated. Route oversize hauls with the divided-lane configuration in mind; drivers unfamiliar with it miss local exits.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "Council Bluffs is historic Mile 0 of the transcontinental railroad and remains a major UP yard and corridor city — expect substantial UP trackage between almost any two points on the valley floor, and file crossing applications early through UP's utility-crossing process."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Iowa Interstate Railroad (IAIS)",
+        "crossingPermitNote": "The former Rock Island main line from Chicago reaches its western end at Council Bluffs — a shortline process rather than a Class I one, but a permit process nonetheless."
+      }
+    ],
+    "urbanRowRequirements": "Any work in city right-of-way — excavations, utility installations, sidewalk and driveway work — requires a permit reviewed and approved by the Public Works Right-of-Way Division before construction."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Trees 3 inches and larger cleared only October 1 – March 31",
+      "driver": "Standard Iowa practice protecting federally listed bats; verify Pottawattamie County specifics through a project IPaC query",
+      "source": "Iowa DOT Construction Manual 6.10 — https://iowadot.gov/erl/current/CM/content/CM%206.10.htm"
+    },
+    "shpo": {
+      "name": "State Historic Preservation Office of Iowa (Iowa Economic Development Authority)",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 reviews run 30 days per complete submission and restart when submittals are incomplete."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Omaha District regulatory program; Iowa DNR issues Section 401 certification for the Iowa side",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Omaha District (NWO)",
+    "listedSpeciesNote": "Bats drive the clearing calendar; beyond that, Missouri River margin work can implicate listed river species, so treat the project IPaC report — not a county generality — as the controlling list.",
+    "floodplainPrevalenceNote": "The Missouri River has tested this city twice in recent memory: the 2011 flood held above flood stage from late May into September (peak stage 36.07 ft, an event estimated beyond a 200-year return), and 2019 brought a federal disaster declaration for Council Bluffs and Pottawattamie County. The 26-mile levee system and its accreditation effort determine mapped flood risk for the city's west side."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Hard-frozen ground; arctic outbreaks and wind chill drive crew and equipment limits",
+        "earthworkConcrete": "restricted",
+        "note": "Winter concrete protection mandatory on any pour"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Frost at maximum depth; blizzard risk on the I-80 corridor",
+        "earthworkConcrete": "restricted",
+        "note": "County embargo season can open by month's end"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw and saturation; upstream Missouri basin runoff begins",
+        "earthworkConcrete": "constrained",
+        "note": "The March 2019 flood emergency began in exactly this window; clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying subgrades away from the river; embargoes lifting as roads firm",
+        "earthworkConcrete": "workable",
+        "note": "Loess sites need erosion control in place before spring rains"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Full production conditions; severe-weather season ramps up",
+        "earthworkConcrete": "favorable",
+        "note": "River-stage awareness on valley-floor sites — 2011's long flood began in late May"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; peak thunderstorm and hail season",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot; ground dry and firm between storms",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on midsummer pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Continued heat; reliable earthwork conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Dry, stable, and productive",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling with first freeze typically arriving mid-fall",
+        "earthworkConcrete": "favorable",
+        "note": "Clearing window reopens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost taking hold; wind exposure on open valley sites",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete measures begin"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Frozen ground and establishing snowpack",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Council Bluffs builds on a standard upper-Midwest frost calendar — roughly December through March restricted, May through October productive — but with a flood overlay that is unusual even for a river town: because the Missouri's floods are driven by basin-wide snowpack and reservoir operations upstream, high-water risk here arrives on the basin's schedule (March 2019, or May-through-September 2011) rather than only after local storms. Valley-floor schedules in spring and early summer should carry river-stage contingency. Verify month-level climate figures against NOAA NCEI normals for the Omaha area station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Under 200 feet of loess or deep valley alluvium, rock refusal is rarely the cost story in this market — depth to competent bearing and groundwater management are.",
+    "aggregateHaulNote": "Local aggregate in the deep-loess belt is limited compared to eastern Iowa's quarry country; confirm source and haul distance with estimating early, because it moves the number more here than most Iowa markets.",
+    "readyMixProximityNote": "The Omaha–Council Bluffs metro supports multiple ready-mix suppliers; plant assignment and delivery windows are a scheduling exercise, not a scarcity problem.",
+    "spoilDisposalNote": "Excavated loess is moisture-sensitive and erodible — stockpiles need cover and containment, and reuse as structural fill requires tight moisture conditioning.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Iowa sets no state prevailing wage; federally funded scopes over $2,000 — BEAD builds included — carry Davis-Bacon rates. Nebraska-side work in a bi-state program is priced under its own rules.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter protection from December through March, plus a market-specific premium: spring river-stage risk can idle valley-floor work, and loess sites need erosion control built and maintained ahead of every wet period.",
+    "narrative": "Three things move a Council Bluffs civil number. First, ground regime: valley-floor alluvium buys dewatering and deeper bearing; bluff-side loess buys moisture-conditioned earthwork and serious drainage. Second, water — both kinds: the levee-and-floodplain context on the west side, and the erosive response of disturbed loess to ordinary rain. Third, the border: bi-state programs double the permitting surface, and Nebraska wage and permit structures differ from Iowa's. Mobilization from Cedar Rapids is a scheduled cost at this distance — a four-hour interstate run that turns multi-day scopes into planned overnight rotations rather than commutes. Drivers, not prices; every number here comes from borings and the calendar."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Iowa requires contractor registration with the Division of Labor for anyone earning $2,000 or more per year on Iowa construction work; contractors based out of state also file a $25,000 surety bond. Trade licensing (electrical, plumbing, mechanical) runs separately through Iowa DIAL. There is no statewide general contractor license to hold.",
+    "additionalRegistrations": [
+      "Nebraska contractor registration and applicable Omaha-metro local requirements govern any Nebraska-side scope in a bi-state program"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "tornado",
+      "hail",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "Basin-scale Missouri River flooding — 2011's months-long event and 2019's disaster declaration — makes levee status and pad elevation the first design inputs on valley-floor sites. Plains severe weather adds tornado and large-hail exposure arguing for robust anchorage and equipment protection, and winter cold sets frost-protected foundation depths that must be confirmed from the adopted code rather than assumed. Wind and ice loading values publish only once sourced for Pottawattamie County.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google adds another $1B to the Council Bluffs campus",
+        "detail": "Google announced a further $1 billion expansion of its Council Bluffs data center — the campus's fourth expansion since 2007 — bringing the site to nearly 3 million square feet and roughly $6 billion of cumulative investment, alongside Missouri River valley water-conservation funding.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterfrontier.com/hyperscale/article/55093750/google-continues-to-invest-in-iowa-with-another-1-billion-planned-for-its-council-bluffs-campus",
+        "asOf": "2024-07-02"
+      },
+      {
+        "headline": "Google Fiber building its third Iowa community in Council Bluffs",
+        "detail": "The Council Bluffs City Council approved a license agreement for a citywide Google Fiber FTTH network — following West Des Moines and Des Moines — with construction beginning in late 2023 and first customers targeted for 2024, in a market already served by Cox and Lumen.",
+        "category": "carrier program",
+        "sourceUrl": "https://fiber.google.com/blog/2023/03/google-fiber-is-coming-to-council.html",
+        "asOf": "2023-03-30"
+      },
+      {
+        "headline": "Council Bluffs Interstate System program reaches substantial completion",
+        "detail": "Iowa DOT's $1.5B reconstruction of I-80, I-29, and I-480 — 14+ miles of interstate including the I-80/I-29 dual, divided freeway — made its final traffic shift in November 2025, ending nearly two decades of staged construction across the metro.",
+        "category": "transportation",
+        "sourceUrl": "https://iowadot.gov/news/2025-11-14/council-bluffs-interstate-system-improvement-program-reaches-major-milestone-final-interstate",
+        "asOf": "2025-11-14"
+      },
+      {
+        "headline": "Iowa BEAD: $400M in federal broadband funds moving to builds",
+        "detail": "Iowa's $400M BEAD allocation cleared NTIA approval of the state's final proposal, with subgrantee agreements executing into 2026 — rural Pottawattamie County contains eligible territory.",
+        "category": "broadband program",
+        "sourceUrl": "https://dom.iowa.gov/broadband/bead-program",
+        "asOf": "2025-07-09"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "restoration",
+        "service lateral to hut"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Council Bluffs is a rare Iowa city with three wireline competitors in motion at once: Google Fiber building its citywide FTTH network on top of incumbent Cox and Lumen plant, which means the right-of-way is crowded, locate volume is heavy, and clean potholing discipline matters on every bore. Route design battles two local facts — Union Pacific trackage, dense across a valley floor that has been a major rail hub since the transcontinental era, and soils that flip from erodible bluff loess to saturated river alluvium within a mile. Rural Pottawattamie County adds BEAD-eligible territory reached over embargoed gravel roads in spring. Hut sites on the west side carry a levee-and-floodplain screening step that a Cedar Rapids or Des Moines route never sees. We self-perform boring, duct bank, vault setting, and restoration across all of it.",
+      "localSpecificsReferenced": [
+        "Google Fiber citywide build over Cox/Lumen incumbents",
+        "Union Pacific valley-floor trackage (historic Mile 0)",
+        "26-mile Missouri River levee system",
+        "BEAD-eligible rural Pottawattamie County"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "access road and turnaround",
+        "ground ring and halo",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless civil in Council Bluffs divides at the bluff line. Bluff-side compounds put access roads and pads on deep loess, where the engineering problem is water, not bearing: cut faces stand vertically until wetted, disturbed slopes gully in a single storm season, and a compound that skimps on drainage and surfacing rebuilds its access road every spring. Valley-floor sites trade that for flood logic — pad and generator elevations set against the levee system's accreditation picture, with 2011 and 2019 as the reference events. Iowa's ch. 8C framework governs small-cell and siting rules on this side of the river; Omaha's rules stop at the state line. The interstate rebuild that finished in November 2025 also quietly improved the market's logistics: shelter hauls now move through a completed I-80/I-29 corridor instead of a construction zone that lasted seventeen years.",
+      "localSpecificsReferenced": [
+        "Loess Hills bluff terrain",
+        "Missouri River floods of 2011 and 2019",
+        "Council Bluffs Interstate System completion (Nov 2025)",
+        "Iowa Code ch. 8C"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "edge enclosure and micro-DC pads"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The Google campus is the gravitational center of this market: expanding since 2007, roughly $6 billion deep after the $1 billion addition announced in July 2024, and pushing toward 3 million square feet — one of the longest-running hyperscale buildouts in the country. Sustained campus construction at that scale throws off exactly the civil scope we self-perform: transformer and switchgear pads, generator yards, security perimeters, campus duct bank, and the heavy-haul access work that supports major equipment deliveries. Around the campus, MidAmerican's load growth and the metro's fiber density keep pulling smaller edge and interconnection deployments into Council Bluffs, each needing an enclosure pad, service conduit, and grounding on a compressed schedule. On the valley floor, all of it — campus support and micro-edge alike — starts from the same two site questions: what does the utility's schedule allow, and what does the levee-based flood mapping require.",
+      "localSpecificsReferenced": [
+        "Google Council Bluffs campus ($6B, ~3M sq ft)",
+        "MidAmerican Energy service territory",
+        "Missouri River levee-based flood mapping"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 254,
+      "driveTimeHours": 3.7,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Pottawattamie",
+      "Harrison",
+      "Mills"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The run to Council Bluffs is the simplest long drive in our footprint — I-380 to I-80 and then one road west across the entire state, roughly four hours yard to site now that the Council Bluffs interstate rebuild is complete. That distance shapes how we plan the work rather than whether we take it: single-day scopes get early starts and late returns, while anything multi-day runs as a planned rotation with crews lodged locally and equipment left secured on site, which is more efficient than daily windshield time in both directions. The honest seasonal caveat is winter on western I-80, where ground blizzards can close the corridor outright for a day — cold-season schedules in this market carry that contingency. Response-time commitments for emergency work are made by ops, not published here.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Which building codes apply to a telecom project in Council Bluffs?",
+      "answer": "The city enforces construction and life-safety codes as adopted and amended by the State of Iowa, administered by the Building Division at 209 Pearl Street — but the specific I-code editions in force are not published on the city's website, so we confirm editions (and the frost depth they set) directly with the Division before design. Unincorporated Pottawattamie County sites permit through the county instead.",
+      "segment": "general"
+    },
+    {
+      "question": "What makes the ground in Council Bluffs unusual for foundations?",
+      "answer": "The city spans two extremes: Missouri River alluvium on the leveed valley floor — soft, saturated, shallow groundwater — and the Loess Hills on its east side, windblown silt up to 200 feet thick that stands in vertical cuts when dry but collapses and gullies when wetted. The Iowa Geological Survey notes deposits this deep exist essentially only here and in Shaanxi, China. Foundation and drainage design differ completely between the two, so the first siting question is simply which ground you're on.",
+      "segment": "general"
+    },
+    {
+      "question": "How does the Google data center campus affect telecom construction demand here?",
+      "answer": "It anchors it. The campus has been expanding since 2007, passed roughly $6 billion in cumulative investment with the $1 billion addition announced in July 2024, and approaches 3 million square feet — generating ongoing civil scope in transformer pads, generator yards, duct bank, and heavy-haul access, plus the fiber and edge deployments that cluster around hyperscale capacity.",
+      "segment": "edge"
+    },
+    {
+      "question": "Who permits work in Council Bluffs city right-of-way?",
+      "answer": "The Public Works Right-of-Way Division reviews and approves permits for any work in city ROW — street excavations, utility installations, driveway and sidewalk construction. Building permits are a separate track through the Building Division, and Iowa One Call needs its two business days' notice before any excavation, in or out of the ROW.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does Missouri River flood risk actually affect site schedules?",
+      "answer": "Yes, and differently than local-rain flooding: Missouri floods are driven by basin-wide snowpack and upstream reservoir operations, so high water arrives on the basin's calendar. The 2011 flood held above flood stage from late May into September; March 2019 brought a disaster declaration for the city and county. Valley-floor telecom sites carry river-stage contingency in spring and early summer, and levee accreditation status drives the flood mapping behind pad elevations.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What happens when a fiber or wireless program crosses into Omaha?",
+      "answer": "The state line resets the paperwork: Nebraska 811 replaces Iowa One Call, Nebraska DOT permits replace Iowa DOT permits, Nebraska contractor registration and wage rules apply, and Omaha's local siting rules replace Iowa's ch. 8C framework. We plan bi-state programs as two permitting workstreams from day one so neither side's approvals stall the other's construction.",
+      "segment": "general"
+    },
+    {
+      "question": "Are there seasonal road restrictions for shelter deliveries around Council Bluffs?",
+      "answer": "On the rural network, yes — Pottawattamie County posts spring embargoes on secondary roads during the thaw, typically late February through April, and those postings govern heavy hauls to rural sites. Metro deliveries move on the interstate system, which finished its two-decade reconstruction in November 2025 and is no longer the constraint it was.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can concrete be placed in Council Bluffs in winter?",
+      "answer": "Yes — pads and piers pour year-round here with cold-weather practice: frost excavation, heated protection or blankets, and mix adjustments, priced into the winter number up front. The stricter winter constraint is often logistics rather than concrete: ground blizzards can shut western I-80 for a day at a time, so December–February schedules carry weather-day contingency.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How far is CellSite Solutions' crew base from Council Bluffs?",
+      "answer": "About 254 road miles — our staffed yard is in Cedar Rapids, and the route is a single interstate run west on I-80, roughly four hours. Day trips work for single-day scopes; multi-day work runs as planned rotations with crews lodged locally. That's still regional-response range, and it's how we cover the whole western half of the state.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Loess or valley floor: siting a compound in Council Bluffs",
+    "body": "When a search ring offers both bluff and bottomland candidates in Council Bluffs, the cheap-looking site is usually the expensive one. A bluff-side parcel on deep loess grades easily and drains fast, and dry loess will even stand in a vertical cut — but the material loses strength abruptly when saturated, and every foot of disturbed slope is a gully waiting for a wet spring. If you take the bluff site, buy the drainage: intercept water above the cut, surface the access road properly, and compact fill at controlled moisture, because the failure mode is erosion and wetting collapse, not bearing. The bottomland parcel inverts the problem. Alluvium offers flat access and easy excavation, but groundwater sits shallow, heavier foundations may need engineered fill or deep elements, and the site's real elevation question is set by the levee system's accreditation status and the flood record — 2011 kept the Missouri above flood stage for over three months. Our rule of thumb: for a light hut or cabinet, a well-drained bluff-edge site with a disciplined drainage plan usually wins; for generator-heavy compounds and anything schedule-critical in spring, pay for the protected valley site and the borings that prove it. Either way, drill before you commit — this is the least interchangeable ground in Iowa."
+  },
+  "sources": [
+    {
+      "label": "City of Council Bluffs — Building Code Information",
+      "url": "https://www.councilbluffs-ia.gov/2513/Building-Code-Information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Council Bluffs — Building Division",
+      "url": "https://www.councilbluffs-ia.gov/2273/Building-Division",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Council Bluffs — City Right-of-Way (Public Works)",
+      "url": "https://www.councilbluffs-ia.gov/562/City-Right-of-Way",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Geological Survey — Loess Hills landform region",
+      "url": "https://iowageologicalsurvey.uiowa.edu/iowa-geology/landforms-iowa/loess-hills",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Council Bluffs Levees Program — levee history (2011/2019 floods, accreditation)",
+      "url": "https://www.cblevees.com/levee-history",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT District 4 — Council Bluffs field office",
+      "url": "https://iowadot.gov/locations/district-4-council-bluffs-field-office",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — Council Bluffs Interstate System program completion",
+      "url": "https://iowadot.gov/news/2025-11-14/council-bluffs-interstate-system-improvement-program-reaches-major-milestone-final-interstate",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Data Center Frontier — Google's $1B Council Bluffs expansion",
+      "url": "https://www.datacenterfrontier.com/hyperscale/article/55093750/google-continues-to-invest-in-iowa-with-another-1-billion-planned-for-its-council-bluffs-campus",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Google Fiber — Council Bluffs announcement",
+      "url": "https://fiber.google.com/blog/2023/03/google-fiber-is-coming-to-council.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USACE Omaha District — regulatory program",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa One Call — required notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — bat tree-clearing window",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — spring load restriction map",
+      "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Motor Carrier Services — oversize/overweight permits",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Check-Distance — Cedar Rapids, IA to Council Bluffs, IA driving route (254 mi)",
+      "url": "https://check-distance.com/route/cedar-rapids-ia/council-bluffs-ia",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "regulatory.adoptedBuildingCode — specific I-code editions",
+      "attempted": "The city's Building Code Information page states codes are enforced as adopted/amended by the State of Iowa but does not list editions; the page returned 403 to direct fetch. Confirm editions with the Building Division by phone."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "No locally published frost depth found; depends on the confirmed adopted code/amendments. No number published until the code text is read."
+    },
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic Ss-S1 / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, TIA-222 county tables, and ASHRAE tables all unreachable or paywalled through the sandbox proxy; nothing publishable from secondary sources."
+    },
+    {
+      "field": "designCriteria.asce7Edition",
+      "attempted": "Cannot be stated until the adopted IBC edition is confirmed (the edition determines the referenced ASCE 7 version)."
+    },
+    {
+      "field": "geotech numerics (bearing range, bedrock depth, groundwater, corrosivity, NRCS shrink-swell)",
+      "attempted": "NRCS Web Soil Survey unreachable through proxy; only landform-level geology from the Iowa Geological Survey is published."
+    },
+    {
+      "field": "identity.elevationFt",
+      "attempted": "Search sources conflict (981 vs 984 ft); left null rather than picking an unsourced figure."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator (named office/contact)",
+      "attempted": "Not clearly published on the city site; confirm with Community Development. Levee-program context sourced from cblevees.com."
+    },
+    {
+      "field": "utilities — ILEC confirmation and MidAmerican new-service lead time",
+      "attempted": "Lumen-as-incumbent comes from industry reporting on Google Fiber's entry; confirm against the Iowa Utilities Commission exchange GIS. MidAmerican publishes no lead-time figures."
+    },
+    {
+      "field": "logistics.railroads — BNSF crossing process detail",
+      "attempted": "BNSF presence in the metro noted; the specific crossing-permit workflow for local subdivisions was not sourced this session."
+    },
+    {
+      "field": "seasonality — NOAA NCEI normals check",
+      "attempted": "Calendar authored qualitatively from flood-history sources and regional climate; verify against the NCEI normals for the Omaha station."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 2 publish gate requires 1 project and 3 images from CSS project intake; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "identity": {
+    "slug": "des-moines",
+    "city": "Des Moines",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "counties": [
+      "Polk"
+    ],
+    "msa": "Des Moines-West Des Moines",
+    "tier": 1,
+    "latitude": 41.5868,
+    "longitude": -93.625,
+    "elevationFt": 955,
+    "population": {
+      "value": 214133,
+      "source": "U.S. Census Bureau, 2020 Census count for Des Moines city, Iowa — https://www.census.gov/quickfacts/desmoinescityiowa (confirm current vintage estimate before sign-off)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-80",
+      "I-35",
+      "I-235"
+    ],
+    "majorRoutes": [
+      "US-6",
+      "US-65",
+      "US-69",
+      "IA-5 (southern bypass)"
+    ]
+  },
+  "metadata": {
+    "title": "Des Moines Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for fiber, wireless, and edge sites in Des Moines, IA — foundations, duct bank, and compound work built to Polk County ground and season.",
+    "h1": "Telecom Site Civil Construction in Des Moines, Iowa",
+    "intro": "Two rivers meet in downtown Des Moines, and their confluence still writes the first rule of site work here: know whether your parcel sits on Des Moines Lobe till or on Raccoon and Des Moines River alluvium before you price a foundation. CellSite Solutions builds the civil side of fiber huts, wireless compounds, and edge and data center support sites across Polk County — footings below the city's 42-inch frost requirement, duct bank and bores, grounding, and compound construction — reaching the metro from our staffed Cedar Rapids yard, 127 road miles east on I-80. Demand is real: Metronet finished a $70 million citywide fiber build in 2025, Google Fiber and Lumen are constructing in the neighborhoods, and Meta's Altoona campus anchors hyperscale load on the metro's east side.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC adopted by Des Moines Ordinance No. 16,317)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Iowa lies in the lowest national seismic hazard tier. Publish Ss/S1 only from a USGS design-maps query at the site coordinates; site class is a boring-by-boring determination."
+    },
+    "frostDepthIn": {
+      "value": 42,
+      "source": "City of Des Moines Development Services deck construction handout (2021 IRC): 'Frost Depth is 42 inches' — https://cms2.revize.com/revize/desmoines/document_center/Development%20Services/Permit%20Development%20Center/Residential/Deck%20Handout-LEGAL-2021%20IRC.pdf; reviewer must confirm the amended Table R301.2(1) section in Municipal Code Ch. 26 before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Des Moines sits at the literal end of the Des Moines Lobe — the late-Wisconsinan glacier that advanced out of Minnesota halted at what is now the city, giving the landform its name and establishing the present course of the Raccoon River. Uplands carry Dows Formation glacial till from that advance; broad alluvial corridors follow the Des Moines and Raccoon rivers to their downtown confluence; and the southern metro fringe transitions to the loess-mantled pre-Illinoian till of the Southern Iowa Drift Plain. Bedrock is buried beneath a thick Quaternary section across most of the lobe. (Iowa Geological Survey, Des Moines Lobe landform region; IGS surficial geologic map OFM-2005-2.)",
+    "dominantSoilTypes": [
+      "Dows Formation late-Wisconsinan glacial till (lobe uplands)",
+      "Des Moines and Raccoon River alluvium (valley and floodplain sites)",
+      "Loess-mantled pre-Illinoian till (southern metro fringe)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Iowa's mapped sinkhole and karst concentration lies in the state's northeast; the Des Moines Lobe's thick drift cover is not karst terrain. Screen individual sites against the Iowa DNR karst GIS layer anyway rather than relying on a county-level assumption."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The recurring geotechnical question in Des Moines is water, not rock. Dows Formation till on the lobe uplands generally takes a conventional spread footing or thickened shelter pad carried below the 42-inch frost requirement, but the lobe is famously young, flat, and poorly drained — spring excavations can stand in water, and dewatering plus subgrade protection belong in the plan rather than the change-order file. Along the Des Moines and Raccoon corridors, alluvium changes the conversation entirely: variable density, shallow groundwater, and floodplain permitting (the 1993 Raccoon River levee overtopping is the local benchmark event) push designs toward deeper investigation, sometimes drilled piers, and always an elevation check before layout. Rock refusal is uncommon at telecom foundation depths under the thick drift. Site-specific borings govern every final design — this narrative frames the questions, not the answers."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Des Moines Permit and Development Center (Development Services)",
+        "url": "https://www.dsm.city/departments/development_services/permit_development_center/index.php",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Applications, inspections, and fees run through the EnerGov Customer Self Service portal (css.dmgov.org). Standing plan-review times are not published — confirm the current queue when building a schedule."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Building Code and 2021 IRC, adopted with amendments by Ordinance No. 16,317 (Municipal Code Ch. 26)",
+      "source": "City of Des Moines construction codes page — https://www.dsm.city/departments/development_services/permit_development_center/construction_codes.php; Ordinance No. 16,317 — https://councildocs.dsm.city/ordinances/16,317.pdf",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facility deployments in Iowa run under the state-preemptive Iowa Cell Siting Act (Iowa Code ch. 8C), which sets uniform application and fee rules that city processes must follow.",
+    "rowPermitAuthority": {
+      "name": "City of Des Moines Engineering Department — Right-of-Way Plan Review, Permitting, and Inspection",
+      "url": "https://www.dsm.city/departments/engineering_-_division/right_of_way_plan_review_permitting_and_inspection_for_construction_activities.php",
+      "phone": "515-283-4536",
+      "typicalReviewDays": null,
+      "note": "Engineering's Traffic and Transportation division manages activities in the public right-of-way; ROW licenses and permits are administered through the Engineering permit desk."
+    },
+    "stateDotDistrict": {
+      "name": "Iowa DOT District 1 (Central Iowa), headquartered in Ames — Polk County",
+      "url": "https://iowadot.gov/locations/district-1-office",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District 1 covers Polk and eleven surrounding central-Iowa counties; utility accommodation permits on state routes are processed through the district office."
+    },
+    "oneCallCenter": {
+      "name": "Iowa One Call",
+      "url": "https://iowaonecall.com/about/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Iowa DNR — NPDES General Permit No. 2 (construction stormwater)",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP must exist before the Notice of Intent is filed; public notice and DNR authorization come before ground disturbance."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Building and trade permits in Des Moines flow through the EnerGov Customer Self Service portal under the Permit and Development Center, which does not post standing review durations — a phone call beats an assumption when the schedule is tight. Telecom scopes typically stack two more approvals on top: an Engineering Department ROW permit for anything in the street or parkway, and Iowa DNR General Permit No. 2 stormwater authorization (SWPPP, NOI, public notice) once disturbance reaches one acre. Sites near the Des Moines or Raccoon rivers should budget time for floodplain review before committing a set date."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "MidAmerican Energy",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Berkshire Hathaway Energy subsidiary headquartered in Des Moines; the metro is core MidAmerican electric and gas territory (service territory list: midamericanenergy.com/territory-communitylist). New-service lead times are not published — schedule from the utility's written confirmation."
+      }
+    ],
+    "ilec": "Lumen Technologies (CenturyLink, legacy Qwest territory) — confirm against the Iowa Utilities Commission exchange-boundary GIS before publishing",
+    "notableFiberProviders": [
+      "Metronet",
+      "Google Fiber",
+      "Lumen / Quantum Fiber",
+      "Mediacom Business"
+    ],
+    "notableDataCenterCampuses": [
+      "Meta — Altoona campus (Polk County), 5+ million sq ft at full buildout",
+      "Microsoft — West Des Moines campuses (metro-wide presence, 600+ acres)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, roughly late February through April; dates are posted by each county every season",
+      "postingAuthority": {
+        "name": "County secondary road departments (Polk and adjacent counties); Iowa DOT publishes an annual statewide spring restriction map",
+        "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Iowa's spring embargoes follow a county-posted pattern of 5-ton limits on granular roads and 10-ton limits on paved county roads. Inside the Des Moines street grid this rarely binds; hauls to rural Polk, Warren, or Jasper county compounds route around postings or wait them out."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Iowa DOT Motor Carrier Services (ia.gotpermits.com)",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route OS/OW permits issue through the online gotpermits system; city and county segments of a haul route need separate local authorization."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Norfolk Southern",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Iowa Interstate Railroad (IAIS)",
+        "crossingPermitNote": "IAIS's Council Bluffs–Des Moines–Bureau Junction main line runs through the metro and interchanges with UP, BNSF, and NS at Des Moines; utility-crossing applications on any of the four carry long, unpublished timelines — file at route design, not at construction release."
+      }
+    ],
+    "urbanRowRequirements": "Work in Des Moines streets requires an Engineering Department ROW permit; the Traffic and Transportation division manages obstructions, closures, and restoration standards, and inspection is coordinated through named Engineering ROW staff. Confirm current traffic-control notice requirements with the permit desk when sequencing downtown duct bank work."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Cutting of trees 3 inches diameter and larger confined to October 1 – March 31",
+      "driver": "Protected bat species (northern long-eared bat, Indiana bat) — Iowa DOT construction practice applies the seasonal window statewide; confirm site-level applicability through USFWS IPaC",
+      "source": "Iowa DOT Construction Manual 6.10 — https://iowadot.gov/erl/current/CM/content/CM%206.10.htm"
+    },
+    "shpo": {
+      "name": "State Historic Preservation Office of Iowa (Iowa Economic Development Authority)",
+      "url": "https://opportunityiowa.gov/community/historic-preservation/section-106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 reviews run 30 days per complete submittal; incomplete packages restart the clock."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory program; Iowa DNR handles Section 401 water quality certification",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Rock Island District (MVR) — the Des Moines River basin, including Saylorville Lake immediately upstream of the city, is a Rock Island District system",
+    "listedSpeciesNote": "Northern long-eared bat (federally endangered) and Indiana bat are the likeliest flags on wooded sites; run a project-specific USFWS IPaC query for every site rather than relying on a county list.",
+    "floodplainPrevalenceNote": "Des Moines' defining flood event is July 1993, when the Raccoon River overtopped the Water Works levee and left more than 250,000 residents without drinking water for 19 days. Saylorville Lake (USACE) provides flood control on the Des Moines River upstream, but substantial mapped floodplain follows both rivers through the metro — elevation screening is step one for any site near either corridor."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Deeply frozen ground; sustained subfreezing stretches",
+        "earthworkConcrete": "restricted",
+        "note": "Frost excavation and heated concrete protection price into every pour"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Frost at its seasonal maximum",
+        "earthworkConcrete": "restricted",
+        "note": "County spring embargoes can post before the month ends"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawing, saturated subgrades; lobe till drains slowly",
+        "earthworkConcrete": "constrained",
+        "note": "Embargo season on county roads; tree-clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Subgrades firming; late-month frost still possible",
+        "earthworkConcrete": "workable",
+        "note": "Embargoes lift county by county as postings come down"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable ground; thunderstorm season ramps up",
+        "earthworkConcrete": "favorable",
+        "note": "Erosion control earns its keep — late spring carries heavy rainfall"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, productive; peak severe-weather month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and generally dry between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on large pads during heat spikes"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Workable; storm rainfall still possible in bursts",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Drying, firm — one of the best production months",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "First freeze typically arrives mid-month",
+        "earthworkConcrete": "favorable",
+        "note": "Tree-clearing window opens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Ground cooling; frost begins to take hold late",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete procedures resume"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freezing ground and establishing snow cover",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Des Moines gives you a productive window from roughly late April through October and takes a frost premium the rest of the year. Annual precipitation of about 36 inches concentrates in the May–August storm season, so summer earthwork is fast but SWPPP maintenance is constant; annual snowfall in the mid-20s to low-30s of inches keeps December–March pours in cold-weather protocol. The month-by-month figures behind this table should be checked against the NOAA NCEI 1991–2020 normals for the Des Moines International Airport station before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Bedrock lies beneath a thick glacial section across most of the metro; rock refusal at telecom foundation depth is uncommon. Wet alluvium and slow-draining lobe till are the likelier subsurface surprises.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No Iowa state prevailing wage law exists; federal Davis-Bacon rates attach to federally funded scopes — including BEAD-funded broadband construction — above the $2,000 federal threshold.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "December through March adds frost excavation, concrete protection, and ground thaw to any foundation scope; the 42-inch frost requirement is what that premium buys down.",
+    "narrative": "Cost on a Des Moines civil scope moves on four levers. Season is the biggest: a January pad and a June pad are different line items because of frost protection and frozen excavation. Ground is second — alluvial sites near either river can add dewatering, deeper foundations, and floodplain process, while upland till sites mostly add weather sensitivity. Mobilization is third: the metro sits 127 road miles from our Cedar Rapids yard, a same-day reach that prices as a regional trip rather than a deployment, with multi-day scopes batched to hold that efficiency. Permits are fourth — ROW, stormwater at one acre, and floodplain review each carry schedule cost more than fee cost. Drivers only; unit pricing comes from borings, drawings, and a date."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Iowa issues no statewide general contractor license. The obligation is registration: any contractor earning $2,000 or more per year from Iowa construction work registers with the Iowa Division of Labor for a $50 fee, and out-of-state contractors post a $25,000 surety bond. Electrical, plumbing, and mechanical trades carry separate state licenses through Iowa DIAL.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "flood",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "Flood history sets the tone: after the 1993 Water Works inundation, elevation and floodplain screening lead every riverside siting conversation, and generator fuel containment belongs above the checked flood elevation. Severe convective wind and ice argue for conservative anchorage on shelters and ice bridges — publish numeric wind and ice design values only after the ASCE 7 and TIA-222 county figures are confirmed — and the 42-inch frost requirement governs foundation depth year-round.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Metronet completes $70M citywide fiber build in Des Moines",
+        "detail": "Metronet announced completion of its Des Moines fiber-optic network construction, delivering symmetrical multigigabit service citywide — capping a roughly two-year overbuild that began serving customers in 2022.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.businesswire.com/news/home/20250218466268/en",
+        "asOf": "2025-02-18"
+      },
+      {
+        "headline": "Google Fiber constructing in Des Moines neighborhoods",
+        "detail": "Google Fiber lists Des Moines as an active service city, with network construction underway since fall 2022; Lumen has announced Quantum Fiber builds in River Bend, Drake, Sherman Hill, and other core neighborhoods.",
+        "category": "carrier program",
+        "sourceUrl": "https://fiber.google.com/cities/desmoines/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Meta's Altoona campus grows past 5 million square feet",
+        "detail": "Meta's Altoona data center campus in eastern Polk County — under continuous construction since 2013 at a stated investment above $2.5 billion — announced expansions pushing it past 5 million sq ft, its largest campus buildout.",
+        "category": "data center",
+        "sourceUrl": "https://datacenters.atmeta.com/2021/12/meta-announces-new-expansion-to-altoona-campus-new-hardhat-in-hand-graduates/",
+        "asOf": "2021-12-01"
+      },
+      {
+        "headline": "Iowa BEAD: $400M in awards moving to construction",
+        "detail": "Iowa's broadband office released NOFA #009 making $400M in BEAD funding available; the state's final proposal won federal approval in late 2025, with grant agreements executing into 2026 and rural routes around the metro among the funded areas.",
+        "category": "broadband program",
+        "sourceUrl": "https://dom.iowa.gov/broadband/bead-program",
+        "asOf": "2025-07-09"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Three overbuilders have put shovels in Des Moines dirt inside four years — Metronet closed out a $70 million citywide build in early 2025, Google Fiber has been constructing since fall 2022, and Lumen is trenching Quantum Fiber through River Bend, Drake, and Sherman Hill — which means the in-town fiber game is now laterals, vault sets, hut pads, and restoration executed cleanly inside the Engineering Department's ROW permit regime. Rural routes funded by Iowa's $400M BEAD round run a different gauntlet: county spring embargoes and crossings of the UP, BNSF, NS, and Iowa Interstate lines that converge on the metro. We bore and trench both environments and file railroad crossing applications at design, because those approvals — not the digging — set the schedule.",
+      "localSpecificsReferenced": [
+        "Metronet $70M Des Moines build completion (2025)",
+        "Google Fiber and Lumen neighborhood construction",
+        "IAIS/UP/BNSF/NS convergence at Des Moines",
+        "Iowa BEAD NOFA #009"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in the Des Moines market splits along the I-80/I-35 interchange geography: corridor and densification sites inside the metro, where small-cell permitting runs under the uniform rules of the Iowa Cell Siting Act (Iowa Code ch. 8C), and rural macro compounds in the ring counties, where the county embargo calendar — 5-ton granular and 10-ton paved postings each spring — decides when a shelter can actually be set. Every foundation in the city goes below the 42-inch frost requirement in the city's amended code, and winter compound work carries priced-in concrete protection rather than improvised tarps. On lobe till, we plan drainage on compounds deliberately; the flattest ground in Iowa is also the slowest to shed water.",
+      "localSpecificsReferenced": [
+        "Iowa Code ch. 8C small-cell rules",
+        "Des Moines 42-inch frost requirement",
+        "county 5/10-ton spring embargo pattern",
+        "I-80/I-35 corridor geography"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "The Des Moines metro carries hyperscale gravity on both flanks: Meta's Altoona campus in eastern Polk County has been under continuous construction since 2013 and now exceeds 5 million square feet, while Microsoft's West Des Moines campuses hold more than 600 acres on the west side. That concentration pulls edge and interconnection civil work into the core — transformer and switchgear pads, generator yards, campus-feeder duct bank, and the micro-DC enclosure pads that put compute closer to the metro's insurance and financial-services employers. MidAmerican Energy, headquartered downtown, is the serving utility for new load, and its written service commitment — not an assumption — is what we schedule energization against. Alluvial ground near the rivers gets the same elevation screening on an edge pad as on any other foundation.",
+      "localSpecificsReferenced": [
+        "Meta Altoona campus (5M+ sq ft)",
+        "Microsoft West Des Moines 600+ acres",
+        "MidAmerican Energy headquarters territory",
+        "Des Moines/Raccoon River floodplain screening"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 127,
+      "driveTimeHours": 1.9,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Polk",
+      "Dallas",
+      "Warren",
+      "Jasper"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Des Moines means one road: I-80 west from the I-380 interchange, about 127 miles and under two hours of drive time, door to compound. Single-day scopes — inspections, small pours, restoration punch lists — run as day trips; multi-day foundation and duct bank scopes batch into working weeks so the windshield time is paid once, not daily. The I-80 corridor is the most weather-hardened route in Iowa, but December–March plans still carry storm-day float, and spring hauls to ring-county sites are sequenced against county embargo postings rather than hope. Response-time commitments beyond this are made only with ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep must a shelter or hut foundation go in Des Moines?",
+      "answer": "The city's published design figure is a 42-inch frost depth — stated in Des Moines Development Services construction handouts under the 2021 codes — so pads, piers, and footings bear below 3.5 feet. We treat that as the floor, not the design: site borings set the final foundation, especially on river-corridor alluvium.",
+      "segment": "general"
+    },
+    {
+      "question": "Who permits right-of-way work for fiber construction in Des Moines?",
+      "answer": "The City of Des Moines Engineering Department. Its Traffic and Transportation division manages activity in the public right-of-way, and ROW plan review, permitting, and inspection run through named Engineering staff (515-283-4536). Building-side permits run separately through the Permit and Development Center's EnerGov portal.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroads can a fiber route hit in the Des Moines metro?",
+      "answer": "Four: Union Pacific, BNSF, Norfolk Southern, and the Iowa Interstate Railroad, whose Council Bluffs–Des Moines main line interchanges with the other three in the city. Crossing agreements on any of them carry long, unpublished timelines, so we file applications during route design — a crossing filed at construction release is a stalled route.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do spring road embargoes affect shelter deliveries around Des Moines?",
+      "answer": "Not on the city grid, but yes on county roads. Iowa counties post spring limits — typically 5 tons on granular and 10 tons on paved county roads — from roughly late February through April. A shelter set at a rural Polk, Warren, or Jasper county compound gets scheduled against those postings or routed around them.",
+      "segment": "wireless"
+    },
+    {
+      "question": "When does a Des Moines site trigger a stormwater permit?",
+      "answer": "At one acre of ground disturbance, or less when the site is part of a larger common plan of development. Iowa DNR's NPDES General Permit No. 2 requires the SWPPP before the Notice of Intent, then public notice and DNR authorization before dirt moves. Compound-plus-access-road scopes cross the acre line more often than expected.",
+      "segment": "general"
+    },
+    {
+      "question": "What is driving data center and edge civil work in the Des Moines market?",
+      "answer": "Meta's Altoona campus — over 5 million square feet after 12+ years of continuous construction — anchors the east metro, and Microsoft's West Des Moines campuses hold 600+ acres on the west side. The interconnection, utility-yard, and edge-pad work that follows that much compute lands throughout the metro core.",
+      "segment": "edge"
+    },
+    {
+      "question": "Can concrete be placed in Des Moines in the winter months?",
+      "answer": "Routinely — with cold-weather practice: frost excavation or ground thawing, protected curing under blankets or heat, and admixtures where appropriate. Ground here is typically frozen December through March, so winter foundations simply carry that protection as a priced line item instead of a surprise.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How serious is flood risk for telecom sites near the downtown rivers?",
+      "answer": "Serious enough to check first. In July 1993 the Raccoon River overtopped the Water Works levee and left 250,000+ residents without drinking water for 19 days. Saylorville Lake gives the Des Moines River upstream flood control, but mapped floodplain follows both rivers through the metro — we screen elevation before any riverside layout.",
+      "segment": "general"
+    },
+    {
+      "question": "How much dig notice does Iowa One Call require in Des Moines?",
+      "answer": "Two business days, statewide. Iowa One Call (811) requires notice at least 48 hours ahead of excavation, excluding weekends and holidays, and the ticket lead is built into every bore, trench, and vault set we schedule — including emergency locates coordinated by phone when a hazard scope demands it.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Dewatering, not rock: what Des Moines Lobe ground does to a foundation budget",
+    "body": "In Cedar Rapids the estimating question is how soon you hit limestone; in Des Moines it is how long the hole holds water. The Dows Formation till the glacier left behind is young, flat, and poorly drained — an excavation cut in April can look like a stock pond by morning — so the honest cost conversation is about dewatering, subgrade stabilization, and pour timing rather than rock clauses. On upland till, a spread footing or thickened pad below the 42-inch frost line remains the economical answer; the money question is which month you dig it, because winter adds frost protection and spring adds water handling. Along the Des Moines and Raccoon corridors the decision changes shape: alluvium is variable, groundwater is shallow, and the 1993 flood history means elevation and floodplain permitting can disqualify a candidate parcel before geotech ever matters. Our rule for this market: run the floodplain screen first, order borings second, pick the foundation type third, and pick the calendar month with as much care as the concrete mix. A Des Moines site chosen dry is usually a cheap site to build."
+  },
+  "sources": [
+    {
+      "label": "City of Des Moines — construction codes (2021 IBC/IRC adoption)",
+      "url": "https://www.dsm.city/departments/development_services/permit_development_center/construction_codes.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Des Moines Ordinance No. 16,317 (2021 code adoption)",
+      "url": "https://councildocs.dsm.city/ordinances/16,317.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Des Moines — deck handout stating 42-inch frost depth (2021 IRC)",
+      "url": "https://cms2.revize.com/revize/desmoines/document_center/Development%20Services/Permit%20Development%20Center/Residential/Deck%20Handout-LEGAL-2021%20IRC.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Des Moines Engineering — ROW plan review, permitting, and inspection",
+      "url": "https://www.dsm.city/departments/engineering_-_division/right_of_way_plan_review_permitting_and_inspection_for_construction_activities.php",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa DOT District 1 office (Ames) — central Iowa counties",
+      "url": "https://iowadot.gov/locations/district-1-office",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa One Call — two business days' notice",
+      "url": "https://iowaonecall.com/about/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DNR — NPDES General Permit No. 2 construction stormwater",
+      "url": "https://www.iowadnr.gov/environmental-protection/water-quality/stormwater-program/stormwater-permit-information",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT — annual spring load restriction map",
+      "url": "https://iowadot.gov/mvd/motorcarriers/Spring-Restriction-Map.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Motor Carrier Services — oversize/overweight permits",
+      "url": "https://iowadot.gov/motor-carriers/how-do-i-get-oversize-overweight-permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa DOT Construction Manual 6.10 — seasonal tree-clearing window",
+      "url": "https://iowadot.gov/erl/current/CM/content/CM%206.10.htm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Geological Survey — Des Moines Lobe landform region",
+      "url": "https://iowageologicalsurvey.uiowa.edu/iowa-geology/landforms-iowa/des-moines-lobe",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Geological Survey — surficial geologic map of the Des Moines Lobe (OFM-2005-2)",
+      "url": "https://igs.iihr.uiowa.edu/igs/publications/uploads/ofm-2005-2_txt.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Rock Island District — Saylorville Lake (Des Moines River flood control)",
+      "url": "https://www.mvr.usace.army.mil/Missions/Recreation/Saylorville-Lake/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Project Des Moines (Des Moines Public Library) — the Flood of 1993 and the Water Works shutdown",
+      "url": "https://projectdesmoines.dmpl.org/items/show/63",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Metronet — Des Moines fiber network build completion",
+      "url": "https://www.businesswire.com/news/home/20250218466268/en",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Meta — Altoona data center campus expansion announcements",
+      "url": "https://datacenters.atmeta.com/2021/12/meta-announces-new-expansion-to-altoona-campus-new-hardhat-in-hand-graduates/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Interstate Railroad — Des Moines interchanges with Class I carriers",
+      "url": "https://www.unisco.com/railroads/iowa-interstate-railroad",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MidAmerican Energy — service territory community list",
+      "url": "https://www.midamericanenergy.com/territory-communitylist",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Iowa Department of Management — BEAD program",
+      "url": "https://dom.iowa.gov/broadband/bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Iowa Division of Labor — contractor registration requirements",
+      "url": "https://www.iowacontractor.gov/contractor-registration/faq",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Driving route, Cedar Rapids to Des Moines (127 miles via I-80)",
+      "url": "https://distancecalc.com/how-far-from-cedar-rapids-ia-to-des-moines-ia",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps web service, and TIA-222 Annex B county tables are unreachable through the sandbox egress proxy; no primary values found via search. One session from an unproxied machine resolves these."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — code-section verification",
+      "attempted": "42 in. comes from a City of Des Moines Development Services handout; the amended Table R301.2(1) section in Municipal Code Ch. 26 must be read directly before human sign-off."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and IGS county publications not readable through the proxy; only qualitative landform geology is sourced."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Could not locate the City of Des Moines floodplain program page to name the administering office with a source; left null rather than guessed."
+    },
+    {
+      "field": "regulatory.buildingAHJs.typicalReviewDays + rowPermitAuthority.typicalReviewDays",
+      "attempted": "Des Moines does not publish standing review durations; confirm by phone with the Permit and Development Center and Engineering permit desk."
+    },
+    {
+      "field": "utilities.ilec — exchange boundary confirmation",
+      "attempted": "Lumen/CenturyLink attribution is from legacy-territory knowledge; the Iowa Utilities Commission exchange-boundary GIS was not queried."
+    },
+    {
+      "field": "utilities.electricProviders — MidAmerican new-service process URL and lead time",
+      "attempted": "MidAmerican's current new-construction application path and typical commercial lead weeks were not confirmed; territory attribution is sourced, process details are not."
+    },
+    {
+      "field": "seasonality — NOAA NCEI normals table",
+      "attempted": "The 1991–2020 normals table for the Des Moines International Airport station was not directly readable; calendar authored from compiled climate summaries and needs the station-table check."
+    },
+    {
+      "field": "logistics.seasonalLoadRestrictions.postingAuthority — Polk County posting page",
+      "attempted": "Polk County's own seasonal embargo posting page was not located; the statewide Iowa DOT map is cited and the county page should be added."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 1 publish gate requires at least 1 real project and 4 images from the CSS project intake; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Confirmed coverage list and any response commitment require ops sign-off."
+    }
+  ]
+}
