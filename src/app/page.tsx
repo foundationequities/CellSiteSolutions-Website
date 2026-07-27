@@ -5,6 +5,7 @@ import { BgVideo } from "@/components/bg-video";
 import { CountUp } from "@/components/count-up";
 import { VideoLightbox } from "@/components/video-lightbox";
 import { FaqAccordion } from "@/components/faq-accordion";
+import { RotatingWords } from "@/components/rotating-words";
 import { LogoMarquee } from "@/components/logo-marquee";
 import { partnerLogos, customerLogos } from "@/lib/logos";
 import { FACILITY_TOUR_YT, HOME_HERO_VIMEO } from "@/lib/videos";
@@ -44,16 +45,19 @@ export default function Home() {
   return (
     <>
       {/* ── Hero: Vimeo background video + centered tagline (as live) ── */}
-      <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden text-white lg:min-h-screen">
+      <section className="relative overflow-hidden text-white">
         <BgVideo
           src={HOME_HERO_VIMEO}
           poster={`${IMG}/2024/11/Shelters-Division-v2.png`}
-          overlay="bg-black/20"
+          overlay="bg-black/10"
         />
-        <div className="relative mx-auto w-full max-w-5xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
-          <h2 className="text-[32px] leading-snug sm:text-[45px]">
-            ANY SHELTER. ANY SERVICE. FAST DELIVERY.
-          </h2>
+        {/* min-height lives on this flex container so it holds on mobile too */}
+        <div className="relative flex min-h-[600px] items-center justify-center lg:min-h-[1280px]">
+          <div className="mx-auto w-full max-w-6xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
+            <h2 className="text-[40px] font-bold leading-[1.15] sm:text-[56px] lg:text-[85px] lg:leading-[80px]">
+              ANY SHELTER. ANY SERVICE. FAST DELIVERY.
+            </h2>
+          </div>
         </div>
       </section>
 
@@ -61,13 +65,17 @@ export default function Home() {
       <section className="bg-brand py-14 text-white">
         <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-[auto_1fr] lg:gap-14 lg:px-8">
           <div className="flex items-baseline gap-3 lg:flex-col lg:items-center lg:gap-0">
-            <span className="font-display text-7xl font-medium leading-none lg:text-8xl">
+            <span className="font-display text-[120px] font-medium leading-none lg:text-[225px]">
               <CountUp value={15} />
             </span>
-            <span className="text-2xl tracking-[0.2em]">YEARS</span>
+            <span className="text-[28px] font-bold uppercase tracking-[0.2em] lg:text-[40px]">
+              YEARS
+            </span>
           </div>
           <div>
-            <h2 className="text-[34px] sm:text-[40px]">ONE TEAM. ONE DREAM.</h2>
+            <h2 className="text-[40px] lg:text-[70px]">
+              ONE <RotatingWords words={["TEAM.", "DREAM."]} />
+            </h2>
             <p className="mt-4 max-w-3xl leading-relaxed text-white/90">
               CellSite Solutions is proud to celebrate 15 years of innovation, reliability, and
               partnership in the telecom industry. From our dedicated team to the customers who trust
@@ -101,7 +109,7 @@ export default function Home() {
           </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Who We Are</p>
-            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Turnkey Solution Provider</h2>
+            <h2 className="mt-2 text-[38px] text-ink lg:text-[71px]">Turnkey Solution Provider</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite Solutions provides expert telecom and telecommunications services,
               specializing in concrete shelter remanufacturing, and custom telecom shelter solutions.
@@ -158,7 +166,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
               </div>
               <div className="absolute inset-x-0 bottom-0 p-7 text-white">
-                <h3 className="text-2xl">{c.title}</h3>
+                <h3 className="text-[32px] lg:text-[47px]">{c.title}</h3>
                 <p className="mt-2 max-w-md text-sm text-white/85">{c.copy}</p>
                 <Link
                   href={c.href}
@@ -177,7 +185,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">PREMIUM QUALITY</p>
-            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR EQUIPMENT SHELTERS</h2>
+            <h2 className="mt-2 text-[35px] text-ink lg:text-[65px]">OUR EQUIPMENT SHELTERS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelters play a vital role in housing critical communications equipment away from
               the main switching center, ensuring uninterrupted and efficient telecommunications
@@ -221,7 +229,7 @@ export default function Home() {
         />
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
-          <h2 className="mx-auto mt-3 max-w-4xl text-[35px] sm:text-[65px]">
+          <h2 className="mx-auto mt-3 max-w-4xl text-[35px] lg:text-[65px]">
             Datacomm Pro Ruggedized Lightweight Shelters
           </h2>
           <Link
@@ -242,10 +250,10 @@ export default function Home() {
             { value: 190, decimals: 0, suffix: "k", label: "SQUARE FOOT FACILITY" },
           ].map((s) => (
             <div key={s.label}>
-              <div className="font-display text-5xl font-medium lg:text-6xl">
+              <div className="font-display text-[60px] font-medium leading-none lg:text-[89px]">
                 <CountUp value={s.value} suffix={s.suffix} decimals={s.decimals} />
               </div>
-              <p className="mt-2 text-sm font-semibold tracking-wide text-white/90">{s.label}</p>
+              <p className="mt-2 text-sm font-semibold tracking-wide text-black">{s.label}</p>
             </div>
           ))}
         </div>
@@ -256,7 +264,7 @@ export default function Home() {
         <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/30" />
         <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-[35px] sm:text-[65px]">Virtual Tour</h2>
+          <h2 className="mt-2 text-[35px] lg:text-[65px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last
@@ -312,7 +320,7 @@ export default function Home() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               INSTALLATION TO DECOMMISSIONING
             </p>
-            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">CIVIL CONSTRUCTION</h2>
+            <h2 className="mt-2 text-[35px] text-ink lg:text-[60px]">CIVIL CONSTRUCTION</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               We provide top-tier civil construction services to help you build and maintain telecom
               sites that meet your exact specifications. From initial site planning and development to
@@ -359,7 +367,7 @@ export default function Home() {
                 key={col.title}
                 className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
-                <h3 className="text-xl text-ink">{col.title}</h3>
+                <h3 className="text-[25px] text-ink">{col.title}</h3>
                 <ul className="mt-4 space-y-2 text-sm text-muted">
                   {col.items.map((it) => (
                     <li key={it} className="flex gap-2">
@@ -377,19 +385,51 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          <Link
+            href="/civil-construction/"
+            className="mt-10 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+          >
+            Learn More
+          </Link>
+
+          {/* Overlapping two-image collage (as live: crew photo offset over drawings) */}
+          <div className="relative mx-auto mt-24 max-w-4xl lg:mt-36">
+            <div className="relative aspect-[3/2] w-full overflow-hidden rounded-lg">
+              <Image
+                src={`${IMG}/2026/06/Civil-Engineering-Drawings.jpeg`}
+                alt="Civil engineering drawings"
+                fill
+                sizes="(max-width: 1024px) 100vw, 896px"
+                className="object-cover"
+              />
+            </div>
+            <div className="absolute -top-[20%] left-[30%] aspect-[16/10] w-[65%] overflow-hidden rounded-lg shadow-xl sm:-top-[30%] sm:left-[35%] sm:w-[60%]">
+              <Image
+                src={`${IMG}/2024/09/Civil-Construction-Section.png`}
+                alt="CellSite Solutions civil construction crew on site"
+                fill
+                sizes="(max-width: 1024px) 65vw, 540px"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* ── CEO quote (centered, no photo — as live) ─────────────── */}
-      <section className="bg-surface-dark py-24 text-white">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+      {/* ── CEO quote (white band + texture mask — as live) ──────── */}
+      <section
+        className="bg-white bg-cover bg-center py-24 text-ink"
+        style={{ backgroundImage: `url('${IMG}/2024/06/section-texture-mask-4.png')` }}
+      >
+        <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Who we are</p>
-          <blockquote className="mt-6 font-display text-[28px] font-medium leading-snug sm:text-[36px]">
+          <blockquote className="mt-6 font-display text-[34px] font-medium leading-snug lg:text-[55px]">
             &ldquo;We specialize in industrial telecom shelter remanufacturing of any imaginable scale
             and complexity.&rdquo;
           </blockquote>
           <p className="mt-8 font-bold">Jim Patterson</p>
-          <p className="text-sm text-white/70">CEO, CellSite Solutions</p>
+          <p className="text-sm text-muted">CEO, CellSite Solutions</p>
         </div>
       </section>
 

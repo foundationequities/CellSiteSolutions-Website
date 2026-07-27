@@ -35,7 +35,7 @@ export function FaqAccordion({ items, withSchema = false }: { items: Faq[]; with
             aria-expanded={open === i}
             className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
           >
-            <span className="text-base font-semibold text-ink">{it.q}</span>
+            <span className="text-[20px] font-semibold text-ink">{it.q}</span>
             <svg
               width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
               strokeWidth="2.5"
