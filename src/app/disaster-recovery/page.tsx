@@ -27,7 +27,7 @@ export default function DisasterRecoveryPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               CellSite To The Rescue
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -71,7 +71,7 @@ export default function DisasterRecoveryPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Full-Service Provider
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
             No Sitting Out The Storm
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted">

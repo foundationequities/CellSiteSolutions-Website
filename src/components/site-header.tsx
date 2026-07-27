@@ -28,7 +28,7 @@ export function SiteHeader() {
           : "bg-gradient-to-b from-black/60 to-transparent",
       )}
     >
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-24 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center" aria-label={siteConfig.name}>
           <Image
             src={headerWhite.src}
@@ -36,7 +36,7 @@ export function SiteHeader() {
             width={headerWhite.width}
             height={headerWhite.height}
             priority
-            className="h-10 w-auto sm:h-11"
+            className="h-12 w-auto sm:h-14 lg:h-[72px]"
           />
         </Link>
 
@@ -75,7 +75,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-2">
           <Link
             href="/contact-us/"
-            className="hidden rounded-md bg-brand px-5 py-2.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark lg:inline-block"
+            className="hidden rounded-md border border-white/70 bg-transparent px-5 py-2.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:border-brand hover:bg-brand lg:inline-block"
           >
             REQUEST QUOTE
           </Link>

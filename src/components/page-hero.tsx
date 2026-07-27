@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 import { BgVideo } from "@/components/bg-video";
 
 /**
- * Standard inner-page hero: a dark band with an optional background image or
- * background video (mp4/YouTube/Vimeo, matching the live Elementor heroes),
- * a small breadcrumb/eyebrow, the H1, and an optional lede paragraph.
+ * Standard inner-page hero matching the live Elementor heroes: full-bleed
+ * photo (or video) background with a radial dark overlay, red uppercase
+ * eyebrow tagline, and a large uppercase H1 (~103px desktop / 64 tablet /
+ * 36 mobile), centered in a narrow measure by default.
  */
 export function PageHero({
   title,
@@ -13,49 +13,61 @@ export function PageHero({
   lede,
   image,
   video,
-  breadcrumb = true,
+  align = "center",
 }: {
   title: string;
   eyebrow?: string;
   lede?: string;
   image?: string;
   video?: { src: string; start?: number; end?: number };
-  breadcrumb?: boolean;
+  align?: "center" | "left";
 }) {
-  // Video heroes get near-full-viewport height so the footage is the star;
-  // image heroes get a tall band; plain heroes stay compact.
-  const height = video
-    ? "min-h-[70vh] lg:min-h-[85vh]"
-    : image
-      ? "min-h-[420px] lg:min-h-[60vh]"
-      : "";
+  const height = video ? "min-h-[70vh] lg:min-h-[85vh]" : image ? "min-h-[420px] lg:min-h-[60vh]" : "";
+  const centered = align === "center";
 
   return (
-    <section className={`relative flex items-center overflow-hidden bg-surface-dark text-white ${height}`}>
+    <section
+      className={`relative flex items-center overflow-hidden bg-surface-dark text-white ${height}`}
+    >
       {video ? (
-        <BgVideo src={video.src} start={video.start} end={video.end} poster={image} overlay="bg-black/25" />
+        <BgVideo src={video.src} start={video.start} end={video.end} poster={image} overlay="" />
       ) : (
-        image && (
-          <>
-            <Image src={image} alt="" fill sizes="100vw" className="object-cover opacity-70" priority />
-            <div className="absolute inset-0 bg-black/15" aria-hidden />
-          </>
-        )
+        image && <Image src={image} alt="" fill sizes="100vw" className="object-cover" priority />
       )}
-      <div className="relative mx-auto w-full max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-20 lg:pt-32">
-        {breadcrumb && (
-          <nav className="mb-4 text-xs font-semibold uppercase tracking-[0.15em] text-white/60">
-            <Link href="/" className="hover:text-brand">
-              Home
-            </Link>{" "}
-            <span className="mx-1">/</span> {eyebrow ?? title}
-          </nav>
+      {/* radial dark overlay, as on the live heroes */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background: "radial-gradient(ellipse at center, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.25) 100%)",
+        }}
+        aria-hidden
+      />
+      <div
+        className={`relative mx-auto w-full max-w-7xl px-4 pb-16 pt-28 sm:px-6 lg:px-8 lg:pb-20 lg:pt-32 ${
+          centered ? "text-center" : ""
+        }`}
+      >
+        {eyebrow && (
+          <p className="mb-3 font-display text-sm font-medium uppercase tracking-[0.2em] text-brand">
+            {eyebrow}
+          </p>
         )}
-        {eyebrow && !breadcrumb && (
-          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand">{eyebrow}</p>
+        <h1
+          className={`uppercase leading-[1.05] text-[36px] sm:text-[64px] lg:text-[96px] ${
+            centered ? "mx-auto max-w-4xl" : "max-w-4xl"
+          }`}
+        >
+          {title}
+        </h1>
+        {lede && (
+          <p
+            className={`mt-5 max-w-2xl text-lg leading-relaxed text-white/80 ${
+              centered ? "mx-auto" : ""
+            }`}
+          >
+            {lede}
+          </p>
         )}
-        <h1 className="max-w-4xl text-[34px] leading-tight sm:text-[45px]">{title}</h1>
-        {lede && <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">{lede}</p>}
       </div>
     </section>
   );

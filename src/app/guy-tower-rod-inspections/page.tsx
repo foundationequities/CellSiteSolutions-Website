@@ -43,13 +43,13 @@ export default function GuyTowerRodInspectionsPage() {
       {/* ── Support lower costs ───────────────────────────────────── */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-[32px] text-ink sm:text-[40px]">Support Lower Costs</h2>
+          <h2 className="text-[35px] text-ink sm:text-[65px]">Support Lower Costs</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Regular inspections save you money by extending the life of your guyed tower. Avoid
             costly damage by identifying minor problems while they are still small—and taking care
             of them before they grow into major issues.
           </p>
-          <h2 className="mt-12 text-[32px] text-ink sm:text-[40px]">why to choose us</h2>
+          <h2 className="mt-12 text-[35px] text-ink sm:text-[65px]">why to choose us</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Telecommunication tower sites have a number of safety procedures and processes set in
             place to ensure a tower&rsquo;s integrity is sustained over its lifespan. Guy anchor rods
@@ -69,7 +69,7 @@ export default function GuyTowerRodInspectionsPage() {
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            <h2 className="text-[32px] text-ink sm:text-[40px]">How We Work</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">How We Work</h2>
           </div>
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
             {steps.map((s, i) => (

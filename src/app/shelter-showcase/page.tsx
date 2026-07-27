@@ -289,7 +289,7 @@ function ProjectGroup({
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl">
         <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">{eyebrow}</p>
-        <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">{title}</h2>
+        <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">{title}</h2>
         <p className="mt-5 text-base leading-relaxed text-muted">{intro}</p>
       </div>
       <div className="mt-12 space-y-16">
@@ -318,7 +318,7 @@ export default function ShelterShowcasePage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               On-site Remanufacture
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               Verizon — Before &amp; After
             </h2>
           </div>
@@ -400,7 +400,7 @@ export default function ShelterShowcasePage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Choice</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               REMANUFACTURED vs NEW SHELTERS
             </h2>
           </div>

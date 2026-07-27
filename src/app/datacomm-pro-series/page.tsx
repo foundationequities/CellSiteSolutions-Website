@@ -175,7 +175,7 @@ export default function DatacommProSeriesPage() {
       {/* ── FAQ ──────────────────────────────────────────────────── */}
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-[32px] text-ink sm:text-[40px]">Frequently Asked Questions</h2>
+          <h2 className="text-[35px] text-ink sm:text-[65px]">Frequently Asked Questions</h2>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
@@ -187,7 +187,7 @@ export default function DatacommProSeriesPage() {
         <BgVideo src={DATACOMM_TOUR_YT} start={1} end={40} overlay="bg-black/30" />
         <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
-          <h2 className="mt-2 text-[32px] sm:text-[45px]">
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">
             Datacomm Pro Series Ruggedized Lightweight Shelters
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
@@ -214,7 +214,7 @@ export default function DatacommProSeriesPage() {
           <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto]">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Features</p>
-              <h2 className="mt-2 text-[32px] sm:text-[45px]">CONSTRUCTION DETAILS</h2>
+              <h2 className="mt-2 text-[35px] sm:text-[65px]">CONSTRUCTION DETAILS</h2>
             </div>
             <div className="relative h-24 w-40 shrink-0">
               <Image
@@ -245,7 +245,7 @@ export default function DatacommProSeriesPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Features</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">TECHNICAL SPECIFICATIONS</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">TECHNICAL SPECIFICATIONS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               The shelter is built on reinforced 2 x 4 framing clad internally with ½-inch FRP/OSB
               panels. Externally, it carries ½-inch wall sheathing, a ¾-inch exterior-grade plywood
@@ -288,7 +288,7 @@ export default function DatacommProSeriesPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Components</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Interior Features</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Interior Features</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Professional rack layout with optimized cable management and HVAC distribution. Typical
               rack configuration uses 23″ (2) post racks.
@@ -334,7 +334,7 @@ export default function DatacommProSeriesPage() {
         <BgVideo src={DATACOMM_ULTRA_YT} overlay="bg-black/30" />
         <div className="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Introducing</p>
-          <h2 className="mt-2 text-[32px] sm:text-[40px]">Datacomm Pro ULTRA Series</h2>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">Datacomm Pro ULTRA Series</h2>
           <p className="mt-5 text-base leading-relaxed text-white/80">
             When conditions are extreme, your infrastructure can&rsquo;t afford weak links. Introducing
             CellSite Solutions Datacomm Pro ULTRA Series Shelters which are engineered for the toughest
@@ -364,7 +364,7 @@ export default function DatacommProSeriesPage() {
             />
           </div>
           <div>
-            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Download our free eBook to explore the next generation of telecom shelter design. See how
               the Datacomm Pro Series combines rugged durability, lightweight efficiency, and cost

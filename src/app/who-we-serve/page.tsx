@@ -65,7 +65,7 @@ export default function WhoWeServePage() {
           </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">THE KEY PLAYERS</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">WHO WE SUPPORT</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">WHO WE SUPPORT</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               At CellSite Solutions, we are dedicated to supporting key players in the telecommunications
               industry, offering comprehensive solutions to streamline operations and maximize
@@ -99,7 +99,7 @@ export default function WhoWeServePage() {
       <section className="bg-surface-dark py-20 text-white">
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">HERE TO HELP</p>
-          <h2 className="text-[32px] sm:text-[40px]">LET US HOOK YOU UP</h2>
+          <h2 className="text-[35px] sm:text-[65px]">LET US HOOK YOU UP</h2>
           <Link
             href="/contact-us/"
             className="rounded-md bg-brand px-7 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
@@ -114,7 +114,7 @@ export default function WhoWeServePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Community</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">WHO WE PARTNER WITH</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">WHO WE PARTNER WITH</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite Solutions is proud to partner with essential organizations and local governments
               to strengthen telecommunications infrastructure across communities. Whether you’re a cable

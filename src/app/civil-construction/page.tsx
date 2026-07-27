@@ -124,7 +124,7 @@ export default function CivilConstructionPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Civil Construction</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Civil Construction</h2>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
@@ -150,7 +150,7 @@ export default function CivilConstructionPage() {
             <p className="mt-4 text-sm font-bold uppercase tracking-[0.2em] text-brand">
               The process
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">FROM START TO FINISH</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">FROM START TO FINISH</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               From initial site planning and design to telecom construction and all the way to final
               execution and installation of new infrastructure, CellSite Solutions offers the civil
@@ -175,7 +175,7 @@ export default function CivilConstructionPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">ALL IN ONE</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">WE DO IT ALL</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">WE DO IT ALL</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               No other company offers the breadth of telecom site civil services that CellSite
               Solutions does. We handle everything it takes to prepare your site, install and maintain
@@ -210,7 +210,7 @@ export default function CivilConstructionPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">THE HOW</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               SITE INSTALLATION SERVICES
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -249,7 +249,7 @@ export default function CivilConstructionPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Supporting Your Sites
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">SITE MAINTENANCE</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">SITE MAINTENANCE</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               The overall appearance of your site makes an important impression on both neighbors and
               potential investors. Even more important, site upkeep can extend the life of your
@@ -360,7 +360,7 @@ export default function CivilConstructionPage() {
             />
           </div>
           <div>
-            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelter construction involves more than just building a structure from the ground
               up; it integrates engineering expertise, meticulous planning, and skilled installation to
@@ -383,7 +383,7 @@ export default function CivilConstructionPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             MAKE SPACE FOR WHAT&rsquo;S NEXT
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">SITE DECOMMISSIONING</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">SITE DECOMMISSIONING</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             CellSite can offer exclusive turn-key, decommissioning services including site analysis,
             end-to-end project management, equipment demolition, removal and disposal to help you
@@ -412,7 +412,7 @@ export default function CivilConstructionPage() {
           </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">DIG-TO-BLOCK</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               Guy Anchor Inspections
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -456,7 +456,7 @@ export default function CivilConstructionPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">WHAT WE OFFER</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR SERVICES</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR SERVICES</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               The telecommunications industry is more complex than ever. Telecom sites call for many
               different factors and require comprehensive installation, much of which you cannot handle
@@ -494,7 +494,7 @@ export default function CivilConstructionPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Recent Civil Projects</p>
-            <h2 className="mt-2 text-[32px] sm:text-[40px]">FROM COAST TO COAST</h2>
+            <h2 className="mt-2 text-[35px] sm:text-[65px]">FROM COAST TO COAST</h2>
           </div>
           <div className="group relative mt-10 aspect-[16/9] overflow-hidden rounded-lg">
             <Image
@@ -522,7 +522,7 @@ export default function CivilConstructionPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Infrastructure Built to Last
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               Civil Construction Projects
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">

@@ -1,10 +1,12 @@
+import Image from "next/image";
 import Link from "next/link";
 import { BgVideo } from "@/components/bg-video";
 
 /**
- * "READY TO TALK?" call-to-action band used at the bottom of most pages.
- * With `videoSrc` it renders the live site's video-backed variant (used on the
- * showcase pages) instead of the flat red band.
+ * "READY TO TALK?" call-to-action band matching the live layout: red band,
+ * heading + copy on the left, button on the right, with the Contact-Us icon
+ * graphic as a watermark at center-right. With `videoSrc` it renders the
+ * video-backed variant used on the showcase pages.
  */
 export function CtaBand({
   title = "READY TO TALK?",
@@ -25,13 +27,26 @@ export function CtaBand({
     <section
       className={`relative overflow-hidden py-16 text-white ${videoSrc ? "bg-surface-dark py-24" : "bg-brand"}`}
     >
-      {videoSrc && <BgVideo src={videoSrc} start={videoStart} overlay="bg-black/30" />}
-      <div className="relative mx-auto flex max-w-5xl flex-col items-center gap-6 px-4 text-center sm:px-6 lg:px-8">
-        <h2 className="text-[28px] sm:text-[34px]">{title}</h2>
-        <p className="max-w-2xl text-white/90">{text}</p>
+      {videoSrc ? (
+        <BgVideo src={videoSrc} start={videoStart} overlay="bg-black/30" />
+      ) : (
+        <Image
+          src="/images/wp-content/uploads/2024/09/Contact-Us-Icon.png"
+          alt=""
+          width={420}
+          height={420}
+          aria-hidden
+          className="pointer-events-none absolute right-[8%] top-1/2 hidden w-[340px] -translate-y-1/2 opacity-20 lg:block"
+        />
+      )}
+      <div className="relative mx-auto flex max-w-7xl flex-col items-center gap-8 px-4 text-center sm:px-6 lg:flex-row lg:justify-between lg:px-8 lg:text-left">
+        <div className="max-w-2xl">
+          <h2 className="text-[30px] sm:text-[45px]">{title}</h2>
+          <p className="mt-4 text-white/90">{text}</p>
+        </div>
         <Link
           href={href}
-          className="rounded-md bg-white px-8 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-brand transition-colors hover:bg-white/90"
+          className="shrink-0 rounded-md bg-white px-8 py-3.5 font-display text-sm font-medium uppercase tracking-wide text-brand transition-colors hover:bg-white/90"
         >
           {buttonLabel}
         </Link>

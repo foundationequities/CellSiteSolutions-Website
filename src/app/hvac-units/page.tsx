@@ -26,7 +26,7 @@ export default function HvacUnitsPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Full-Service Provider
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Reliability</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Reliability</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Telecom failure may not only be costly to repair—it can also lead to serious problems
             for your customers. An outage can cost you money and cause customers to leave your
@@ -55,7 +55,7 @@ export default function HvacUnitsPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Full-Service Provider
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Find Your Fit</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Find Your Fit</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             CellSite offers a wide variety of options ranging in size from two to six-ton units. We
             also have units available with or without economizers or heat strips. While our

@@ -50,7 +50,7 @@ export default function EbookDatacommProSeriesPage() {
           {/* Description + form */}
           <div>
             <p className="text-sm font-bold tracking-[0.2em] text-brand">FREE Ebook</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               Complete Guide: Datacomm Pro Series
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">

@@ -31,7 +31,7 @@ export default function TelecomSheltersPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Largest Selection</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Largest Selection</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite is proud to offer the largest selection of recycled communication shelters on
               the market. Come to us for previously deployed products that are able to house electrical
@@ -98,7 +98,7 @@ export default function TelecomSheltersPage() {
             />
           </div>
           <div>
-            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Explore innovative strategies for enhancing energy efficiency in telecom shelters,
               covering insulation, advanced HVAC, and free cooling solutions. With technical guidance
@@ -121,7 +121,7 @@ export default function TelecomSheltersPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Full-Service Provider
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">What&apos;s in Stock</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">What&apos;s in Stock</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Our secure, long-lasting telecommunication shelters range in size from 6 feet by 8 feet to
             12 feet by 28 feet so that they can fit any scope of project or job. They are available in

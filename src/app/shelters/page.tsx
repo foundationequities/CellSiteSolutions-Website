@@ -112,7 +112,7 @@ export default function SheltersPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Telecom Shelters</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Telecom Shelters</h2>
           <div className="mt-8">
             <FaqAccordion items={faqs} withSchema />
           </div>
@@ -124,7 +124,7 @@ export default function SheltersPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">PREMIUM QUALITY</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR EQUIPMENT SHELTERS</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR EQUIPMENT SHELTERS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelters play a vital role in housing critical communications equipment away from
               the main switching center, ensuring uninterrupted and efficient telecommunications
@@ -171,7 +171,7 @@ export default function SheltersPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Choice</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               REMANUFACTURED vs NEW SHELTERS
             </h2>
           </div>
@@ -198,7 +198,7 @@ export default function SheltersPage() {
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SEE HOW</p>
-            <h2 className="mt-2 text-[32px] sm:text-[40px]">REMANUFACTURING PROCESS</h2>
+            <h2 className="mt-2 text-[35px] sm:text-[65px]">REMANUFACTURING PROCESS</h2>
             <p className="mt-5 text-base leading-relaxed text-white/80">
               We specialize in expertly remanufacturing both the exterior and interior of your concrete
               equipment shelters using industry-leading durable materials. Whether performed on-site or
@@ -244,7 +244,7 @@ export default function SheltersPage() {
         <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/30" />
         <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last
@@ -276,7 +276,7 @@ export default function SheltersPage() {
             />
           </div>
           <div>
-            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelter construction involves more than just building a structure from the ground
               up; it integrates engineering expertise, meticulous planning, and skilled installation to
@@ -300,7 +300,7 @@ export default function SheltersPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Powering Connectivity, Delivering Reliability.
             </p>
-            <h2 className="mt-2 text-[32px] sm:text-[40px]">WIRELESS PROVIDERS</h2>
+            <h2 className="mt-2 text-[35px] sm:text-[65px]">WIRELESS PROVIDERS</h2>
             <p className="mt-5 text-base leading-relaxed text-white/80">
               Since 2009, CellSite Solutions has focused on sustainable remanufacturing. Our core
               philosophy is simple: Reuse, Renew, and Reimagine.
@@ -331,7 +331,7 @@ export default function SheltersPage() {
         />
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
-          <h2 className="mx-auto mt-3 max-w-4xl text-[32px] sm:text-[45px]">
+          <h2 className="mx-auto mt-3 max-w-4xl text-[35px] sm:text-[65px]">
             Datacomm Pro Ruggedized Lightweight Shelters
           </h2>
           <Link
@@ -350,7 +350,7 @@ export default function SheltersPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Custom Equipment Solutions
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Telecom Shelter Equipment</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Telecom Shelter Equipment</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite Solutions offers a wide range of telecom shelter equipment designed to protect
               and enhance your network infrastructure. From robust, dependable HVAC systems and

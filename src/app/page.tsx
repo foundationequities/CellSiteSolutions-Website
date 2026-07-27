@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Who We Are</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Turnkey Solution Provider</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Turnkey Solution Provider</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               CellSite Solutions provides expert telecom and telecommunications services,
               specializing in concrete shelter remanufacturing, and custom telecom shelter solutions.
@@ -177,7 +177,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">PREMIUM QUALITY</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR EQUIPMENT SHELTERS</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR EQUIPMENT SHELTERS</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Telecom shelters play a vital role in housing critical communications equipment away from
               the main switching center, ensuring uninterrupted and efficient telecommunications
@@ -221,7 +221,7 @@ export default function Home() {
         />
         <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">INTRODUCING</p>
-          <h2 className="mx-auto mt-3 max-w-4xl text-[32px] sm:text-[45px]">
+          <h2 className="mx-auto mt-3 max-w-4xl text-[35px] sm:text-[65px]">
             Datacomm Pro Ruggedized Lightweight Shelters
           </h2>
           <Link
@@ -256,7 +256,7 @@ export default function Home() {
         <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/30" />
         <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last
@@ -288,7 +288,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Download our free eBook for an inside look at the next generation of telecom shelter
               design. Learn how the Datacomm Pro Series delivers rugged strength, lightweight
@@ -312,7 +312,7 @@ export default function Home() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               INSTALLATION TO DECOMMISSIONING
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">CIVIL CONSTRUCTION</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">CIVIL CONSTRUCTION</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               We provide top-tier civil construction services to help you build and maintain telecom
               sites that meet your exact specifications. From initial site planning and development to

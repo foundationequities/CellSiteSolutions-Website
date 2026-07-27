@@ -70,7 +70,7 @@ export default function SustainablePracticesPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
             Sustainable Telecom Infrastructure
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
@@ -101,7 +101,7 @@ export default function SustainablePracticesPage() {
           </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">THE KEY PLAYERS</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">BUILDING FOR THE FUTURE</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">BUILDING FOR THE FUTURE</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               At CellSite Solutions, sustainability drives every aspect of our business, ensuring we make
               a positive impact on the environment, society, economy, and the lives of those we serve.
@@ -140,7 +140,7 @@ export default function SustainablePracticesPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SUSTAINABILITY</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">KEEP A GOOD THING GOING</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">KEEP A GOOD THING GOING</h2>
           </div>
         </div>
         <div className="mx-auto mt-12 grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1fr] lg:px-8">
@@ -154,7 +154,7 @@ export default function SustainablePracticesPage() {
             />
           </div>
           <div>
-            <h2 className="text-[32px] text-ink sm:text-[40px]">Download FREE eBook</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">Download FREE eBook</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               Explore innovative strategies for enhancing energy efficiency in telecom shelters, covering
               insulation, advanced HVAC, and free cooling solutions. With technical guidance and

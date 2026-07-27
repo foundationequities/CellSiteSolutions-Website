@@ -41,7 +41,7 @@ export default function GeneratorsPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Full-Service Provider
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Power Up</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Power Up</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Backed by more than 20 years of experience in the telecommunications industry, CellSite
             Solutions has the knowledge and expertise to help customers select the right generator
@@ -66,7 +66,7 @@ export default function GeneratorsPage() {
       {/* ── Wide Selection ───────────────────────────────────────── */}
       <section className="bg-surface-dark py-20 text-white">
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-[32px] sm:text-[40px]">WIDE SELECTION</h2>
+          <h2 className="text-[35px] sm:text-[65px]">WIDE SELECTION</h2>
           <p className="mt-5 text-base leading-relaxed text-white/80">
             CellSite Solutions stocks a wide variety of new generators for sale, in sizes from
             single-phase to 3-phase. Our commercial generators are able to handle large-scale power
@@ -86,7 +86,7 @@ export default function GeneratorsPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Available Styles</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Available Styles</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               We carry single-phase to 3-phase generators.
             </p>

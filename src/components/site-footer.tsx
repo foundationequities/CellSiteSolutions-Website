@@ -37,20 +37,20 @@ const siteMap = [
 ];
 
 export function SiteFooter() {
-  const { headerBlack } = siteConfig.logos;
+  const { footer } = siteConfig.logos;
   const { address, phone, tollFree, salesEmail } = siteConfig.contact;
 
   return (
     <footer className="bg-white text-ink">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 sm:grid-cols-2 lg:grid-cols-5 lg:px-8">
         <div>
           <Link href="/" aria-label={siteConfig.name} className="inline-block">
             <Image
-              src={headerBlack.src}
+              src={footer.src}
               alt={`${siteConfig.name} logo`}
-              width={headerBlack.width}
-              height={headerBlack.height}
-              className="h-12 w-auto"
+              width={footer.width}
+              height={footer.height}
+              className="h-16 w-auto"
             />
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
@@ -87,24 +87,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        {/* Site Map */}
-        <div>
-          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-ink">Site Map</h3>
-          <ul className="space-y-2">
-            {siteMap.map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className="text-sm text-muted transition-colors hover:text-brand"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Address */}
+        {/* Address (live column order: Logo → Address → Say Hello → Site Map → Newsletter) */}
         <div>
           <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-ink">Address</h3>
           <address className="text-sm not-italic leading-relaxed text-muted">
@@ -132,6 +115,48 @@ export function SiteFooter() {
             </li>
             <li>{tollFree}</li>
           </ul>
+        </div>
+
+        {/* Site Map */}
+        <div>
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-ink">Site Map</h3>
+          <ul className="space-y-2">
+            {siteMap.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className="text-sm text-muted transition-colors hover:text-brand"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Newsletter (form wired to email service in the final stage) */}
+        <div>
+          <h3 className="mb-3 font-display text-xl font-medium uppercase tracking-wide text-ink">Newsletter</h3>
+          <form className="space-y-3" aria-label="Newsletter signup">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name *"
+              className="w-full rounded-md border border-border bg-white px-3 py-2.5 text-sm text-ink outline-none focus:border-brand"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email *"
+              className="w-full rounded-md border border-border bg-white px-3 py-2.5 text-sm text-ink outline-none focus:border-brand"
+            />
+            <button
+              type="button"
+              className="w-full rounded-md bg-brand px-4 py-2.5 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+            >
+              Submit
+            </button>
+          </form>
         </div>
       </div>
 

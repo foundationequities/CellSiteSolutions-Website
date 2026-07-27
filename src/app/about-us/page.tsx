@@ -107,7 +107,7 @@ export default function AboutUsPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Frequently Asked Questions
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">About CellSite Solutions</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">About CellSite Solutions</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             CellSite Solutions is a turnkey telecommunications infrastructure provider specializing in
             remanufactured telecom shelters, civil construction, wireless network services, site
@@ -146,7 +146,7 @@ export default function AboutUsPage() {
         <BgVideo src={FACILITY_TOUR_YT} start={2} end={140} overlay="bg-black/30" />
         <div className="relative mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Behind the Scenes</p>
-          <h2 className="mt-2 text-[32px] sm:text-[45px]">Virtual Tour</h2>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">Virtual Tour</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/80">
             Take a behind-the-scenes virtual tour of CellSite Solutions&rsquo; Cedar Rapids facility.
             See how our team remanufactures high-performance concrete telecom shelters—built to last and
@@ -180,7 +180,7 @@ export default function AboutUsPage() {
             </div>
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">MAIN PARTNERS</p>
-              <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR CLIENTS</h2>
+              <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR CLIENTS</h2>
               <p className="mt-5 text-base leading-relaxed text-muted">
                 At CellSite Solutions, we proudly serve a wide range of industries, from telecom
                 infrastructure to utility providers, delivering high-quality telecom shelters and
@@ -216,7 +216,7 @@ export default function AboutUsPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             SUSTAINABLE PRACTICES
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">OUR CORE PHILOSOPHY</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">OUR CORE PHILOSOPHY</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted">
             At CellSite Solutions, sustainability is at the heart of everything we do. By
             remanufacturing telecom shelters we extend their lifespan and reduce the environmental
@@ -237,7 +237,7 @@ export default function AboutUsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Experts</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">MEET OUR TEAM</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">MEET OUR TEAM</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               At CellSite Solutions, our executive team brings together decades of experience in telecom
               infrastructure and civil construction. Each leader is dedicated to upholding our values of

@@ -43,7 +43,7 @@ export default function SheltersForSalePage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             10&prime; x 20&prime; &amp; 12&prime; x 20&prime;
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Surplus Concrete Shelters</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Surplus Concrete Shelters</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             Inventory is limited and discounts are available for a short window only.
           </p>
@@ -65,7 +65,7 @@ export default function SheltersForSalePage() {
       <section className="bg-[#f6f6f6] py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-[32px] text-ink sm:text-[45px]">Discounted Options</h2>
+            <h2 className="text-[35px] text-ink sm:text-[65px]">Discounted Options</h2>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-2">
             <div className="rounded-lg border border-border bg-white p-8 shadow-sm transition-shadow duration-300 hover:shadow-lg">
@@ -94,7 +94,7 @@ export default function SheltersForSalePage() {
       <section className="bg-white py-20">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.2fr] lg:px-8">
           <div>
-            <h2 className="text-[32px] text-ink sm:text-[40px]">
+            <h2 className="text-[35px] text-ink sm:text-[65px]">
               LET&rsquo;S FIND THE RIGHT FIT
             </h2>
             <h3 className="mt-3 text-2xl text-brand">Call +1 855 CEL SITE</h3>
@@ -128,7 +128,7 @@ export default function SheltersForSalePage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Choice</p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               REMANUFACTURED vs NEW SHELTERS
             </h2>
           </div>

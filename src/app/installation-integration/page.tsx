@@ -41,7 +41,7 @@ export default function InstallationIntegrationPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               Keep the Details In Mind
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -83,7 +83,7 @@ export default function InstallationIntegrationPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Full-Service Provider
           </p>
-          <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">An Integrated Team</h2>
+          <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">An Integrated Team</h2>
           <p className="mt-5 text-base leading-relaxed text-muted">
             At CellSite, our various teams are used to working together, sharing information, and
             creating synergy. It just makes sense to use our services end to end when you want an

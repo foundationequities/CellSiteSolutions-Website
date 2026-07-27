@@ -282,7 +282,7 @@ export default function CivilServicesShowcasePage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">{c.eyebrow}</p>
-              <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">{c.title}</h2>
+              <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">{c.title}</h2>
               <p className="mt-5 text-base leading-relaxed text-muted">{c.intro}</p>
             </div>
             <div className="mt-12 grid gap-8 lg:grid-cols-2">
@@ -300,7 +300,7 @@ export default function CivilServicesShowcasePage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
             Laying the foundation for success
           </p>
-          <h2 className="mt-2 text-[32px] sm:text-[40px]">CIVIL CONSTRUCTION SERVICES</h2>
+          <h2 className="mt-2 text-[35px] sm:text-[65px]">CIVIL CONSTRUCTION SERVICES</h2>
           <p className="mt-5 text-base leading-relaxed text-white/80">
             No other company matches the range of telecom site civil services offered by CellSite
             Solutions. We&rsquo;re a one-stop partner for every stage of your telecom infrastructure

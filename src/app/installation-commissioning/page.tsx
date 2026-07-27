@@ -40,7 +40,7 @@ export default function InstallationCommissioningPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
               One Source Gets the Job Done
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
@@ -81,7 +81,7 @@ export default function InstallationCommissioningPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Our Services</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Our Services</h2>
           </div>
           <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (

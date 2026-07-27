@@ -28,7 +28,7 @@ export default function CabinetsPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Security Pays for Itself</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Security Pays for Itself</h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
               In many cases, the right telecom cabinet could pay for itself in just a short time
               because of lowered repair expenses.
@@ -64,7 +64,7 @@ export default function CabinetsPage() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">
               Full-Service Provider
             </p>
-            <h2 className="mt-2 text-[32px] text-ink sm:text-[40px]">Available Styles</h2>
+            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">Available Styles</h2>
           </div>
           <div className="mt-10 grid gap-8 sm:grid-cols-2">
             <div className="rounded-lg border border-border bg-white p-7 shadow-sm transition-shadow duration-300 hover:shadow-lg">
