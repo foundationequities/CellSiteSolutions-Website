@@ -140,3 +140,21 @@ export function faqNode(loc: Location) {
     })),
   };
 }
+
+/**
+ * Everything a city page emits, as one @graph. LocalBusiness is added in the
+ * yard pages' own treatment (Phase 4.2) once the real yard addresses are in
+ * their data — the builder above refuses to emit without the gate anyway.
+ */
+export function locationJsonLd(loc: Location) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [organizationNode(), serviceNode(loc), breadcrumbNode(loc), faqNode(loc)].map(
+      (n) => {
+        const rest = { ...(n as Record<string, unknown>) };
+        delete rest["@context"];
+        return rest;
+      }
+    ),
+  };
+}

@@ -1,8 +1,10 @@
+import { SERVICE_LOCATIONS_NAV_ITEM } from "@/lib/locations-nav";
+
 export type NavLink = {
   label: string;
   href: string;
   /** Optional dropdown children (two-level nav, mirrors the live site menu). */
-  children?: { label: string; href: string }[];
+  children?: { label: string; href: string; dividerBefore?: boolean }[];
 };
 
 /**
@@ -42,6 +44,9 @@ export const mainNav: NavLink[] = [
       { label: "Site Decommissioning", href: "/site-decommissioning/" },
       { label: "Guy Tower & Rod Inspections", href: "/guy-tower-rod-inspections/" },
       { label: "Disaster Recovery", href: "/disaster-recovery/" },
+      // Wayfinding entry into the 65-market locations cluster — single-sourced
+      // from locations-nav so the nav and footer never drift (PLAN §7).
+      { ...SERVICE_LOCATIONS_NAV_ITEM },
     ],
   },
   { label: "Contact Us", href: "/contact-us/" },

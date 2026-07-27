@@ -41,15 +41,19 @@ export function SiteHeader() {
                 )}
               </Link>
               {item.children && (
-                <div className="invisible absolute left-0 top-full min-w-[16rem] translate-y-1 rounded-md border border-border/60 bg-white py-2 opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                <div className="invisible absolute left-0 top-full min-w-[16rem] translate-y-1 rounded-md border border-border/60 bg-white py-2 opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
                   {item.children.map((child) => (
-                    <Link
-                      key={child.href}
-                      href={child.href}
-                      className="block px-4 py-2 text-[15px] text-ink/80 hover:bg-brand/5 hover:text-brand"
-                    >
-                      {child.label}
-                    </Link>
+                    <div key={child.href}>
+                      {child.dividerBefore && (
+                        <div className="mx-4 my-2 border-t border-border" aria-hidden />
+                      )}
+                      <Link
+                        href={child.href}
+                        className="block px-4 py-2 text-[15px] text-ink/80 hover:bg-brand/5 hover:text-brand focus-visible:bg-brand/5 focus-visible:text-brand"
+                      >
+                        {child.label}
+                      </Link>
+                    </div>
                   ))}
                 </div>
               )}

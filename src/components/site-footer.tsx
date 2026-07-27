@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
+import { LocationsFooter } from "@/components/locations-footer";
 
 const YEAR = 2026;
 
@@ -159,6 +160,8 @@ export function SiteFooter() {
           </form>
         </div>
       </div>
+
+      <LocationsFooter />
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-muted sm:flex-row sm:px-6 lg:px-8">

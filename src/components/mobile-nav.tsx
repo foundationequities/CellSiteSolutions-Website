@@ -84,7 +84,7 @@ export function MobileNav() {
                 {item.children && (
                   <ul className="mb-2 ml-3 border-l border-white/15 pl-3">
                     {item.children.map((child) => (
-                      <li key={child.href}>
+                      <li key={child.href} className={child.dividerBefore ? "mt-2 border-t border-white/15 pt-2" : undefined}>
                         <Link
                           href={child.href}
                           onClick={() => setOpen(false)}

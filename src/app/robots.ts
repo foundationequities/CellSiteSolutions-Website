@@ -12,8 +12,12 @@ export default function robots(): MetadataRoute.Robots {
     return { rules: { userAgent: "*", disallow: "/" } };
   }
   const base = siteConfig.url.replace(/\/$/, "");
+  // Segmented sitemap index (PLAN §6.3) — one file per cluster so the
+  // locations segment can be monitored independently in Search Console.
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: `${base}/sitemap.xml`,
+    sitemap: ["core", "services", "locations", "resources"].map(
+      (id) => `${base}/sitemap/${id}.xml`
+    ),
   };
 }
