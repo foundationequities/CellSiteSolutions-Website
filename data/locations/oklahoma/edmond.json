@@ -1,0 +1,680 @@
+{
+  "identity": {
+    "slug": "edmond",
+    "city": "Edmond",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "stateAbbr": "OK",
+    "counties": [
+      "Oklahoma"
+    ],
+    "msa": "Oklahoma City, OK",
+    "tier": 3,
+    "latitude": 35.6528,
+    "longitude": -97.4781,
+    "elevationFt": 1122,
+    "population": {
+      "value": 94428,
+      "source": "U.S. Census Bureau, 2020 Census (see QuickFacts, Edmond city, Oklahoma)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-35"
+    ],
+    "majorRoutes": [
+      "US-77 (Broadway)",
+      "OK-66 (2nd St)"
+    ]
+  },
+  "metadata": {
+    "title": "Edmond, OK Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Edmond, OK — hut pads, compounds, and duct bank coordinated with Edmond Electric, the city's municipal utility, and I-35 growth.",
+    "h1": "Telecom Site Civil Construction in Edmond, Oklahoma",
+    "intro": "Edmond runs its own electric utility, and that fact changes telecom civil work here more than anything else about the market. New service to a hut or compound inside the city goes through Edmond Electric — the municipally owned system billed through the city's own utility office — rather than an investor-owned utility's regional queue, and the poles in the right-of-way belong to the city too. Add a north-metro growth wave that has ODOT rebuilding I-35 from Memorial Road toward a new $35 million Waterloo Road interchange, the University of Central Oklahoma beside the BNSF line downtown, and Edmond's own standards layered over the state's 2018 code family, and CellSite Solutions crews coming up I-35 from our Dallas–Fort Worth yard plan around a different set of gatekeepers than anywhere else in the metro.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC; Edmond adopted the 2018 ICC family effective August 14, 2023, consistent with the OUBCC statewide minimums)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Oklahoma County sat inside the induced-seismicity zone of 2009–2015, when Arbuckle-Group wastewater disposal briefly made Oklahoma the most seismically active state in the lower 48 (about 940 M3+ events in 2015); rates have fallen sharply since injection was cut back (USGS/SSA, 2024). Ss/S1 for a site come from a USGS design-maps query, never from this page."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Edmond lies on the northern side of the Central Oklahoma (Garber–Wellington) aquifer, where the Permian Garber Sandstone and Wellington Formation carry their better-sorted sandstone sequences — the reason the city historically pumped this aquifer hard enough to draw the potentiometric surface down on the order of 200 feet by the mid-1970s (USGS OFR 77-278). Surface soils grade into sandy cross-timbers ground eastward, with alluvium along the Deep Fork drainage that rises in this part of the metro.",
+    "dominantSoilTypes": [
+      "Garber–Wellington sandstone residuum and sandy red-bed soils",
+      "Cross-timbers sandy loams (eastern Edmond)",
+      "Deep Fork headwaters alluvium"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "NRCS shrink-swell data for Oklahoma County has not been pulled; sandy Garber-derived profiles are the local norm but interbedded mudstones exist in the section, so pad sites get screened individually.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping concern is documented for the Permian sandstone section under Edmond; site-specific investigation still governs."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation work in Edmond mostly happens in sand-dominated ground: Garber-derived residuum and cross-timbers sandy loams that excavate easily, drain well, and hold an auger hole long enough to make drilled shafts uncomplicated on typical tower and shelter scopes. The engineering questions are less about the bearing stratum than about position. Sites falling toward the Deep Fork drainage — which rises in this corner of the metro and feeds Arcadia Lake, the city's water source — pick up alluvial soils, shallower water, and floodplain screening. And because the city has drawn on the Garber–Wellington aquifer for a century, deeper structural excavations near active well fields warrant a groundwater check rather than an assumption. No frost depth is published here: Edmond's amendment set over the 2018 codes has not been read directly, so embedment is set by the adopted code section and the borings, in that order."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Edmond — Building Services",
+        "url": "https://www.edmondok.gov/192/Building-Codes",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Edmond adopted the 2018 ICC code family effective August 14, 2023, consistent with the OUBCC statewide minimums, with local amendments the city describes as stricter on several points. Review times are not published — confirm the current queue."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 ICC code family (including the 2018 IBC) with Oklahoma OUBCC and City of Edmond amendments, applied to permits on or after August 14, 2023",
+      "source": "City of Edmond Building Codes page — https://www.edmondok.gov/192/Building-Codes",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Right-of-way small cells run under Oklahoma's statewide Small Wireless Facilities Deployment Act (SB 1388, 2018) with deemed-granted shot clocks — but in Edmond the likely attachment structures are Edmond Electric's municipally owned poles, so attachment agreements go through the city utility rather than an IOU. Macro facilities clear Edmond zoning and the city's development standards.",
+    "rowPermitAuthority": {
+      "name": "City of Edmond — Engineering (right-of-way permits)",
+      "url": "https://www.edmondok.gov/1874/Online-Portal-Applications",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "A right-of-way permit is required for any work in the public right-of-way — streets, sidewalks, or utility easements — applied for through the city's online portal."
+    },
+    "stateDotDistrict": {
+      "name": "Oklahoma DOT field division for Oklahoma County (Division 4, Perry — confirm)",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Oklahoma County's division assignment is taken from ODOT's field-districts map and has not been confirmed with the division office; verify before routing a state-highway utility permit. Note the contrast within the metro: Cleveland County (Norman) is listed under Division 3, Ada."
+    },
+    "oneCallCenter": {
+      "name": "OKIE811 (Oklahoma One-Call System)",
+      "url": "https://okie811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "State law (63 O.S. §142.6) sets the notice window: no less than 48 hours before excavation — excluding the notification date, weekends, and legal holidays — and no more than 10 days ahead.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Oklahoma DEQ — OKR10 Construction General Permit (OPDES), with City of Edmond MS4 oversight",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "OKR10 (issued October 18, 2022; modified November 1, 2023) requires an SWP3 before the NOI at one acre of disturbance. Edmond runs its own developer/contractor stormwater program alongside the state permit — see the city's Developers & Contractors page."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Edmond's permitting stack is city-heavy by metro standards. Building review sits with Building Services under the 2018 codes the city adopted in August 2023; right-of-way work needs an Engineering permit filed through the online portal; and land disturbance picks up both the state OKR10 permit at one acre and the city's own MS4-driven erosion-control review. The step that has no parallel in neighboring markets is the utility itself: service design, meter, and any pole attachment run through Edmond Electric, a city department — which can genuinely simplify coordination when sequenced early, and genuinely stall a schedule when treated as an afterthought. File the OKIE811 ticket (48-hour statutory minimum) last; it is the only fast clock in the set."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Edmond Electric",
+        "type": "municipal",
+        "newServiceProcessUrl": "https://www.edmondok.gov/224/Edmond-Electric",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Municipally owned and revenue-supported; a member city of the Oklahoma Municipal Power Authority (OMPA), which is itself headquartered in Edmond. Utility Customer Service: 405-359-4541, 2824 Progressive Drive. New commercial service lead times are not published — get them in writing during design."
+      },
+      {
+        "name": "OG&E (Oklahoma Gas & Electric)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.oge.com/web/portal/label_ord/customer-service/overview",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves portions of the greater Edmond area outside the municipal system's territory; confirm the serving utility by address before designing any service."
+      }
+    ],
+    "ilec": "AT&T Oklahoma (legacy Southwestern Bell) — confirm exchange boundaries with the Oklahoma Corporation Commission before publishing",
+    "notableFiberProviders": [
+      "Cox Communications",
+      "AT&T",
+      "Dobson Fiber"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No recurring spring frost-law season applies in central Oklahoma. Posted bridges and local limits can still exist on section-line roads toward Waterloo and the county fringe — verify the final approach before a shelter haul."
+    },
+    "oversizeOverweightPermitAuthority": null,
+    "bridgeOrClearanceConstraints": "Through 2025, active ODOT work on I-35 between Memorial Road and 2nd Street (resurfacing, bridge work, and new turnarounds) has meant shifting lane configurations on the primary haul approach into Edmond — check current restrictions before scheduling an oversize delivery through the corridor.",
+    "railroads": [
+      {
+        "name": "BNSF Railway (former AT&SF line through downtown Edmond)",
+        "crossingPermitNote": "The BNSF corridor runs through central Edmond near Broadway and the UCO area, so east–west routes in the core face a railroad utility crossing: application through BNSF's permitting portal with PE-stamped drawings, encasement per the railroad's utility accommodation policy, and longitudinal occupancy held back from the track. File early — railroad review, not city review, is the usual schedule tail. Confirm current line ownership/operation on the specific crossing segment during route design."
+      }
+    ],
+    "urbanRowRequirements": "Right-of-way permit from Edmond Engineering for any work in streets, sidewalks, or utility easements, applied through the city's online portal; traffic control on Broadway (US-77) and 2nd Street (OK-66) gets city scrutiny consistent with Edmond's development standards."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Oklahoma State Historic Preservation Office (Oklahoma Historical Society)",
+      "url": "https://www.okhistory.org/shpo/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 applies on federally funded work, including BEAD subgrantee routes."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Tulsa District regulatory program",
+      "url": "https://www.swt.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Oklahoma County is Tulsa District territory; Deep Fork drainage crossings raise the Section 404 question here."
+    },
+    "usaceDistrict": "Tulsa District (SWT)",
+    "listedSpeciesNote": "No county species review has been run for this file — a project-specific USFWS IPaC query is required per site and route. The absence of a published tree-clearing window in the sources checked is a research gap, not a clearance.",
+    "floodplainPrevalenceNote": "The Deep Fork River rises in this part of the metro and feeds Arcadia Lake — the USACE flood-control lake on Edmond's east side that also supplies about 4 billion gallons a year to the city's water treatment plant. Work in the Deep Fork drainage or near Arcadia Lake carries both floodplain screening and water-supply sensitivity; the city's floodplain administration contact has not been confirmed for this file."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild central-Oklahoma winter; short freezes, occasional ice",
+        "earthworkConcrete": "workable",
+        "note": "Ice storms threaten the overhead system — a municipal-utility outage day can idle inspections too"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw swings without deep frost",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Drying, warming; wind picks up",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good ground; storm frequency climbing",
+        "earthworkConcrete": "favorable",
+        "note": "Severe-weather watch days start entering the schedule"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Wettest, most volatile month; saturated windows after storm passages",
+        "earthworkConcrete": "workable",
+        "note": "Hail and tornado peak; open excavations and craned sets planned around outlook days"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Transition to summer heat; ground firming",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot, dry, hard-set sandy ground",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete controls on pad pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; abrasive dry digging",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Cooling; occasional second storm season",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Best month of the year — dry, firm, temperate",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "First freezes; production continues normally",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild with ice-event risk",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Edmond builds essentially twelve months a year. Deep frost never sets the schedule; what does is the storm calendar — May's severe-weather peak on one end and December-through-February ice events on the other, the latter mattering twice here because an ice storm that damages Edmond Electric's distribution system also consumes the same city organization a project needs for inspections and service work. Summer imposes hot-weather concrete practice more than downtime. Figures behind this table are directional; the NOAA normals for the Oklahoma City area station still need to be read directly before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Garber Sandstone sits shallow across the north metro; it is weakly cemented and normally diggable, so the cost signature is slowed trench and auger production rather than blasting. Borings decide, site by site.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No state prevailing wage applies — Oklahoma's act was voided by the state supreme court in 1995 (City of Oklahoma City v. State ex rel. Oklahoma Dept. of Labor). Davis-Bacon attaches only to federally funded scopes such as BEAD builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Plan premiums around weather events, not seasons: severe-weather contingency April–June, hot-weather concrete measures midsummer, and ice-storm schedule float in winter. There is no frost-depth winter premium comparable to the northern half of the CSS footprint.",
+    "narrative": "Three things move an Edmond civil number. First, the utility interface: Edmond Electric's new-service and pole-attachment processes are city processes, and the schedule cost of sequencing them late exceeds most physical line items on a hut or node build. Second, corridor condition: with ODOT actively reconstructing I-35 from Memorial Road north and a $35 million Waterloo interchange planned, haul routing and lane-closure timing on the market's main spine are live variables rather than constants. Third, ground and weather: shallow, diggable sandstone that taxes production rates rather than triggering rock clauses, storm-season contingency in spring, and hot-weather concrete in summer. Band A mobilization from the Dallas–Fort Worth yard is a modest, predictable adder. Drivers only — no unit pricing; each site prices to its borings and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "There is no statewide general contractor license in Oklahoma; the state's Construction Industries Board licenses only the electrical, plumbing, and mechanical trades. Cities may impose local contractor registration on top of the state framework — verify Edmond's current registration requirements with Building Services when permitting.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "high wind",
+      "extreme heat"
+    ],
+    "designImplications": "Edmond shares the central-Oklahoma severe-weather regime documented by NWS Norman — the metro's 2013 season alone produced the May 20 Moore EF5 south of here and the record-width May 31 El Reno tornado on the metro's west side. For compounds that means conservative anchorage and hail-tolerant equipment placement; for this market specifically, ice is the second-order design driver, because hardening a site served by a municipal distribution system means specifying standby generation and fuel autonomy against the same ice events that historically stress overhead lines. Wind, ice, and snow design values are not stated here — they publish only after ASCE 7 and TIA-222 site queries.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "ODOT rebuilding the I-35 Edmond corridor; $35M Waterloo Road interchange planned",
+        "detail": "Resurfacing, bridge work, and protected turnarounds between Memorial Road and 2nd Street ran through 2025, with a new interchange at Waterloo Road (~$35 million) planned to serve the fast-developing north corridor — utility relocation and access changes follow this kind of work.",
+        "category": "transportation",
+        "sourceUrl": "https://oklahomavoice.com/2024/12/02/major-i-35-expansion-projects-planned-to-ease-gridlock-improve-safety-in-north-oklahoma-county/",
+        "asOf": "2024-12-02"
+      },
+      {
+        "headline": "Dobson Fiber expanding across the OKC metro, Edmond included",
+        "detail": "Oklahoma-based Dobson Fiber announced a major expansion across the Oklahoma City MSA — which includes Edmond — with engineering design complete in most areas and permitting, construction, and customer connections underway.",
+        "category": "carrier program",
+        "sourceUrl": "https://invezz.com/news/2024/08/19/dobson-fiber-boosts-broadband-technology-with-major-expansion/",
+        "asOf": "2024-08-19"
+      },
+      {
+        "headline": "Oklahoma BEAD program headed to construction",
+        "detail": "Oklahoma's $797.4 million BEAD allocation completed its revised 'Benefit of the Bargain' round in 2025 with roughly $550 million provisionally awarded to 20 providers and construction expected from 2026 — middle-mile and edge-out effects reach metro-fringe markets like north Edmond.",
+        "category": "broadband program",
+        "sourceUrl": "https://oklahoma.gov/broadband/office/newsroom/oklahoma-to-receive--797-4-million-for-high-speed-internet-build.html",
+        "asOf": "2025-08-08"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Edmond's fiber story is a competitive-overbuild story: Cox and AT&T hold the incumbent footprint while Oklahoma-based Dobson Fiber is actively constructing across the OKC metro, Edmond included — which means duct, vault, and lateral civil work concentrated in established residential right-of-way governed by the city's Engineering permit and Edmond's development standards. Route design in the core has to respect two fixed obstacles: the BNSF corridor through downtown near Broadway, where a crossing means a railroad application with PE-stamped plans filed well ahead of need, and the I-35 construction corridor, where ODOT's Memorial-to-2nd rebuild keeps lane configurations and bore access changing. On the north fringe toward Waterloo Road, growth outruns the maps — locates and pothole verification earn their keep there. Restoration standards in Edmond's manicured subdivisions are a real cost line, not an afterthought.",
+      "localSpecificsReferenced": [
+        "Dobson Fiber OKC-metro expansion",
+        "BNSF corridor through downtown Edmond",
+        "ODOT I-35 Memorial-to-2nd rebuild",
+        "Edmond Engineering ROW permit"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "small cell and DAS node civil",
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "C-band / densification upgrade civil",
+        "access road and turnaround"
+      ],
+      "narrative": "The distinguishing fact for wireless civil in Edmond is who owns the poles: small-cell attachments in the right-of-way land on Edmond Electric's municipally owned distribution system, so even though Oklahoma's SB 1388 sets statewide shot clocks, the practical path runs through a city utility's attachment and make-ready process rather than an IOU's. Densification demand tracks the University of Central Oklahoma downtown and the retail spine along Broadway and 2nd Street, while new macro and compound work follows rooftops north toward Covell and Waterloo, where subdivisions are outrunning existing coverage. Edmond applies its development standards with more rigor than most metro suburbs — screening, setbacks, and finish requirements belong in the site budget from day one, not in a change order after design review.",
+      "localSpecificsReferenced": [
+        "Edmond Electric municipal pole ownership",
+        "University of Central Oklahoma",
+        "Covell/Waterloo growth corridor",
+        "Oklahoma SB 1388 shot clocks"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "No hyperscale campus is announced in Edmond, and this page will not invent one. The realistic edge scope here is distributed: micro-DC and cabinet-cluster pads serving an affluent, fast-growing north-metro population, sited where power can actually be delivered — which in Edmond means engaging the municipal utility early, since service design, transformer availability, and energization all run through Edmond Electric (an OMPA member city) rather than a regional IOU queue. That single-desk structure can be an advantage: the utility, the ROW authority, and the building department are all the same city government. Sites near the Deep Fork drainage or Arcadia Lake — the flood-control reservoir that doubles as Edmond's water supply — add floodplain and water-supply screening before layout, and the I-35 corridor's ongoing reconstruction shapes both delivery routing and where corridor-adjacent parcels make sense.",
+      "localSpecificsReferenced": [
+        "Edmond Electric / OMPA",
+        "Arcadia Lake and Deep Fork drainage",
+        "I-35 corridor reconstruction"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 239,
+      "driveTimeHours": 4.1,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Oklahoma"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Edmond from our Dallas–Fort Worth yard means running the full length of the Oklahoma City metro: the productive miles end not at the state line but in OKC traffic, and through 2025 the final approach has included ODOT's active I-35 work zone between Memorial Road and 2nd Street. That shapes how we run the market — equipment moves and shelter deliveries get scheduled off-peak through the corridor, and crews on multi-day scopes lodge locally on weekly rotations rather than attempting long day-trips, which keeps morning start times honest. Punch visits and inspections still fit in a single long day when they must. The mileage and drive time shown are seed estimates awaiting real route verification, and no emergency response commitment appears here without ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who provides electric service for a new telecom site in Edmond?",
+      "answer": "Inside the municipal territory, Edmond Electric — the city-owned utility, billed through Edmond's Utility Customer Service office (405-359-4541). Portions of the greater Edmond area fall to OG&E instead, so the first design step is confirming the serving utility by address. Neither publishes commercial new-service lead times; we get the commitment in writing during design, before civil work is scheduled.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does working with a municipal utility change a small cell build in Edmond?",
+      "answer": "Yes, materially. Oklahoma's Small Wireless Facilities Deployment Act (SB 1388) sets the statewide shot clocks, but the attachment structures in Edmond's right-of-way are largely Edmond Electric's own poles — so attachment agreements and make-ready go through the city utility, and the ROW permit, the utility, and the building department are all one government. Sequenced early, that is simpler than an IOU market; sequenced late, it is the schedule.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What building codes apply to telecom structures in Edmond?",
+      "answer": "The 2018 ICC code family — including the 2018 IBC referencing ASCE 7-16 — applies to permits issued on or after August 14, 2023, consistent with Oklahoma's OUBCC statewide minimums, plus City of Edmond amendments the city characterizes as stricter on several points. We have not yet verified the amendment text itself (including any frost-depth figure), so structural embedment and design values come from the adopted sections and site-specific queries, not from this page.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues the right-of-way permit for fiber or node work in Edmond?",
+      "answer": "City of Edmond Engineering. A right-of-way permit is required for any work in streets, sidewalks, or utility easements, and applications go through the city's online portal. Expect Edmond-grade attention to traffic control on Broadway (US-77) and 2nd Street (OK-66), and budget restoration to the city's standards — Edmond's subdivisions are unforgiving of rough patchwork.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does OKIE811 require before excavation in Edmond?",
+      "answer": "Statute sets it: at least 48 hours before digging — excluding the notification date, weekends, and legal holidays — and no more than 10 days ahead (63 O.S. §142.6). We hold that two-business-day minimum on every bore, trench, and vault set, and refresh tickets on long-running duct jobs before they lapse.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do Arcadia Lake or the Deep Fork affect where telecom sites can go in Edmond?",
+      "answer": "On the east side, yes. The Deep Fork River rises in this part of the metro and feeds Arcadia Lake, the USACE flood-control lake that also supplies roughly 4 billion gallons a year to Edmond's water treatment plant. Sites and routes in that drainage pick up floodplain screening and water-supply sensitivity on top of the standard OKR10 stormwater permit at one acre of disturbance.",
+      "segment": "general"
+    },
+    {
+      "question": "Is there a seasonal road-restriction window for shelter deliveries to Edmond?",
+      "answer": "No spring frost-law season applies in central Oklahoma — the constraint that dominates upper-Midwest hauls is absent here. What does need checking is the I-35 approach itself, where ODOT's corridor reconstruction has kept lane configurations changing, plus any posted bridges on section-line roads toward the Waterloo fringe. We verify the final approach route before every haul.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can concrete be poured year-round in Edmond?",
+      "answer": "Effectively yes, with event-driven precautions rather than a seasonal shutdown: cold-weather practice during short winter freezes and ice events, hot-weather controls — early pours, mix temperature management — in July and August, and storm-day float in the April-through-June severe season. Deep ground frost is not a practical constraint in this market.",
+      "segment": "general"
+    },
+    {
+      "question": "What railroad approvals come up on Edmond routes?",
+      "answer": "The BNSF corridor through downtown Edmond near Broadway and UCO is the one that matters: crossing it takes a BNSF utility application with PE-stamped drawings and encasement per the railroad's utility accommodation policy. Railroad review is habitually the longest approval on a route through the core, so we identify crossings during route design and file immediately rather than discovering them at construction release.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Sequencing an Edmond hut build around the city's own utility",
+    "body": "The engineering-judgment call in Edmond is rarely the foundation — sandy Garber-derived ground takes drilled shafts and shallow pads without drama — it is the critical path. On most CSS markets the serving utility is a regional IOU whose new-service queue runs in parallel with, and independent of, city permitting. Edmond collapses that structure: the electric utility, the right-of-way authority, the stormwater reviewer, and the building department are the same government. The correct response is to invert the usual sequence. Start the Edmond Electric service application — load letter, transformer and metering design, attachment or make-ready requests — before finalizing civil design, because transformer placement and service routing will move the pad, the conduit, and sometimes the property interest, and no amount of civil productivity recovers a late utility start. Then permit ROW and building work against a layout the utility has already blessed. Reserve contingency for two Edmond-specific frictions: development standards (screening, setbacks, finish) that are enforced more rigorously than elsewhere in the metro, and the I-35 work zone's effect on delivery windows. Where the site falls in the Deep Fork drainage, run floodplain and Arcadia Lake water-supply screening before committing the parcel at all. Borings still govern the foundation — but in this market, the utility sequence governs the schedule."
+  },
+  "sources": [
+    {
+      "label": "City of Edmond — Building Codes (2018 ICC family effective August 14, 2023)",
+      "url": "https://www.edmondok.gov/192/Building-Codes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Edmond — Developers & Contractors (stormwater and development requirements)",
+      "url": "https://www.edmondok.gov/1024/Developers-Contractors",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Edmond — Edmond Electric (municipally owned utility)",
+      "url": "https://www.edmondok.gov/224/Edmond-Electric",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Municipal Power Authority — member municipal systems (headquartered in Edmond)",
+      "url": "https://www.ompa.com/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Edmond — Arcadia Lake (Deep Fork flood control and recreation)",
+      "url": "https://www.edmondok.gov/338/Arcadia-Lake",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Edmond — Water Production (Arcadia Lake water treatment plant, ~4B gal/yr)",
+      "url": "https://www.edmondok.gov/697/Water-Production",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Edmond — online portal applications (right-of-way permits)",
+      "url": "https://www.edmondok.gov/1874/Online-Portal-Applications",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma DEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Underground Facilities Damage Prevention Act (63 O.S. §142.6), via OKIE811",
+      "url": "https://okie811.org/wp-content/uploads/2023/05/Oklahoma-Underground-Damage-Prevention-Act-LAW-2023.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OUBCC — 2018 IBC adoption as Oklahoma statewide minimum code",
+      "url": "https://oklahoma.gov/content/dam/ok/en/oubcc/documents/rules/2021%2009%2014%20IBC%202018%20Permanent%20Rule.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS OFR 77-278 — Garber–Wellington aquifer appraisal, southern Logan and northern Oklahoma counties",
+      "url": "https://pubs.usgs.gov/publication/ofr77278",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Voice — I-35 expansion projects in north Oklahoma County (Dec 2024)",
+      "url": "https://oklahomavoice.com/2024/12/02/major-i-35-expansion-projects-planned-to-ease-gridlock-improve-safety-in-north-oklahoma-county/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Broadband Office — $797.4M BEAD allocation announcement",
+      "url": "https://oklahoma.gov/broadband/office/newsroom/oklahoma-to-receive--797-4-million-for-high-speed-internet-build.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Dobson Fiber OKC-metro expansion (Aug 2024)",
+      "url": "https://invezz.com/news/2024/08/19/dobson-fiber-boosts-broadband-technology-with-major-expansion/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Construction Industries Board — licensing FAQ (no statewide GC license; licensed trades)",
+      "url": "https://oklahoma.gov/cib/frequently-asked-questions.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Oklahoma City v. State ex rel. Oklahoma Dept. of Labor (Okla. 1995) — prevailing wage act void",
+      "url": "https://law.justia.com/cases/oklahoma/supreme-court/1995/4221-1.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Norman — The Tornado Outbreak of May 20, 2013 (metro severe-weather context)",
+      "url": "https://www.weather.gov/oun/events-20130520",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ODOT — field districts (division assignments; Oklahoma County pending confirmation)",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BNSF Railway — Utility Accommodation Policy",
+      "url": "https://www.bnsf.com/bnsf-resources/pdf/about-bnsf/utility.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Census Bureau QuickFacts — Edmond city, Oklahoma",
+      "url": "https://www.census.gov/quickfacts/edmondcityoklahoma",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — reduced injection rates mitigated induced seismicity in Oklahoma (2024)",
+      "url": "https://www.usgs.gov/publications/reduced-injection-rates-and-shallower-depths-mitigated-induced-seismicity-oklahoma",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "LegiScan — Oklahoma SB 1388 (2018), Small Wireless Facilities Deployment Act",
+      "url": "https://legiscan.com/OK/bill/SB1388/2018",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTemps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox proxy; no publishable primary values found."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Edmond's amendment set over the 2018 codes (Municipal Code Title 16) not read directly; no primary code-section citation obtained, and secondary sources are disallowed for frost depth."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, shrink-swell rating, corrosivity)",
+      "attempted": "NRCS Web Soil Survey not reachable; only qualitative aquifer/geology sourcing (USGS OFR 77-278, Circular 1019 region)."
+    },
+    {
+      "field": "regulatory.stateDotDistrict",
+      "attempted": "Oklahoma County's ODOT field-division assignment (believed Division 4, Perry) not confirmed against the division office before search budget exhausted — flagged in the record note."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Edmond's floodplain administration contact not identified in sources checked; likely within Engineering/Planning — confirm with the city."
+    },
+    {
+      "field": "logistics.oversizeOverweightPermitAuthority",
+      "attempted": "State OS/OW permitting authority not confirmed to a primary source; left null rather than guessed."
+    },
+    {
+      "field": "environmental.treeClearingWindow + listedSpeciesNote",
+      "attempted": "USFWS IPaC not queried for Oklahoma County; restricted=false records only that no published window was found."
+    },
+    {
+      "field": "utilities.ilec + Edmond Electric/OG&E boundary",
+      "attempted": "AT&T Oklahoma attribution from legacy-territory knowledge; municipal vs. OG&E service boundary not mapped — confirm by address per site."
+    },
+    {
+      "field": "utilities new-service lead weeks + AHJ review days",
+      "attempted": "Not published by the city or utilities; confirm by phone per RESEARCH.md."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "NCEI normals for the OKC-area station not read directly; calendar is directional pending the station check."
+    },
+    {
+      "field": "operations.nearestBase roadMiles/driveTimeHours",
+      "attempted": "Seed straight-line-derived estimate (239 mi / 4.1 h); real routing not yet run — routeVerified stays false."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for coverage list and any response commitment."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 3 gate requires 2 images; never invented."
+    },
+    {
+      "field": "railroads — BNSF line operation through Edmond",
+      "attempted": "Corridor presence noted from public transit/rail context; confirm current owner/operator on the specific crossing segment during route design."
+    }
+  ]
+}

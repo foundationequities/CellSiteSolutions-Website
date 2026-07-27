@@ -1,0 +1,614 @@
+{
+  "identity": {
+    "slug": "salina",
+    "city": "Salina",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateAbbr": "KS",
+    "counties": [
+      "Saline"
+    ],
+    "msa": "Salina, KS micropolitan area (Saline and Ottawa counties)",
+    "tier": 3,
+    "latitude": 38.8403,
+    "longitude": -97.6114,
+    "elevationFt": 1224,
+    "population": {
+      "value": 46889,
+      "source": "2020 U.S. Census count (Census QuickFacts unreachable through session proxy — confirm current vintage estimate before publish)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-70",
+      "I-135"
+    ],
+    "majorRoutes": [
+      "US-81",
+      "US-40",
+      "K-140"
+    ]
+  },
+  "metadata": {
+    "title": "Salina KS Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Salina, Kansas — fiber, wireless, and edge site work at the I-70/I-135 junction, built to Smoky Hill valley ground conditions.",
+    "h1": "Telecom Site Civil Construction in Salina, Kansas",
+    "intro": "Salina matters to network builders for the same reason it matters to freight: it sits where I-70 crosses I-135, making it the natural staging point for anything running across central and western Kansas. The city adopted the 2018 IBC by ordinance in 2025, the downtown sits on Smoky Hill River alluvium behind a 1961 federal levee system, and Dakota Formation sandstone caps the hills west of town. It is also a genuine close call in our two-yard model — roughly 455 road miles from Dallas via I-35 and I-135 against roughly 495 from Cedar Rapids — so Salina runs as a project-deployment market: crews mobilize for the duration of a scope, stage at the interstate junction, and buy concrete and aggregate locally.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "City of Salina adopted the 2018 I-codes in 2025 (Ordinances 25-11264/25-11265/25-11267), which reference ASCE 7-16; confirm amendments with Building & Neighborhood Services at permit",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Kansas is a low-seismicity code environment; numeric Ss/S1 require a USGS design-maps query at site coordinates before publication. Wind and ice govern telecom structures on this stretch of the Plains — publish wind speeds only after an ASCE 7 Hazard Tool query."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Saline County's surficial rocks run Permian to Cretaceous: Wellington Formation shales crop out east of I-135, and Dakota Formation sandstone caps the hilltops in the western part of the county, with Holocene alluvium — clay, silt, sand, and gravel — filling the Smoky Hill and Saline river valleys. The Smoky Hill valley fill ranges from under 30 to more than 90 feet thick, with a maximum recorded thickness of about 94 feet near Mentor in southern Saline County. Salina itself sits on that valley alluvium at the Smoky Hill–Saline confluence area. (KGS Saline County geologic map M-123; KGS bulletins.)",
+    "dominantSoilTypes": [
+      "Smoky Hill River valley alluvium (clay, silt, sand, gravel; 30–94 ft thick)",
+      "Wellington Formation shale residuum (east of I-135)",
+      "Dakota Formation sandstone uplands (western county)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "NRCS shrink-swell ratings for Saline County map units were not retrievable this session. Wellington shale residuum and overbank clays in the valley can carry plasticity — treat expansive behavior as unresolved until index testing, with site-specific investigation governing.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping applies to the Salina area itself; dissolution of the Hutchinson Salt Member of the Wellington Formation is documented regionally along its eastern margin in central Kansas, so unusually deep excavations or dewatering scopes warrant a geology check rather than an assumption."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Numeric NRCS corrosion ratings pending. Salina's name is no accident — saline groundwater associated with the Wellington evaporites is documented in the regional literature, and grounding-system and buried-steel specification in the valley should assume elevated salinity until site testing says otherwise.",
+    "foundationApproachNarrative": "Salina foundations are a valley-floor story with an upland footnote. In town, you are on Smoky Hill alluvium — tens of feet of clay, silt, sand, and gravel with no rock in reach — so shelter pads and hut foundations behave predictably: conventional spread footings or thickened pads sized by the borings, with drilled piers reserved for tower loads, and the real variables being fine-grained compressible zones near the old river meanders and groundwater elevation in the valley fill. The city has not published a frost depth we could verify, so foundation depth is set by the geotechnical recommendation and the adopted 2018 code until Building & Neighborhood Services confirms an amendment — that number is flagged as a gap, not guessed. West of town the Dakota sandstone changes the arithmetic: upland macro sites can meet rippable-to-hard sandstone at excavation depth, which favors bearing on rock but puts refusal contingencies into any drilled-pier bid. Levee-adjacent sites downtown add a floodplain layer that is decided before foundation type is."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Salina — Building & Neighborhood Services",
+        "url": "https://www.salina-ks.gov/buildingandcodeenforcement",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers building, electrical, mechanical, and plumbing codes and permits citywide. Published review times not confirmed — verify current timelines directly. Unincorporated Saline County sites: confirm whether county permitting applies."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 IBC (Ordinance 25-11264, with Appendices H & N), 2018 IEBC (Ord. 25-11265), 2018 IRC (Ord. 25-11267), 2018 UPC — adopted 2025",
+      "source": "City of Salina ordinance pages — salina-ks.gov (Ordinances 25-11264, 25-11265, 25-11267)",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Salina (city streets/ROW); Saline County on county roads; KDOT District 2 on state highway ROW",
+      "url": "https://www.salina-ks.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the city ROW permit process with Public Works; state-route work files the KDOT Form 304 Use of Right-of-Way application."
+    },
+    "stateDotDistrict": {
+      "name": "KDOT District 2 — North Central Kansas (headquartered in Salina; 16 counties, 4,345 state highway miles)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-2-north-central-kansas",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The district office is in town — highway ROW permitting under K.A.R. 36-11-6 is locally administered."
+    },
+    "oneCallCenter": {
+      "name": "Kansas 811 (Kansas One Call)",
+      "url": "https://kansas811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Kansas Underground Utility Damage Prevention Act.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "KDHE Bureau of Water — NPDES Construction Stormwater General Permit",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "phone": null,
+      "typicalReviewDays": 60,
+      "note": "NOI plus $60 fee and site-specific SWPPP at 1+ acre of disturbance; KDHE targets authorization within 60 days."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Salina floodplain administration (confirm office — Community & Development Services)",
+      "url": "https://www.salina-ks.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Much of the city is protected by the 1961 USACE flood protection project (Smoky Hill diversion and levees); levee-adjacent and residual-risk parcels still carry FIRM zones."
+    },
+    "permitTimelineNarrative": "Salina permitting is small-city direct: Building & Neighborhood Services issues permits under the freshly adopted 2018 codes, and the state-level layers are the same ones every Kansas market carries — Kansas 811's two full working days before excavation, KDHE's stormwater NOI at an acre of disturbance with a 60-day authorization target, and KDOT highway ROW permits, which in Salina's case are administered by a district headquarters that sits in town. The scheduling caution is jurisdictional, not bureaucratic: a site at the I-70/I-135 junction can touch city ROW, county road, and state highway within a single access route, and each authority permits separately. Published review durations were not confirmed this session — verify current timelines with the city at intake, and put the KDHE NOI in first on any greenfield compound."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy (Evergy Kansas Central — legacy Westar territory)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Service territory assignment from the legacy Westar footprint — confirm at the parcel with Evergy, as municipal and cooperative territories interleave outside city limits in central Kansas. New-service lead times unpublished; obtain written confirmation during scoping."
+      }
+    ],
+    "ilec": "AT&T Kansas (Southwestern Bell legacy; confirm formal ILEC designation for the Salina exchange against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber (roughly half of city addresses)",
+      "Cox Communications (incumbent cable, ~95% of the city)",
+      "Nex-Tech (fiber in parts of the market)",
+      "Twin Valley (regional Kansas provider)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Kansas posts no seasonal spring-thaw frost laws; limits are year-round engineering-based postings. For rural Saline and Ottawa county sites, county-posted bridges on the last-mile route are the constraint to check — not the state map."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "KDOT — oversize/overweight permits via the K-TRIPS system",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "I-70 and I-135 at Salina are free interstate — no turnpike segment complicates a shelter haul into this market, unlike the I-35 approach to Wichita. The Kansas Turnpike begins east of Salina on I-70 toward Topeka."
+    },
+    "bridgeOrClearanceConstraints": "I-70 across central Kansas closes for blizzard and ice events most winters — gates and highway patrol closures, not advisories. A winter shelter delivery window should carry weather float, because when I-70 closes there is no practical parallel route for an oversize load.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP's ex-Kansas Pacific main line along the I-70 corridor runs through Salina; crossings permit through UP's utility licensing process, and timelines are long — file before the civil schedule is set."
+      }
+    ],
+    "urbanRowRequirements": "City ROW permits and traffic control per City of Salina standards; confirm the current process with Public Works. Downtown work near the Smoky Hill channel may additionally touch levee-district review."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Kansas SHPO — Kansas Historical Society, Cultural Resources Division",
+      "url": "https://www.kshs.org/15543",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day statutory review; most reviews clear in under two weeks."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory program (Kansas River basin — the Smoky Hill is a Kansas River tributary); KDHE for Section 401 certification",
+      "url": "https://www.nwk.usace.army.mil/Missions/Regulatory-Branch/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm district boundary per site."
+    },
+    "usaceDistrict": "Kansas City District (NWK) — confirm for site basin",
+    "listedSpeciesNote": "No county-specific IPaC query was runnable this session. Central Kansas sits on the whooping crane migration corridor (Cheyenne Bottoms and Quivira NWR are southwest of Salina), and listed bat species can constrain tree clearing in wooded riparian corridors along the Smoky Hill — run IPaC per project and coordinate the USFWS Kansas field office before setting clearing dates.",
+    "floodplainPrevalenceNote": "Salina's flood story is federal and dated 1961: the city and USACE completed a flood protection project that diverted the Smoky Hill River around downtown with several miles of levee, cutting off 6.8 miles of natural channel. Levee-protected parcels still carry residual-risk FIRM zones, and the city is now partnered with the USACE Kansas City District on the Smoky Hill River Renewal effort to restore flows to the downtown channel — a program worth tracking because it touches downtown ROW and utility corridors."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen crust and freeze-thaw cycling; blizzards possible",
+        "earthworkConcrete": "constrained",
+        "note": "I-70 closure events are a real mobilization risk in this month"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw; mud after snow melt",
+        "earthworkConcrete": "workable",
+        "note": "Ice storm exposure; cold-weather concrete protection standard"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawing, drying; strong winds",
+        "earthworkConcrete": "workable",
+        "note": "Wind limits crane and boom work more than ground does"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good working ground between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": "Severe season opens — hail and tornado watches"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Wettest stretch; storm interruptions",
+        "earthworkConcrete": "workable",
+        "note": "Peak severe-weather month on this stretch of the Plains"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Drying and heating; storms taper",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot, dry, hard ground",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete practice; central Kansas heat is no joke"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat continues",
+        "earthworkConcrete": "workable",
+        "note": "Morning pour windows"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Cooling; excellent conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime fall window",
+        "earthworkConcrete": "favorable",
+        "note": "Best month to schedule foundation-heavy scopes"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "First hard freezes; generally workable",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Intermittent frozen ground; blizzard risk returns",
+        "earthworkConcrete": "constrained",
+        "note": "Winter mobilizations planned around I-70 weather windows"
+      }
+    ],
+    "narrative": "Salina's construction calendar is continental Plains: a real but shallow winter, a violent spring, a hot dry summer, and a golden fall. The distinctive scheduling item is the road, not the ground — I-70 across central Kansas closes outright for blizzard and ice events most winters, and a closed I-70 strands crews, concrete, and shelter hauls alike, so December-through-February mobilizations into this market are planned around weather windows with float built in. April and May bring the hail and tornado season that everything on this longitude shares. September and October are the months to bank foundation-heavy work. Calendar figures are qualitative pending an NCEI normals pull for the Salina station and CSS ops field review."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Valley-floor sites in the Smoky Hill alluvium carry essentially no rock risk. Upland sites west of town can meet Dakota Formation sandstone at excavation depth — bid refusal contingencies on drilled piers there.",
+    "aggregateHaulNote": "Sand and gravel is produced from the valley alluvium regionally; haul distances are short for a market this size. Confirm active pit sources at estimate.",
+    "readyMixProximityNote": "Ready-mix is available in-market; a city of ~47,000 at an interstate junction supports local supply, but single-producer scheduling means pour dates get booked earlier than in a metro. Confirm producers at estimate.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No state prevailing wage — Kansas repealed its law in 1987. Federal Davis-Bacon applies to federally funded work, including BEAD-funded fiber construction as the approved $166.6M Kansas program builds out.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter cost is mostly logistics: I-70 closure float and cold-weather concrete protection. Spring severe-weather slack applies April–June as everywhere on this stretch of the Plains.",
+    "narrative": "Salina prices as a small market with big-corridor logistics. The I-70/I-135 junction keeps line-haul simple and toll-free — no turnpike segment touches a shelter delivery, unlike Wichita's I-35 approach — and valley aggregate plus in-market ready-mix keep material haul short, with the caveat that a smaller producer base means pour scheduling is a real constraint rather than a formality. What moves numbers: mobilization, honestly stated, because this is a Band B deployment market roughly 455 road miles from our Dallas yard (and about 495 from Cedar Rapids), so single small scopes carry the mobilization line poorly while batched central-Kansas programs — Salina plus Abilene plus the I-70 corridor towns — absorb it well; winter I-70 closure float on December–February work; and refusal contingency on upland Dakota sandstone sites. Drivers, not prices — every site prices to its borings and its season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Kansas has no statewide general contractor license; licensing is local. Confirm the City of Salina's contractor licensing/registration requirements with Building & Neighborhood Services before permit application — requirements in smaller Kansas cities vary, and business-entity registration with the Kansas Secretary of State is the only state-level constant.",
+    "additionalRegistrations": [
+      "KDHE construction stormwater NOI on 1+ acre disturbance"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "high wind",
+      "extreme cold",
+      "flood"
+    ],
+    "designImplications": "Central Kansas stacks the full Plains hazard set: spring tornado and hail season drives wind-rated anchorage and hail-conscious equipment placement; winter brings ice loading and blizzard events severe enough to close I-70, which shapes construction logistics as much as design; and straight-line wind is a year-round reality on this open terrain, arguing for conservative exposure assumptions until the ASCE Hazard Tool query is run. Flood risk in town is managed by the 1961 levee system but not erased — levee-adjacent parcels carry residual-risk zones that decide pad elevation before geotechnics do.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Kansas BEAD approved at $166.6M — north-central awards pending detail",
+        "detail": "NTIA approved Kansas' restructured BEAD final proposal in December 2025: $166.6M to 14 subrecipients with $61.3M private match, down from the original $451.7M allocation. Saline County-level award detail was not published at review time; tracked quarterly as the build phase opens in 2026.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+        "asOf": "2025-12-15"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "regen and amplifier site civil"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "restoration"
+      ],
+      "narrative": "Salina's fiber relevance is positional: the I-70/I-135 junction concentrates long-haul and regional routes the way it concentrates trucks, and regen, amplifier, and hut sites serving central-Kansas spans cluster near exactly this kind of crossroads. Boring the Smoky Hill valley fill is clean work — up to 94 feet of clay, silt, sand, and gravel with no rock in reach — while crossings of UP's ex-Kansas Pacific main line along the I-70 corridor are the schedule item to file early, because railroad licensing runs slower than any bore. In-market, AT&T Fiber passes roughly half the city against Cox's near-universal cable plant, with Nex-Tech and Twin Valley active in the region, and the approved $166.6M Kansas BEAD program brings subsidized rural construction to the surrounding counties from 2026 — Saline County award detail is tracked quarterly.",
+      "localSpecificsReferenced": [
+        "I-70/I-135 junction",
+        "Smoky Hill valley alluvium (to 94 ft)",
+        "UP ex-Kansas Pacific main line",
+        "Kansas BEAD $166.6M"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "ground ring and halo",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil around Salina is corridor coverage work: macro sites serving I-70 and I-135 traffic, the city itself, and the ag-industrial base anchored by the Salina Regional Airport industrial complex on the former Schilling Air Force Base grounds. Compound siting splits with the geology — valley-floor sites on Smoky Hill alluvium take conventional pads and footings, while upland sites west of town can meet Dakota sandstone, which changes drilled-pier pricing. Access roads matter more here than in a metro: rural Saline and Ottawa county sites reach pavement over county roads whose posted bridges, not state limits, decide the shelter-haul route. Design-wise this is full-menu Plains exposure — spring hail and tornado season, winter ice, relentless wind — and the 2018 IBC the city adopted in 2025 sets the code baseline, with wind values pending the hazard-tool query.",
+      "localSpecificsReferenced": [
+        "Salina Regional Airport / former Schilling AFB industrial area",
+        "Dakota Formation uplands",
+        "Salina 2018 IBC adoption (Ord. 25-11264)",
+        "I-70/I-135 corridor coverage"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "narrative": "No hyperscale campus is announced in Salina and we do not pretend one is coming — edge demand here is the practical kind: compute and network gear pushed to an interstate crossroads that sits a two-hour drive from Wichita, Topeka, and the geographic center of Kansas. That arrives as hardened enclosure pads and small utility yards at fiber junctions, ag-processing and manufacturing plants (the Salina Regional Airport industrial complex hosts a working aviation and manufacturing base on the old Schilling AFB footprint), and carrier facilities serving the I-70 corridor. Evergy is the serving utility in the legacy Westar territory, and in a market this size transformer availability and new-service queue position are the schedule, so the utility application leads the sequence. Every enclosure gets the same Plains detailing as a wireless compound: anchorage for wind, hail-conscious placement, and drainage for short violent rain.",
+      "localSpecificsReferenced": [
+        "Salina Regional Airport industrial complex (ex-Schilling AFB)",
+        "I-70/I-135 crossroads position",
+        "Evergy legacy-Westar territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 455,
+      "driveTimeHours": 7.1,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Saline",
+      "Ottawa",
+      "Dickinson"
+    ],
+    "stagingApproach": "Project-based staging at the I-70/I-135 junction for the duration of a scope — the interchange's freight infrastructure and the Salina Regional Airport industrial area offer laydown and equipment-staging options unusual for a city this size. Equipment stays in-market for the scope rather than cycling to the yard. Staging plan confirmed per program by ops.",
+    "localSupplyApproach": "Concrete and aggregate buy locally — valley sand and gravel is produced regionally and ready-mix operates in-market, though the smaller producer base means pour dates book earlier than in a metro. Precast vaults and any specialty items are sourced at estimate, with lead times built into the schedule. Supplier lineup confirmed per program by estimating and ops.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Salina is the close call in our two-yard model, and we report it as one: by our working leg-sum estimates it is roughly 455 road miles from the Dallas yard (I-35 north to Wichita, then I-135 up — about 7 hours) versus roughly 495 from Cedar Rapids (I-80 to Des Moines, I-35 to Kansas City, I-70 west — about 7.5), which is why this page describes Dallas crews; straight-line estimates had put Cedar Rapids marginally closer, and ops will confirm the assignment with verified routing. Either way the operating model is identical: this is project-deployment territory, where crews mobilize for the duration of a scope, stage at the junction, and buy materials locally — and where batching Salina with other I-70/I-135 corridor work is what makes the mobilization line efficient. No same-day response claims at this range, and none implied. Winter mobilizations carry I-70 closure float, and lead times are quoted per program after ops review.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What building code applies to a telecom shelter project in Salina?",
+      "answer": "The City of Salina adopted the 2018 International Building Code in 2025 by Ordinance 25-11264 (with the 2018 IEBC and IRC alongside), administered by Building & Neighborhood Services. No local frost-depth amendment could be verified this session, so foundation depth follows the geotechnical recommendation and the adopted code until the city confirms — and unincorporated Saline County sites should confirm whether county permitting applies at all.",
+      "segment": "general"
+    },
+    {
+      "question": "Which CellSite Solutions yard serves Salina, and how far is it?",
+      "answer": "Salina is our closest-run decision in Kansas: working road estimates put it about 455 miles from the Dallas yard via I-35 and I-135 (roughly 7 hours) versus about 495 from Cedar Rapids via Des Moines, Kansas City, and I-70 (roughly 7.5) — so Dallas crews serve it, pending verified routing. Practically the answer is the same from either yard: crews deploy for the duration of a scope, stage at the I-70/I-135 junction, and source materials locally.",
+      "segment": "general"
+    },
+    {
+      "question": "What soil conditions should I expect boring in the Smoky Hill valley at Salina?",
+      "answer": "Clean alluvial boring: the Smoky Hill valley fill runs from under 30 to about 94 feet of clay, silt, sand, and gravel — no rock within reach on the valley floor, per KGS county mapping. Plan for groundwater in the deeper valley fill and for fine-grained compressible zones near old meanders. The picture changes on the uplands west of town, where Dakota Formation sandstone caps the hills and bores or piers can meet rock.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is downtown Salina in a floodplain?",
+      "answer": "It is levee-protected, which is not the same as out. The 1961 USACE project diverted the Smoky Hill River around downtown behind several miles of levee, and residual-risk FIRM zones still apply to protected ground. The city is now partnered with the USACE Kansas City District on the Smoky Hill River Renewal program to restore flows to the 6.8-mile downtown channel — worth tracking, since it touches downtown ROW and utility corridors. Pull the FIRM panel before siting.",
+      "segment": "general"
+    },
+    {
+      "question": "Do winter conditions affect telecom construction schedules in Salina?",
+      "answer": "The road more than the ground. Ground freeze is shallow and intermittent, so foundation work continues with cold-weather protection — but I-70 across central Kansas closes outright for blizzard and ice events most winters, and a closed I-70 strands crews, concrete trucks, and shelter hauls with no practical oversize detour. December-through-February mobilizations into Salina are planned around weather windows with float, which is a logistics cost, not a construction stop.",
+      "segment": "general"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Salina?",
+      "answer": "Evergy, in the legacy Westar (Kansas Central) territory — an investor-owned utility. Confirm territory at the parcel for rural sites, since cooperative service areas interleave outside city limits in central Kansas. Lead times for new commercial service are not published, and in a market this size transformer availability and queue position effectively set the energization date — so the utility application leads the project sequence rather than trailing it.",
+      "segment": "edge"
+    },
+    {
+      "question": "Which railroad permits apply to a fiber crossing near Salina?",
+      "answer": "Union Pacific's ex-Kansas Pacific main line runs through Salina along the I-70 corridor, and any bore or open-cut crossing licenses through UP's utility permitting process — the notoriously slow part of any route schedule, so it gets filed before the civil calendar is set. Routes near the Salina Regional Airport industrial trackage should confirm the operating entity for that spur before filing, which we flag as unverified rather than assume.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who issues the ROW permit for a cell site access drive in Saline County?",
+      "answer": "Depends on which road the drive meets. City streets are City of Salina permits; county roads go through Saline County; and state highway access — a real possibility at the I-70/I-135 junction — files the KDOT Form 304 Use of Right-of-Way application with District 2, whose headquarters happens to sit in Salina. A single access route can touch two of the three, and each authority permits separately, so we map jurisdiction before submitting anything.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Scheduling central-Kansas builds around I-70, not just around soil",
+    "body": "In most markets the decision guidance is geotechnical; in Salina the judgment call a construction manager actually faces is logistical. The soils are forgiving — valley alluvium takes conventional pads and bores cleanly, and the only rock surprise lives on the Dakota sandstone uplands west of town — but the market sits at the end of a 450-plus-mile mobilization from either of our yards, on a corridor that closes in winter. So the decisions that move money here: first, batch the work — Salina alone carries a Band B mobilization poorly, but Salina plus the I-70 and I-135 corridor towns in one deployment amortizes the same line across multiple sites, which is how central-Kansas programs actually pencil. Second, respect the calendar asymmetry: September and October ground conditions are the best of the year and the interstate is reliable, while a December pour date carries I-70 closure float on top of cold-weather concrete cost — winter work is absolutely doable, it is just not free. Third, on the valley floor, spend the money on borings rather than on conservatism: with up to 94 feet of fill, the difference between a compressible overbank clay zone and a clean sand run is the difference between a thickened pad and a redesign, and a two-boring program answers it for less than the contingency you would otherwise carry. Foundation depth waits on the city's frost-depth confirmation — we flag that number as open rather than assume it."
+  },
+  "sources": [
+    {
+      "label": "City of Salina — Ordinance 25-11264 adopting the 2018 IBC",
+      "url": "https://www.salina-ks.gov/ordinance-25-11264-adopting-2018-international-building-code",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Salina — Building & Neighborhood Services",
+      "url": "https://www.salina-ks.gov/buildingandcodeenforcement",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KGS — Saline County geologic map M-123 (Wellington Fm east of I-135, Dakota uplands, valley alluvium)",
+      "url": "https://www.kgs.ku.edu/General/Geology/County/rs/sa/gifs/M123_SalineGeology_2011_300dpi.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT — District 2 North Central Kansas (Salina HQ; 16 counties)",
+      "url": "https://www.ksdot.gov/about/our-organization/districts/district-2-north-central-kansas",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas811 — notice requirements (two full working days)",
+      "url": "https://kansas811.com/faqs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDHE — NPDES construction stormwater program (1-acre NOI)",
+      "url": "https://www.kdhe.ks.gov/757/Construction-Stormwater",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Salina / USACE — Smoky Hill River Renewal restoration project (1961 levee history, 6.8-mile channel)",
+      "url": "https://www.salina-ks.gov/ut-smoky-hill-river-renewal-restoration-usace-project",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Reflector — Salina/USACE cost-share agreement on Smoky Hill River restoration",
+      "url": "https://kansasreflector.com/2024/07/17/salina-partners-with-u-s-army-corps-of-engineers-to-restore-smoky-hill-river-in-downtown-channel/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Historical Society — SHPO Section 106 review",
+      "url": "https://www.kshs.org/15543",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BroadbandNow — Salina provider coverage (AT&T Fiber, Cox, Nex-Tech, Twin Valley)",
+      "url": "https://broadbandnow.com/Kansas/Salina",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Kansas Department of Commerce — $166.6M BEAD final proposal approval",
+      "url": "https://www.kansascommerce.gov/2025/12/kansas-broadband-receives-federal-approval-for-166-6m-bead-final-proposal/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KDOT — permits (Form 304 / K-TRIPS oversize)",
+      "url": "https://www.ksdot.gov/doing-business/permits",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "operations.nearestBase — close-call routing verification (PLAN §4.3)",
+      "attempted": "Seed straight-line: Cedar Rapids 449 mi vs Dallas 452. Working leg-sum road estimates flip it: Dallas ~455 mi (I-35/I-135) vs Cedar Rapids ~495 mi (I-80/I-35/I-70 via Des Moines and Kansas City) — no direct diagonal exists from Cedar Rapids. Travelmath, distancecalculator.net, Rome2Rio, and OSRM were all proxy-blocked, so this page is written to Dallas on the leg-sum basis with routeVerified false. Ops MUST confirm with real routing; if Cedar Rapids wins, the mobilization module needs rewriting to the northern route."
+    },
+    {
+      "field": "designCriteria — wind, snow, ice, seismic, temps, frost depth",
+      "attempted": "ASCE 7 Hazard Tool, USGS design maps, and TIA-222 data unreachable; Salina's ordinances were found but their amendment text (frost depth in particular) was not readable through the proxy. All values left null — query at 38.8403, -97.6114 and pull the ordinance PDFs before publish."
+    },
+    {
+      "field": "geotech — bearing range, bedrock/groundwater depths, NRCS ratings",
+      "attempted": "KGS M-123 map sourced the geology narrative; NRCS Web Soil Survey unreachable for numeric shrink-swell, corrosivity, and water-table values. Expansive risk left 'unknown'."
+    },
+    {
+      "field": "identity.population / elevation — vintage confirmation",
+      "attempted": "46,889 is the 2020 Census count and 1,224 ft the commonly cited elevation, both from general knowledge; census.gov and USGS GNIS were not fetchable to confirm."
+    },
+    {
+      "field": "regulatory — city review times, ROW process, floodplain administrator office, county permitting status, wireless ordinance",
+      "attempted": "salina-ks.gov pages surfaced in search but were not fetchable through the proxy; office names, review durations, and whether unincorporated Saline County enforces a building code all need direct confirmation. wirelessFacilityOrdinanceNote left null."
+    },
+    {
+      "field": "utilities — Evergy territory confirmation at parcel level; ILEC designation; provider coverage vintage",
+      "attempted": "Evergy legacy-Westar assignment and AT&T ILEC status stated from general knowledge with confirm-notes; FCC map query not run. Coverage percentages from BroadbandNow republished data."
+    },
+    {
+      "field": "logistics.railroads — Salina Regional Airport industrial trackage operator; any shortline service",
+      "attempted": "UP main line confirmed from general knowledge of the ex-Kansas Pacific corridor; whether Watco's Kansas & Oklahoma or another operator serves Salina industrial spurs could not be verified, so only UP is listed and the airport spur is flagged in the FAQ as unverified."
+    },
+    {
+      "field": "environmental — IPaC species list, tree-clearing window, USACE district confirmation",
+      "attempted": "IPaC unreachable; no Saline County clearing-window source found (restricted left false with uncertainty flagged in listedSpeciesNote). Kansas City District assignment inferred from the Kansas River basin — confirm boundary."
+    },
+    {
+      "field": "seasonality — NCEI normals for the Salina station; I-70 closure frequency",
+      "attempted": "Calendar is qualitative from regional climate knowledge; I-70 winter closures are widely documented events but no KDOT closure-statistics page was fetched. Ops field review required."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B stagingApproach and localSupplyApproach are drafts per CONTENT_MODULES §O; RESEARCH.md sources these from CSS ops/estimating — ops confirmation required before the gap clears."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 3 gate requires 2 images; never invented."
+    },
+    {
+      "field": "marketActivity — Saline County BEAD awards; local capital projects",
+      "attempted": "Statewide BEAD approval sourced; county-level award lists and Salina-specific project announcements (airport industrial area, plant expansions) not verified this session. Recheck quarterly."
+    }
+  ]
+}

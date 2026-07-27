@@ -1,0 +1,677 @@
+{
+  "identity": {
+    "slug": "huntsville",
+    "city": "Huntsville",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "stateAbbr": "AL",
+    "counties": [
+      "Madison"
+    ],
+    "msa": "Huntsville, AL (Madison and Limestone counties)",
+    "tier": 1,
+    "latitude": 34.7304,
+    "longitude": -86.5861,
+    "elevationFt": 624,
+    "population": {
+      "value": 215006,
+      "source": "U.S. Census Bureau, 2020 Decennial Census (QuickFacts); 2023 estimates in the 219,000–235,000 range make Huntsville Alabama's largest city — confirm vintage before publish",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-565"
+    ],
+    "majorRoutes": [
+      "US-72",
+      "US-231 (Memorial Parkway)",
+      "AL-255 (Research Park Boulevard)"
+    ]
+  },
+  "metadata": {
+    "title": "Huntsville Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Huntsville, AL — karst-aware foundations and program-deployment crews for fiber, wireless, and edge builds in the Rocket City.",
+    "h1": "Telecom Site Civil Construction in Huntsville, Alabama",
+    "intro": "Huntsville builds on rock — literally. Tennessee Valley karst puts shallow, pinnacled limestone, chert, and the occasional sinkhole under much of the metro, and the caves that riddle it shelter federally endangered gray bats that shape clearing calendars. Demand pulls the other direction: Redstone Arsenal's federal campus — Army commands, NASA's Marshall Space Flight Center, and an FBI presence growing toward several thousand personnel — plus Cummings Research Park and Meta's data center make this Alabama's densest network construction market, wired by a municipal fiber network that Google Fiber leases rather than owns. CellSite Solutions serves Huntsville on a project-deployment basis: crews mobilize from our Dallas yard for the duration of a scope, stage locally, and buy materials in-market — honest arithmetic at roughly 670 road miles.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (the edition referenced by the 2021 IBC that permit-guide sources report the City of Huntsville enforces — confirm against the city's adopted-codes ordinance before publish)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "North Alabama sits nearer the Eastern Tennessee Seismic Zone than the footprint's other southern markets, and shallow rock complicates the usual site-class assumption — but numeric Ss/S1 and a typical site class must come from a USGS design-maps query at the site coordinates before publication. Severe-thunderstorm wind, not seismic, is the practical lateral-load story here."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Huntsville occupies the Tennessee Valley section of north Alabama's karst country: Mississippian-age limestones weathered at the surface into clayey, chert-rich residual soils and karst terrain marked by solution-enhanced fractures, springs, caves, and sinkholes, with plateau remnants (Monte Sano, Green Mountain) standing above the valley floor. The Geological Survey of Alabama documents karst sinkhole hazards across this belt, and the region is so cave-rich that the National Speleological Society is headquartered in Huntsville. Alluvial terraces line the Tennessee River and its tributaries on the metro's south side.",
+    "dominantSoilTypes": [
+      "Clayey, chert-rich residuum over limestone (karst uplands and valley floor)",
+      "Alluvial silts and clays on Tennessee River and tributary terraces"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "The red residual clays of the Tennessee Valley are not a classic expansive-clay province, but shrink-swell behavior has not been pulled from NRCS linear-extensibility data for Madison County — publish a rating only after that query. Site-specific investigation governs regardless.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "Real and design-driving. The Geological Survey of Alabama maps sinkhole hazards across north Alabama's limestone belt; solution cavities, pinnacled rock, and internally drained depressions are all encountered in the Huntsville area. Karst here is also habitat: area caves shelter the federally endangered gray bat, which couples ground risk to environmental review in a way few markets do."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation work in Huntsville is a rock conversation before it is a soils conversation. Depth to limestone is shallow and irregular across much of the metro — pinnacled rock can put refusal at wildly different depths within a single compound footprint — so probing or geophysics ahead of design pays for itself, and drilled piers that assume a uniform socket depth get re-priced in the field. The chert in the residuum is hard on teeth and bits even before true rock. Karst adds the real tail risk: a solution cavity or soil-filled slot under a pad or pier means grouting or relocation, so we carry a cavity contingency on karst-belt sites and treat any closed depression on the site as a flag, not a landscaping feature. On Tennessee River terrace sites the problem inverts — deeper alluvium, softer silts, and floodplain rules enter. Borings first, always; in this geology a boring program is cheap compared to a mobilized drill rig discovering the karst for you."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Huntsville Inspection Department",
+        "url": "https://www.huntsvilleal.gov/government/departments/inspection-department/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Enforces adopted building codes, issues building permits, and administers contractor licensing compliance citywide. Published plan-review timelines were not found — confirm current turnaround directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 international code family with local amendments; 2020 NEC (per permit-guide secondary sources — confirm editions against the city's adopted-codes ordinance before publish)",
+      "source": "City of Huntsville adopted-codes document (huntsvilleal.gov, proxy-blocked at research time); secondary confirmation via Huntsville permit guides",
+      "verifiedOn": null
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Huntsville (engineering/public works right-of-way permitting) inside city limits; ALDOT district permit for state-route ROW",
+      "url": "https://www.huntsvilleal.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The specific city department and permit name were not confirmed at research time — verify before publish."
+    },
+    "stateDotDistrict": {
+      "name": "ALDOT North Region (Huntsville-area district office)",
+      "url": "https://www.dot.state.al.us/business/permits/index.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ALDOT ROW permits initiate at the local district office; confirm the district serving Madison County against ALDOT's region/district map."
+    },
+    "oneCallCenter": {
+      "name": "Alabama 811",
+      "url": "https://al811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice at least two but not more than ten working days before excavation; tickets valid 20 working days from the proposed start.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "ADEM — NPDES Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI required before construction; erosion controls per a CBMPP prepared and certified by a Qualified Credentialed Professional (QCP)."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Huntsville permitting runs through the city's Inspection Department under the locally amended international codes, with Alabama's statewide overlays stacked on top: the state GC license check at $100,000, an ADEM stormwater NOI and QCP-certified BMP plan at one acre of disturbance, and Alabama 811's two-working-day locate notice before any dig. ALDOT accommodation permits for state-route crossings initiate at the district office and can run months, so fiber routes touching US-72, US-231, or I-565 ROW get sequenced first. Anything with a federal nexus — BEAD funding, Redstone-adjacent work, licensed structures — adds Section 106 review through the Alabama Historical Commission on a 30-day clock, and karst-belt sites near documented caves should anticipate USFWS coordination for gray bat habitat before clearing."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Huntsville Utilities",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Municipal utility distributing TVA power, serving roughly 800 square miles across Madison County and portions of Marshall and Jackson counties — and providing electric, natural gas, and water under one roof, which simplifies multi-utility coordination on a compound build. New-service lead times not published; confirm at scoping."
+      }
+    ],
+    "ilec": "AT&T Alabama (BellSouth legacy; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "Google Fiber (serving Huntsville over leased Huntsville Utilities fiber)",
+      "Huntsville Utilities municipal fiber network (~1,300 route miles, leased carrier-neutrally)",
+      "AT&T"
+    ],
+    "notableDataCenterCampuses": [
+      "Meta Huntsville data center (campus of roughly 3.5 million sq ft at announced buildout)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Alabama posts no spring frost-law restrictions; load limits are year-round engineering-based postings. County-posted bridges can still bind a shelter haul — check the approach route's postings, not just the state map."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "ALDOT Permits & Operations Section, Maintenance Bureau",
+      "url": "https://www.dot.state.al.us/maweb/permitsoperations.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Norfolk Southern",
+        "crossingPermitNote": "The former Southern Railway Memphis–Chattanooga corridor runs through the Huntsville–Madison area; crossings route through NS's public-projects process — engage early, because railroad agreements set fiber-route schedules more often than construction does. Confirm the operating railroad and any shortline trackage for each specific alignment."
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Winter clearing per USFWS bat guidance — typically October 1 through March 31, with modified dates possible in karst and hibernaculum areas (which describes much of Madison County); confirm per project with the Alabama Ecological Services Field Office",
+      "driver": "Federally endangered gray bat (north Alabama karst caves are core hibernaculum and foraging habitat), plus Indiana and northern long-eared bat considerations",
+      "source": "USFWS Alabama Ecological Services — Bats in Alabama (fws.gov/office/alabama-ecological-services/bats-alabama)"
+    },
+    "shpo": {
+      "name": "Alabama Historical Commission (SHPO) — Section 106 reviews by email submission",
+      "url": "https://ahc.alabama.gov/section106.aspx",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-calendar-day review clock; restarts with each new information submission."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Nashville District (Tennessee River basin) — confirm county assignment on the district regulatory boundary map",
+      "url": "https://www.lrn.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Nashville District (LRN), Tennessee River basin — confirm Madison County assignment before publish",
+    "listedSpeciesNote": "Gray bat is the headline species — north Alabama's caves are among the most important gray bat habitat in the country, and cave-adjacent sites carry real coordination obligations. Run IPaC per project for the full county list (additional cave-obligate species are documented in Madison County karst) rather than relying on a static roster.",
+    "floodplainPrevalenceNote": "Mapped floodplain follows the Tennessee River on the metro's south side and the urban creek corridors; karst adds internally drained sinkhole flood zones that behave differently from riverine floodplain. Confirm the city's floodplain administrator and current FIRM panels per site — that contact was not confirmed at research time."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Cool and wet; ground workable between rain events, occasional hard freezes",
+        "earthworkConcrete": "workable",
+        "note": "Inside the bat-clearing window; occasional ice events"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Wet winter soils; short freeze spells",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice on freeze nights"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Wet; severe-weather season begins",
+        "earthworkConcrete": "workable",
+        "note": "Tornado-season situational awareness starts; clearing window closes March 31"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying between storm systems; peak severe-weather month",
+        "earthworkConcrete": "favorable",
+        "note": "April 27, 2011 outbreak is the design memory here — schedule slack for storm days"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Good working ground; storms still active",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable; afternoon thunderstorms",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and humid; dry working ground",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete practice on peak-heat afternoons"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; ground typically dry",
+        "earthworkConcrete": "workable",
+        "note": "Morning pour windows preferred"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm, typically drier; excellent access",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Typically the driest stretch of the year; prime earthwork conditions",
+        "earthworkConcrete": "favorable",
+        "note": "Bat-clearing window opens October 1"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling, rain returning; secondary severe-weather season",
+        "earthworkConcrete": "favorable",
+        "note": "North Alabama has a real late-fall tornado season"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Cool and wet; workable between systems",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Huntsville works essentially year-round — there is no frost shutdown and no hurricane season — but the calendar has two personalities. Fall is the gift: the driest, most stable stretch of the year lands roughly September through November, and the USFWS bat-clearing window opens October 1, which makes autumn the natural start for any scope that needs trees down. Spring is the risk: March through May is the Tennessee Valley's primary severe-weather season (with a genuine secondary season in November), so spring programs carry storm-day slack. Winter is merely wet and occasionally icy rather than frozen. Month-by-month characterizations above follow the regional climate pattern; pull NCEI station normals for Huntsville International before publishing figures as final."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Shallow, pinnacled limestone with chert-rich residuum makes rock excavation the default assumption on Huntsville sites — trenching, boring, and pier drilling all price rock here, and refusal depth can vary sharply within one compound.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Alabama has no state prevailing wage law. Federal Davis-Bacon applies to federally funded work — including Alabama's BEAD builds and much of the Redstone-adjacent federal ecosystem — and governs when triggered.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "No winter shutdown premium; the seasonal line items are spring severe-weather schedule slack, occasional winter ice days, and hot-weather concrete practice in July–August.",
+    "narrative": "Huntsville prices around rock, karst contingency, and mobilization. Rock is the certain one: shallow pinnacled limestone means excavation, boring, and drilled-pier budgets carry rock rates by default, and chert punishes tooling even above refusal. Karst is the contingent one: a solution cavity found under a pad or pier means grout or redesign, so karst-belt sites carry a cavity allowance that flatland markets never see — money better priced in than discovered. Mobilization is the honest one: as a Band B market served from the Dallas yard at roughly 670 road miles, crews deploy per program and materials — ready-mix, aggregate, precast — are bought in-market rather than hauled, which is the only arithmetic that works at this range. Compliance adds the state GC license threshold at $100,000 and Davis-Bacon on federally funded scopes. Drivers only, per program policy: sites price to their borings and their season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Alabama requires a state general contractor license for commercial or industrial construction — expressly including site work, grading, and paving — where the undertaking costs $100,000 or more (Ala. Code §34-8-1, threshold raised from $50,000 by Act 2024-277 effective October 1, 2024). Subcontractors need their own license at the same threshold, and licenses carry classifications and bid limits that must match the work. The City of Huntsville separately enforces local contractor licensing compliance through its Inspection Department.",
+    "additionalRegistrations": [
+      "ADEM NPDES Construction General Permit ALR100000 registration (NOI + QCP-certified CBMPP) at one acre of disturbance",
+      "Alabama 811 compliance — two-working-day locate notice"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "ice storm",
+      "flood"
+    ],
+    "designImplications": "The Tennessee Valley is core Dixie Alley: the April 27, 2011 super outbreak put 62 tornadoes across Alabama in one day, including the EF5 that crossed northern Madison County, and it collapsed regional transmission badly enough to black out the metro for days. That history shapes telecom civil here — anchorage and uplift detailing sized for severe wind, generator pads and fuel capacity planned for multi-day grid outages rather than hours, and compound drainage that respects both riverine floodplain and internally drained karst depressions. Occasional ice storms argue for the same standby-power discipline. Numeric wind speeds publish only after the ASCE Hazard Tool query.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Meta expands Huntsville data center to a $1.5 billion campus",
+        "detail": "Meta announced a two-building expansion taking its Huntsville campus to roughly 3.5 million square feet and $1.5 billion of investment, with about 1,300 construction workers at peak — sustained heavy site-work demand on the metro's north side.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/meta-expanding-huntsville-data-center-in-alabama/",
+        "asOf": "2022-06"
+      },
+      {
+        "headline": "FBI Redstone campus keeps growing toward several thousand personnel",
+        "detail": "The FBI's roughly $1 billion Redstone Arsenal campus continues to build out — a 250,000 sq ft Innovation Center is complete and the bureau has announced plans to roughly double its Redstone workforce to about 4,000 by 2030 — alongside NASA Marshall and Army commands that make Redstone the metro's demand engine for secure networks.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.waaytv.com/news/redstone-arsenal-2025-update-fbi-nasa-and-space-command-hq-news/article_5661b191-394f-4929-aecd-cc0cf79d52a7.html",
+        "asOf": "2025"
+      },
+      {
+        "headline": "Alabama BEAD final proposal approved — $460M across 63 projects",
+        "detail": "Alabama's $1.4B BEAD allocation reached final-proposal approval in March 2026, awarding $460 million to 63 projects reaching 101,000+ locations statewide, roughly 75% via wired construction — subgrantee builds now move toward construction, with county-level detail pending.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+        "asOf": "2026-03-23"
+      },
+      {
+        "headline": "Huntsville Utilities' municipal fiber network keeps building",
+        "detail": "The utility-owned network that Google Fiber leases has grown to roughly 1,300 route miles and is marketed carrier-neutrally to other providers and enterprises — an ongoing municipal fiber construction program unusual for a city this size.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://www.aapb.us/post/meet-huntsville-utilities-public-private-partnership-uses-dark-fiber-for-a-bright-future",
+        "asOf": "2025"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Huntsville's fiber market is structured unlike anywhere else in the footprint: the city built the network. Huntsville Utilities constructed roughly 1,300 route miles of municipal fiber that Google Fiber leases under a 20-year agreement — a carrier-neutral model that keeps duct, vault, and lateral construction flowing as the utility extends the plant and other tenants light it. The construction reality underneath is karst: boring and trenching price rock here, chert-rich residuum wears tooling above refusal, and pinnacled limestone makes bore-path profiles honest guesses until potholed. Crossings of US-72, Memorial Parkway, and I-565 run through ALDOT district permitting, and Alabama's newly approved $460 million in BEAD awards adds subsidized route construction across the surrounding counties. Locates go through Alabama 811 on a two-working-day clock.",
+      "localSpecificsReferenced": [
+        "Huntsville Utilities municipal fiber (~1,300 route miles) leased by Google Fiber",
+        "North Alabama karst / chert boring conditions",
+        "I-565 / US-72 ALDOT crossings",
+        "Alabama BEAD $460M awards (March 2026)"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Huntsville answers to rock and to storms. Compound foundations meet shallow, pinnacled limestone across much of the metro — drilled piers get probed before they get priced, and ground-ring trenching in chert is its own line item, with grounding design that has to work in thin soil over rock. The hazard history is the other driver: the April 27, 2011 outbreak crossed northern Madison County at EF5 strength and blacked out the metro for days when transmission failed, so carriers here take generator pads, fuel capacity, and anchorage seriously rather than nominally. Demand is anchored by the Redstone Arsenal federal ecosystem — Army commands, NASA Marshall, and the FBI's expanding campus — plus Cummings Research Park's 300-company corridor, where densification and secure-network builds keep macro and small-cell civil moving. Clearing near karst features waits on the gray-bat window.",
+      "localSpecificsReferenced": [
+        "Redstone Arsenal / FBI campus / NASA Marshall",
+        "Cummings Research Park",
+        "April 27, 2011 outbreak and multi-day outage",
+        "Pinnacled limestone compound foundations"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Huntsville is the rare mid-size metro with a genuine hyperscale anchor: Meta's data center campus, announced at roughly 3.5 million square feet and $1.5 billion across its expansion, sits on the city's north side and pulls utility-yard, duct-bank, and support civil work with it. The distinctive edge demand, though, is federal — Redstone Arsenal's growth (FBI toward ~4,000 personnel, NASA Marshall, Army commands) and Cummings Research Park, the country's second-largest research park, generate hardened enclosure, secure compound, and private-network infrastructure that behaves like edge construction even when nobody calls it that. Huntsville Utilities is a practical advantage: one municipal utility delivers TVA power, gas, and water, simplifying service coordination for a compound. The civil constants remain karst-aware foundations and cavity contingency — a micro-DC pad over a solution feature is the wrong place to economize on borings.",
+      "localSpecificsReferenced": [
+        "Meta Huntsville campus ($1.5B / ~3.5M sq ft)",
+        "Redstone Arsenal federal growth",
+        "Huntsville Utilities single-provider service (TVA power)",
+        "Karst cavity contingency"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 671,
+      "driveTimeHours": 10.3,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Madison",
+      "Limestone",
+      "Morgan",
+      "Marshall",
+      "Jackson"
+    ],
+    "stagingApproach": "Project-based staging in the Huntsville metro for the duration of a scope: equipment and materials stage at or near the work — with laydown sourced per program in the Research Park / North Huntsville industrial corridors — rather than cycling to the yard. Draft pending ops confirmation.",
+    "localSupplyApproach": "Ready-mix, aggregate, and precast source from Tennessee Valley suppliers rather than hauling from the yard — at roughly 670 road miles that is the only workable arithmetic, and north Alabama's limestone quarry base makes aggregate a local buy. Supplier lineup is confirmed at estimate by CSS estimating and ops; draft pending ops confirmation.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Huntsville is a deployment market that sits almost exactly between CSS's two yards — roughly 671 road miles from Dallas and 706 from Cedar Rapids by route calculators — and it is served from Dallas, the shorter road. Crews mobilize for the duration of a scope and stay: that model fits how work arrives here, as multi-site programs across the Redstone, Research Park, and BEAD-corridor demand base, delivered under one contract with consistent crews and QA/QC rather than a patchwork of local subs. Equipment stages in-market, materials are bought locally, and mobilization is priced and scheduled into the program. What this model does not support is a same-day response promise — at this range a speed claim would be dishonest, and a construction manager would see through it. Mobilization lead times are quoted per program after ops review.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How do karst and sinkholes affect telecom site construction in Huntsville?",
+      "answer": "Directly and often. The metro sits on Mississippian limestone weathered into karst — the Geological Survey of Alabama maps sinkhole hazards across this belt — so pinnacled rock makes refusal depths erratic, and solution cavities under a pad or pier mean grouting or relocation. We probe or run geophysics before foundation design, carry a cavity contingency on karst-belt sites, and treat closed depressions on a parcel as red flags during siting.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What tree-clearing restrictions apply near Huntsville?",
+      "answer": "Bat-driven winter windows. North Alabama's caves are core habitat for the federally endangered gray bat, and USFWS guidance points tree clearing into the inactive season — typically October 1 through March 31 — with modified dates possible in karst and hibernaculum areas, which describes much of Madison County. We coordinate with the USFWS Alabama Ecological Services Field Office and run IPaC per project before committing a clearing schedule.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues building and right-of-way permits for a cell site in Huntsville?",
+      "answer": "The City of Huntsville Inspection Department issues building permits and enforces the locally amended international codes; right-of-way work inside city limits permits through the city, while crossings of state routes like US-72, US-231, or I-565 need an ALDOT accommodation permit initiated at the district office. ALDOT approvals can run months, so state-route crossings go to the front of the schedule. Confirm current review timelines directly — published figures were not available.",
+      "segment": "general"
+    },
+    {
+      "question": "Do I need an Alabama GC license for site work in Huntsville?",
+      "answer": "Yes, at $100,000 or more. Alabama's Licensing Board for General Contractors requires a state license for commercial construction — including site work, grading, and paving — at that threshold, which Act 2024-277 raised from $50,000 effective October 1, 2024. Subcontractors license separately at the same trigger, and licenses carry classifications and bid limits. The city separately enforces local contractor licensing through the Inspection Department.",
+      "segment": "general"
+    },
+    {
+      "question": "What makes Huntsville's fiber market different from other cities?",
+      "answer": "The city owns the network. Huntsville Utilities built roughly 1,300 route miles of municipal fiber and leases it — Google Fiber serves the city over that plant under a 20-year agreement rather than building its own. It is a genuinely unusual model: the utility keeps constructing and marketing the network carrier-neutrally, which sustains duct, vault, and lateral civil work independent of any single provider's build cycle.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does severe weather shape telecom builds in Huntsville?",
+      "answer": "The April 27, 2011 super outbreak is the reference event — 62 tornadoes statewide in a day, an EF5 across northern Madison County, and transmission losses that blacked out the metro for days. Builds here reflect it: serious anchorage detailing, generator pads and fuel sized for multi-day outages, and spring schedules that carry storm-day slack, since March through May is the primary severe-weather season with a real secondary season in November.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who provides electric service for a hut or compound in Huntsville?",
+      "answer": "Huntsville Utilities — a municipal utility distributing TVA power across roughly 800 square miles of Madison County and portions of Marshall and Jackson counties. Usefully for compound work, the same utility also provides natural gas and water, so multi-utility service coordination runs through one organization. New-service lead times are not published; we obtain written confirmation from the utility during scoping rather than assuming.",
+      "segment": "edge"
+    },
+    {
+      "question": "How does CellSite Solutions serve Huntsville from Dallas?",
+      "answer": "On a project-deployment basis, described honestly. Huntsville sits nearly equidistant from both CSS yards — about 671 road miles from Dallas versus 706 from Cedar Rapids — and is served from Dallas, the shorter drive. Crews mobilize for a scope's duration, stage in-market, and buy concrete, aggregate, and precast locally. That fits multi-site programs with single-source accountability; it does not fit same-day service calls, and we do not pretend otherwise.",
+      "segment": "general"
+    },
+    {
+      "question": "Can you pour foundations in Huntsville in winter?",
+      "answer": "Almost always. North Alabama has no frost shutdown — winters are wet and occasionally icy rather than frozen, so foundation work continues with cold-weather concrete practice on freeze nights. The better scheduling insight is the fall: September through November is typically the driest, most stable stretch of the year, and the bat-clearing window opens October 1, making autumn the natural launch for scopes that need trees down before dirt moves.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Foundations on pinnacled limestone: probe before you price",
+    "body": "The expensive mistake in Huntsville is pricing foundations off a single boring. In this karst, rockhead is not a surface — it is a sawtooth of pinnacles and soil-filled slots, and two piers eight feet apart can hit refusal fifteen feet different. Teams that assume uniform socket depth discover the variance with a mobilized drill rig, which is the most expensive site-investigation instrument ever invented. The sequence that works: desktop karst screening first (the Geological Survey of Alabama's sinkhole hazard mapping, plus a hard look at closed depressions on the parcel), then probes or geophysics across the actual foundation footprint, then borings placed where the anomalies are rather than on a grid. For light structures — hut pads, cabinet foundations — a moisture-conditioned pad on properly compacted structural fill over sound residuum often beats piers entirely, because it spans minor irregularity instead of chasing rock. For heavier compounds, drilled piers work well but carry two priced contingencies: rock-excavation rates from the first foot, and a grout allowance for cavities. And if the site is near a documented cave, the geotech question becomes an environmental one too — gray bat habitat can constrain both schedule and siting. Borings are cheap; discovery is not."
+  },
+  "sources": [
+    {
+      "label": "Travelmath — driving distance Dallas, TX to Huntsville, AL (671 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Dallas,+TX/to/Huntsville,+AL",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath — driving distance Cedar Rapids, IA to Huntsville, AL (706 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Cedar+Rapids,+IA/to/Huntsville,+AL",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Geological Survey of Alabama — sinkhole (karst) hazards",
+      "url": "https://gsa.state.al.us/Scripts/GSAOGB/gsa/geologic/hazardsSinkholes.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Encyclopedia of Alabama — Caves of Alabama (karst, NSS headquarters in Huntsville)",
+      "url": "https://encyclopediaofalabama.org/article/caves/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USFWS Alabama Ecological Services — Bats in Alabama",
+      "url": "https://www.fws.gov/office/alabama-ecological-services/bats-alabama",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Huntsville — Inspection Department",
+      "url": "https://www.huntsvilleal.gov/government/departments/inspection-department/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Ala. Code §34-8-1 — GC license threshold ($100,000, Act 2024-277)",
+      "url": "https://law.justia.com/codes/alabama/title-34/chapter-8/article-1/section-34-8-1/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama 811 — excavation notice law",
+      "url": "https://al811.com/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Historical Commission — Section 106 review",
+      "url": "https://ahc.alabama.gov/section106FAQ.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TVA — Huntsville Utilities local power company profile",
+      "url": "https://www.tva.com/energy/public-power-partnerships/local-power-companies/lpc/huntsville-utilities",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "9to5Google — Google Fiber launches in Huntsville by leasing the municipal network",
+      "url": "https://9to5google.com/2017/05/23/google-fiber-huntsville-alabama/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Huntsville — Huntsville Utilities to build fiber throughout the city",
+      "url": "https://www.huntsvilleal.gov/huntsville-utilities-build-fiber-network-throughout-city/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Data Center Dynamics — Meta expanding Huntsville data center ($1.5B)",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-expanding-huntsville-data-center-in-alabama/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WAAY — Redstone Arsenal 2025 update: FBI, NASA growth",
+      "url": "https://www.waaytv.com/news/redstone-arsenal-2025-update-fbi-nasa-and-space-command-hq-news/article_5661b191-394f-4929-aecd-cc0cf79d52a7.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Huntsville/Madison County Chamber — Cummings Research Park (2nd-largest US research park)",
+      "url": "https://hsvchamber.org/expand-here/cummings-research-park/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS/NOAA — April 27, 2011 super outbreak retrospective",
+      "url": "https://www.nesdis.noaa.gov/news/revisiting-the-april-2011-tornado-super-outbreak-orbit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor Ivey — Alabama BEAD final proposal approval ($460M, March 2026)",
+      "url": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Census Bureau — QuickFacts, Huntsville city, Alabama",
+      "url": "https://www.census.gov/quickfacts/fact/table/huntsvillecityalabama/PST045225",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "operations.nearestBase — routing verification and yard reassignment",
+      "attempted": "PLAN §4.3 close call resolved by road distance: route calculators put Dallas–Huntsville at 671 mi (~10.3 h) vs Cedar Rapids–Huntsville at 706 mi (~10.5 h), so nearestBase is set to Dallas (seed had Cedar Rapids at 674 straight-line). routeVerified stays false until ops runs real routing and accepts the reassignment — note this also changes the yard-count split in PLAN §1a (Dallas would serve all six Alabama markets, 28 total)."
+    },
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic Ss-S1 / designTempLowF-HighF",
+      "attempted": "ASCE Hazard Tool, USGS design-maps, TIA-222 county data, and ASHRAE design-temperature sources all unreachable or non-public from this environment. Every numeric design value must be queried at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Program rule requires the AHJ's adopted code text; the City of Huntsville adopted-codes/amendments document was proxy-blocked and the amended footing-depth table could not be read. Do not substitute a regional map."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — edition confirmation",
+      "attempted": "2021 family + 2020 NEC is from permit-guide secondary sources; the city's own adopted-codes PDF was unreadable through the proxy. Confirm editions and amendments before publish."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority / floodplainAdministrator / stateDotDistrict",
+      "attempted": "City ROW-permitting department name, floodplain administrator contact, and the ALDOT district serving Madison County were not confirmed; verify against city and ALDOT sources."
+    },
+    {
+      "field": "geotech — bearing range, depth to bedrock, groundwater, NRCS soil series and corrosivity, expansive rating",
+      "attempted": "NRCS Web Soil Survey interactive was not queried (blocked for the fixture too); geology narrative rests on GSA and Encyclopedia of Alabama sources. Numeric geotech values pending."
+    },
+    {
+      "field": "seasonality — NCEI station normals",
+      "attempted": "Calendar written from regional climate pattern and hazard history; pull Huntsville International (HSV) normals from NCEI before publishing monthly figures as final."
+    },
+    {
+      "field": "logistics.railroads — operating railroads and shortlines per alignment",
+      "attempted": "NS's Memphis–Chattanooga corridor through Huntsville is well documented, but shortline/industrial trackage (e.g., Port of Huntsville area) was not confirmed; verify per route."
+    },
+    {
+      "field": "operations — staging and local-supply plans, self-perform split, mobilization lead times",
+      "attempted": "Band B drafts written for ops review per RESEARCH.md; ops and estimating must confirm before the gap clears."
+    },
+    {
+      "field": "compliance.cssQualificationsNote — CSS Alabama GC license",
+      "attempted": "Do not publish until ops provides CSS's Alabama license number, classifications, and bid limit. The page must not imply licensure that is not current."
+    },
+    {
+      "field": "utilities — Huntsville Utilities new-service process URL and lead time; AT&T ILEC designation",
+      "attempted": "Utility new-service intake page and lead times not published; FCC ILEC confirmation not run."
+    },
+    {
+      "field": "identity.population — vintage",
+      "attempted": "2020 decennial figure used; 2023 estimates (219k–235k depending on source) not reconciled against Census QuickFacts, which was not directly fetchable."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 publish gate requires ≥1 real project and 4 images; never invented."
+    }
+  ]
+}

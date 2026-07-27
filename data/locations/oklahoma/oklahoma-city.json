@@ -1,0 +1,647 @@
+{
+  "identity": {
+    "slug": "oklahoma-city",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "stateAbbr": "OK",
+    "counties": [
+      "Oklahoma",
+      "Canadian",
+      "Cleveland",
+      "Pottawatomie"
+    ],
+    "msa": "Oklahoma City, OK (Oklahoma, Cleveland, Canadian, Grady, Lincoln, Logan, and McClain counties)",
+    "tier": 1,
+    "latitude": 35.4676,
+    "longitude": -97.5164,
+    "elevationFt": 1198,
+    "population": {
+      "value": 702767,
+      "source": "U.S. Census Bureau vintage-2023 city estimate — confirm against current Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-35",
+      "I-40",
+      "I-44",
+      "I-235",
+      "I-240"
+    ],
+    "majorRoutes": [
+      "US-77 (Broadway Extension)",
+      "Kilpatrick Turnpike",
+      "OK-74 (Lake Hefner Pkwy)"
+    ]
+  },
+  "metadata": {
+    "title": "Oklahoma City Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil construction across Oklahoma City's four-county footprint — fiber hut, wireless, and edge work built for tornado country on Permian red beds.",
+    "h1": "Telecom Site Civil Construction in Oklahoma City, Oklahoma",
+    "intro": "Oklahoma City covers more ground than almost any city in America — roughly 620 square miles of incorporated territory reaching into four counties — which means \"a site in OKC\" can be a downtown vault street, a suburban compound, or a section-line road with bar ditches, all under one AHJ. The metro sits at the I-35/I-40/I-44 crossroads on Permian red-bed sandstones and shales, in the most heavily studied tornado corridor on earth: the 1999 Bridge Creek–Moore F5 and the 2013 Moore EF5 both tracked through this metro. With BEAD-funded rural routes, MAPS 4 public works, and Paycom-era tech growth all in motion, CSS runs this market as a Band-A corridor straight up I-35 from its Dallas–Fort Worth yard.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Oklahoma's seismic conversation changed during the induced-seismicity era: the November 2011 Prague M5.7 struck the Wilzetta fault zone roughly 50 miles east of downtown, and the September 3, 2016 Pawnee M5.8 remains the strongest earthquake recorded in Oklahoma (Oklahoma Geological Survey). Earthquake rates fell sharply after Oklahoma Corporation Commission disposal-well directives. Publish Ss/S1 only from a USGS design-maps query at the site coordinates; site class is site-specific."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "The metro sits on Permian red beds: the Garber Sandstone and Wellington Formation — the Central Oklahoma (Garber–Wellington) aquifer — underlie the eastern side of the metro, with the Hennessey Group's red-brown shales and mudstones to the west, all weathering to reddish sandy-to-clayey residuum. Alluvium and terrace deposits follow the North Canadian (Oklahoma River) corridor through the city core and the Canadian River on the south metro edge. (Oklahoma Geological Survey mapping; confirm formation boundaries per site.)",
+    "dominantSoilTypes": [
+      "Reddish sandy residuum over Garber Sandstone (east metro)",
+      "Clayey residuum over Hennessey Group shale (west metro)",
+      "North Canadian / Canadian River alluvium and terrace sands"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Clayey residuum over the Hennessey Group on the metro's west side is the shrink-swell question in this market; sandy Garber-derived soils on the east side generally are not. NRCS linear-extensibility data could not be pulled this session, so no risk grade is published — check the county soil survey per site.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "Oklahoma's gypsum karst belongs to the Blaine and related Permian evaporites of the western part of the state, not to the Garber–Wellington and Hennessey bedrock under the metro. Screen far-west metro-edge sites individually where gypsiferous beds begin to appear in the section."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "On most upland OKC sites the ground is the easy part and the sky is the hard part: weathered Garber sandstone and its sandy residuum take conventional spread footings and shelter pads without drama, and excavation is typically rippable digging rather than rock breaking. Design attention goes instead to uplift and overturning — this is the metro the 1999 and 2013 Moore tornadoes crossed, and conservative anchorage on shelters, generators, and ice bridges is cheap insurance code minimums don't demand. West-side sites over Hennessey shale flip the problem to moisture: clayey residuum wants stable moisture conditions, thickened pads, and drainage that keeps compound water moving. River-corridor sites on North Canadian alluvium add floodplain screening and looser saturated sands. Frost depth is modest here but the local amendment was not readable this session — confirm it with Development Services before setting footing elevations. Site-specific geotechnical investigation governs all of it."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Oklahoma City Development Services Department",
+        "url": "https://www.okc.gov/departments/development-services",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "One AHJ covers city limits across all four counties, but the metro is a patchwork — Edmond, Moore, Norman, Yukon, and Mustang are separate AHJs with their own amendments. Published plan-review times were not verifiable this session; confirm the current queue by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "OUBCC statewide minimum applies — 2018 IBC as amended (2024 I-code suite effective statewide September 14, 2026). Oklahoma City's locally amended edition not yet confirmed.",
+      "source": "OUBCC International Building Code adoptions — https://oklahoma.gov/oubcc/codes-and-rules/international-building-code-adoptions.html; city amendment package pending verification",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Oklahoma City Public Works Department — right-of-way permits",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ROW character varies more here than in any market CSS serves — downtown lane closures with traffic-control plans at one end, rural section-line roads at the other. Confirm current bonding and traffic-control submittal requirements with the department; specifics were not reachable for verification this session."
+    },
+    "stateDotDistrict": {
+      "name": "Oklahoma DOT field division serving Oklahoma County (Division 4 per ODOT's eight-division structure — confirm assignment against the ODOT division map before filing)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Turnpike crossings (Kilpatrick, Turner) are permitted separately through the Oklahoma Turnpike Authority, not ODOT."
+    },
+    "oneCallCenter": {
+      "name": "OKIE811 (Oklahoma One-Call System — \"Call Okie\")",
+      "url": "https://okie811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice is 48 hours excluding Saturdays, Sundays, legal holidays, and the day of filing; a request is valid only if placed within ten days of the dig start.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Oklahoma DEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWP3 must be prepared before the NOI. Current OKR10 issued October 18, 2022, modified November 1, 2023. Oklahoma City also operates its own MS4 program — coordinate erosion-control submittals with the city on sites inside the MS4 area."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plan the permit stack from the state floor up: the OUBCC's amended 2018 IBC is the statewide minimum (2024 suite lands September 14, 2026), Oklahoma City reviews under its own amended package through Development Services, and no standing review times could be verified this session — call before committing a schedule. Underground work adds OKIE811's two-business-day notice with its ten-day ticket validity window, and anything disturbing an acre triggers ODEQ's OKR10 SWP3-before-NOI sequence. Because the city limits sprawl across four counties, confirm early whether a given rural site is actually inside OKC's jurisdiction or belongs to a suburb or county — the answer changes the AHJ, the amendments, and the timeline."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Oklahoma Gas and Electric (OG&E)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "OG&E is the serving utility across most of the city; Oklahoma Electric Cooperative territory takes over on the metro's south and east edges. New-service lead times were not verifiable — schedule from OG&E's written confirmation, not assumptions."
+      }
+    ],
+    "ilec": "AT&T Oklahoma (legacy Southwestern Bell) — confirm exchange boundaries against FCC data before publishing",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Cox Communications",
+      "OEC Fiber (metro south and east edges)",
+      "Dobson Fiber"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "Long-haul paths follow the same crossroads the trucks do: I-35 toward Dallas and Wichita/Kansas City, I-40 toward Amarillo and Fort Smith, and I-44 toward Tulsa and St. Louis all converge on the metro, which keeps regen and route-diversity work in the deal flow.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No spring frost-law season in Oklahoma — statutory weight limits run year-round. Individual county road and bridge postings can still bind a rural shelter haul; check the county commissioner district for the delivery route."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Oklahoma size-and-weight permitting (Department of Public Safety permitting operation — confirm current office and portal before filing)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-highway permits only; Kilpatrick and Turner turnpike moves clear separately through the Oklahoma Turnpike Authority, and city street routing goes through OKC."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Utility-crossing licenses run through BNSF's third-party permitting portal; timelines routinely run months — file at route design, not at construction release."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "Crossings licensed through UP's real-estate/utility process; allow for engineering review cycles."
+      },
+      {
+        "name": "Stillwater Central Railroad (Watco, on state-owned trackage)",
+        "crossingPermitNote": "Shortline crossing requests are typically faster than Class I but still require insurance and right-of-entry — confirm current requirements with the operator."
+      }
+    ],
+    "urbanRowRequirements": "One city, three kinds of ROW: downtown and arterial corridors need traffic-control plans and lane-closure coordination; suburban corridors carry standard permit-and-restoration conditions; and the outer reaches of the 620-square-mile city limits are section-line roads where the practical constraints are bar ditches and school-bus timing rather than lane closures. Verify requirements per corridor with Public Works rather than assuming one citywide standard."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Oklahoma State Historic Preservation Office (Oklahoma Historical Society)",
+      "url": "https://www.okhistory.org/shpo",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 for tower and telecom work in Oklahoma routinely includes tribal historic preservation officers via the FCC Tower Construction Notification System — start consultation early; the tribal layer is larger here than in most states."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Tulsa District regulatory program; ODEQ issues Section 401 certification",
+      "url": "https://www.swt.usace.army.mil/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Tulsa District (SWT)",
+    "listedSpeciesNote": "A project-specific USFWS IPaC query is required per site. Seasonal tree-clearing restrictions tied to listed bats apply in parts of Oklahoma and were not confirmed for the OKC-area counties this session — treat the clearing calendar as unresolved until IPaC and the USFWS Oklahoma field office are consulted.",
+    "floodplainPrevalenceNote": "OKC's flood story is flash flooding on its urban creek basins and the North Canadian corridor rather than a single great river: intense-rainfall events in May 2010 and May 2015 both produced damaging metro flash floods. The city's floodplain administrator assignment was not verified this session — mapped-floodplain screening still comes first on any river- or creek-adjacent site."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild-winter ground, mostly unfrozen; short hard freezes and occasional ice events",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice for freeze nights; ice-storm outage risk is the schedule wildcard"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Unfrozen most of the month; late-winter moisture",
+        "earthworkConcrete": "workable",
+        "note": "Occasional arctic outbreaks pause pours for days, not weeks"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Drying, workable; severe-weather season begins",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Workable between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": "Peak tornado season opens — crews work to sky-watch protocols"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Wettest, stormiest month; saturated windows after supercell rains",
+        "earthworkConcrete": "workable",
+        "note": "May is the metro's historical tornado and flash-flood peak (1999, 2010, 2013, 2015)"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, drying; storm season tapering",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and dry; hard, desiccated subgrades",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete practice — 100°F stretches push pours to early morning"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest stretch; dust control on earthwork",
+        "earthworkConcrete": "workable",
+        "note": "Heat, not cold, is this market's concrete constraint"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Cooling, excellent production conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime earthwork month; secondary severe-weather season possible",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cool, mostly workable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild-winter pattern with freeze nights; ice-storm season begins",
+        "earthworkConcrete": "workable",
+        "note": "Ice accumulation events are the December risk to schedules and to standing infrastructure"
+      }
+    ],
+    "narrative": "The OKC construction year inverts the Midwest pattern CSS schedules around elsewhere: winter barely interrupts — ground rarely freezes deep or long, and December-through-February work needs freeze-night concrete practice rather than a seasonal shutdown — while the real constraints land in May and August. May stacks the metro's historical tornado peak on its heaviest rains, so spring schedules carry storm-day float. July and August flip the concrete problem to heat, moving pours early and adding curing controls. Month-by-month figures above are qualitative pending a NOAA normals check for the Will Rogers Airport station, flagged in _gaps."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Weathered Garber sandstone typically rips rather than requiring breaking, but cemented ledges show up unpredictably at duct-bank and pier depth on east-metro sites — carry a rock clause rather than a rock assumption.",
+    "aggregateHaulNote": "The metro's red-bed geology yields little quarry rock, so crushed-stone aggregate hauls in from quarry districts outside the metro — a structurally longer haul than limestone-country markets, and a line worth watching on high-volume duct bank.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No state prevailing wage exists in Oklahoma — the public-works wage act was struck down by the Oklahoma Supreme Court in 1995. Federal Davis-Bacon applies to federally funded work, including BEAD-funded broadband routes.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Seasonal cost here is summer-shaped: hot-weather concrete measures and early-shift scheduling in July–August, plus storm-day float in April–May. Winter protection is an occasional freeze-night line item, not the standing premium it is in the upper Midwest.",
+    "narrative": "The numbers that move in Oklahoma City are horizontal, not vertical. Foundations are shallow and the digging is mostly rippable, so cost concentrates in distance and coverage: aggregate hauled in from outside the red-bed metro, crews covering a 620-square-mile city where two sites under the same AHJ can be forty minutes apart, and route-miles of restoration across three distinct ROW types. Weather enters as float rather than premium — storm days in May, early-shift pours in August, freeze nights in January. Anchorage conservatism for tornado country adds embedment and hardware, deliberately. Mobilization from the DFW yard is a single-corridor I-35 run priced as regional work. Drivers only — every site prices to its own borings and season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Oklahoma has no statewide general-contractor license, so civil sitework needs no state license. The Construction Industries Board licenses electrical, plumbing, and mechanical trades — the powered portions of a compound run through CIB-licensed contractors — and Oklahoma City requires local contractor registration for permit issuance. Confirm current CIB and city registration requirements directly; sources were not readable this session.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "extreme heat",
+      "flood"
+    ],
+    "designImplications": "This metro defines American tornado exposure: the May 3, 1999 Bridge Creek–Moore F5 — with the highest wind speed ever measured by mobile radar, near 302 mph — and the May 20, 2013 Moore EF5 both tracked through the OKC area (NWS Norman event records). No code wind map designs for an EF5 core, so the honest engineering response is conservative anchorage, hardened generator fuel systems, and a restoration posture rather than a survivability claim. Giant hail drives protection choices for HVAC and cabinets; ice storms drive standby power; flash flooding drives compound drainage on creek-basin sites.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Oklahoma BEAD program: ~$797M federal allocation",
+        "detail": "NTIA's June 2023 BEAD allocation gave Oklahoma roughly $797.4 million, administered by the Oklahoma Broadband Office; rural routes ringing the OKC metro are among the target areas. Current subgrantee round status needs re-verification (egress blocked this session).",
+        "category": "broadband program",
+        "sourceUrl": "https://oklahoma.gov/broadband.html",
+        "asOf": "2023-06-26"
+      },
+      {
+        "headline": "MAPS 4: voter-approved city capital program under construction",
+        "detail": "Oklahoma City voters approved MAPS 4 in December 2019 — a debt-free, sales-tax-funded capital program (widely reported near $1 billion) spanning transit, sidewalks, parks, and civic facilities whose corridor work generates utility relocation and conduit opportunities across the city.",
+        "category": "transportation",
+        "sourceUrl": "https://www.okc.gov/government/maps-4",
+        "asOf": "2019-12-10"
+      },
+      {
+        "headline": "Cooperative and competitive fiber builds active on the metro edges",
+        "detail": "OEC Fiber continues building across Oklahoma Electric Cooperative territory on the metro's south and east flanks while AT&T Fiber and Cox upgrade in-city footprints — sustained hut, vault, and lateral civil demand. Build-status details pending re-verification.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://oecfiber.com/",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Boring in Oklahoma City is about as friendly as OSP construction gets — red-bed residuum and weathered Garber sandstone drill predictably, without the cobble fields or hard limestone of markets further north — so production risk shifts from the ground to the paperwork: OKIE811's two-business-day notice with a ten-day ticket window, three distinct ROW regimes inside one 620-square-mile city, and BNSF, UP, and Stillwater Central crossings whose license timelines outlast most construction schedules. Demand is running from two directions at once: Oklahoma's ~$797M BEAD program is funding rural routes that ring the metro, while OEC Fiber's cooperative build works the south and east edges and AT&T and Cox upgrade the core. CSS self-performs hut pads, duct bank, bores, and vault work across all of it.",
+      "localSpecificsReferenced": [
+        "Oklahoma BEAD allocation (~$797M)",
+        "OEC Fiber cooperative build (south/east metro)",
+        "Garber Sandstone boring conditions",
+        "OKIE811 48-hour notice / ten-day ticket window"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless civil in this market answers to a sky that has produced both an F5 with the highest radar-measured winds on record (Bridge Creek–Moore, May 3, 1999) and a second EF5 through the same corridor fourteen years later (Moore, May 20, 2013). We build compounds accordingly: conservative shelter and generator anchorage beyond code minimums, fuel containment detailed for wind-borne debris, and drainage sized for the supercell rain that arrives with the wind. The ground cooperates — shallow, rippable red-bed foundations pour fast, and the mild winter keeps compound work moving in months that idle northern markets. OG&E new-service coordination and the metro's sheer spread — four counties inside one city limit — are the schedule variables that matter most on multi-site programs.",
+      "localSpecificsReferenced": [
+        "May 3, 1999 Bridge Creek–Moore F5 (~302 mph radar-measured)",
+        "May 20, 2013 Moore EF5",
+        "OG&E service territory",
+        "four-county OKC city limits"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Oklahoma City's edge demand grows out of its own economy rather than a neighboring hyperscale campus: Paycom's headquarters campus anchors a homegrown tech employment base, Tinker Air Force Base drives contractor and data-adjacent load on the southeast metro, and the MAPS 4 program keeps civic corridors under construction with conduit and relocation work attached. That mix produces edge-scale civil scope — enclosure and micro-DC pads, transformer yards, generator pads with containment — distributed across a metro where OG&E interconnection and hail-hardened equipment protection are the recurring design conversations. The absence of a named hyperscale campus inside the metro is itself the market fact: edge capacity here follows enterprise and carrier demand at the I-35/I-40 crossroads, not campus overflow.",
+      "localSpecificsReferenced": [
+        "Paycom headquarters campus",
+        "Tinker Air Force Base",
+        "MAPS 4 capital program",
+        "OG&E interconnection"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 225,
+      "driveTimeHours": 3.9,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Oklahoma",
+      "Canadian",
+      "Cleveland",
+      "Pottawatomie",
+      "Logan",
+      "McClain",
+      "Grady"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Oklahoma City from the DFW yard is a single-interstate run: I-35 north across the Red River, up the Arbuckle grade past Ardmore and Pauls Valley, through Norman and into the metro — one corridor, no transfers, no seasonal closures. That geometry is what Band-A regional service means here in practice: crews and equipment stage out of DFW the evening before and are productive on an OKC site the next morning, and multi-week compound or duct-bank scopes run on a normal rotation rather than a deployment footing. The same corridor carries storm-response logic — when the metro's tornado season produces restoration work, the route north is the one Texas crews already drive. Distance and drive time above are seed estimates pending real-routing verification, and no response-time commitment is published without ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Which building code and AHJ apply to a telecom site in Oklahoma City?",
+      "answer": "The City of Oklahoma City Development Services Department is the AHJ everywhere inside city limits — even where those limits reach into Canadian, Cleveland, or Pottawatomie counties. Review runs under the city's amendments on top of the OUBCC statewide minimum (2018 IBC as amended, with the 2024 suite effective September 14, 2026). Suburbs like Moore, Edmond, and Norman are separate AHJs with their own packages.",
+      "segment": "general"
+    },
+    {
+      "question": "How much notice does OKIE811 need before boring or trenching in OKC?",
+      "answer": "Two business days — the statute requires 48 hours' notice excluding weekends, legal holidays, and the day you file, and a ticket is valid only if placed within ten days of the dig. On production bores we sequence tickets in rolling batches so the ten-day validity window never strands a crew waiting on locates.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Oklahoma City in January? What about July?",
+      "answer": "January, usually yes — OKC winters are mild, ground seldom freezes deeply, and freeze nights call for blankets and admixtures rather than a seasonal shutdown. July is the harder month: 100°F stretches push pours to early morning with hot-weather curing controls. In this market, summer heat constrains concrete more than winter cold does.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Do Oklahoma's earthquakes affect foundation design in OKC?",
+      "answer": "They changed the conversation more than the construction. The induced-seismicity era peaked with the 2011 Prague M5.7 — about 50 miles east of downtown — and the 2016 Pawnee M5.8, Oklahoma's strongest recorded quake, before disposal-well directives cut rates sharply. Design still uses site-specific USGS Ss/S1 values at the coordinates; we never publish or assume a metro-wide seismic number.",
+      "segment": "general"
+    },
+    {
+      "question": "What soil conditions should I expect boring in Oklahoma City?",
+      "answer": "Permian red beds: sandy residuum and weathered Garber Sandstone east of downtown, clayey Hennessey shale residuum on the west side, and river alluvium along the North Canadian corridor. Bores drill predictably, with occasional cemented sandstone ledges on east-metro sites the main surprise. Site borings govern — the formation boundary matters to tooling.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Are there seasonal road restrictions that affect shelter delivery to OKC?",
+      "answer": "No — Oklahoma posts no spring frost-law embargoes, so a shelter haul that would wait out the thaw in Iowa or Wisconsin runs year-round here. The items to clear instead are the state size-and-weight permit, separate Oklahoma Turnpike Authority clearance if the route uses the Kilpatrick or Turner, and any individually posted county bridges on the last mile.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What does tornado country actually change about compound construction?",
+      "answer": "Not the ability to survive an EF5 core — nothing buildable at telecom budgets does, and this metro produced the 1999 Bridge Creek–Moore F5 and the 2013 Moore EF5. What changes is the engineering posture: anchorage and embedment beyond code minimums, generator fuel systems detailed against wind-borne debris, hail-resistant equipment protection, and a restoration plan treated as part of the design rather than an afterthought.",
+      "segment": "wireless"
+    },
+    {
+      "question": "When does an OKC site need a stormwater permit?",
+      "answer": "At one acre of disturbance, or below that inside a larger common plan of development — ODEQ's OKR10 general permit governs, with the SWP3 prepared before the NOI is filed. Compound builds with access roads reach an acre more often than expected, and sites inside Oklahoma City's MS4 area coordinate erosion-control submittals with the city as well.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in Oklahoma City right now?",
+      "answer": "Three overlapping programs: Oklahoma's ~$797M BEAD allocation funding rural routes around the metro, cooperative and competitive fiber builds (OEC Fiber on the edges, AT&T and Cox in the core), and MAPS 4's citywide capital construction generating relocation and conduit work. Layered on top is steady enterprise growth around Paycom and Tinker AFB that keeps edge and wireless capacity in demand.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Uplift, not bearing: what actually governs OKC shelter foundations",
+    "body": "In most markets the foundation conversation starts with what the ground will hold; in Oklahoma City it should start with what the sky will pull. Weathered Garber sandstone and red-bed residuum carry shelter and cabinet loads on conventional shallow footings without difficulty, and frost depth is modest — so bearing rarely sizes anything. Wind does. On a metro that has taken two top-scale tornadoes through the same corridor since 1999, the governing load case for pads, piers, and anchor hardware is uplift and overturning, and the cheap decision is extra embedment and anchorage capacity specified on day one rather than argued about after a storm season. The calculus shifts twice. West of the Garber outcrop belt, Hennessey shale residuum introduces moisture-sensitive clays: there the money goes to moisture-conditioned subgrade, thickened pads, and compound drainage that actually moves water, because seasonal shrink-swell will find a poorly drained pad edge. And on North Canadian alluvium, floodplain screening leads — elevation and permitting before foundation type. Order borings early, confirm the city's frost-depth amendment (unverified this session), and let the geotech report pick the formation you're actually on; the map boundary between Garber and Hennessey is not where your site thinks it is.",
+    "segment": "general"
+  },
+  "sources": [
+    {
+      "label": "OUBCC — International Building Code adoptions (statewide minimum; 2024 suite effective 2026-09-14)",
+      "url": "https://oklahoma.gov/oubcc/codes-and-rules/international-building-code-adoptions.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OKIE811 — Oklahoma one-call law (48-hour notice, ten-day ticket validity)",
+      "url": "https://okie811.org/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ODEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Norman — May 3, 1999 Bridge Creek–Moore F5 event page",
+      "url": "https://www.weather.gov/oun/events-19990503",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Norman — May 20, 2013 Moore EF5 event page",
+      "url": "https://www.weather.gov/oun/events-20130520",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Geological Survey — earthquakes and geologic mapping (Prague 2011, Pawnee 2016; Garber–Wellington/Hennessey geology)",
+      "url": "https://ou.edu/ogs",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Oklahoma City — MAPS 4 program",
+      "url": "https://www.okc.gov/government/maps-4",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Oklahoma City — Development Services Department",
+      "url": "https://www.okc.gov/departments/development-services",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Broadband Office — BEAD program",
+      "url": "https://oklahoma.gov/broadband.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Census Bureau — Oklahoma City QuickFacts (population, land area)",
+      "url": "https://www.census.gov/quickfacts/oklahomacitycityoklahoma",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind (RC II/IV), ground snow, radial ice, Ss/S1, frost depth, design temps, ASCE 7 edition",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps, TIA-222 Annex B, and OKC amendment text all unreachable — every fetch 403'd through the session egress proxy. All numeric criteria left null."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — Oklahoma City amended edition",
+      "attempted": "okc.gov blocked; only the OUBCC statewide floor is published. Read the city's code adoption ordinance before sign-off."
+    },
+    {
+      "field": "regulatory.wirelessFacilityOrdinanceNote + floodplainAdministrator",
+      "attempted": "Municipal code and state small-cell statute not readable this session; left null rather than guessed."
+    },
+    {
+      "field": "regulatory.stateDotDistrict — division assignment",
+      "attempted": "ODOT division map unreachable; Division 4 attribution is unconfirmed general knowledge and is flagged in the field text itself."
+    },
+    {
+      "field": "logistics.oversizeOverweightPermitAuthority — office and portal confirmation",
+      "attempted": "Oklahoma DPS size-and-weight attribution needs a primary source; not verifiable this session."
+    },
+    {
+      "field": "geotech — bearing range, expansive rating, bedrock depth, groundwater, corrosivity",
+      "attempted": "NRCS Web Soil Survey and OGS publication PDFs blocked; only qualitative geology published, expansive risk left 'unknown'."
+    },
+    {
+      "field": "environmental.treeClearingWindow",
+      "attempted": "USFWS IPaC and Oklahoma field office guidance unreachable; restriction status for OKC-area counties unresolved — set to false pending verification, see listedSpeciesNote."
+    },
+    {
+      "field": "utilities — OG&E new-service process/lead times, ILEC exchange boundaries",
+      "attempted": "OG&E documentation and FCC data not readable this session."
+    },
+    {
+      "field": "seasonality — NOAA normals check",
+      "attempted": "NCEI normals for Will Rogers World Airport station not readable; calendar is qualitative pending the station table."
+    },
+    {
+      "field": "identity — population, elevation, land-area verification",
+      "attempted": "Census QuickFacts blocked; 702,767 (v2023 estimate), 1,198 ft, and ~620 sq mi are from prior knowledge and must be confirmed."
+    },
+    {
+      "field": "operations.nearestBase — roadMiles/driveTimeHours",
+      "attempted": "Routing APIs blocked; values are the seed straight-line estimates, routeVerified false. Verify the I-35 routing before publish."
+    },
+    {
+      "field": "marketActivity + sources[] — URL liveness and current status",
+      "attempted": "All URLs written from canonical knowledge or search captures; egress proxy blocked direct fetches. Run a link check and refresh BEAD/MAPS 4/OEC status before sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 gate requires 1+ real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + any response commitments",
+      "attempted": "Ops sign-off required for the confirmed coverage list; no response times published."
+    }
+  ]
+}

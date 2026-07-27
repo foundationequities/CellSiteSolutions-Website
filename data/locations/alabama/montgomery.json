@@ -1,0 +1,680 @@
+{
+  "identity": {
+    "slug": "montgomery",
+    "city": "Montgomery",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "stateAbbr": "AL",
+    "counties": [
+      "Montgomery"
+    ],
+    "msa": "Montgomery, AL",
+    "tier": 2,
+    "latitude": 32.3668,
+    "longitude": -86.3,
+    "elevationFt": null,
+    "population": {
+      "value": 197494,
+      "source": "Alabama Demographics, republishing current U.S. Census data (2020 census figure commonly cited as ~200,600 — confirm vintage against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-65",
+      "I-85"
+    ],
+    "majorRoutes": [
+      "US-80",
+      "US-82",
+      "US-231"
+    ]
+  },
+  "metadata": {
+    "title": "Montgomery AL Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Montgomery, AL — Black Belt clay foundations, program-based multi-site delivery, and fiber, wireless, and edge site work.",
+    "h1": "Telecom Site Civil Construction in Montgomery, Alabama",
+    "intro": "Montgomery concentrates an unusual amount of network demand for a mid-sized capital: the state government's agency networks, Maxwell Air Force Base and its Gunter Annex cyber and enterprise-software missions, Hyundai's assembly plant on the south side, and Alabama's first internet exchange running out of the RSA data center downtown. Under all of it sits the Black Belt — expansive, chalk-derived prairie clays that shrink, swell, and crack with the seasons and quietly decide how foundations get built here. CellSite Solutions delivers Montgomery work as deployed programs from our Dallas yard: traveling crews on multi-site scopes under one contract, with local staging, in-market materials, and lead times we quote honestly.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Alabama is inland tornado country, not hurricane coast: straight-line and tornadic wind drive anchorage thinking, while numeric wind, seismic, snow, and ice design values all await a site-coordinate hazard query. Montgomery's governing code edition also needs confirmation with the city (see gaps) before any design value is published as adopted."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Montgomery sits where the Alabama River meets the Black Belt — the crescent of Blackland Prairie that sweeps through Montgomery County atop the chalks of the Cretaceous Selma Group (Mooreville and Prairie Bluff chalks mapped by the USGS from Geological Survey of Alabama sources). The prairie soils are heavy, dark, calcareous clays — many classified as Vertisols rich in expanding smectite — that swell when wet and crack deeply when dry, over chalk that can lie at shallow depth. River-terrace alluvium along the Alabama River and sandier Coastal Plain soils toward the county's edges break up the pattern. (Encyclopedia of Alabama, Black Belt Region; USGS SGMC, Selma Group.)",
+    "dominantSoilTypes": [
+      "Blackland Prairie Vertisols — smectitic, high shrink-swell calcareous clays",
+      "Chalk residuum over Selma Group chalk (shallow on prairie uplands)",
+      "Alabama River terrace alluvium (sands, silts, clays)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "high",
+    "expansiveSoilNote": "The Black Belt's defining trait: smectite-rich Vertisols derived from Selma chalk swell when wet and open deep cracks in late-summer drought (Encyclopedia of Alabama; Alabama Cooperative Extension, Soils of Alabama). Assume active clay on prairie sites until borings prove otherwise; site-specific investigation governs.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The Selma Group chalks are not cavernous karst formations like north Alabama's limestones; no karst mapping applies to the Montgomery area. Chalk softness and clay shrink-swell, not voids, are the ground risks here."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Calcareous, alkaline prairie clays and seasonally wet conditions warrant a corrosivity check on buried steel and grounding — numeric NRCS corrosion ratings were not obtained this session and should be pulled from Web Soil Survey before publication.",
+    "foundationApproachNarrative": "Montgomery foundations are a moisture-management problem before they are a bearing problem. Blackland Prairie Vertisols move through an annual shrink-swell cycle — saturated and swollen through winter and spring, cracked open by September — so shallow pads on active clay get moisture-conditioned subgrades, select fill, or thickened stiffened sections, and perimeter drainage is designed to keep the moisture regime under the pad as constant as the site allows. Heavier or movement-sensitive structures reach through the active zone, and here the Black Belt offers an unusual assist: Selma Group chalk can sit at shallow depth on prairie uplands, giving drilled piers a firm, consistent stratum to bear in that most expansive-clay markets lack. River-terrace sites near the Alabama River trade the clay problem for alluvial variability and flood-elevation questions. Every approach starts with borings that establish the active-zone depth and the elevation of competent chalk — the two numbers that price the foundation."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Montgomery — Building Inspection Division (Inspection Services)",
+        "url": "https://www.montgomeryal.gov/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "The city's 311 knowledge base lists adoption ordinances dating to the 2003 I-codes (Ord. #7-2004); the currently enforced editions must be confirmed with the division directly before design. County sites fall to Montgomery County authorities."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Montgomery Engineering & Environmental Services inside city limits; Montgomery County Engineering for county ROW; ALDOT for state routes",
+      "url": "https://www.mc-ala.org/departments/engineering/placement-of-utilities-on-a-county-right-of-way",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Montgomery County publishes a defined utility-placement process for county right-of-way; ALDOT permits apply on state-maintained routes through the district office."
+    },
+    "stateDotDistrict": {
+      "name": "ALDOT Southeast Region (Montgomery area office)",
+      "url": "https://www.dot.state.al.us/business/permits/index.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "oneCallCenter": {
+      "name": "Alabama 811",
+      "url": "https://al811.com/law/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Ala. Code § 37-15-4 requires notice at least two working days (and no more than ten) before excavation, day of notification excluded; tickets are valid 20 working days from the proposed start.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "ADEM — NPDES Construction General Permit ALR100000",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Annual Notice of Registration plus per-project NOI; erosion controls per a CBMPP prepared by a Qualified Credentialed Professional. Black Belt clays are highly erodible when stripped — the BMP plan is not a formality here."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Montgomery Engineering & Environmental Services (25 Washington Avenue)",
+      "url": "https://www.montgomeryal.gov/government/city-government/city-departments/engineering-environmental-services/flood-mitigation-and-determination",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NFIP participant since 1982; the city maintains a flood-zone lookup tool and is running an Alabama River Flood Study to update mapping along the river corridor."
+    },
+    "permitTimelineNarrative": "Montgomery permitting follows the standard Alabama stack with one caveat worth stating plainly: the city's currently enforced code editions are not clearly published — its 311 system still lists 2003-era adoption ordinances — so we confirm the governing editions with the Building Inspection Division at project start rather than assuming the state's 2021 IBC baseline applies municipally. Beyond that, the sequence is predictable: ADEM's ALR100000 stormwater registration and NOI at one acre of disturbance, Alabama 811's two-working-day locate window, city or county ROW permits depending on jurisdiction, ALDOT Southeast Region permits on state routes, and floodplain review through Engineering & Environmental Services for sites near the Alabama River, where a flood study is actively updating the maps."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Alabama Power",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.alabamapower.com/business/business-customers-and-services/builders-developers.html",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Southern Company operating utility for the southern two-thirds of Alabama, including the Montgomery metro. Builder service applications open up to 45 days ahead; new-commercial-service lead times are not published — obtain the utility's written schedule per project. Spire distributes natural gas in the Montgomery district (Alagasco legacy territory)."
+      }
+    ],
+    "ilec": "AT&T Alabama (BellSouth legacy; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "WOW! (MGMix member network)"
+    ],
+    "notableDataCenterCampuses": [
+      "RSA Dexter Avenue Data Center (downtown Montgomery — hosts MGMix)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": "MGMix — the Montgomery Internet Exchange, Alabama's first IX — operates from the RSA Dexter Avenue Data Center as a joint venture of the city, Montgomery County, and Maxwell AFB, upgraded to 100 Gbps, with members including Google, Meta, Hurricane Electric, WOW, and the region's universities."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Alabama posts no spring-thaw frost laws; bridge and county-road weight limits are year-round engineering postings checked per route."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "ALDOT Maintenance Bureau — Permits & Operations Section",
+      "url": "https://www.dot.state.al.us/maweb/permitsoperations.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "CSX Transportation",
+        "crossingPermitNote": "Montgomery is a genuine CSX junction — the S&NA South line from Birmingham, the M&M Subdivision toward Mobile, the A&WP Subdivision toward Atlanta with Chester Yard, and the Selma Subdivision all meet here, so fiber routes through the metro cross CSX more than once. Budget crossing agreements early; railroad timelines are long."
+      },
+      {
+        "name": "Meridian & Bigbee Railroad (Genesee & Wyoming)",
+        "crossingPermitNote": "Short line with trackage rights into Montgomery over the Selma Subdivision, interchanging with CSX."
+      }
+    ],
+    "urbanRowRequirements": null
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Alabama Historical Commission (SHPO)",
+      "url": "https://ahc.alabama.gov/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 applies to federally funded work including BEAD builds; Montgomery's downtown and civil-rights-era historic districts make cultural review a real routing consideration on urban segments."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Mobile District (SAM) — Regulatory Division",
+      "url": "https://www.sam.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Mobile District's regulatory program covers Alabama waters, including the Alabama River corridor; ADEM issues the 401 certification."
+    },
+    "usaceDistrict": "Mobile District (SAM)",
+    "listedSpeciesNote": "Montgomery County is not the cave-bat country of north Alabama — gray and Indiana bat cave-habitat constraints concentrate there — but the endangered northern long-eared bat is listed statewide, so clearing plans get a project-level IPaC screen through the USFWS Alabama Ecological Services Field Office rather than a blanket seasonal window. Black Belt streams and the Alabama River drainage carry aquatic species sensitivities that surface in USACE permitting.",
+    "floodplainPrevalenceNote": "Flood hazard here is riverine: the Alabama River bends through the city's north side, the city has administered NFIP floodplain regulation since 1982, and an active Alabama River Flood Study is updating the mapping — check both effective and preliminary panels for river-corridor sites."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Cool and wet; prairie clays saturated and swollen",
+        "earthworkConcrete": "workable",
+        "note": "No hard frost constraint, but wet Vertisols rut and smear under equipment"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Wet-season clays at their softest; occasional cold snaps",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming and stormy; peak of spring severe-weather season",
+        "earthworkConcrete": "workable",
+        "note": "March is historically Montgomery's most active tornado month"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying ground, strong production weather between storm days",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Warm and drying; clays firming",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Hot; afternoon thunderstorms begin",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak heat; hot-weather concrete practice in force",
+        "earthworkConcrete": "constrained",
+        "note": "Morning pour windows"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot and dry spells; Vertisols shrinking and cracking",
+        "earthworkConcrete": "constrained",
+        "note": "Clays near maximum shrinkage — protect subgrades from moisture shock"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat easing; cracked clays await fall rains; tropical remnants possible",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Dry, mild — the best sustained working month of the year",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; secondary severe-weather season; rains returning",
+        "earthworkConcrete": "favorable",
+        "note": "Late-fall tornado events occur in central Alabama"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Cool, wetting ground; year-round buildability holds",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "Montgomery's construction year is shaped by clay moisture, not frost. Winter never stops work — there is no meaningful frost season — but winter and early-spring rain leaves Blackland Prairie Vertisols swollen and soft enough to punish equipment and subgrades, while by late August the same clays have shrunk and cracked in the heat. The two transitions are where schedule risk lives: pads placed on saturated clay or on desiccated clay both inherit movement. Severe weather bookends the year — March is the peak tornado month locally, with a secondary late-fall season — and summer heat forces morning pour windows in July and August. October is the prize: dry, mild, and stable. Verify the month-by-month picture against NOAA normals for the Montgomery station before publishing figures as final."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Selma Group chalk can sit at shallow depth on prairie uplands. It is a soft rock — typically excavatable without blasting — but it slows production and changes trench and bore economics versus soil; bid to borings, not to assumption.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Excavated Vertisol clay is poor structural fill and usually cannot go back in the hole under a pad — plan for select-fill import and clay spoil disposal on prairie sites.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Alabama has no state prevailing wage law; federal Davis-Bacon rates apply to federally funded work, including BEAD-funded broadband builds in the surrounding counties.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "No winter frost premium; the seasonal items are summer hot-weather concreting and moisture-conditioning of expansive subgrades at the wet-dry transitions.",
+    "narrative": "What moves a Montgomery number is almost always under the surface. Expansive Blackland Prairie clay drives the big swings: moisture conditioning, select-fill import, clay spoil disposal, and — where movement tolerance is tight — drilled piers to chalk instead of shallow pads, each a real line item that a boring log either triggers or retires. Shallow chalk cuts both ways, slowing excavation while giving deep foundations an economical bearing stratum. Above grade, Alabama's mandatory GC licensing at the $50,000 threshold shapes who can hold the prime contract, ADEM's stormwater package puts QCP-prepared erosion planning on every acre-plus site — meaningful on highly erodible prairie soils — and CSX crossing agreements tax any fiber route that threads the city's rail junctions. Because CSS delivers Montgomery as deployed programs from Dallas, mobilization is priced and scheduled into the program up front, with in-market concrete, aggregate, and precast; that structure rewards multi-site scopes and is priced honestly on single-site ones. Drivers, not prices — each site prices to its borings and its season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Commercial and industrial construction of $50,000 or more (labor and materials) requires licensure through the Alabama Licensing Board for General Contractors — Alabama is the only state in the CSS footprint that mandates a GC license for this scope of work. The requirement reaches subcontractors at the same threshold, and board classifications govern what work a licensee may bid and at what size.",
+    "additionalRegistrations": [
+      "ADEM NPDES annual Notice of Registration (prerequisite to ALR100000 stormwater NOIs)"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "extreme heat",
+      "flood",
+      "high wind"
+    ],
+    "designImplications": "Central Alabama sits in the Dixie Alley severe-weather corridor: Montgomery's recorded history includes deadly F3 tornadoes in 1945 and 1984, with March the peak month and a secondary late-fall season. That argues for conservative anchorage on shelters and cabinets, debris-rated thinking on critical enclosures, and generator autonomy for restoration after wind events. Expansive clay adds a slower hazard — seasonal ground movement that cracks rigid pads and utility stubs detailed without slack — and Alabama River sites answer to floodplain elevations. Summer heat governs concrete practice; numeric design values await a hazard-tool query.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Alabama BEAD final proposal approved — $460M across 63 projects",
+        "detail": "NTIA approved Alabama's BEAD final proposal in March 2026, and ADECA awarded nearly $460 million to 63 projects covering roughly 92,000 unserved locations, 71% of them fiber builds — subsidized construction across central Alabama's rural counties surrounding Montgomery. Subgrantee mapping for the River Region is tracked quarterly.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+        "asOf": "2026-03-31"
+      },
+      {
+        "headline": "Hyundai investing $290M in the Montgomery assembly plant",
+        "detail": "Hyundai Motor Manufacturing Alabama announced a $290 million upgrade of the Montgomery plant, part of the group's $21 billion 2025-2028 U.S. investment program; Hyundai Mobis previously added an EV battery module plant in Montgomery (announced October 2022, ~400 jobs). Plant-corridor industrial activity keeps private-network and site-infrastructure work moving on the south side.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.manufacturingdive.com/news/hyundai-motor-manufacturing-alabama-investing-290m-upgrade-montgomery-assembly-plant-santa-fe-suv/691672/",
+        "asOf": "2025-08-15"
+      },
+      {
+        "headline": "MGMix internet exchange operating at 100 Gbps downtown",
+        "detail": "Alabama's first internet exchange runs from the RSA Dexter Avenue Data Center as a city/county/Maxwell AFB joint venture, upgraded to 100 Gbps with members including Google, Meta, Hurricane Electric, and WOW — an interconnection anchor that keeps metro fiber and edge investment aimed at downtown Montgomery.",
+        "category": "data center",
+        "sourceUrl": "https://mgmix.net/",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "fiber hut pad",
+        "vault and handhole setting",
+        "regen and amplifier site civil",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "service lateral to hut"
+      ],
+      "narrative": "Fiber civil around Montgomery answers to three local facts. First, the ground: bores and trenches on Blackland Prairie ground run through smectitic clay that behaves completely differently wet versus dry, over Selma chalk that can appear at shallow depth — soft enough to excavate, firm enough to change production rates, so alignments get priced to borings. Second, the railroad: CSX lines converge on Montgomery from Birmingham, Mobile, Atlanta, and Selma, which means metro routes cross CSX repeatedly and crossing agreements go to the front of the schedule. Third, the demand map: Alabama's March 2026 BEAD round put $460 million into 63 mostly-fiber projects, much of it in the rural Black Belt counties around the capital, layered on top of state-agency WAN, Gunter Annex, and MGMix-driven interconnection routes downtown. We build these as programs — multiple huts, routes, and counties under one contract.",
+      "localSpecificsReferenced": [
+        "Selma Group chalk boring conditions",
+        "CSX junction (S&NA, M&M, A&WP, Selma subdivisions)",
+        "Alabama BEAD awards (March 2026)",
+        "MGMix interconnection"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Montgomery is expansive-clay work in tornado country. Shelter and cabinet pads on prairie sites get moisture-managed subgrades or piers to chalk, because a rigid pad placed carelessly on Vertisols will crack on the wet-dry cycle; compound drainage is designed to keep subgrade moisture steady, not just to shed storms. Anchorage is specified conservatively — Montgomery's tornado record includes deadly F3 events in 1945 and 1984, with March the historical peak — and generator pads earn their cost when restoration follows a wind event. The demand geography is distinct: capital-district and state-agency coverage downtown, the I-65 and I-85 corridors, Maxwell AFB's perimeter, and the Hyundai plant corridor on the south side, where the $290 million plant upgrade keeps industrial traffic growing. Compounds get delivered as multi-site programs with consistent crews and QA across every site.",
+      "localSpecificsReferenced": [
+        "Blackland Prairie Vertisol pad behavior",
+        "1945 and 1984 Montgomery tornadoes",
+        "Hyundai plant corridor",
+        "Maxwell AFB / capital district coverage"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards"
+      ],
+      "narrative": "Montgomery's edge story is interconnection and institutions rather than hyperscale. Alabama's first internet exchange, MGMix, runs at 100 Gbps out of the RSA Dexter Avenue Data Center downtown with Google, Meta, and Hurricane Electric among its members — a genuine gravity well for metro edge deployments that want to sit near the exchange. The institutional buyers are unusual for a market this size: state-agency networks radiating from the capitol complex, and the Gunter Annex ecosystem, where the Air Force's Business and Enterprise Systems directorate and DISA presence anchor a defense-software cluster with hard requirements for resilient local infrastructure. CSS builds the civil layer for that demand — enclosure pads, transformer and generator yards, campus duct bank — engineered for expansive-clay ground movement and delivered as programs, with Alabama Power's builder process engaged early because utility lead time, not construction, usually sets the edge schedule.",
+      "localSpecificsReferenced": [
+        "MGMix / RSA Dexter Avenue Data Center",
+        "Gunter Annex (BES directorate, DISA)",
+        "State-agency capitol-complex networks",
+        "Alabama Power builder process"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 650,
+      "driveTimeHours": 10.2,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "C",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Montgomery",
+      "Autauga",
+      "Elmore",
+      "Lowndes"
+    ],
+    "stagingApproach": "Program-based staging in the Montgomery metro: equipment, materials, and site trailers establish near the work for the life of a build program, positioned to serve sites across Montgomery, Autauga, Elmore, and Lowndes counties from one setup. Rental relationships supply the iron that does not justify a cross-country float. Staging locations and rental commitments are confirmed per program by CSS ops.",
+    "localSupplyApproach": "Concrete, aggregate, select fill, and precast are purchased from suppliers serving the River Region — hauling materials from a yard in Texas is not viable at this distance and is not proposed. Select-fill sourcing gets particular attention here because expansive-clay sites consume import. The supplier lineup is confirmed at estimate by CSS estimating and ops.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Montgomery is delivered as a deployed program, and we say so plainly: crews travel from our Dallas yard and work the program for its duration — this is not a market where we claim to be around the corner, and a construction manager comparing us against a local contractor on a single small scope should weigh that honestly. What the model offers instead is program capability: multi-site and multi-county scopes executed under one contract, self-performed civil work with the same crews, supervision, and QA/QC on the first site and the fortieth, single-source accountability instead of a patchwork of local subs, and staging plus in-market material supply set up once and amortized across the build. Mobilization is priced and scheduled into the program up front, and lead times are quoted per program after ops review — committed dates, not same-week promises.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What foundation problems do Montgomery's Black Belt soils cause for telecom pads?",
+      "answer": "The Blackland Prairie's smectitic Vertisols swell when saturated and shrink and crack in late-summer heat, so a rigid pad placed without moisture management inherits seasonal movement. Standard responses are moisture-conditioned or select-fill subgrades, stiffened pad sections, drainage designed to keep subgrade moisture steady, and — for movement-sensitive structures — drilled piers through the active zone, often to the shallow Selma chalk. Borings establish active-zone depth first.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Is boring or trenching harder in the chalk around Montgomery?",
+      "answer": "Different, not necessarily harder. Selma Group chalk is a soft rock — typically excavatable and borable without blasting — but it slows production versus soil and shifts tooling and bid assumptions, and it can appear at shallow depth on prairie uplands with clay above it that behaves badly wet. The honest answer is that alignment economics here are set by the boring log, so we price fiber routes to geotechnical data rather than a per-foot assumption.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who issues construction permits for a site in Montgomery?",
+      "answer": "The City of Montgomery's Building Inspection Division permits inside city limits, with Engineering & Environmental Services handling ROW and floodplain matters; Montgomery County engineering covers county right-of-way and ALDOT's Southeast Region covers state routes. One caution from our research: the city's published code-adoption records are dated, so we confirm the currently enforced code editions with the division directly at project start.",
+      "segment": "general"
+    },
+    {
+      "question": "Does Alabama require a contractor license for cell site or fiber civil work?",
+      "answer": "Yes — uniquely in our footprint. Commercial or industrial work of $50,000 or more, labor and materials included, requires a license from the Alabama Licensing Board for General Contractors, and subcontractors at that threshold need licenses too. Verify any contractor's license class and limit against the board's roster before award; an unlicensed prime on a $50,000-plus scope is a legal problem, not a paperwork problem.",
+      "segment": "general"
+    },
+    {
+      "question": "How much notice does Alabama 811 require before digging in Montgomery?",
+      "answer": "At least two working days and no more than ten, not counting the day of notification, under Ala. Code § 37-15-4 — and the ticket stays valid for 20 working days from the proposed start date. We build the two-day window into every excavation schedule and renew tickets before expiration on longer programs, since a lapsed ticket legally stops digging until locates are refreshed.",
+      "segment": "general"
+    },
+    {
+      "question": "How does tornado risk shape cell site design in Montgomery?",
+      "answer": "Montgomery sits in the Dixie Alley corridor: the city's record includes deadly F3 tornadoes in 1945 and 1984, March is the historical peak month, and central Alabama adds a secondary late-fall season. No compound is designed to survive a direct tornado strike, but the record argues for conservative anchorage on shelters and cabinets, secured ancillary equipment, and generator autonomy so restoration starts immediately after wind events rather than after utility repair.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Why does Montgomery matter for edge deployments in Alabama?",
+      "answer": "Because the interconnection is already there. MGMix — Alabama's first internet exchange — operates from the RSA Dexter Avenue Data Center downtown at 100 Gbps with members including Google, Meta, and Hurricane Electric, and the metro layers state-agency networks and the Gunter Annex defense-software cluster on top. Edge equipment wants to sit near that exchange fabric, and the civil scope that places it must handle expansive-clay ground movement.",
+      "segment": "edge"
+    },
+    {
+      "question": "Can CellSite Solutions handle a multi-site build program around Montgomery?",
+      "answer": "That is precisely the work we structure this market for. Crews deploy from our Dallas yard and stay with the program — the same crews, supervision, and QA/QC across every site in Montgomery, Autauga, Elmore, and Lowndes counties — with staging and material supply set up once and mobilization priced into the program from the start. One contract and one accountable party across the build, with lead times quoted after ops review and honored.",
+      "segment": "general"
+    },
+    {
+      "question": "Do sites near the Alabama River need floodplain review in Montgomery?",
+      "answer": "River-corridor sites should assume it. The Alabama River bends through the city's north side, Montgomery has administered NFIP floodplain regulation since 1982 through Engineering & Environmental Services, and the city is running an Alabama River Flood Study that is actively updating the mapping — so we check both effective and preliminary panels before siting. Floodplain elevation requirements decide foundation design before geotechnical questions even enter.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Drilled piers or shallow pads on Blackland Prairie clay?",
+    "body": "The Montgomery-specific version of a universal question: when does an expansive-clay site justify piers over a shallow pad? Start from what the Black Belt gives you that most expansive-clay markets do not — Selma Group chalk at frequently shallow depth, a consistent, competent stratum that makes short drilled piers unusually economical here. If borings show chalk within reach and the structure is movement-sensitive — a shelter with rigid utility connections, an enclosure with tight racking tolerances — piers through the active zone to chalk are often the cheaper decision over the asset's life, because they retire the seasonal-movement problem entirely instead of managing it. Shallow pads stay competitive when the active zone is modest, the structure tolerates minor movement, and the site allows real moisture management: select-fill subgrade, perimeter drainage that keeps clay moisture steady, and flexible utility stubs detailed with slack. What fails is the middle path — a standard inland pad detail dropped onto Vertisols in a wet March or a cracked-open September, with the subgrade moisture regime left to the weather. Price both options against the boring log and the movement tolerance of what sits on the foundation; in this market the geology, unusually, often argues for the piers.",
+    "heading_note": null
+  },
+  "sources": [
+    {
+      "label": "Encyclopedia of Alabama — Black Belt Region (Selma chalk, Vertisols, county extent)",
+      "url": "https://encyclopediaofalabama.org/article/black-belt-region-in-alabama/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS State Geologic Map Compilation — Selma Group / Prairie Bluff Chalk (Alabama)",
+      "url": "https://mrdata.usgs.gov/geology/state/sgmc-unit.php?unit=ALKpb%3B1",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Cooperative Extension System — Soils of Alabama (ANR-0340)",
+      "url": "https://www.aces.edu/wp-content/uploads/2018/12/ANR-0340.REV_.2.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama 811 — excavation law summary (Ala. Code § 37-15-4, two working days)",
+      "url": "https://al811.com/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ADEM — NPDES Construction General Permit (ALR100000, one-acre trigger)",
+      "url": "https://adem.alabama.gov/water/npdes-programs/construction-general-permit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Licensing Board for General Contractors — licensing requirement at $50,000",
+      "url": "https://genconbd.alabama.gov/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor of Alabama — BEAD final proposal approved, $460M awarded (March 2026)",
+      "url": "https://governor.alabama.gov/newsroom/2026/03/governor-ivey-announces-approval-of-final-bead-broadband-proposal-awards-460-million-to-expand-access-to-high-speed-internet/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Manufacturing Dive — Hyundai's $290M Montgomery plant investment",
+      "url": "https://www.manufacturingdive.com/news/hyundai-motor-manufacturing-alabama-investing-290m-upgrade-montgomery-assembly-plant-santa-fe-suv/691672/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Governor of Alabama — Hyundai Mobis EV battery module plant in Montgomery (Oct 2022)",
+      "url": "https://governor.alabama.gov/newsroom/2022/10/governor-ivey-announces-hyundai-mobis-plans-ev-battery-module-plant-in-montgomery-creating-400-jobs/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Montgomery Regional Chamber — River Region military footprint (Maxwell, Gunter, BES, DISA)",
+      "url": "https://www.montgomerychamber.com/militaryfootprint",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MGMix — Montgomery Internet Exchange",
+      "url": "https://mgmix.net/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Montgomery — flood mitigation and determination (NFIP since 1982)",
+      "url": "https://www.montgomeryal.gov/government/city-government/city-departments/engineering-environmental-services/flood-mitigation-and-determination",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Montgomery — Alabama River Flood Study",
+      "url": "https://www.montgomeryal.gov/government/city-government/city-departments/engineering-environmental-services/alabama-river-flood-study",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia — S&NA South Subdivision and connecting CSX lines at Montgomery",
+      "url": "https://en.wikipedia.org/wiki/S%26NA_South_Subdivision",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia — 1984 Montgomery tornado (F3)",
+      "url": "https://en.wikipedia.org/wiki/1984_Montgomery_tornado",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Wikipedia — tornado outbreak of February 12, 1945 (Montgomery F3)",
+      "url": "https://en.wikipedia.org/wiki/Tornado_outbreak_of_February_12,_1945",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ALDOT — Maintenance Bureau Permits & Operations (ROW and OS/OW permits)",
+      "url": "https://www.dot.state.al.us/maweb/permitsoperations.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Montgomery County — placement of utilities on county right-of-way",
+      "url": "https://www.mc-ala.org/departments/engineering/placement-of-utilities-on-a-county-right-of-way",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Alabama Power — builders and developers (new service process)",
+      "url": "https://www.alabamapower.com/business/business-customers-and-services/builders-developers.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USFWS — Alabama Ecological Services Field Office (bats in Alabama, statewide NLEB)",
+      "url": "https://www.fws.gov/office/alabama-ecological-services/bats-alabama",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "regulatory.adoptedBuildingCode",
+      "attempted": "The city's 311 knowledge base lists adoption ordinances from the 2003 I-code era (Ord. #7-2004) and the page 403'd on fetch; the currently enforced editions could not be confirmed online. Call the Building Inspection Division — this gap gates the designCriteria module."
+    },
+    {
+      "field": "designCriteria (wind RC II/IV, snow, ice, seismic Ss/S1, frost depth, design temps)",
+      "attempted": "ASCE Hazard Tool, USGS design maps, TIA-222 county data, and ASHRAE tables not accessible this session; frost/footing depth additionally depends on the unconfirmed local code edition. All values left null rather than estimated."
+    },
+    {
+      "field": "identity.population / elevationFt",
+      "attempted": "Census QuickFacts not fetched; 197,494 comes from a Census-data republisher and secondary sources conflict on elevation (223-240 ft), so elevation is null pending a GNIS query."
+    },
+    {
+      "field": "geotech (bearing range, depth to chalk, groundwater, NRCS series and corrosion ratings)",
+      "attempted": "NRCS Web Soil Survey interactive not queryable; geology sourced from Encyclopedia of Alabama, USGS SGMC, and ACES ANR-0340. Numeric values and specific soil series left null/generic."
+    },
+    {
+      "field": "regulatory — wireless facility ordinance; AHJ review timelines",
+      "attempted": "Municipal zoning/telecom chapter not sourced; published review times not found. Confirm by phone during scoping."
+    },
+    {
+      "field": "operations.nearestBase — routing verification and band boundary",
+      "attempted": "Distance calculators give 647-682 mi / ~10-11 h Dallas-Montgomery (seed straight-line estimate was 722 mi). That straddles the 700-mile B/C boundary — ops must run real routing; Band C retained per program assignment pending that check."
+    },
+    {
+      "field": "operations — staging, local-supply, and lead-time commitments",
+      "attempted": "Band C drafts written for ops review; RESEARCH.md sources staging/supply from CSS ops and estimating, and no lead-time figures are published pending ops sign-off."
+    },
+    {
+      "field": "utilities — Alabama Power lead time; AT&T ILEC designation; full fiber-provider roster",
+      "attempted": "No published new-service lead time; FCC ILEC check not run; providers beyond AT&T and WOW (e.g., cable/fiber overbuilders) not verified, so the list is intentionally short."
+    },
+    {
+      "field": "environmental — USFWS clearing-window guidance for Montgomery County; IPaC list; SHPO review days",
+      "attempted": "No county-specific clearing window found; NLEB statewide listing noted with project-level IPaC screening. SHPO typical timeline not published."
+    },
+    {
+      "field": "logistics — CSX and M&B crossing permit process details",
+      "attempted": "Line and junction facts sourced; the railroads' current crossing-application processes and typical timelines were not, and should be added from the operators' public utility permit pages."
+    },
+    {
+      "field": "marketActivity — River Region BEAD subgrantees; Hyundai announcement primary source",
+      "attempted": "Statewide BEAD round sourced; county-level subgrantee lists pending. The $290M Hyundai figure is from trade press — replace with the Hyundai newsroom release when fetchable. Recheck quarterly."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}
