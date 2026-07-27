@@ -1,0 +1,529 @@
+{
+  "identity": {
+    "slug": "chicago",
+    "city": "Chicago",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "counties": ["Cook"],
+    "msa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "tier": 1,
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "elevationFt": null,
+    "population": {
+      "value": 2746388,
+      "source": "U.S. Census Bureau, 2020 Census count (confirm against Census QuickFacts for the current estimate)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": ["I-90", "I-94", "I-55", "I-57", "I-290", "I-294"],
+    "majorRoutes": ["US-41 (Lake Shore Drive)", "IL-50 (Cicero Ave)", "US-14"]
+  },
+  "metadata": {
+    "title": "Chicago Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil work in Chicago — foundations in the lake plain's blue clay, OUC and CDOT public way permitting, and pads for a top-tier interconnection market.",
+    "h1": "Telecom Site Civil Construction in Chicago, Illinois",
+    "intro": "Chicago concentrates more of the internet's physical plant than almost any city on earth — the 350 E. Cermak carrier hotel stacks Equinix's CH1, CH2, and CH4 above one another in a single building, and the Elk Grove Village cluster by O'Hare keeps adding halls — yet building the civil side of it here is unlike anywhere else we work. The city enforces its own construction codes rather than a state or model edition, every underground touch clears the Office of Underground Coordination before CDOT will issue a public way permit, locates run through Chicago's own 811 rather than JULIE, and the ground itself is the famous soft blue clay of the glacial lake plain. CellSite Solutions brings shelter foundations, duct bank, grounding, and compound construction into this market from our Cedar Rapids yard, 247 road miles west on I-80 and I-88.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (the reference standard of the 2018 IBC, on which Title 14B of the 2019 Chicago Construction Codes is based)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Northeastern Illinois carries low mapped seismic hazard, but the lake plain's soft clays make site class the variable that matters — publish Ss/S1 and class only from a site-specific USGS design-maps query and geotechnical report."
+    },
+    "frostDepthIn": {
+      "value": 42,
+      "source": "2019 Chicago Building Code §1809.5 — foundations protected from frost by extending at least 42 inches below final grade. Citation assembled from code-viewer excerpts; reviewer must confirm against the published code text before sign-off.",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Chicago occupies the bed of glacial Lake Chicago: a lake plain where urban fill and thin littoral sands (Henry Formation) overlie soft to medium lacustrine clays and the clay-rich Wadsworth Formation till — the 'Chicago blue clay' of a century of foundation literature — with the overconsolidated Lemont Formation 'hardpan' beneath it and Silurian dolomite bedrock deeper still. The blue-clay-over-hardpan sequence is why the city invented the belled caisson. (AEG 2026 Chicago geology guide; Chicago caisson engineering literature.)",
+    "dominantSoilTypes": [
+      "Urban fill of variable thickness and quality",
+      "Soft to medium lacustrine clay ('Chicago blue clay', Wadsworth/Equality Formations)",
+      "Littoral and beach sands near the lakefront (Henry Formation)"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": {
+      "present": false,
+      "note": "Bedrock lies well below the lake plain sediments across most of the city; no karst hazard mapping for Cook County surfaced during research. Verify subsurface conditions with site borings rather than regional assumption."
+    },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The design conversation in Chicago starts with what a century of tall-building practice already proved: the upper lake-plain clays are compressible, and heavy loads historically bypassed them entirely on caissons belled into the Lemont hardpan. Telecom loads are far lighter, so a shelter or cabinet pad on a stiff clay crust is often fine — but the deciding facts are settlement behavior under generator and equipment loads, the 42-inch frost embedment the city's own code requires, and the urban fill above the clay, which can hide rubble, old foundations, and debris that turn a simple spread footing into an exploratory dig. Where fill is deep or the clay is soft, helical piles or micropiles price more predictably than mass over-excavation, and near the lakefront the Henry Formation sands add dewatering to shallow excavations. Every one of these calls is made from borings; the geology above frames the questions, not the answers."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Chicago Department of Buildings",
+        "url": "https://www.chicago.gov/city/en/depts/bldgs.html",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permits under the Chicago Construction Codes; the city licenses general contractors itself (Municipal Code Title 4-36). Standing review times are not published — confirm the current queue per permit type."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "Chicago Construction Codes — 2019 modernization; Chicago Building Code Title 14B, based on the 2018 IBC, mandatory for permit applications since August 1, 2020",
+      "source": "City of Chicago — Chicago Construction Codes page, https://www.chicago.gov/city/en/depts/bldgs/provdrs/bldg_code/svcs/chicago_buildingcodeonline.html",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "The Illinois Small Wireless Facilities Deployment Act (50 ILCS 840) exempts municipalities over one million people, so it does not govern Chicago — small cell and pole attachment work in the city runs through Chicago's own permitting framework (CDOT public way processes and city license/franchise terms) rather than the state-standardized rules that apply in the suburbs.",
+    "rowPermitAuthority": {
+      "name": "Chicago Department of Transportation (CDOT) — Public Way permits, with prior Office of Underground Coordination review",
+      "url": "https://www.chicago.gov/city/en/depts/cdot/provdrs/construction_information/svcs/office_of_undergroundcoordination.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "An opening/use-of-public-way permit is not issued until OUC review is complete; OUC comprises 27 reviewing members across city agencies and utilities."
+    },
+    "stateDotDistrict": {
+      "name": "IDOT District 1 (Region One), Schaumburg — Cook, DuPage, Kane, Lake, McHenry, and Will counties",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions/idot-region-1.html",
+      "phone": "847-705-4000",
+      "typicalReviewDays": null,
+      "note": "Utility permits on state routes per 92 Ill. Adm. Code 530; District 1 publishes its own utility permit guide."
+    },
+    "oneCallCenter": {
+      "name": "811 Chicago (Digger) — the city's own utility alert network; JULIE covers Illinois outside the city limits",
+      "url": "https://www.chicago.gov/city/en/depts/cdot/supp_info/811-chicago--digger--and-dig-site-notification-procedures.html",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Non-emergency excavation requires at least 48 hours' notice, excluding weekends and holidays. Routes crossing the city limit also need a JULIE ticket for the suburban side.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Illinois EPA — NPDES general permit ILR10, with MWRD Watershed Management Ordinance review in Cook County",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ILR10 coverage generally becomes effective 30 days after IEPA receives the NOI unless the agency objects; MWRD's WMO adds stormwater management requirements starting at 0.5-acre developments."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Underground work in Chicago is a two-stage clock. Stage one is the Office of Underground Coordination: project plans circulate to 27 reviewing members (city agencies plus utilities) for existing-facility protection and information retrieval, and nothing else moves until that authorization exists. Stage two is the actual CDOT public way permit, plus Department of Buildings permits for structures and city general contractor licensing as a prerequisite to all of it. Layer in an 811 Chicago locate ticket at 48 hours, IEPA's ILR10 process with its roughly 30-day NOI clock at an acre of disturbance, and MWRD's half-acre WMO review, and a downtown duct bank can carry more concurrent review tracks than a rural route ten times its length. We sequence the OUC submittal first and build the rest behind it."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Commonwealth Edison (ComEd)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "ComEd serves essentially all of northern Illinois; new commercial service runs through its new-business construction process, and lead times for primary service to large loads are set by ComEd engineering — schedule from the utility's written commitment, not published averages."
+      }
+    ],
+    "ilec": "AT&T Illinois (legacy Illinois Bell) — confirm exchange boundaries before publishing for a specific site",
+    "notableFiberProviders": [
+      "AT&T Illinois",
+      "Zayo",
+      "Lumen",
+      "Comcast Business",
+      "Crown Castle Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "350 E. Cermak carrier hotel — Equinix CH1/CH2/CH4 with Digital Realty (South Loop)",
+      "Elk Grove Village cluster near O'Hare — roughly 20 operating data centers, more under construction",
+      "CloudHQ Mount Prospect — $2.5B campus under construction"
+    ],
+    "longHaulRouteNotes": "Long-haul fiber converges on Chicago the way freight rail does — along the same corridors. Routes following the six Class I railroads and the interstate spokes terminate into the Cermak/Loop interconnection core and the O'Hare-area cluster.",
+    "ixPresence": "One of the largest interconnection concentrations in North America: 350 E. Cermak operates as a single cross-connect ecosystem across Equinix's stacked CH1/CH2/CH4 floors, with the financial-markets ecosystem and the Elk Grove cluster feeding it."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Illinois posts no statewide spring frost-law restrictions, and Chicago's arterial network is not seasonally embargoed. Local agencies elsewhere in the metro can post their own roads, so out-of-city last miles still get checked with the local road authority."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "IDOT (state routes, automated permitting) — City of Chicago and Illinois Tollway issue their own overweight authorizations on their systems",
+      "url": "https://idot.illinois.gov/doing-business/permits/oversize-and-overweight-permits.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "A Chicago shelter haul commonly touches three permit desks: IDOT for state routes, the Tollway for its network, and the city for municipal streets."
+    },
+    "bridgeOrClearanceConstraints": "Century-old rail viaducts across the South and West Sides carry posted clearances well below interstate standard, and lower-level streets downtown have their own limits — a physical route survey is mandatory before any shelter or generator move into the city.",
+    "railroads": [
+      { "name": "Union Pacific", "crossingPermitNote": null },
+      { "name": "BNSF Railway", "crossingPermitNote": null },
+      { "name": "Canadian National", "crossingPermitNote": null },
+      { "name": "CPKC", "crossingPermitNote": null },
+      { "name": "Norfolk Southern", "crossingPermitNote": null },
+      { "name": "CSX", "crossingPermitNote": null },
+      {
+        "name": "Metra (plus belt carriers BRC and IHB)",
+        "crossingPermitNote": "Chicago handles roughly a quarter of U.S. rail freight; with six Class I carriers, two belt railways, and Metra sharing the terminal district, most fiber routes of any length cross someone's right-of-way. Each railroad runs its own occupancy/crossing process — file early, and treat approvals as the schedule's long pole."
+      }
+    ],
+    "urbanRowRequirements": "All new underground construction and installation in the public way clears the Office of Underground Coordination before the CDOT permit issues — the OUC's existing-facility-protection process circulates plans to its 27 member utilities and agencies. Work then proceeds under CDOT's rules and regulations for construction in the public way, with 811 Chicago dig-site notification at least 48 hours ahead."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Plan woody clearing for October 1 – March 31, the inactive bat season used in Illinois practice",
+      "driver": "Northern long-eared bat (federally endangered) and Indiana bat",
+      "source": "IDOT Circular Letter 2022-28 (NLEB); USFWS range-wide bat survey guidance"
+    },
+    "shpo": {
+      "name": "Illinois State Historic Preservation Office (IDNR)",
+      "url": "https://dnrhistoric.illinois.gov/preserve/resource-protection.html",
+      "phone": "217-782-4836",
+      "typicalReviewDays": 30,
+      "note": "Electronic submission through the SHPO Correspondence Tracking System; allow up to 30 days per review."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Chicago District regulatory program; IEPA issues Section 401 certifications",
+      "url": "https://www.lrc.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Chicago District (LRC)",
+    "listedSpeciesNote": "The northern long-eared bat (endangered) and Indiana bat drive clearing windows; the rusty patched bumble bee is also flagged in the Chicago region. County lists are a starting point only — run a project-specific USFWS IPaC query for every site.",
+    "floodplainPrevalenceNote": "Mapped floodplain in the city concentrates along the Chicago and Des Plaines river corridors rather than the lakefront grid, and Cook County's flood risk story is mostly urban drainage: MWRD's Tunnel and Reservoir Plan (Deep Tunnel) exists because the combined sewer system overloads in large storms. Screen riverside sites against FEMA mapping and expect MWRD volume-control requirements on new impervious area."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Frozen ground, hard freezes reinforced by lake-effect cold snaps", "earthworkConcrete": "restricted", "note": "Full winter concrete protection; frost works toward the 42-inch code depth" },
+      { "month": "Feb", "groundConditions": "Frost at maximum depth; snow cover variable", "earthworkConcrete": "restricted", "note": "Frozen-ground excavation premiums at their peak" },
+      { "month": "Mar", "groundConditions": "Freeze-thaw cycling; lake-plain clays hold meltwater and stay greasy", "earthworkConcrete": "constrained", "note": "Bat-season clearing window closes March 31" },
+      { "month": "Apr", "groundConditions": "Thawed but wet; clay subgrades slow to firm", "earthworkConcrete": "workable", "note": "The lake keeps spring cool — subgrade drying lags inland markets" },
+      { "month": "May", "groundConditions": "Firming steadily; spring rains active", "earthworkConcrete": "favorable", "note": "SWPPP maintenance earns its keep on clay sites" },
+      { "month": "Jun", "groundConditions": "Warm and workable; thunderstorm season under way", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Peak production conditions between storm systems", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Aug", "groundConditions": "Warm, generally dry; storms still episodic", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Sep", "groundConditions": "Dry, firm — among the best working months of the year", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Cooling; lake moderation delays the first hard freeze", "earthworkConcrete": "favorable", "note": "Clearing window opens October 1" },
+      { "month": "Nov", "groundConditions": "Cold rain turning to snow; ground starts taking frost late", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice begins" },
+      { "month": "Dec", "groundConditions": "Ground freezing; lake-effect snow events begin", "earthworkConcrete": "restricted", "note": null }
+    ],
+    "narrative": "Lake Michigan writes the margins of Chicago's construction calendar: it delays the first fall freeze, which stretches usable pour weather deeper into autumn than inland Illinois, and it drags spring, keeping April cool and clay subgrades wet after the frost is technically out. The dependable production core runs May through October. Winter work is normal here — it simply prices in frozen-ground excavation and concrete protection against the city's 42-inch frost requirement — and the operative winter constraint downtown is often logistics rather than temperature, since snow routes and curfews shape hauling before cold shuts down a crew. Confirm figures against the NOAA normals for the O'Hare station before publication; this calendar is directional."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Bedrock sits far below telecom excavation depths across most of the lake plain; the excavation surprises here are man-made — rubble fill, abandoned foundations, and undocumented utilities — not rock.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "A dense metro ready-mix market keeps supply itself short-haul; what costs money is the delivery window, since downtown pours schedule around traffic, curfews, and site access rather than plant distance.",
+    "spoilDisposalNote": "Illinois' clean construction and demolition debris (CCDD) rules mean excavated urban soil must be characterized before a clean-fill site will take it; Chicago spoil with historic fill often fails that screen and prices as a regulated disposal haul instead.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "The Illinois Prevailing Wage Act (820 ILCS 130) applies to public works funded by any Illinois public body — no federal dollars required — with monthly certified payroll filed to IDOL. Davis-Bacon layers on top for federally funded work.",
+    "unionJurisdictionNote": "Chicago-area heavy and civil construction operates in one of the country's most established union markets; bid planning on public and most large private scopes assumes signatory labor conditions and craft jurisdiction (operating engineers, laborers, electricians). Primary-source documentation of specific agreements is an open research item — see gaps.",
+    "seasonalPremiumNote": "December through March carries frozen-ground excavation and concrete protection cost against the 42-inch frost depth; the offsetting quirk is autumn, which the lake stretches pleasantly long.",
+    "narrative": "In Chicago the number moves on process and place more than on dirt. The OUC-then-CDOT permit sequence sets the schedule, and schedule is cost in a market where crews, traffic control, and staging are all metered; laydown space near a Loop or South Side site can be the single hardest line to price. Labor is union and, on public work, prevailing-wage by statute. Below grade, the risk is not rock — bedrock is far down — but fill: what a century of city-building left behind, and what the CCDD screen says you can do with it once it is on a truck. Winter adds the standard frost premiums against a 42-inch code depth. Drivers only, never unit prices; each site prices to its borings, its block, and its permit path."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Illinois has no statewide general contractor license, but Chicago does: a City of Chicago general contractor license under Municipal Code Title 4-36 is required for most construction work in the city, alongside the state's only trade-level licenses (IDFPR roofing, IDPH plumbing). Public works add Prevailing Wage Act compliance with certified payroll through the IDOL portal.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["extreme cold", "ice storm", "tornado", "flood"],
+    "designImplications": "Deep-frost cold and ice argue for conservative embedment (the code's 42-inch floor), robust anchorage, and generator fuel systems detailed for extended cold snaps. Urban flooding is the region's signature loss driver — grade pads high, detail compound drainage seriously, and expect MWRD volume-control review on new impervious area. Severe convective wind and tornado exposure is real across northern Illinois; publish site wind values only from a verified ASCE 7 query.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "CloudHQ building $2.5B data center campus in Mount Prospect",
+        "detail": "CloudHQ broke ground on a roughly 1.5 million sq ft suburban Chicago campus, its entry into the metro market — one of several hyperscale programs pushing beyond Elk Grove Village.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterfrontier.com/featured/article/11427128/cloudhq-breaks-ground-on-25-billion-chicago-data-center-campus",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "ComEd 260 MW substation under construction for Stream campus in Elk Grove",
+        "detail": "ComEd broke ground on a substation dedicated to a single Stream Data Centers facility, targeted for service in 2027 — a marker of how power delivery now paces the O'Hare-corridor buildout.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/comed-breaks-ground-on-260mw-substation-set-to-serve-stream-data-center-in-elk-grove-illinois/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Elk Grove Village cluster keeps expanding",
+        "detail": "Roughly 20 data centers operate in Elk Grove Village with about five more under construction — the densest concentration in the Midwest, immediately west of O'Hare.",
+        "category": "data center",
+        "sourceUrl": "https://www.nbcchicago.com/news/local/data-center-capital-of-the-midwest-expands-as-pritzker-calls-for-regulations/3952720/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Illinois BEAD: $1.04B final proposal awaiting NTIA approval",
+        "detail": "Illinois submitted its BEAD final proposal September 30, 2025 (revised April 2026) to reach roughly 157,000 locations, about 76% by fiber; federal approval was still pending at last review.",
+        "category": "broadband program",
+        "sourceUrl": "https://dceo.illinois.gov/broadband/bead.html",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "metro route construction",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["fiber hut pad", "regen and amplifier site civil"],
+      "narrative": "Metro fiber civil in Chicago is a permitting discipline first and an excavation job second. Every duct bank and lateral clears the Office of Underground Coordination's 27-member review before CDOT issues the public way permit, locates go through the city's own 811 Chicago network rather than JULIE, and routes of any length end up negotiating rail rights-of-way — six Class I carriers plus Metra and the belt lines share the terminal district. The payoff is that this is where the fiber goes: laterals into 350 E. Cermak's cross-connect ecosystem and backbone segments feeding the O'Hare-side data center corridor are perpetual scopes. Below grade, bores run in lake-plain clay rather than rock, and the working risks are urban fill, congested utility windows, and CCDD spoil characterization rather than refusal depth.",
+      "localSpecificsReferenced": [
+        "Office of Underground Coordination (27 reviewing members)",
+        "811 Chicago (Digger) vs. JULIE jurisdiction",
+        "350 E. Cermak carrier hotel",
+        "Chicago terminal district railroads"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "small cell and DAS node civil",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": ["ice bridge and cable tray", "C-band / densification upgrade civil"],
+      "narrative": "Wireless civil in Chicago runs under a rulebook no other Illinois market uses: the state's Small Wireless Facilities Deployment Act exempts cities over one million people, so small cell work here follows Chicago's own CDOT and licensing processes instead of the standardized suburban rules, and structures permit under the city's own construction codes — Title 14B, based on the 2018 IBC, with frost protection at 42 inches below grade. Ground-level compound work carries the lake plain's constraints: pads bearing on soft clay get settlement checks before anyone talks concrete, rooftop and viaduct-adjacent sites need genuine route surveys for crane and delivery access, and generator pads detail for extended cold. It is dense, sequenced, inspection-heavy work — the kind that rewards crews who plan the permit path as carefully as the pour.",
+      "localSpecificsReferenced": [
+        "50 ILCS 840 exemption for cities over 1,000,000",
+        "2019 Chicago Building Code §1809.5 (42-inch frost)",
+        "Chicago blue clay settlement behavior",
+        "South/West Side rail viaduct clearances"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "hyperscale campus civil support"
+      ],
+      "secondaryScopeIds": ["security compound and bollards", "heavy haul access and crane pads"],
+      "narrative": "Chicago's edge and data center geography has two poles. Downtown, 350 E. Cermak operates as one enormous interconnection machine — Equinix's CH1, CH2, and CH4 are stacked floors of the same building — and the civil work nearby is laterals, conduit, and utility upgrades threaded through OUC review in some of the busiest subsurface in the country, above a landscape that includes MWRD's Deep Tunnel far below street level. Northwest, the Elk Grove Village cluster (roughly 20 operating halls, more coming) and CloudHQ's $2.5 billion Mount Prospect campus generate transformer pads, generator yards, campus duct bank, and the edge enclosure pads that follow capacity outward — with ComEd's 260 MW Stream substation showing that power infrastructure, not land, now paces the corridor. Both poles are ComEd territory, and both reward early utility engagement.",
+      "localSpecificsReferenced": [
+        "Equinix CH1/CH2/CH4 at 350 E. Cermak",
+        "Elk Grove Village cluster",
+        "CloudHQ Mount Prospect $2.5B campus",
+        "MWRD Tunnel and Reservoir Plan (Deep Tunnel)",
+        "ComEd 260 MW Elk Grove substation"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 247,
+      "driveTimeHours": 4.0,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Cook", "DuPage"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The run to Chicago is a fork with a decision point at the Mississippi: crews leave the yard on I-380, pick up I-80 east at Iowa City, cross at the Quad Cities, then split by destination — I-88 through DeKalb and Aurora for the western metro, Elk Grove, and the O'Hare corridor, or I-80 to the Stevenson (I-55) northbound for the South Side and the Cermak interconnection district. At 247 verified road miles and about four hours of clean driving, this is an overnight market, not a commute: a mobilization covers a multi-day scope or a cluster of sites, and the planning effort goes into the last five miles — tolls, curfews, viaduct clearances, and where a truck and trailer can legally stand while a crew works. Winter on the corridor itself is rarely the issue; winter in the city is a logistics exercise we plan deliberately.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do telecom foundations need to go in Chicago?",
+      "answer": "Chicago's own building code — not a state or model code — governs, and it requires foundations to be protected from frost by extending at least 42 inches below final grade (2019 Chicago Building Code §1809.5). We carry that embedment on every pad and pier in the city and add cold-weather concrete protection for winter pours. Borings still control the final design, especially where soft clay or deep fill is present.",
+      "segment": "general"
+    },
+    {
+      "question": "What is the Office of Underground Coordination and when does it apply?",
+      "answer": "The OUC is CDOT's clearinghouse for anything touching Chicago's subsurface: proposed underground construction circulates to its 27 reviewing members — city agencies and private utilities — for existing-facility protection before a public way opening permit can be issued. If your duct bank, bore, or vault is in the public way, you are in the OUC process, and we sequence that submittal first because nothing else on the schedule moves until it clears.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do I call JULIE before digging in Chicago?",
+      "answer": "No — inside the city limits, locates run through Chicago's own network, 811 Chicago (also called Digger), with at least 48 hours' notice excluding weekends and holidays. JULIE serves the rest of Illinois. A route that crosses the corporate limit needs tickets in both systems, which is an easy thing to miss on suburban-boundary work and an expensive one to get wrong.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does Illinois' small cell law apply to work in Chicago?",
+      "answer": "It does not. The Small Wireless Facilities Deployment Act (50 ILCS 840) expressly exempts municipalities with more than one million residents, and Chicago is the only one in Illinois. Small cell and pole-mounted node civil work in the city follows Chicago's own CDOT public way and licensing processes, while the same scope one suburb over runs under the state act's standardized terms. We scope the two regimes separately.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What soil should I expect when boring or excavating in Chicago?",
+      "answer": "Lake-plain sequence: urban fill of unpredictable quality at the top, then soft to medium lacustrine clay — the famous Chicago blue clay — with stiff 'hardpan' till and, much deeper, dolomite bedrock. For telecom depths that means clay boring rather than rock work, settlement checks for pads on soft ground, and real attention to what the fill layer hides. The city's tall buildings sit on caissons belled into hardpan for exactly this reason.",
+      "segment": "general"
+    },
+    {
+      "question": "What stormwater approvals does a Chicago-area site need?",
+      "answer": "Two tracks. Disturb an acre (or less within a larger common plan) and IEPA's general permit ILR10 applies — SWPPP first, then the NOI, with coverage generally effective 30 days after IEPA receives it. Separately, MWRD's Watershed Management Ordinance imposes stormwater requirements on Cook County developments starting at half an acre, including volume control on new impervious area. Compound and campus scopes routinely trip both.",
+      "segment": "edge"
+    },
+    {
+      "question": "Will a fiber route in Chicago have to cross railroad property?",
+      "answer": "Almost certainly, if it runs any distance. Chicago handles roughly a quarter of U.S. rail freight, and six Class I railroads — UP, BNSF, CN, CPKC, NS, and CSX — plus Metra and the belt carriers share the terminal district. Each railroad has its own occupancy and crossing process with its own insurance requirements, and none of them are fast. We identify every crossing at route design and file applications before the rest of the schedule is built.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is Chicago telecom civil work union and prevailing-wage?",
+      "answer": "Plan on both. The Chicago area is one of the most established union construction markets in the country, so bids assume signatory labor conditions on public and most large private scopes. Separately, the Illinois Prevailing Wage Act applies to any public-works project funded by a state or local public body — independent of federal Davis-Bacon — with monthly certified payroll filed through the Illinois Department of Labor's portal.",
+      "segment": "general"
+    },
+    {
+      "question": "Can you set a shelter or pour a pad in Chicago in winter?",
+      "answer": "Yes — winter construction is routine here, priced honestly: frozen-ground excavation toward the 42-inch frost depth, heated protection or blankets for concrete, and admixtures where appropriate. The constraint that surprises people downtown is not temperature but logistics — snow routes, curfews, and staging windows shape winter delivery more than cold does. Lake Michigan gives some of it back by stretching workable weather deep into autumn.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What is driving edge and data center civil demand around Chicago?",
+      "answer": "Interconnection gravity and its overflow. 350 E. Cermak remains one of the world's key carrier hotels, Elk Grove Village hosts the Midwest's densest data center cluster with roughly 20 operating facilities, CloudHQ is building $2.5 billion at Mount Prospect, and ComEd is constructing a 260 MW substation for a single Stream campus. Each hall pulls transformer pads, generator yards, duct bank, and edge enclosure work behind it — the civil scopes we self-perform.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Pad on clay, piles through fill: pricing Chicago ground honestly",
+    "body": "Two subsurface questions decide most Chicago telecom foundations, and neither is about rock. First: what is the fill? A century of city-building left rubble, cinders, old foundations, and undocumented structures above the native clay, and a spread footing priced for clean excavation can lose its margin in the first bucket. Where borings show deep or dirty fill, helical piles or micropiles that pass through it price more predictably than chasing suitable bearing with over-excavation — and they keep spoil volumes down, which matters because Illinois' CCDD rules mean urban spoil that fails clean-fill screening leaves the site as regulated disposal. Second: how soft is the clay? Chicago blue clay carries light shelter loads on its stiff crust more often than its reputation suggests, but generator blocks and heavy cabinets deserve a settlement check, not an assumption — this is the town whose skyscrapers went to belled caissons on hardpan to escape that exact behavior. The 42-inch frost floor applies regardless of system. Order borings before pricing concrete: in this market the geotechnical report and the OUC file, together, are the estimate."
+  },
+  "sources": [
+    {
+      "label": "City of Chicago — Chicago Construction Codes (2019 modernization; Title 14B based on 2018 IBC)",
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/provdrs/bldg_code/svcs/chicago_buildingcodeonline.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "2019 Chicago Building Code, Chapter 18 Soils and Foundations (§1809.5 frost protection, 42 in.)",
+      "url": "https://up.codes/viewer/chicago/chi-building-code-2019/chapter/18/soils-and-foundations",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Chicago — Office of Underground Coordination (27 reviewing members; permit prerequisite)",
+      "url": "https://www.chicago.gov/city/en/depts/cdot/provdrs/construction_information/svcs/office_of_undergroundcoordination.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Chicago — 811 Chicago (Digger) dig-site notification procedures (48-hour notice)",
+      "url": "https://www.chicago.gov/city/en/depts/cdot/supp_info/811-chicago--digger--and-dig-site-notification-procedures.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Chicago — general contractor license (Municipal Code Title 4-36)",
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/GC.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "AEG 2026 Annual Meeting — Chicago geology (lake plain stratigraphy, blue clay, hardpan)",
+      "url": "https://www.aegannualmeeting.org/chicago-geology-map",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Contech — Foundations and the Chicago Caisson Method (belled caissons to hardpan)",
+      "url": "https://www.conteches.com/knowledge-center/learn/the-pipe-blog/foundations-and-the-development-of-the-chicago-caisson-method/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MWRD — Watershed Management Ordinance FAQs (0.5-acre applicability; TARP)",
+      "url": "https://mwrd.org/doing-business/watershed-management-ordinance-and-infiltrationinflow/watershed-management-ordinance-wmo-and-technical-guidance-manual-tgm/watershed-management-ordinance-wmo-frequently-asked-questions-faqs",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Illinois EPA — NPDES construction stormwater general permit ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "IDOT Region 1 / District 1 (Cook, DuPage, Kane, Lake, McHenry, Will)",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions/idot-region-1.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "50 ILCS 840 — Small Wireless Facilities Deployment Act (exemption above 1,000,000 population)",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3920&ChapterID=11",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "AAR — CREATE Program (Chicago rail hub; six Class I railroads; ~25% of U.S. rail freight)",
+      "url": "https://www.aar.org/issue/chicago-region-environmental-transportation-efficiency-create-program/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "datacenterHawk — Equinix CH1/CH2/CH4 at 350 East Cermak",
+      "url": "https://datacenterhawk.com/marketplace/providers/equinix/350-east-cermak-road-floors-5-6-8/ch1-ch2-ch4",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NBC Chicago — Elk Grove Village data center cluster (~20 operating, 5 under construction)",
+      "url": "https://www.nbcchicago.com/news/local/data-center-capital-of-the-midwest-expands-as-pritzker-calls-for-regulations/3952720/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Illinois Department of Labor — Prevailing Wage Act (820 ILCS 130; certified payroll portal)",
+      "url": "https://labor.illinois.gov/laws-rules/conmed/prevailing-wage-act.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath — driving distance Cedar Rapids, IA to Chicago, IL (247 mi, ~4 hours)",
+      "url": "https://www.travelmath.com/drive-distance/from/Cedar+Rapids,+IA/to/Chicago,+IL",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic / designRadialIceIn / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables all unreachable through the sandbox egress proxy (403s); no primary values surfaced in search. One session from an unproxied machine resolves the set."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — code text verification",
+      "attempted": "42 in. per CBC 2019 §1809.5 was assembled from code-viewer search excerpts (up.codes returned 403 on direct fetch). Reviewer must read the section text in the published code before sign-off."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, corrosivity, expansive risk)",
+      "attempted": "ISGS publications and NRCS Web Soil Survey not directly readable through the proxy; only the qualitative lake-plain stratigraphy is sourced."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Could not confirm which city department formally administers floodplain development permits for Chicago; left null rather than guessed."
+    },
+    {
+      "field": "costDrivers.unionJurisdictionNote — primary sources",
+      "attempted": "Union-market characterization is industry-general; specific craft agreements and jurisdictions need confirmation from CSS ops/estimating and the locals' published documents before publish."
+    },
+    {
+      "field": "utilities — ComEd new-service URL and lead times; ILEC boundary confirmation",
+      "attempted": "ComEd's new-business construction pages were not fetchable; AT&T Illinois ILEC attribution is legacy-territory based, not boundary-checked."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "O'Hare station normals (NCEI) not readable through the proxy; calendar authored qualitatively and needs the station-table check."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 gate requires at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

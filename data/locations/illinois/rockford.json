@@ -1,0 +1,515 @@
+{
+  "identity": {
+    "slug": "rockford",
+    "city": "Rockford",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "counties": ["Winnebago"],
+    "msa": "Rockford, IL (Winnebago and Boone counties)",
+    "tier": 2,
+    "latitude": 42.2711,
+    "longitude": -89.094,
+    "elevationFt": 738,
+    "population": {
+      "value": 147486,
+      "source": "U.S. Census Bureau vintage-2024 city estimate, via World Population Review — confirm against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": ["I-90", "I-39"],
+    "majorRoutes": ["US-20", "US-51", "IL-2", "IL-251"]
+  },
+  "metadata": {
+    "title": "Rockford, IL Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for fiber huts, cell sites, and edge pads in Rockford, IL — the closest Illinois market to CellSite Solutions' Cedar Rapids crews.",
+    "h1": "Telecom Site Civil Construction in Rockford, Illinois",
+    "intro": "Rockford is the Illinois market our Cedar Rapids crews reach first — 163 road miles east on US-20, closer than any other market we serve in the state. It is also a market with real telecom civil work behind it: Chicago Rockford International Airport has grown into a top-15 U.S. cargo hub on the strength of Amazon Air and e-commerce freight, i3 Broadband is overbuilding the metro with fiber, and the I-39/I-90 junction anchors northern Illinois logistics. We build the ground layer under that activity — hut and shelter foundations below the city's 42-inch frost depth, duct bank and bores through Rock River sand and gravel, and compound civil work sited to Winnebago County's spring load postings.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Northern Illinois sits in a low national seismic hazard tier; publish Ss/S1 only after a USGS design-maps query at the site coordinates, and treat site class as site-specific."
+    },
+    "frostDepthIn": {
+      "value": 42,
+      "source": "City of Rockford Construction & Development Services FAQ and the city's 2021 IBC local amendments: minimum depth of frost footings 42 inches below grade — verify the adopted amendment text directly before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Rockford straddles the Rock River, whose valley is filled with thick glacial outwash sand and gravel — productive enough to be the region's principal aquifer — over Ordovician dolomite and, unusually for Illinois, Cambrian-Ordovician sandstone that lies close to the bedrock surface across Winnebago County. Glacial drift on the uplands is comparatively thin, and ISGS field guides note the upper dolomite is ice-shove deformed in places. (ISWS Report of Investigation 2; ISGS Rock Cut State Park / Rockford area geology guide.)",
+    "dominantSoilTypes": [
+      "Outwash sand and gravel (Rock River valley)",
+      "Thin loess over glacial till (uplands)",
+      "Rock River alluvium (floodplain sites)"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": {
+      "present": false,
+      "note": "Carbonate bedrock underlies the area, but no karst-specific hazard mapping for Winnebago County was reviewed — screen sites against ISGS mapping rather than assuming either way."
+    },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The two facts that frame most Rockford foundations are a 42-inch frost depth in the city's amended code and granular ground. Valley sites dig easily — the trade-off is trench stability and water, because clean outwash sand runs and the water table tracks the Rock River, so duct bank and pier excavations below grade often need boxes, tight sheeting, or dewatering rather than open cuts. On upland sites with thinner drift, conventional spread footings below frost depth are the default, with bedrock close enough in parts of the county that deeper drilled elements should be priced against a rock contingency. Sand this clean also drains well, which helps compound grading and keeps frost heave risk manageable when footings reach design depth. Every one of these calls is made from borings — site-specific geotechnical investigation governs, not county-scale geology."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Rockford Construction & Development Services",
+        "url": "https://rockfordil.gov/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Administers building permits and inspections under the city's amended 2021 I-codes (Code of Ordinances Ch. 105). Published plan-review turnaround times were not found — confirm the current queue by phone when scoping a schedule."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 International Building Code with City of Rockford local amendments (Code of Ordinances Ch. 105)",
+      "source": "City of Rockford 2021 IBC amendments document, rockfordil.gov Document Center — confirm the final adopting ordinance text before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facility collocations in Illinois municipalities run under the state Small Wireless Facilities Deployment Act (50 ILCS 840), whose sunset was extended to January 1, 2030 by P.A. 103-0601. Confirm Rockford's local application process and any design district requirements with the city.",
+    "rowPermitAuthority": {
+      "name": "City of Rockford Public Works Department — Engineering Division",
+      "url": "https://rockfordil.gov/DocumentCenter/View/1055/Right-of-Way-Permit-Application-PDF",
+      "phone": "779-348-7174",
+      "typicalReviewDays": null,
+      "note": "ROW permit covers tunneling, boring, excavating, and lane closures. Base fee $50 (waived for public utilities); underground boring adds length-based fees (no charge to 100 ft, $30 for 101-499 ft, $60 at 500+ ft). Work is governed by Ch. 26 of the city code."
+    },
+    "stateDotDistrict": {
+      "name": "IDOT District 2 (Region 2), headquartered in Dixon",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions/idot-region-2.html",
+      "phone": "815-284-2271",
+      "typicalReviewDays": null,
+      "note": "District 2 covers Winnebago, Boone, Ogle, Stephenson, and the rest of the northwest Illinois counties; state-route work in the metro is permitted through this office at 819 Depot Ave, Dixon."
+    },
+    "oneCallCenter": {
+      "name": "JULIE (Illinois One-Call System), 811",
+      "url": "https://www.illinois1call.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Illinois' Underground Utility Facilities Damage Prevention Act (220 ILCS 50) requires notice for all excavation regardless of depth; work must start within 14 calendar days of the locate request.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Illinois EPA — Construction Site Activities General NPDES Permit No. ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "SWPPP prepared before the electronic NOI (filed through EPA's CDX system); IEPA typically processes NOIs within 30 days. NOI fees: $700 under 5 disturbed acres, $1,000 at 5 acres or more."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plan a Rockford schedule around three permit tracks running in parallel. Building permits go through Construction & Development Services under the amended 2021 IBC; the city does not publish standing review times, so confirm the queue up front. Anything touching street or parkway needs the Public Works Engineering ROW permit, which is inexpensive but adds boring-footage fees and Ch. 26 restoration obligations. Disturb an acre and the IEPA ILR10 process — SWPPP, then an electronic NOI with roughly 30-day processing — must clear before ground breaks. On state routes such as US-20 or IL-251, IDOT District 2 in Dixon issues its own permits on a separate clock, so file that application first."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Commonwealth Edison (ComEd)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "ComEd serves the Rockford area from the northern-Illinois Exelon territory. New commercial service is applied for through ComEd's new-construction process; published lead times were not found, so schedule energization from utility confirmation."
+      }
+    ],
+    "ilec": "AT&T Illinois (legacy Illinois Bell territory; AT&T markets fiber in Rockford) — confirm exchange boundaries against FCC broadband data before publishing",
+    "notableFiberProviders": ["i3 Broadband (Greater Rockford buildout)", "AT&T Fiber", "Metronet"],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Late winter into spring; the county describes a typical 5-8 week posting period (2026 postings were lifted March 13)",
+      "postingAuthority": {
+        "name": "Winnebago County Highway Department (county highways); fourteen townships post their own roads",
+        "url": "https://wincoil.gov/departments/highway-department/road-postings",
+        "phone": "815-319-4004",
+        "typicalReviewDays": null,
+        "note": "The county posts seasonal weight limits on affected county highways and maintains an information line; most township roads carry their own postings and require direct contact."
+      },
+      "note": "A shelter or hut haul to a rural Winnebago County site during the thaw has to be routed against both the county posting list and the individual township postings — the townships, not the county map, are often the binding constraint."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "IDOT Motor Carrier / ITAP (Illinois Transportation Automated Permits)",
+      "url": "https://idot.illinois.gov/doing-business/permit-and-sales-marketplace/oversize-and-overweight-permits.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ITAP covers state routes only. The Jane Addams Tollway (I-90) through Rockford is Illinois Tollway jurisdiction and requires its own OS/OW permit, and county, township, and city segments each need separate authorization — a Rockford heavy haul can stack three or four permits."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Canadian National (former Illinois Central line through Rockford)",
+        "crossingPermitNote": "Fiber crossings of the CN line apply through CN's utility crossing process; timelines are not published and are commonly long — file at route design, not at construction release."
+      },
+      {
+        "name": "Union Pacific (Rockford/Belvidere area trackage; Global III intermodal at Rochelle on the I-39 corridor)",
+        "crossingPermitNote": "UP wireline crossings run through UP's real estate/utility licensing process with railroad protective liability insurance required for contractor entry."
+      }
+    ],
+    "urbanRowRequirements": "City ROW work requires the Public Works Engineering permit with indemnification of the city, boring-footage fees, and compliance with Ch. 26 of the city code for restoration; lane closures are handled through the same permit."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Plan clearing for the bats' inactive season (roughly October through March); confirm site-specific dates through IPaC",
+      "driver": "Federally listed bats — IDOT's statewide guidance responds to the northern long-eared bat's endangered listing, and Indiana bat restrictions apply near hibernacula",
+      "source": "IDOT Circular Letter 2022-28 (northern long-eared bat); USFWS listing guidance"
+    },
+    "shpo": {
+      "name": "Illinois State Historic Preservation Office (Illinois Department of Natural Resources)",
+      "url": "https://dnr.illinois.gov/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 submissions are filed through the SHPO's digital review system; the review clock runs 30 days from receipt of a complete submission."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory program",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Pecatonica and Rock River drainages in Winnebago County fall in the Rock Island District regulatory boundary; Illinois EPA issues Section 401 certifications."
+    },
+    "usaceDistrict": "Rock Island District (MVR)",
+    "listedSpeciesNote": "Northern long-eared bat (endangered) drives clearing windows statewide under IDOT's current guidance; run a project-specific USFWS IPaC query for the parcel rather than relying on a county list.",
+    "floodplainPrevalenceNote": "The Rock River and its urban tributaries carry mapped floodplain through the center of the metro; screen riverfront and creek-adjacent sites on the effective FIRM before siting, and identify the local floodplain administrator during due diligence — that contact was not confirmed in this research pass."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Frozen ground; sustained subfreezing stretches in the metro's snow-prone winter", "earthworkConcrete": "restricted", "note": "Frost works toward the 42-inch design depth; winter concrete protection is mandatory" },
+      { "month": "Feb", "groundConditions": "Deepest frost of the year; snow cover common", "earthworkConcrete": "restricted", "note": "Watch for early county/township posting announcements toward month end" },
+      { "month": "Mar", "groundConditions": "Thaw underway; granular valley soils drain but township roads soften", "earthworkConcrete": "constrained", "note": "Seasonal weight postings typically in force (lifted March 13 in 2026)" },
+      { "month": "Apr", "groundConditions": "Subgrades firming; sand and gravel sites recover fastest", "earthworkConcrete": "workable", "note": "Postings lift as roads cure; last frost still possible late month" },
+      { "month": "May", "groundConditions": "Workable; spring rain pattern begins", "earthworkConcrete": "favorable", "note": "SWPPP maintenance matters on open granular cuts" },
+      { "month": "Jun", "groundConditions": "Warm and workable; thunderstorm season", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Peak summer; generally dry between storm systems", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Aug", "groundConditions": "Workable; storm rainfall concentrated in convective events", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Sep", "groundConditions": "Drying, firm; strong production month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Cooling; first freeze typically arrives", "earthworkConcrete": "favorable", "note": "Bat-driven clearing work is typically scheduled from now through winter" },
+      { "month": "Nov", "groundConditions": "Ground takes frost late in the month", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice begins" },
+      { "month": "Dec", "groundConditions": "Freezing ground; snow establishing (Rockford averages roughly 35 in. of snow a year)", "earthworkConcrete": "restricted", "note": null }
+    ],
+    "narrative": "Rockford runs one of the shorter construction years in our Illinois footprint: it sits in the state's snowier northern tier (roughly 35 inches a year), frost governs December through March, and the spring posting season on county and township roads compresses rural deliveries into the window after mid-March. The compensating local advantage is ground that recovers quickly — Rock River valley sand and gravel drains and firms faster after thaw and after rain than the clay till plains further south, so the productive season, May through October, loses fewer days to mud. Verify month-level figures against NOAA normals for the Rockford station before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Bedrock — including near-surface sandstone and dolomite — sits comparatively shallow across parts of Winnebago County outside the deep valley fill, so deeper foundations and long duct-bank profiles should carry a rock contingency until borings say otherwise.",
+    "aggregateHaulNote": "The Rock River valley's own sand and gravel deposits are the regional aggregate source, which keeps granular backfill and base material haul distances short.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": "City ROW fees are modest ($50 base plus boring footage), but stacked jurisdictions — city, township, county, IDOT, Tollway — each add their own permits on a haul or route.",
+    "prevailingWageExposure": "The Illinois Prevailing Wage Act (820 ILCS 130) reaches beyond Davis-Bacon: it covers public-body work and explicitly includes fiber installation for broadband providers, so BEAD and publicly funded fiber scopes in Illinois price at prevailing rates.",
+    "unionJurisdictionNote": "Northern Illinois is organized-labor territory for the civil trades; confirm jurisdiction assignments with estimating when scoping self-perform versus sub work.",
+    "seasonalPremiumNote": "December-March work carries frost excavation and concrete protection to the 42-inch depth; spring postings add routing cost on rural township roads.",
+    "narrative": "Rockford civil pricing moves on season and stacking more than on ground. The digging itself is usually cheap by Illinois standards — granular valley soils, short aggregate hauls — but trench support and dewatering claw some of that back on deep utility work in clean sand, and rock contingency belongs in any deep-foundation number until borings close it out. The 42-inch frost depth sets winter pricing, and the posting season prices spring hauls. The driver peculiar to Illinois is statutory: the state Prevailing Wage Act explicitly sweeps in fiber work for broadband providers, so publicly funded builds here carry labor rates that an Iowa estimate would not. Drivers only — each site prices to its borings and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Illinois issues no statewide general contractor license — general contracting is regulated at the municipal level, so registration requirements are confirmed city by city (Rockford administers its own contractor requirements through Construction & Development Services). Statewide licenses exist only for roofing (IDFPR) and plumbing (IDPH). Public-body work triggers the Illinois Prevailing Wage Act, including certified payroll obligations.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["tornado", "ice storm", "extreme cold", "flood"],
+    "designImplications": "A northern-Illinois winter drives the design conversation: 42-inch footing depth, cold-soak generator performance, and ice-tolerant anchorage on compounds. Severe convective wind and tornado exposure argue for conservative pad anchorage and fuel containment, and Rock River and tributary floodplain screening comes first on riverfront sites. Publish wind, snow, and ice design values only after the ASCE 7 and TIA-222 county figures are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "RFD posts 3.4 billion pounds of cargo, climbs to No. 12 nationally",
+        "detail": "Chicago Rockford International Airport handled about 3.4 billion pounds of landed cargo in 2025, up 9.25% year over year and its strongest total outside the 2022 peak, anchored by Amazon Air's five-year-old Rockford operation.",
+        "category": "transportation",
+        "sourceUrl": "https://www.aircargonews.net/cargo-airport/2026/02/chicago-rockford-reports-growing-cargo-volumes-in-2025/",
+        "asOf": "2026-02-01"
+      },
+      {
+        "headline": "i3 Broadband building fiber across Greater Rockford",
+        "detail": "i3 Broadband is actively marketing and expanding a full-fiber network in the Greater Rockford area, overbuilding the metro alongside AT&T Fiber and Metronet footprints.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.i3broadband.com/greaterrockford/",
+        "asOf": "2026-07-28"
+      },
+      {
+        "headline": "Illinois BEAD final proposal: $990M to reach ~160,000 locations",
+        "detail": "The Illinois Office of Broadband's BEAD final proposal allocates more than $990 million in federal funds (76% wired) with over $657 million in private match; northern-Illinois unserved locations, including rural Winnebago and Boone counties, are in scope as awards execute.",
+        "category": "broadband program",
+        "sourceUrl": "https://dceo.illinois.gov/broadband/bead.html",
+        "asOf": "2025-09-30"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["regen and amplifier site civil", "long-haul and metro route construction"],
+      "narrative": "Fiber civil in Rockford is a bore-friendly market with a paperwork tax. The ground helps: Rock River outwash bores and plows cleanly, and the city's ROW permit prices boring by the foot ($30 for 101-499 ft, $60 beyond 500 ft) on top of a $50 base. The overbuild is real — i3 Broadband is constructing across Greater Rockford while AT&T and Metronet defend their own footprints — and Illinois' $990M BEAD round is funding rural routes in the counties around the metro. What slows routes here is stacking: a single alignment can touch city ROW, township roads, IDOT District 2 state routes, the Tollway's I-90 corridor, and a CN or UP crossing, each on its own clock. We sequence JULIE tickets (two working days), crossings, and the IEPA NOI so the bore rig is never the thing waiting.",
+      "localSpecificsReferenced": [
+        "i3 Broadband Greater Rockford buildout",
+        "Rockford ROW boring-footage fees",
+        "IDOT District 2 / I-90 Tollway jurisdiction stack",
+        "Illinois BEAD final proposal"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": ["small cell and DAS node civil", "C-band / densification upgrade civil"],
+      "narrative": "Wireless civil in Rockford is built around a 42-inch frost depth — the city's amended 2021 IBC puts every pier, pad, and footing below it, and winter pours from December through March price in protection. Rural compound work in Winnebago County answers to the posting season: the county highway department and fourteen townships post weight limits for a typical five-to-eight-week window in late winter, so shelter sets to gravel-road sites either beat the postings or wait them out (2026 postings lifted March 13). Small cell collocation runs under the state Small Wireless Facilities Deployment Act, now extended to 2030, which standardizes application treatment across the metro's municipalities. Granular soils are the quiet advantage — access drives and compounds on valley sand drain well and hold up through freeze-thaw better than clay-till markets to the south.",
+      "localSpecificsReferenced": [
+        "Rockford 42-inch frost amendment",
+        "Winnebago County/township posting season",
+        "50 ILCS 840 extension to 2030",
+        "Rock River valley granular soils"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "heavy haul access and crane pads"
+      ],
+      "secondaryScopeIds": ["security compound and bollards", "hyperscale campus civil support"],
+      "narrative": "Rockford's edge story is logistics-led rather than hyperscale-led. Chicago Rockford International Airport moved about 3.4 billion pounds of cargo in 2025 — twelfth in the country — and the Amazon Air hub plus the surrounding freight economy at the I-39/I-90 junction generate exactly the distributed-compute and network demand that lands as edge enclosure pads, utility yards, and campus conduit at sortation, warehouse, and airport-adjacent sites. ComEd serves the metro's new load from the northern-Illinois grid. Our scope here is the civil layer: transformer and generator pads below the 42-inch frost line, duct bank in granular ground that trenches fast but wants shoring, and heavy-haul access built to survive the spring posting season. No named data center campus exists in the metro today, and we say so rather than manufacture one.",
+      "localSpecificsReferenced": [
+        "RFD cargo growth / Amazon Air hub",
+        "I-39/I-90 logistics junction",
+        "ComEd service territory",
+        "42-inch frost depth"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 163,
+      "driveTimeHours": 2.8,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Winnebago", "Boone", "Ogle", "Stephenson"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "No Illinois market sits closer to our yard than Rockford: 163 road miles, running US-151 to Dubuque and then US-20's four-lane east through Jo Daviess County's hill country past Freeport — about two hours and fifty minutes at highway pace. That geometry makes site walks, inspections, and single-day scopes — a pad pour, a vault set, a compound repair — realistic day trips, while multi-day production work typically runs as short overnight rotations rather than daily commutes. The US-20 corridor is the watch item in winter; it crosses the driftless hills west of Freeport, and a storm that closes it shifts the run to the I-88/I-39 route from the south. Reaching Boone, Ogle, and Stephenson County sites adds little, since US-20 and IL-251 fan out from the metro. Emergency response commitments are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do foundations need to go in Rockford, Illinois?",
+      "answer": "The City of Rockford's local amendments to the 2021 IBC set minimum frost footing depth at 42 inches below grade, and the city's own construction FAQ confirms that figure. Every shelter pad, pier, and hut foundation we build in the city goes below that line; winter work adds frost excavation and concrete protection on top. Site-specific geotechnical investigation still governs final design.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for underground work in Rockford?",
+      "answer": "The City of Rockford Public Works Department's Engineering Division (425 East State Street). The ROW permit covers boring, excavation, and lane closures, with a $50 base fee — waived for public utilities — plus footage-based boring fees that reach $60 for runs of 500 feet or more. Work in the ROW follows Chapter 26 of the city code, and the applicant indemnifies the city.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does JULIE require before digging in Illinois?",
+      "answer": "Two working days, excluding weekends and holidays, and no more than 14 calendar days before work begins — Illinois' damage-prevention law (220 ILCS 50) applies to every excavation regardless of depth, hand digging included. We build the JULIE window into every bore, trench, and vault schedule.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do spring road postings affect shelter delivery around Rockford?",
+      "answer": "Yes. The Winnebago County Highway Department posts seasonal weight limits on county highways for a typical five-to-eight-week window in late winter and spring — the 2026 postings lifted March 13 — and most of the county's fourteen townships post their own roads separately. A shelter haul to a rural compound gets routed against both lists, and the township postings are usually the binding constraint.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What permits does an oversize shelter haul into Rockford need?",
+      "answer": "Potentially three or four. IDOT's ITAP permit covers state routes only; the Jane Addams Tollway (I-90) requires a separate Illinois Tollway OS/OW permit; and county, township, or city segments each need their own authorization. We map the full route jurisdiction by jurisdiction before the haul is scheduled, not after.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What ground conditions should I expect boring in the Rock River valley?",
+      "answer": "Clean glacial outwash — sand and gravel thick enough to serve as the region's principal aquifer. It bores and plows fast, but open excavations in it run and the water table tracks the river, so deep trenches and pier holes routinely need boxes or dewatering. Uplands carry thinner drift over comparatively shallow bedrock, so deep foundations there price a rock contingency until borings retire it.",
+      "segment": "fiber"
+    },
+    {
+      "question": "When does a Rockford site need an Illinois EPA stormwater permit?",
+      "answer": "At one acre of disturbance, or any smaller piece of a common plan that totals an acre. Coverage comes under IEPA's general permit ILR10: prepare the SWPPP, file the NOI electronically, and allow the roughly 30-day processing window before ground disturbance. NOI fees run $700 under five acres and $1,000 at five or more.",
+      "segment": "general"
+    },
+    {
+      "question": "Does Illinois prevailing wage apply to fiber construction near Rockford?",
+      "answer": "Often, yes — and more broadly than Davis-Bacon. The Illinois Prevailing Wage Act (820 ILCS 130) covers public-body work and was written to include installation and maintenance of fiber optic cable for broadband providers, so BEAD-funded and other publicly supported fiber builds in Winnebago County generally price at prevailing rates with certified payroll.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What is driving telecom construction demand in Rockford right now?",
+      "answer": "Freight and fiber. Chicago Rockford International Airport handled about 3.4 billion pounds of cargo in 2025 — No. 12 nationally, anchored by Amazon Air — and that logistics economy pulls network, edge, and utility infrastructure with it. On the fiber side, i3 Broadband is building across Greater Rockford while Illinois' $990 million BEAD program funds rural routes around the metro.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Trenching and boring through Rock River sand: fast digging, honest support costs",
+    "body": "The Rockford estimating mistake we see most is pricing the valley's sand and gravel as if easy digging meant easy everything. Excavation production is genuinely high — outwash cuts fast, bores steer cleanly, and there is usually no rock in the first ten feet — but clean granular soil does not stand. A duct bank trench that would hold a vertical face for a shift in Sangamon County clay will slough in Rock River sand, so the real cost line is trench boxes, tight sheeting on deep vault sets, and dewatering wherever the profile dips toward river-level groundwater. Our rule: below about five feet in the valley, assume supported excavation and price dewatering as a contingency line, then let borings and a water-level reading move it out. On uplands the calculus flips — thinner drift over comparatively shallow sandstone and dolomite means the 42-inch frost depth is rarely the problem, but a deep drilled foundation can be, so carry a rock clause on anything past ten feet. Either way the borings, not the landform map, make the final call."
+  },
+  "sources": [
+    {
+      "label": "City of Rockford — 2021 IBC local amendments (42 in. frost footing depth)",
+      "url": "https://rockfordil.gov/DocumentCenter/View/1827/2021-IBC-Amendments-PDF",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Rockford Construction & Development Services FAQ (frost depth)",
+      "url": "https://rockfordil.gov/m/faq?cat=17",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Rockford Public Works — Right-of-Way Permit Application",
+      "url": "https://rockfordil.gov/DocumentCenter/View/1055/Right-of-Way-Permit-Application-PDF",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "IDOT Region 2 / District 2 (Dixon) — counties and contact",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions/idot-region-2.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Underground Utility Facilities Damage Prevention Act (220 ILCS 50)",
+      "url": "https://law.justia.com/codes/illinois/chapter-220/act-220-ilcs-50/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois EPA — Construction stormwater NPDES general permit ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Winnebago County Highway Department — seasonal road postings",
+      "url": "https://wincoil.gov/departments/highway-department/road-postings",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "IDOT — Oversize/overweight permits (ITAP; state routes only)",
+      "url": "https://idot.illinois.gov/doing-business/permit-and-sales-marketplace/oversize-and-overweight-permits.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "P.A. 103-0601 — Small Wireless Facilities Deployment Act sunset extended",
+      "url": "https://www.ilga.gov/documents/legislation/publicacts/103/PDF/103-0601.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Prevailing Wage Act (820 ILCS 130) — coverage incl. broadband fiber work",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2405&ChapterID=68",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISWS Report of Investigation 2 — Groundwater resources in Winnebago County",
+      "url": "https://www.isws.illinois.edu/pubdoc/RI/ISWSRI-2.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISGS field guide — Geology of the Rock Cut State Park and Rockford area",
+      "url": "https://resources.isgs.illinois.edu/publications/ftrockcut",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "IDOT Circular Letter 2022-28 — northern long-eared bat tree clearing guidance",
+      "url": "https://idot.illinois.gov/content/dam/soi/en/web/idot/documents/transportation-system/bulletins-and-circulars/circular-letters/informational/cl-2022-28__nleb_final.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Air Cargo News — Chicago Rockford 2025 cargo volumes",
+      "url": "https://www.aircargonews.net/cargo-airport/2026/02/chicago-rockford-reports-growing-cargo-volumes-in-2025/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois DCEO — BEAD program and final proposal",
+      "url": "https://dceo.illinois.gov/broadband/bead.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "i3 Broadband — Greater Rockford fiber",
+      "url": "https://www.i3broadband.com/greaterrockford/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Travelmath — driving distance Cedar Rapids, IA to Rockford, IL (163 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Cedar+Rapids,+IA/to/Rockford,+IL",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic Ss-S1 / designRadialIceIn / designTempLowF-HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox proxy; no primary values found in open search. One session from an unproxied machine resolves these."
+    },
+    {
+      "field": "designCriteria.frostDepthIn / adoptedBuildingCode — ordinance text verification",
+      "attempted": "42 in. and the 2021 IBC adoption are search-extracted from the city's amendments PDF (labeled draft v.1) and the city FAQ; the PDF itself would not download through the proxy. Reviewer must open the final adopting ordinance before sign-off."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and ISGS/ISWS report PDFs unreachable through proxy; only qualitative geology sourced."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain-management contact not found in search; identify the administrator (likely within Public Works or Community & Economic Development) by phone."
+    },
+    {
+      "field": "utilities — ComEd new-service lead time and AT&T ILEC boundary confirmation",
+      "attempted": "ComEd publishes no standing commercial lead time; FCC broadband data not queried for exchange boundaries."
+    },
+    {
+      "field": "seasonality — NOAA normals station table",
+      "attempted": "NCEI normals for the Rockford (RFD) station not directly readable; calendar authored from secondary snowfall/climate figures and needs the station-table check."
+    },
+    {
+      "field": "logistics.railroads — line ownership detail",
+      "attempted": "CN (ex-IC) presence in Rockford and UP area trackage sourced from secondary rail references; confirm operating railroads on any specific crossing with the railroad before filing."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires 1 project and 3 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "identity": {
+    "slug": "joliet",
+    "city": "Joliet",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "counties": ["Will"],
+    "msa": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "tier": 2,
+    "latitude": 41.525,
+    "longitude": -88.0817,
+    "elevationFt": null,
+    "population": {
+      "value": 150362,
+      "source": "U.S. Census Bureau, 2020 Census count (confirm against Census QuickFacts for the current estimate)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": ["I-80", "I-55"],
+    "majorRoutes": ["US-6", "US-30", "US-52", "IL-53"]
+  },
+  "metadata": {
+    "title": "Joliet, IL Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Joliet, IL — shallow-dolomite foundations and duct work serving North America's largest inland port and a $20B data center campus.",
+    "h1": "Telecom Site Civil Construction in Joliet, Illinois",
+    "intro": "Two announcements a generation apart explain why telecom infrastructure keeps landing in Joliet. The first was intermodal: the CenterPoint complex south of town — 6,500-plus acres wrapped around BNSF and Union Pacific terminals — grew into the largest inland port in North America, and the fiber, wireless coverage, and network capacity that container logistics demands grew with it. The second came in March 2026, when the City Council approved conditional annexation for the Joliet Technology Center: a $20 billion, 795-acre, 24-building data center campus backed by Hillwood and PowerHouse. What the announcements do not mention is what our crews find at excavation depth — Silurian dolomite bedrock sits shallow enough here that Joliet spent a century quarrying it as building stone. CellSite Solutions runs this market straight down I-80 from our Cedar Rapids yard, 222 verified road miles door to door.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-10 (the reference standard of the 2015 IBC enforced under Joliet Code of Ordinances Ch. 8, Art. II)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Mapped seismic hazard in Will County is low; where dolomite is near the surface, favorable site class is plausible but is a boring-verified determination, never a published assumption."
+    },
+    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "The Des Plaines River valley at Joliet cuts to within a few feet of Silurian dolomite — the Joliet and Sugar Run Formations whose cream-colored stone, quarried since the I&M Canal was dug in the 1840s, built much of nineteenth-century Chicago as 'Joliet limestone.' Off the valley, glacial drift thickens over the same bedrock surface, and river alluvium occupies the floodplain. Outcrops and two dozen historic quarries testify to how shallow the rock runs. (ILSTRAT Joliet Formation; Joliet-Lemont limestone historical accounts.)",
+    "dominantSoilTypes": [
+      "Thin glacial drift and till over shallow dolomite (valley margins)",
+      "Des Plaines River alluvium (floodplain sites)",
+      "Thicker loam-over-till upland soils east and west of the valley"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst hazard mapping for Will County surfaced during research; treat voids or solution features in the shallow dolomite as a site-boring verification item rather than a mapped risk."
+    },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Rock is the planning question in Joliet, and it cuts both ways. Meet competent dolomite above design depth and you have superb bearing — the problem becomes excavation method and cost, not capacity, and a footing re-detailed to bear on rock usually beats hammering out a full-depth excavation through it. Miss the rock and you are in glacial drift or river alluvium, where conventional spread footings below frost depth carry telecom loads routinely but the alluvial sites add groundwater and floodplain screening along the Des Plaines. The expensive mistake in this market is pricing a duct bank or foundation from a surface walk: depth to rock can change across a single parcel near the valley, so borings — and rock-probe supplements where trench lines run long — are what an honest estimate is built on. Frost embedment follows the city's adopted code and amendments, which we confirm with the Building Division before design release."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Joliet — Building/Inspectional Services Division (Community Development)",
+        "url": "https://www.joliet.gov/government/departments/community-development/building-inspectional-services-division/building-code-information",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Review times are not published; confirm the current queue and contractor registration requirements with the division when scoping."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2015 International Building Code, adopted under Joliet Code of Ordinances Chapter 8, Article II",
+      "source": "Joliet Code of Ordinances Ch. 8, Art. II (Municode) — edition extracted from search results; confirm current adoption and local amendments with the Building Division before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Unlike Chicago, Joliet falls under the Illinois Small Wireless Facilities Deployment Act (50 ILCS 840, extended to January 1, 2030), which standardizes small cell collocation terms, fees, and shot clocks for municipalities under one million people.",
+    "rowPermitAuthority": {
+      "name": "City of Joliet Public Works — Engineering Division",
+      "url": "https://www.joliet.gov/government/departments/public-works/engineering",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Engineering issues permits for private utility installation in city rights-of-way, plus overweight/oversize truck permits on city streets; county highway routes permit separately through Will County."
+    },
+    "stateDotDistrict": {
+      "name": "IDOT District 1 (Region One), Schaumburg — Will County is in District 1 alongside Cook and the collar counties",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions/idot-region-1.html",
+      "phone": "847-705-4000",
+      "typicalReviewDays": null,
+      "note": "Utility occupancy of state routes (US-6, US-30, US-52, IL-53 and the interstates) per 92 Ill. Adm. Code 530."
+    },
+    "oneCallCenter": {
+      "name": "JULIE (Joint Utility Locating Information for Excavators)",
+      "url": "https://www.illinois1call.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Joliet is JULIE territory — the separate Chicago 811 system applies only inside Chicago's corporate limits. Work must begin within 14 calendar days of the ticket.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Illinois EPA — NPDES general permit ILR10; City of Joliet consolidated stormwater, erosion control, and floodplain regulations apply locally",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP before the NOI; ILR10 coverage generally effective 30 days after IEPA receives the NOI unless the agency objects."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Joliet — consolidated storm-water management, soil erosion and sediment control, and floodplain management regulations",
+      "url": "https://www.joliet.gov/government/departments/community-development/planning-zoning/ordinances",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the administering official for floodplain development permits with Community Development; the Des Plaines and DuPage rivers both carry mapped floodplain through the market."
+    },
+    "permitTimelineNarrative": "Joliet permitting is more conventional than Chicago's but has its own sequence: building permits through the Building Division under the city's adopted 2015 IBC, a separate Engineering permit for any private utility work in city right-of-way, IDOT District 1 for the federal and state routes that lattice the market, and Will County for county highway crossings. The JULIE ticket takes two working days; the IEPA ILR10 clock — SWPPP, NOI, then a roughly 30-day authorization window — starts much earlier and is the one to file first on any compound or campus scope disturbing an acre. Around the intermodal complex, add railroad coordination lead time to anything approaching UP or BNSF property."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Commonwealth Edison (ComEd)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "ComEd serves the Joliet area; the Joliet Technology Center approval negotiations included utility commitments, a signal of how large-load interconnection now dominates the queue. Schedule new services from ComEd's written commitment."
+      }
+    ],
+    "ilec": "AT&T Illinois (legacy Illinois Bell) — confirm exchange boundaries before publishing for a specific site",
+    "notableFiberProviders": ["AT&T Illinois", "Comcast Business", "Metro Fibernet/regional overbuilders (verify current footprint)"],
+    "notableDataCenterCampuses": [
+      "Joliet Technology Center — Hillwood/PowerHouse, $20B, 795 acres, 24 buildings, up to 1.8 GW (conditional annexation approved March 2026)"
+    ],
+    "longHaulRouteNotes": "Long-haul routes into Chicago track the I-80 and I-55 corridors and the UP and BNSF main lines that converge on the intermodal complex — Joliet sits on the paths, which is precisely why regen and hut work appears here.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Illinois runs no statewide spring frost-law program, and the roads serving the intermodal district are engineered for container weights year-round. Township and rural Will County roads can carry local postings — verify the last mile with the local road agency rather than assuming."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "IDOT (state routes, automated permitting); City of Joliet Engineering issues overweight/oversize permits on city streets",
+      "url": "https://www.joliet.gov/government/departments/public-works/engineering",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The city issuing its own OSOW permits through Engineering is unusual and useful — one desk covers the municipal legs of a shelter haul."
+    },
+    "bridgeOrClearanceConstraints": "Des Plaines River crossings are the pinch points: route surveys should confirm the intended bridge for any heavy haul, including the Houbolt Road toll bridge built to feed the intermodal parks directly from I-80.",
+    "railroads": [
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "Operates the Global IV intermodal terminal south of Joliet; UP's utility crossing process applies to routes approaching it."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Operates the Logistics Park Chicago terminal at Elwood; crossing and occupancy applications run through BNSF's national permitting process."
+      },
+      {
+        "name": "Canadian National (former EJ&E belt line)",
+        "crossingPermitNote": "CN's ex-EJ&E arc passes through the Joliet area, so even routes avoiding the terminals may cross CN property."
+      },
+      { "name": "Metra (Rock Island and Heritage Corridor) / Amtrak", "crossingPermitNote": null }
+    ],
+    "urbanRowRequirements": "Private utility installation in city right-of-way requires an Engineering Division permit; state-route work goes to IDOT District 1 and county highways to Will County. Around the port district, expect railroad flagging requirements and protective liability insurance on any scope near active track."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Schedule woody clearing for October 1 – March 31, the inactive bat season used in Illinois practice",
+      "driver": "Northern long-eared bat (federally endangered) and Indiana bat",
+      "source": "IDOT Circular Letter 2022-28 (NLEB); USFWS range-wide bat survey guidance"
+    },
+    "shpo": {
+      "name": "Illinois State Historic Preservation Office (IDNR)",
+      "url": "https://dnrhistoric.illinois.gov/preserve/resource-protection.html",
+      "phone": "217-782-4836",
+      "typicalReviewDays": 30,
+      "note": "Section 106 review for federally assisted work; note the I&M Canal corridor's historic designation density through Joliet — canal-adjacent routes deserve early SHPO screening."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Chicago District regulatory program; IEPA issues Section 401 certifications",
+      "url": "https://www.lrc.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Chicago District (LRC)",
+    "listedSpeciesNote": "Bats set the clearing calendar, and the Midewin National Tallgrass Prairie south of the intermodal district concentrates protected habitat near exactly the corridors where fiber wants to run — a project-specific USFWS IPaC query is the screening tool, not county generalities.",
+    "floodplainPrevalenceNote": "The Des Plaines River runs through the center of Joliet and the DuPage River crosses the market's east side; both carry mapped floodplain, and the city administers consolidated floodplain regulations. Riverfront and low-valley sites get FEMA screening before siting conversations go far."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Ground frozen; single-digit cold snaps between milder spells", "earthworkConcrete": "restricted", "note": "Frozen-ground excavation and heated concrete protection priced in" },
+      { "month": "Feb", "groundConditions": "Deepest frost; snowpack intermittent", "earthworkConcrete": "restricted", "note": null },
+      { "month": "Mar", "groundConditions": "Thaw cycles; drift soils saturated, rock sites shed water faster", "earthworkConcrete": "constrained", "note": "Bat clearing window closes March 31" },
+      { "month": "Apr", "groundConditions": "Drying; upland subgrades firm ahead of river-bottom ground", "earthworkConcrete": "workable", "note": null },
+      { "month": "May", "groundConditions": "Good working ground; spring storm season ramps up", "earthworkConcrete": "favorable", "note": "Erosion controls matter on long duct runs in drift soils" },
+      { "month": "Jun", "groundConditions": "Warm, workable; peak severe-weather month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Hot, mostly dry; excellent production", "earthworkConcrete": "favorable", "note": "Hot-weather concrete practice on exposed pours" },
+      { "month": "Aug", "groundConditions": "Dry and firm; storm events episodic", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Sep", "groundConditions": "Prime conditions — dry ground, moderate temperatures", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Cooling; ground still open and workable", "earthworkConcrete": "favorable", "note": "Clearing window opens October 1" },
+      { "month": "Nov", "groundConditions": "First sustained freezes; ground takes frost late in the month", "earthworkConcrete": "workable", "note": "Transition to cold-weather concrete practice" },
+      { "month": "Dec", "groundConditions": "Freezing down; snow cover establishing", "earthworkConcrete": "restricted", "note": null }
+    ],
+    "narrative": "Joliet's construction year is a standard northern-Illinois frost calendar — frozen ground roughly December into March, a wet thaw shoulder, then a long May-through-October production season — with one local wrinkle worth planning around: sites over shallow dolomite drain and firm up faster in the thaw than the drift-soil uplands, so early-spring starts favor the rock side of the market even though the rock costs more to open. Winter work proceeds normally with frost excavation and concrete protection in the price. Figures here are directional; verify against NOAA normals for the nearest first-order station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "high",
+    "rockNote": "Silurian dolomite runs shallow through the Des Plaines valley — shallow enough that Joliet supported two dozen quarries by the 1890s. Trench, duct bank, and foundation pricing must carry a rock allowance until borings prove otherwise.",
+    "aggregateHaulNote": "The same bedrock is the upside: active quarries in the Joliet-Lemont corridor keep crushed dolomite aggregate a short haul from almost any site in the market.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": "Illinois CCDD clean-fill rules require soil characterization before disposal; rock spoil is comparatively easy to place, while mixed urban fill from older parts of the city needs screening.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "The Illinois Prevailing Wage Act (820 ILCS 130) reaches any project funded by a state or local public body, with certified payroll filed monthly to IDOL — a statutory layer Iowa and Wisconsin scopes do not carry. Davis-Bacon applies separately to federally funded work.",
+    "unionJurisdictionNote": "Will County sits inside the Chicago-area union construction market; assume signatory conditions on public work and most large industrial scopes, and note that the data center program will absorb significant regional craft labor. Primary-source confirmation is an open item — see gaps.",
+    "seasonalPremiumNote": "December–March adds frost excavation and concrete protection; summer adds hot-weather curing practice on exposed pours.",
+    "narrative": "Two opposing forces set civil cost in Joliet. Rock pushes numbers up: hit shallow dolomite on a trench line or foundation and you are pricing hammer or saw production rather than bucket excavation, which is why we probe before we promise. The same geology pushes other numbers down — aggregate is quarried locally, rock spoil places easily, and rock-bearing foundations are compact and efficient once opened. Around those fundamentals sit the market factors: union labor economics, Prevailing Wage Act exposure on public work, railroad coordination costs near the intermodal terminals, and — as the $20 billion Joliet Technology Center ramps — competition for regional crews and materials that can move pricing quarter to quarter. Drivers, not prices: every scope here gets estimated from borings and the season it will actually be built in."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Illinois issues no statewide general contractor license — only roofing (IDFPR) and plumbing (IDPH) are licensed at the state level — so qualification in Joliet is local: confirm the city's contractor registration requirements with the Building Division, and plan for Prevailing Wage Act certified-payroll compliance on any publicly funded scope.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["tornado", "ice storm", "extreme cold", "flood"],
+    "designImplications": "Northern Illinois' severe-weather climatology argues for conservative anchorage and hardware on compounds and generator systems, and the Des Plaines floodplain makes pad elevation and drainage a siting-stage question on valley sites. Extreme cold drives frost embedment per the locally adopted code and winter fuel-system detailing. Publish wind and ice design values only after site-specific ASCE 7 and TIA-222 lookups — none are stated here because none are yet verified.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Joliet approves $20B, 795-acre Joliet Technology Center",
+        "detail": "The City Council voted 8-1 on March 19, 2026 to approve conditional annexation for the Hillwood/PowerHouse campus — 24 two-story buildings, up to 1.8 GW, with roughly $100M in negotiated infrastructure commitments and an estimated 10,000 construction jobs.",
+        "category": "data center",
+        "sourceUrl": "https://www.joliet.gov/Home/Components/News/News/5666/41",
+        "asOf": "2026-03-19"
+      },
+      {
+        "headline": "CenterPoint Intermodal Center anchors North America's largest inland port",
+        "detail": "The 6,500-plus-acre Joliet/Elwood complex pairs a UP intermodal terminal with BNSF's Logistics Park Chicago; at full build-out its projected container volume trails only the LA/Long Beach and NY/NJ seaports.",
+        "category": "transportation",
+        "sourceUrl": "https://centerpoint.com/park/centerpoint-intermodal-center-joliet-elwood/interactive-map",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Illinois BEAD awaits federal approval on $1.04B program",
+        "detail": "The state's final proposal (September 2025, revised April 2026) targets ~157,000 locations, about 76% fiber; award execution will fund rural construction across Will County's fringes and downstate.",
+        "category": "broadband program",
+        "sourceUrl": "https://dceo.illinois.gov/broadband/bead.html",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "long-haul and metro route construction",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["regen and amplifier site civil", "service lateral to hut"],
+      "narrative": "Fiber work around Joliet follows the freight. Long-haul routes track I-80, I-55, and the UP and BNSF main lines converging on the intermodal terminals, which means the defining civil constraints are railroad crossings — UP at Global IV, BNSF at Logistics Park, and CN's former EJ&E belt arcing through the area — and rock: HDD and trench production in shallow Silurian dolomite prices completely differently than the clay boring a crew sees 40 miles north in Chicago. JULIE's two-working-day ticket covers locates here (this is not Chicago 811 territory), city ROW work permits through Joliet's Engineering Division, and canal-adjacent routes get early SHPO screening given the I&M Canal corridor's historic density. We probe rock lines before committing bore profiles, and we file rail applications before the schedule depends on them.",
+      "localSpecificsReferenced": [
+        "UP Global IV and BNSF Logistics Park crossings",
+        "CN former EJ&E belt line",
+        "Shallow Silurian dolomite bore conditions",
+        "I&M Canal corridor SHPO screening"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": ["small cell and DAS node civil", "ice bridge and cable tray"],
+      "narrative": "Wireless demand in this market is warehouse-shaped: the intermodal district and its distribution corridors concentrate enormous device density — trucks, terminals, yard management systems — along I-80 and IL-53, and coverage and capacity builds follow. Compound civil here means foundations that either bear efficiently on shallow dolomite or get priced for rock excavation to reach embedment, a determination we make with borings rather than assumptions since depth to rock shifts across short distances near the Des Plaines valley. Small cell work runs under the state's Small Wireless Facilities Deployment Act — Joliet, unlike Chicago, is covered by it — which standardizes collocation terms and shot clocks. Shelter hauls benefit from a quirk of local administration: Joliet's own Engineering Division issues city-street overweight permits, so the municipal leg of a delivery clears through one desk.",
+      "localSpecificsReferenced": [
+        "I-80/IL-53 intermodal distribution corridors",
+        "Shallow dolomite foundation economics",
+        "50 ILCS 840 applicability to Joliet",
+        "City of Joliet Engineering overweight permits"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "edge enclosure and micro-DC pads"
+      ],
+      "secondaryScopeIds": ["security compound and bollards", "heavy haul access and crane pads"],
+      "narrative": "In March 2026 Joliet became a named hyperscale market: the City Council's 8-1 approval of conditional annexation for the Joliet Technology Center put a $20 billion, 795-acre, 24-building campus with up to 1.8 GW of capacity onto farmland near the old Chicagoland Speedway property. A program that size generates years of exactly the civil scope we self-perform — transformer and switchgear pads, campus duct bank, generator yards, security perimeters — plus the edge enclosure pads that follow capacity into the surrounding logistics corridor. The site work will contend with the market's signature subsurface question, depth to dolomite, and its signature scheduling question, regional craft labor absorption as 10,000 construction jobs ramp. ComEd interconnection commitments were part of the annexation negotiation itself, which tells you what the pacing item is.",
+      "localSpecificsReferenced": [
+        "Joliet Technology Center ($20B, 795 acres, 1.8 GW)",
+        "March 19, 2026 conditional annexation vote",
+        "Chicagoland Speedway-area siting",
+        "ComEd interconnection commitments"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 222,
+      "driveTimeHours": 3.3,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Will", "Grundy", "Kendall"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Joliet is a one-road market for us: I-380 out of the yard to I-80 at Iowa City, then I-80 east across the Mississippi and straight into Will County — 222 verified miles, about three hours twenty in normal conditions, on free interstate the whole way with no tollway leg required. That geometry makes Joliet one of the most efficiently reached markets in our eastern footprint: a crew can leave at first light and be productive before midday, though multi-day compound and campus scopes are planned as overnight stays rather than daily runs. Approaches to the intermodal district south of town use the heavyweight-rated network built for container traffic, including the Houbolt Road bridge connection from I-80, and we route-survey Des Plaines River crossings for any oversize move rather than trusting a map.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Will excavation in Joliet hit rock?",
+      "answer": "Assume it is possible until borings say otherwise. Silurian dolomite — the stone Joliet quarried for a century as 'Joliet limestone' — sits close to the surface through the Des Plaines valley, sometimes within a few feet, while drift-covered uplands nearby may never reach it at telecom depths. Depth to rock can change across one parcel, so we probe trench lines and boring paths before pricing, and we carry a rock allowance where the geology says to.",
+      "segment": "general"
+    },
+    {
+      "question": "Which building code does the City of Joliet enforce?",
+      "answer": "Joliet's Code of Ordinances (Chapter 8, Article II) adopts the 2015 International Building Code, and permits run through the Building/Inspectional Services Division in Community Development. Local amendments — including the frost depth applied to foundations — should be confirmed directly with the division before design release; we do this on every scope rather than assuming a regional value.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way and overweight permits in Joliet?",
+      "answer": "The city's Public Works Engineering Division handles both: permits for private utility installation in city rights-of-way and overweight/oversize truck permits on city streets. State routes like US-30, US-52, and IL-53 permit through IDOT District 1 in Schaumburg, and county highways through Will County. Having one municipal desk for both ROW and heavy-haul permits genuinely simplifies shelter deliveries here.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How much notice does a dig in Joliet require?",
+      "answer": "Two working days through JULIE — Illinois' one-call system requires notice at least 48 hours (excluding weekends and holidays) before excavation, and the work must begin within 14 calendar days of the ticket. Joliet is standard JULIE territory; the separate Chicago 811 system only applies inside Chicago's city limits. We open tickets as soon as dig dates firm up so locates never sit on the critical path.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do seasonal road restrictions affect shelter hauls to Joliet?",
+      "answer": "Less than in Wisconsin or Iowa. Illinois has no statewide spring frost-law program, and the intermodal district's roads are engineered for container weights year-round. The residual check is local: township and rural Will County roads can post their own limits, so the final approach to a greenfield site still gets verified with the local road agency. Oversize moves permit through IDOT for state routes and Joliet Engineering for city streets.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which railroads will a fiber route near Joliet encounter?",
+      "answer": "Union Pacific serves its Global IV terminal, BNSF runs Logistics Park Chicago at Elwood, and Canadian National's former EJ&E belt line arcs through the area — plus Metra's Rock Island and Heritage Corridor services. Any route serving the port district crosses someone's track. Each railroad has its own occupancy application, insurance requirements, and timeline, and those approvals are typically the longest lead item on the route, so we file them first.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What was actually approved for the Joliet Technology Center?",
+      "answer": "On March 19, 2026, the Joliet City Council voted 8-1 to approve conditional annexation of roughly 795 acres for a $20 billion campus backed by Hillwood and PowerHouse Data Centers: 24 two-story buildings totaling up to 1.8 GW, with about $100 million in negotiated infrastructure commitments. Developers estimate up to 10,000 construction jobs — a multi-year civil pipeline of pads, duct bank, generator yards, and utility work in one annexation.",
+      "segment": "edge"
+    },
+    {
+      "question": "What floodplain and stormwater rules apply to Joliet sites?",
+      "answer": "IEPA's ILR10 construction stormwater permit applies at one acre of disturbance (SWPPP, then NOI, with coverage generally effective 30 days after receipt), and the city layers its own consolidated stormwater, erosion control, and floodplain regulations on top. The Des Plaines River runs through the middle of town and the DuPage crosses the east side, so valley sites get FEMA floodplain screening at siting, not after design.",
+      "segment": "general"
+    },
+    {
+      "question": "Is public telecom work in Joliet subject to prevailing wage?",
+      "answer": "Yes — the Illinois Prevailing Wage Act (820 ILCS 130) covers construction funded in whole or part by any Illinois public body, with monthly certified payroll filed through the Department of Labor's portal. That is a statutory layer neither Iowa (no prevailing wage law) nor Wisconsin (repealed) imposes, and it applies regardless of whether federal Davis-Bacon requirements also attach. We price public Joliet scopes to IDOL's published Will County rates.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Boring versus trenching when Joliet's dolomite is the third party at the table",
+    "body": "Every underground routing decision in Joliet should start with one number nobody can see from the surface: depth to the Silurian dolomite. Where the rock sits below your profile, conventional trenching through drift is fast and cheap, and directional boring competes only where surface restoration or traffic control tips the scale. Where the rock rises — and through the Des Plaines valley it can rise to within a few feet — the economics invert twice. Trenching turns into hammer and saw production, slow and loud and priced per foot of rock, while HDD in competent dolomite can actually be a good bore: stable hole, no collapse, predictable steering, provided the entry and exit pits and the tooling are planned for rock from the start. The failure mode is the mixed profile — drift over an undulating rock surface that catches a bore head or forces a trench crew to switch methods mid-run. That is why we spend probe and boring money on the routing question itself, not just the foundation locations. Ten boreholes along a duct route are cheap insurance in this market; a mobilized rock hammer discovered mid-project is not. Site-specific investigation governs, and in Joliet it governs the route, not just the pad."
+  },
+  "sources": [
+    {
+      "label": "City of Joliet — conditional annexation approval for Joliet Technology Center (March 2026)",
+      "url": "https://www.joliet.gov/Home/Components/News/News/5666/41",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Shaw Local / Herald-News — Joliet OKs 795-acre data center (vote details, March 20, 2026)",
+      "url": "https://www.shawlocal.com/the-herald-news/2026/03/20/joliet-oks-controversial-795-acre-data-center/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "CenterPoint — CenterPoint Intermodal Center Joliet/Elwood (largest North American inland port; UP and BNSF terminals)",
+      "url": "https://centerpoint.com/park/centerpoint-intermodal-center-joliet-elwood/interactive-map",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ILSTRAT (Illinois State Geological Survey wiki) — Joliet Formation (Silurian dolomite)",
+      "url": "https://ilstratwiki.web.illinois.edu/wiki/Joliet_Formation",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Lewis University I&M Canal corridor — Joliet Limestone history (quarrying, canal era)",
+      "url": "https://www.lewisu.edu/imcanal/johnlamb/section_46.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Joliet Code of Ordinances Ch. 8, Art. II — Building Code (Municode)",
+      "url": "https://library.municode.com/il/joliet/codes/code_of_ordinances?nodeId=COOR_CH8BUCOPRMA_ARTIIBUCO",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Joliet — Public Works Engineering (ROW private utility permits; overweight/oversize permits)",
+      "url": "https://www.joliet.gov/government/departments/public-works/engineering",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "IDOT Region 1 / District 1 boundaries (Will County)",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions/idot-region-1.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "220 ILCS 50 — JULIE notice requirements (two working days; 14-day ticket life)",
+      "url": "https://law.justia.com/codes/illinois/chapter-220/act-220-ilcs-50/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Illinois EPA — NPDES construction stormwater general permit ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "IDOT Circular Letter 2022-28 — northern long-eared bat clearing guidance",
+      "url": "https://idot.illinois.gov/content/dam/soi/en/web/idot/documents/transportation-system/bulletins-and-circulars/circular-letters/informational/cl-2022-28__nleb_final.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Illinois Department of Labor — Prevailing Wage Act (820 ILCS 130)",
+      "url": "https://labor.illinois.gov/laws-rules/conmed/prevailing-wage-act.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "50 ILCS 840 — Small Wireless Facilities Deployment Act",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3920&ChapterID=11",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath — driving distance Cedar Rapids, IA to Joliet, IL (222 mi, ~3 h 19 min)",
+      "url": "https://www.travelmath.com/drive-distance/from/Cedar+Rapids,+IA/to/Joliet,+IL",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Joliet's amended frost/footing depth was not readable in primary form — joliet.gov building code page and Municode section text both returned 403 through the proxy, and only contractor blogs cite a 42-inch regional figure, which is not publishable. Confirm with the Building Division or the ordinance text."
+    },
+    {
+      "field": "designCriteria wind/snow/seismic/ice/temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design maps, and TIA-222 county tables unreachable through the sandbox proxy; no values published."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — primary text confirmation",
+      "attempted": "2015 IBC adoption extracted from Municode search results; the ordinance text itself was not readable through the proxy. Verify edition and amendments before sign-off."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth-to-bedrock values, groundwater, corrosivity)",
+      "attempted": "ISGS county mapping and NRCS Web Soil Survey not directly accessible; only qualitative valley/upland geology is sourced."
+    },
+    {
+      "field": "utilities — ComEd new-service process URL and lead times; ILEC boundary; current competitive fiber footprint",
+      "attempted": "ComEd pages not fetchable; AT&T Illinois attribution is legacy-territory based; overbuilder presence (e.g., Metronet-family) needs current verification."
+    },
+    {
+      "field": "seasonality — NOAA normals confirmation",
+      "attempted": "Station normals table not readable through the proxy; calendar authored qualitatively pending the station check."
+    },
+    {
+      "field": "costDrivers.unionJurisdictionNote — primary sources",
+      "attempted": "Regional union-market characterization needs confirmation from CSS ops and the locals' published jurisdiction documents."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires at least 1 real project and 3 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

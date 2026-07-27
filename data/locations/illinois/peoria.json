@@ -1,0 +1,502 @@
+{
+  "identity": {
+    "slug": "peoria",
+    "city": "Peoria",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "counties": ["Peoria"],
+    "msa": "Peoria, IL (Peoria, Tazewell, and Woodford counties)",
+    "tier": 3,
+    "latitude": 40.6936,
+    "longitude": -89.589,
+    "elevationFt": 650,
+    "population": {
+      "value": 111696,
+      "source": "U.S. Census Bureau vintage-2024 city estimate, via World Population Review — confirm against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": ["I-74", "I-474"],
+    "majorRoutes": ["US-24", "US-150", "IL-6", "IL-29"]
+  },
+  "metadata": {
+    "title": "Peoria, IL Telecom Site Civil Construction | CellSite Solutions",
+    "description": "Fiber, wireless, and edge site civil work in Peoria, IL — river-crossing bores, loess-bluff foundations, and compound construction from Cedar Rapids crews.",
+    "h1": "Telecom Site Civil Construction in Peoria, Illinois",
+    "intro": "Everything hard about building telecom infrastructure in Peoria traces back to the Illinois River. The valley splits the metro in two, so fiber routes funnel onto a handful of bridge and bore crossings shared with a terminal railroad that rings both banks. The bluffs above the river carry some of the deepest loess in the state, the bottoms carry alluvium that went under water in the record 2013 flood, and the heavy-equipment industrial base Caterpillar built here left rail-served corridors that still host utility and network work. Our Cedar Rapids crews run I-80 and I-74 to reach it — 178 road miles, close enough for the pad pours, duct bank, bores, and compound builds this market generates.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Illinois seismic values sit between the low northern tier and the elevated Wabash/New Madrid influence to the south — publish Ss/S1 only from a USGS design-maps query at the site coordinates."
+    },
+    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Peoria is the type locality of the Peoria Silt: wind-blown loess up to roughly 40 feet thick on the uplands and bluffs flanking the Illinois River, thinning away from the valley. The river corridor itself holds outwash sand and gravel, broad terraces (including a prominent high terrace in the city's northwest), and floodplain alluvium, with dune sands from the Kankakee Torrent scattered through the area. (ISGS middle Illinois River valley surficial geology; ISGS Circular 381, sand and gravel resources of Peoria County.)",
+    "dominantSoilTypes": [
+      "Peoria Silt loess (bluffs and uplands)",
+      "Outwash sand and gravel terraces (valley)",
+      "Illinois River alluvium (bottomland sites)"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": { "present": false, "note": null },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation strategy in Peoria depends on which of three grounds a site draws. Bluff and upland sites sit on deep loess — a soil that stands in near-vertical cuts when dry but is moisture-sensitive, so pad and pier designs hinge on drainage detailing and on keeping bearing soils from wetting up during and after construction. Terrace sites on valley sand and gravel bear well and excavate fast but need trench support below shallow depths. Bottomland sites are the hard case: alluvium, high groundwater tied to river stage, and floodplain screening shaped by the 2013 record flood, which pushes shelter pads toward elevated or deep-foundation solutions and sometimes off the parcel entirely. The city's adopted frost depth was not confirmed in this research pass and is carried as a gap; borings and the geotechnical report govern every final design."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Peoria Community Development — Building Safety",
+        "url": "https://www.peoriagov.org/168/Building-Safety",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "The city adopted the 2018 I-codes (with the 2017 NEC) effective May 1, 2021. Published plan-review turnaround times were not found — confirm current timelines when scoping."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code and companion 2018 I-codes, with the 2017 National Electrical Code, effective May 1, 2021",
+      "source": "City of Peoria Building Safety page, peoriagov.org — local amendments in the city's Local Design Criteria document should be read before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless collocations run under the Illinois Small Wireless Facilities Deployment Act (50 ILCS 840), extended to January 1, 2030 by P.A. 103-0601; confirm Peoria's application form and any historic-district design conditions with Community Development.",
+    "rowPermitAuthority": {
+      "name": "City of Peoria Public Works — Right-of-Way Permits Section",
+      "url": "https://www.peoriagov.org/443/Permits",
+      "phone": "309-494-8800",
+      "typicalReviewDays": 2,
+      "note": "Applications through PWpermits@peoriagov.org or the Public Works office at 3505 N Dries Lane; allow 48 hours for processing. ROW work requires a city contractor license, and sidewalk/drive approach work carries a $10,000 bond."
+    },
+    "stateDotDistrict": {
+      "name": "IDOT District 4, headquartered in Peoria",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions.html",
+      "phone": "309-671-3333",
+      "typicalReviewDays": null,
+      "note": "District 4 sits at 401 Main Street in downtown Peoria and covers Peoria, Tazewell, Woodford, and nine other central-west counties — the permitting office for US-24, US-150, and IL-29 work is local."
+    },
+    "oneCallCenter": {
+      "name": "JULIE (Illinois One-Call System), 811",
+      "url": "https://www.illinois1call.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice is required for every excavation at any depth under 220 ILCS 50; locates are valid only if work starts within 14 calendar days of the request.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Illinois EPA — Construction Site Activities General NPDES Permit No. ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "SWPPP before the electronic NOI (filed via CDX); roughly 30-day NOI processing; fees $700 under 5 acres, $1,000 at 5 or more."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Peoria's permit path is compact but has two local quirks worth planning around. First, ROW work requires the contractor to be licensed with the city before a permit issues — the permit itself processes in about 48 hours, but the license and bond come first. Second, IDOT District 4 is headquartered downtown, which makes state-route permit conversations unusually easy to have in person. Building permits run through Community Development under the 2018 I-codes, IEPA's ILR10 stormwater coverage needs its roughly 30-day NOI window at an acre of disturbance, and anything in the mapped Illinois River floodplain should be flagged for floodplain review at concept stage, not at submittal."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Ameren Illinois",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.ameren.com/illinois/residential/construction-services",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Ameren Illinois is the electric and gas delivery utility for Peoria (Rate Zone 2), with a construction services office at 300 Liberty Street downtown. New service is requested through Ameren's construction application; schedule energization from utility confirmation, not published averages."
+      }
+    ],
+    "ilec": "AT&T Illinois (legacy Illinois Bell territory) — confirm exchange boundaries against FCC broadband data before publishing",
+    "notableFiberProviders": ["i3 Broadband (headquartered in East Peoria)", "AT&T Fiber", "Comcast/Xfinity"],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Metro-area counties evaluate postings roughly mid-January through mid-April (Woodford County posts 5 tons/axle, reviewed Jan 15 - Apr 15)",
+      "postingAuthority": {
+        "name": "Peoria County Highway Department (county highways); Tazewell and Woodford counties post their own systems",
+        "url": "https://tazewell-il.gov/highwaydepartment/highwayweightlimits/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Each metro county sets and enforces its own seasonal limits — Woodford County's standing seasonal restriction is 5 tons per axle, evaluated twice weekly from January 15 through April 15. Confirm Peoria County's current posting list directly before a haul."
+      },
+      "note": "Deliveries to rural hut and compound sites across the river in Tazewell or north in Woodford County answer to different posting authorities than Peoria County sites — check all three lists, plus townships, when routing a spring shelter set."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "IDOT Motor Carrier / ITAP (Illinois Transportation Automated Permits)",
+      "url": "https://idot.illinois.gov/doing-business/permit-and-sales-marketplace/oversize-and-overweight-permits.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ITAP authorizes state routes only; county, township, and municipal segments need separate local permission, and an Illinois River crossing pins the route to specific bridges."
+    },
+    "bridgeOrClearanceConstraints": "Every route across the metro funnels onto an Illinois River bridge — the Murray Baker (I-74), the new eastbound McClugage span (US-150, opened December 2024), the Bob Michel, or the Cedar Street bridge — so oversize hauls and boring crews plan around a short list of fixed crossings.",
+    "railroads": [
+      {
+        "name": "Tazewell & Peoria Railroad (TZPR, Genesee & Wyoming terminal railroad)",
+        "crossingPermitNote": "TZPR operates about 24 route miles plus over 100 miles of yard and industrial track along both banks of the river, so many Peoria-area fiber routes cross it more than once; crossing applications go through the G&W permitting process, and timelines warrant early filing."
+      },
+      { "name": "BNSF Railway", "crossingPermitNote": null },
+      { "name": "Union Pacific", "crossingPermitNote": null },
+      { "name": "Canadian National", "crossingPermitNote": null },
+      {
+        "name": "Toledo, Peoria & Western; Iowa Interstate; Keokuk Junction; Illinois & Midland (interchange lines)",
+        "crossingPermitNote": "The TZPR interchanges with nine railroads around the terminal — confirm which carrier actually owns a given crossing before applying, because the answer in this metro is rarely obvious from the map."
+      }
+    ],
+    "urbanRowRequirements": "City ROW work requires a Peoria contractor license (with bond for sidewalk/drive work), permits through the Public Works ROW Permits Section with about 48-hour processing, and unpermitted work is subject to removal at the contractor's cost."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Plan clearing for the bats' inactive season (roughly October through March); confirm site dates through IPaC",
+      "driver": "Federally listed bats — IDOT statewide guidance for the endangered northern long-eared bat, plus Indiana bat buffers near hibernacula",
+      "source": "IDOT Circular Letter 2022-28; USFWS listing guidance"
+    },
+    "shpo": {
+      "name": "Illinois State Historic Preservation Office (Illinois Department of Natural Resources)",
+      "url": "https://dnr.illinois.gov/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Digital Section 106 submissions; 30-day review clock per complete submission."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory program",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Illinois River corridor at Peoria and the Spoon River drainage in Peoria County fall within the Rock Island District regulatory boundary; Illinois EPA issues Section 401 certifications."
+    },
+    "usaceDistrict": "Rock Island District (MVR)",
+    "listedSpeciesNote": "Northern long-eared bat restrictions drive clearing windows statewide; the Illinois River corridor also concentrates migratory bird and aquatic-resource review. Run USFWS IPaC per project.",
+    "floodplainPrevalenceNote": "The Illinois River at Peoria reaches flood stage at 18 feet and set its record at 29.35 feet on April 23, 2013 — a crest that overtopped the riverfront and was held back downtown by an improvised 30,000-sandbag wall on Water Street. Bottomland siting here is a flood-elevation question before it is a geotechnical one."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Frozen ground; average highs near 33°F with colder snaps", "earthworkConcrete": "restricted", "note": "Winter concrete protection mandatory; metro counties begin posting evaluations mid-month" },
+      { "month": "Feb", "groundConditions": "Frost at seasonal depth; freeze-thaw cycling begins late month", "earthworkConcrete": "restricted", "note": null },
+      { "month": "Mar", "groundConditions": "Thaw; loess and alluvial subgrades soften badly when wet", "earthworkConcrete": "constrained", "note": "County postings typically in force; watch early river rises" },
+      { "month": "Apr", "groundConditions": "Drying uplands; river flood risk peaks (2013 record crest was April 23)", "earthworkConcrete": "workable", "note": "Bottomland work hostage to river stage; postings lift mid-month" },
+      { "month": "May", "groundConditions": "Firm on uplands; wettest month of the year (~4.7 in.)", "earthworkConcrete": "favorable", "note": "Plan dewatering and SWPPP maintenance on open cuts" },
+      { "month": "Jun", "groundConditions": "Warm, workable; thunderstorm season", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Hot and generally productive; average highs mid-80s°F", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Aug", "groundConditions": "Workable; convective rain in bursts", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Sep", "groundConditions": "Drying and firm; prime production", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Cooling; first freeze typically arrives", "earthworkConcrete": "favorable", "note": "Inactive-season clearing work typically begins" },
+      { "month": "Nov", "groundConditions": "Frost begins taking hold late month", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice begins" },
+      { "month": "Dec", "groundConditions": "Ground freezing; snow season underway (~26 in. annually)", "earthworkConcrete": "restricted", "note": null }
+    ],
+    "narrative": "Peoria's construction calendar has two constraint seasons instead of one. Winter is the familiar central-Illinois story — frozen ground and concrete protection from roughly December into March, with about 26 inches of annual snow. But April and May add a second, river-driven constraint that Rockford and Springfield largely lack: the Illinois River's flood season, which put the 2013 record crest through the riverfront in late April, can idle bottomland sites for weeks while upland work runs normally. We sequence valley-floor scopes into summer and fall and hold spring for bluff and terrace work. Verify monthly figures against NWS Lincoln (ILX) climate records for the Peoria station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Thick loess, terrace outwash, and valley fill mean refusal on rock is uncommon at telecom foundation depths; deep drilled work near the bluffs should still be confirmed by borings.",
+    "aggregateHaulNote": "Sand and gravel is produced from the valley's own terrace deposits (documented county-wide by ISGS Circular 381), keeping granular material hauls short.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": "City ROW permitting adds a contractor license and bonding step ahead of the first permit; state-route permits run through the local District 4 office.",
+    "prevailingWageExposure": "The Illinois Prevailing Wage Act (820 ILCS 130) covers public-body work and expressly includes fiber-optic installation for broadband providers — BEAD and municipally sponsored fiber scopes in the Peoria area price at prevailing rates.",
+    "unionJurisdictionNote": "Peoria is a long-standing union trades market with strong building-trades presence; confirm jurisdiction assignments during buyout.",
+    "seasonalPremiumNote": "Winter carries frost and protection premiums; spring adds river-stage risk on bottomland sites — a schedule contingency, not just a cost line.",
+    "narrative": "What moves a Peoria civil number is position relative to the river. A bluff-top compound prices around moisture management in loess — drainage detailing, subgrade protection in wet months, and conservative bearing assumptions until borings land. A terrace site prices around trench support in clean granular soils. A bottomland site prices around water: dewatering tied to river stage, floodplain permitting, elevated or deepened foundations, and a real spring-schedule contingency after what 2013 demonstrated. Crossings are the other lever — the TZPR and its nine interchange carriers ring the terminal, and every railroad touch adds permit time and flagging cost. Rock, at least, rarely shows up in the number. Drivers only; unit pricing comes from borings and the month on the calendar."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Illinois has no statewide general contractor license; municipalities regulate contractors locally, and Peoria specifically requires a city contractor license — with a $10,000 bond for sidewalk and drive-approach work — before right-of-way permits issue. Statewide licensing exists only for roofing (IDFPR) and plumbing (IDPH). Public-body scopes carry Illinois Prevailing Wage Act obligations including certified payroll.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["flood", "tornado", "ice storm", "extreme cold"],
+    "designImplications": "The 2013 record crest defines the local hazard hierarchy: near the river, flood elevation and floodplain permitting shape siting before wind or frost enter the conversation, and generator fuel systems on low ground need containment designed for inundation scenarios. Convective wind and ice support conservative anchorage on exposed bluff-top compounds. Publish numeric wind, ice, and snow criteria only after ASCE 7 and TIA-222 county values are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "New McClugage Bridge eastbound span opens across the Illinois River",
+        "detail": "IDOT opened the $167 million eastbound McClugage Bridge (US-150) in December 2024 — three lanes plus a multiuse path — with demolition of the 1948 span completed in September 2025, part of over $350 million of IDOT bridge work in the Peoria area.",
+        "category": "transportation",
+        "sourceUrl": "https://idot.illinois.gov/programs-and-projects/featured-projects/peoria---tazewell-counties---mcclugage-bridge-project.html",
+        "asOf": "2024-12-19"
+      },
+      {
+        "headline": "i3 Broadband keeps expanding its home-market fiber network",
+        "detail": "East Peoria-headquartered i3 Broadband announced continued expansion of its fiber footprint across Peoria neighborhoods, extending the metro's densest FTTH network.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.i3broadband.com/2024/01/02/i3-fiber-internet-expands-in-peoria-illinois/",
+        "asOf": "2024-01-02"
+      },
+      {
+        "headline": "Illinois BEAD final proposal funds ~160,000 locations statewide",
+        "detail": "Illinois' $990M+ BEAD final proposal (76% wired) moves toward award execution, putting rural central-Illinois unserved locations around the Peoria metro in the build pipeline.",
+        "category": "broadband program",
+        "sourceUrl": "https://dceo.illinois.gov/broadband/bead.html",
+        "asOf": "2025-09-30"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["long-haul and metro route construction", "regen and amplifier site civil"],
+      "narrative": "Peoria fiber civil is a crossing problem wearing a construction hat. The Illinois River cuts the metro in half, so any route linking the two banks commits to a bridge attachment or a directional bore under the river approaches — and on land, the Tazewell & Peoria Railroad's 24 route miles plus 100-plus miles of yard track mean a downtown or riverfront alignment can hit railroad property several times before it reaches its hut. We design bore profiles for the ground each side offers: dry-standing loess in the bluff cuts, running sand on the terraces, and wet alluvium in the bottoms. The demand side is home-grown — i3 Broadband, headquartered in East Peoria, keeps densifying its FTTH network, and Illinois' BEAD round reaches the rural edges of the metro. JULIE's two-working-day window and Peoria's contractor-license-first ROW process get sequenced before any rig mobilizes.",
+      "localSpecificsReferenced": [
+        "Illinois River crossing constraint",
+        "TZPR terminal railroad network",
+        "i3 Broadband East Peoria HQ / expansion",
+        "Peoria ROW contractor license requirement"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": ["small cell and DAS node civil", "ice bridge and cable tray"],
+      "narrative": "Wireless civil around Peoria splits by elevation. Bluff and upland sites sit on Peoria Silt loess — the deposit is literally named for this place — which rewards careful compound drainage and moisture protection of bearing soils, and punishes builds that let water stand against a foundation. Valley sites trade that for high groundwater and, on low ground, the flood-elevation lessons of April 2013. Rural shelter sets answer to three different county posting authorities: Peoria County's highway department plus Tazewell and Woodford across the metro, with Woodford holding a standing 5-ton-per-axle seasonal limit evaluated January 15 through April 15. Small-cell work proceeds under the state Small Wireless Facilities Deployment Act, extended to 2030. The city's 2018 IBC governs structures, but its adopted frost depth is a confirmed gap we close before publishing foundation numbers.",
+      "localSpecificsReferenced": [
+        "Peoria Silt loess (type locality)",
+        "Woodford County 5-ton axle posting window",
+        "2013 flood elevation legacy",
+        "Peoria 2018 IBC adoption"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": ["heavy haul access and crane pads", "hyperscale campus civil support"],
+      "narrative": "Peoria has no announced hyperscale campus, and an honest edge strategy here starts from that fact. What the metro does have is a heavy-industrial skeleton left by a century of Caterpillar-anchored manufacturing: rail-served corridors along both riverbanks with TZPR switching access, robust Ameren Illinois distribution (the utility's District 4-area construction office sits at 300 Liberty Street downtown), and redevelopment momentum pulling mixed-use projects into the Warehouse District south of downtown. Edge deployments here ride that skeleton — enclosure and micro-DC pads at industrial and carrier sites, transformer yards, and campus conduit where fiber density already exists on the i3 and AT&T networks. Our civil scope is the pad, the duct bank, the generator yard, and the heavy-haul access; the river's split geography means we stage crossings and material deliveries around the metro's short list of bridges.",
+      "localSpecificsReferenced": [
+        "TZPR rail-served industrial corridors",
+        "Ameren Illinois Peoria construction office",
+        "Warehouse District redevelopment",
+        "McClugage/Murray Baker bridge geography"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 178,
+      "driveTimeHours": 3.0,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Peoria", "Tazewell", "Woodford"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Peoria is an all-interstate run from our yard: I-380 south, I-80 east across the Quad Cities, then I-74 down through Galesburg into the metro — 178 road miles, about three hours door to gate. That routing is its own advantage in winter, because four-lane interstate the whole way means the run survives weather that would close a two-lane shortcut. In practice, single-day scopes — inspections, small pours, vault sets, punch-list returns — work as long day trips, and production scopes run as overnight rotations with crews working the site consecutively rather than commuting. East-bank work in Tazewell County adds a river crossing to the day's logistics but no meaningful distance; Woodford County sites ride IL-116/US-24 out of the same approach. Emergency response commitments are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What building code applies to telecom structures in Peoria?",
+      "answer": "The City of Peoria adopted the 2018 International Building Code and companion 2018 I-codes, with the 2017 National Electrical Code, effective May 1, 2021. Local amendments live in the city's design criteria document — including the adopted frost depth, which we treat as unconfirmed until read directly — so foundation design values get verified against that document, not assumed.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for fiber work in Peoria?",
+      "answer": "The Right-of-Way Permits Section of Peoria Public Works (3505 N Dries Lane, 309-494-8800). Two things distinguish the process: the contractor must hold a City of Peoria license before permits issue — with a $10,000 bond for sidewalk and drive-approach work — and applications process in about 48 hours once that license is in place. Unpermitted ROW work is subject to removal at the contractor's cost.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How do fiber routes get across the Illinois River at Peoria?",
+      "answer": "On a short list of structures or under the river approaches by directional bore. The crossings are the Murray Baker (I-74), the new eastbound McClugage span opened in December 2024, the Bob Michel, and the Cedar Street bridge. Bridge attachments need the bridge owner's approval; bores need geotech on both banks, where conditions differ — loess bluffs on one side, wet alluvium in the bottoms.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroads affect underground routes in the Peoria area?",
+      "answer": "Primarily the Tazewell & Peoria Railroad, a Genesee & Wyoming terminal line with about 24 route miles plus over 100 miles of yard and industrial track wrapped around both banks of the river. It interchanges with nine carriers — BNSF, CN, NS, UP, Iowa Interstate, Keokuk Junction, TP&W, Illinois & Midland, and Pioneer Industrial — so confirming which railroad owns a specific crossing is step one, and filing early is step two.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do seasonal weight limits affect shelter hauls around Peoria?",
+      "answer": "Yes, and by county. Woodford County holds a standing seasonal limit of 5 tons per axle, evaluated each Monday and Thursday from January 15 through April 15; Tazewell and Peoria counties post their own systems, and townships add more. A spring shelter set to a rural site gets routed against every list on the route, or scheduled after the postings lift in mid-April.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you build on the Peoria riverfront or bottomlands?",
+      "answer": "Only with the 2013 flood in the design basis. The Illinois River at Peoria hits flood stage at 18 feet and crested at a record 29.35 feet on April 23, 2013, overtopping the riverfront. Bottomland telecom sites need floodplain permitting, flood-elevation-aware pad design, and a spring schedule contingency tied to river stage — or a better parcel up the bluff.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What soil should I expect excavating on Peoria's bluffs?",
+      "answer": "Peoria Silt — the wind-blown loess that geologists named for this city — up to roughly 40 feet thick on uplands flanking the river. It cuts cleanly and stands well dry, but it is moisture-sensitive, so excavation support, compound drainage, and bearing-soil protection during wet months drive the design. Valley terraces below carry sand and gravel that behaves completely differently. Borings govern.",
+      "segment": "general"
+    },
+    {
+      "question": "When is an IEPA stormwater permit needed on a Peoria site?",
+      "answer": "At one acre of ground disturbance, or below that when the site belongs to a larger common plan. Illinois EPA's general permit ILR10 requires the SWPPP first, then an electronic NOI with roughly 30-day processing and a $700-$1,000 fee depending on acreage. Compound builds with access roads reach an acre more often than expected.",
+      "segment": "general"
+    },
+    {
+      "question": "What's the lead time for new electric service to a hut or compound in Peoria?",
+      "answer": "Set it from Ameren Illinois' written confirmation, not from an average. Ameren is the delivery utility for the metro, with construction services reachable through its Peoria office at 300 Liberty Street; new-service applications run through Ameren's construction process, and published lead times were not found in this research pass. We file the utility application at site-acquisition stage so the service drop never becomes the critical path.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Boring versus trenching across Peoria's three grounds",
+    "body": "The bore-or-trench call in Peoria changes three times between the bluff top and the river, and pricing it as one market is how estimates go wrong. In the loess uplands, trenching is usually the value play: the silt cuts fast, stands briefly without support when dry, and restores cleanly — but only in the dry season, because wet loess turns to soup and a March trench line becomes a maintenance liability. On the valley terraces, running sand flips the logic; open cuts need boxes almost immediately, so directional boring often wins even at shallow depths, and it steers well in the granular profile. In the bottoms, water makes the decision for you: high groundwater tied to river stage means trenching needs dewatering that can dwarf the digging cost, so bores with entry and exit pits above the wet zone are the default, sized around the 2013 flood benchmark for anything that must survive inundation. Add the fixed constraints — a handful of river crossings, TZPR track on both banks — and route design becomes the estimate. Walk the alignment with the surficial geology map first; order borings where the ground changes; then choose the machine."
+  },
+  "sources": [
+    {
+      "label": "City of Peoria — Building Safety (2018 I-codes adoption)",
+      "url": "https://www.peoriagov.org/168/Building-Safety",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Peoria Public Works — permits and ROW permit process",
+      "url": "https://www.peoriagov.org/443/Permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISGS — Surficial geology of the middle Illinois River valley",
+      "url": "https://chf.isgs.illinois.edu/maps/regional/mid-il-valley-sg-report.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISGS Circular 381 — Sand and gravel resources of Peoria County",
+      "url": "http://library.isgs.illinois.edu/Pubs/pdfs/circulars/c381.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NWS Lincoln — April 2013 Illinois River flooding (Peoria record crest 29.35 ft)",
+      "url": "https://www.weather.gov/ilx/apr2013flooding",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Tazewell & Peoria Railroad — Genesee & Wyoming railroad profile",
+      "url": "https://www.gwrr.com/railroads/tazewell-and-peoria-railroad",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "IDOT — McClugage Bridge project (Peoria & Tazewell counties)",
+      "url": "https://idot.illinois.gov/programs-and-projects/featured-projects/peoria---tazewell-counties---mcclugage-bridge-project.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Woodford County — seasonal weight limits (5 tons/axle, Jan 15-Apr 15)",
+      "url": "https://www.woodford-county.org/166/Seasonal-Weight-Limits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Tazewell County Highway Department — size and weight limits",
+      "url": "https://tazewell-il.gov/highwaydepartment/highwayweightlimits/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Ameren Illinois — construction services (new service process)",
+      "url": "https://www.ameren.com/illinois/residential/construction-services",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "i3 Broadband — Peoria fiber expansion announcement",
+      "url": "https://www.i3broadband.com/2024/01/02/i3-fiber-internet-expands-in-peoria-illinois/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois EPA — construction stormwater general permit ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Underground Utility Facilities Damage Prevention Act (220 ILCS 50)",
+      "url": "https://law.justia.com/codes/illinois/chapter-220/act-220-ilcs-50/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Prevailing Wage Act (820 ILCS 130)",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2405&ChapterID=68",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois DCEO — BEAD program",
+      "url": "https://dceo.illinois.gov/broadband/bead.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Travelmath — driving distance Cedar Rapids, IA to Peoria, IL (178 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Cedar+Rapids,+IA/to/Peoria,+IL",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "The city's Local Design Criteria PDF (peoriagov.org DocumentCenter #267) holds the adopted value but would not download through the sandbox proxy; no secondary source is acceptable for frost depth. Read that document directly."
+    },
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic Ss-S1 / designRadialIceIn / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the proxy; the city's Local Design Criteria document likely lists several of these — read it from an unproxied machine."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and full ISGS county PDFs unreachable through proxy; only qualitative geology sourced from ISGS abstracts and summaries."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain administrator contact not identified in search despite the market's flood exposure; confirm within Community Development or Public Works by phone."
+    },
+    {
+      "field": "logistics — Peoria County posting specifics",
+      "attempted": "Peoria County Highway Department's own posting list/window not found (Woodford and Tazewell sourced); confirm the county's current postings directly."
+    },
+    {
+      "field": "utilities — Ameren new-service lead time; AT&T ILEC boundary confirmation",
+      "attempted": "Ameren publishes no standing commercial lead-week figure; FCC broadband data not queried for exchange boundaries."
+    },
+    {
+      "field": "seasonality — NOAA normals station table",
+      "attempted": "NCEI normals for the Peoria (PIA) station not directly readable; calendar authored from NWS-derived secondary figures and needs the station-table check."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

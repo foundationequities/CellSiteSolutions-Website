@@ -1,0 +1,702 @@
+{
+  "identity": {
+    "slug": "lincoln",
+    "city": "Lincoln",
+    "state": "Nebraska",
+    "stateSlug": "nebraska",
+    "stateAbbr": "NE",
+    "counties": [
+      "Lancaster"
+    ],
+    "msa": "Lincoln, NE (Lancaster and Seward counties)",
+    "tier": 2,
+    "latitude": 40.8136,
+    "longitude": -96.7026,
+    "elevationFt": 1176,
+    "population": {
+      "value": 298000,
+      "source": "U.S. Census Bureau 2024-vintage estimate as republished by World Population Review (confirm vintage against Census QuickFacts)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-80",
+      "I-180"
+    ],
+    "majorRoutes": [
+      "US-77",
+      "US-6",
+      "US-34",
+      "NE-2"
+    ]
+  },
+  "metadata": {
+    "title": "Lincoln, NE Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Lincoln, NE — foundations, duct bank, and compound work for fiber, wireless, and edge builds in LES public-power territory.",
+    "h1": "Telecom Site Civil Construction in Lincoln, Nebraska",
+    "intro": "Two facts set Lincoln apart from every market its size: the whole city was passed with fiber before most state capitals had a plan — ALLO built it over 300-plus miles of city-owned conduit between 2016 and 2019 — and its electricity comes from Lincoln Electric System, a municipally governed utility in the only state served entirely by public power. CellSite Solutions builds the civil layer under that infrastructure from our Cedar Rapids yard, one interstate run west on I-80: fiber laterals and vault sets in established right-of-way, wireless compounds and shelter foundations across Lancaster County, and the utility-yard scope now following Google's announced Lincoln data center. Salt Creek's levee-lined floodplain and the city's own ROW permitting decide how that work gets sequenced.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC, adopted as the Lincoln Building Code in Lincoln Municipal Code Ch. 20.06)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Eastern Nebraska is a low-seismicity region; wind and ice, not seismic, govern telecom structures here. Publish numeric Ss/S1 only after a USGS design-maps query at site coordinates, and treat site class as site-specific."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Lincoln lies in the glaciated till plains of eastern Nebraska: pre-Illinoian glacial till mantled by Wisconsinan loess (Peoria and Gilman Canyon formations) on the uplands, with alluvium along Salt Creek and its tributaries. Bedrock is the Cretaceous Dakota Formation — sandstones and mudrocks, the only rock formation naturally exposed in the region — and saline groundwater moving through it feeds the salt marshes that gave Salt Creek its name. (Salt Basin of Lancaster County geomorphology literature; UNL Conservation and Survey Division landform mapping.)",
+    "dominantSoilTypes": [
+      "Peoria Formation loess (upland silts)",
+      "Pre-Illinoian glacial till",
+      "Salt Creek alluvium (floodplain sites)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping applies — the underlying Dakota Formation is sandstone and mudrock, not soluble carbonate."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Upland Lincoln sites are loess over till: uniform, excavator-friendly ground where spread footings and thickened shelter pads below the locally amended frost depth are the default — though we design to that depth only after reading the amended code table, and have not published a number here. The Salt Creek corridor is the exception that matters: softer, wetter alluvium and a levee-lined mapped floodplain that can set pad elevation and permitting before bearing capacity is even discussed. Weathered Dakota sandstone can appear in deeper excavations on flanks of the Salt basin — a nuisance more than a cost driver, but worth a boring log. Site-specific geotechnical investigation governs every foundation; the landform map only tells you which questions to ask first."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Lincoln Building & Safety Department",
+        "url": "https://www.lincoln.ne.gov/City/Departments/PDS/Building-Safety/Codes",
+        "phone": "402-441-7521",
+        "typicalReviewDays": null,
+        "note": "Also administers excavation and street-use permit bonds and insurance for work in the public right-of-way. Published standing review times are not posted — confirm the current queue directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code with local amendments, adopted as the Lincoln Building Code (Lincoln Municipal Code Ch. 20.06)",
+      "source": "Lincoln Municipal Code Ch. 20.06 via the city's code portal — https://online.encodeplus.com/regs/lincoln-ne/doc-viewer.aspx?secid=10125 — attribution from code-compilation services; open sec. 20.06.010 directly before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities in the ROW follow Nebraska's statewide Small Wireless Facilities Deployment Act (LB 184, 2019; Neb. Rev. Stat. §§ 86-1238 et seq.), which standardizes rates and access while the city retains zoning and ROW management. City ROW permitting runs through Lincoln Transportation & Utilities.",
+    "rowPermitAuthority": {
+      "name": "Lincoln Transportation and Utilities (LTU) — Right of Way Services / ROW Construction Management",
+      "url": "https://www.lincoln.ne.gov/City/Departments/LTU/Transportation/ROW-Services",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Work on state-highway ROW requires an NDOT permit first — the city requires a copy of the state permit before issuing its own construction permit. Bond and insurance requirements are handled through Building & Safety."
+    },
+    "stateDotDistrict": {
+      "name": "Nebraska DOT District 1 (southeast Nebraska), headquartered in Lincoln",
+      "url": "https://dot.nebraska.gov/media/kfgfb2u4/dist-map-with-contacts.pdf",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NDOT central headquarters is also in Lincoln at 1500 Nebraska Parkway."
+    },
+    "oneCallCenter": {
+      "name": "Nebraska811",
+      "url": "https://nebraska811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Locate requests at least two business days — and not more than ten — before excavation, under the One-Call Notification System Act administered through the State Fire Marshal.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Nebraska Department of Water, Energy and Environment (formerly NDEE) — Construction Storm Water General Permit",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP prepared before filing; the department must receive the NOI at least 7 days before grading and clearing begin. Lincoln separately requires NOI/SWPPP documentation for development sites of an acre or more under its MS4 program."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Lincoln — LTU Watershed Management (floodplain administration)",
+      "url": "https://www.lincoln.ne.gov/City/Departments/LTU/Utilities/Watershed-Management/Floodplain-and-Drainage/Be-Flood-Smart",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Salt Creek and tributary floodplains thread the city; development in mapped floodplain takes city floodplain review."
+    },
+    "permitTimelineNarrative": "Building permits run through Lincoln Building & Safety under the 2018 IBC as adopted in LMC Chapter 20.06; standing review times are not published, so confirm the current queue when building a schedule. The layers that catch telecom work specifically: an LTU right-of-way construction permit — with bond and insurance handled through Building & Safety — before any work in city ROW, and an NDOT permit first for anything touching state-highway ROW, because the city requires the state permit in hand before issuing its own. Salt Creek-mapped sites add floodplain review through Watershed Management, and an acre of disturbance triggers the DWEE construction stormwater NOI, filed at least seven days ahead with the SWPPP already written."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Lincoln Electric System (LES)",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Public power: locally owned, governed by an elected nine-member board and regulated by the City of Lincoln. Second-largest retail electric utility in Nebraska (135,000+ customers; also serves Waverly, Walton, Cheney, Emerald, Prairie Home). New-service lead times are not published — schedule from LES written confirmation."
+      }
+    ],
+    "ilec": "Windstream — legacy Lincoln Telephone & Telegraph territory (LT&T became Aliant Communications in 1996, was acquired by Alltel in 1999, and the wireline business became Windstream in 2006). Confirm exchange boundaries with the Nebraska PSC before publish.",
+    "notableFiberProviders": [
+      "ALLO Communications (citywide FTTP, built 2016–2019 over city conduit)",
+      "Windstream/Kinetic"
+    ],
+    "notableDataCenterCampuses": [
+      "Google — Lincoln campus (announced 2023, ~2M sq ft planned, under development)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw — typically late winter into April; exact postings are set by each county as frost leaves the ground",
+      "postingAuthority": {
+        "name": "Lancaster County Engineering (county road postings); NDOT for state highway restrictions",
+        "url": null,
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": null
+      },
+      "note": "Nebraska spring load restrictions are county-administered and county-posted rather than mapped statewide — the county posting, not the state system, is usually the binding constraint on a rural shelter haul. Confirm current postings with Lancaster County Engineering before scheduling."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Nebraska DOT — oversize/overweight permits",
+      "url": "https://dot.nebraska.gov/business-center/permits/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Covers state-maintained routes; most permitted movement is daytime-only. City and county road segments require separate local authorization."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "Hobson Yard on Lincoln's west side is a hub where four BNSF lines — Ravenna, Hastings, Kansas City, and Omaha — converge; fiber routes west and south of downtown should assume BNSF crossing coordination and file early."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Omaha, Lincoln and Beatrice Railway (OL&B)",
+        "crossingPermitNote": "Industrial switching shortline in north Lincoln; crossing process not published — engage the operator directly."
+      }
+    ],
+    "urbanRowRequirements": "LTU ROW Construction Management enforces Lincoln Municipal Code requirements plus the current Lincoln Standard Specifications and Standard Plans on all private work in the ROW; traffic control follows the Lincoln Traffic Control Guidelines. Excavation and street-use permits, with their bond and insurance requirements, are administered through Building & Safety."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Nebraska State Historic Preservation Office (History Nebraska)",
+      "url": "https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 regulations provide a 30-day SHPO response window from receipt of a complete submission."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Omaha District regulatory program; state water quality certification through the Nebraska Department of Water, Energy and Environment",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Omaha District (NWO)",
+    "listedSpeciesNote": "Lincoln has a species constraint almost no other market has: the endangered Salt Creek tiger beetle exists only in the saline wetlands of Lancaster and southern Saunders counties, with 1,110 acres of designated critical habitat along Little Salt Creek north of the city — roughly 90% of those wetlands are already gone, and work near the remainder gets scrutiny. The northern long-eared bat also ranges across eastern Nebraska. No county-specific mandatory clearing window was sourced; run USFWS IPaC per project and coordinate the Nebraska Ecological Services Field Office early.",
+    "floodplainPrevalenceNote": "Salt Creek and its tributaries carry a federally built levee and channel system through Lincoln, locally sponsored by the Lower Platte South NRD. A 1987 USACE study concluded restoring the full system to its original 100-year design protection was not economically feasible, and the NRD is working through a System-Wide Improvement Framework — so treat 'behind the levee' as a screening flag, not a guarantee, and expect floodplain review on creek-corridor sites."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Ground frozen; arctic outbreaks bring subzero stretches",
+        "earthworkConcrete": "restricted",
+        "note": "Cold-weather concrete protection on any pour"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Deepest seasonal frost; thaw can start late in the month",
+        "earthworkConcrete": "restricted",
+        "note": "County spring postings can begin as thaw starts"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Freeze-thaw cycling; soft, saturated subgrades",
+        "earthworkConcrete": "constrained",
+        "note": "Spring load postings on county roads; late blizzards still possible"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Ground firming; late freezes taper off",
+        "earthworkConcrete": "workable",
+        "note": "Severe-weather season opens"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Fully workable; peak thunderstorm and hail season begins",
+        "earthworkConcrete": "favorable",
+        "note": "Erosion control and SWPPP maintenance earn their keep"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and productive between storm cells",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot midsummer; manage crew heat and concrete temperature",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot, trending drier late in the month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Drying, mild — a prime production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling; first freeze typically arrives mid-fall",
+        "earthworkConcrete": "favorable",
+        "note": "Push open foundations to closure before ground takes frost"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost establishing late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice resumes"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing; snow and ice events arrive",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Lincoln's construction year is continental: frozen ground from roughly December into March, a muddy freeze-thaw shoulder while county road postings are up, then a long productive core from late April through October. The catch in that core is convective — May through August is eastern Nebraska's thunderstorm and hail season, which costs pour windows and punishes unsecured sites more than it costs whole weeks. Winter work is normal here; it simply prices in frost excavation and concrete protection. Month-by-month figures should be confirmed against the NOAA NCEI normals for the Lincoln Airport station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Bedrock is Dakota Formation sandstone and mudrock at depth; telecom-scope excavations rarely reach it, though weathered sandstone can turn up in deeper duct bank runs on flanks of the Salt basin.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Nebraska has no state prevailing wage law — public-work bidders file a fair-labor-standards statement under Neb. Rev. Stat. § 73-102 — while federal Davis-Bacon applies to federally funded work over $2,000, including Nebraska's $405M BEAD builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "December–March pours carry frost excavation and protection cost; spring county road postings can detour or delay rural hauls until they lift.",
+    "narrative": "Lincoln's cost drivers are sequence and season more than ground. The ground is cheap to dig — loess and till, no rock premium — so what moves a number is winter (frost excavation and concrete protection from December into March), permitting order (the NDOT permit must precede the city's on state-highway ROW, and floodplain review precedes design on Salt Creek-corridor sites), and the paperwork tier a funding source drags in, since Davis-Bacon rides on any BEAD-funded rural segment. Mobilization from Cedar Rapids is real but modest at this range — an overnight, not a program line. Drivers only, never unit pricing: every site prices to its borings, its flood map, and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Nebraska issues no statewide general contractor license. Contractors and subcontractors doing business in the state register under the Nebraska Contractor Registration Act with the Department of Labor — an annual registration, with a current workers' compensation certificate on file for any contractor with employees — and electrical work is licensed separately at the state level. There is no state prevailing wage act; bidders on public work file the § 73-102 fair-labor-standards statement, and Davis-Bacon governs federally funded scopes.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "ice storm",
+      "extreme cold",
+      "flood"
+    ],
+    "designImplications": "Eastern Nebraska's severe-convective season makes conservative anchorage and hail-tolerant equipment specification the default, and ice storms argue for structural margin — though TIA-222 county ice values are published here only once confirmed. Flood exposure is concentrated along Salt Creek, where levee-protected does not mean risk-free, so elevation screening is a siting-stage task. Winter cold governs concrete practice, and the amended frost depth is verified against the code table before any design claim is made.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google's Lincoln data center advances through power planning",
+        "detail": "Google confirmed its Lincoln campus in 2023 as part of a $1.2B Nebraska investment, with planning documents describing roughly 2 million sq ft; a March 2026 report on the utility filing said the proposed load would exceed current citywide demand, making LES interconnection the pacing item.",
+        "category": "data center",
+        "sourceUrl": "https://flatwaterfreepress.org/google-proposes-nebraska-data-center-requiring-more-power-than-all-of-lincoln/",
+        "asOf": "2026-03-13"
+      },
+      {
+        "headline": "Nebraska's $405M BEAD final proposal approved by NTIA",
+        "detail": "NTIA approved Nebraska's BEAD final proposal in December 2025, moving the state's roughly 29,600 eligible locations into implementation with construction ramping through 2026.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+        "asOf": "2025-12-07"
+      },
+      {
+        "headline": "PSC awards $20M+ in Nebraska Broadband Bridge grants",
+        "detail": "The Nebraska Public Service Commission's January 2025 order (C-5561) funded 22 rural broadband projects statewide in the program's fourth cycle.",
+        "category": "broadband program",
+        "sourceUrl": "https://psc.nebraska.gov/for-consumers/psc-awards-nebraska-broadband-bridge-program-grants",
+        "asOf": "2025-01-14"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Lincoln's fiber market is unusual because the mainline is already built: the city leased its 300-plus miles of municipally owned conduit under the arterials, and ALLO used it to pass every home and business between May 2016 and April 2019. Today's in-town civil work is therefore laterals, vault sets, and restoration inside a mature network, where LTU's ROW construction permitting and the Lincoln Standard Specifications govern production — and where anything touching a state highway needs the NDOT permit before the city will issue its own. On Lancaster County's rural edges, Nebraska's $405M BEAD program (final proposal approved December 2025) and the PSC's Broadband Bridge grants fund new routes where county road postings and BNSF crossings near Hobson Yard set the schedule. Alignments through the Salt Creek corridor add floodplain screening before design.",
+      "localSpecificsReferenced": [
+        "ALLO citywide build over 300+ miles of city-owned conduit (2016–2019)",
+        "LTU ROW construction permitting",
+        "Nebraska BEAD final proposal (Dec 2025)",
+        "BNSF Hobson Yard crossings"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Lincoln runs through two frameworks most markets don't have. Small cells in the ROW follow Nebraska's Small Wireless Facilities Deployment Act (LB 184, 2019), which standardized rates and timelines statewide while leaving the city its zoning and ROW management; and power coordination goes through Lincoln Electric System — a municipal public-power utility with its own elected board, not a regional investor-owned desk. Compound work is winter-governed: footings go below a locally amended frost depth we will publish only after verifying the code table, and December-through-March pours carry protection cost. Siting has a quieter constraint too — Salt Creek's levee-lined floodplain threads the city, and the saline wetlands north of town that host the endangered Salt Creek tiger beetle are exactly the ground a compound should never be scoped on without early screening.",
+      "localSpecificsReferenced": [
+        "Nebraska Small Wireless Facilities Deployment Act (LB 184)",
+        "Lincoln Electric System public-power coordination",
+        "Salt Creek floodplain and levee system",
+        "Salt Creek tiger beetle saline wetlands"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Google made Lincoln a named data center geography: the company confirmed a campus here in 2023 within a $1.2 billion Nebraska program, planning documents describe roughly two million square feet, and a March 2026 utility-filing report put the site's eventual load above the entire city's current demand — which says as much about interconnection lead time as about scale. The civil scope that buildout throws off is ours: transformer and switchgear pads, campus duct bank, generator yards, and the security and heavy-haul access around them, coordinated with LES on service. Beyond hyperscale, the capital's edge demand is institutional — state agency networks headquartered in Lincoln and the University of Nebraska–Lincoln campus concentrate compute that arrives as hardened enclosure pads and utility-yard work. The ground cooperates: loess over till, no shallow rock, so schedule rather than excavation is usually the constraint.",
+      "localSpecificsReferenced": [
+        "Google Lincoln data center (announced 2023, ~2M sq ft)",
+        "LES interconnection and public-power process",
+        "State of Nebraska agency networks",
+        "University of Nebraska–Lincoln"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 322,
+      "driveTimeHours": 5.6,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Lancaster",
+      "Seward"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Lincoln is one interstate from our Cedar Rapids yard — west on I-80 through Des Moines and Omaha, roughly 320 road miles — which keeps it inside regional working range: planned work mobilizes the evening before and crews are productive the next morning, and multi-day scopes run without remobilization. The honest caveats: that distance is still a seed estimate until ops runs real routing; winter can close I-80 across western Iowa for a day at a time, so cold-season mobilizations carry schedule slack; and no emergency-response commitment for Lancaster County is stated here — that requires ops sign-off first. What the range does reliably support is crew consistency across a Lincoln program: the same people and the same QA on every visit, without pretending to a local office we don't have.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who issues building permits for a telecom shelter or compound in Lincoln?",
+      "answer": "The City of Lincoln Building & Safety Department, under the 2018 IBC as adopted with amendments in Lincoln Municipal Code Chapter 20.06. Standing review times aren't published, so we confirm the current plan-review queue when building a project schedule rather than assuming one.",
+      "segment": "general"
+    },
+    {
+      "question": "What permits does fiber work in a Lincoln street actually need?",
+      "answer": "An LTU right-of-way construction permit before anything happens in city ROW, with bond and insurance squared away through Building & Safety — and if the alignment touches state-highway right-of-way, the NDOT permit comes first, because the city requires a copy of it before issuing its own. Traffic control follows the Lincoln Traffic Control Guidelines. We sequence the state permit ahead of the city application to keep the schedule honest.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How far in advance do we call Nebraska811 before digging in Lincoln?",
+      "answer": "At least two business days and no more than ten, excluding weekends and holidays, under Nebraska's One-Call Notification System Act. Every bore, vault set, and trench on our schedule carries that ticket lead built in.",
+      "segment": "fiber"
+    },
+    {
+      "question": "When does a Lincoln site need a construction stormwater permit?",
+      "answer": "At one acre of disturbance — less if the work is part of a larger common plan. The Nebraska Department of Water, Energy and Environment must receive the NOI at least seven days before grading starts, with the SWPPP already prepared, and Lincoln's own MS4 program requires NOI/SWPPP documentation for development sites of an acre or more. Compound-plus-access-road scopes cross the acre line more often than expected.",
+      "segment": "general"
+    },
+    {
+      "question": "Do small cell rules in Lincoln differ from the rest of Nebraska?",
+      "answer": "The framework is statewide: the Small Wireless Facilities Deployment Act (LB 184, 2019) standardized ROW access, rates, and timelines for small wireless facilities across Nebraska, while cities keep zoning and ROW management. In Lincoln that means node civil work still runs through LTU's ROW permitting and the city's traffic-control standards.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Lincoln?",
+      "answer": "Lincoln Electric System — a municipal public-power utility governed by an elected board, serving 135,000+ customers in Lincoln and several surrounding towns. Nebraska is the only state served entirely by public power, and the process reflects it: local, board-governed, and not published as a standard lead time, so we get LES's written service confirmation during scoping.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does the Salt Creek floodplain affect where a site can go in Lincoln?",
+      "answer": "Yes, and more than the levees suggest. Salt Creek carries a federally built levee and channel system through the city, but a 1987 Corps study found restoring full 100-year design protection wasn't economically feasible, and improvements are still being worked through a SWIF plan. We screen creek-corridor sites against the flood map first and expect city floodplain review there — 'behind the levee' is a flag to check, not an answer.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What's driving telecom construction demand in Lincoln right now?",
+      "answer": "Three things: Google's Lincoln data center — announced 2023, roughly two million square feet in planning documents, with a proposed load that a March 2026 report said exceeds current citywide demand; Nebraska's $405M BEAD program moving into construction after December 2025 federal approval; and the mature ALLO fiber network, which keeps steady lateral, vault, and restoration work flowing in established ROW.",
+      "segment": "edge"
+    },
+    {
+      "question": "Are there wildlife constraints on telecom sites around Lincoln?",
+      "answer": "One that's unique on Earth: the endangered Salt Creek tiger beetle lives only in the saline wetlands of Lancaster and southern Saunders counties, with 1,110 acres of critical habitat designated along Little Salt Creek north of the city. Work near those wetlands draws real scrutiny. We run a USFWS IPaC screen per project and engage the Nebraska field office early on anything north of town.",
+      "segment": "general"
+    },
+    {
+      "question": "Can a shelter pad be poured in Lincoln in winter?",
+      "answer": "Yes — frozen ground from December into March means frost excavation, heated protection or blankets, and admixtures, all priced up front as a seasonal premium rather than discovered mid-pour. The governing footing depth comes from Lincoln's amended code table, which we verify directly before design; we don't publish a frost number we haven't read in the code.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Spread footing or pier in Lincoln: let the landform decide before the estimator does",
+    "body": "Lincoln foundation choices sort by landscape position before anything else. On the uplands you're in loess over pre-Illinoian till — consistent, workable ground where a conventional spread footing or thickened shelter pad below the code frost depth is almost always the economical answer, and the real winter question is protection cost, not feasibility. Drop into the Salt Creek corridor and the calculus changes twice at once: the alluvium is softer and wetter, which argues for deeper bearing or drilled piers, and the mapped floodplain — levee system notwithstanding — can dictate pad elevation and permitting before soil mechanics get a vote. Those levees were federally built decades ago, a 1987 Corps study already concluded full 100-year restoration wasn't economically feasible, and the NRD is still working through system-wide improvements; treat a levee-adjacent parcel as a screening question, not a solved one. Two working rules follow. First, pull the flood map before the geotech scope, because the map can move the site and the borings can't. Second, don't price a foundation to a frost depth nobody has verified — Lincoln's number lives in its amended code table, and we read the section text before we design to it. The borings then settle whatever the map and the code started."
+  },
+  "sources": [
+    {
+      "label": "Lincoln Municipal Code Ch. 20.06 — Lincoln Building Code (2018 IBC adoption)",
+      "url": "https://online.encodeplus.com/regs/lincoln-ne/doc-viewer.aspx?secid=10125",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lincoln LTU — Right of Way Services (permits and construction management)",
+      "url": "https://www.lincoln.ne.gov/City/Departments/LTU/Transportation/ROW-Services",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lincoln — ROW permit request procedure (state permit precedes city permit)",
+      "url": "https://www.lincoln.ne.gov/files/sharedassets/public/v/2/ltu/transportation/right-of-way-services/construction/row-permit-request-procedure.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska811 — two-business-day locate notice",
+      "url": "https://nebraska811.com/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska DWEE — construction storm water general permit (1-acre trigger, 7-day NOI)",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lincoln — NOI/SWPPP for development sites one acre or greater",
+      "url": "https://www.lincoln.ne.gov/City/Departments/LTU/Utilities/Watershed-Management/Requirements-and-Procedures/Erosion-and-Sediment-Control/NOI-and-SWPPP/Development-Sites",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Lincoln Electric System — public power overview",
+      "url": "https://www.les.com/company/public-power",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Community Networks — citywide fiber in Lincoln via municipal conduit (ALLO, 2016–2019)",
+      "url": "https://communitynets.org/content/citywide-fiber-network-nears-completion-lincoln-nebraska-due-municipal-conduit",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Data Center Dynamics — Google confirms 2M sq ft Lincoln data center project",
+      "url": "https://www.datacenterdynamics.com/en/news/google-confirms-involvement-in-2-million-sq-ft-data-center-project-in-lincoln-nebraska/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Flatwater Free Press — Google's proposed Lincoln load exceeds citywide demand (Mar 2026)",
+      "url": "https://flatwaterfreepress.org/google-proposes-nebraska-data-center-requiring-more-power-than-all-of-lincoln/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Office of the Governor — federal approval of Nebraska's BEAD final proposal ($405M)",
+      "url": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Lower Platte South NRD — Salt Creek levee system (sponsorship, SWIF)",
+      "url": "https://www.lpsnrd.org/projects/major-projects/salt-creek-levee",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Legislature — LB 184 (2019), Small Wireless Facilities Deployment Act",
+      "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=37181",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Department of Labor — Contractor Registration Act",
+      "url": "https://dol.nebraska.gov/conreg",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "History Nebraska SHPO — Section 106 review and compliance",
+      "url": "https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Federal Register — Salt Creek tiger beetle critical habitat revision (1,110 acres, 2014)",
+      "url": "https://www.federalregister.gov/documents/2014/05/06/2014-10051/endangered-and-threatened-wildlife-and-plants-revision-of-critical-habitat-for-salt-creek-tiger",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska DOT — district map with contacts (District 1, Lincoln)",
+      "url": "https://dot.nebraska.gov/media/kfgfb2u4/dist-map-with-contacts.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BNSF — Lincoln heritage page (Hobson Yard, four converging lines)",
+      "url": "https://www.bnsf.com/news-media/railtalk/heritage/lincoln.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Neb. Rev. Stat. § 71-6403 — state building code (2018 I-codes; local adoption framework)",
+      "url": "https://law.justia.com/codes/nebraska/2018/chapter-71/statute-71-6403/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Public Media — Black Hills Energy serves Lincoln (gas); merger with NorthWestern announced",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/2-natural-gas-companies-that-serve-nebraska-announce-merger-plans/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph (RC II and IV)",
+      "attempted": "ASCE 7 Hazard Tool / ATC blocked by sandbox proxy; no primary value published. One query at 40.8136, -96.7026 from an unproxied machine resolves it."
+    },
+    {
+      "field": "designCriteria.groundSnowLoadPsf + designRadialIceIn + designTempLowF/HighF",
+      "attempted": "ASCE 7 tool and TIA-222 county Annex tables not freely readable; ASHRAE design-temperature compilations unfetchable through proxy. No secondary value publishable."
+    },
+    {
+      "field": "designCriteria.seismic.ss/s1",
+      "attempted": "USGS design-maps web service blocked by proxy; only qualitative low-seismicity support recorded."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Secondary sources (deck-builder guidance) cite 42 in. for Lincoln, but RESEARCH.md requires the code section itself; the LMC 'Frost Protection' section on encodeplus returned 403 through the proxy. Read the amended table directly before publishing any value."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — section text verification",
+      "attempted": "2018 IBC attribution comes from code-compilation services (UpCodes/MeltPlan) and the LMC chapter listing; encodeplus section text was proxy-blocked. Open LMC 20.06.010 before sign-off."
+    },
+    {
+      "field": "geotech (bearing range, groundwater, corrosivity, depth to bedrock, expansive risk)",
+      "attempted": "NRCS Web Soil Survey and state geological survey PDFs unreachable through proxy; only qualitative landform geology sourced."
+    },
+    {
+      "field": "identity.population — vintage confirmation",
+      "attempted": "Census QuickFacts blocked; 298,000 is a republished 2024-vintage estimate. Confirm against QuickFacts before publish."
+    },
+    {
+      "field": "seasonality — NOAA normals station check",
+      "attempted": "NCEI normals table for the Lincoln Airport station not readable through proxy; calendar authored qualitatively pending the station table."
+    },
+    {
+      "field": "utilities.ilec — exchange boundary confirmation",
+      "attempted": "Windstream attribution rests on the LT&T → Aliant → Alltel → Windstream corporate lineage (SEC filings); Nebraska PSC exchange-boundary maps not queried."
+    },
+    {
+      "field": "logistics.seasonalLoadRestrictions — Lancaster County posting confirmation",
+      "attempted": "County-administered spring postings confirmed only from secondary permitting sources; confirm the current Lancaster County Engineering posting practice and window by phone."
+    },
+    {
+      "field": "environmental.treeClearingWindow",
+      "attempted": "No county-specific mandatory clearing window sourced for Lancaster County; USFWS IPaC unreachable through proxy. Coordinate the Nebraska Ecological Services Field Office per project."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "322 mi / 5.6 h is the seed straight-line-derived estimate; real I-80 routing not yet run. routeVerified stays false until ops checks it."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 publish gate requires at least 1 real project and 3 images; never invented."
+    }
+  ]
+}

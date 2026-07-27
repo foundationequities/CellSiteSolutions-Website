@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "slug": "springfield",
+    "city": "Springfield",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "counties": ["Sangamon"],
+    "msa": "Springfield, IL (Sangamon and Menard counties)",
+    "tier": 2,
+    "latitude": 39.7817,
+    "longitude": -89.6501,
+    "elevationFt": 594,
+    "population": {
+      "value": 112170,
+      "source": "U.S. Census Bureau 2024 American Community Survey estimate — confirm against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": ["I-55", "I-72"],
+    "majorRoutes": ["IL-4", "IL-29", "IL-97", "Business I-55 (6th/9th St)"]
+  },
+  "metadata": {
+    "title": "Springfield, IL Telecom Civil Contractor | CellSite Solutions",
+    "description": "Telecom civil construction in Springfield, IL — hut pads, duct bank, and compound work in the state capital, where CWLP's municipal grid changes the playbook.",
+    "h1": "Telecom Site Civil Construction in Springfield, Illinois",
+    "intro": "Two things make Springfield unlike any other Illinois market we serve. First, it is the state capital, so the buyer landscape tilts toward government: state-agency networks, the Illinois Century Network's Springfield operations center, and public-body contracts that carry prevailing-wage obligations by statute. Second, the electricity comes from City Water, Light & Power — the largest municipally owned utility in Illinois — which means new service to a hut or compound runs through a city department rather than an investor-owned utility's regional queue. Add a $475 million rail consolidation rebuilding the 10th Street corridor and a till plain honeycombed with abandoned coal mines, and Springfield civil work rewards contractors who do their homework. Ours starts here.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Central Illinois values trend higher than the state's northern tier as New Madrid/Wabash influence grows southward — publish Ss/S1 only from a USGS design-maps query at the site coordinates."
+    },
+    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Springfield sits on the Springfield Plain — a flat Illinoian-age glacial till plain mantled with loess, drained by the Sangamon River and its tributaries. The defining subsurface issue is man-made: Sangamon County is one of Illinois' most heavily undermined counties, with abandoned room-and-pillar coal workings beneath Springfield and surrounding communities, clustered sag-type subsidence events, and an average of about three reported subsidence events per year countywide. (ISGS Circular 575; ISGS coal mine maps, Springfield East and West quadrangles; Illinois DNR Abandoned Mine Lands program.)",
+    "dominantSoilTypes": [
+      "Loess over Illinoian glacial till (uplands)",
+      "Till-derived clay loam soils",
+      "Sangamon River alluvium (bottomland sites)"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": { "present": false, "note": null },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "The till plain itself is forgiving ground — level terrain, cohesive soils that hold a trench wall, and rock refusal rare at telecom depths. What Springfield adds is a due-diligence step most markets skip: an undermining check. Room-and-pillar coal workings underlie parts of the city and its growth corridors, subsidence sags still occur in Sangamon County every year, and a shelter pad or tower foundation over unmapped workings inherits that risk for its design life. We pull the ISGS coal mine quadrangle maps (Springfield East and West) during site screening, before geotech is even ordered, and treat a positive hit as a siting question first and a foundation-design question second. On clear ground, spread footings and conventional pads below the adopted frost depth — a value we carry as a gap until the city's code amendment is read — are the working default, with the Sangamon River bottoms adding groundwater and floodplain screening. Borings govern everything."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Springfield Public Works — Building & Zoning Division",
+        "url": "https://www.springfield.il.us/",
+        "phone": "217-789-2171",
+        "typicalReviewDays": null,
+        "note": "Building regulation is codified in Code of Ordinances Title XVII, Ch. 170; the city's current adopted code editions are listed in its 'Codes Presently Used' document, which must be read directly before design values are published. Sites outside city limits fall to Sangamon County Building & Zoning."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless collocations proceed under the Illinois Small Wireless Facilities Deployment Act (50 ILCS 840), whose sunset P.A. 103-0601 extended to January 1, 2030. Downtown, the capitol complex and multiple historic districts add SHPO and design-review sensitivity to pole and node placements.",
+    "rowPermitAuthority": {
+      "name": "City of Springfield Office of Public Works — Right-of-Way Permits",
+      "url": "https://www.springfield.il.us/Departments/PublicWorks/ApplicationPermits/OnlinePermits/2021/ApplicationPublicRightOfWay.pdf",
+      "phone": "217-789-2255",
+      "typicalReviewDays": null,
+      "note": "Public ROW permit applications run through the Office of Public Works (217-789-2255 for inspections; 217-789-2244 for sewer questions). Confirm current bonding and traffic-control requirements at application."
+    },
+    "stateDotDistrict": {
+      "name": "IDOT District 6, headquartered in Springfield",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District 6 (126 East Ash Street, Springfield) covers Sangamon, Menard, Logan, Christian, and eleven other central-west counties — the permitting office for state-route work sits in the market itself."
+    },
+    "oneCallCenter": {
+      "name": "JULIE (Illinois One-Call System), 811",
+      "url": "https://www.illinois1call.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "220 ILCS 50 requires notice for all excavation at any depth; locates must be requested no more than 14 calendar days before work begins.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Illinois EPA — Construction Site Activities General NPDES Permit No. ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "SWPPP precedes the electronic NOI through CDX; IEPA typically processes within 30 days. Fees: $700 under 5 disturbed acres, $1,000 at 5 or more."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Springfield concentrates an unusual amount of permitting authority within a few square miles: the city's Building & Zoning and ROW functions both live inside the Office of Public Works, and IDOT District 6 is headquartered on Ash Street, so most schedule questions can be resolved locally and quickly. The sequence still matters — a public-body or state-agency scope should surface its prevailing-wage and procurement conditions before pricing, the IEPA ILR10 stormwater window needs its roughly 30-day NOI runway at an acre of disturbance, and any alignment near the 10th Street rail corridor should be checked against active Springfield Rail Improvements Project construction, which is rebuilding crossings and underpasses through the corridor and can close the streets a route was drawn on."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "City Water, Light & Power (CWLP)",
+        "type": "municipal",
+        "newServiceProcessUrl": "https://www.cwlp.com/serviceshome/ServicesHome.aspx",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "CWLP, established 1911, is the largest municipally owned utility in Illinois — generation at the Dallman plant on Lake Springfield plus city-wide distribution. New service runs through CWLP's own customer service office, a city department rather than an IOU regional queue; engineering coordination is local."
+      }
+    ],
+    "ilec": "AT&T Illinois (legacy Illinois Bell territory) — confirm exchange boundaries against FCC broadband data before publishing",
+    "notableFiberProviders": ["AT&T Fiber", "i3 Broadband (west/southwest Springfield)", "Comcast/Xfinity"],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "The Illinois Century Network — the state's roughly 2,000-mile fiber backbone managed by the Department of Innovation & Technology — runs its Springfield network operations center here, anchoring connectivity for state agencies, schools, and local governments across central Illinois.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": null,
+      "postingAuthority": {
+        "name": "Sangamon County Highway Department (256 miles of county highways); townships post separately",
+        "url": "https://sangamonil.gov/departments/d-l/highway-department",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Illinois counties post seasonal weight limits locally under 625 ILCS 5/15-316 (up to 90 days); Sangamon County's specific posting windows and limits were not found published — confirm current postings with the department before a haul."
+      },
+      "note": "Central-Illinois neighbors publish concrete practice (McLean County posts January 15 through April 15), but Sangamon-specific windows must be confirmed directly — carried as a gap rather than borrowed from adjacent counties."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "IDOT Motor Carrier / ITAP (Illinois Transportation Automated Permits)",
+      "url": "https://idot.illinois.gov/doing-business/permit-and-sales-marketplace/oversize-and-overweight-permits.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ITAP covers state jurisdiction routes only; city, township, and county segments each require separate authorization for an oversize shelter haul."
+    },
+    "bridgeOrClearanceConstraints": "Active Springfield Rail Improvements Project construction along the 10th Street corridor intermittently closes crossings and rebuilds underpasses (Madison and Jefferson Street underpasses in progress) — haul routes through the east side of downtown need a current construction check.",
+    "railroads": [
+      {
+        "name": "Union Pacific (3rd Street corridor, relocating to 10th Street)",
+        "crossingPermitNote": "The Springfield Rail Improvements Project is consolidating UP and NS traffic into one multitrack 10th Street corridor; crossing applications along either corridor should be coordinated against the project's construction staging."
+      },
+      { "name": "Norfolk Southern (10th Street corridor)", "crossingPermitNote": null },
+      { "name": "Canadian National", "crossingPermitNote": null },
+      { "name": "CPKC (former Kansas City Southern reach into Springfield)", "crossingPermitNote": null },
+      {
+        "name": "Illinois & Midland Railroad (Genesee & Wyoming; Springfield-Peoria-Taylorville lines)",
+        "crossingPermitNote": "The I&M's 97-mile network radiates from Springfield toward Havana, Pekin, and Taylorville; crossings apply through the G&W permitting process."
+      }
+    ],
+    "urbanRowRequirements": "ROW permits through the Office of Public Works before any work in public right-of-way; downtown work near the capitol complex and historic districts can add design-review and coordination requirements — confirm per block."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Plan clearing for the bats' inactive season (roughly October through March); confirm site dates through IPaC",
+      "driver": "Federally listed bats — IDOT statewide northern long-eared bat guidance; Indiana bat buffers near hibernacula",
+      "source": "IDOT Circular Letter 2022-28; USFWS listing guidance"
+    },
+    "shpo": {
+      "name": "Illinois State Historic Preservation Office (IDNR) — headquartered in Springfield",
+      "url": "https://dnr.illinois.gov/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 review runs 30 days per complete digital submission. Springfield's own Lincoln-era historic fabric — multiple National Register districts downtown — makes SHPO screening a live issue on urban alignments, not a formality."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Rock Island District regulatory program",
+      "url": "https://www.mvr.usace.army.mil/missions/regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Sangamon River drainage falls within the Rock Island District's Illinois regulatory boundary; Illinois EPA issues Section 401 certifications."
+    },
+    "usaceDistrict": "Rock Island District (MVR)",
+    "listedSpeciesNote": "Northern long-eared bat guidance drives clearing windows statewide; run a project-specific USFWS IPaC query for Sangamon County parcels rather than relying on a generalized list.",
+    "floodplainPrevalenceNote": "Flood exposure concentrates along the Sangamon River and Spring Creek on the city's north and west sides rather than through the core; Lake Springfield shapes drainage to the southeast. Screen riparian parcels on the effective FIRM and identify the local floodplain administrator during due diligence — that contact was not confirmed in this research pass."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Frozen ground; winter highs typically in the 30s°F", "earthworkConcrete": "restricted", "note": "Winter concrete protection required; frost shallower than the state's northern tier" },
+      { "month": "Feb", "groundConditions": "Frost at seasonal depth; midwinter thaw windows occur", "earthworkConcrete": "restricted", "note": "Brief thaws can open workable days uncommon further north" },
+      { "month": "Mar", "groundConditions": "Early thaw; till and loess subgrades rut when saturated", "earthworkConcrete": "constrained", "note": "County/township postings in force where applied; confirm Sangamon list" },
+      { "month": "Apr", "groundConditions": "Drying; spring severe-weather season begins", "earthworkConcrete": "workable", "note": "Tornado/severe-wind watch season for crane and pour scheduling" },
+      { "month": "May", "groundConditions": "Firm and workable; regular rain", "earthworkConcrete": "favorable", "note": "SWPPP maintenance on open clay cuts — till sheds muddy runoff" },
+      { "month": "Jun", "groundConditions": "Warm, productive; convective storms", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Hot; midsummer heat can reach concrete-placement limits", "earthworkConcrete": "favorable", "note": "Hot-weather concrete practice on afternoon pours" },
+      { "month": "Aug", "groundConditions": "Hot and generally dry; workable throughout", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Sep", "groundConditions": "Drying, firm; excellent production", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Mild; first freeze typically later than northern Illinois", "earthworkConcrete": "favorable", "note": "Inactive-season clearing work opens" },
+      { "month": "Nov", "groundConditions": "Cooling; ground takes frost late", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice begins" },
+      { "month": "Dec", "groundConditions": "Ground freezing; modest snow climate (~18 in. annually)", "earthworkConcrete": "restricted", "note": null }
+    ],
+    "narrative": "Springfield owns the longest workable season of our three Illinois markets. It averages only about 18 inches of snow — roughly half of Rockford's — the frost season starts later and breaks earlier, and midwinter thaw windows show up often enough to matter for schedule recovery. The trade-offs run the other direction: spring severe-weather season is a real scheduling factor for crane picks and long pours, and July heat pushes afternoon concrete placement into hot-weather practice more often than in the northern tier. The till plain's clay soils are the rain constraint — they hold water and rut where Rockford's sand would drain. Verify monthly figures against NWS Lincoln (ILX) climate records for the Springfield station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Bedrock lies well below telecom foundation depths across the till plain; rock contingency is rarely the issue — abandoned coal workings are.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": "City permits are administered compactly through the Office of Public Works; state-route permits through the locally headquartered IDOT District 6.",
+    "prevailingWageExposure": "High in this market by design: the Illinois Prevailing Wage Act (820 ILCS 130) covers public-body work and expressly includes fiber installation for broadband providers — and Springfield's buyer mix skews toward state agencies and public bodies, so assume prevailing rates and certified payroll until a scope proves otherwise.",
+    "unionJurisdictionNote": "Central-Illinois building trades are established here; confirm jurisdiction during buyout.",
+    "seasonalPremiumNote": "Winter frost premiums run shorter than northern Illinois; summer adds hot-weather concrete measures; severe-weather season adds crane-schedule float.",
+    "narrative": "Springfield's cost profile is gentler ground, heavier paper. The digging is honest — cohesive till, level terrain, rock effectively absent at telecom depths — so excavation and foundation line items run predictable once borings confirm bearing. Three drivers move the number instead. Undermining: a parcel over mapped coal workings either gets screened out or carries investigation and design cost no other Illinois market of ours imposes. Prevailing wage: the state Prevailing Wage Act reaches fiber work for broadband providers and everything touching a public body, and in the capital that is much of the addressable market. And the rail project: $475 million of corridor reconstruction through 10th Street keeps utility relocations, crossing closures, and staging conflicts live through the east side of downtown. Mobilization from Cedar Rapids is the longest of our Illinois runs and is priced accordingly. Drivers only — sites price to borings, month, and funding source."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Illinois issues no statewide general contractor license; contractor regulation is municipal, so confirm City of Springfield registration requirements with the Building & Zoning Division ahead of the first permit. Statewide licenses exist only for roofing (IDFPR) and plumbing (IDPH). Public-body work — a large share of this market — triggers Illinois Prevailing Wage Act obligations including certified payroll and IDOL rate compliance.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["tornado", "ice storm", "extreme heat", "extreme cold"],
+    "designImplications": "Central Illinois convective season makes tornado and severe-wind exposure the headline hazard — conservative pad anchorage, shelter tie-downs, and generator fuel containment earn their keep here — while ice storms drive the restoration workload on aerial plant. Summer heat adds hot-weather concrete practice, and undermined ground adds a subsidence screen that most hazard lists omit. Publish numeric wind, ice, and snow criteria only after ASCE 7 and TIA-222 county values are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Springfield Rail Improvements Project pushes toward completion",
+        "detail": "The $475 million program consolidating UP and NS traffic from 3rd Street into one multitrack 10th Street corridor secured $157 million in federal funding (announced October 2024) for its final track-realignment segment, with Madison and Jefferson Street underpasses under construction after five earlier underpass/bridge phases.",
+        "category": "transportation",
+        "sourceUrl": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-duckworth-budzinski-announce-157-million-in-federal-funding-for-springfield-rail-improvements-project",
+        "asOf": "2024-10-25"
+      },
+      {
+        "headline": "Illinois BEAD final proposal: $990M+ toward ~160,000 locations",
+        "detail": "The Illinois Office of Broadband submitted its BEAD final proposal (September 2025) allocating more than $990 million federal plus $657 million private match, 76% wired — rural Sangamon and Menard county locations sit in the funded footprint as awards execute.",
+        "category": "broadband program",
+        "sourceUrl": "https://dceo.illinois.gov/broadband/bead.html",
+        "asOf": "2025-09-30"
+      },
+      {
+        "headline": "i3 Broadband fiber active across west and southwest Springfield",
+        "detail": "i3 Broadband's fiber network covers roughly a quarter of the city (west, southwest, and northwest Springfield), competing against AT&T Fiber's larger footprint in an actively overbuilt market.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.i3broadband.com/springfield/",
+        "asOf": "2026-07-28"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["regen and amplifier site civil", "long-haul and metro route construction"],
+      "narrative": "Springfield fiber civil serves an unusual customer stack: alongside the commercial overbuild — AT&T Fiber and i3 Broadband contesting the metro — sits the public sector, from the Illinois Century Network's Springfield operations center to the state-agency and municipal networks that cluster in a capital. That mix has a pricing consequence written into statute: the Illinois Prevailing Wage Act explicitly covers fiber installation for broadband providers, so publicly funded routes here carry certified-payroll labor rates from the first estimate. Physically the market is kind to underground work — cohesive till holds a trench, rock stays out of the bore path — but east-side alignments must be drawn around the 10th Street rail corridor while the $475M consolidation project rebuilds its crossings, and every crossing of UP, NS, CN, CPKC, or the Illinois & Midland files on the railroad's clock, not ours.",
+      "localSpecificsReferenced": [
+        "Illinois Century Network Springfield NOC",
+        "820 ILCS 130 fiber coverage",
+        "10th Street rail corridor construction",
+        "AT&T/i3 Springfield overbuild"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": ["small cell and DAS node civil", "C-band / densification upgrade civil"],
+      "narrative": "Wireless civil in Springfield starts with a map check no other market of ours requires: the ISGS coal-mine quadrangles. Parts of the city and its growth corridors are undermined by abandoned room-and-pillar workings, Sangamon County logs subsidence events every year, and a macro foundation belongs over screened ground or engineered for what is under it. Above grade the market is manageable — level till-plain compounds, shorter frost season than northern Illinois, and CWLP as a single municipal counterparty for compound power rather than an IOU regional queue. Downtown, small-cell and DAS work near the capitol complex and the city's Lincoln-era National Register districts runs under the state small-wireless act but picks up SHPO and design-review sensitivity that a suburban node never sees. Spring severe-weather season is the crane-schedule variable; we hold float for it.",
+      "localSpecificsReferenced": [
+        "ISGS Springfield East/West coal mine maps",
+        "CWLP municipal service",
+        "Capitol-area historic districts",
+        "Sangamon County subsidence record"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": ["heavy haul access and crane pads", "hyperscale campus civil support"],
+      "narrative": "Springfield's edge demand is government-shaped. No hyperscale campus is announced here, but the capital concentrates exactly the workloads that justify resilient local compute and network nodes: state data operations under the Department of Innovation & Technology, the Illinois Century Network hub, healthcare systems, and continuity-of-government requirements. The civil profile favors it — CWLP generates locally at the Dallman plant and distributes citywide, so a transformer pad or generator yard coordinates with one municipal utility whose engineering staff sits across town, not a regional IOU queue. Our scope lands as enclosure and micro-DC pads, utility yards, campus duct bank, and security hardening — bollards and compound fencing where public-sector siting demands it — each preceded by the undermining screen that Springfield ground makes non-negotiable. Heavy deliveries route around active 10th Street corridor construction on the east side.",
+      "localSpecificsReferenced": [
+        "CWLP Dallman generation / municipal distribution",
+        "Illinois Century Network hub",
+        "State-agency continuity demand",
+        "10th Street corridor construction routing"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 250,
+      "driveTimeHours": 3.9,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Sangamon", "Menard", "Logan", "Christian"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Springfield is the far end of our Illinois coverage — 250 road miles, and the only one of our three Illinois markets reached on the north-south interstates rather than an east-west run: I-380 to I-80, I-74 to Morton, then I-155 down to I-55 into the capital, about four hours of driving. At that distance we plan work in blocks, not day trips. Site walks and inspections get bundled with other central-Illinois stops; construction scopes mobilize once and run consecutive days with the crew lodged locally until the scope closes, which is more efficient for the customer than paying windshield time twice a day. The I-155/I-55 leg is flat, fast prairie interstate that rarely loses days to weather. Menard, Logan, and Christian County sites hang off the same approach within half an hour of the city. Emergency response commitments are stated only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Do abandoned coal mines really affect telecom construction in Springfield?",
+      "answer": "Yes — this is the market's defining subsurface risk. Abandoned room-and-pillar coal workings underlie parts of Springfield and surrounding Sangamon County communities, and the county averages about three reported subsidence events per year. We screen every candidate site against the ISGS coal mine quadrangle maps (Springfield East and West) before ordering geotech; a parcel over mapped workings is a siting decision first and a foundation-engineering exercise second.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How is getting electric service from CWLP different from an investor-owned utility?",
+      "answer": "City Water, Light & Power is a municipal utility — the largest municipally owned utility in Illinois, generating at the Dallman plant and distributing citywide since 1911. New service to a hut or compound runs through CWLP's own customer service office, and its engineering staff is local, so coordination happens with one city department rather than through an IOU's regional new-business queue. Lead times still get confirmed in writing before they drive a schedule.",
+      "segment": "edge"
+    },
+    {
+      "question": "Who issues right-of-way permits for underground work in Springfield?",
+      "answer": "The City of Springfield Office of Public Works, which houses both the ROW permit function (217-789-2255 for inspections) and the Building & Zoning Division. Public ROW applications are filed with Public Works before any excavation, boring, or lane closure in city right-of-way; state routes are permitted separately through IDOT District 6, headquartered locally on East Ash Street.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How does the Springfield rail project affect fiber and utility routes?",
+      "answer": "The $475 million Springfield Rail Improvements Project is consolidating Union Pacific and Norfolk Southern traffic from the 3rd Street corridor into one multitrack 10th Street corridor, building underpasses (Madison and Jefferson Streets are in progress) and realigning track through the east side of downtown. For route design that means intermittent crossing closures, utility relocations, and staging conflicts — any east-side alignment gets checked against current project construction before it is drawn.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does Illinois prevailing wage apply to broadband work in the capital?",
+      "answer": "Assume yes until the funding source proves otherwise. The Illinois Prevailing Wage Act (820 ILCS 130) covers work for public bodies and explicitly includes installation and maintenance of fiber optic cable for broadband providers. In a market whose buyers skew toward state agencies, municipalities, and publicly funded programs like BEAD, most fiber and many site scopes here price at IDOL prevailing rates with certified payroll.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does JULIE require before excavation in Springfield?",
+      "answer": "Two working days — weekends and holidays excluded — and the locate is only valid if work begins within 14 calendar days of the request. Illinois' damage-prevention law applies to every excavation at any depth, hand digging included, so the JULIE window is built into every bore, trench, and vault set we schedule.",
+      "segment": "general"
+    },
+    {
+      "question": "Can you pour foundations in Springfield in winter?",
+      "answer": "Yes, and more easily than in northern Illinois. Springfield averages only about 18 inches of snow, frost arrives later and breaks earlier than in Rockford's tier of the state, and midwinter thaw windows are common enough to help a schedule recover. Cold-weather concrete practice — protection, admixtures, frost excavation — still applies from roughly December into March and is priced up front.",
+      "segment": "general"
+    },
+    {
+      "question": "What triggers a stormwater permit on a Springfield-area site?",
+      "answer": "One acre of ground disturbance, or less when the site is part of a larger common plan of development. Coverage comes under Illinois EPA's general permit ILR10: SWPPP first, then the electronic NOI through CDX with roughly 30-day processing and a $700-$1,000 fee by acreage. The till plain's clay soils shed muddy runoff, so erosion controls get inspected hard here.",
+      "segment": "general"
+    },
+    {
+      "question": "Are there historic-preservation issues for small cells downtown?",
+      "answer": "More than in most Illinois cities. Springfield's core holds the capitol complex and multiple Lincoln-era National Register districts, and the Illinois SHPO — headquartered in this city — reviews Section 106 submissions on a 30-day clock per complete submission. Node and pole placements downtown proceed under the state small-wireless act but should budget for design-review and SHPO screening that a suburban collocation never sees.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Screen for coal workings before you size a single footing in Springfield",
+    "body": "In most of central Illinois the geotechnical question is bearing capacity; in Springfield it is what century mined the ground first. The productive move is sequencing: pull the ISGS coal mine quadrangle maps for Springfield East and West during site selection — they are free and take an afternoon — because the answer changes everything downstream. A clear parcel on the till plain is about as easy as Illinois foundation work gets: cohesive soils, flat grades, no rock at telecom depths, conventional spread footings below frost. A parcel over mapped room-and-pillar workings is a different project. Sag subsidence in Sangamon County is not hypothetical — the county averages about three reported events a year — and a shelter or tower foundation inherits that exposure for decades. Options then run from walking away (usually cheapest), to deeper investigation with borings targeted at the mine horizon, to designs that tolerate differential movement. What does not work is discovering the workings after the pad is designed, when the geotech scope was written for a routine till site. Screen first, drill second, design third — and treat an unmined parcel's boring program as confirmation, not formality."
+  },
+  "sources": [
+    {
+      "label": "City of Springfield — Codes Presently Used (Public Works current code list)",
+      "url": "https://www.springfield.il.us/Departments/PublicWorks/Forms/2023CurrentListCodes.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Springfield Office of Public Works — public ROW permit application",
+      "url": "https://www.springfield.il.us/Departments/PublicWorks/ApplicationPermits/OnlinePermits/2021/ApplicationPublicRightOfWay.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "CWLP — About (largest municipally owned utility in Illinois; Dallman plant)",
+      "url": "https://www.cwlp.com/AboutCWLP.aspx",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISGS Circular 575 — Proximity of underground mines to urban lands in Illinois",
+      "url": "https://wikiimage.isgs.illinois.edu/ilmines/webfiles/c575.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois DNR — Abandoned Mine Lands, mine subsidence",
+      "url": "https://dnr.illinois.gov/mines/aml/subsidence.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISGS — Coal mines in Sangamon County (quadrangle map index)",
+      "url": "https://wikiimage.isgs.illinois.edu/ilmines/moa_counties/maps/mines-map-Sangamon.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Sen. Durbin release — $157M federal funding, Springfield Rail Improvements Project final segment",
+      "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-duckworth-budzinski-announce-157-million-in-federal-funding-for-springfield-rail-improvements-project",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Hanson Inc. — Springfield Rail Improvements Project overview ($475M; UP/NS consolidation)",
+      "url": "https://www.hanson-inc.com/our-work/city-of-springfield-illinois-rail-improvements-project/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "IDOT Regions — District 6 (Springfield) counties and headquarters",
+      "url": "https://idot.illinois.gov/about-idot/idot-regions.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Underground Utility Facilities Damage Prevention Act (220 ILCS 50)",
+      "url": "https://law.justia.com/codes/illinois/chapter-220/act-220-ilcs-50/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois EPA — construction stormwater general permit ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Prevailing Wage Act (820 ILCS 130) — coverage incl. broadband fiber",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=2405&ChapterID=68",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "P.A. 103-0601 — Small Wireless Facilities Deployment Act extension",
+      "url": "https://www.ilga.gov/documents/legislation/publicacts/103/PDF/103-0601.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois Century Network — statewide fiber backbone (DoIT)",
+      "url": "https://icn.illinois.gov/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois DCEO — BEAD program",
+      "url": "https://dceo.illinois.gov/broadband/bead.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois & Midland Railroad — Genesee & Wyoming profile",
+      "url": "https://www.gwrr.com/railroads/illinois-and-midland-railroad",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Sangamon County Highway Department",
+      "url": "https://sangamonil.gov/departments/d-l/highway-department",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DistanceCalc — driving distance Cedar Rapids, IA to Springfield, IL (250 mi)",
+      "url": "https://distancecalc.com/how-far-from-cedar-rapids-ia-to-springfield-il",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "regulatory.adoptedBuildingCode + designCriteria.frostDepthIn",
+      "attempted": "The city's 'Codes Presently Used' PDF (springfield.il.us, revised June 2023) and Municode Ch. 170 hold the adopted editions and amendments, but neither would load through the sandbox proxy. No edition or frost depth published without reading those directly."
+    },
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic Ss-S1 / designRadialIceIn / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the proxy; resolve from an unproxied session."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and full ISGS county publications unreachable through proxy; undermining documented qualitatively, other values left null."
+    },
+    {
+      "field": "logistics.seasonalLoadRestrictions — Sangamon County window and limits",
+      "attempted": "County highway department page confirms jurisdiction (256 mi of county highways) but publishes no posting window or limits in search results; confirm by phone rather than borrowing McLean/Woodford figures."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "City floodplain administrator not identified in search; confirm within Public Works."
+    },
+    {
+      "field": "utilities — CWLP new-service lead time; AT&T ILEC boundary confirmation",
+      "attempted": "CWLP publishes no standing commercial lead time; FCC broadband data not queried for exchange boundaries."
+    },
+    {
+      "field": "seasonality — NOAA normals station table",
+      "attempted": "NCEI normals for the Springfield (SPI) station not directly readable; calendar authored from NWS/secondary snowfall and temperature figures, needs the station-table check."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires 1 project and 3 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

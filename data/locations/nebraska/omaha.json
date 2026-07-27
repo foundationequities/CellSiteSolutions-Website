@@ -1,0 +1,712 @@
+{
+  "identity": {
+    "slug": "omaha",
+    "city": "Omaha",
+    "state": "Nebraska",
+    "stateSlug": "nebraska",
+    "stateAbbr": "NE",
+    "counties": [
+      "Douglas"
+    ],
+    "msa": "Omaha-Council Bluffs, NE-IA",
+    "tier": 1,
+    "latitude": 41.2565,
+    "longitude": -95.9345,
+    "elevationFt": null,
+    "population": {
+      "value": 486051,
+      "source": "U.S. Census Bureau, 2020 decennial census",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-80",
+      "I-480",
+      "I-680",
+      "I-29 (across the Missouri River)"
+    ],
+    "majorRoutes": [
+      "US-75 (Kennedy Fwy)",
+      "US-6 (Dodge St)",
+      "NE-370 (south metro)"
+    ]
+  },
+  "metadata": {
+    "title": "Omaha, NE Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Omaha, NE — shelter pads, fiber huts, duct bank, and compound work built for Douglas County loess and a 42-inch frost line.",
+    "h1": "Telecom Site Civil Construction in Omaha, Nebraska",
+    "intro": "Two facts set Omaha apart from every other market we build in. The first is 1623 Farnam: the region's carrier hotel and home of the OmahaIX, sitting where the country's east–west and north–south long-haul routes cross, with roughly 60 carriers in the building. The second is who sells the power — Omaha Public Power District, because Nebraska is the only state served entirely by public power. Around those anchors, Google Fiber and Metronet are overbuilding the metro, Union Pacific runs its railroad from headquarters downtown, and every foundation we pour goes below the 42-inch frost depth in Omaha's amended code — through deep Peoria loess that behaves like no other soil in our footprint.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC adopted in Omaha Municipal Code Ch. 43)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Eastern Nebraska is in the lowest national seismic hazard tier; publish Ss/S1 only after a site-specific USGS design-maps query. Thick loess argues for treating site class as a per-site geotechnical determination, not a metro default."
+    },
+    "frostDepthIn": {
+      "value": 42,
+      "source": "Omaha Municipal Code Ch. 43, § 43-127, amended Table R301.2(1) — citation search-extracted; reviewer must read the Municode section text before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Upland Omaha is mantled by Peoria loess over older Loveland loess and pre-Illinoian glacial till, with Missouri River alluvium along the eastern edge; bedrock is Pennsylvanian limestone and shale of the Lansing and Kansas City Groups plus Cretaceous Dakota Sandstone, with the bedrock surface rising westward in steps away from the river valley. (USGS Professional Paper 472, Miller; USGS MF-2391 surficial geologic map of the greater Omaha area.)",
+    "dominantSoilTypes": [
+      "Peoria loess (silt-dominated uplands)",
+      "Loveland loess and pre-Illinoian till (at depth)",
+      "Missouri River alluvium (valley sites)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "In deep loess the governing soil-behavior question is usually collapse and settlement on wetting rather than shrink-swell; NRCS shrink-swell data for Douglas County was not reachable through this environment and the risk grade stays unpublished.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The Pennsylvanian carbonates beneath the metro are not mapped as a karst hazard in the sources reviewed; screen site-specifically where bedrock is shallow near the river bluffs."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Loess drives foundation thinking in Omaha. The silt stands in a vertical cut and drills cleanly, so pier and pad excavations to the city's 42-inch frost depth are fast work — but the same silt loses strength when it takes on water, so open excavations get covered, subgrades get protected from ponding, and compound drainage is designed before the pad, not after. On upland sites, spread footings and thickened pads below frost are the routine answer, with drilled piers where loads or towers demand them; bedrock sits far enough down across most of the city that rock is rarely the cost question. Missouri River valley sites flip the analysis: alluvium, shallow groundwater, and levee-protected floodplain make dewatering and flood screening the first-order design inputs there. Borings govern every one of these calls — the loess column varies block to block, and no metro-level description substitutes for site-specific investigation."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Omaha Planning Department — Permits and Inspections",
+        "url": "https://permits.cityofomaha.org/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Enforces the 2018 IBC/IRC with amendments in Omaha Municipal Code Chapter 43. Published review times are not posted — confirm the current queue by phone when scoping a schedule."
+      },
+      {
+        "name": "Douglas County Environmental Services (unincorporated Douglas County)",
+        "url": "https://www.dceservices.org/mobile-permits/current-building-codes",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Handles building permits outside Omaha's jurisdiction; confirm the governing code edition per site."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code and 2018 IRC, with amendments, adopted in Omaha Municipal Code Chapter 43 (§ 43-121)",
+      "source": "Omaha Municipal Code Ch. 43, Art. II — https://library.municode.com/ne/omaha/codes/code_of_ordinances?nodeId=OMMUCOCHGEORVOII_CH43BU; City of Omaha Permits and Inspections",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities in Omaha ROW deploy under Nebraska's Small Wireless Facilities Deployment Act (LB 184, 2019; Neb. Rev. Stat. § 86-1238 et seq.), which caps local fees and shot-clocks applications statewide.",
+    "rowPermitAuthority": {
+      "name": "City of Omaha Public Works Department",
+      "url": "https://publicworks.cityofomaha.org/right-of-way-resources/",
+      "phone": "402-444-5244",
+      "typicalReviewDays": null,
+      "note": "ROW excavation permits are purchased through the Accela portal, and a ROW inspector meets onsite before the permit is issued. Street cut fees run per the city's published calculator; work zones in the road, including sidewalks, need a separate no-cost work zone permit from the Traffic Division. Municipal Code § 34-34 reserves most sidewalk, curb, gutter, and pavement restoration to the city's own forces."
+    },
+    "stateDotDistrict": {
+      "name": "NDOT District 2 — 4425 S 108th St, Omaha (Douglas, Sarpy, Dodge, Washington, Cass counties)",
+      "url": "https://dot.nebraska.gov/business-center/permits/row/",
+      "phone": "402-595-2534",
+      "typicalReviewDays": null,
+      "note": "Utility occupations and crossings of state highways permit through the district office under NDOT's Utility Accommodation Policy (Form 19)."
+    },
+    "oneCallCenter": {
+      "name": "Nebraska811",
+      "url": "https://nebraska811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice window is two to ten business days before excavation under the One-Call Notification System Act.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Nebraska DWEE (formerly NDEE) — Construction Storm Water General Permit NER210000",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP prepared before filing; the NOI must reach the agency at least seven days before grading, with a Nebraska Game and Parks CERT screening attached."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plan an Omaha telecom site around three permit tracks. Building permits run through Planning's Permits and Inspections under the amended 2018 codes; no standing review times are published, so the current queue gets confirmed by phone at scoping. Anything touching the right-of-way adds Public Works' sequence — ROW excavation permit purchased in Accela, onsite meeting with the ROW inspector before issuance, street-cut fees per the calculator, and a Traffic Division work zone permit for lane or sidewalk closures. Disturb an acre and the state CSW permit clock starts: SWPPP first, CERT attached, NOI in DWEE's hands at least seven days before dirt moves. Railroad crossings are the long pole — Union Pacific's process commonly runs months."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Omaha Public Power District (OPPD)",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "OPPD is a public power district — a political subdivision of the state, not a municipal department; 'municipal' is the closest available category. It serves more than 855,000 people across Omaha and 13 counties of southeastern Nebraska. Nebraska is the only state served entirely by public power."
+      }
+    ],
+    "ilec": "Lumen Technologies (legacy US West/Qwest territory; Omaha was historically Northwestern Bell's headquarters city) — confirm exchange boundaries before publishing",
+    "notableFiberProviders": [
+      "Cox Communications",
+      "Google Fiber (build underway)",
+      "Metronet (service launched 2024)",
+      "Lumen/CenturyLink",
+      "ALLO (constructing Google Fiber's Bellevue build)"
+    ],
+    "notableDataCenterCampuses": [
+      "1623 Farnam carrier hotel (downtown; OmahaIX)",
+      "Google — northwest Omaha data center (announced 2022)",
+      "Fidelity — Omaha West data center"
+    ],
+    "longHaulRouteNotes": "1623 Farnam markets its position at the crossing of the country's east–west and north–south fiber backbones — the interconnection point between Chicago and Denver — which is why long-haul routes converge on downtown Omaha.",
+    "ixPresence": "OmahaIX, housed at 1623 Farnam with roughly 60 carriers; a second 1623 Farnam interconnection facility in the metro was announced January 2026."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, roughly February into April on county-posted gravel and secondary roads",
+      "postingAuthority": {
+        "name": "Douglas County highway authorities (county-posted limits); NDOT for state routes",
+        "url": "https://dot.nebraska.gov/business-center/permits/truck",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Nebraska runs no unified statewide frost-law calendar — postings are county decisions, checked per haul."
+      },
+      "note": "Inside Omaha's paved street grid, seasonal postings rarely bind; they matter on rural Douglas County gravel routes to outlying compound sites during the thaw."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "NDOT Permits Office (oversize/overweight truck permits)",
+      "url": "https://dot.nebraska.gov/business-center/permits/truck",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Movement is generally daylight-only with holiday restrictions on major corridors; city and county roads need separate local authorization."
+    },
+    "bridgeOrClearanceConstraints": "Shelter hauls from the east cross the Missouri River on I-80 or I-480; no specific clearance constraint has been verified for the standard approach routes — confirm per load against NDOT routing.",
+    "railroads": [
+      {
+        "name": "Union Pacific (headquartered in Omaha, 1400 Douglas St)",
+        "crossingPermitNote": "Utility crossings run through UP's real estate/encroachment process — a non-refundable application fee (about $4,055 per the AAR reference chart) and lead times that can reach six months. File at project start, not at mobilization."
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "BNSF permits crossings through its own utility licensing process; timelines are comparable to UP's. Confirm line ownership per crossing — both carriers operate through the metro."
+      }
+    ],
+    "urbanRowRequirements": "ROW excavation permit through Accela with a pre-issuance onsite inspection; Traffic Division work zone permit for closures affecting travel lanes or sidewalks; street-cut restoration priced per the city's fee calculator, with most concrete restoration performed by city forces under Municipal Code § 34-34."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": "No blanket seasonal clearing window is imposed for Douglas County; northern long-eared bat constraints apply site-specifically — known occupied roost trees carry a June 1 – July 31 cutting prohibition within 150 feet",
+      "source": "USFWS NLEB guidance; Nebraska Game and Parks CERT screening (per-project)"
+    },
+    "shpo": {
+      "name": "Nebraska SHPO — History Nebraska",
+      "url": "https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Section 106 responses run on a 30-day clock from receipt; the clock resets if the office requests more information."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Omaha District regulatory program (Nebraska office at Wehrspann Lake)",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory-Program/Nebraska/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Omaha District (NWO)",
+    "listedSpeciesNote": "The northern long-eared bat (federally endangered) is the species most likely to constrain clearing along the wooded Missouri River corridor; screen every site through the Nebraska Game and Parks CERT tool and USFWS IPaC rather than relying on a county list.",
+    "floodplainPrevalenceNote": "The Missouri River defines Omaha's flood exposure. In 2011, record upper-basin runoff pressed the river against 13 miles of levees for months — the city ran roughly 90 temporary pumps to keep the protected side dry, with Eppley Airfield and downtown behind those levees. In 2019, flooding compromised some 200 miles of levees across four states and put a portion of Offutt AFB's runway underwater just south of the city. Interior drainage belongs to the Papillion Creek watershed, where the Papio-Missouri River NRD operates a dam and detention system dating to the 1968 Flood Control Act. Floodplain screening is a first-order siting question east of the bluffs and along the Papio channels."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen ground; normal January snowfall 6.1 in., precipitation 0.72 in.",
+        "earthworkConcrete": "restricted",
+        "note": "Frost drives toward the 42-inch design depth; winter concrete protection mandatory"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Frozen, deepest frost of the year; thaw can begin late month",
+        "earthworkConcrete": "restricted",
+        "note": "County spring postings can appear on gravel routes as the thaw starts"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawing loess, saturated and weak; historically the big-flood month on the Missouri",
+        "earthworkConcrete": "constrained",
+        "note": "Both 2019 flood crests and county load postings land in this window"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Subgrades drying; severe-weather season begins",
+        "earthworkConcrete": "workable",
+        "note": "Postings lift as county roads firm up"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable; peak thunderstorm and hail season arrives",
+        "earthworkConcrete": "favorable",
+        "note": "SWPPP maintenance earns its keep — late-spring rain concentrates here"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm and workable between convective storms",
+        "earthworkConcrete": "favorable",
+        "note": "Known NLEB roost trees carry the Jun 1 – Jul 31 cutting prohibition"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot; normal July precipitation 3.83 in., mostly in storm cells",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on afternoon pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot, generally dry between systems",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Drying, firm; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling; first freeze typically arrives",
+        "earthworkConcrete": "favorable",
+        "note": "Best month to close out foundations ahead of frost"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Ground begins taking frost late month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freezing ground, snow cover establishing",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Omaha's construction year is a frost story bracketed by a flood story. Ground is reliably frozen December through February and the productive window runs April through October, but March deserves respect twice over: thawing loess is at its weakest exactly when Missouri River flood risk peaks — the 2019 event crested in mid-March. Summer brings the opposite constraint, with convective storms and hail concentrated May through August. Month-by-month figures here draw on the NWS Omaha annual climate summaries (1981–2010 normals for Eppley Airfield); the full NCEI normals table should be read against this calendar before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "The Quaternary loess-till mantle is thick across most of the city; Pennsylvanian limestone can appear near the surface along the Missouri River bluffs, so river-corridor sites get screened per boring.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "A metro of Omaha's size supports multiple ready-mix suppliers; specific plant distances are confirmed per site at estimating.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": "Street-cut restoration in Omaha is priced through the city's published fee calculator, and most concrete restoration is performed by city forces — a line item out-of-town estimators routinely miss.",
+    "prevailingWageExposure": "Nebraska has no state prevailing wage law; federal Davis-Bacon applies to federally funded work of $2,000 or more, including BEAD-funded fiber builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "December through March carries frost excavation and concrete protection cost against the 42-inch frost depth; March adds schedule-risk premium in flood-exposed corridors.",
+    "narrative": "What moves an Omaha civil number is water and season more than rock. The 42-inch frost depth sets excavation quantity on every foundation, winter work prices in protection from December through March, and wetted loess subgrades in spring can force undercut and stabilization that a dry-season build never sees. In the ROW, the city's street-cut fee structure and city-performed concrete restoration shape unit costs on duct bank and lateral work. Near the river, floodplain screening and dewatering carry the contingency. Rock is rarely the driver — the loess-till column runs deep on the uplands. Drivers only, never unit pricing: every site prices to its borings and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Nebraska requires registration rather than a general contractor license: contractors and subcontractors register annually with the Nebraska Department of Labor under the Contractor Registration Act ($40 per year effective August 2026), out-of-state firms additionally meet tax-compliance and surety bond requirements, and electrical work is licensed separately at the state level.",
+    "additionalRegistrations": [
+      "Neb. Rev. Stat. § 73-102 fair-labor-standards statement on public works bids"
+    ],
+    "insuranceBondingNorms": "Railroad protective liability is required for work within UP or BNSF right-of-entry; the City of Omaha requires insurance and bonding per its ROW permit conditions.",
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "flood",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "Severe convective weather — tornado and large hail — argues for conservative anchorage, hail-rated exterior equipment, and generator fuel containment designed for wind-driven rain. Missouri River and Papio Creek flood exposure makes pad elevation and floodplain screening a siting-stage decision, not a design afterthought. The 42-inch frost depth governs every foundation, and ice loading values publish only after county TIA-222 figures are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google invests $930M in Nebraska in 2024 — $4.4B over five years",
+        "detail": "Google's 2024 capital investment in Nebraska reached $930 million, bringing its five-year total to $4.4 billion across its Papillion campus and northwest Omaha site.",
+        "category": "data center",
+        "sourceUrl": "https://nebraskaexaminer.com/2024/11/25/google-2024-capital-investment-in-ne-is-930m-for-a-five-year-tally-of-4-4b/",
+        "asOf": "2024-11-25"
+      },
+      {
+        "headline": "1623 Farnam announces second Omaha interconnection facility",
+        "detail": "The operator of Omaha's carrier hotel announced expansion to a second Midwest interconnection facility in the metro, extending the OmahaIX ecosystem beyond the original downtown building.",
+        "category": "data center",
+        "sourceUrl": "https://www.1623farnam.com/2026/01/16/1623-farnam-expands-omaha-footprint-with-second-midwest-interconnection-facility/",
+        "asOf": "2026-01-16"
+      },
+      {
+        "headline": "Google Fiber building Omaha as its 19th market",
+        "detail": "Google Fiber's Omaha network entered design with construction beginning in 2023 and service turning up as segments complete; the company's Bellevue build is being constructed by Nebraska-based ALLO.",
+        "category": "carrier program",
+        "sourceUrl": "https://fiber.google.com/cities/omaha/",
+        "asOf": "2023-01-01"
+      },
+      {
+        "headline": "Metronet launches multi-gig fiber service in Omaha",
+        "detail": "Metronet announced service availability in Omaha and Douglas County in September 2024, mid-way through a roughly 24-month construction program, with residential speeds to 5 Gbps.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.businesswire.com/news/home/20240903397939/en",
+        "asOf": "2024-09-03"
+      },
+      {
+        "headline": "Nebraska BEAD final proposal approved by NTIA",
+        "detail": "Nebraska's $405.3M BEAD allocation cleared final-proposal approval in December 2025; the state's initial deployment round covers 29,597 locations with about $44.5M federal plus $21M private investment.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+        "asOf": "2025-12-07"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "long-haul and metro route construction"
+      ],
+      "narrative": "Omaha is mid-overbuild: Google Fiber has been constructing the metro since 2023 and Metronet lit Douglas County service in 2024, layering two new FTTH networks over Cox and Lumen plant — which means dense bore, vault, and restoration work governed by the city's Accela-permitted ROW process, where an inspector walks the site before the permit issues and the street-cut calculator prices every cut. Loess is the friend and the trap here: it drills beautifully dry and slumps when wet, so bore-pit shoring and weather windows matter more than rock. Long-haul routes converge on 1623 Farnam downtown, and crossings of Union Pacific's home-turf trackage carry month-scale permit lead times that we file at project award.",
+      "localSpecificsReferenced": [
+        "Google Fiber Omaha build (from 2023)",
+        "Metronet Douglas County launch (2024)",
+        "Omaha Accela ROW permit process and street-cut calculator",
+        "1623 Farnam long-haul convergence",
+        "Union Pacific crossing lead times"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless civil in Omaha starts 42 inches down — the frost depth in the city's amended Table R301.2(1) — and winter pours from December through March price in protection against it. Compound drainage deserves unusual attention in this market because saturated Peoria loess loses bearing fast: we grade compounds to shed water away from pads and piers as a design rule, not a finish detail. Small cell and node work in city ROW runs under Nebraska's statewide Small Wireless Facilities Deployment Act rather than a bespoke Omaha ordinance, with the city's work-zone permit layer on top for lane and sidewalk closures. Severe-weather season is the other local fact: hail and tornado exposure argue for conservative anchorage on every ice bridge and cabinet we set.",
+      "localSpecificsReferenced": [
+        "42-inch frost depth (Omaha Municipal Code § 43-127)",
+        "Peoria loess moisture sensitivity",
+        "Nebraska Small Wireless Facilities Deployment Act (LB 184)",
+        "Omaha Traffic Division work zone permits"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "hyperscale campus civil support"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Edge capacity follows interconnection, and Omaha's interconnection story is 1623 Farnam — the carrier hotel at the crossing of the national east–west and north–south backbones, home to the OmahaIX and roughly 60 carriers, now expanding to a second metro facility announced in January 2026. Google's northwest Omaha data center (announced 2022) and the Sarpy campuses to the south pull edge and utility-yard scope into the metro around it. The power side is genuinely different here: OPPD is a public power district in the only state served entirely by public power, so new-service coordination follows district processes rather than an IOU's, and the low public-power rates are much of why hyperscalers keep landing in this metro. Transformer pads, generator yards, and campus duct bank in loess all get the same drainage-first design treatment as our wireless compounds.",
+      "localSpecificsReferenced": [
+        "1623 Farnam / OmahaIX (second facility, Jan 2026)",
+        "Google northwest Omaha data center (2022)",
+        "OPPD public power district service",
+        "Nebraska 100% public power"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 265,
+      "driveTimeHours": 4.9,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Douglas",
+      "Sarpy",
+      "Washington"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Omaha from eastern Iowa is one road: I-380 south to I-80, then west across the full width of Iowa — 265 road miles, about a five-hour run past Des Moines and Council Bluffs before the Missouri River crossing drops crews into downtown. That distance makes Omaha an overnight market for production work: crews mobilize on day one and run consecutive full days rather than commuting, which is how multi-day scopes like duct bank runs and compound builds are actually staffed here. Same-day response is realistic for scheduled single-day scopes when the crew rolls early. Winter adds the one seasonal caveat — the I-80 corridor across Iowa is the closure-prone stretch in ground blizzard conditions, and we build that risk into December–March schedules. Emergency response commitments publish only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "How deep do shelter and hut foundations need to go in Omaha?",
+      "answer": "Below 42 inches — the frost depth in Omaha's amended Table R301.2(1), Municipal Code § 43-127, under the city's 2018 code adoption. Every pad, pier, and footing goes below that line, and December-through-March pours add cold-weather protection on top. Site-specific geotechnical investigation still governs the final design, especially in the city's moisture-sensitive loess.",
+      "segment": "general"
+    },
+    {
+      "question": "Who issues right-of-way permits for telecom work in Omaha?",
+      "answer": "The City of Omaha Public Works Department. ROW excavation permits are purchased through the Accela portal, and a ROW inspector meets you onsite before the permit is issued. Lane or sidewalk closures need a separate work zone permit from the Traffic Division, and note that under Municipal Code § 34-34 the city performs most sidewalk, curb, and pavement restoration itself — which changes how a duct bank job is priced.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does Nebraska811 require before digging in Omaha?",
+      "answer": "At least two business days and not more than ten, excluding weekends and holidays, under Nebraska's One-Call Notification System Act. The ticket covers every excavation type we self-perform — bores, vault sets, trenching, and pier drilling — and the two-day lead is built into every underground schedule.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What soil conditions should I expect boring or excavating in Omaha?",
+      "answer": "Deep Peoria loess over older loess and glacial till on the uplands, with Missouri River alluvium along the east edge. Dry loess drills and trenches cleanly and stands in vertical cuts, but it loses strength sharply when saturated — so open excavations get protected from water, and spring subgrades can need undercut. Bedrock is deep across most of the city; rock is rarely the cost driver it is in shallower-bedrock markets.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Omaha in January?",
+      "answer": "Yes — with frost excavation and cold-weather concrete practice: heated protection or blankets, admixtures, and monitoring. January ground is reliably frozen and normal January snowfall is about 6 inches, so winter builds are routine but carry a seasonal premium we price up front against the 42-inch frost depth.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What makes electric service different in Omaha than other markets?",
+      "answer": "The utility is OPPD, a public power district serving more than 855,000 people — and Nebraska is the only state served entirely by public power, with no investor-owned utility anywhere. New-service coordination for huts, compounds, and edge sites follows district processes, and the low public-power rates are a major reason hyperscale operators keep choosing this metro.",
+      "segment": "edge"
+    },
+    {
+      "question": "Which railroads affect fiber routes in Omaha?",
+      "answer": "Union Pacific — headquartered downtown at 1400 Douglas Street — and BNSF both operate through the metro. UP utility crossings run through its real estate/encroachment process with a non-refundable application fee around $4,055 and lead times that can reach six months, so crossing applications are filed at project award, not when the bore crew is ready.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is flooding a real siting concern for Omaha telecom sites?",
+      "answer": "Along the Missouri River and the Papio Creek channels, yes. The 2011 event pressed the river against 13 miles of levees for months, and 2019 flooding put part of Offutt AFB's runway underwater just south of town. Interior drainage runs through the Papio-Missouri River NRD's dam and detention system. We treat floodplain screening as a first-order siting input east of the bluffs and near the Papio channels.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What's driving telecom construction demand in Omaha right now?",
+      "answer": "Three currents at once: Google Fiber and Metronet are overbuilding the metro with FTTH, Google's northwest Omaha data center and the Sarpy County hyperscale campuses keep pulling capital ($930 million invested statewide by Google in 2024 alone), and 1623 Farnam's carrier hotel — with a second interconnection facility announced in January 2026 — keeps long-haul and edge investment anchored downtown.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Designing foundations and drainage for Omaha's deep loess",
+    "body": "The engineering judgment that matters most in Omaha is about water in silt, not depth to rock. Peoria loess is a gift to excavators — it drills fast, stands vertically, and rarely needs rock tools — but its strength is moisture-dependent, and a foundation strategy that ignores that will get schooled in April. Our working rules: first, treat compound and pad drainage as a structural decision made at siting, because a pad that sheds water protects its own bearing capacity for decades, while one that ponds against a pier invites settlement in exactly the soil most prone to it. Second, favor drilled piers below the 42-inch frost line for towers and heavy equipment — the loess column takes a clean auger hole, and piers put bearing below the moisture-active zone. Third, respect the calendar: a February excavation in frozen loess and a March excavation in thawing loess are different jobs at different prices, and the thaw weeks are when subgrades fail proof-rolls. Fourth, near the river, stop optimizing the foundation and start with the floodplain map — 2011 and 2019 both demonstrated that elevation is the design variable that matters there. Borings before concrete conversations, always; the loess varies block to block."
+  },
+  "sources": [
+    {
+      "label": "Omaha Municipal Code Chapter 43 — building code adoption and amendments (Municode)",
+      "url": "https://library.municode.com/ne/omaha/codes/code_of_ordinances?nodeId=OMMUCOCHGEORVOII_CH43BU",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Omaha Planning — Permits and Inspections (2018 IRC/IBC in force)",
+      "url": "https://permits.cityofomaha.org/latest-news",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Omaha Public Works — right-of-way resources and excavation permits",
+      "url": "https://publicworks.cityofomaha.org/right-of-way-resources/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Omaha Public Works — street cut fee calculator",
+      "url": "https://publicworks.cityofomaha.org/projects/street-cut-fee-calculator/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska811 — One-Call statutes (two to ten business days' notice)",
+      "url": "https://nebraska811.com/ne-law-enforcement/nebraska-statutes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NDOT — right-of-way occupancy permits and district contacts",
+      "url": "https://dot.nebraska.gov/business-center/permits/row/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NDOT District 2 fact sheet (Douglas, Sarpy, Dodge, Washington, Cass)",
+      "url": "https://dot.nebraska.gov/media/b3nmnzqx/ndot_dup_factsheet_2025-27_d2.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DWEE — construction storm water general permit (NER210000)",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "History Nebraska SHPO — Section 106 review",
+      "url": "https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Omaha District — Nebraska regulatory program",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory-Program/Nebraska/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS Professional Paper 472 — Geology of the Omaha-Council Bluffs area (Miller)",
+      "url": "https://pubs.usgs.gov/pp/0472/report.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS MF-2391 — surficial geologic map of the greater Omaha area",
+      "url": "https://pubs.usgs.gov/publication/mf2391",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OPPD — public power (Nebraska the only 100% public power state)",
+      "url": "https://www.oppd.com/community/public-power/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "1623 Farnam — carriers and interconnection position",
+      "url": "https://www.1623farnam.com/carriers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "1623 Farnam — second Omaha interconnection facility announcement",
+      "url": "https://www.1623farnam.com/2026/01/16/1623-farnam-expands-omaha-footprint-with-second-midwest-interconnection-facility/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Google Fiber — Omaha market page (construction from 2023)",
+      "url": "https://fiber.google.com/cities/omaha/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Metronet — Omaha service launch (Business Wire, Sep 2024)",
+      "url": "https://www.businesswire.com/news/home/20240903397939/en",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Examiner — Google 2024 Nebraska investment",
+      "url": "https://nebraskaexaminer.com/2024/11/25/google-2024-capital-investment-in-ne-is-930m-for-a-five-year-tally-of-4-4b/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Union Pacific — encroachment and utility crossing procedures",
+      "url": "https://www.up.com/real_estate/utilities/encroach_procedure/index.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Omaha World-Herald — 2011 Missouri River flood and Omaha levee operations",
+      "url": "https://omaha.com/state-and-regional/could-a--level-missouri-river-flood-happen-again-short/article_7d6b3a01-3c28-5c7c-b7c0-f70a417b49c8.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Omaha — annual climate summary (Eppley Airfield normals)",
+      "url": "https://www.weather.gov/media/oax/Climate/AnnualOmaha2020.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Travelmath / distance-cities — Cedar Rapids to Omaha driving route (I-80, 265 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Cedar+Rapids,+IA/to/Omaha,+NE",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic Ss-S1 / designRadialIceIn / design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps API, and TIA-222 county tables all unreachable through the sandbox egress proxy; no primary values found in search. One session from an unproxied machine fills these."
+    },
+    {
+      "field": "designCriteria.frostDepthIn — text verification",
+      "attempted": "42 in. / § 43-127 / amended Table R301.2(1) citation is search-extracted; reviewer must open the Municode section text directly before sign-off."
+    },
+    {
+      "field": "identity.elevationFt",
+      "attempted": "Omaha spans roughly 950–1,300 ft from river to western uplands; no authoritative single figure confirmed in sources reviewed, so the field stays null rather than quoting an unsourced number."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, corrosivity, shrink-swell)",
+      "attempted": "NRCS Web Soil Survey and CSD/UNL report PDFs not readable through the proxy; only qualitative geology from USGS PP 472 and MF-2391 abstracts is sourced."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Omaha's designated floodplain administrator office was not confirmed from primary sources; left null rather than guessing between Planning and Public Works."
+    },
+    {
+      "field": "utilities — OPPD new-service process URL and lead times; ILEC exchange boundary",
+      "attempted": "OPPD builder/new-service page not verified through proxy; Lumen legacy-territory attribution needs confirmation against PSC exchange maps."
+    },
+    {
+      "field": "seasonality — full NOAA normals table",
+      "attempted": "Only Jan (0.72 in. precip / 6.1 in. snow) and Jul (3.83 in.) normals were read from NWS Omaha annual summaries; the full Eppley Airfield NCEI normals table should be checked before publication."
+    },
+    {
+      "field": "logistics — Douglas County posting authority and UP crossing fee",
+      "attempted": "County road posting office not identified from primary sources; UP's $4,055 application fee comes from an AAR reference chart, not UP's own published schedule — confirm both."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 gate requires at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    }
+  ]
+}

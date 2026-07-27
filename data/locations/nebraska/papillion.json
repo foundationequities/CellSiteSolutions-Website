@@ -1,0 +1,684 @@
+{
+  "identity": {
+    "slug": "papillion",
+    "city": "Papillion",
+    "state": "Nebraska",
+    "stateSlug": "nebraska",
+    "stateAbbr": "NE",
+    "counties": [
+      "Sarpy"
+    ],
+    "msa": "Omaha-Council Bluffs, NE-IA",
+    "tier": 2,
+    "latitude": 41.1544,
+    "longitude": -96.0422,
+    "elevationFt": 1032,
+    "population": {
+      "value": 24159,
+      "source": "U.S. Census Bureau, 2020 decennial census (via city reference sources)",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-80 (via the NE-370 corridor)"
+    ],
+    "majorRoutes": [
+      "NE-370",
+      "US-75",
+      "NE-50",
+      "84th St (NE-85)"
+    ]
+  },
+  "metadata": {
+    "title": "Papillion, NE Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for fiber, wireless, and data center sites in Papillion, NE — pads, duct bank, and compounds in Sarpy County's hyperscale corridor.",
+    "h1": "Telecom Site Civil Construction in Papillion, Nebraska",
+    "intro": "Papillion is a 24,000-person city carrying hyperscale-class construction demand. Google broke ground on its 275-acre Papillion data center campus in 2019 and has kept investing since — including a $1.2 billion commitment to Papillion and Lincoln announced in 2023 — while Meta's neighboring Sarpy County campus has grown toward nine buildings and roughly four million square feet, and Fidelity's Papillion data center predates them both. All of it runs on OPPD power in the only state that is 100% public power, and all of it sits in Nebraska's fastest-growing county, where a new Springfield Creek interceptor sewer is being built specifically to open the county's southern half — and its next data center ground — to development.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC adopted by Papillion Ordinance 1934)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Sarpy County shares eastern Nebraska's lowest-tier national seismic hazard; publish Ss/S1 only from a site-specific USGS design-maps query."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Papillion sits on the loess-mantled uplands of the greater Omaha map area: Peoria loess over older Loveland loess and pre-Illinoian glacial till, dissected by the Papillion Creek drainage, with Pennsylvanian limestone and shale and Cretaceous Dakota Sandstone at depth (USGS MF-2391, surficial geologic map of the greater Omaha area; USGS Professional Paper 472).",
+    "dominantSoilTypes": [
+      "Peoria loess uplands",
+      "Papillion Creek alluvium (valley bottoms)",
+      "Loveland loess / pre-Illinoian till at depth"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Loess behavior here is a settlement-on-wetting question more than a shrink-swell one; the NRCS shrink-swell grade for Sarpy County was not readable through this environment, so no risk grade is published.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst hazard mapping for Sarpy County surfaced in the sources reviewed."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Foundation work in Papillion divides by landform. On the loess uplands — where the data center campuses and most new compounds sit — augered piers and spread footings excavate quickly, and the design question is protecting that silt from water: graded drainage, prompt backfill, and covered excavations, because wetted loess gives up bearing strength fast. In the Papillion Creek bottoms the calculus changes to alluvium, shallower groundwater, and flood screening against the NRD's dam-regulated but historically flashy watershed. One local code wrinkle matters to hut and cabinet designers: Papillion's amendments have required frost-protected shallow foundations to be designed and sealed by a Nebraska-licensed structural engineer, which removes the prescriptive FPSF shortcut and pushes small-footprint designs either below frost depth or into engineered territory. Site borings govern; the loess column and the creek alluvium are different worlds a mile apart."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Papillion Building Department",
+        "url": "https://ecode360.com/9706062",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Enforces the 2018 I-codes as amended (Ordinance 1934, 2021) inside city limits and the two-mile extraterritorial jurisdiction. Review times are not published — confirm by phone."
+      },
+      {
+        "name": "Sarpy County Planning & Building Department (unincorporated Sarpy County)",
+        "url": "https://www.sarpy.gov/215/Planning-Building",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "1210 Golden Gate Dr, Papillion. The AHJ for campus-adjacent sites outside municipal limits; confirm jurisdiction early — city, ETJ, and county boundaries interleave in this corridor."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code and companion 2018 I-codes, as amended by City of Papillion Ordinance 1934 (2021)",
+      "source": "City of Papillion council report and Ordinance 1934 — https://www.papillion.org/DocumentCenter/View/8980/D2-ORD-1934-Building-Code-Amendments; Papillion construction codes chapter — https://ecode360.com/9706062",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Papillion adopted a telecommunications chapter (Ordinance 1862, 2019) implementing Nebraska's Small Wireless Facilities Deployment Act; small cell work in city ROW follows the state act's fee caps and shot clocks.",
+    "rowPermitAuthority": {
+      "name": "City of Papillion Public Works Department",
+      "url": "https://www.papillion.org/1171/Public-ROW-Permitting",
+      "phone": "402-597-2043",
+      "typicalReviewDays": null,
+      "note": "Work in or along public ROW requires a written permit from the Director of Public Works, with fees per the Master Fee Schedule; the director may require a bond, and proof of insurance is required. Street and curb cuts run through the city's online permitting."
+    },
+    "stateDotDistrict": {
+      "name": "NDOT District 2 — 4425 S 108th St, Omaha (covers Sarpy County)",
+      "url": "https://dot.nebraska.gov/business-center/permits/row/",
+      "phone": "402-595-2534",
+      "typicalReviewDays": null,
+      "note": "NE-370, US-75, and NE-50 are state routes — utility occupations and crossings on them permit through the district under NDOT's Utility Accommodation Policy (Form 19)."
+    },
+    "oneCallCenter": {
+      "name": "Nebraska811",
+      "url": "https://nebraska811.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Two to ten business days' notice before excavation, statewide.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Nebraska DWEE (formerly NDEE) — Construction Storm Water General Permit NER210000",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP before NOI; NOI at least seven days before grading; Game and Parks CERT attached. Sarpy County jurisdictions also administer MS4 requirements through the Papio Partnership."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Jurisdiction is the first question on a Papillion-area site: city, two-mile ETJ, and unincorporated Sarpy County interleave along the NE-370 and Highway 50 corridors, and the answer decides whether plans go to the city's Building Department or Sarpy County Planning & Building on Golden Gate Drive. ROW work inside the city needs the Director of Public Works' written permit with fee, possible bond, and insurance; state-route crossings on NE-370, US-75, or NE-50 add an NDOT District 2 permit. The state stormwater clock — SWPPP, CERT, NOI seven days before grading at one acre — is the same as everywhere in Nebraska, but MS4 oversight through the Papio Partnership adds local erosion-control inspection in this fast-growing watershed."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Omaha Public Power District (OPPD)",
+        "type": "municipal",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Public power district — a state political subdivision rather than a city department; 'municipal' is the nearest available category. OPPD serves the Sarpy County data center corridor, and its public-power rates are repeatedly cited in operators' siting decisions here."
+      }
+    ],
+    "ilec": "Lumen Technologies (legacy US West/Qwest metro territory) — confirm exchange boundaries for Sarpy County before publishing",
+    "notableFiberProviders": [
+      "Cox Communications",
+      "ALLO (constructing Google Fiber's Bellevue build next door)",
+      "Great Plains Communications (regional fiber network)"
+    ],
+    "notableDataCenterCampuses": [
+      "Google — Papillion campus, 275 acres (groundbreaking 2019)",
+      "Meta — Sarpy Data Center, planned nine buildings / ~4M sq ft (first announced 2017)",
+      "Fidelity — Papillion data center ($200M, announced 2012)"
+    ],
+    "longHaulRouteNotes": "Long-haul capacity serving the Sarpy campuses interconnects through the Omaha metro's carrier infrastructure, anchored by the 1623 Farnam carrier hotel downtown.",
+    "ixPresence": "No IX in Papillion itself; the OmahaIX at 1623 Farnam is the metro's interconnection point, minutes north."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Spring thaw, roughly February into April on county-posted gravel and secondary roads",
+      "postingAuthority": {
+        "name": "Sarpy County highway authorities (county postings); NDOT for state routes",
+        "url": "https://dot.nebraska.gov/business-center/permits/truck",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Postings are county decisions with no unified statewide calendar — verify per haul with the county."
+      },
+      "note": "The paved NE-370 / Highway 50 corridor carries hyperscale construction traffic year-round; thaw postings bite on rural gravel section roads south and west of the city, where new tower and hut sites often sit."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "NDOT Permits Office (oversize/overweight truck permits)",
+      "url": "https://dot.nebraska.gov/business-center/permits/truck",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Daylight movement rules and holiday corridor restrictions apply; local authorization needed off the state system."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific (multiple lines through Sarpy County)",
+        "crossingPermitNote": "UP crossings permit through the railroad's real estate/encroachment process; lead times commonly run months, so route designs that cross rail get filed at award."
+      },
+      {
+        "name": "BNSF Railway (eastern Sarpy County)",
+        "crossingPermitNote": "Confirm operating ownership per crossing — both Class I carriers run through the county, and misidentifying the owner restarts the clock."
+      }
+    ],
+    "urbanRowRequirements": "Written ROW permit from Papillion's Director of Public Works before work in or along public ways, with Master Fee Schedule fees, discretionary bonding, insurance on file, and a protected, lighted pedestrian passageway maintained through any work zone."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": "No blanket clearing window for Sarpy County; northern long-eared bat constraints screen site-by-site — known occupied roost trees carry the June 1 – July 31 cutting prohibition within 150 feet",
+      "source": "USFWS NLEB guidance; Nebraska Game and Parks CERT screening (per project)"
+    },
+    "shpo": {
+      "name": "Nebraska SHPO — History Nebraska",
+      "url": "https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day Section 106 clock per complete submittal; incomplete packages reset it."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Omaha District regulatory program — Nebraska office at Wehrspann Lake, in Sarpy County itself",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory-Program/Nebraska/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Omaha District (NWO)",
+    "listedSpeciesNote": "Run the Nebraska Game and Parks CERT and USFWS IPaC per site — the CERT is already a required attachment to the state stormwater NOI, so the screening happens on every disturbing project anyway. The northern long-eared bat is the likeliest flag in wooded creek corridors.",
+    "floodplainPrevalenceNote": "Papillion is the namesake of the Papillion Creek watershed, where fatal floods in 1964 and 1965 drove the 1968 Flood Control Act's 21-dam authorization; the Papio-Missouri River NRD now operates the resulting dam and detention network plus a 22-gage flood warning system, and a federally approved watershed improvement plan (2024) is adding structures. Mapped floodplain follows the Papio creeks through the heart of the city — creek-adjacent sites get floodplain screening before design starts."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Frozen ground under intermittent snow cover",
+        "earthworkConcrete": "restricted",
+        "note": "Campus interior work continues; site civil waits or pays winter protection"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Deepest frost; late-month thaw onset possible",
+        "earthworkConcrete": "restricted",
+        "note": "Watch for county postings appearing on gravel section roads"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thaw; loess subgrades saturated and weak, creeks running high",
+        "earthworkConcrete": "constrained",
+        "note": "The Papio watershed's flashy season begins; 2019's regional flooding peaked in March"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Drying subgrades; severe-weather season opens",
+        "earthworkConcrete": "workable",
+        "note": "Thaw postings lift as county roads firm"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable; peak thunderstorm and hail months begin",
+        "earthworkConcrete": "favorable",
+        "note": "Erosion control inspections tighten in the MS4 watershed"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, workable between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": "NLEB roost-tree cutting prohibition window (Jun 1 – Jul 31) where flagged"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot; storm-cell rainfall",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice on large pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot and mostly dry between systems",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Firm and drying; prime production",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling; first freeze typically lands",
+        "earthworkConcrete": "favorable",
+        "note": "Close out foundations before frost takes hold"
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Frost building late month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice resumes"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Ground freezing; snow establishing",
+        "earthworkConcrete": "restricted",
+        "note": null
+      }
+    ],
+    "narrative": "Papillion builds on the same continental calendar as the rest of the Omaha metro — frozen ground roughly December through February, a soft and saturated thaw in March, then a productive April-through-October core interrupted mainly by convective storms. What's locally distinct is the watershed: the Papio creeks are engineered but flashy, so spring erosion-control compliance is policed harder here than in slower watersheds, and creek-adjacent schedules carry March flood-risk contingency. Climate figures should be confirmed against the NCEI normals for the metro stations before publication; hyperscale campus schedules run through winter regardless, with site civil priced accordingly."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Thick loess and till overlie bedrock across the uplands; rock tools are rarely mobilized for hut, pad, or duct bank depths in this corridor.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "The Sarpy corridor's sustained data center construction supports metro ready-mix capacity nearby, but hyperscale pour schedules can compete for supply — batch-plant commitments get locked early on campus-adjacent work.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": "Papillion ROW fees follow the Master Fee Schedule, with bonding at the Public Works Director's discretion — small line items, but they belong in the estimate.",
+    "prevailingWageExposure": "No Nebraska state prevailing wage; Davis-Bacon attaches to federally funded work of $2,000+, including BEAD builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter frost excavation and concrete protection from roughly December through March; March thaw can add undercut and stabilization cost on loess subgrades.",
+    "narrative": "Cost in Papillion is shaped less by ground and more by the market around the ground. The hyperscale campuses keep local subcontractors, ready-mix, and equipment in demand, so mobilization timing and supplier commitments move numbers in ways a quiet market never sees. The physical drivers are the metro's usual pair — winter protection against frost from December through March, and wet-season loess subgrade risk in the thaw — plus the engineered-FPSF code wrinkle that pushes small foundations either below frost or through a Nebraska-licensed structural engineer's stamp. Creek-adjacent sites add floodplain and MS4 erosion-control cost. Drivers, not prices: every scope prices to its borings, its month, and — in this corridor — its place in the supplier queue."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Contractors working in Papillion register with the Nebraska Department of Labor under the state Contractor Registration Act — an annual registration ($40/year effective August 2026) rather than a licensed-GC regime — with out-of-state firms also meeting tax-compliance and surety bond requirements; electrical trades are state-licensed separately.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": "Papillion's ROW permit requires proof of insurance and, at the Public Works Director's discretion, a bond; railroad right-of-entry adds railroad protective liability coverage.",
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "flood",
+      "ice storm",
+      "extreme cold"
+    ],
+    "designImplications": "Sarpy County sits in the heart of the central-plains severe-weather belt: anchorage, hail-rated equipment, and generator fuel containment are designed to convective-season realities, and the Papio Creek floodplain — dam-regulated but historically deadly in 1964–65 — makes creek-adjacent pad elevation a siting decision. Frost governs foundation depth; publish the numeric value only after Papillion's amended code table is read directly.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google commits $1.2B more to Papillion and Lincoln data centers",
+        "detail": "Google announced an additional $1.2 billion investment in Nebraska in August 2023, expanding the Papillion campus and building a new Lincoln facility, on top of the Papillion campus it broke ground on in 2019.",
+        "category": "data center",
+        "sourceUrl": "https://www.wowt.com/2023/08/22/google-investing-another-12-billion-papillion-lincoln-data-centers/",
+        "asOf": "2023-08-22"
+      },
+      {
+        "headline": "Meta grows Sarpy campus toward nine buildings, ~4M sq ft",
+        "detail": "Meta's Sarpy Data Center, first announced in 2017, announced further growth in July 2022 — a ninth building pushing the campus to roughly four million square feet.",
+        "category": "data center",
+        "sourceUrl": "https://datacenters.atmeta.com/2022/07/keep-on-growing-sarpy-county/",
+        "asOf": "2022-07-28"
+      },
+      {
+        "headline": "Sarpy County builds sewer capacity to unlock its southern growth ground",
+        "detail": "The Sarpy County Wastewater Agency secured a $69.8 million Clean Water SRF loan to build the Springfield Creek interceptor and a cooling-water blowdown sewer serving nearby data centers — infrastructure aimed squarely at the county's next development phase south of the ridge line.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://www.sarpy.gov/m/newsflash/home/detail/124",
+        "asOf": "2022-01-01"
+      },
+      {
+        "headline": "Nebraska BEAD final proposal approved by NTIA",
+        "detail": "Nebraska's $405.3M BEAD allocation received final-proposal approval in December 2025, with an initial deployment round of about $44.5M federal funding across 29,597 locations statewide.",
+        "category": "broadband program",
+        "sourceUrl": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+        "asOf": "2025-12-07"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "long-haul and metro route construction",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "service lateral to hut",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber civil in Papillion is campus-driven: every building Google and Meta add to the Sarpy corridor pulls more metro and long-haul capacity down from Omaha's interconnection core at 1623 Farnam, and those routes cross NE-370, US-75, and NE-50 — all state highways needing NDOT District 2 occupation or crossing permits — plus Union Pacific and BNSF trackage whose crossing approvals run months. Inside the city, ROW work goes through a written permit from the Director of Public Works with insurance on file and bonding at the director's call. The boring itself is friendly — loess uplands with rock tools rarely needed — but the Papio creek crossings put bores under flashy, MS4-policed drainages, so crossing depth and frac-out planning get real attention here.",
+      "localSpecificsReferenced": [
+        "Google and Meta Sarpy campus fiber demand",
+        "NDOT District 2 permits on NE-370 / US-75 / NE-50",
+        "Papillion Director of Public Works ROW permit",
+        "Papio Creek crossings under MS4 oversight"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless demand in Papillion tracks rooftops: Sarpy is Nebraska's fastest-growing county, and the subdivisions filling the NE-370 corridor and the ground south toward the new Springfield Creek interceptor all need macro capacity and densification behind them. Papillion's own code stack shapes the civil work — the 2018 I-codes as amended by Ordinance 1934, including the amendment requiring frost-protected shallow foundations to carry a Nebraska-licensed structural engineer's seal, which in practice sends small cabinet and hut foundations below frost depth on most builds. Small cell work in city ROW follows the state Small Wireless Facilities Deployment Act through the city's 2019 telecommunications chapter. Compounds near the Papio creeks get floodplain screening first; the watershed's dam network exists because this drainage used to kill people.",
+      "localSpecificsReferenced": [
+        "Sarpy County growth (fastest in Nebraska)",
+        "Ordinance 1934 code amendments / engineered-FPSF requirement",
+        "Papillion telecommunications chapter (Ord. 1862, 2019)",
+        "Papio Creek floodplain screening"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "This is one of the few Tier 2 cities in our footprint with three named hyperscale-class operators inside or beside its limits: Google's 275-acre Papillion campus (building since 2019, with $1.2 billion more committed to Papillion and Lincoln in 2023), Meta's nine-building, roughly four-million-square-foot Sarpy campus, and Fidelity's earlier Papillion data center. The civil scope that buildout sheds — transformer and switchgear pads, generator yards, campus duct bank, security compounds, heavy-haul access — is exactly what we self-perform. Two local facts govern the next phase: OPPD's public power serves the whole corridor, and the county's $69.8 million Springfield Creek interceptor plus a dedicated cooling-water blowdown sewer are being built to open the ground south of the ridge line, which is where the corridor's next campuses and their edge satellites will need pads.",
+      "localSpecificsReferenced": [
+        "Google Papillion campus ($1.2B expansion, 2023)",
+        "Meta Sarpy nine-building campus",
+        "Fidelity Papillion data center",
+        "Springfield Creek interceptor / cooling blowdown sewer",
+        "OPPD public power service"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 275,
+      "driveTimeHours": 4.7,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Sarpy",
+      "Douglas",
+      "Cass"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Papillion rides the same I-80 spine as the rest of our western reach, but with a Sarpy-side finish: crews stay on the interstate to the metro's southwest quadrant and come in through the NE-370 corridor, so equipment and shelter hauls never touch downtown Omaha traffic. In practice that makes Papillion a deploy-and-stay market for the work it actually generates — campus-support scopes and compound builds run as consecutive full days with crews lodged locally, while single-day scopes like a pad pour or vault set are scheduled as early-roll day trips. Shelter and oversize hauls clear NDOT permitting on the state system and finish on the corridor's paved arterials, which carry heavy construction traffic year-round; rural section-road sites are the only thaw-season routing question. Response commitments publish after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who is the building authority for a telecom site in Papillion?",
+      "answer": "Inside city limits and the two-mile extraterritorial jurisdiction, the City of Papillion Building Department, enforcing the 2018 I-codes as amended by Ordinance 1934. Outside that, Sarpy County Planning & Building on Golden Gate Drive takes over. Boundaries interleave along the NE-370 and Highway 50 corridors, so we confirm jurisdiction before drawings go anywhere.",
+      "segment": "general"
+    },
+    {
+      "question": "How deep must a fiber hut or cabinet foundation go in Papillion?",
+      "answer": "Below the frost line in Papillion's amended code table — a value we publish only after reading the city's amendment text directly, so it stays open here. What is confirmed: Papillion's amendments have required frost-protected shallow foundations to be designed and sealed by a Nebraska-licensed structural engineer, which removes the prescriptive FPSF shortcut and sends most small foundations below full frost depth.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Who issues right-of-way permits for utility work in Papillion?",
+      "answer": "The Director of Public Works. Any building, excavation, or utility installation in or along public ROW needs the director's written permit, with fees per the Master Fee Schedule, proof of insurance, and a bond if the director requires one. Street and curb cuts run through the city's online permitting, and questions go to Public Works at 402-597-2043.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What permits do the state highways through Papillion add?",
+      "answer": "NE-370, US-75, and NE-50 are all state routes, so any utility occupation or crossing on them needs an NDOT permit — Form 19 under the Utility Accommodation Policy — through District 2 in Omaha, which covers all of Sarpy County. A fiber route that runs the growth corridor usually touches at least one of the three, so the district permit is on the critical path more often than not.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What data center work is actually happening around Papillion?",
+      "answer": "Three operators are in the ground: Google's 275-acre Papillion campus, expanding since its 2019 groundbreaking with $1.2 billion more committed to Papillion and Lincoln in 2023; Meta's Sarpy campus, grown toward nine buildings and roughly four million square feet since 2017; and Fidelity's Papillion data center, announced back in 2012. County sewer investment along Springfield Creek is being built to open the next phase south of the ridge line.",
+      "segment": "edge"
+    },
+    {
+      "question": "Is the Papillion Creek floodplain a concern for site selection?",
+      "answer": "Yes, and it has history: floods in 1964 and 1965 killed residents and drove a 21-dam federal authorization in 1968. The Papio-Missouri River NRD now runs the dam and detention network with a 22-gage flood warning system, but mapped floodplain still follows the creeks through town, and creek-adjacent pads get floodplain screening before any design work starts.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can shelter deliveries reach Papillion year-round?",
+      "answer": "On the paved corridor, yes — NE-370 and the arterials carry heavy data center construction traffic in every season, and oversize hauls clear NDOT permitting on the state system. The thaw-season caution is rural gravel section roads south and west of the city, where county postings from roughly February into April can force routing changes or a wait for a compound delivery.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who provides electric service for new telecom sites in Papillion?",
+      "answer": "OPPD — a public power district, since Nebraska is the only state served entirely by public power. New service for huts, compounds, and campus-adjacent edge sites is coordinated through district processes rather than an investor-owned utility's, and OPPD's rates are one of the stated reasons Google, Meta, and Fidelity chose this corridor. Natural gas in Papillion is served by Black Hills Energy under franchise.",
+      "segment": "edge"
+    },
+    {
+      "question": "How much notice does Nebraska811 need before we dig in Sarpy County?",
+      "answer": "At least two business days, and not more than ten, excluding weekends and holidays — the statewide One-Call Notification System Act standard. Every bore, trench, vault set, and pier hole we schedule in the Papillion area carries that two-day ticket lead, layered ahead of the city ROW permit and any NDOT district permit on the state routes.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Building telecom civil scope beside a hyperscale campus in Sarpy County",
+    "body": "The judgment call that distinguishes Papillion work is sequencing around giants. A hut pad or compound that would be a quiet standalone job elsewhere sits here inside a corridor where Google and Meta pour concrete on campus schedules — which means ready-mix capacity, flagging crews, and even NDOT district permit attention are shared resources. Our rules for the corridor: lock batch-plant commitments when the pour date is set, not the week before; file NDOT and railroad crossing applications at award, because a state-route corridor plus two Class I railroads puts multiple month-scale approvals on nearly every fiber route; and confirm jurisdiction — city, ETJ, or county — before producing drawings, since the boundary decides the AHJ and the amendment set. On foundations, assume the engineered-FPSF amendment takes the shallow shortcut off the table and price small foundations at full frost depth unless a structural engineer's sealed design says otherwise. And on any site within sight of a Papio creek, run the floodplain map before the geotech scope — in this watershed, elevation screening is cheaper than redesign, and the NRD's dams exist precisely because the creeks once proved what they could do."
+  },
+  "sources": [
+    {
+      "label": "City of Papillion Ordinance 1934 — 2018 building code adoption and amendments",
+      "url": "https://www.papillion.org/DocumentCenter/View/8980/D2-ORD-1934-Building-Code-Amendments",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Papillion — construction codes chapter (eCode360)",
+      "url": "https://ecode360.com/9706062",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Papillion Ordinance 1740 — frost-protected shallow foundation amendment (engineer-sealed)",
+      "url": "https://www.papillion.org/DocumentCenter/View/3494/ORD-1740",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Papillion — public ROW permitting",
+      "url": "https://www.papillion.org/1171/Public-ROW-Permitting",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Papillion Ordinance 1862 — telecommunications chapter (small wireless)",
+      "url": "https://www.papillion.org/DocumentCenter/View/6156/D2-ORD-1862-Chapter-207-Telecommunications",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Sarpy County — Planning & Building Department",
+      "url": "https://www.sarpy.gov/215/Planning-Building",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NDOT — right-of-way occupancy permits (District 2 covers Sarpy County)",
+      "url": "https://dot.nebraska.gov/business-center/permits/row/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska811 — One-Call statutes (two to ten business days' notice)",
+      "url": "https://nebraska811.com/ne-law-enforcement/nebraska-statutes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DWEE — construction storm water general permit (NER210000)",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "WOWT — Google investing another $1.2B in Papillion and Lincoln data centers",
+      "url": "https://www.wowt.com/2023/08/22/google-investing-another-12-billion-papillion-lincoln-data-centers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Meta — Sarpy Data Center growth announcement (ninth building)",
+      "url": "https://datacenters.atmeta.com/2022/07/keep-on-growing-sarpy-county/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Data Center Knowledge — Fidelity's $200M Papillion data center",
+      "url": "https://www.datacenterknowledge.com/investing/fidelity-announces-200-million-data-center-in-nebraska",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Sarpy County — Wastewater Agency SRF loan for Springfield Creek interceptor and blowdown sewer",
+      "url": "https://www.sarpy.gov/m/newsflash/home/detail/124",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Papio-Missouri River NRD — Papillion Creek watershed and flood warning system",
+      "url": "https://www.papionrd.org/flood-control/floodwarning-system-gages/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska NRDs — Papillion Creek Watershed Project Improvement Plan approved (2024)",
+      "url": "https://www.nrdnet.org/news/09-26-2024/papillion-creek-watershed-project-improvement-plan-approved",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS MF-2391 — surficial geologic map of the greater Omaha area",
+      "url": "https://pubs.usgs.gov/publication/mf2391",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OPPD — public power in Nebraska",
+      "url": "https://www.oppd.com/community/public-power/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Supreme Court — Black Hills Nebraska Gas franchise in Papillion (P-12.32)",
+      "url": "https://caselaw.findlaw.com/court/ne-supreme-court/2176139.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Gov. Pillen — Nebraska BEAD final proposal approval",
+      "url": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind, snow, ice, seismic, design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps API, and TIA-222 tables unreachable through the sandbox proxy; fill from an unproxied session."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Papillion's amended Table R301.2(1) (Ord. 1934 PDF) returned 403 through the proxy; secondary sources suggest 42 in. is the eastern-Nebraska norm but the value is not published without the code text. Read the ordinance directly."
+    },
+    {
+      "field": "geotech numerics (bearing, bedrock depth, groundwater, shrink-swell, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and UNL CSD publications not readable through the proxy; only qualitative geology from USGS map-area sources."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "Papillion's designated floodplain administrator was not confirmed from a primary source; left null rather than assuming Public Works."
+    },
+    {
+      "field": "operations.nearestBase routing",
+      "attempted": "No driving-route source found for Cedar Rapids–Papillion (Omaha verified at 265 mi via I-80); the 275 mi / 4.7 h figures are the seed estimates and stay routeVerified: false until checked against real routing."
+    },
+    {
+      "field": "utilities — OPPD new-service process and lead times; ILEC exchange boundaries",
+      "attempted": "OPPD builder pages not verified through proxy; Lumen attribution for Sarpy County needs PSC exchange-map confirmation."
+    },
+    {
+      "field": "seasonality — station normals",
+      "attempted": "Calendar authored qualitatively from metro climate pattern; confirm against NCEI normals for the nearest station (Offutt AFB or Eppley Airfield) before publication."
+    },
+    {
+      "field": "railroads — operating line ownership near specific routes",
+      "attempted": "UP and BNSF both operate in Sarpy County, but per-line ownership near candidate routes was not mapped; confirm per crossing."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 2 gate requires at least 1 project and 3 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for coverage list and any response commitment."
+    }
+  ]
+}

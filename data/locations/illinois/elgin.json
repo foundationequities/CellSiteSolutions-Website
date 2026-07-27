@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "slug": "elgin",
+    "city": "Elgin",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "counties": ["Kane", "Cook"],
+    "msa": "Chicago-Naperville-Elgin, IL-IN Metropolitan Statistical Area",
+    "tier": 3,
+    "latitude": 42.0354,
+    "longitude": -88.2826,
+    "elevationFt": null,
+    "population": {
+      "value": 114797,
+      "source": "U.S. Census Bureau, 2020 Census — Elgin ranked sixth-largest city in Illinois",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": ["I-90"],
+    "majorRoutes": ["US-20", "IL-19", "IL-25", "IL-31", "Randall Rd"]
+  },
+  "metadata": {
+    "title": "Elgin, IL Telecom Site Civil Construction | CellSite Solutions",
+    "description": "Civil crews for fiber, small cell, and edge builds in Elgin, IL — Fox River valley ground conditions, city ROW permitting, and I-90 corridor logistics.",
+    "h1": "Fiber, Wireless, and Edge Site Civil Work in Elgin, Illinois",
+    "intro": "Build conditions in Elgin are set by the Fox River valley it grew up in. The city of 114,797 (2020 Census) straddles the river in northeastern Kane County — with its eastern annexations reaching into Cook — on terraces of glacial sand and gravel that trench easily but run wet, over the water-bearing gravels the region's wells draw from. I-90, the Jane Addams Tollway, ties Elgin's north side to the Elk Grove Village data center concentration a short haul east, while Metra's Milwaukee District West line ends here and CPKC freight on the same tracks is growing after the 2023 merger. CellSite Solutions performs hut and node foundations, duct bank, bores, and compound civil across this market, permitted through the city's Engineering Division.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (the reference standard of the 2021 I-code family Elgin has adopted; confirm the structural code edition with Community Development)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Mapped seismic demand in the far-northeast corner of Illinois is among the state's lowest; still, publish Ss/S1 only from a USGS design-maps query at the site, and let borings set site class."
+    },
+    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Northeastern Kane County is Wisconsin Episode glacial terrain: diamictons of the Wedron Group flanked, along the Fox River at Elgin, by high-level outwash terraces of Henry Formation sand and gravel. ISGS mapping identifies the Carpentersville aquifer immediately east of the Fox in this corner of the county — surficial and interbedded sands and gravels beneath the Batestown and Yorkville till members — meaning permeable, water-bearing granular soils sit at or near the surface on many east-side sites. Bedrock beneath is Silurian dolomite. (ISGS surficial geology of Kane County.)",
+    "dominantSoilTypes": [
+      "Henry Formation terrace sand and gravel (Fox River corridor)",
+      "Batestown and Yorkville till (Lemont Formation) diamicton uplands",
+      "Fox River alluvium (floodplain parcels)"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": null,
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": {
+      "present": false,
+      "note": "No mapped karst at Elgin; glacial cover over the Silurian dolomite is substantial. Deep foundations are still screened for solution features where drift thins."
+    },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "What distinguishes Elgin foundations from the rest of the Chicago collar is water, not strength. East of the Fox River, ISGS maps the Carpentersville aquifer's sands and gravels at or near the surface — soils that excavate quickly and bear well when confined, but that can flow and slough below the water table. Hut foundations and vault sets in that corridor get planned around dewatering from day one: trench boxes sized for running sand, pumps on site before the cut opens, and casing on drilled piers where granular soils won't stand open. Till uplands west of the river behave conventionally — spread footings below local frost depth, predictable excavation. Elgin's amended frost depth was not sourceable from the code text remotely, so we carry it as a scoping question for Community Development rather than a published number. Borings govern; on the east side, so does the water level in them."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Elgin — Community Development Department (150 Dexter Ct)",
+        "url": "https://elginil.gov/2614/Permits",
+        "phone": "847-931-5920",
+        "typicalReviewDays": null,
+        "note": "Permit applications in person at City Hall or by email to Permits@ElginIL.gov; general questions through Elgin 311 (847-931-6001). Standing review times are not published — confirm the queue when scoping."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 I-code family (IRC 2021 and IEBC 2021 adoptions confirmed with local amendments; verify the IBC edition and structural amendments with Community Development before design)",
+      "source": "City of Elgin Current Codes page and adoption ordinances (elginil.gov)",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facility applications fall under the statewide Small Wireless Facilities Deployment Act (50 ILCS 840) — fee caps and uniform shot clocks, with the Act's sunset currently set at December 31, 2026 unless extended. The pole-base, conduit, and restoration civil is permitted locally as engineering/ROW work.",
+    "rowPermitAuthority": {
+      "name": "City of Elgin — Engineering Division (engineering permits for public ROW and city infrastructure)",
+      "url": "https://elginil.gov/183/Engineering",
+      "phone": "847-931-6001",
+      "typicalReviewDays": null,
+      "note": "Engineering permits are required for any project in the city right-of-way or on city-owned infrastructure — street cuts, sidewalk, curb and gutter, driveway approaches — with plan review and inspection against city standards."
+    },
+    "stateDotDistrict": {
+      "name": "IDOT District 1 (Region One — Chicago metro), Schaumburg",
+      "url": "https://idot.illinois.gov/doing-business/permits/utility-permits/reference.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "US-20 and the state routes through Elgin permit through District 1; I-90 is the Illinois Tollway's Jane Addams Memorial Tollway, a separate authority."
+    },
+    "oneCallCenter": {
+      "name": "JULIE — Illinois' statewide one-call system (811)",
+      "url": "https://www.illinois1call.com/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Two working days' advance notice (48 hours excluding weekends and holidays) is the statutory minimum for any excavation depth; the underlying Act took amendments effective 2025, so current ticket rules get re-checked each season.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Illinois EPA — construction stormwater general permit ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "One-acre disturbance trigger (or smaller within a common plan); SWPPP and NOI precede ground disturbance, with NOIs typically processed in about 30 days. Kane County's countywide stormwater framework adds local review in certified communities."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Elgin (NFIP participant; Fox River and tributary floodplains mapped in the Kane County Flood Insurance Study)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Confirm the assigned floodplain administrator through Elgin 311 for river-corridor parcels; Cook County mapping applies on far-east annexations."
+    },
+    "permitTimelineNarrative": "Elgin routes telecom civil through two city doors, and knowing which is which saves weeks. Building work — hut structures, equipment platforms — files with Community Development at 150 Dexter Ct; anything touching pavement, parkway, or city infrastructure needs an Engineering Division permit reviewed against city standards, and commercial projects are expected to use licensed, bonded contractors with a notarized letter of intent on file. Layer the state processes over that: JULIE's two-working-day ticket before any dig, IEPA's ILR10 stormwater authorization at an acre of disturbance, and floodplain review on Fox River parcels. The city publishes no standing review durations, so we scope timelines by asking, not assuming."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "ComEd (Commonwealth Edison, an Exelon company)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": "https://www.comed.com/MyAccount/MyService/Pages/ServiceRequests.aspx",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Commercial connections go through the New Business portal with a project representative assigned; energization dates come from ComEd's commitment letter, and we hold schedule float until it exists."
+      }
+    ],
+    "ilec": "AT&T Illinois (legacy Illinois Bell exchange territory) — verify the serving exchange for the parcel before publication",
+    "notableFiberProviders": ["AT&T Illinois", "Comcast Business"],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": "Elgin's relevance to the data center map is adjacency: the I-90 corridor runs east to Elk Grove Village, the densest data center concentration in the Chicago market, roughly 20 miles away — close enough that edge and interconnect work spills west along the tollway.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": true,
+      "typicalWindow": "Thaw-season postings set locally each year rather than by a statewide calendar",
+      "postingAuthority": {
+        "name": "Kane County Division of Transportation (county highways) and township road districts on the rural west and north approaches",
+        "url": "https://kdot.kanecountyil.gov/Pages/Default.aspx",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Kane County's code carries standing 10-ton designations on certain county highways; township postings appear seasonally and bind the final mile to greenfield sites."
+      },
+      "note": "The tollway and US-20 stay unposted year-round; delivery risk concentrates on county and township pavement west of Randall Road."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "IDOT ITAP (state highways); Illinois Tollway authorization required separately for I-90",
+      "url": "https://idot.illinois.gov/doing-business/permits/oversize-and-overweight-permits/apply.html",
+      "phone": "217-785-1477",
+      "typicalReviewDays": null,
+      "note": "Illinois law obliges the mover to secure permission from every local jurisdiction on the path in addition to the state permit — for Elgin hauls that usually means the Tollway plus city and township clearances."
+    },
+    "bridgeOrClearanceConstraints": "Fox River crossings within the city are limited and carry downtown traffic; heavy moves between the east and west banks get routed and verified in advance rather than improvised on delivery day.",
+    "railroads": [
+      {
+        "name": "Metra Milwaukee District West Line (Metra-owned, CPKC-dispatched; Elgin and Big Timber Road are the line's western terminals)",
+        "crossingPermitNote": "Crossings of the MD-W corridor involve Metra as owner with CPKC dispatching — coordination runs through the railroads' utility permit processes and is slow enough to file at route-concept stage."
+      },
+      {
+        "name": "CPKC (freight rights on the MD-W corridor)",
+        "crossingPermitNote": "Post-merger freight volume on this corridor was projected to grow to roughly 11 trains a day by 2027, which tightens work windows near the tracks."
+      },
+      {
+        "name": "Canadian National (former EJ&E belt line east of the city near Bartlett)",
+        "crossingPermitNote": null
+      }
+    ],
+    "urbanRowRequirements": "Engineering permits with city-standard plan review and inspection for all ROW work; commercial projects require licensed and bonded contractors, a notarized letter of intent, and license/permit bonds held on file with Community Development."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Clear October 1 – March 31, the bats' hibernation season",
+      "driver": "Endangered northern long-eared bat and Indiana bat across the region; summer clearing requires USFWS coordination or survey",
+      "source": "USFWS range-wide Indiana bat / NLEB survey guidelines; IDOT NLEB circular letter 2022-28"
+    },
+    "shpo": {
+      "name": "Illinois SHPO — Illinois Department of Natural Resources",
+      "url": "https://dnrhistoric.illinois.gov/",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Standard 30-day Section 106 review per complete submittal; Elgin's historic districts make above-ground effects screening more relevant than in most collar-county markets."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Chicago District; Illinois EPA Section 401 certification",
+      "url": "https://www.lrc.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Chicago District (LRC)",
+    "listedSpeciesNote": "Bat species drive the practical constraint (clearing windows); a per-project USFWS IPaC query is run before any clearing or stream-adjacent work is scheduled.",
+    "floodplainPrevalenceNote": "The Fox River bisects Elgin, with Tyler Creek and Poplar Creek tributaries adding mapped floodplain fingers into the city's fabric. The regional flood of record for planning memory is July 1996, which hit the Fox system hard; river-corridor and creek-adjacent parcels get FIRM screening before layout."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Hard-frozen ground; single-digit lows in cold outbreaks", "earthworkConcrete": "restricted", "note": "Excavation in frozen granular terrace soils is easier than frozen clay, but pours still need full protection" },
+      { "month": "Feb", "groundConditions": "Maximum frost depth; midwinter thaws briefly soften surfaces", "earthworkConcrete": "restricted", "note": null },
+      { "month": "Mar", "groundConditions": "Breakup: saturated subgrades, running meltwater in the valley", "earthworkConcrete": "constrained", "note": "Bat clearing deadline March 31; township postings usually live; Fox River spring rise bears watching" },
+      { "month": "Apr", "groundConditions": "Ground opens; the region's average last freeze lands around the third week", "earthworkConcrete": "workable", "note": "East-side granular sites drain and firm ahead of the till uplands" },
+      { "month": "May", "groundConditions": "Full production; groundwater still seasonally high in the terrace sands", "earthworkConcrete": "favorable", "note": "Dewatering allowances earn their keep on Carpentersville-aquifer parcels" },
+      { "month": "Jun", "groundConditions": "Warm, workable; thunderstorm season peaks", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Hot stretches; storms cluster", "earthworkConcrete": "favorable", "note": "Hot-weather concrete practice on exposed pours" },
+      { "month": "Aug", "groundConditions": "Firm and generally dry", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Sep", "groundConditions": "Best sustained production window of the year", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "First freeze typically arrives; soils still workable", "earthworkConcrete": "favorable", "note": "Clearing window opens October 1" },
+      { "month": "Nov", "groundConditions": "Progressive freeze-up; blankets and heat return to the pour plan", "earthworkConcrete": "workable", "note": null },
+      { "month": "Dec", "groundConditions": "Frozen surface establishing; snow events begin accumulating", "earthworkConcrete": "restricted", "note": null }
+    ],
+    "narrative": "Elgin's construction year tracks the Chicago-area normals — call it a December-to-March freeze, an April shoulder, and a May-through-October core, against roughly 38 inches each of rain and snow at O'Hare (1991–2020) — but the site-level story is groundwater phasing. Terrace-sand parcels east of the Fox drain fast after thaw and carry production earlier in spring than the clay-till uplands, then repay the favor by needing pumps in May when the seasonal water table peaks. We sequence multi-site programs here accordingly: granular sites early, upland sites mid-season, river-adjacent work in the late-summer low-water window. Confirm figures against the NOAA station normals before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "low",
+    "rockNote": "Glacial cover over the Silurian dolomite keeps rock below telecom working depths on essentially all Elgin sites.",
+    "aggregateHaulNote": "The Fox Valley's own sand-and-gravel resources and the Chicago-region dolomite quarry network keep aggregate hauls short.",
+    "readyMixProximityNote": "Multiple metro ready-mix suppliers cover Elgin; batch-plant distance is not a schedule driver here.",
+    "spoilDisposalNote": "Clean granular spoil from terrace excavations is often reusable; wet alluvial spoil from valley sites is the disposal cost to watch.",
+    "permitFeeNote": null,
+    "prevailingWageExposure": "The Illinois Prevailing Wage Act (820 ILCS 130) attaches to public-works scopes for any state or local body, and Davis-Bacon rides on BEAD-funded builds — both live possibilities in a market with active municipal infrastructure programs.",
+    "unionJurisdictionNote": "Underground and concrete work in the Chicago collar counties is a heavily organized labor market; owners on carrier and public work commonly specify prevailing-rate or signatory crews.",
+    "seasonalPremiumNote": "Winter protection from roughly December through March; add dewatering premiums on east-side granular sites during the spring high-water months.",
+    "narrative": "Cost on an Elgin site swings on water management more than on any conventional driver. The same granular soils that make trenching fast east of the Fox add pumps, casing, and shoring when the cut goes below the seasonal water table — a spread that can matter more than the winter concrete premium. The other movers are institutional: bonded-contractor requirements and the two-door city permit structure, railroad coordination anywhere near the Metra/CPKC corridor, tollway and township permissions on heavy hauls, and prevailing-wage attachment on public or federally funded scopes. Ground truth stays cheap here — it's the water, the paperwork, and the month that price the job."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Illinois has no statewide general contractor license; municipalities regulate instead. Elgin requires contractors working in the city to file a notarized letter of intent and keep license or permit bonds on file with Community Development, and commercial/industrial projects are expected to use licensed, bonded contractors. Statewide, only roofing (IDFPR) and plumbing (IDPH) carry state licenses.",
+    "additionalRegistrations": [
+      "City of Elgin contractor filing — notarized letter of intent plus license/permit bond with Community Development"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["tornado", "ice storm", "flood", "extreme cold", "hail"],
+    "designImplications": "Elgin compounds get designed against convective wind and hail like the rest of the Chicago collar — conservative anchorage, protected fuel systems — but the differentiating hazard is riverine and localized flooding along the Fox and its creek tributaries, which pushes pad elevations and drainage design on valley parcels. Winter ice accretion and deep cold set the foundation depth and seasonal concrete regime. Site-specific ASCE 7 and TIA-222 lookups precede any published loading values.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "48 MW data center proposed at South Elgin's Kenyon farm",
+        "detail": "A developer is pursuing a roughly 200,000 sq ft, 48 MW data center on about nine acres at Kenyon Road and IL-25 in neighboring South Elgin; as of July 2026 the concept faced village-board resistance and organized opposition ahead of an August planning commission hearing — proposed, not approved.",
+        "category": "data center",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/48mw-data-center-eyed-for-kane-county-illinois/",
+        "asOf": "2026-07-16"
+      },
+      {
+        "headline": "Illinois' $1.04B BEAD program awaits federal release",
+        "detail": "Illinois submitted its BEAD Final Proposal in September 2025 covering 156,994 locations statewide; approval was still pending at NTIA into mid-2026, holding the construction wave — and its Kane County rural edges — in queue.",
+        "category": "broadband program",
+        "sourceUrl": "https://dceo.illinois.gov/broadband/connect-il-bead.html",
+        "asOf": "2026-05-15"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["long-haul and metro route construction", "regen and amplifier site civil"],
+      "narrative": "Routing fiber through Elgin means solving the valley: the Fox River, its rail spine, and its saturated granular soils all line up north-south through the middle of the city. Crossings of the river go by directional drill with frac-out controls tuned to permeable terrace sands, and crossings of the Metra Milwaukee District West corridor need permits coordinated between Metra as track owner and CPKC as dispatcher — a process we start at route concept, since post-merger freight growth toward roughly 11 daily trains by 2027 is shrinking track-adjacent work windows. Vault and handhole sets east of the river plan for shallow groundwater in the Carpentersville-aquifer sands: casing, pumps, and boxes rated for running ground. City-side, every street cut runs through the Engineering Division's permit and inspection process against Elgin standards.",
+      "localSpecificsReferenced": [
+        "Fox River HDD crossings",
+        "Metra MD-W / CPKC crossing coordination",
+        "Carpentersville aquifer shallow groundwater",
+        "Elgin Engineering Division permits"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "small cell and DAS node civil",
+        "shelter and cabinet pads",
+        "macro compound construction",
+        "ground ring and halo",
+        "compound fencing",
+        "C-band / densification upgrade civil"
+      ],
+      "secondaryScopeIds": ["generator and fuel containment pads", "access road and turnaround"],
+      "narrative": "Elgin is a densification market: Illinois' sixth-largest city by the 2020 count, with a walkable historic core, a commuter-rail terminus, and corridor growth along Randall Road — the geometry that fills a small-cell program. Those nodes deploy under the statewide 50 ILCS 840 framework of capped fees and shot clocks (sunset currently end of 2026 unless extended), while the concrete-and-conduit half of each node is an Elgin engineering permit with the city's bonded-contractor requirements attached. Macro work rides the same two ground regimes as everything here — straightforward till uplands, wet granular valley sites — and shelter deliveries to the rural west approaches get checked against township thaw postings before a haul date is promised. Historic-district settings around downtown add SHPO-style visual screening earlier than most suburbs.",
+      "localSpecificsReferenced": [
+        "Randall Road growth corridor",
+        "50 ILCS 840 fee caps and shot clocks",
+        "Elgin bonded-contractor ROW rules",
+        "downtown historic districts"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": ["hyperscale campus civil support", "heavy haul access and crane pads"],
+      "narrative": "Elgin's edge story is written by what sits 20 miles east: Elk Grove Village, the densest data center cluster in the Chicago market, reached directly on I-90. As that O'Hare-corridor capacity fills, interconnect-fed edge and enclosure work pushes west along the tollway toward Elgin's cheaper land and ComEd feeders — and the proposal for a 48 MW facility at Kenyon Road and IL-25 in South Elgin (contested and unapproved as of July 2026) shows hyperscale developers already testing this exact geography. Our lane in that build pattern is the civil substrate: transformer and switchgear pads, generator yards, security bollards, and campus conduit, engineered around the valley's high seasonal groundwater where sites fall east of the Fox. Heavy deliveries stage off I-90 with tollway authorization arranged alongside the IDOT permit.",
+      "localSpecificsReferenced": [
+        "Elk Grove Village cluster via I-90",
+        "South Elgin 48 MW proposal (Kenyon Rd/IL-25)",
+        "ComEd service territory",
+        "Fox valley seasonal groundwater"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 205,
+      "driveTimeHours": 3.5,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Kane", "Cook", "McHenry"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Reaching Elgin from eastern Iowa is a northern-tier run, not the I-80 slog: US-151 across the Mississippi at Dubuque, US-20 through Rockford, then I-90 east to the city's front door — a route whose only tolled segment is the final leg, and which stays clear of seasonal postings the whole way. That puts Elgin comfortably inside single-day mobilization range, with crews lodging locally for the life of a scope rather than commuting. Oversize loads add the Jane Addams Tollway's own authorization on top of IDOT's ITAP permit for the last miles, so haul paperwork is sequenced before load-out. Programs that pair Elgin with Fox Valley neighbors or the northwest Cook suburbs consolidate onto a single deployment cleanly. Response commitments are stated only with ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who reviews building and right-of-way permits for telecom work in Elgin?",
+      "answer": "Two city divisions split the scope. Community Development at 150 Dexter Ct handles building permits (applications in person or to Permits@ElginIL.gov, questions via 311 / 847-931-6001), while the Engineering Division issues the engineering permits required for any work in city right-of-way or on city infrastructure — street cuts, parkway work, sidewalk and curb. We route each piece to the correct desk at scoping so neither queue surprises the schedule.",
+      "segment": "general"
+    },
+    {
+      "question": "What building code does Elgin enforce?",
+      "answer": "Elgin has adopted the 2021 I-code family with local amendments — the 2021 IRC and 2021 IEBC adoptions are confirmed in city ordinances. We verify the structural (IBC) edition and any amended foundation provisions, including frost depth, directly with Community Development at design kickoff, because Elgin's amendment text was not remotely sourceable and a guessed value has no place on a foundation drawing.",
+      "segment": "general"
+    },
+    {
+      "question": "What soil conditions should I expect boring or trenching near the Fox River in Elgin?",
+      "answer": "Permeable sand and gravel with shallow groundwater. ISGS maps the Carpentersville aquifer's granular soils at or near the surface east of the Fox in northeastern Kane County, so cuts below the water table can slough and run. We plan those sites with dewatering, trench boxes rated for granular ground, and cased piers where holes won't stand open — and we schedule valley work toward the late-summer low-water window when the program allows.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How are small cell installations permitted in Elgin?",
+      "answer": "The application layer is state-preempted: Illinois' Small Wireless Facilities Deployment Act (50 ILCS 840) caps fees and imposes uniform review shot clocks, and currently sunsets December 31, 2026 unless the legislature extends it again. The construction layer stays local — pole foundations, conduit, and restoration in Elgin ROW require an engineering permit and the city's bonded-contractor filings.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What does a rail crossing near the Metra line in Elgin involve?",
+      "answer": "Coordination with two railroads on one corridor: Metra owns the Milwaukee District West tracks that terminate at Elgin and Big Timber Road, and CPKC dispatches them and runs freight — with volumes projected to grow to about 11 trains daily by 2027 after the merger. Crossing permits and right-of-entry work through the railroads' utility processes, which are slow; we file at route-concept stage and design the schedule around the approval, not ahead of it.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can concrete work continue through an Elgin winter?",
+      "answer": "It can, priced honestly. Ground is typically frozen December into March, so winter scopes carry frost excavation, heated protection or blankets, and cold-weather mix design as planned line items. One local nuance helps: frozen granular terrace soils excavate more cooperatively than frozen clay, so east-side winter digs often run faster than the calendar suggests — the protection cost is on the pour, not the cut.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Are there tree clearing limits on Elgin-area sites?",
+      "answer": "Plan clearing for October 1 through March 31. The endangered northern long-eared bat and Indiana bat occupy this region, and standard practice — reflected in IDOT's own bat guidance — confines cutting to the hibernation season. Clearing outside the window needs USFWS coordination or a summer mist-net survey. A project-specific IPaC query confirms what applies to the parcel before we commit a clearing date.",
+      "segment": "general"
+    },
+    {
+      "question": "Is Elgin close to the Chicago data center market?",
+      "answer": "Directly upstream of it. Elk Grove Village — the densest data center concentration in the metro — sits about 20 miles east on I-90, and spillover is already probing the Fox Valley: a contested 48 MW facility was proposed at Kenyon Road and IL-25 in South Elgin in 2026. For edge and enclosure builds serving that geography, Elgin offers tollway access and ComEd service with civil conditions we already engineer around.",
+      "segment": "edge"
+    },
+    {
+      "question": "Do seasonal road limits affect equipment delivery around Elgin?",
+      "answer": "Not on the through routes — I-90 and US-20 carry legal loads year-round — but Kane County highways carry standing 10-ton designations in places, and township road districts post thaw-season limits on the rural west and north approaches. The binding constraint is the last mile to a greenfield site, so we verify postings on the actual delivery path, and hold rural hauls until limits lift when rerouting isn't viable.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "When groundwater, not frost, sets your foundation cost in Elgin",
+    "body": "Chicago-collar estimators habitually price foundations off frost depth and winter protection — and on Elgin's till uplands west of the Fox, that instinct is right. East of the river it misleads. There, ISGS maps the Carpentersville aquifer's sands and gravels at or immediately below the surface, which inverts the cost logic: excavation is cheap, but holding the hole open below the water table is not. A hut foundation that would be a routine spread footing on the west side can need continuous dewatering, granular-rated shoring, and cased or tremie-placed concrete on the east side — and in May, when the seasonal water table peaks, the pumping spread can outrun the winter-concrete premium the same scope would have carried in January. So the decision sequence we run in Elgin is: fix which landform the site occupies before choosing the foundation type; read the boring logs for water level and date, not just blow counts, because a February water reading understates May; favor shallow, wide bearing over depth on granular sites — every foot down is a foot of pumping; and when the program allows, schedule valley foundations into the August–October low-water window and spend spring on the uplands. The geotech report tells you the soil; in this market the calendar tells you the cost."
+  },
+  "sources": [
+    {
+      "label": "Daily Herald — Census: Elgin now the sixth-largest city in Illinois (2020 count)",
+      "url": "https://www.dailyherald.com/20210813/news/census-elgin-now-the-sixth-largest-city-in-illinois/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Elgin — permits (Community Development, 150 Dexter Ct)",
+      "url": "https://elginil.gov/2614/Permits",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Elgin — Engineering Division (ROW/engineering permits)",
+      "url": "https://elginil.gov/183/Engineering",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Elgin — contractor requirements (letter of intent, bonds)",
+      "url": "https://elginil.gov/311/Contractor-Requirements",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Elgin — IEBC 2021 adoption ordinance with amendments",
+      "url": "https://elginil.gov/DocumentCenter/View/84915/Existing-Building-Code-Amendments",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "JULIE — Illinois one-call law: 48-hour / two-working-day notice",
+      "url": "https://www.illinois1call.com/excavatorsafetyguide/law-and-enforcement/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Illinois EPA — ILR10 construction stormwater general permit",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ISGS — surficial geology of Kane County (Carpentersville aquifer, Fox River terraces)",
+      "url": "https://resources.isgs.illinois.edu/maps/surficial-geology-kane-county-illinois",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Wikipedia/Metra — Milwaukee District West Line (Metra-owned, CPKC-dispatched, Elgin terminals)",
+      "url": "https://en.wikipedia.org/wiki/Milwaukee_District_West_Line",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "ILGA — Small Wireless Facilities Deployment Act (50 ILCS 840)",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3920&ChapterID=11",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DCD — 48 MW data center eyed for Kane County (South Elgin proposal)",
+      "url": "https://www.datacenterdynamics.com/en/news/48mw-data-center-eyed-for-kane-county-illinois/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "DCEO — Connect Illinois / BEAD program status",
+      "url": "https://dceo.illinois.gov/broadband/connect-il-bead.html",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NWS Chicago — 1991–2020 climate normals for the metro stations",
+      "url": "https://www.weather.gov/lot/ord_rfd_monthly_yearly_normals",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "IDOT — OS/OW permitting (ITAP) with local-jurisdiction and tollway permission rule",
+      "url": "https://idot.illinois.gov/doing-business/permits/oversize-and-overweight-permits/apply.html",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind, snow, seismic, ice, design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps, and TIA-222 county tables unreachable through the sandbox proxy; no primary values available to publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Elgin's amended Table R301.2 value could not be read from the code text remotely (elginil.gov documents blocked); left null rather than borrowing a neighboring city's figure. Confirm with Community Development."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — IBC edition",
+      "attempted": "IRC 2021 and IEBC 2021 adoptions confirmed; the commercial IBC edition and structural amendments need direct confirmation with Community Development."
+    },
+    {
+      "field": "geotech quantitative values (bearing, bedrock depth, groundwater elevation, expansive risk, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and ISGS publication PDFs not readable through proxy; Carpentersville-aquifer characterization is qualitative from ISGS map summaries."
+    },
+    {
+      "field": "identity.elevationFt",
+      "attempted": "Published figures found only for Elgin Township, not the city datum; left null rather than approximating."
+    },
+    {
+      "field": "utilities — ComEd lead time; ILEC exchange confirmation; fiber-provider completeness",
+      "attempted": "No published ComEd lead times; AT&T Illinois attribution is legacy-territory based; competitive fiber presence beyond incumbents unverified."
+    },
+    {
+      "field": "operations.nearestBase.roadMiles/driveTimeHours",
+      "attempted": "Seed straight-line estimate (205 mi / 3.5 h); needs real routing on the US-151/US-20/I-90 approach before routeVerified."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Coverage list and response commitments pending ops sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "Tier 3 gate needs 2 images from real project intake; none invented."
+    }
+  ]
+}

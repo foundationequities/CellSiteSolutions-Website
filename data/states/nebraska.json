@@ -5,24 +5,24 @@
     "abbr": "NE"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Nebraska Telecom Civil Construction | CellSite Solutions",
+    "description": "Statewide guide to telecom civil construction in Nebraska — building codes, NDOT and 811 rules, stormwater permits, and the Sarpy County data center boom.",
+    "h1": "Telecom Civil Construction Across Nebraska",
+    "intro": "Nebraska runs on rules most other states don't have. It is the only state served entirely by public power — OPPD, NPPD, LES and their cooperative neighbors, with no investor-owned utility anywhere on the map — and it carries an actual statewide building code, with the 2018 I-codes as the default wherever a city hasn't adopted its own. Add a hyperscale cluster in Sarpy County that keeps pulling Google, Meta, and Fidelity capital, the 1623 Farnam carrier hotel in downtown Omaha, and a $405 million BEAD allocation whose final proposal cleared NTIA in December 2025, and eastern Nebraska is one of the busier telecom civil markets our Cedar Rapids crews reach down I-80. The statewide rules live on this page; the ground truth lives on each city page."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Nebraska is one of the states with a true statewide building code: the Nebraska State Building Code Act (Neb. Rev. Stat. § 71-6403) adopts the 2018 IBC, 2018 IRC, 2018 IEBC, and 2018 Uniform Plumbing Code by reference, and that code applies by default where no local code is in force. Cities and counties may adopt and enforce their own codes so long as they conform generally to the state code — and the metros do: Omaha enforces the 2018 IBC/IRC with amendments in Municipal Code Chapter 43, and Papillion adopted the 2018 I-codes with local amendments by Ordinance 1934 (2021). The practical consequence for telecom civil work is that the 2018 editions are a safe statewide baseline, but frost depth, administrative, and foundation amendments still ride with each city's ordinance and must be confirmed per AHJ.",
+    "source": "Neb. Rev. Stat. § 71-6403 — https://nebraskalegislature.gov/laws/statutes.php?statute=71-6403; Omaha Municipal Code Ch. 43 (Municode); Papillion Ord. 1934 — https://www.papillion.org/DocumentCenter/View/8980/D2-ORD-1934-Building-Code-Amendments"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Occupying or crossing state highway right-of-way in Nebraska runs through the Nebraska Department of Transportation's Utility Accommodation Policy (current edition January 2024). Neb. Rev. Stat. § 39-1361 requires a written NDOT permit before any aboveground or belowground facility crosses a state highway, and longitudinal occupations are permitted through the Application to Occupy Right of Way (NDOT Form 19), reviewed by the district permit officer for the route. NDOT works through eight districts; District 2, headquartered at 4425 S 108th St in Omaha (402-595-2534), covers Douglas, Sarpy, Dodge, Washington, and Cass counties — the whole Omaha metro footprint — so most eastern-Nebraska fiber routes clear through a single district office.",
+    "source": "NDOT Utility Accommodation Policy (Jan 2024) — https://dot.nebraska.gov/media/re3bsojm/ndot-utility-accommodation-policy-january-2024.pdf; NDOT ROW permits — https://dot.nebraska.gov/business-center/permits/row/; NDOT district map with contacts — https://dot.nebraska.gov/media/kfgfb2u4/dist-map-with-contacts.pdf"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "Nebraska811",
+    "url": "https://nebraska811.com/ne-law-enforcement/nebraska-statutes/",
+    "ticketLeadBusinessDays": 2,
+    "source": "One-Call Notification System Act, Neb. Rev. Stat. §§ 76-2301 to 76-2332 — notice at least two business days but not more than ten business days before excavation, excluding weekends and legal holidays (https://nebraska811.com/ne-law-enforcement/nebraska-statutes/)"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -37,74 +37,157 @@
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "Nebraska's statewide 2018-code baseline still leaves the numbers that price a foundation in local amendment tables. The one metro value confirmed so far is Omaha's 42-inch frost depth, set in the amended Table R301.2(1) at Municipal Code § 43-127; Papillion's amended table has not yet been read directly and stays unpublished. Statewide wind, ground snow, and radial ice ranges require an ASCE 7 Hazard Tool and TIA-222 sweep across the market list, which could not be completed through this environment's egress proxy — the range fields above stay null until that sweep is run from an unproxied machine.",
+    "source": "Omaha Municipal Code Ch. 43, § 43-127, amended Table R301.2(1) (via Municode — verify section text at sign-off)"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Nebraska does not run a formal statewide spring frost-law calendar the way Wisconsin or Minnesota do; the binding constraints are county-posted weight limits on gravel and secondary roads during the spring thaw — typically February into April, later on soft routes in the Platte valley and eastern counties — plus NDOT's oversize/overweight rules on state routes. OS/OW permits for shelter and hut hauls are issued by NDOT's permit office, with movement generally restricted to daylight and to non-holiday periods on major corridors. Because postings are county decisions, delivery routing to rural sites is checked against the county highway department for each haul rather than a single state map.",
+    "source": "NDOT oversize/overweight truck permits — https://dot.nebraska.gov/business-center/permits/truck; seasonal county posting practice summarized at https://oversize.io/regulations/nebraska (confirm per county highway department)"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "Three review tracks matter statewide. Stormwater: construction disturbing one acre or more (or less within a larger common plan) needs coverage under the Construction Storm Water General Permit NER210000 from the Nebraska Department of Environment and Energy — renamed the Department of Water, Energy and Environment (DWEE) — with the SWPPP prepared first, a Nebraska Game and Parks CERT screening attached, and the NOI received at least seven days before grading begins. Cultural: the Nebraska SHPO at History Nebraska runs Section 106 reviews on a 30-day clock from receipt, and the clock resets if the office has to ask for more information. Water and wetlands: Section 404 permitting across Nebraska runs through the USACE Omaha District, whose Nebraska regulatory office sits at Wehrspann Lake in Sarpy County. There is no blanket statewide tree-clearing window; northern long-eared bat constraints are screened site-by-site through CERT and USFWS IPaC.",
+    "source": "DWEE construction storm water — https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water; History Nebraska SHPO Section 106 — https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/; USACE Omaha District Nebraska regulatory — https://www.nwo.usace.army.mil/Missions/Regulatory-Program/Nebraska/"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Nebraska registers contractors rather than licensing them: the Nebraska Contractor Registration Act requires contractors and subcontractors doing business in the state to register with the Nebraska Department of Labor — an annual registration ($40 effective August 1, 2026, up from $25) with no trade exam — while electrical work is separately licensed at the state level. Out-of-state contractors additionally satisfy Nebraska tax-compliance requirements, including a surety bond. Nebraska has no state prevailing wage law or little Davis-Bacon act; federal Davis-Bacon rates attach to federally funded work of $2,000 or more, which sweeps in BEAD-funded broadband construction, and Neb. Rev. Stat. § 73-102 requires public-works bidders to file a fair-labor-standards compliance statement.",
+    "source": "Nebraska DOL contractor registration — https://dol.nebraska.gov/conreg; Nebraska prevailing wage status — https://emarsinc.com/prevailing-wages/nebraska"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Eastern Nebraska is anchored by one of the Midwest's densest hyperscale clusters: Google's Papillion campus (built from 2019, with a further $1.2 billion committed to Papillion and Lincoln in 2023 and $930 million invested statewide in 2024 alone), Meta's Sarpy County campus grown to a planned nine buildings and roughly four million square feet, and Fidelity's Papillion data center — all riding OPPD rates in the only state served 100% by public power. Downtown Omaha adds the 1623 Farnam carrier hotel, home to the OmahaIX and roughly 60 carriers at the crossing of east–west and north–south long-haul routes, with a second Omaha interconnection facility announced in January 2026. On the access side, Google Fiber is building Omaha and Bellevue (with ALLO constructing), Metronet lit its Omaha build in 2024, and Cox and Lumen hold the legacy footprint. Rural math is more complicated: Nebraska's $405.3 million BEAD allocation won NTIA final-proposal approval in December 2025, but the state's plan deploys only about $44.5 million in federal funds to 29,597 eligible locations, leaving most of the allocation's future contested. Small-cell work statewide runs under the Small Wireless Facilities Deployment Act (LB 184, 2019).",
+    "source": "Nebraska BEAD final proposal approval — https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal; Nebraska Examiner on Google investment — https://nebraskaexaminer.com/2024/11/25/google-2024-capital-investment-in-ne-is-930m-for-a-five-year-tally-of-4-4b/; 1623 Farnam — https://www.1623farnam.com/carriers/; Meta Sarpy — https://datacenters.atmeta.com/2022/07/keep-on-growing-sarpy-county/"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "How much notice does Nebraska811 require before excavation?",
+      "answer": "At least two business days and not more than ten, excluding weekends and legal holidays, under Nebraska's One-Call Notification System Act (Neb. Rev. Stat. §§ 76-2301 to 76-2332). The ticket applies statewide to any excavation — bores, vault sets, trenching, and pier drilling alike — and CellSite Solutions builds the two-day lead into every Nebraska underground schedule."
+    },
+    {
+      "question": "Does Nebraska have a statewide building code for telecom shelters and huts?",
+      "answer": "Yes — unusual for this region. The Nebraska State Building Code Act (Neb. Rev. Stat. § 71-6403) adopts the 2018 IBC, IRC, and IEBC by reference as the statewide default. Cities may adopt their own conforming codes, and the metros do: Omaha and Papillion both enforce locally amended 2018 editions. The 2018 codes are the safe planning baseline anywhere in the state, with frost depth and foundation amendments confirmed per city."
+    },
+    {
+      "question": "Do contractors need a license to perform civil construction in Nebraska?",
+      "answer": "Nebraska requires registration, not a general contractor license. Contractors and subcontractors register annually with the Nebraska Department of Labor under the Contractor Registration Act — $40 per year effective August 2026, no exam — and out-of-state firms also meet tax-compliance and surety bond requirements. Electrical work is licensed separately at the state level, and there is no state prevailing wage law, though Davis-Bacon applies on federally funded work such as BEAD builds."
+    },
+    {
+      "question": "When does a Nebraska construction site need a stormwater permit?",
+      "answer": "At one acre of disturbance, or below an acre when the site is part of a larger common plan of development. Coverage comes from the Construction Storm Water General Permit (NER210000) administered by Nebraska's environmental agency (NDEE, now DWEE), and the sequence matters: SWPPP prepared first, Nebraska Game and Parks CERT screening attached, and the NOI in the agency's hands at least seven days before clearing or grading starts."
+    },
+    {
+      "question": "What is driving telecom construction demand in Nebraska right now?",
+      "answer": "Sarpy County above all: Google's Papillion campus and Meta's nine-building, four-million-square-foot Sarpy campus keep expanding, with Fidelity alongside and OPPD's public-power rates as the draw. Downtown Omaha's 1623 Farnam carrier hotel anchors interconnection, Google Fiber and Metronet are overbuilding the metro, and BEAD — $405 million allocated, final proposal approved December 2025, though only about $44.5 million currently slated for deployment — sets the rural pipeline."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Neb. Rev. Stat. § 71-6403 — Nebraska State Building Code (2018 I-codes adopted by reference)",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-6403",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska811 — One-Call Notification System Act statutes (two business days' notice)",
+      "url": "https://nebraska811.com/ne-law-enforcement/nebraska-statutes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NDOT Utility Accommodation Policy, January 2024",
+      "url": "https://dot.nebraska.gov/media/re3bsojm/ndot-utility-accommodation-policy-january-2024.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NDOT — right-of-way occupancy permits (Form 19)",
+      "url": "https://dot.nebraska.gov/business-center/permits/row/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NDOT — district map with contacts (District 2, Omaha)",
+      "url": "https://dot.nebraska.gov/media/kfgfb2u4/dist-map-with-contacts.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DWEE (formerly NDEE) — construction storm water general permit NER210000",
+      "url": "https://dee.nebraska.gov/permitting/online-general-permit/construction-storm-water",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "History Nebraska SHPO — Section 106 review and compliance",
+      "url": "https://history.nebraska.gov/historic-preservation/review-and-compliance-section-106/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Omaha District — Nebraska regulatory program",
+      "url": "https://www.nwo.usace.army.mil/Missions/Regulatory-Program/Nebraska/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Department of Labor — contractor registration",
+      "url": "https://dol.nebraska.gov/conreg",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska prevailing wage status — no state law; Davis-Bacon on federal work",
+      "url": "https://emarsinc.com/prevailing-wages/nebraska",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Gov. Pillen — federal approval of Nebraska's BEAD final proposal (Dec 2025)",
+      "url": "https://governor.nebraska.gov/gov-pillen-announces-federal-approval-nebraskas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Examiner — Google's 2024 Nebraska investment ($930M; $4.4B over five years)",
+      "url": "https://nebraskaexaminer.com/2024/11/25/google-2024-capital-investment-in-ne-is-930m-for-a-five-year-tally-of-4-4b/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Meta — Sarpy County data center expansion (nine buildings, ~4M sq ft)",
+      "url": "https://datacenters.atmeta.com/2022/07/keep-on-growing-sarpy-county/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "1623 Farnam — Omaha carrier hotel and OmahaIX",
+      "url": "https://www.1623farnam.com/carriers/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OPPD — public power in Nebraska (the only 100% public power state)",
+      "url": "https://www.oppd.com/community/public-power/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Nebraska Small Wireless Facilities Deployment Act (LB 184, 2019)",
+      "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=37181",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Papillion Ordinance 1934 — 2018 building code adoption and amendments",
+      "url": "https://www.papillion.org/DocumentCenter/View/8980/D2-ORD-1934-Building-Code-Amendments",
+      "accessedDate": "2026-07-27"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation — numeric wind/frost/snow ranges",
+      "attempted": "ASCE 7 Hazard Tool and TIA-222 county tables unreachable through the sandbox egress proxy; only Omaha's 42-inch frost amendment is search-sourced. Statewide sweep needed from an unproxied machine."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "seasonalLoadRegime — county posting authorities for NE markets",
+      "attempted": "Nebraska has no unified statewide frost-law page; county-by-county posting contacts for Douglas, Sarpy, Lancaster, and Hall counties still to be compiled and confirmed by phone."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "dotRowProcess — District 2 processing times and fees",
+      "attempted": "Form 19 process and district structure sourced; typical district review times and fee schedule not published on pages reviewed — confirm with the District 2 permit officer."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
+      "field": "codeAdoption — survey beyond Omaha and Papillion",
+      "attempted": "Lincoln, Grand Island, and smaller-jurisdiction adoption ordinances not yet read; confirmed editions cover Omaha (Ch. 43) and Papillion (Ord. 1934) only."
     },
     {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
-    },
-    {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
-    },
-    {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "telecomLandscape — BEAD deployment beyond initial round",
+      "attempted": "Final proposal approval and the ~$44.5M deployment figure are sourced to Dec 2025 announcements; disposition of the remaining ~$360M is unresolved in Congress/NTIA as of access date — re-review quarterly."
     }
   ]
 }

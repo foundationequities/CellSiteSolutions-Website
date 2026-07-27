@@ -5,24 +5,24 @@
     "abbr": "IL"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Illinois Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil work across northern Illinois — per-town building codes, JULIE and Chicago 811 leads, IEPA stormwater, and Prevailing Wage Act compliance.",
+    "h1": "Telecom Site Civil Construction Across Illinois",
+    "intro": "No state in our footprint splits its rulebook the way Illinois does. There is no traditional statewide building code — Chicago writes its own construction codes, Joliet enforces the 2015 IBC, and hundreds of home-rule towns in between adopt whatever edition they choose — yet the Illinois Prevailing Wage Act reaches every public works contract in all of them. JULIE wants two working days of notice before a bore (Chicago runs its own 811), the IEPA wants a stormwater NOI filed before an acre is disturbed, and the markets range from the 350 E. Cermak interconnection building to a $20 billion data center campus approved on Joliet farmland in 2026. CellSite Solutions self-performs fiber, wireless, and edge site civil scopes across northern Illinois from our Cedar Rapids, Iowa yard — an interstate run east on I-80 and I-88 — with each city's code edition, permit path, and wage obligations confirmed before we price the work."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Illinois has never enforced a single commercial building code, and the change that took effect January 1, 2025 did not truly create one. Under the Capital Development Board Act (20 ILCS 3105), municipalities and counties choose and amend their own model codes — they are only required to report adoptions to the CDB at least 30 days before the effective date — and the new statewide provision acts as a default floor in jurisdictions that never adopted a code at all. The practical result for telecom work is that the governing edition is a per-town question: Chicago maintains its own Chicago Construction Codes (the 2019 modernization, with Title 14B based on the 2018 IBC, mandatory for permit applications since August 1, 2020), Joliet's Code of Ordinances Chapter 8 adopts the 2015 IBC, and adjacent suburbs can sit one or two editions apart. We confirm the adopted code, local amendments, and the frost and wind values they carry with each AHJ before releasing a foundation design.",
+    "source": "Capital Development Board — Illinois Codes FAQ (cdb.illinois.gov); City of Chicago — Chicago Construction Codes; Joliet Code of Ordinances Ch. 8, Art. II (Municode)"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Utility occupancy of state highway right-of-way is governed by IDOT's accommodation rules at 92 Ill. Adm. Code 530, which set the engineering, insurance (Section 530.50), and construction-method standards for installations on the state system. Permits are issued through IDOT's nine highway district offices, and both of our current Illinois markets fall under District 1 in Schaumburg, which covers Cook, DuPage, Kane, Lake, McHenry, and Will counties and publishes its own utility permit guide. Oversize/overweight moves on state routes are permitted separately through IDOT's automated permitting system, with the Illinois Tollway issuing its own overweight authorizations for its network — a distinction that matters on Chicago-area shelter hauls, where the practical route often mixes free interstate, tollway, and municipal streets, each with its own permit desk.",
+    "source": "92 Ill. Adm. Code 530 (ilga.gov); IDOT District 1 Utility Permit Guide; IDOT oversize/overweight permits page; Illinois Tollway overweight/overdimension permits page"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "JULIE (Joint Utility Locating Information for Excavators)",
+    "url": "https://www.illinois1call.com/",
+    "ticketLeadBusinessDays": 2,
+    "source": "220 ILCS 50 (Illinois Underground Utility Facilities Damage Prevention Act) — notice at least 48 hours / two working days, excluding weekends and holidays, and work must begin within 14 calendar days; ICC one-call enforcement page. Within Chicago's corporate limits, locates run through the city's own 811 Chicago (Digger) system, not JULIE."
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -37,74 +37,138 @@
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "Because Illinois has no uniform statewide code, design values do not come from one table — each jurisdiction's adopted edition and amendments govern. Chicago fixes frost protection at 42 inches below final grade in its own building code (Section 1809.5 of the 2019 Chicago Building Code); surrounding jurisdictions set their own figures with their own code adoptions, so we do not publish a statewide frost, wind, or snow range here. Site-specific wind and snow values come from an ASCE 7 hazard query at the site coordinates read against the locally adopted edition, and they are published on our city pages only once verified.",
+    "source": "2019 Chicago Building Code §1809.5; CDB Illinois Codes FAQ (per-jurisdiction adoption)"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Illinois runs no statewide spring frost-law program — a real contrast with Wisconsin's posted Class II highways and Iowa's county embargo season. State routes are governed year-round by standard legal weights and IDOT's oversize/overweight permitting, while local road agencies may post weight limits on their own streets and township roads, so the binding constraint on a rural shelter haul is discovered from the local agency, not a state map. Around Joliet, the private heavyweight-rated roads inside the CenterPoint intermodal complex are engineered for container traffic and are the exception that proves the rule: route capacity in Illinois is checked haul by haul rather than season by season.",
+    "source": "IDOT oversize/overweight permits page; oversize-permit industry guidance noting Illinois posts no statewide seasonal restrictions"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "Section 106 review for federally assisted work — including BEAD-funded fiber — goes to the Illinois State Historic Preservation Office, which has sat inside the Department of Natural Resources since 2017; submissions are electronic through its Correspondence Tracking System and the office asks reviewers to allow up to 30 days per submittal. Wetland and waters permitting splits by geography: the USACE Chicago District regulates northeastern Illinois while the Rock Island District covers the state's western tier, with IEPA issuing Section 401 certifications. Tree clearing is constrained by listed bats — the northern long-eared bat is now federally endangered, and IDOT's own guidance treats October 1 through March 31 as the inactive-season clearing window — so greenfield route clearing gets planned into winter and confirmed with a project-specific USFWS IPaC query.",
+    "source": "Illinois SHPO — dnrhistoric.illinois.gov project review pages (30-day processing); IDOT Circular Letter 2022-28 (northern long-eared bat); USACE Chicago District regulatory program"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Illinois licenses no general contractors at the state level — the only statewide construction credentials are the IDFPR roofing contractor license and the IDPH plumbing license — so qualification happens town by town, and Chicago is the big one: a City of Chicago general contractor license under Municipal Code Title 4, Chapter 4-36 is required for most construction work inside the city. The compliance layer that actually distinguishes Illinois from Iowa and Wisconsin is the Prevailing Wage Act, 820 ILCS 130: it applies to public works funded by any Illinois public body regardless of federal involvement, requires monthly certified payroll filings through the Department of Labor's electronic portal (820 ILCS 130/5.1), and carries record-retention and posting obligations. Neither neighboring state has an active prevailing wage law — Iowa never enacted one and Wisconsin repealed its own — so an Illinois public-agency scope prices differently by statute, before Davis-Bacon on federally funded work is even considered.",
+    "source": "City of Chicago general contractor license page (Title 4-36); IDOL Prevailing Wage Act pages (820 ILCS 130, certified payroll portal); state licensing surveys confirming no Illinois GC license"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Illinois' telecom construction market runs at hyperscale on one end and rural-broadband scale on the other. Chicago is among the world's largest interconnection markets — the 350 E. Cermak carrier hotel houses Equinix's CH1/CH2/CH4 alongside Digital Realty, and Elk Grove Village's cluster of roughly 20 operating data centers with more under construction anchors the O'Hare corridor, where ComEd is building a 260 MW substation for a single Stream campus. The boom has moved outward: CloudHQ broke ground on a $2.5 billion Mount Prospect campus, and in March 2026 Joliet approved the $20 billion, 795-acre, 24-building Joliet Technology Center backed by Hillwood and PowerHouse — with Illinois' data center investment tax exemptions helping drive siting. On the broadband side, Illinois pairs a $1.04 billion BEAD allocation (final proposal submitted September 2025, revised April 2026, NTIA approval still pending during our research) with the state's own Connect Illinois capital program administered by the DCEO Office of Broadband. Small cell deployment outside Chicago runs under the Small Wireless Facilities Deployment Act, 50 ILCS 840, now extended to January 1, 2030 — but the Act exempts municipalities over one million people, so Chicago administers its own process.",
+    "source": "DCEO BEAD program page and Final Proposal (September 30, 2025); 50 ILCS 840 (ilga.gov, P.A. 103-0601 extension); Data Center Frontier and DCD reporting on CloudHQ, Stream/ComEd, and Joliet approvals"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "Is there a statewide building code for telecom projects in Illinois?",
+      "answer": "Not in any practical sense. Municipalities and counties adopt and amend their own model codes under the Capital Development Board Act, and the statewide provisions effective January 1, 2025 mainly set a default for jurisdictions that never adopted a code. Chicago enforces its own Chicago Construction Codes, Joliet enforces the 2015 IBC, and neighboring suburbs can differ by an edition or two — so the code question is answered per AHJ, not per state."
+    },
+    {
+      "question": "How much notice does Illinois' one-call system require — and does it cover Chicago?",
+      "answer": "JULIE requires at least 48 hours — two working days, excluding weekends and holidays — before excavation, and the work must start within 14 calendar days of the ticket, under 220 ILCS 50. The catch: JULIE serves everywhere except the City of Chicago, where locates run through the city's own 811 Chicago (Digger) network with its own 48-hour minimum. A route that crosses the city limit needs tickets in both systems."
+    },
+    {
+      "question": "Does the Illinois Prevailing Wage Act apply to telecom civil construction?",
+      "answer": "It applies whenever the work qualifies as public works — construction funded in whole or part by a state or local public body — regardless of whether federal money is involved. That covers municipal fiber, public-agency conduit, and much publicly supported broadband work. Contractors file monthly certified payrolls through the Illinois Department of Labor's portal under 820 ILCS 130/5.1. Iowa has no prevailing wage law and Wisconsin repealed its state acts, so this is a Illinois-specific cost and compliance layer we build into public bids."
+    },
+    {
+      "question": "When does an Illinois telecom site need a construction stormwater permit?",
+      "answer": "At one acre of disturbance, or less if the site is part of a larger common plan of development. Coverage comes from IEPA's NPDES general permit ILR10 (current permit effective September 2023 through August 2028): a stormwater pollution prevention plan is prepared, the Notice of Intent is filed, and discharge authorization generally follows 30 days after IEPA receives the NOI unless the agency says otherwise. In Cook County, MWRD's Watershed Management Ordinance adds a separate review that starts at half an acre."
+    },
+    {
+      "question": "Where does Illinois' BEAD broadband program stand?",
+      "answer": "Illinois was allocated $1.04 billion and its Office of Broadband (DCEO) submitted a final proposal on September 30, 2025 covering roughly 157,000 locations — about 76 percent by fiber — after the Benefit of the Bargain rebid round. NTIA requested revisions that Illinois returned in early April 2026, and as of our July 2026 research the federal approval was still pending, with the state's congressional delegation publicly pressing Commerce to act. When awards execute, they will fund a multi-year rural fiber construction pipeline layered on the state's own Connect Illinois grants."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Capital Development Board — Illinois Codes FAQ (no traditional statewide code; local adoption and reporting)",
+      "url": "https://cdb.illinois.gov/business/codes/illinois-codes-faq.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "220 ILCS 50 — Illinois Underground Utility Facilities Damage Prevention Act (JULIE notice)",
+      "url": "https://law.justia.com/codes/illinois/chapter-220/act-220-ilcs-50/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "IDOT District 1 Utility Permit Guide (92 Ill. Adm. Code 530 accommodation process)",
+      "url": "https://idot.illinois.gov/content/dam/soi/en/web/idot/documents/doing-business/memorandums-and-letters/permits/district-1-utility-permit-guide.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "92 Ill. Adm. Code Part 530 — Accommodation of Utilities on State Highway Right-of-Way",
+      "url": "https://www.ilga.gov/agencies/JCAR/EntirePart?titlepart=09200530",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Illinois EPA — NPDES construction stormwater general permit ILR10",
+      "url": "https://epa.illinois.gov/topics/forms/water-permits/storm-water/construction.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Illinois SHPO (IDNR) — Section 106 / Section 707 project review, up to 30-day processing",
+      "url": "https://dnrhistoric.illinois.gov/preserve/resource-protection.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "IDOT Circular Letter 2022-28 — northern long-eared bat guidance (inactive-season tree clearing)",
+      "url": "https://idot.illinois.gov/content/dam/soi/en/web/idot/documents/transportation-system/bulletins-and-circulars/circular-letters/informational/cl-2022-28__nleb_final.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Illinois Department of Labor — Prevailing Wage Act (820 ILCS 130)",
+      "url": "https://labor.illinois.gov/laws-rules/conmed/prevailing-wage-act.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "DCEO — Illinois BEAD program ($1.04B; final proposal and Benefit of the Bargain round)",
+      "url": "https://dceo.illinois.gov/broadband/bead.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Connect Illinois Round 4 / BEAD Final Proposal (September 30, 2025)",
+      "url": "https://dceo.illinois.gov/content/dam/soi/en/web/dceo/broadband/documents/il-botb-final-proposal-09302025.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "50 ILCS 840 — Small Wireless Facilities Deployment Act (repeal extended to Jan 1, 2030)",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=3920&ChapterID=11",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Chicago — general contractor license (Municipal Code Title 4-36)",
+      "url": "https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/GC.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "IDOT — oversize/overweight permits (no statewide seasonal frost-law program)",
+      "url": "https://idot.illinois.gov/doing-business/permits/oversize-and-overweight-permits.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Durbin/Duckworth letter pressing Commerce for Illinois BEAD approval (status as of mid-2026)",
+      "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-duckworth-kelly-budzinski-call-on-secretary-of-commerce-to-finally-approve-illinois-bead-program-proposal-allow-illinoisans-to-connect-to-the-internet",
+      "accessedDate": "2026-07-27"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation numeric ranges (wind, frost, snow)",
+      "attempted": "No statewide code exists to source a range from; ASCE 7 Hazard Tool remains blocked by the sandbox egress proxy and per-jurisdiction amendment tables (beyond Chicago's 42-inch frost figure) were not directly readable. Ranges left null rather than estimated."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "codeAdoption — 2025 statewide-default code text",
+      "attempted": "cdb.illinois.gov pages returned 403 through the proxy; the narrative rests on the CDB Codes FAQ as excerpted in search results plus IML/legal summaries. Reviewer should read 20 ILCS 3105/10.09-1 and the CDB FAQ directly before sign-off."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "telecomLandscape — BEAD approval status",
+      "attempted": "NTIA approval was still pending as of the July 2026 research pass (congressional letter of May 2026 confirms). Re-check dceo.illinois.gov/broadband before publication; status is moving."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
-    },
-    {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
-    },
-    {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
-    },
-    {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "oneCall.url",
+      "attempted": "JULIE's site (illinois1call.com) was not fetchable through the proxy to confirm the canonical URL; verify it resolves (vs julie811.com) before publish."
     }
   ]
 }
