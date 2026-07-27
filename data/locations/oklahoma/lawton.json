@@ -1,0 +1,669 @@
+{
+  "identity": {
+    "slug": "lawton",
+    "city": "Lawton",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "stateAbbr": "OK",
+    "counties": [
+      "Comanche"
+    ],
+    "msa": "Lawton, OK MSA (Comanche and Cotton counties)",
+    "tier": 3,
+    "latitude": 34.6036,
+    "longitude": -98.3959,
+    "elevationFt": 1110,
+    "population": {
+      "value": 90377,
+      "source": "U.S. Census Bureau, 2020 decennial census (Lawton city) — QuickFacts; refresh with the current vintage estimate at sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-44 (H.E. Bailey Turnpike)"
+    ],
+    "majorRoutes": [
+      "US-62",
+      "US-277",
+      "US-281",
+      "OK-49 (Medicine Park / Wichita Mountains corridor)",
+      "OK-7"
+    ]
+  },
+  "metadata": {
+    "title": "Lawton, OK Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom site civil construction in Lawton, OK — foundations, underground, and compound work for Fort Sill-area fiber, wireless, and edge builds from our Dallas yard.",
+    "h1": "Telecom Site Civil Construction in Lawton, Oklahoma",
+    "intro": "No Oklahoma market sits closer to CellSite Solutions' Dallas yard than Lawton — 193 road miles, under three hours up US-287 through Wichita Falls to the I-44 corridor. The city of roughly 90,000 anchors southwest Oklahoma around Fort Sill, the Army's 94,000-acre Fires Center of Excellence, whose modernization keeps carrier and contractor networks busy, while Dobson Fiber has pushed fiber past most Lawton addresses and the Comanche Nation — headquartered here — plans its own 190-mile broadband build. The ground is the other story: Permian red beds under most of town, but Cambrian granite where the Wichita Mountains rise northwest of the city, and rock like that rewrites foundation and boring plans.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "2018 IBC is Oklahoma's OUBCC statewide minimum (referencing ASCE 7-16) until the adopted 2024 editions take effect September 14, 2026 (ASCE 7-22); verify which applies at permit issuance",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "The Meers fault — one of the few faults in the stable continental interior with documented Holocene surface rupture — runs through the Slick Hills roughly 15 miles northwest of Lawton, with a ~22 km scarp and trench evidence of prehistoric earthquakes estimated near magnitude 7 (USGS/OGS paleoseismic studies). Publish site Ss/S1 only from a USGS design-maps query; the fault's presence makes a casual seismic assumption a bad idea here."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Two very different grounds share this market. Most of Lawton is Permian red-bed country — reddish sandstones, siltstones, and mudstones with derived clay soils, plus East Cache Creek alluvium through town. Northwest of the city the Wichita Mountains break the surface: Middle Cambrian igneous rock of the Wichita Granite Group and Carlton Rhyolite (roughly 525 Ma), an exhumed Permian landscape ringed by red-bed conglomerates. Site position relative to that igneous front decides whether you are trenching soil or negotiating granite. (OGS/Oklahoma Historical Society summaries of the Wichita Mountains; USGS Wichita province literature.)",
+    "dominantSoilTypes": [
+      "Clays and clay loams weathered from Permian red beds",
+      "East Cache Creek alluvium through the city",
+      "Granite and rhyolite outcrop with thin colluvium (Wichita Mountains front, Medicine Park corridor)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Red-bed-derived clays can be moisture-reactive, but no NRCS shrink-swell rating for the specific Lawton map units was confirmed — get the linear-extensibility data with the geotechnical scope instead of assuming either way.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst is mapped in the immediate Lawton area; the igneous Wichitas and local red beds are not karst-formers. Permian evaporite karst exists regionally farther west — screen any far-flung route segment separately."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Inside Lawton proper, foundations are conventional: shelter pads and spread footings in red-bed clays and weathered sandstone, with East Cache Creek alluvium calling for floodplain screening and softer-ground allowances after the April 2025 flood event. The plan changes at the mountain front. Along OK-49 toward Medicine Park and Mount Scott, Wichita Granite Group and Carlton Rhyolite sit at or near the surface — refusal comes early, augers give way to core barrels and hoe-rams, and a drilled pier design can become a rock-socket or rock-anchor design. That is a different mobilization, a different production rate, and a different price per foot, which is why we ask the granite question at the siting stage, not the excavation stage. The unresolved Meers fault seismic picture argues for letting a geotechnical engineer, not a template, set foundation criteria near the Slick Hills. Borings govern; nothing here substitutes for them."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Lawton — Building Division (Community Services)",
+        "url": "https://www.lawtonok.gov/departments/community-services/building-division",
+        "phone": "580-581-3360",
+        "typicalReviewDays": null,
+        "note": "City Hall, 212 SW 9th Street. Permits, trade licenses, and inspections run through the city's online permit portal; review timelines are not published, so confirm the queue by phone. Work on Fort Sill itself is federal jurisdiction and follows the installation's contracting process, not city permitting."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "City of Lawton enforces adopted International Codes on the OUBCC statewide-minimum foundation (2018 I-Code family as amended by Oklahoma; 2024 editions effective statewide September 14, 2026) — the city posts a 'Currently Adopted International Codes' list; confirm exact local editions and amendments with the Building Division",
+      "source": "City of Lawton currently-adopted codes page (lawtonok.gov); OUBCC statewide code adoption (oklahoma.gov/oubcc)",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Small-cell and pole attachments in public ROW statewide fall under Oklahoma's Small Wireless Facilities Deployment Act (11 O.S. §§ 36-501–512), which preempts most local discretion on fees and heights; Lawton processes wireless permits within that framework.",
+    "rowPermitAuthority": {
+      "name": "City of Lawton — permits via the city's online portal (Public Works / Engineering review)",
+      "url": "https://www.lawtonok.gov/",
+      "phone": "580-581-3360",
+      "typicalReviewDays": null,
+      "note": "ROW-specific permit mechanics (bonding, lane-closure notice) were not published in a citable form — confirm requirements with the city before bidding ROW work. The H.E. Bailey Turnpike is OTA jurisdiction, and US highways through town are ODOT's."
+    },
+    "stateDotDistrict": {
+      "name": "ODOT Field Division 7, headquartered in Duncan (covers Comanche County)",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Utility permits on US-62/US-277/US-281 and state routes file with Division 7 on ODOT's M4 utility permit forms."
+    },
+    "oneCallCenter": {
+      "name": "OKIE811 (Call Okie)",
+      "url": "https://okie811.org/law/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "State law sets the dig-notice floor at 48 hours, not counting the notification day, weekends, or legal holidays; emergencies are the only exception.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Oklahoma DEQ — construction stormwater under general permit OKR10",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Prepare the SWP3, then file the NOI with receiving-water identification; sensitive-water and scenic-river screening is part of the filing."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Lawton floodplain program (Stormwater Division; floodplain regulations under city ordinance)",
+      "url": "https://www.lawtonok.gov/494/Floodplain-Regulations",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Lawton pairs zoning, subdivision, and building requirements with special-purpose floodplain ordinances; East Cache Creek is the corridor that matters."
+    },
+    "permitTimelineNarrative": "Lawton's permitting stack is thinner than a big-metro one, but it still has four clocks: the Building Division's plan review (unpublished — call 580-581-3360 for the live queue), the OKIE811 two-business-day dig ticket, DEQ's OKR10 stormwater authorization for an acre or more of disturbance, and floodplain review anywhere a site touches the East Cache Creek corridor. Add two jurisdictional wrinkles peculiar to this market: anything inside Fort Sill's fence line is federal and moves on the installation's process, and tribal trust land in and around the Comanche Nation's Lawton headquarters can carry its own review path. Sort out whose ground you are on before you promise a permit date."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Public Service Company of Oklahoma (PSO, an AEP company)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Lawton is one of PSO's three named distribution districts (Tulsa, Lawton, McAlester), so the serving-utility question in town is settled — but new-service lead times are not published. Get the schedule in writing from PSO before committing a power-on date; cooperative territory begins outside the city."
+      }
+    ],
+    "ilec": "AT&T Oklahoma (legacy Southwestern Bell exchange) — verify the boundary for sites outside the city core",
+    "notableFiberProviders": [
+      "Dobson Fiber (fiber available to roughly 70% of Lawton homes)",
+      "AT&T Fiber",
+      "Fidelity Communications (HFC cable)"
+    ],
+    "notableDataCenterCampuses": [],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Southwest Oklahoma has no spring frost-law season. Watch instead for locally posted bridges on Comanche County section-line roads and for flood-related closures — the April 2025 East Cache Creek event shut arterials like Lee and Gore boulevards."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Oklahoma DPS — Size and Weights Permit Division",
+      "url": "https://oklahoma.gov/dps/programs-services/troop-s/programs-services/size-weight.html",
+      "phone": "877-425-2390",
+      "typicalReviewDays": null,
+      "note": "Oversize movement is restricted to daylight hours statewide (roughly 30 minutes either side of sunrise/sunset); overweight-only can run continuously. H.E. Bailey Turnpike hauls also clear with the Oklahoma Turnpike Authority."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Stillwater Central Railroad (SLWC, a Watco short line) — the Sapulpa–Oklahoma City–Lawton–Snyder route",
+        "crossingPermitNote": "Fiber and utility crossings of the SLWC line go through Watco's crossing-agreement process; short-line paperwork can be quicker than Class I timelines but is never fast enough to leave until construction — file during design."
+      }
+    ],
+    "urbanRowRequirements": "City permits flow through Lawton's online portal; specific ROW bonding and traffic-control requirements were not published in citable form and should be confirmed with the city. ODOT Division 7 permits govern the US-62/277/281 corridors through town, and the H.E. Bailey Turnpike (I-44) is Oklahoma Turnpike Authority right-of-way, held inviolate by statute — separate permit, separate clock."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Oklahoma SHPO (Oklahoma Historical Society)",
+      "url": "https://www.okhistory.org/shpo/section106",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "30-day Section 106 comment period per complete submission; mailed submissions only. Federally funded work near Fort Sill and in Comanche Nation country should also expect tribal historic preservation consultation."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Tulsa District (Section 404); Oklahoma DEQ issues Section 401 certification",
+      "url": "https://www.swt.usace.army.mil/Missions/Regulatory/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Tulsa District (SWT)",
+    "listedSpeciesNote": "The Wichita Mountains Wildlife Refuge northwest of the city concentrates protected-species attention in exactly the corridor (OK-49 / Medicine Park) where tower and fiber terrain work is hardest. No county clearing window was confirmed from USFWS field-office guidance, so run a project-specific IPaC query per site and treat clearing timing as open until it answers.",
+    "floodplainPrevalenceNote": "East Cache Creek can functionally split Lawton in two. In late April 2025, releases from Lake Lawtonka and Lake Ellsworth after extreme rainfall pushed the creek to the point that the city pre-staged barricades on Lee Boulevard, Gore Boulevard, and Rogers Lane, issued voluntary evacuations for Garden Village and Turtle Creek, and county commissioners declared a disaster. Residents have pressed for floodplain redesignation since 2018. Screen every creek-corridor site against current FEMA panels and the city's floodplain ordinances early."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild-winter ground, open and diggable; short cold snaps",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete measures only on genuine freeze days"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Open ground; occasional ice events on the I-44 corridor",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Windy, warming, dry subgrades",
+        "earthworkConcrete": "favorable",
+        "note": "Severe-weather season spins up late in the month"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Supercell season — hail and heavy-rain days interrupt otherwise good conditions",
+        "earthworkConcrete": "workable",
+        "note": "April 2025 brought the East Cache Creek flood emergency"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Peak severe weather; wettest stretch of the Lawton year",
+        "earthworkConcrete": "workable",
+        "note": "Build storm-day float into production schedules"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Drying and heating fast",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot — average highs in the mid-90s°F, triple-digit runs common",
+        "earthworkConcrete": "constrained",
+        "note": "Hot-weather concreting: dawn pours, ice water, evaporation control"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest, driest ground of the year; baked clays dig hard",
+        "earthworkConcrete": "constrained",
+        "note": "Crew heat management governs the workday"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat breaking; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Mild and dry — arguably the best month on the Lawton calendar",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling, mostly open ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild winter with ice-storm exposure; ground stays unfrozen at depth",
+        "earthworkConcrete": "workable",
+        "note": "The December 2007 ice storm's worst corridor began near Lawton"
+      }
+    ],
+    "narrative": "Lawton's build calendar is nearly year-round: annual precipitation runs only about 32 inches with a couple of inches of snow, winters rarely freeze the ground at depth, and the genuine constraints are summer heat — July and August impose hot-weather concreting and crew heat protocols — and spring severe weather, when supercell hail and heavy rain cost production days and, in extreme cases like April 2025, close creek-corridor roads outright. Ice storms are the wild card on the December–February shoulder; the infamous 2007 event's damage swath started near Lawton. Verify month-level figures against NOAA 1991–2020 normals for the Lawton station before publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Bimodal, and the split is geographic: red-bed ground in and south of town digs and bores conventionally, while Wichita Granite Group and Carlton Rhyolite along the mountain front northwest of the city mean early refusal, core drilling, hoe-ram or blasting economics, and rock-socketed foundations. Price the two zones as different jobs.",
+    "aggregateHaulNote": "Granite quarrying is an established industry in the Wichita Mountains area, which keeps crushed-rock haul distances short for western Comanche County sites; confirm active source and spec at bid.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "No state prevailing wage exists in Oklahoma (the statute fell to a 1995 court ruling). Davis-Bacon determinations apply on federally funded work — BEAD fiber, and effectively anything contracted on Fort Sill.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Summer is the premium season here: heat-management measures, dawn concrete windows, and hydration-driven crew rotation in July–August. Winter carries only episodic ice-day risk.",
+    "narrative": "What moves the number in Lawton is geography first: the same fiber hut or compound costs materially more at the Wichita Mountains front than in the red-bed flats, because granite refusal converts routine augering into rock coring, hammering, or blasting, and slows every linear foot of trench. Second is water — East Cache Creek floodplain siting adds elevation, permitting, and schedule exposure that April 2025 made concrete. Third is season, with July–August heat driving concrete and crew practice. Jurisdiction is the quiet fourth: federal ground on Fort Sill and tribal trust parcels change wage rules, review paths, and access logistics. Mobilization itself is the smallest Oklahoma line we carry — 193 road miles from the Dallas yard, the shortest run to any market we serve in the state. Drivers, not prices; borings and the month set the final figure."
+  },
+  "compliance": {
+    "stateContractorLicensing": "There is no general contractor license at the Oklahoma state level; licensing runs trade-by-trade through the Construction Industries Board — electrical, plumbing, and mechanical contractors are CIB-licensed and roofers register — while civil/sitework contractors register locally with each permitting city, including Lawton. Federally funded and on-post scopes add Davis-Bacon payroll compliance.",
+    "additionalRegistrations": [
+      "City of Lawton contractor registration / trade licensing through the Building Division",
+      "Oklahoma Secretary of State foreign-entity registration for out-of-state contractors",
+      "SAM registration and installation access vetting for Fort Sill work"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "flood",
+      "extreme heat",
+      "ice storm"
+    ],
+    "designImplications": "Design in Lawton answers to spring supercells and summer heat: hail-rated enclosures and conservative anchorage for wind, compound grading that respects East Cache Creek flood behavior (April 2025 was the reminder), and concrete practice built for triple-digit afternoons. Ice remains a real shoulder-season loading event — the 2007 storm began its worst damage near this city — so radial-ice values get published only from confirmed county TIA-222 data, not assumed from latitude.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Fort Sill outlines growth and modernization plans",
+        "detail": "The Fires Center of Excellence leadership's 'State of Fort Sill' pointed to growth driven by field artillery and air defense artillery transformation, plus housing modernization — sustained federal construction and network demand for the Lawton market.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.kswo.com/2026/01/16/state-fort-sill-highlights-growth-modernization-plans/",
+        "asOf": "2026-01-16"
+      },
+      {
+        "headline": "Oklahoma BEAD advances $797.4M toward construction",
+        "detail": "After the July 23, 2025 'Benefit of the Bargain' round, Oklahoma lined up roughly $550M in provisional awards to 20 ISPs for ~34,000 locations; southwest Oklahoma's unserved pockets around the Lawton MSA are in the program's target geography.",
+        "category": "broadband program",
+        "sourceUrl": "https://nondoc.com/2025/08/08/amid-trump-admin-changes-oklahoma-broadband-office-prepares-for-next-stage-of-development/",
+        "asOf": "2025-08-08"
+      },
+      {
+        "headline": "Comanche Nation plans a 190-mile tribal broadband build",
+        "detail": "NTIA's Tribal Broadband Connectivity Program funded a $500K Comanche Nation planning and engineering study toward a future deployment of 190 miles of fiber and/or wireless infrastructure reaching 5,366 tribal households, 158 businesses, and 21 anchor institutions.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/funding-programs/internet-all/tribal-broadband-connectivity-program-round-1-2021/funding-recipients/comanche-nation-broadband-deployment-project",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "restoration",
+        "long-haul and metro route construction"
+      ],
+      "secondaryScopeIds": [
+        "service lateral to hut",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Lawton fiber civil splits along its geology. In-town work — where Dobson Fiber already reaches roughly 70% of homes and AT&T Fiber overbuilds — is red-bed trenching and boring in established ROW, with the Stillwater Central short line crossing to license and East Cache Creek's floodplain to respect. Routes northwest toward Medicine Park hit Cambrian granite, where HDD production collapses unless the bore plan anticipated rock — we scope that corridor with core data, not optimism. The demand side is unusually layered for a city this size: Oklahoma's $797.4M BEAD program targets the region's unserved edges, and the Comanche Nation's NTIA-funded planning points toward a 190-mile tribal fiber and wireless build radiating from its Lawton headquarters.",
+      "localSpecificsReferenced": [
+        "Dobson Fiber ~70% Lawton coverage",
+        "Stillwater Central (SLWC) crossing licensing",
+        "Wichita Mountains granite on the Medicine Park corridor",
+        "Comanche Nation 190-mile broadband plan"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "ice bridge and cable tray"
+      ],
+      "narrative": "Wireless demand around Lawton orbits Fort Sill: 94,000 acres of federal installation whose fires-modernization mission keeps carrier coverage, on-post infrastructure, and contractor networks in constant motion, with the surrounding corridors — I-44/H.E. Bailey, US-62, US-281 — carrying the macro grid. The civil work divides at the mountain front. Compounds in the red-bed flats build conventionally; sites pushed up toward Mount Scott and the OK-49 tourism corridor for elevation meet granite, and foundations shift from augered piers to rock sockets with a different rig and a different week. Layer on the design climate — spring hail, tornado-season wind, and the ice exposure the 2007 storm proved — and anchorage and enclosure specs here earn their conservatism. Tower work near the Slick Hills also sits in the Meers fault's neighborhood; let the geotech report speak before the foundation is priced.",
+      "localSpecificsReferenced": [
+        "Fort Sill Fires Center of Excellence",
+        "Mount Scott / OK-49 granite terrain",
+        "Meers fault proximity",
+        "I-44 H.E. Bailey Turnpike corridor"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Lawton has no announced hyperscale campus, and we won't pretend otherwise — edge demand here is the practical kind: compute and caching pushed close to Fort Sill's federal users, to Dobson's dense local fiber, and to the I-44 corridor between Oklahoma City and Wichita Falls. That translates into micro-DC and edge-enclosure pads, hardened utility yards, and generator installations, with PSO's Lawton district — one of the utility's three named distribution districts — as the interconnecting utility in town. Site selection does the engineering work in this market: red-bed ground east and south of the city keeps excavation ordinary, floodplain screening keeps East Cache Creek honest after April 2025, and the granite front northwest prices itself. Federal-adjacent siting near the post adds access vetting and Davis-Bacon exposure that belongs in the bid, not the change order.",
+      "localSpecificsReferenced": [
+        "Fort Sill federal demand",
+        "PSO Lawton distribution district",
+        "East Cache Creek floodplain",
+        "I-44 corridor position between OKC and Wichita Falls"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 193,
+      "driveTimeHours": 3.0,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Comanche"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Lawton is the closest Oklahoma market to our Dallas yard — 193 miles by verified routing, about three hours: US-287 northwest through the Fort Worth exurbs to Wichita Falls, across the Red River, then the I-44/US-281 corridor into Comanche County. At that distance a crew can stand on site by mid-morning after a same-day roll, and short scopes — pad pours, compound repairs, restoration punch lists — can turn as day trips, while week-long scopes run a simple stay-over rotation. The route has no seasonal weight-restriction season to plan around; the practical watch items are daylight-only rules on oversize hauls, OTA clearance for the H.E. Bailey Turnpike leg, and storm-day timing in spring. Response-time commitments publish only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What ground conditions should I expect for boring or foundations near Lawton?",
+      "answer": "Depends which direction you look. Most of the city sits on Permian red beds — clays and soft sandstone that trench, bore, and auger conventionally. Northwest along OK-49 toward Medicine Park and Mount Scott, Cambrian granite and rhyolite of the Wichita Mountains come to the surface, and excavation becomes rock coring, hammering, or blasting. We treat the two zones as different jobs with different rigs.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Is rock excavation likely on a Lawton-area cell site?",
+      "answer": "Near the Wichita Mountains front, yes — plan on early refusal in Wichita Granite Group or Carlton Rhyolite, rock-socketed foundations, and slower production. In and south of the city on red-bed ground, rock excavation risk drops to ordinary levels. Pre-bid borings settle the question for a few thousand dollars; discovering granite with an auger settles it for much more.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who issues building and trade permits in Lawton?",
+      "answer": "The City of Lawton Building Division under Community Services — City Hall at 212 SW 9th Street, 580-581-3360 — with applications through the city's online permit portal. Two boundaries change the answer: Fort Sill work is federal and runs on the installation's process, and Comanche Nation trust land can follow a tribal review path.",
+      "segment": "general"
+    },
+    {
+      "question": "How long before digging do we have to contact OKIE811?",
+      "answer": "At least 48 hours, excluding the day of notification, Saturdays, Sundays, and legal holidays — two working days in practice, with emergencies as the only statutory exception. Every trench, bore, anchor, and ground-ring excavation we schedule in Comanche County starts from that ticket date.",
+      "segment": "general"
+    },
+    {
+      "question": "How does East Cache Creek affect telecom site selection in Lawton?",
+      "answer": "Seriously. In April 2025, dam releases from Lake Lawtonka and Lake Ellsworth after extreme rain nearly split the city along the creek — barricades pre-staged on Lee and Gore boulevards, voluntary evacuations in Garden Village and Turtle Creek, and a county disaster declaration. Any site or route near the creek gets FEMA panel screening and city floodplain review before we treat it as buildable.",
+      "segment": "general"
+    },
+    {
+      "question": "Can you pour concrete in Lawton in the middle of summer?",
+      "answer": "Yes, with hot-weather practice — this is the season that actually constrains Lawton concrete. July and August afternoons run into the high 90s and beyond, so we schedule dawn pours, chill mix water where needed, control evaporation, and rotate crews on heat protocols. Winter, by contrast, rarely freezes the ground deeply enough to stop foundation work.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What broadband programs are funding fiber construction around Lawton?",
+      "answer": "Two at once: Oklahoma's $797.4M BEAD program, which finished its revised application round in July 2025 with roughly $550M provisionally awarded to 20 ISPs, and the Comanche Nation's NTIA-funded broadband effort — a planning grant pointing toward 190 miles of new fiber and wireless infrastructure serving thousands of tribal households from its Lawton headquarters.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroad crossings come up on Lawton fiber routes?",
+      "answer": "The Stillwater Central Railroad — a Watco short line running the Sapulpa–Oklahoma City–Lawton–Snyder corridor — is the operating railroad through town, so route crossings license through Watco's crossing-agreement process. Short-line approvals tend to move faster than Class I railroads, but we still file during design rather than betting the schedule on it.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Does the Meers fault change how sites get designed near Lawton?",
+      "answer": "It should change how casually seismic values get assumed. The Meers fault, about 15 miles northwest in the Slick Hills, shows documented Holocene surface rupture with paleo-earthquakes estimated near magnitude 7 — rare for the continental interior. We publish no Ss/S1 numbers without a USGS design-maps query, and near the fault we let the geotechnical engineer set the seismic design basis.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Pricing the granite line: foundations west of Lawton vs. in town",
+    "body": "The most expensive assumption you can make in this market is that Lawton ground is all the same ground. In town and to the south and east, Permian red beds behave: augers turn, trenchers cut, and a shelter pad or drilled pier prices like ordinary southwest-Oklahoma work. Northwest of the city the Wichita Mountains change the arithmetic — Cambrian granite and rhyolite sit at or just under the surface along the OK-49/Medicine Park corridor, and the moment an auger refuses, the job becomes core barrels, hoe-rams, or blasting, with production measured in inches and mobilization of rock equipment nobody priced. So draw the granite line early: pull the OGS mapping, put a boring at every structure location west of town, and if rock is shallow, design for it deliberately — a rock-socketed pier or anchored mat on competent granite is an excellent foundation, often better than deep soil work, but only when the bid knew it was coming. Add the creek check (East Cache Creek floodplain after April 2025) and the jurisdiction check (post boundary, trust land), and the estimate holds. Skip them and the ground bills you later.",
+    "segment_note": null
+  },
+  "sources": [
+    {
+      "label": "City of Lawton — Building Division (Community Services)",
+      "url": "https://www.lawtonok.gov/departments/community-services/building-division",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lawton — currently adopted International Codes",
+      "url": "https://www.lawtonok.gov/index.php/services/currently-adopted-international-codes",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OUBCC — statewide minimum codes (2018 editions; 2024 effective 2026-09-14)",
+      "url": "https://oklahoma.gov/oubcc.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OKIE811 — the Oklahoma one-call law and 48-hour notice",
+      "url": "https://okie811.org/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma DEQ — OKR10 construction stormwater permitting",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ODOT field districts — Division 7 (Duncan) covering Comanche County",
+      "url": "https://oklahoma.gov/odot/about-us/field-districts.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma DPS — Size and Weights Permit Division (oversize daylight rules)",
+      "url": "https://oklahoma.gov/dps/programs-services/troop-s/programs-services/size-weight.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Historical Society — Wichita Mountains geology (granite, rhyolite, exhumed Permian landscape)",
+      "url": "https://www.okhistory.org/publications/enc/entry?entry=WI002",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Holocene reactivation of the Meers fault, southwestern Oklahoma",
+      "url": "https://pubs.usgs.gov/publication/70019571",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KSWO — April 2025 East Cache Creek flood emergency (barricades, evacuations)",
+      "url": "https://www.kswo.com/2025/04/30/city-lawton-prepares-possibility-east-west-sides-splitting-due-flooding/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Lawton — floodplain regulations",
+      "url": "https://www.lawtonok.gov/494/Floodplain-Regulations",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "KSWO — State of Fort Sill: growth and modernization plans",
+      "url": "https://www.kswo.com/2026/01/16/state-fort-sill-highlights-growth-modernization-plans/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "U.S. Army — Fires Center of Excellence and Fort Sill",
+      "url": "https://www.army.mil/fcoe",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — Comanche Nation Tribal Broadband Connectivity Program award (190-mile plan)",
+      "url": "https://www.ntia.gov/funding-programs/internet-all/tribal-broadband-connectivity-program-round-1-2021/funding-recipients/comanche-nation-broadband-deployment-project",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NonDoc — Oklahoma BEAD ($797.4M) program status and provisional awards",
+      "url": "https://nondoc.com/2025/08/08/amid-trump-admin-changes-oklahoma-broadband-office-prepares-for-next-stage-of-development/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Dobson Fiber — Lawton residential fiber service",
+      "url": "https://www.dobson.net/lawton",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Union Pacific short-line directory — Stillwater Central Railroad (Sapulpa–OKC–Lawton–Snyder)",
+      "url": "https://www.up.com/shipping/short-line/lines/slwc",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "PSO — service territory and districts (Tulsa, Lawton, McAlester)",
+      "url": "https://psoklahoma.com/info/facts/ServiceTerritory.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Norman — December 2007 ice storm (worst corridor from near Lawton northeast)",
+      "url": "https://www.weather.gov/oun/events-20071208",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TravelMath — Dallas, TX to Lawton, OK driving distance (~193 mi)",
+      "url": "https://www.travelmath.com/drive-distance/from/Dallas,+TX/to/Lawton,+OK",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind (RC II/IV), snow, radial ice, seismic Ss/S1, design temps",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps API, TIA-222 county tables, and ASHRAE compilations all blocked by the sandbox proxy or paywalled; nothing publishable surfaced from primary sources at 34.6036, -98.3959."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Lawton's amended Table R301.2 values are not readable through search or the city's code pages (403 through proxy); no secondary source is acceptable for a published frost depth."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — exact local editions",
+      "attempted": "The city's 'Currently Adopted International Codes' page could not be opened through the proxy; published value states the OUBCC statewide framework pending a direct read of the city list."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority — ROW permit mechanics (bond, notice, fees)",
+      "attempted": "No citable published ROW permit procedure found for Lawton; flagged for confirmation with Public Works/Engineering before bidding ROW work."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock/granite, groundwater, shrink-swell rating, corrosivity)",
+      "attempted": "NRCS Web Soil Survey and OGS quadrangle PDFs unreachable through the proxy; geology published qualitatively only."
+    },
+    {
+      "field": "environmental.treeClearingWindow",
+      "attempted": "No USFWS field-office clearing-window guidance confirmed for Comanche County; species screening deferred to per-project IPaC queries instead of asserting a window."
+    },
+    {
+      "field": "seasonality — NOAA 1991–2020 normals for the Lawton station",
+      "attempted": "Station normals table not directly readable; calendar authored from qualitative climate sources (≈32 in. precip, ≈2 in. snow) and needs the station-table check."
+    },
+    {
+      "field": "utilities — PSO new-service lead time; ONG gas service confirmation at site level",
+      "attempted": "PSO publishes no lead times; Oklahoma Natural Gas serves the state broadly but site-level gas availability was not confirmed for Lawton parcels."
+    },
+    {
+      "field": "identity.elevationFt — conflicting published figures",
+      "attempted": "Sources range from ~1,110 ft (topographic/airport) to 1,142 ft (chamber of commerce); 1,110 published pending a USGS GNIS check."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Coverage list beyond Comanche County and any response commitment require ops sign-off."
+    }
+  ]
+}
