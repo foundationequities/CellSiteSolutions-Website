@@ -1,0 +1,680 @@
+{
+  "identity": {
+    "slug": "laredo",
+    "city": "Laredo",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Webb"
+    ],
+    "msa": "Laredo, TX (Webb County)",
+    "tier": 3,
+    "latitude": 27.5306,
+    "longitude": -99.4803,
+    "elevationFt": 438,
+    "population": {
+      "value": 255205,
+      "source": "U.S. Census 2020 count for Laredo city as republished by Census-data aggregators — confirm current vintage against Census QuickFacts",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-35",
+      "I-69W (US-59)"
+    ],
+    "majorRoutes": [
+      "Loop 20 (Bob Bullock Loop)",
+      "FM 1472 (Mines Road)",
+      "US-83"
+    ]
+  },
+  "metadata": {
+    "title": "Laredo, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Laredo, TX - cross-border fiber civil, compound pads and heat-ready concrete at the busiest inland port on the US-Mexico border.",
+    "h1": "Telecom Site Civil Construction in Laredo, Texas",
+    "intro": "Laredo's network infrastructure exists because of a border: Port Laredo ranks No. 1 among U.S. ports by trade value, roughly 10,000 northbound trucks a day move through the World Trade Bridge district, and CPKC's Laredo rail bridge — the busiest rail border crossing in North America — doubled its capacity with a second span opened in 2025. Cross-border fiber follows the same geography, with carriers landing Laredo–Nuevo Laredo crossings and border interconnection facilities serving both countries' networks. The civil conditions are their own study: one of the hottest climates in Texas, arroyo flash-flood drainage into the Rio Grande, and calcareous South Texas soils. CellSite Solutions serves Laredo from our Dallas yard on a project-deployment basis.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC — City of Laredo adopted the 2021 ICC codes with the 2020 NEC via Ordinance 2024-O-149)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Deep South Texas is a low-seismicity setting well away from the Permian's injection-driven activity; numeric Ss/S1 values still publish only after a USGS design-maps query at site coordinates. Heat and localized flash flooding — not wind, ice, or seismic — are the environmental loads that actually drive design decisions in this market."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Laredo sits where Eocene coastal-plain bedrock of the South Texas brush country — sandstones, clays, and shales of the Claiborne Group, whose Laredo Formation takes its name from this stretch of the Rio Grande — meets the river's Quaternary alluvium. Terraces and floodplain margins carry very deep, well-drained calcareous silty soils: the Laredo series (silty clay loam on low terraces) and Rio Grande series (silty alluvium on terraces) are both defined here. Upland terrain around Zacate and Chacon creeks is predominantly clay. (NRCS Official Series Descriptions; formation attribution to be confirmed against the BEG Geologic Atlas before publish.)",
+    "dominantSoilTypes": [
+      "Laredo silty clay loam (calcareous, low terraces)",
+      "Rio Grande silt loam (river terraces)",
+      "Clayey uplands of the brush country (Zacate/Chacon drainage)"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Upland clays around the city plausibly carry shrink-swell behavior, but no NRCS linear-extensibility data was queried in research and no rating is published without it — treat expansiveness as a boring-program question on every Laredo site rather than an assumption in either direction.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No karst mapping applies to Webb County in the sources reviewed; the Eocene section here is clastic, not carbonate-dissolution terrain."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": "Calcareous soils and a hot, evaporative climate warrant attention to buried-metal detailing; numeric NRCS corrosion ratings for the mapped units are pending a Web Soil Survey query and should be added before publication.",
+    "foundationApproachNarrative": "Laredo foundation work starts with a terrain question: terrace or upland? River-terrace sites on Laredo and Rio Grande series soils are deep, calcareous, and well-drained — straightforward pad and pier ground by Texas standards, with the FIRM and arroyo setbacks doing more to constrain siting than the soil does. Upland brush-country sites bring clays of unverified shrink-swell behavior and shallow Eocene bedrock possibilities, which is why the boring program leads the design here rather than trailing it. Two Laredo constants apply everywhere: drainage design that respects arroyo flash-flow paths — Zacate and Chacon creeks pick up the whole city's runoff on its way to the Rio Grande — and hot-weather concrete practice across a season that runs longer than anywhere else on our Texas map. There is no frost story; embedment follows the adopted code minimums and the geotech report, not a frost table.",
+    "_note": null
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Laredo Building Development Services",
+        "url": "https://www.cityoflaredo.com/departments/building-development-services",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Six divisions cover plan review, permits, inspections, and code enforcement; permit types include commercial building, floodplain development, and right-of-way. Published review times not posted — confirm current timelines directly."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 ICC codes (IBC, IRC, IMC, IECC, IEBC, IPMC) with local amendments and the 2020 NEC, adopted via Ordinance 2024-O-149",
+      "source": "City of Laredo — city ordinances / Building Development Services: https://www.cityoflaredo.com/departments/building-development-services/city-ordinances",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network node deployments in city ROW run under the statewide Texas Local Government Code Chapter 284 framework; confirm Laredo's node design manual and any district-specific standards near the international bridges before submitting.",
+    "rowPermitAuthority": {
+      "name": "City of Laredo Building Development Services (right-of-way permit type) inside city limits; TxDOT via RULIS on the state system",
+      "url": "https://www.cityoflaredo.com/departments/building-development-services",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Expect added coordination on any alignment near the international bridges, where federal port-of-entry operations and bridge-system infrastructure share the corridor."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Laredo District (8 counties: Dimmit, Duval, Kinney, La Salle, Maverick, Val Verde, Webb, Zavala)",
+      "url": "https://www.txdot.gov/about/districts/laredo-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The district's I-35 corridor program keeps active construction between the port district and the outlet of the NAFTA truck corridor — coordinate fiber and ROW work with project phasing."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": null,
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "NOI via STEERS at one acre; arroyo-adjacent sites deserve genuine erosion-control design, not boilerplate, given flash-flow velocities."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Laredo floodplain management (NFIP participant; floodplain development permits issued through Building Development Services)",
+      "url": "http://www.cityoflaredo.com/planning/floodplain-management.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Mapped floodplain follows the Rio Grande and the arroyo network — Zacate, Chacon, and their tributaries — through the city."
+    },
+    "permitTimelineNarrative": "Laredo permitting is consolidated: Building Development Services issues the building permit, the floodplain development permit, and the ROW permit from one department under the city's 2021-code adoption, which simplifies sequencing compared with multi-department metros. The statewide layers run as usual — TCEQ's construction general permit at an acre of disturbance with the 7-day NOI clock, Texas811 at two business days, TxDOT RULIS on state ROW. What extends timelines here is geography, not bureaucracy: anything near the international bridges shares a corridor with federal port-of-entry operations, rail-crossing agreements at the CPKC/UP gateway run on railroad and binational timelines, and arroyo-crossing alignments pick up floodplain review. Front-load those three and the rest of the stack moves at ordinary speed.",
+    "_note": null
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "AEP Texas",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "The ERCOT transmission and distribution utility whose territory includes Laredo — energy is purchased through a competitive Retail Electric Provider while AEP Texas owns the wires. Confirm the current new-service intake and realistic lead times during scoping; port-district industrial growth keeps the local queue active."
+      },
+      {
+        "name": "Medina Electric Cooperative",
+        "type": "cooperative",
+        "newServiceProcessUrl": "https://www.medinaec.org/newservice",
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Serves rural stretches of Webb County outside the city — relevant for highway-corridor and ranch-country sites, where the co-op process differs materially from the ERCOT retail model."
+      }
+    ],
+    "ilec": "AT&T (most widely available wireline provider; confirm formal ILEC designation against FCC data before publish)",
+    "notableFiberProviders": [
+      "AT&T Fiber (~21% of the city)",
+      "Spectrum (Charter — near-citywide cable footprint)",
+      "Transtelco (cross-border Laredo–Nuevo Laredo fiber)"
+    ],
+    "notableDataCenterCampuses": [
+      "MDC Data Centers' Laredo border interconnection facility (carrier-neutral cross-border interconnection)"
+    ],
+    "longHaulRouteNotes": "Laredo–Nuevo Laredo is one of the primary U.S.–Mexico fiber crossing points: Transtelco lands its cross-border network here, and MDC announced new cross-border routes at Laredo in 2025 joining Tier-1 and regional carriers at its border facility. Routes north follow the I-35 corridor toward San Antonio.",
+    "ixPresence": "MDC Data Centers operates a carrier-neutral border interconnection point at Laredo serving U.S. and Mexican networks."
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "No seasonal thaw restrictions exist this far south — postings are year-round and engineering-based. The binding logistics constraint is congestion: the World Trade Bridge district moves on the order of 10,000 northbound trucks daily, and FM 1472 (Mines Road) haul timing is planned around commercial traffic peaks rather than any calendar rule."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Self-issued, auto-routed permits for most shelter hauls; check district restrictions and plan I-35 arrivals off-peak."
+    },
+    "bridgeOrClearanceConstraints": "Truck volumes through the port district are the practical constraint: peak-day inspection counts have reached roughly 21,000 trucks across Laredo's crossings, and the Mines Road/World Trade Bridge corridor congests accordingly — schedule oversize moves and concrete deliveries around commercial peaks.",
+    "railroads": [
+      {
+        "name": "CPKC (Laredo gateway, former KCS/Tex-Mex)",
+        "crossingPermitNote": "Operates the Patrick J. Ottensmeyer International Railway Bridge — the busiest rail border crossing in North America, doubled to two spans in 2025. Crossing or occupancy agreements on the gateway corridor run on railroad timelines; file at project start."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP's line north from Laredo carries the I-35 rail corridor toward San Antonio; wireline crossing agreements follow UP's standard process — plan for weeks to months."
+      }
+    ],
+    "urbanRowRequirements": "City ROW permits through Building Development Services; traffic-control planning matters most in the port district and on arterial crossings of the truck routes."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Brush clearing scheduled outside the general March 15 – September 15 nesting season where feasible, or preceded by nesting surveys",
+      "driver": "Migratory bird nesting under the MBTA (statewide TPWD guidance); Tamaulipan thornscrub brush is genuine nesting habitat, so 'brush country' does not mean 'no clearing constraints'",
+      "source": "TPWD Environmental Review guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission — Section 106 / Antiquities Code review via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": "Laredo's 1755 founding and historic downtown districts make Section 106 attention more likely on core-city alignments than in younger Texas metros."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE regulatory program (district assignment for Webb County to be confirmed against the USACE regulatory boundary layer)",
+      "url": "https://geospatial-usace.opendata.arcgis.com/datasets/70805e1a8fd74e42b0a9585088d6d151_0/explore",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Rio Grande itself adds an international dimension — work at the river involves federal boundary-and-water coordination (IBWC) beyond ordinary Section 404 scope; screen river-adjacent projects early."
+    },
+    "usaceDistrict": null,
+    "listedSpeciesNote": "No county-specific list was compiled — run IPaC for Webb County per project. South Texas brush-country species reviews are a real possibility on undeveloped thornscrub sites; do not assume a cleared-pasture baseline.",
+    "floodplainPrevalenceNote": "Flood exposure follows the Rio Grande and the arroyo network: Zacate Creek runs 10 miles through the city to the river, Chacon Creek 20 miles, and both carry mapped floodplain and genuine flash-flood behavior — the USGS operates a flood-monitoring camera on Zacate Creek. Semi-arid does not mean dry when a tropical remnant or mesoscale storm stalls over the basin."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild and dry — highs near 67°F, rare light freezes",
+        "earthworkConcrete": "favorable",
+        "note": "Prime construction season"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Driest month of the year (~0.4 in.); excellent ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Warming fast; dry, firm ground",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Hot season begins; 90s arrive",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete practice starts earlier than anywhere else in Texas"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Hot; one of the wetter months in a ~19.7-inch year",
+        "earthworkConcrete": "workable",
+        "note": "Thunderstorm and arroyo flash-flow awareness"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Very hot; triple digits routine",
+        "earthworkConcrete": "constrained",
+        "note": "Early-morning pour windows; crew heat-illness protocols"
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Peak heat; dry, hard ground",
+        "earthworkConcrete": "constrained",
+        "note": null
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest month — average highs around 100°F",
+        "earthworkConcrete": "constrained",
+        "note": "Night and dawn work where scopes allow"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Wettest month (~2.2 in.); heat easing late",
+        "earthworkConcrete": "workable",
+        "note": "Tropical-remnant rain events possible; arroyo flows spike"
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cooling; good working ground returns",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild, dry; excellent conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild winter; year-round buildability",
+        "earthworkConcrete": "favorable",
+        "note": null
+      }
+    ],
+    "narrative": "Laredo has the longest hot season on our Texas map and no cold season worth the name: August highs average around 100°F in a subtropical-steppe climate (Köppen BSh) that starts running triple digits in late spring, so hot-weather concrete practice governs from roughly April into October — early pours, mix temperature control, and crew heat protocols are standing procedure, not exceptions. The compensation is a superb October-through-March window: mild, dry — February averages under half an inch of rain — and effectively frost-free. Total precipitation runs near 19.7 inches with May and September peaks, and the September peak matters most: tropical remnants and stalled storms can turn Zacate and Chacon creeks into genuine flash-flood channels. Confirm monthly figures against NWS normals for Laredo before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Terrace alluvium digs easily; upland brush-country sites can encounter cemented calcareous horizons or shallow Eocene sandstone — a boring-program question, priced per site rather than assumed either way.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": "The metro carries ready-mix capacity serving the port district's sustained industrial construction; lock pour windows with plants around commercial traffic peaks, which affect delivery timing more than plant capacity does.",
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Davis-Bacon applies to federally funded work over $2,000 — including BEAD builds and federally supported port-of-entry projects — and Texas Government Code Chapter 2258 covers state and locally funded public works; the higher schedule governs on mixed funding.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "The heat premium runs longer than anywhere else in Texas — roughly April through October of hot-weather concrete practice and heat-protocol crew scheduling — while winter carries essentially no penalty at all.",
+    "narrative": "Laredo prices around heat, trucks, and the border. Heat is the long pole: six-plus months of hot-weather concreting compresses pours into morning windows and adds ice, retarders, and cure protection to summer estimates, offset by a winter season that loses almost nothing. Trucks are the local friction: with on the order of 10,000 northbound trucks a day through the port district, Mines Road and I-35 deliveries schedule around commercial peaks, and that shows up in haul productivity. The border adds process cost on the specific scopes that touch it — rail-crossing agreements at the CPKC gateway, corridor coordination near the international bridges, floodplain review on arroyo and river alignments. As a Band B market served from Dallas, mobilization is planned and priced per program with materials bought in-market. Drivers, never unit pricing — each site prices to its borings, its corridor, and its season.",
+    "_note": null
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas issues no statewide general contractor license; Laredo regulates through municipal contractor registration and permitting at Building Development Services. Statewide trade licensing applies — electrical through TDLR under a licensed Electrical Contractor with a Master Electrician of record, plumbing through TSBPE. Scopes touching port-of-entry facilities or international bridge corridors can add federal background and access requirements beyond the municipal baseline.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "extreme heat",
+      "flood",
+      "hail",
+      "high wind"
+    ],
+    "designImplications": "Extreme heat is the defining exposure: shelter HVAC sizing, generator derating, battery thermal management, and concrete practice all design to a climate where triple-digit highs run for months — with numeric design temperatures published only after the ASHRAE/NOAA station data is pulled. Flood risk is channelized: arroyo flash flows on Zacate and Chacon creeks and mapped Rio Grande floodplain make siting and compound drainage genuine design work, while most upland sites stay dry. Hail and thunderstorm wind are standard South Texas exposures; hurricanes weaken well before reaching this far inland, arriving mainly as tropical rain events.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "CPKC doubles the busiest rail border crossing",
+        "detail": "CPKC completed the $100M second span of the Patrick J. Ottensmeyer International Railway Bridge (opened February 2025), doubling capacity at North America's busiest rail border crossing and cementing Laredo's role as the continent's freight-rail gateway — infrastructure investment that pulls network construction with it.",
+        "category": "transportation",
+        "sourceUrl": "https://investor.cpkcr.com/news/press-release-details/2024/CPKC-completes-construction-of-second-span-of-international-rail-bridge-linking-Laredo-Texas-and-Nuevo-Laredo-Tamaulipas/default.aspx",
+        "asOf": "2025-02-15"
+      },
+      {
+        "headline": "World Trade Bridge expansion underway",
+        "detail": "Expansion of the World Trade Bridge crossing — the top U.S. land port's main commercial artery, handling on the order of 10,000 northbound trucks daily — began in 2024, targeting added lane capacity and modernized inspection processing.",
+        "category": "transportation",
+        "sourceUrl": "https://www.freightwaves.com/news/how-laredo-texas-manages-high-volume-trade-as-the-number-one-port-of-entry-into-the-u-s",
+        "asOf": "2026-01-15"
+      },
+      {
+        "headline": "MDC expands cross-border fiber routes at Laredo",
+        "detail": "MDC Data Centers announced new U.S.–Mexico cross-border fiber routes at Laredo (and El Paso), adding capacity and route diversity at its carrier-neutral border interconnection facilities where Tier-1 and Mexican carriers meet.",
+        "category": "carrier program",
+        "sourceUrl": "https://www.accessnewswire.com/newsroom/en/telecommunications/mdc-expands-u.s.-mexico-fiber-infrastructure-with-new-cross-border-routes-in-lar-1021526",
+        "asOf": "2025-06-30"
+      },
+      {
+        "headline": "Texas BEAD approved statewide — Webb County detail pending",
+        "detail": "NTIA approved Texas' ~$1.3B BEAD final proposal in November 2025 with construction from summer 2026; Webb County award detail was not yet published at review time.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "long-haul and metro route construction",
+        "vault and handhole setting",
+        "fiber hut pad",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "service lateral to hut"
+      ],
+      "narrative": "Laredo fiber civil is border fiber civil: the Laredo–Nuevo Laredo crossing is one of the primary U.S.–Mexico fiber gateways, with Transtelco landing cross-border infrastructure here and MDC adding new cross-border routes to its carrier-neutral Laredo facility in 2025. Feeder and metro routes serve a logistics economy — duct bank into the Mines Road warehouse district, laterals to port-adjacent facilities, and I-35 corridor routes north toward San Antonio. The engineering constraints are specific: arroyo crossings at Zacate and Chacon creeks need flash-flow-rated depths and armoring, rail crossings at the CPKC gateway and UP's line north run on railroad timelines, and bridge-corridor alignments coordinate with federal port operations. Terrace alluvium bores cleanly; upland brush-country segments get borings first.",
+      "localSpecificsReferenced": [
+        "Transtelco Laredo–Nuevo Laredo crossing",
+        "MDC Laredo cross-border route expansion",
+        "Zacate/Chacon arroyo crossings",
+        "Mines Road logistics corridor"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Laredo serves a coverage market with an industrial edge: capacity follows the truck economy along I-35, Loop 20, and the Mines Road corridor, where warehouse rooftops and yard compounds concentrate demand, and cross-border spectrum coordination makes site placement near the river more deliberate than in interior metros. The civil realities are heat and drainage. Shelter and equipment pads spec to a climate that runs triple digits for months — HVAC-driven layouts, generator derating, shade-aware orientations — and pours compress into dawn windows from late spring through early fall. Compounds near the arroyo network get real drainage design because Zacate and Chacon creeks flash hard when September storms or tropical remnants stall. Winter, in exchange, is the most forgiving build season in Texas.",
+      "localSpecificsReferenced": [
+        "I-35 / Loop 20 / Mines Road corridor demand",
+        "arroyo flash-flood drainage design",
+        "border-proximate site placement",
+        "extended hot-weather concreting season"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Laredo's edge market is interconnection-led rather than hyperscale-led: MDC Data Centers runs a carrier-neutral border interconnection facility here — where U.S. Tier-1 networks meet Mexican carriers — and expanded its cross-border routes in 2025, making Laredo one of the few Texas markets whose data-center relevance is about the border, not cheap land or power. The buildable demand that follows is right-sized: interconnection-adjacent pads and conduit, hardened edge enclosures supporting logistics automation across the Mines Road warehouse district, and generator yards where AEP Texas service growth trails industrial load. Everything specs to the heat — thermal design is the binding constraint on unmanned enclosures in a climate with months of triple-digit highs — and to secured-corridor realities near the port of entry.",
+      "localSpecificsReferenced": [
+        "MDC Laredo border interconnection facility",
+        "Mines Road logistics automation demand",
+        "AEP Texas service territory",
+        "thermal design for triple-digit climate"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 429,
+      "driveTimeHours": 7.0,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "B",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Webb"
+    ],
+    "stagingApproach": "Project-based staging in the Laredo metro for the duration of a scope — equipment and materials hold at a secured laydown positioned off the Loop 20/I-35 interchange so port-district, corridor, and brush-country sites all stage from one point without fighting World Trade Bridge truck traffic twice a day. Drafted for ops confirmation per program.",
+    "localSupplyApproach": "Concrete, aggregate, and rentals source from Laredo-area suppliers serving the port district's sustained industrial construction — hauling materials 429 road miles from the yard is not arithmetic anyone would defend. Pour windows book around commercial traffic peaks as much as plant schedules. Precast and specialty items confirmed at estimate; supplier lineup subject to ops and estimating confirmation per program.",
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Laredo is a deployment market and we plan it that way: crews run south from the Dallas yard on I-35 through Austin and San Antonio — roughly 429 miles, a seven-hour day — and stay for the duration of a scope. The work that makes that mobilization efficient is the work Laredo actually produces: multi-site logistics-corridor programs, border-fiber segments, and compound builds that batch from one deployment with local staging and in-market materials. We make no same-day commitments at this range and quote mobilization lead times per program after ops review. Summer deployments build heat protocols into crew planning from day one — this is the hottest sustained working climate on our Texas map, and schedules that ignore that are fiction.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What makes Laredo different for fiber construction compared with other Texas cities?",
+      "answer": "The border is the market. Laredo–Nuevo Laredo is one of the primary U.S.–Mexico fiber crossing points — Transtelco lands cross-border infrastructure here and MDC expanded new cross-border routes at its Laredo interconnection facility in 2025 — so routes exist to reach Mexican carrier networks, not just to pass through. Add the CPKC rail gateway, federal bridge corridors, and arroyo crossings, and Laredo fiber work is coordination-heavy in ways interior metros never see.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Which railroads affect construction near the Laredo gateway?",
+      "answer": "Two: CPKC, which operates the Patrick J. Ottensmeyer International Railway Bridge — the busiest rail border crossing in North America, doubled to two spans in 2025 — and Union Pacific, whose line runs north up the I-35 corridor. Crossing or occupying either corridor takes a railroad agreement on railroad timelines, measured in weeks to months, and gateway-corridor alignments carry extra scrutiny. We file crossing applications at project start and design routes to minimize crossings.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour concrete in Laredo in the summer?",
+      "answer": "Yes, but on the climate's terms: August highs average around 100°F and triple digits run for months, so summer pours compress into dawn windows with chilled mix water or ice, retarders, and aggressive cure protection — and crew heat-illness protocols are part of the plan, not an afterthought. The trade is a winter that's the best in Texas: October through March is mild, dry, and effectively frost-free, which is where we sequence concrete-heavy scopes when programs allow.",
+      "segment": "general"
+    },
+    {
+      "question": "What flood risk applies to telecom sites in Laredo?",
+      "answer": "Channelized flash-flood risk. Zacate Creek runs ten miles through the city to the Rio Grande and Chacon Creek twenty, both with mapped floodplain, and September storms or tropical remnants can turn them into fast, dangerous channels — the USGS operates a flood camera on Zacate Creek for a reason. Most upland sites stay dry; the design work is siting compounds off the arroyo network, armoring crossings, and clearing floodplain development permits through Building Development Services where alignments touch mapped zones.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Who issues building and ROW permits for telecom work in Laredo?",
+      "answer": "The City of Laredo's Building Development Services department handles the full stack — building permits, floodplain development permits, and right-of-way permits — under the 2021 ICC codes with the 2020 NEC, adopted by Ordinance 2024-O-149. That one-department consolidation simplifies sequencing. On the state system, TxDOT's Laredo District permits ROW through RULIS, and its active I-35 corridor program is worth checking before committing route schedules.",
+      "segment": "general"
+    },
+    {
+      "question": "Who provides electric service for a new hut or compound in Laredo?",
+      "answer": "Inside the city, AEP Texas is the ERCOT wires company, with energy bought through a competitive Retail Electric Provider — and the port district's industrial growth keeps its construction queue active, so get lead times in writing during scoping. In rural Webb County, Medina Electric Cooperative serves large territories under a co-op model whose process differs materially. Which side of that line a corridor site falls on is worth checking before the schedule is drawn.",
+      "segment": "edge"
+    },
+    {
+      "question": "How does World Trade Bridge truck traffic affect construction logistics?",
+      "answer": "It sets the clock. Port Laredo is the No. 1 U.S. port by trade value, with on the order of 10,000 northbound trucks daily and peak-day counts far higher, so the Mines Road corridor and I-35 approaches congest predictably. We schedule concrete deliveries, oversize hauls, and laydown moves around commercial peaks, stage from a point that avoids crossing the port district unnecessarily, and treat traffic-control planning on truck-route arterials as real engineering rather than paperwork.",
+      "segment": "general"
+    },
+    {
+      "question": "What soil conditions should I expect for foundations in Laredo?",
+      "answer": "Terrace sites near the river sit on very deep, well-drained calcareous silty soils — the Laredo and Rio Grande series are literally defined here — and make straightforward pad and pier ground. Upland brush-country sites are clayey with unverified shrink-swell behavior and possible shallow Eocene rock, so borings lead the design there. No frost consideration applies; embedment follows the code minimum and the geotech report.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How do you serve Laredo from a Dallas yard?",
+      "answer": "As a deployment market, stated plainly: crews drive I-35 south — about 429 miles, roughly seven hours — and stay for the scope's duration, staging locally off Loop 20 and buying concrete, aggregate, and rentals from Laredo-area suppliers. Logistics-corridor programs, border-fiber segments, and compound builds batch efficiently from one mobilization. No same-day commitments at this range; mobilization lead times are quoted per program after ops review, with summer heat protocols built into crew planning.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Building at a land port: sequencing Laredo's border, arroyo, and heat constraints",
+    "body": "The planning error that costs money in Laredo is treating it like a mid-size interior Texas city with a river. It is a border logistics machine, and three constraints deserve sequencing before any design work starts. First, the border layer: if an alignment touches a rail corridor at the CPKC gateway, a bridge-approach corridor, or anything near port-of-entry operations, those coordination clocks — railroad agreements, federal corridor requirements — start slow and cannot be compressed, so they get filed first and the schedule builds backward from them. Second, the arroyo layer: check every site and route against the Zacate and Chacon floodplains before committing, because a compound relocated fifty yards at design costs nothing while an armored crossing added at construction costs plenty; September is the month that audits this decision. Third, the heat layer: concrete-heavy scopes sequence into the October-through-March window when the program allows — Laredo's winter is the most productive construction season in Texas — while summer work plans dawn pours and heat protocols as baseline. Everything else about Laredo civil work is ordinary; these three are not, and the difference between a smooth program and a stalled one is usually which order they were confronted in — on paper in month one, or in the field in month six.",
+    "_note": null
+  },
+  "sources": [
+    {
+      "label": "City of Laredo — Building Development Services (2021 ICC codes, Ordinance 2024-O-149)",
+      "url": "https://www.cityoflaredo.com/departments/building-development-services",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Laredo — floodplain management (NFIP)",
+      "url": "http://www.cityoflaredo.com/planning/floodplain-management.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Laredo District (8-county district including Webb)",
+      "url": "https://www.txdot.gov/about/districts/laredo-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT — Laredo I-35 corridor project",
+      "url": "https://www.txdot.gov/projects/projects-studies/laredo/laredo-i35-corridor-project.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Marketplace — why Laredo has the No. 1 port in the United States (10,000 daily northbound trucks)",
+      "url": "https://www.marketplace.org/story/2023/11/14/infrastructure-laredo-texas-busiest-port-in-u-s",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "FreightWaves — how Laredo manages high-volume trade as the No. 1 port of entry",
+      "url": "https://www.freightwaves.com/news/how-laredo-texas-manages-high-volume-trade-as-the-number-one-port-of-entry-into-the-u-s",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "CPKC — completion of the second span of the Laredo international rail bridge",
+      "url": "https://investor.cpkcr.com/news/press-release-details/2024/CPKC-completes-construction-of-second-span-of-international-rail-bridge-linking-Laredo-Texas-and-Nuevo-Laredo-Tamaulipas/default.aspx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Trains — CPKC second span at the Laredo gateway (busiest rail border crossing)",
+      "url": "https://www.trains.com/trn/news-reviews/news-wire/cpkc-completes-second-span-over-the-rio-grande-at-the-laredo-gateway/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MDC Data Centers — new cross-border fiber routes at Laredo",
+      "url": "https://www.accessnewswire.com/newsroom/en/telecommunications/mdc-expands-u.s.-mexico-fiber-infrastructure-with-new-cross-border-routes-in-lar-1021526",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "MEXICONOW — Transtelco cross-border network (Nuevo Laredo–Laredo crossing)",
+      "url": "https://mexico-now.com/transtelco-world-class-telecommunication-services/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Electric Choice — AEP Texas service territory (includes Laredo)",
+      "url": "https://www.electricchoice.com/utilities/aep-texas/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Medina Electric Cooperative — service area and new service (rural Webb County)",
+      "url": "https://www.medinaec.org/newservice",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Laredo series (calcareous silty clay loam, low terraces)",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/L/LAREDO.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NRCS Official Series Description — Rio Grande series (silty alluvium, Rio Grande terraces)",
+      "url": "https://soilseries.sc.egov.usda.gov/OSD_Docs/R/RIO_GRANDE.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USGS — Zacate Creek flood-monitoring camera at Jacaman Road, Laredo",
+      "url": "https://www.usgs.gov/media/webcams/zacate-creek-jacaman-road-laredo-tx",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Climates to Travel — Laredo climate (BSh; ~19.7 in precipitation; August ~100°F highs)",
+      "url": "https://www.climatestotravel.com/climate/united-states/laredo",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BroadbandNow — Laredo, TX provider coverage (AT&T Fiber, Spectrum)",
+      "url": "https://broadbandnow.com/Texas/Laredo",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / designTempLowF/HighF / seismic Ss-S1",
+      "attempted": "ASCE Hazard Tool, TIA-222 county data, ASHRAE tables, and USGS design-maps all unfetchable through the proxy; every numeric design value gapped rather than estimated. Design temps matter most here — pull the station data before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Laredo's amended code table (Ord. 2024-O-149) not readable in research; likely minimal at this latitude but published only from the adopted amendment text."
+    },
+    {
+      "field": "geotech (expansive soil rating, bearing range, bedrock depth, groundwater, corrosivity; Laredo Formation attribution)",
+      "attempted": "Web Soil Survey and BEG Geologic Atlas not queryable; soils sourced from OSDs, formation attribution flagged for confirmation. Expansive risk deliberately 'unknown' pending NRCS linear-extensibility data."
+    },
+    {
+      "field": "identity.population / elevationFt — vintage confirmation",
+      "attempted": "Census QuickFacts not directly fetched; 255,205 (2020 count) and 438 ft are from Census-data republishers. Confirm before publish."
+    },
+    {
+      "field": "regulatory — review timelines; Laredo node design standards; bridge-corridor coordination specifics",
+      "attempted": "Department and ordinance identified; published review times and the small-cell design manual not located. Confirm with Building Development Services."
+    },
+    {
+      "field": "environmental.usaceDistrict + IBWC scope on river-adjacent work",
+      "attempted": "Webb County's USACE regulatory district not confirmed against the boundary layer; IBWC's role on Rio Grande-adjacent work noted qualitatively and needs project-level confirmation."
+    },
+    {
+      "field": "utilities — AEP Texas intake URL and lead times; AT&T formal ILEC designation",
+      "attempted": "AEP intake page not confirmed; lead times need utility confirmation; FCC ILEC check not run."
+    },
+    {
+      "field": "marketActivity — World Trade Bridge expansion official project source and Webb County BEAD awards",
+      "attempted": "Expansion sourced from trade press (start 2024); replace with the city bridge-system or GSA/CBP project page when available. County BEAD detail unpublished at review — recheck quarterly."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "Published driving sources cluster at ~428–435 mi via I-35 with quoted drive times 6.5–7.5 h; 429 mi / 7.0 h recorded, routeVerified false until ops runs real routing from the actual yard address."
+    },
+    {
+      "field": "operations — staging and local-supply plans",
+      "attempted": "Band B drafts written for ops review per RESEARCH.md; gap clears on ops confirmation."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 3 publish gate requires 2 images; never invented."
+    }
+  ]
+}

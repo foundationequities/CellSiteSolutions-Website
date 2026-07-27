@@ -34,7 +34,7 @@ Single source for the numbers that appear throughout. If anything elsewhere disa
 | Markets | 65 city pages + 9 state hubs + 1 national index |
 | States | IA, NE, MO, KS, WI, IL, OK, TX, AL |
 | Staffed yards | **2** — Cedar Rapids, Iowa · Dallas–Fort Worth, Texas |
-| Yard assignment | Cedar Rapids 38 markets · Dallas 27 |
+| Yard assignment | Cedar Rapids 36 markets · Dallas 29 (revised in Phase 5 — see §4.3) |
 | Mobilization bands | 48 Band A · 15 Band B · 2 Band C |
 | Band C markets | Montgomery and Auburn, Alabama only |
 | Tiers | 16 Tier 1 · 28 Tier 2 · 21 Tier 3 |
@@ -130,18 +130,20 @@ That is a defensible position for a program-deployment offering and an implausib
 2. **Trim to Huntsville, Birmingham and Mobile** at launch and expand once there is real demand signal. Reduces the count to 62 and concentrates effort.
 3. **Flag Alabama as the next yard decision.** A Birmingham or Huntsville facility would put all six markets plus much of the Southeast in Band A. Only worth it if the pipeline supports it.
 
-### 4.3 Close calls that need real routing
+### 4.3 Close calls — RESOLVED in Phase 5 (road routing)
 
-Four markets sit within 60 miles of assigning to the other yard. Straight-line estimates may not survive real road routing, and the assignment changes which yard's crews and supply chain the page describes. **Verify these against actual routing before writing them:**
+Four markets sat within 60 miles of assigning to the other yard on straight-line estimates. All four were checked against road-routing calculators during Phase 5. **Two reassigned**, moving the yard split from 38/27 to **36 Cedar Rapids / 29 Dallas**:
 
-| Market | Assigned | Est. mi | Other yard |
-|---|---|---|---|
-| Joplin, MO | Dallas | 383 | Cedar Rapids ~437 |
-| Springfield, MO | Cedar Rapids | 402 | Dallas ~407 |
-| Salina, KS | Cedar Rapids | 449 | Dallas ~452 |
-| Huntsville, AL | Cedar Rapids | 674 | Dallas ~677 |
+| Market | Seed assignment | Cedar Rapids road mi | Dallas road mi | Resolved |
+|---|---|---|---|---|
+| Joplin, MO | Dallas | ~461–475 | **348** (US-69) | Dallas — confirmed, by a wider margin than the seed |
+| Springfield, MO | Cedar Rapids | **403** | 416 | Cedar Rapids — confirmed, 13-mile margin |
+| Salina, KS | Cedar Rapids | ~495 | **~455** | **→ Dallas** (no direct diagonal exists from Cedar Rapids) |
+| Huntsville, AL | Cedar Rapids | 706 | **671** | **→ Dallas** (all six Alabama markets now route from Dallas) |
 
-Joplin in particular is suspect: straight-line favors Dallas, but real routing runs through Kansas City, which may favor Cedar Rapids.
+The §4.3 theory that Joplin's real routing through Kansas City would favor Cedar Rapids is **refuted** — the Dallas run via US-69 is shorter than the straight-line seed suggested, and at 348 miles Joplin now sits just inside the 350-mile Band A line. It is kept at Band B pending routing from the actual DFW yard address.
+
+**These distances are city-center to city-center.** The DFW yard address is still a placeholder (§1a open item 1); ops should re-run all Dallas-side routing once the real address is known, which could shift Joplin's band and the Salina/Huntsville margins.
 
 ### 4.4 Duplicate-content risk
 
@@ -473,4 +475,4 @@ Assigned to the nearer of the two yards. **Distances are straight-line estimates
 | Montgomery | Alabama | 2 | Dallas | 722 | 12.4 | C |
 | Auburn | Alabama | 3 | Dallas | 776 | 13.4 | C |
 
-**48 Band A · 15 Band B · 2 Band C.** Cedar Rapids serves 38 markets, Dallas 27. The only Band C markets are Montgomery and Auburn, Alabama — see §4.2.
+**48 Band A · 15 Band B · 2 Band C.** After the Phase 5 routing resolution (§4.3), Cedar Rapids serves 36 markets and Dallas 29 — Salina and Huntsville moved to Dallas. The only Band C markets are Montgomery and Auburn, Alabama — see §4.2.
