@@ -1,0 +1,678 @@
+{
+  "identity": {
+    "slug": "fort-worth",
+    "city": "Fort Worth",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "counties": [
+      "Tarrant",
+      "Denton",
+      "Parker"
+    ],
+    "msa": "Dallas–Fort Worth–Arlington",
+    "tier": 1,
+    "latitude": 32.7555,
+    "longitude": -97.3308,
+    "elevationFt": 653,
+    "population": {
+      "value": 1008016,
+      "source": "U.S. Census Bureau Vintage 2024 estimate (July 1, 2024), released May 2025 — Fort Worth crossed 1 million and became the 11th-largest U.S. city",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-30",
+      "I-20",
+      "I-35W",
+      "I-820"
+    ],
+    "majorRoutes": [
+      "US-287",
+      "SH-121",
+      "SH-183",
+      "Chisholm Trail Parkway"
+    ]
+  },
+  "metadata": {
+    "title": "Fort Worth, TX Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Fort Worth, TX — Alliance corridor duct bank, two-soil foundation work, and compound builds under a separate AHJ from Dallas.",
+    "h1": "Telecom Site Civil Construction in Fort Worth, Texas",
+    "intro": "Fort Worth gets treated as Dallas' twin, and on a civil scope sheet that assumption costs money. This is a separate city of a million people — the 11th largest in the country as of the 2024 Census estimates — with its own Development Services department, its own contractor registration and bonding stack for right-of-way work, and its own geology: limestone-floored Fort Worth Prairie on the west and center, the sandy Woodbine belt of the Eastern Cross Timbers through the east side, Blackland clay only at the county's eastern edge. Add BNSF's headquarters, the 27,000-acre AllianceTexas development pulling logistics and data center construction north up I-35W, and Meta's five-building campus, and Fort Worth generates its own telecom civil demand. We cover all of it from our DFW-area yard.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2021 IBC, adopted by Ordinance No. 25382-03-2022, passed March 8, 2022, effective April 1, 2022)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "North Texas is a low-seismicity region; numeric Ss/S1 must come from a USGS design-maps query at the site coordinates before publication."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Tarrant County's surface geology is built from four sedimentary rock types — limestone, shale, sandstone, and clay — whose layered weathering produces four distinct belts across the county: the Fort Worth Prairie (a local variant of the Grand Prairie) over Cretaceous limestones through the west and center, the Eastern Cross Timbers over the sandy, iron-rich Woodbine Formation running north-south through the east, Blackland Prairie clays at the far eastern edge, and West Cross Timbers pack sands with Paluxy Sand and Walnut limestone cuestas at the far west. The West Fork of the Trinity River threads alluvial deposits through the middle. (BRIT ecoscapes Tarrant County geology; UT-BEG Bulletin, The Geology of Tarrant County.)",
+    "dominantSoilTypes": [
+      "Limestone-derived clays of the Fort Worth Prairie (west/central)",
+      "Woodbine-derived sandy soils of the Eastern Cross Timbers (east)",
+      "Blackland Prairie clays (far east Tarrant County)",
+      "West Fork Trinity River terrace and alluvial deposits"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "moderate",
+    "expansiveSoilNote": "Risk varies by belt more than by city: limestone-prairie clays and the far-east Blackland carry real shrink-swell behavior, while the leached, sandy Woodbine soils of the Eastern Cross Timbers are a fundamentally different, lower-plasticity regime. A Fort Worth site cannot inherit a Dallas clay assumption or a blanket sand assumption — the boring log decides which belt governs.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "No published karst mapping for Tarrant County surfaced in research; the Cretaceous limestones here are not the solution-prone Edwards section. Site-specific investigation still governs."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Fort Worth foundation work starts by locating the site on the county's east-west geologic transect. West and central sites on the Fort Worth Prairie typically find limestone at modest depth — shallow rock raises trench and shaft excavation effort but offers a sound bearing stratum for piers, and the limestone-derived clays above it still warrant moisture-conscious pad detailing. Cross into the Eastern Cross Timbers and the problem changes character entirely: Woodbine sands cut fast but stand poorly, so trench shoring, bore-pit stability, and caving control replace swell management as the governing concern, with iron-cemented sandstone lenses occasionally interrupting production. The far-east slice of the county behaves like Blackland clay country. Along the West Fork Trinity, alluvium and floodplain permitting enter the picture — and with USACE having found 86% of the 1960s levee system no longer tall enough, the Central City project is actively reworking that corridor. Borings govern; belt-guessing is how Fort Worth bids go wrong."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Fort Worth Development Services Department",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Permits are submitted and inspections scheduled through the city's Accela Citizen Access online system. Fort Worth is a separate AHJ from Dallas with its own amendments, registrations, and review tracks — do not assume reciprocity across the metro."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2021 IBC with Fort Worth local amendments (Ordinance No. 25382-03-2022, effective April 1, 2022), with companion 2021 IRC/IMC/IPC/IFGC/IEBC amendment ordinances adopted the same cycle",
+      "source": "Fort Worth Code of Ordinances §7-46 (2021 IBC adopted) — https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-5962",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": "Network nodes in the public ROW are governed statewide by Texas Local Government Code Chapter 284; in Fort Worth, node and transport-facility work in the ROW routes through the TPW right-of-way permitting process — confirm current node design criteria with TPW at scoping.",
+    "rowPermitAuthority": {
+      "name": "City of Fort Worth Transportation & Public Works — Right-of-Way Management (311 W. 10th St.)",
+      "url": "https://www.fortworthtexas.gov/departments/development-services/permits/streets",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Street use permits are applied for through Accela Citizen Access and require registration as a Parkway/Utility Contractor with a $25,000 bond and a certificate of insurance naming the city as additional insured. Site-specific traffic control plans must be engineer-sealed, and a full street closure lasting 10 or more consecutive days requires City Council (M&C) approval — typically a six-week review."
+    },
+    "stateDotDistrict": {
+      "name": "TxDOT Fort Worth District (Erath, Hood, Jack, Johnson, Palo Pinto, Parker, Somervell, Tarrant, Wise counties)",
+      "url": "https://www.txdot.gov/about/districts/fort-worth-district.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Utility occupancy of state ROW — including I-35W, I-30, I-20, and US-287 — permits through TxDOT's RULIS system."
+    },
+    "oneCallCenter": {
+      "name": "Texas811",
+      "url": "https://texas811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Two business days of notice, excluding weekends and holidays, before any excavation.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "TCEQ — TPDES Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Coverage via NOI through the STEERS e-permitting system once disturbance reaches an acre (or a smaller part of a larger common plan of development)."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Fort Worth's permitting stack rewards early registration. Before a ROW permit can issue, the contractor must be registered in Accela as a Parkway/Utility Contractor with the $25,000 bond and city-named insurance certificate on file — a front-of-schedule task, not a day-of task. Building permits run through Development Services on Accela; street use permits for utility construction run through TPW Right-of-Way Management with engineer-sealed traffic control plans. The scheduling trap unique to this city is the closure rule: a full street closure of 10 or more consecutive days needs Council-level M&C approval on roughly a six-week clock, which can quietly become the critical path on a downtown duct bank run. Texas811's two business days and the TCEQ stormwater NOI at one acre complete the standard Texas layers."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Oncor Electric Delivery",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Oncor is the regulated ERCOT transmission and distribution utility across Tarrant County; energy itself is purchased through a competitive Retail Electric Provider. For hut and compound services, the Oncor design-and-construction queue is the schedule driver — get the service application in as early as the site plan allows and confirm the current intake process at scoping."
+      }
+    ],
+    "ilec": "AT&T (Southwestern Bell Telephone Company, LLC)",
+    "notableFiberProviders": [
+      "AT&T Fiber",
+      "Spectrum (Charter)"
+    ],
+    "notableDataCenterCampuses": [
+      "Meta Fort Worth campus — five buildings, roughly 2.5 million sq ft on an approximately 150-acre site, first phase operational 2017, full campus completed 2023",
+      "AllianceTexas corridor data center development (north Fort Worth, I-35W)"
+    ],
+    "longHaulRouteNotes": null,
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Texas posts no seasonal spring-thaw weight restrictions. Load limits are permanent, engineering-based postings on specific load-zoned roads and bridges — for shelter hauls, verify the posted-structure map on the approach route rather than the season."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "TxDMV Motor Carrier Division — TxPROS routing system",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "phone": "800-299-1700",
+      "typicalReviewDays": null,
+      "note": "Oversize/overweight permits self-issue with automated routing through TxPROS for most telecom loads."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "BNSF is headquartered in Fort Worth (2650 Lou Menk Dr) and its trackage threads the market, including the Alliance corridor — file crossing applications early; Class I timelines run long."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP wireline/utility crossing agreements typically quote roughly 30–45 days of processing and often run longer — treat every UP crossing as critical path."
+      },
+      {
+        "name": "TEXRail (Trinity Metro)",
+        "crossingPermitNote": "27-mile commuter line from downtown Fort Worth through North Richland Hills and Grapevine to DFW Terminal B — transit-agency coordination for crossings and adjacent work."
+      },
+      {
+        "name": "Trinity Railway Express (TRE)",
+        "crossingPermitNote": "34-mile Fort Worth–Dallas commuter line from T&P Station, jointly owned with DART; a separate coordination process from the freight carriers."
+      }
+    ],
+    "urbanRowRequirements": "Street use permits through TPW with engineer-sealed traffic control plans; Parkway/Utility Contractor registration with $25,000 bond; full closures of 10+ consecutive days require M&C (Council) approval on about a six-week track."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": "Plan vegetation removal outside the general bird nesting season (roughly March 15 – September 15 per TPWD guidance); where clearing must occur in season, pre-construction nesting surveys by a qualified biologist",
+      "driver": "Migratory bird nesting under the MBTA; no county-specific USFWS bat clearing window was found for Tarrant County",
+      "source": "TPWD Environmental Review guidance"
+    },
+    "shpo": {
+      "name": "Texas Historical Commission (SHPO) — Section 106 and Antiquities Code reviews via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "phone": null,
+      "typicalReviewDays": 30,
+      "note": null
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Fort Worth District (SWF) — CWA Section 404",
+      "url": "https://www.swf.usace.army.mil/Missions/Regulatory/Permitting/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The district is headquartered here and is simultaneously the federal builder of the Central City flood project on the West Fork Trinity — expect active coordination in that corridor."
+    },
+    "usaceDistrict": "Fort Worth District (SWF)",
+    "listedSpeciesNote": "Run a project-specific IPaC query per site. North Texas lists commonly flag migratory whooping crane and, pending final listing resolution, the tricolored bat — check current status before committing clearing-window language. No blanket county-wide construction restriction was found for Tarrant County.",
+    "floodplainPrevalenceNote": "The West Fork Trinity runs through the heart of the city behind a levee system built in the early 1960s — USACE has determined 86% of it is no longer tall enough for the design events now expected. The Central City / Panther Island project is the fix: a 1.5-mile bypass channel rerouting flood flows around the near-north side, targeted for completion in 2032. Until then, Trinity-corridor sites carry both floodplain permitting and active-construction coordination."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mild winter with occasional freezes; ground rarely a constraint",
+        "earthworkConcrete": "workable",
+        "note": "Ice events, not frost depth, are the winter risk"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Mild; wet spells possible ahead of spring",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete protection on freeze nights"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Drying and firm; storm season arrives",
+        "earthworkConcrete": "favorable",
+        "note": "Nesting-season guidance window opens mid-March"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good ground; peak supercell and hail season",
+        "earthworkConcrete": "favorable",
+        "note": "Carry severe-weather schedule contingency"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Workable between heavy rain events",
+        "earthworkConcrete": "favorable",
+        "note": "Prairie clay sites shed water slowly after storms; sandy east-side sites recover faster"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Heat building; ground drying",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot — DFW's ~19 annual 100°F days cluster in this stretch",
+        "earthworkConcrete": "constrained",
+        "note": "Morning pour windows; hot-weather practice"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Peak heat; clay-belt soils at maximum shrinkage",
+        "earthworkConcrete": "constrained",
+        "note": "Moisture-condition clay subgrades; sand-belt sites are less heat-sensitive below grade"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Heat breaking; strong working month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime construction conditions",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Mild; first freeze typically late in the month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Mild winter conditions",
+        "earthworkConcrete": "workable",
+        "note": null
+      }
+    ],
+    "narrative": "The Fort Worth construction year runs on the North Texas pattern — a twelve-month season shaped by heat and spring storms rather than frost — but the county's two-soil geography changes how weather lands on a site. After a spring storm, a limestone-prairie clay site stays greasy for days while a Woodbine sand site on the east side drains and gets back to work; in August, the clay belts need subgrade moisture management while the sands mostly don't care. The metro's roughly 19 annual triple-digit days cluster in July and August and push pours to morning windows. April and May bring the supercell and hail peak, worth real schedule contingency. Verify the month-by-month detail against the NWS Fort Worth/Dallas station normals before final publication."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Shallow Cretaceous limestone under the Fort Worth Prairie makes rock a routine line item on west and central trench and shaft work; the Woodbine sand belt on the east side largely trades rock cost for shoring and caving control.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Davis-Bacon prevailing wage attaches to federally funded work over $2,000 — BEAD broadband builds included — and Texas Government Code Chapter 2258 covers state and locally funded public works separately. The higher applicable rate governs mixed-funding scopes.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "July–August hot-weather concreting and April–May severe-weather contingency are the seasonal items; winter costs are limited to occasional freeze-night protection.",
+    "narrative": "What moves a Fort Worth number is the belt the site sits in and the city's own process stack. Geotechnically, the east-west transect sets the excavation model — rock effort on the limestone prairie, shoring and caving control in the Woodbine sands, expansive-clay detailing on the county's eastern edge — and pricing the wrong belt is the classic metro mistake of treating Fort Worth as Dallas. Administratively, the Parkway/Utility Contractor registration, $25,000 bond, engineer-sealed traffic control plans, and the six-week M&C clock on long full closures are all schedule-and-cost realities Dallas doesn't mirror one-for-one. Heat prices summer pours; spring hail and supercells price contingency. Mobilization is not a line here — Fort Worth is home-metro territory for our DFW yard. Drivers only: every site prices to its borings, its belt, and its closure plan."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Texas issues no statewide general contractor license for commercial or civil construction — municipal registration fills that role. Statewide trade licensing still applies: electrical contractors license through TDLR with a Master Electrician of record, plumbing through TSBPE. Fort Worth specifically requires ROW contractors to register as Parkway/Utility Contractors in the Accela system, carrying a $25,000 bond and insurance naming the city, before street use permits will issue.",
+    "additionalRegistrations": [
+      "City of Fort Worth Parkway/Utility Contractor registration (Accela) — $25,000 bond, certificate of insurance naming the city"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "hail",
+      "extreme heat",
+      "flood"
+    ],
+    "designImplications": "Spring supercells and large hail drive anchorage, equipment hardening, and schedule contingency across Tarrant County, and roughly 19 triple-digit days a year set summer concrete practice. The site-specific flood question is sharper here than most of the metro: USACE rates 86% of the 1960s West Fork Trinity levee system as no longer tall enough, and the Central City bypass channel won't complete until about 2032 — Trinity-corridor compounds need current-condition flood review, not just the FIRM. Publish wind and ice design values only after ASCE/TIA hazard-tool queries."
+    ,
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "AllianceTexas posts $142.9B cumulative impact with record 2025 investment",
+        "detail": "Hillwood's 27,000-acre AllianceTexas development in north Fort Worth reported $142.9B in cumulative regional economic impact, including $12.9B in 2025 alone, with total investment reaching $18.3B and 64.7 million sq ft developed — the I-35W corridor that keeps generating logistics, industrial, and data center site work.",
+        "category": "transportation",
+        "sourceUrl": "https://www.hillwood.com/newsroom/press-releases/alliancetexas-drives-142-9-billion-in-economic-impact-for-north-texas/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Meta's Fort Worth campus anchors hyperscale presence",
+        "detail": "Meta's Fort Worth data center — five buildings and roughly 2.5 million sq ft on an approximately 150-acre site — completed its full campus buildout in 2023 after an initial 2017 opening, and continues to anchor hyperscale operations and supporting network infrastructure on the city's north side.",
+        "category": "data center",
+        "sourceUrl": "https://baxtel.com/data-center/facebook-fort-worth",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Panther Island / Central City flood project advances toward 2032",
+        "detail": "USACE and the Tarrant Regional Water District are building the 1.5-mile bypass channel that reroutes West Fork Trinity flood flows around the near-north side; officials report the project on track for 2032 completion. Years of utility relocation, levee, and channel work in the corridor — and a redevelopment district behind it.",
+        "category": "transportation",
+        "sourceUrl": "https://fortworthreport.org/2025/01/07/despite-delays-panther-island-officials-say-project-still-on-track-for-2032-completion/",
+        "asOf": "2025-01-07"
+      },
+      {
+        "headline": "Texas BEAD moves from approval to construction",
+        "detail": "Texas' ~$1.3B BEAD final proposal cleared NTIA in November 2025, with grant agreements finalizing in early 2026 and construction starting as early as summer 2026 under the Texas Broadband Development Office — rural Tarrant-adjacent counties in the Fort Worth district are among the buildable areas.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+        "asOf": "2025-11-20"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "fiber hut pad",
+        "restoration",
+        "service lateral to hut"
+      ],
+      "secondaryScopeIds": [
+        "long-haul and metro route construction",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fort Worth fiber civil is corridor work with a geology test attached. The growth axis runs north up I-35W into AllianceTexas, where 64.7 million sq ft of development keeps demanding lateral and backbone capacity, and the rail map is unavoidable — BNSF is headquartered here and its trackage, plus UP crossings quoting 30–45 days and often more, plus the TEXRail and TRE transit corridors, put crossing agreements on nearly every route's critical path. Production rates change mid-city: bores through Fort Worth Prairie limestone run slower and harder than bores through the Woodbine sand belt east of downtown, which cut fast but demand caving control. In the ROW, the Parkway/Utility Contractor registration and the M&C approval clock on long full closures are the process items that catch out-of-town crews.",
+      "localSpecificsReferenced": [
+        "AllianceTexas / I-35W corridor",
+        "BNSF headquarters trackage and UP crossing timelines",
+        "TEXRail and TRE transit corridors",
+        "Fort Worth Prairie limestone vs Woodbine sand boring",
+        "M&C full-closure approval process"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "access road and turnaround"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Wireless civil in Fort Worth serves a city that quietly became the 11th largest in the country — a million people as of the 2024 Census estimates, growing fastest among the top-30 cities since 2020 — with densification following rooftops north into the Alliance corridor and west into Parker County's edge. The engineering split is the county's two-soil transect: compounds on the limestone prairie pay rock excavation but gain honest pier bearing; compounds in the Eastern Cross Timbers sand belt trade rock for trench shoring and caving control on ground rings and deep foundations. Fort Worth is its own AHJ with its own registration, bonding, and traffic-control stack — a crew that shows up with Dallas paperwork assumptions loses a week before the first auger turns. Spring hail season drives equipment hardening on everything we build here.",
+      "localSpecificsReferenced": [
+        "1M-population Census milestone and top-30 growth",
+        "Fort Worth Prairie vs Eastern Cross Timbers foundations",
+        "Separate Fort Worth AHJ registration/bond stack",
+        "Alliance corridor densification"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "edge enclosure and micro-DC pads"
+      ],
+      "secondaryScopeIds": [
+        "security compound and bollards",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "Fort Worth's data center story concentrates on the north side. Meta's campus — five buildings, roughly 2.5 million sq ft, built out from 2017 to full completion in 2023 — proved the market, and the AllianceTexas corridor keeps extending it: $18.3B in cumulative investment, a rail-and-airport logistics spine, and land positioned for exactly the kind of campus civil support, substation pads, and duct bank programs that follow hyperscale growth. Oncor delivers the wires across Tarrant County inside ERCOT's retail-choice structure, and utility queue timing is the schedule driver on every generator yard and transformer pad. The geology cooperates on much of the north side, but the limestone-vs-sand transect still decides excavation pricing — a campus laydown in the Woodbine belt and one on the prairie are different earthwork jobs.",
+      "localSpecificsReferenced": [
+        "Meta Fort Worth five-building campus",
+        "AllianceTexas investment figures",
+        "Oncor / ERCOT structure",
+        "Tarrant County two-soil transect"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 37,
+      "driveTimeHours": 0.6,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Tarrant",
+      "Parker",
+      "Johnson",
+      "Wise",
+      "Denton"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Fort Worth is home-metro territory: our staffed Dallas–Fort Worth yard serves the Metroplex, and Tarrant County sites are same-day working range across the I-30, I-820, and I-35W grid — no mobilization line, no deployment planning, no staging question. What that means in practice is that a pad replacement in the Alliance corridor, an emergency generator pad after a hail event, or a punch-list return trip carries the same dispatch logic as any local contractor's, while the crew and equipment depth behind it comes from a yard that runs the whole Texas footprint. The seed distance figure on this page is a straight-line estimate pending real routing from the yard, whose specific address is an ownership decision still in progress — and per policy, response-time commitments for Tarrant County publish only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Is permitting in Fort Worth the same as in Dallas?",
+      "answer": "No — and assuming so is the most common metro mistake. Fort Worth is a separate AHJ: Development Services runs permits through Accela Citizen Access, ROW work requires Parkway/Utility Contractor registration with a $25,000 bond and city-named insurance, traffic control plans must be engineer-sealed, and a full street closure of 10+ consecutive days needs Council (M&C) approval on roughly a six-week track. Different portal, different registrations, different clocks.",
+      "segment": "general"
+    },
+    {
+      "question": "What soil conditions should I expect for a cell site foundation in Fort Worth?",
+      "answer": "Depends which belt the site is in. West and central Fort Worth sits on the limestone-floored Fort Worth Prairie — expect shallow rock in excavations and good pier bearing. The east side crosses the Eastern Cross Timbers, where sandy Woodbine-derived soils cut fast but cave, making shoring the governing issue. Far-east Tarrant County transitions to Blackland clay. Borings decide the belt; pricing one belt from another's assumptions is how bids go wrong here.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Which railroads complicate fiber routes in Fort Worth?",
+      "answer": "More than most Texas cities. BNSF is headquartered here and its lines thread the market, including the Alliance corridor; Union Pacific crossings quote roughly 30–45 days and often run longer; and the TEXRail (27-mile, downtown to DFW Terminal B) and TRE (34-mile, to Dallas) commuter corridors add transit-agency coordination. We file crossing applications at route design, not at construction release — they set the schedule more often than the digging does.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What building code applies to telecom structures in Fort Worth?",
+      "answer": "The 2021 International Building Code with Fort Worth local amendments, adopted by Ordinance No. 25382-03-2022 and effective April 1, 2022, alongside the companion 2021 IRC, IMC, IPC, IFGC, and IEBC amendment ordinances. Fort Worth's amendments differ from neighboring cities' — code editions and local amendments change at municipal boundaries across the Metroplex, so we confirm the exact amendment set per jurisdiction at design.",
+      "segment": "general"
+    },
+    {
+      "question": "How does the Trinity River flood project affect sites near downtown Fort Worth?",
+      "answer": "Materially, through about 2032. USACE found 86% of the 1960s West Fork levee system no longer tall enough, and the Central City / Panther Island project is building a 1.5-mile bypass channel to fix it. Trinity-corridor sites face floodplain permitting judged on current conditions plus active federal construction coordination — utility relocations in that corridor have already shifted timelines. We flag any site near the West Fork for early flood review.",
+      "segment": "general"
+    },
+    {
+      "question": "Are there seasonal road restrictions affecting shelter delivery to Fort Worth?",
+      "answer": "No seasonal restrictions — Texas has no spring frost laws. What matters is the permanent, engineering-based load postings on specific roads and bridges along the haul route. Oversize/overweight shelter loads permit through TxDMV's TxPROS system, which self-issues and auto-routes most loads around posted structures. We run the TxPROS route before committing a delivery date, not after.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can you pour foundations in Fort Worth in July and August?",
+      "answer": "Yes — on a heat plan. The metro logs roughly 19 days at or above 100°F a year, concentrated in that window, so pours move to early morning with hot-weather practice: chilled mix or ice, retarders, and cure protection. On clay-belt sites the heat also drives subgrade shrinkage, so pads get moisture-conditioned before placement; sand-belt sites on the east side are less heat-sensitive below grade.",
+      "segment": "general"
+    },
+    {
+      "question": "What's driving telecom construction demand in Fort Worth right now?",
+      "answer": "Growth and the north corridor. Fort Worth passed one million residents in the 2024 Census estimates — the fastest-growing top-30 city since 2020 — which drives densification on its own. AllianceTexas keeps posting record investment ($18.3B cumulative) with data center and logistics buildout on I-35W, Meta's five-building campus anchors hyperscale demand, and Texas' $1.3B BEAD program starts construction in summer 2026. Duct bank, compound, and campus civil all follow.",
+      "segment": "edge"
+    },
+    {
+      "question": "When does a Fort Worth telecom site need TCEQ stormwater coverage?",
+      "answer": "At one acre of ground disturbance — or less when the site is part of a larger common plan of development. Coverage comes under TCEQ's construction general permit TXR150000 with an NOI filed through the STEERS system. Compound builds with access roads and laydown cross the acre line more often than estimators expect, so we screen the disturbance math during pricing rather than discovering it at mobilization.",
+      "segment": "general"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Pricing the belt, not the city: Fort Worth's east-west geology transect",
+    "body": "The highest-leverage estimating decision in Fort Worth happens at the map stage: identifying which of the county's geologic belts the site occupies, because each belt fails a different way when mispriced. On the Fort Worth Prairie — most of the west and central city — the risk is underpricing rock. Limestone arrives shallow, trench production drops, and a duct bank priced at clay rates bleeds money by the hundred feet; the consolation is that drilled piers find real bearing fast, so foundation schemes can lean shallow-socket rather than deep. In the Eastern Cross Timbers belt, the risk inverts to underpricing stability: Woodbine sands excavate almost too easily, then cave — trench boxes, tighter bore-pit management, and casing where shafts stand open become the real cost centers, and an ironstone lens can still interrupt an easy bore. On the county's far-east edge, Blackland clay demands the moisture-management playbook. The practical rule we follow: never price a Fort Worth scope from a metro-average assumption or a Dallas analog. Pull the geologic map first, put borings where the route crosses a belt boundary, and if the site sits within reach of the West Fork Trinity, add the current-condition flood question — the levee system is mid-reconstruction until roughly 2032 — before locking a foundation or drainage design."
+  },
+  "sources": [
+    {
+      "label": "Fort Worth Code of Ordinances §7-46 — 2021 IBC adoption (Ord. 25382-03-2022, eff. April 1, 2022)",
+      "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-5962",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Fort Worth — street permits (TPW Right-of-Way Management)",
+      "url": "https://www.fortworthtexas.gov/departments/development-services/permits/streets",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Fort Worth — street use permit application for utility construction (registration, $25,000 bond, TCP and M&C requirements)",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/8/tpw/documents/tpw-inspectors/01-cfw-street-use-permit-application-for-utility-construction.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT Fort Worth District (nine-county district)",
+      "url": "https://www.txdot.gov/about/districts/fort-worth-district.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Construction General Permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "BRIT Ecoscapes — Tarrant County geology and ecoregions (Fort Worth Prairie, Cross Timbers, Blackland)",
+      "url": "https://ecoscapes.brit.org/ecofactors/geology/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "UT Bureau of Economic Geology — The Geology of Tarrant County (Bulletin)",
+      "url": "https://store.beg.utexas.edu/ut-bulletins/206-bl1931.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Community Impact — Fort Worth population surpasses 1M (Census Vintage 2024)",
+      "url": "https://communityimpact.com/dallas-fort-worth/keller-roanoke-northeast-fort-worth/government/2025/05/16/fort-worths-population-surpasses-1m-residents/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Hillwood — AllianceTexas $142.9B economic impact release",
+      "url": "https://www.hillwood.com/newsroom/press-releases/alliancetexas-drives-142-9-billion-in-economic-impact-for-north-texas/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Baxtel — Meta (Facebook) Fort Worth data center campus profile",
+      "url": "https://baxtel.com/data-center/facebook-fort-worth",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Panther Island / Central City Flood Project — project overview (levee adequacy, bypass channel)",
+      "url": "https://pantherislandcc.com/about.php?tab=Presentation",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Fort Worth Report — Panther Island on track for 2032 completion (Jan 2025)",
+      "url": "https://fortworthreport.org/2025/01/07/despite-delays-panther-island-officials-say-project-still-on-track-for-2032-completion/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Trinity Metro — About TEXRail (27-mile commuter line)",
+      "url": "https://ridetrinitymetro.org/about-texrail/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Trinity Railway Express — about (34-mile Fort Worth–Dallas line, T&P Station)",
+      "url": "https://trinityrailwayexpress.org/about-us/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Union Pacific — wireline crossing procedure",
+      "url": "https://www.up.com/real_estate/utilities/wireline/wireline_procedure/index.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of Texas BEAD final proposal",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NWS Fort Worth/Dallas — records and normals (100°F-day and freeze statistics)",
+      "url": "https://www.weather.gov/fwd/dfw_records_normals",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / seismic.ss/s1 / designRadialIceIn / designTempLowF/HighF",
+      "attempted": "ASCE Hazard Tool, USGS design-maps API, and TIA-222 county data unreachable from the sandbox (same egress blocks as the Dallas fixture). Query at site coordinates before publish."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "Fort Worth's amended IRC Table R301.2 value could not be read — the Ordinance 25383-03-2022 PDF returns 403 to the fetch proxy and UpCodes table cells were not retrievable. Cite the amended table cell before publishing a frost line."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "The specific city office designated as NFIP floodplain administrator was not confirmed from a primary source this session — identify it (likely within TPW stormwater) and add with URL before publish."
+    },
+    {
+      "field": "geotech — bearing ranges, depth to rock, groundwater, NRCS corrosivity ratings",
+      "attempted": "NRCS Web Soil Survey interactive not scriptable from sandbox; belt descriptions are qualitative (BRIT/BEG) pending numeric pulls."
+    },
+    {
+      "field": "utilities — Oncor new-service intake URL and lead times; Meta campus IT-load figure",
+      "attempted": "oncor.com unfetchable; lead times need utility/ops confirmation. Published Meta MW figures conflict across secondary sources (200 MW vs 729 MW), so no MW value is published."
+    },
+    {
+      "field": "operations.nearestBase — routing verification",
+      "attempted": "37 mi / 0.6 h is the seed straight-line estimate from Dallas city center; real routing from the actual DFW yard address (pending from ownership) must set these before routeVerified flips."
+    },
+    {
+      "field": "operations.countiesServed + emergencyResponseNote",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response commitment."
+    },
+    {
+      "field": "seasonality — station normals confirmation",
+      "attempted": "weather.gov/fwd station pages 403 on fetch; calendar authored from confirmed regional statistics and needs the Meacham/DFW station table check."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 publish gate requires at least 1 real project and 4 images; never invented."
+    }
+  ]
+}

@@ -5,24 +5,24 @@
     "abbr": "TX"
   },
   "metadata": {
-    "title": null,
-    "description": null,
-    "h1": null,
-    "intro": null
+    "title": "Texas Telecom Civil Construction Services | CellSite Solutions",
+    "description": "Statewide guide to telecom civil construction in Texas — municipal code adoption, TxDOT ROW, windstorm rules, and market activity from our DFW yard.",
+    "h1": "Telecom Civil Construction Across Texas",
+    "intro": "Texas is CellSite Solutions' southern anchor: our staffed Dallas–Fort Worth yard covers the Texas Triangle on regional mobilizations and reaches the coast and the west on planned deployments. The state's telecom construction rules reward preparation over assumption — there is no statewide commercial building code and no general contractor license, so requirements live city by city; the coast adds an insurance-driven windstorm certification regime that inland markets never see; and demand is running on multiple engines at once, from a federally approved BEAD program to the hyperscale corridors of DFW, Austin, and San Antonio and the energy-sector networks of Houston. The statewide rules are collected here; each city page carries its local ground truth."
   },
   "codeAdoption": {
-    "narrative": null,
-    "source": null
+    "narrative": "Texas adopts no statewide construction code for commercial buildings — code authority sits with each municipality, and editions genuinely diverge. Among CSS's Texas markets: Dallas enforces the 2021 I-codes with amendments (effective May 2023), Houston adopted the 2021 codes effective January 1, 2024, Corpus Christi runs the 2021 editions (effective August 2023), and San Antonio jumped to the 2024 ICC family effective May 1, 2025 — which moves its structural basis to ASCE 7-22 while most of the state remains on 7-16. On the coast, a second regime overlays the municipal codes: the Texas Department of Insurance windstorm program applies the 2018 IBC/IRC for WPI-8 certification in the designated catastrophe area (the 14 first-tier coastal counties plus Harris County communities east of SH 146). The practical rule: confirm the governing edition and amendment package per AHJ before design, never assume from a neighboring city.",
+    "source": "ICC (Houston 2021 adoption); City of San Antonio Chapter 10 codes PDF; City of Dallas Ordinance 32421; City of Corpus Christi 2021 amendments; TDI adopted-codes page (see sources)"
   },
   "dotRowProcess": {
-    "narrative": null,
-    "source": null
+    "narrative": "Utility occupancy of state highway right-of-way is permitted by TxDOT through RULIS, its online right-of-way utility installation system, under the state's utility accommodation rules — applications, notices, and approvals all flow through the portal, district by district. TxDOT operates 25 districts, and CSS's Texas footprint touches several with distinct review workloads: Dallas, Fort Worth, Houston, San Antonio, Austin, and Corpus Christi among them. District-level particulars matter — the San Antonio district publishes additional procedures for construction over the Edwards Aquifer, and coastal districts maintain hurricane-season traffic operations that can affect lane closures and haul timing. Long routes crossing district lines coordinate with each district separately, so multi-district fiber programs should map their RULIS submittals to the district boundaries early.",
+    "source": "TxDOT RULIS — https://www.txdot.gov/business/right-of-way/rulis.html; TxDOT Edwards Aquifer compliance manual section (see sources)"
   },
   "oneCall": {
-    "name": null,
-    "url": null,
-    "ticketLeadBusinessDays": null,
-    "source": null
+    "name": "Texas811",
+    "url": "https://texas811.org/",
+    "ticketLeadBusinessDays": 2,
+    "source": "Texas811 — https://texas811.org/i-want-to-dig/ (notice at least two business days before excavation, excluding weekends and legal holidays; Texas Utilities Code Ch. 251)"
   },
   "designCriteriaVariation": {
     "windSpeedRangeMph": {
@@ -37,74 +37,162 @@
       "low": null,
       "high": null
     },
-    "narrative": null,
-    "source": null
+    "narrative": "Wind is the design value that swings hardest across Texas. Secondary sources place Risk Category II ultimate wind speeds in the 140–150 mph range on the immediate Gulf coast, falling substantially inland — Dallas-area references conflict in the low 100s to mid 110s — but none of those figures publish here until an ASCE Hazard Tool query at project coordinates confirms them, and San Antonio's 2024-code adoption means ASCE 7-22 values there, not 7-16. Frost depth is a near non-factor statewide (Dallas amends to 6 inches, with minimum footing embedment governing in practice), and ground snow load runs to zero along the coast. The statewide numeric ranges stay null pending a hazard-tool sweep that this environment's proxy blocked.",
+    "source": "TWIA/TDI windstorm program materials (coastal range, secondary); Dallas amended code table (frost); ASCE 7 ground snow map for the Gulf Coast — full sweep pending"
   },
   "seasonalLoadRegime": {
-    "narrative": null,
-    "source": null
+    "narrative": "Texas posts no springtime frost-law weight restrictions — there is no seasonal thaw to protect against. Weight limits are instead permanent, engineering-based postings on specific load-zoned roads and bridges, with county changes requiring PE-signed analysis submitted to TxDOT. For shelter, hut, and equipment hauls the operative system is TxDMV's TxPROS: oversize/overweight permits are self-issued with automated routing for most loads, and the districts publish curfew and restriction lists (metro curfews, hurricane-evacuation corridors) that matter more to delivery schedules than any calendar. The planning consequence is pleasant and real — a Texas shelter set in March needs no embargo waiting period that a Wisconsin or Iowa delivery would.",
+    "source": "TxDMV oversize/overweight permits (TxPROS) — https://www.txdmv.gov/motor-carriers/oversize-overweight-permits; TxDOT load-zoned road program"
   },
   "environmentalReview": {
-    "narrative": null,
-    "source": null
+    "narrative": "Three review tracks recur statewide. Cultural: the Texas Historical Commission is SHPO, running Section 106 reviews for federally funded or permitted work and Antiquities Code of Texas reviews on public land, both filed through its eTRAC system on a 30-day clock per complete submittal. Water: construction disturbing one acre or more takes coverage under TCEQ's TPDES construction general permit TXR150000 via a STEERS-filed NOI, and wetland impacts run through the USACE — Fort Worth District across most of the state's interior, Galveston District along the coast. Aquifer: uniquely, regulated construction over the Edwards Aquifer's recharge and contributing zones in the San Antonio–Austin corridor requires TCEQ-approved pollution abatement plans before soil disturbance. Species screening runs per county through USFWS IPaC — Texas ranges from listed karst invertebrates in Bexar County to whooping crane wintering grounds on the coast, so no statewide generalization substitutes for the county query.",
+    "source": "THC Section 106/eTRAC — https://thc.texas.gov/review/federal-project-review/section-106-review-process; TCEQ TXR150000; TCEQ Edwards Aquifer Protection Program (see sources)"
   },
   "contractorLicensing": {
-    "narrative": null,
-    "source": null
+    "narrative": "Texas licenses trades, not general contractors: no statewide GC or civil contractor license exists, and oversight for commercial construction happens through municipal permitting and registration in each city (Dallas, for instance, requires contractor registration with minimum general liability coverage before permits issue). Electrical contracting is licensed statewide through TDLR with a Master Electrician of record; plumbing through TSBPE. Prevailing wage: Texas Government Code Chapter 2258 applies prevailing rates to public-body construction contracts, and federal Davis-Bacon attaches to federally funded work — including every BEAD-funded broadband build — with the stricter rate governing where funding mixes. On the coast, the TDI windstorm program adds an engineering-certification layer (WPI-8/WPI-8-E) for insurable structures in the catastrophe area.",
+    "source": "TDLR electrical contractor licensing — https://www.tdlr.texas.gov/electricians/; Texas Government Code Ch. 2258; TDI windstorm program (see sources)"
   },
   "telecomLandscape": {
-    "narrative": null,
-    "source": null
+    "narrative": "Texas received the largest state BEAD allocation in the country — over $3.3 billion — and NTIA approved its final proposal on November 20, 2025 at roughly $1.3 billion across 22 providers and 240,000+ locations, with the Texas Broadband Development Office at the Comptroller finalizing grant agreements into 2026 and construction opening as early as summer 2026. The private-market engines are bigger still: the DFW metro is one of the world's defining data center markets with a hyperscale corridor pushing through southern Dallas County; Austin's growth spills data center and fiber demand along the I-35 corridor; San Antonio hosts Microsoft's multi-campus far-west-side buildout plus Joint Base San Antonio's network demands; and Houston pairs 200+ MW of colocation anchored by the Houston West interconnection campus with the energy sector's private-network appetite along the Ship Channel. Wireless ROW deployment statewide runs under Local Government Code Chapter 284, which caps node fees and standardizes timelines while cities retain design-manual authority.",
+    "source": "NTIA Texas BEAD approval — https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal; Texas Broadband Development Office; Chapter 284 (see sources)"
   },
-  "faq": [],
-  "sources": [],
+  "faq": [
+    {
+      "question": "Does Texas license general contractors for telecom civil work?",
+      "answer": "No — Texas has no statewide general contractor license. Cities regulate through their own permitting and registration requirements, which is why the same civil scope can carry different registration prerequisites in Dallas, Houston, and San Antonio. Trades are licensed statewide (electrical via TDLR, plumbing via TSBPE), and public or federally funded work adds Chapter 2258 or Davis-Bacon prevailing wage obligations."
+    },
+    {
+      "question": "How much notice does Texas811 require before digging?",
+      "answer": "At least two business days, excluding weekends and legal holidays, for any excavation statewide under Texas Utilities Code Chapter 251. CSS builds that lead into every trench, bore, and vault schedule as a matter of course — and treats it as the short pole, since railroad crossing agreements and TxDOT RULIS permits routinely take far longer than the locate ticket."
+    },
+    {
+      "question": "Where in Texas does windstorm certification apply?",
+      "answer": "In the TDI-designated catastrophe area — the 14 first-tier coastal counties plus the Harris County communities east of SH 146 — structures an owner wants insurable through TWIA must be certified under the windstorm program (WPI-8, or WPI-8-E via a Texas licensed engineer), currently referencing the 2018 IBC/IRC. Inland metros like Dallas, San Antonio, and the City of Houston proper sit outside the boundary; wind design per the locally adopted code still governs everywhere."
+    },
+    {
+      "question": "Are there seasonal road weight restrictions in Texas?",
+      "answer": "No — Texas has no spring thaw embargo season. Load limits are permanent postings on specific load-zoned roads and bridges, and oversize/overweight hauls permit through TxDMV's TxPROS system with automated routing, subject to district curfew lists in the metros. For shelter and hut deliveries this makes Texas one of the simplest states in the CSS footprint: schedule to the route, not to the calendar."
+    },
+    {
+      "question": "What is the status of BEAD broadband funding in Texas?",
+      "answer": "Approved and moving: NTIA signed off on the state's final proposal November 20, 2025 — roughly $1.3 billion to 22 providers for 240,000+ locations, drawn from the original $3.3 billion allocation, the nation's largest. The Texas Broadband Development Office at the Comptroller administers the program, grant agreements finalize into 2026, and construction can begin as early as summer 2026, bringing Davis-Bacon wage obligations with the federal money."
+    }
+  ],
+  "sources": [
+    {
+      "label": "ICC — Houston adopts the 2021 International Codes (effective Jan 1, 2024)",
+      "url": "https://www.iccsafe.org/about/periodicals-and-newsroom/houstons-city-council-approves-adoption-of-the-2021-international-codes/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of San Antonio — Chapter 10 building-related codes, 2024 editions (effective May 1, 2025)",
+      "url": "https://docsonline.sanantonio.gov/DSDUploads/2024Ch10Building-RelatedCodesFinal.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Dallas — 2021 code adoption ordinance (No. 32421)",
+      "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/2021_codes/23-0468.pdf",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Corpus Christi — 2021 adopted code amendments",
+      "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/2021-adopted-code-amendments/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TDI — windstorm program adopted building codes",
+      "url": "https://www.tdi.texas.gov/wind/adopted-codes.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TWIA — designated catastrophe area overview",
+      "url": "https://www.twia.org/about-us/overview/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT — RULIS right-of-way utility installation system",
+      "url": "https://www.txdot.gov/business/right-of-way/rulis.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDOT construction manual — complying with TCEQ requirements for work over the Edwards Aquifer",
+      "url": "https://www.txdot.gov/manuals/cst/cah/environment/water_resources-cfadfcff/complying_with_tceqrequirements_for_work_over_the_.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas811 — notice requirements",
+      "url": "https://texas811.org/i-want-to-dig/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — construction stormwater general permit TXR150000",
+      "url": "https://www.tceq.texas.gov/permitting/stormwater/construction",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TCEQ — Edwards Aquifer Protection Program",
+      "url": "https://www.tceq.texas.gov/permitting/eapp",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "THC — Section 106 review via eTRAC",
+      "url": "https://thc.texas.gov/review/federal-project-review/section-106-review-process",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TxDMV — oversize/overweight permits (TxPROS)",
+      "url": "https://www.txdmv.gov/motor-carriers/oversize-overweight-permits",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — approval of the Texas BEAD final proposal (Nov 20, 2025)",
+      "url": "https://www.ntia.gov/press-release/2025/ntia-announces-approval-texas-bead-final-proposal",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Comptroller — Broadband Development Office",
+      "url": "https://comptroller.texas.gov/programs/broadband/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Local Government Code Chapter 284 — network nodes in the ROW",
+      "url": "https://texas.public.law/statutes/tex._local_gov%27t_code_title_9_subtitle_a_chapter_284",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Texas Government Code Chapter 2258 — prevailing wage on public works",
+      "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.2258.htm",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "TDLR — electrical contractor licensing",
+      "url": "https://www.tdlr.texas.gov/electricians/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
   "_verified": false,
   "_verifiedBy": null,
   "_verifiedOn": null,
   "_gaps": [
     {
-      "field": "codeAdoption",
-      "attempted": "State code council / adoption ordinance survey"
+      "field": "designCriteriaVariation — numeric wind/frost/snow ranges",
+      "attempted": "ASCE Hazard Tool and TIA-222 county tables unreachable through the sandbox proxy (403s). Only the Dallas 6-inch frost amendment and the coastal zero-snow figure are individually sourced; the statewide low/high ranges stay null until a hazard-tool sweep runs from an unproxied machine."
     },
     {
-      "field": "dotRowProcess",
-      "attempted": "State DOT utility accommodation manual"
+      "field": "codeAdoption — coverage beyond the four researched CSS markets",
+      "attempted": "Editions confirmed for Dallas, Houston, San Antonio, and Corpus Christi only; remaining Texas markets (Austin, Fort Worth, El Paso, Lubbock, etc.) get surveyed as their city files are researched."
     },
     {
-      "field": "oneCall",
-      "attempted": "State 811 center site"
+      "field": "dotRowProcess — RULIS processing times and district fee particulars",
+      "attempted": "TxDOT district utility-permit timeline pages were not retrievable (403); confirm with district utility permit offices before publishing timeline expectations."
     },
     {
-      "field": "designCriteriaVariation",
-      "attempted": "ASCE 7 Hazard Tool sweep + local amendments"
+      "field": "telecomLandscape — BEAD county-level subgrantee detail",
+      "attempted": "NTIA statewide approval is sourced; the BDO's award-by-county breakdown was not yet located and should be re-checked quarterly as grant agreements execute."
     },
     {
-      "field": "seasonalLoadRegime",
-      "attempted": "State DOT seasonal weight restriction program"
-    },
-    {
-      "field": "environmentalReview",
-      "attempted": "SHPO + state environmental agency"
-    },
-    {
-      "field": "contractorLicensing",
-      "attempted": "State licensing board"
-    },
-    {
-      "field": "telecomLandscape",
-      "attempted": "State broadband office + market research"
-    },
-    {
-      "field": "metadata",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "faq",
-      "attempted": "Authored after research complete"
-    },
-    {
-      "field": "sources",
-      "attempted": "Populate as research proceeds"
+      "field": "contractorLicensing — TSBPE citation",
+      "attempted": "Plumbing-board reference included from established practice; add the TSBPE URL once fetchable from an unproxied machine."
     }
   ]
 }

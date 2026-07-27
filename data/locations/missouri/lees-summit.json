@@ -1,0 +1,485 @@
+{
+  "identity": {
+    "slug": "lees-summit",
+    "city": "Lee's Summit",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "counties": ["Jackson"],
+    "msa": "Kansas City, MO-KS",
+    "tier": 3,
+    "latitude": 38.9108,
+    "longitude": -94.3822,
+    "elevationFt": 1027,
+    "population": {
+      "value": 101108,
+      "source": "U.S. Census Bureau 2020 Census count — confirm against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": ["I-470"],
+    "majorRoutes": ["US-50", "MO-291", "MO-150"]
+  },
+  "metadata": {
+    "title": "Lee's Summit, MO Telecom Civil Construction | CellSite Solutions",
+    "description": "Telecom civil construction in Lee's Summit, MO — fiber, wireless, and edge site work built to the city's amendment set along the US-50 growth corridor.",
+    "h1": "Telecom Site Civil Construction in Lee's Summit, Missouri",
+    "intro": "Lee's Summit earned its name as the high ground — at roughly 1,027 feet it was the summit of the old Missouri Pacific line through the southeast Kansas City metro — and it has spent the last two decades growing past 100,000 residents along the US-50 and MO-291 corridors. For telecom builders that growth comes with a particular reputation: a city that reviews infrastructure work against its own published building-code amendment set and design criteria rather than waving it through. The market also holds real edge assets — the Summit Technology Campus and Cerner's (now Oracle Health) Lee's Summit data center operations — plus a Google Fiber footprint dating to 2015. CellSite Solutions self-performs civil scope here from its Cedar Rapids, Iowa yard, roughly 300 road miles north.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC adopted January 8, 2019 as part of Ch. 7, the Lee's Summit Building Code — confirm no newer adoption before design)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": { "value": null, "source": null, "verifiedOn": null },
+      "riskCatIV": { "value": null, "source": null, "verifiedOn": null }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": { "value": null, "source": null, "verifiedOn": null },
+    "tia222Revision": null,
+    "designRadialIceIn": { "value": null, "source": null, "verifiedOn": null },
+    "seismic": {
+      "ss": { "value": null, "source": null, "verifiedOn": null },
+      "s1": { "value": null, "source": null, "verifiedOn": null },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "The Kansas City metro sits far from the New Madrid seismic zone; publish Ss/S1 only from a site-specific USGS design-maps query and treat site class as site-specific."
+    },
+    "frostDepthIn": { "value": null, "source": null, "verifiedOn": null },
+    "designTempLowF": { "value": null, "source": null, "verifiedOn": null },
+    "designTempHighF": { "value": null, "source": null, "verifiedOn": null }
+  },
+  "geotech": {
+    "dominantGeology": "Lee's Summit occupies high upland terrain in the southeast Kansas City metro — the 'summit' of the former Missouri Pacific line at roughly 1,027 feet — underlain by Pennsylvanian cyclothems: alternating thin limestones and shales, weathered at the surface into clayey residuum with loess influence on ridge tops. Drainages feed the upper Little Blue River basin, including the USACE-built Longview Lake on the city's west side. Confirm unit mapping against Missouri Geological Survey publications before sign-off.",
+    "dominantSoilTypes": [
+      "Clayey residuum weathered from shale and limestone",
+      "Loess-influenced upland silts",
+      "Alluvium in upper Little Blue basin drainages"
+    ],
+    "typicalBearingCapacityPsf": { "low": null, "high": null, "source": null },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Shale-derived clays across the KC metro warrant shrink-swell screening in every boring program; NRCS linear-extensibility data for the Lee's Summit area was not reachable for this draft, so no rating is published.",
+    "typicalDepthToBedrockFt": { "value": null, "source": null, "verifiedOn": null },
+    "karstRisk": {
+      "present": false,
+      "note": "Pennsylvanian shale-limestone terrain — not karst country; no cave or sinkhole screening layer beyond standard practice."
+    },
+    "seasonalHighGroundwaterFt": { "value": null, "source": null, "verifiedOn": null },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "High-ground sites are the norm in Lee's Summit, and they behave like KC-metro upland sites generally: clayey residuum takes conventional spread footings and shelter pads when grading keeps bearing soils at stable moisture, with shrink-swell screening in the borings until county data rules it out. The wrinkle worth pricing is rock proximity — on ridge positions the weathered limestone bench can sit close under the residuum, which is good news for bearing and bad news for trench production, so duct-bank and pier pricing carries a rock contingency until borings settle it. Low-lying parcels toward the upper Little Blue drainages and Longview Lake trade rock risk for alluvium and floodplain screening. The city's amended frost-depth value could not be read through our research proxy and stays unpublished until cited to the amendment text. Site-specific geotechnical investigation governs the final design everywhere."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Lee's Summit Development Services",
+        "url": "https://cityofls.net/development-services/design/design-criteria/building-codes-and-amendments",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Plan review against Ch. 7 (the Lee's Summit Building Code): 2018 I-codes and 2017 NEC adopted January 8, 2019 (Ordinances 8536/8537), with the city's published amendment set. Confirm the current editions and review queue when scoping — the city publishes its design criteria and expects submittals to meet them."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code and companion I-codes with the 2017 NEC, adopted January 8, 2019 (Ordinances 8536 and 8537) as Chapter 7, the Lee's Summit Building Code — confirm whether a newer edition has been adopted since",
+      "source": "Lee's Summit City Council Bill No. 19-08 (Legistar); City of Lee's Summit Building Codes & Amendments page",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": "Small wireless facilities run under Missouri's statewide Uniform Small Wireless Facility Deployment Act (2018 HB 1991, RSMo 67.5110–67.5121), which caps ROW fees and bonding; Lee's Summit administers applications within that preemption, and ROW designs still must meet the city's published design criteria — confirm the current application path with Development Services.",
+    "rowPermitAuthority": {
+      "name": "City of Lee's Summit Public Works",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "ROW and infrastructure work is reviewed against the city's published design criteria and amendment set; permit mechanics and fees were not verifiable through our research proxy — confirm requirements and submittal expectations before bid."
+    },
+    "stateDotDistrict": {
+      "name": "MoDOT Kansas City District (Jackson County)",
+      "url": "https://www.modot.org/missouri-counties-modot-district",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Permits on US-50, MO-291, MO-150, and I-470 right-of-way go through the Kansas City District permit office."
+    },
+    "oneCallCenter": {
+      "name": "Missouri 811 (Missouri One Call System)",
+      "url": "https://missouri-811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Notice at least two working days (not more than ten) before excavation under RSMo 319.026; the August 28, 2025 amendment adds a 21-day completion window per ticket.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Missouri DNR — construction land disturbance general permit (MORA series)",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "SWPPP and permit required at one acre of disturbance or as part of a larger common plan — a threshold greenfield compound-plus-access-road builds in growth corridors cross more often than expected."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Plan on a documented review, not an over-the-counter permit: Lee's Summit publishes its building-code amendment set and design criteria and reviews submittals against them through Development Services, so drawings that arrive aligned to the city's published requirements move materially faster than drawings that don't. ROW work adds a Public Works permit, state routes (US-50, MO-291, MO-150, I-470) shift to MoDOT Kansas City District permits, and DNR's MORA land-disturbance permit triggers at one acre. Missouri 811 needs two working days before excavation, with tickets now expiring 21 days after work begins. Published review durations were not found — confirm the current queue before committing dates."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Evergy",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Investor-owned utility serving Lee's Summit — confirm the operating-company territory (Evergy's Missouri service areas) and current new-service lead times with Evergy's builder services before scheduling energization."
+      }
+    ],
+    "ilec": "AT&T Missouri (Southwestern Bell legacy territory across the Kansas City metro) — confirm exchange boundaries against the FCC broadband map before publishing",
+    "notableFiberProviders": [
+      "Google Fiber (ninth Kansas City-area GFiber city, agreement 2013, construction from 2015)"
+    ],
+    "notableDataCenterCampuses": [
+      "Summit Technology Campus (with the Lee's Summit Integration Campus, about 1M sq ft positioned for data-center and technology tenants)",
+      "Cerner (now Oracle Health) Lee's Summit data center operations (Missouri DNR air permit OP112022-003)"
+    ],
+    "longHaulRouteNotes": "US-50 runs east out of the metro through Lee's Summit toward Sedalia and Jefferson City, paralleling the ex-Missouri Pacific rail corridor — a natural east-southeast route alignment out of Kansas City.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Missouri has no statewide spring frost-law embargo program like Iowa's or Wisconsin's; confirm any city or county postings on specific roads before an unusual haul, but seasonal embargoes are not a planning constraint the way they are farther north."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "MoDOT Motor Carrier Services (oversize/overweight permits)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "State-route OS/OW permits issue through MoDOT Motor Carrier Services' online system; city and county mileage requires separate local authorization."
+    },
+    "bridgeOrClearanceConstraints": null,
+    "railroads": [
+      {
+        "name": "Union Pacific (ex-Missouri Pacific line through downtown Lee's Summit; Amtrak's Missouri River Runner stops at the downtown station)",
+        "crossingPermitNote": "The rail line the city grew up around still runs through its historic downtown. Crossing and occupancy applications go through UP's utility-permit process — long timelines, so file at project start — and the downtown segment pairs rail coordination with the city's streetscape expectations. Confirm the operating-railroad list for any specific route against the FRA crossing inventory."
+      }
+    ],
+    "urbanRowRequirements": "ROW work is permitted through Public Works and reviewed against the city's published design criteria; downtown Lee's Summit — a compact historic main-street district bisected by the UP line — carries closer restoration and streetscape expectations than the arterial corridors. Build submittal alignment time into the schedule; this is a city that reads the drawings."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Federally listed bats occur across western Missouri; a project-specific USFWS IPaC review sets the site's clearing window",
+      "source": null
+    },
+    "shpo": {
+      "name": "Missouri State Historic Preservation Office (Missouri DNR)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Section 106 applies on federally funded builds; downtown's historic main-street fabric is the likeliest local trigger."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Kansas City District regulatory program; Missouri DNR issues Section 401 water quality certifications",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "Kansas City District (NWK)",
+    "listedSpeciesNote": "Run project-specific USFWS IPaC queries; stream corridors in the upper Little Blue basin and wooded fringe around Longview Lake are the likeliest places for species or habitat flags in this market.",
+    "floodplainPrevalenceNote": "Lee's Summit sits on the high ground, so mapped floodplain is confined to the upper Little Blue River basin drainages rather than spread across the city — but the basin is getting formal attention: USACE's Little Blue River watershed feasibility study counts Lee's Summit among its partner communities, and Longview Lake on the west side is itself a USACE flood-control project. Screen low-lying parcels against the effective FIRM and treat basin mapping as subject to revision."
+  },
+  "seasonality": {
+    "calendar": [
+      { "month": "Jan", "groundConditions": "Freeze-thaw cycling on exposed upland sites; no deep sustained frost", "earthworkConcrete": "constrained", "note": "Cold-weather concrete protection on all pours; high open terrain takes wind-chill hits" },
+      { "month": "Feb", "groundConditions": "Freeze-thaw continues; muddy thaw days on clay subgrades", "earthworkConcrete": "constrained", "note": null },
+      { "month": "Mar", "groundConditions": "Thawing and wet; clays drain slowly", "earthworkConcrete": "workable", "note": "Severe-weather season opens" },
+      { "month": "Apr", "groundConditions": "Firming between rain systems", "earthworkConcrete": "favorable", "note": "Exposed ridge sites dry faster than valley parcels" },
+      { "month": "May", "groundConditions": "Workable; peak severe-storm season", "earthworkConcrete": "favorable", "note": "SWPPP maintenance on sloped greenfield sites earns its keep" },
+      { "month": "Jun", "groundConditions": "Warm and workable", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Jul", "groundConditions": "Hot; upland clays begin to desiccate", "earthworkConcrete": "workable", "note": "Hot-weather concrete practice on afternoon pours" },
+      { "month": "Aug", "groundConditions": "Hot and dry; desiccated clay is the year's hardest digging", "earthworkConcrete": "workable", "note": "Compaction water demand rises on fill work" },
+      { "month": "Sep", "groundConditions": "Cooling and firm; premium production month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Oct", "groundConditions": "Firm; first freeze typically late month", "earthworkConcrete": "favorable", "note": null },
+      { "month": "Nov", "groundConditions": "Intermittent freezes; most days workable", "earthworkConcrete": "workable", "note": "Cold-weather concrete practice resumes" },
+      { "month": "Dec", "groundConditions": "Freeze-thaw cycling; occasional snow and ice", "earthworkConcrete": "constrained", "note": null }
+    ],
+    "narrative": "The Lee's Summit construction year runs long — KC-metro winters cycle rather than freeze solid, so foundation and underground work continues December through February under cold-weather concrete practice. What's distinctive here is exposure and clay: the city's high, open terrain dries quickly in spring but takes wind and weather head-on in winter, and by August the upland clays desiccate into the hardest digging of the year while hot-weather limits govern afternoon pours. Spring storm season is the erosion-control season on the sloped greenfield sites typical of the growth corridors. September and October are the premium months. Confirm specifics against NOAA NCEI climate normals for the Kansas City area before publication; this calendar is directional."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "unknown",
+    "rockNote": "On ridge positions the weathered Pennsylvanian limestone bench can sit close under the clay residuum — favorable bearing, slow trenching. Depth varies parcel to parcel, so no blanket likelihood is published; duct-bank and pier work carries a rock contingency until borings close it.",
+    "aggregateHaulNote": null,
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Missouri's prevailing wage law (reworked 2018, HB 1729) attaches the Annual Wage Order to public works over $75,000, with the Public Works Contracting Minimum Wage on small public projects under 1,000 hours; federally funded broadband work carries Davis-Bacon separately.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Cold-weather concrete protection December through February, hot-weather measures and desiccated-clay trenching premiums in July and August.",
+    "narrative": "The cost conversation in Lee's Summit starts with review, not rock. The city publishes its amendment set and design criteria and holds submittals to them, so engineering and resubmittal cycles are a real line item — cheap if your drawings arrive aligned, expensive if they don't, and we price the alignment work up front. In the ground, the swing items are the limestone bench on ridge sites (rock contingency until borings land) and August clay desiccation that slows trench production. Growth-corridor greenfield sites cross the one-acre MORA stormwater threshold routinely once access drives count in, adding SWPPP scope. Evergy interconnection timing belongs on the critical path from day one. Mobilization from Cedar Rapids sits at the outer edge of our regional band and prices as travel, not deployment. Drivers only — every site prices to its borings and its month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Missouri has no statewide general contractor license — qualification is municipal, and Lee's Summit licenses contractors through Development Services alongside its permit system. Electrical work reviews against the adopted NEC edition (2017 as of the 2019 adoption — confirm current). Verify the city's current contractor-licensing classes and business-license requirements before bid day.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": ["tornado", "hail", "high wind", "ice storm"],
+    "designImplications": "High, open terrain in a severe-weather metro: Lee's Summit sites take spring wind and hail with less shelter than valley markets, which argues for conservative anchorage, hail-tolerant compound hardware, and attention to exposure category in the wind design. Ice-storm exposure makes generator pads with fuel containment standard compound scope. Flood risk is a parcel-selection issue confined to the upper Little Blue drainages rather than a citywide design driver. Publish wind and ice values only after ASCE 7 and county TIA-222 figures are confirmed.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Missouri BEAD awards finalized statewide",
+        "detail": "Missouri's Office of Broadband Development awarded roughly $792M of the state's $1.7B BEAD allocation to 42 providers for 213,803 locations (about 81% fiber), with awards published at broadbandmap.mo.gov in early January 2026 — subgrantee construction ramps through 2026 across the state.",
+        "category": "broadband program",
+        "sourceUrl": "https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program",
+        "asOf": "2026-01"
+      },
+      {
+        "headline": "Lee's Summit markets a million square feet for data-center users",
+        "detail": "The city's economic development council positions the Summit Technology Campus and the 500,000 sq ft Lee's Summit Integration Campus — owned by Cerner, now part of Oracle Health — as a combined ~1M sq ft of data-center-capable space, anchoring the market's edge and technology-tenant pitch.",
+        "category": "data center",
+        "sourceUrl": "https://www.leessummit.org/site-selection/target-industries/data-centers/",
+        "asOf": "2026-07-28"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "service lateral to hut",
+        "restoration"
+      ],
+      "secondaryScopeIds": ["long-haul and metro route construction"],
+      "narrative": "Lee's Summit's fiber story is a decade past novelty — Google Fiber signed on in 2013 as the ninth KC-area city and built from 2015 — so today's civil work is growth-driven: laterals, vaults, and duct bank following new subdivisions and commercial development down the US-50 and MO-291 corridors, plus infill and restoration in the established network. Two local facts shape routes. The UP line through downtown splits the historic core, so crossings there pair a slow railroad permit with the city's streetscape expectations; and greenfield extensions on sloped clay sites cross the one-acre MORA stormwater threshold routinely. Every design that touches city ROW gets held to the published design criteria — aligned submittals are the production strategy here.",
+      "localSpecificsReferenced": [
+        "Google Fiber build (ninth KC-area city, 2015)",
+        "US-50 / MO-291 growth corridors",
+        "UP line through downtown Lee's Summit",
+        "city design-criteria review"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "compound fencing",
+        "small cell and DAS node civil"
+      ],
+      "secondaryScopeIds": ["access road and turnaround", "C-band / densification upgrade civil"],
+      "narrative": "Wireless civil work in Lee's Summit tracks rooftops: two decades of growth past 100,000 residents keeps densification and coverage-fill demand moving south and east with the subdivisions. The engineering personality of the market is exposure — high, open ridge terrain at roughly 1,027 feet means compounds take wind and hail without much shelter, and the exposure-category call deserves more attention here than in tree-broken valley markets. Small cells run under Missouri's statewide small-wireless act, but pole and ROW designs still must satisfy the city's published design criteria, and Evergy owns the distribution poles — a different attachment path than the municipal-utility city one suburb north. Ridge sites carry a rock contingency for the shallow limestone bench until borings say otherwise.",
+      "localSpecificsReferenced": [
+        "1,027-ft ridge exposure",
+        "Evergy pole attachments vs. municipal neighbors",
+        "city design-criteria review of ROW designs",
+        "US-50-corridor growth"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": ["security compound and bollards", "heavy haul access and crane pads"],
+      "narrative": "Unusually for a suburb its size, Lee's Summit has named data-center assets to anchor an edge segment: the Summit Technology Campus and the Lee's Summit Integration Campus market roughly a million square feet of technology-tenant space, and Cerner — now Oracle Health — has operated data-center capacity here under a Missouri DNR air permit. That existing base generates exactly the civil scope we self-perform: transformer and utility-yard pads, generator yards with containment, campus duct bank, and the micro-DC pads that follow enterprise capacity into a growth market. Evergy interconnection belongs on the critical path from the first schedule draft, and campus-adjacent work inherits the same design-criteria review discipline as everything else in this city.",
+      "localSpecificsReferenced": [
+        "Summit Technology Campus",
+        "Cerner (Oracle Health) Lee's Summit data center (DNR air permit OP112022-003)",
+        "Evergy interconnection"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 302,
+      "driveTimeHours": 5.2,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": ["Jackson", "Cass", "Johnson"],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "Lee's Summit is the far edge of our regional band — roughly 300 road miles, pending verification against real routing — reached down I-35 from the north and around the metro's east side on I-435 to I-470 and US-50, which drops crews into the growth corridors without crossing the urban core. At this distance we plan mobilization as a working travel day: depart early, productive hours on site the same afternoon, and multi-day scopes staged on overnight stays as the default rather than the exception. The approach is interstate end to end, so winter weather — not road postings — is the seasonal variable. Response commitments are published only after ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "What building code and amendments apply to telecom work in Lee's Summit?",
+      "answer": "Chapter 7 of the city code — the Lee's Summit Building Code — which adopted the 2018 I-codes and 2017 NEC on January 8, 2019 (Ordinances 8536/8537) with the city's own amendment set, published on its Building Codes & Amendments page. Missouri has no statewide code, so the city's amendments govern. Confirm whether a newer edition has been adopted before stamping drawings.",
+      "segment": "general"
+    },
+    {
+      "question": "Why do people call Lee's Summit a strict city to build in?",
+      "answer": "Because it publishes its design criteria and building-code amendments and actually reviews submittals against them. That's not hostility — it's documentation. Drawings aligned to the published requirements move through Development Services and Public Works at normal speed; drawings that ignore them cycle through resubmittals. We treat submittal alignment as scoped engineering work, priced up front, not as a surprise.",
+      "segment": "general"
+    },
+    {
+      "question": "Who provides electric service to a hut or compound in Lee's Summit?",
+      "answer": "Evergy, the investor-owned utility serving this part of the metro — unlike Independence one suburb north, which runs its own municipal utility. New-service applications, transformer availability, and pole attachments all run through Evergy's process, and we put that coordination on the critical path from the first schedule draft. Confirm current lead times with Evergy builder services.",
+      "segment": "edge"
+    },
+    {
+      "question": "Does Lee's Summit have real edge and data center activity?",
+      "answer": "Yes — more than most suburbs its size. The Summit Technology Campus and the 500,000 sq ft Lee's Summit Integration Campus (Cerner, now Oracle Health) market about a million square feet of data-center-capable space, and Cerner's Lee's Summit data center has operated under a Missouri DNR air permit. That base drives transformer-pad, generator-yard, and campus duct-bank civil scope.",
+      "segment": "edge"
+    },
+    {
+      "question": "Should we expect rock when trenching or boring in Lee's Summit?",
+      "answer": "On ridge sites, quite possibly — the city sits on high Pennsylvanian terrain where the weathered limestone bench can lie close beneath the clay residuum. Depth varies parcel to parcel, so we carry a rock contingency in trench and pier pricing until borings close the question. It's good bearing when you find it; it's slow digging when you didn't plan for it.",
+      "segment": "fiber"
+    },
+    {
+      "question": "What's involved in crossing the railroad through downtown Lee's Summit?",
+      "answer": "The Union Pacific line — the ex-Missouri Pacific route the city literally grew up around, still hosting Amtrak's Missouri River Runner at the downtown station. UP crossing and occupancy permits run on the railroad's timeline, not yours, so applications go in at project start. Downtown crossings also pair the railroad process with the city's streetscape restoration expectations.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in Lee's Summit in January?",
+      "answer": "Yes — KC-metro winters cycle between freeze and thaw rather than locking up, so January pours are routine with cold-weather concrete protection. On this city's high, open terrain the practical winter constraint is exposure: wind-chill on crews and heat loss on fresh concrete, both handled with enclosures and protection priced into the pour rather than improvised.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How much notice does Missouri 811 require before we dig in Lee's Summit?",
+      "answer": "At least two working days and not more than ten, per RSMo 319.026 — and since August 28, 2025, each ticket carries a 21-day completion window, so long duct-bank runs down the US-50 corridor get re-ticketing built into the production plan.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Do growth-corridor sites in Lee's Summit need stormwater permits?",
+      "answer": "Frequently, yes. Missouri DNR's land-disturbance permit triggers at one acre — or less when the work is part of a larger common plan — and a greenfield compound plus its access drive on sloped clay crosses that line more often than estimators expect. The SWPPP and erosion-control scope earns its keep in spring storm season on this terrain.",
+      "segment": "wireless"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Pricing plan review and ridge rock into a Lee's Summit build",
+    "body": "Two decisions dominate Lee's Summit budgets, and neither is exotic. First, the review decision: this city publishes its building-code amendment set and design criteria and holds submittals to them, so you choose between spending engineering hours before submittal or spending calendar weeks in resubmittal cycles. We choose the former every time — on a schedule-driven carrier program, the cheapest thing on the project is the day you didn't lose. Budget genuine design time against the city's published requirements, especially for ROW and downtown work where streetscape expectations stack on top. Second, the ground decision: on ridge positions — and most of this high city is ridge — the weathered limestone bench may sit close under the clay. If borings find it shallow, use it: piers bearing on or socketed into the bench outperform footings floating in shrink-swell-prone residuum, and the foundation cost often nets out favorably even with rock drilling, because you've eliminated the moisture-movement risk that clay foundations carry here. If the bench is deep, conventional footings with disciplined drainage and moisture protection are the economical answer. Either way the borings decide, which is why we drill before we price — and why parcels toward the upper Little Blue drainages get a FIRM check before anyone falls in love with the dirt."
+  },
+  "sources": [
+    {
+      "label": "Lee's Summit City Council Bill No. 19-08 — adoption of the 2018 I-codes and 2017 NEC (Ord. 8536, Jan. 8, 2019)",
+      "url": "https://lsmo.legistar.com/LegislationDetail.aspx?ID=3825248&GUID=5A2BA0E8-313E-472B-8CE2-F13A738A672E&FullText=1",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Lee's Summit — Building Codes & Amendments (Development Services design criteria)",
+      "url": "https://cityofls.net/development-services/design/design-criteria/building-codes-and-amendments",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Lee's Summit Economic Development Council — data centers (Summit Technology Campus; LS Integration Campus)",
+      "url": "https://www.leessummit.org/site-selection/target-industries/data-centers/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DNR — Cerner Lee's Summit Data Center air permit OP112022-003",
+      "url": "https://dnr.mo.gov/air/business-industry/air-permits/cerner-lees-summit-data-center-op112022-003",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of Lee's Summit — Google Fiber construction announcement",
+      "url": "https://cityofls.net/city-of-lees-summit/government-home-page/city-news/articletype/articleview/articleid/3010/google-fiber-construction-in-lees-summit",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Mid-America Regional Council — Little Blue River watershed study (Lee's Summit among partners)",
+      "url": "https://www.marc.org/environment/environment-plans/little-blue-river-watershed-study",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "RSMo 319.026 — Missouri One Call notice requirements",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=319.026",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "RSMo 67.5110 — Uniform Small Wireless Facility Deployment Act (2018 HB 1991)",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=67.5110",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DNR — construction land disturbance permits (one-acre trigger)",
+      "url": "https://dnr.mo.gov/water/business-industry-other-entities/permits-certification-engineering-fees/stormwater/construction-land-disturbance",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri Department of Labor — prevailing wage, 2018 changes (HB 1729, $75,000 threshold)",
+      "url": "https://labor.mo.gov/dls/prevailing-wage/2018-changes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DED — BEAD program status and awards",
+      "url": "https://ded.mo.gov/programs/community/broadband-equity-access-and-deployment-bead-program",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — Missouri counties by district (Jackson: Kansas City District)",
+      "url": "https://www.modot.org/missouri-counties-modot-district",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Lee's Summit, Missouri — elevation and 2020 population (overview)",
+      "url": "https://en.wikipedia.org/wiki/Lee's_Summit,_Missouri",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox egress proxy. Resolve from an unproxied session."
+    },
+    {
+      "field": "designCriteria.frostDepthIn + current code edition confirmation",
+      "attempted": "The frost value lives in the city's amendment set; cityofls.net and the Legistar Chapter 7 PDF returned 403 through the proxy, so neither the Table R301.2(1) value nor any post-2019 code adoption could be read. Cite the amendment text before publish."
+    },
+    {
+      "field": "geotech numerics + dominantGeology unit confirmation",
+      "attempted": "NRCS Web Soil Survey and Missouri Geological Survey publications unreachable through proxy; geology described qualitatively pending MGS confirmation."
+    },
+    {
+      "field": "regulatory.rowPermitAuthority + floodplainAdministrator",
+      "attempted": "Public Works ROW permit mechanics and the city's floodplain administrator could not be verified through the proxy; floodplain administrator left null."
+    },
+    {
+      "field": "utilities — Evergy operating company/territory, new-service lead, ILEC confirmation",
+      "attempted": "Evergy territory pages and the FCC broadband map not queryable through proxy; both recorded with confirm notes. Lead times require utility contact."
+    },
+    {
+      "field": "identity.counties — possible Cass County portion",
+      "attempted": "Lee's Summit may extend into Cass County; recorded as Jackson-only per the seed pending boundary confirmation, and countiesServed includes Cass for the service area."
+    },
+    {
+      "field": "environmental.treeClearingWindow (dates)",
+      "attempted": "USFWS Missouri field office guidance not reachable; window must come from a project-specific IPaC review."
+    },
+    {
+      "field": "logistics — seasonal restriction confirmation, OS/OW URL, railroad list",
+      "attempted": "MoDOT MCS pages and FRA crossing inventory not fetched; UP/Amtrak downtown presence recorded from corridor knowledge pending inventory check."
+    },
+    {
+      "field": "seasonality — NOAA normals table",
+      "attempted": "NCEI normals for the Kansas City-area station not readable through proxy; calendar authored qualitatively and flagged in the narrative."
+    },
+    {
+      "field": "operations.countiesServed + route verification",
+      "attempted": "Coverage list requires ops sign-off; 302 mi / 5.2 hr is the seed straight-line estimate pending real routing."
+    },
+    {
+      "field": "compliance — city contractor licensing specifics",
+      "attempted": "Lee's Summit's contractor-licensing classes and fees not verifiable through the proxy; described generically with a confirm note."
+    }
+  ]
+}

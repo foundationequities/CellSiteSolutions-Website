@@ -1,0 +1,695 @@
+{
+  "identity": {
+    "slug": "st-louis",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "counties": [
+      "St. Louis City"
+    ],
+    "msa": "St. Louis, MO-IL (bi-state metro)",
+    "tier": 1,
+    "latitude": 38.627,
+    "longitude": -90.1994,
+    "elevationFt": 466,
+    "population": {
+      "value": 301578,
+      "source": "U.S. Census Bureau, 2020 Census count for St. Louis city, Missouri (an independent city, in no county); confirm the current vintage estimate against Census QuickFacts before sign-off",
+      "verifiedOn": "2026-07-28"
+    },
+    "interstates": [
+      "I-44",
+      "I-55",
+      "I-64",
+      "I-70"
+    ],
+    "majorRoutes": [
+      "US-40",
+      "US-61",
+      "US-67"
+    ]
+  },
+  "metadata": {
+    "title": "St. Louis, MO Telecom Civil Construction | CellSite Solutions",
+    "description": "Civil construction for fiber, wireless, and edge sites in St. Louis, MO — karst screening, city and county permitting, carrier hotels, and mobilization.",
+    "h1": "Telecom Site Civil Construction in St. Louis, Missouri",
+    "intro": "Few markets make jurisdiction as decisive as St. Louis. The city separated from St. Louis County in 1876, so a site inside the city answers to the Building Division and the Street Department under the 2018 IBC, while a parcel a block across the line runs on the county's amended 2015 codes through a different office entirely. Below grade the story is Mississippian limestone — the St. Louis Limestone is literally named here — with sinkhole-prone karst across the metro's southern tier. Above grade sits a legacy interconnection core: Netrality's 210 N. Tucker and 900 Walnut carrier hotels anchor long-haul fiber at the Mississippi–Missouri confluence. CellSite Solutions builds foundations, duct bank, and compounds here from its Cedar Rapids yard, 284 road miles down the US-61 corridor.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": "ASCE 7-16 (referenced by the 2018 IBC, adopted by City of St. Louis Ordinance 70794, effective Aug. 1, 2018)",
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "St. Louis sits near enough to the New Madrid seismic zone that seismic detailing routinely matters more here than anywhere else in CSS's northern footprint — and deep alluvial sites can land in unfavorable site classes that amplify the design category. Publish Ss/S1 only from a USGS design-maps query at the site coordinates; treat site class as boring-dependent."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "The city rises from the Mississippi River floodplain onto uplands of flat-lying Mississippian carbonates — including the St. Louis Limestone, the formation named for the city — under a loess mantle, with karst development (sinkholes, caves, losing streams) concentrated across the metro's southern tier. The Missouri Geological Survey's Engineering Geology of St. Louis County (EG-004) and its statewide karst and sinkhole mapping are the screening references; roughly 16,000 sinkholes are documented statewide.",
+    "dominantSoilTypes": [
+      "Loess over limestone uplands",
+      "Karst-influenced clay residuum over pinnacled carbonate bedrock",
+      "Mississippi and Missouri River alluvium (floodplain sites)",
+      "Urban fill in the older city fabric"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Clay residuum over the carbonates warrants shrink-swell testing; NRCS linear-extensibility data could not be pulled through this environment, so the grade stays unknown rather than estimated.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": true,
+      "note": "Real and mapped: much of the metro's southern tier is karst, with documented sinkhole clusters in south city and county areas such as Sappington and Sunset Hills. Screen every south-metro site against Missouri Geological Survey sinkhole mapping before layout — a karst feature turns a routine pad into a grouting, redesign, or relocation conversation."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "St. Louis foundations begin with a map check, not a boring: is the site over mapped karst, over river alluvium, or on clean upland? Over karst, bedrock is typically pinnacled — rock elevation can swing many feet within a single pad footprint — so borings are spent verifying what each corner bears on, and drilled piers to competent rock often beat footings chasing an uneven surface. On the floodplain, deep alluvium takes rock off the table and soft, wet soils push shelter pads toward deep or improved-ground foundations with dewatering in the plan. Upland loess sites are the easy case, with the usual collapse-on-wetting caution around drainage. Two overlays apply everywhere: seismic detailing runs heavier here than in CSS's other northern markets, and no frost figure is published for the city — the adopted code's value must be confirmed per project. Site-specific investigation governs all of it."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of St. Louis — Building Division (Department of Public Safety)",
+        "url": "https://www.stlouis-mo.gov/government/departments/public-safety/building/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "Enforces the 2018 code suite the city adopted in August 2018 — the first jurisdiction in its region to move to the 2018 editions. A City business license is a prerequisite for permits."
+      },
+      {
+        "name": "St. Louis County — Public Works (separate jurisdiction, county sites only)",
+        "url": "https://stlouiscountymo.gov/st-louis-county-departments/transportation-and-public-works/codes-and-ordinances/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "The county has been a separate jurisdiction from the city since 1876 and enforces amended 2015-edition codes under its Ch. 1115/1116 — a different code generation and a different permitting office than the city, sometimes across the street."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "2018 International Building Code with amendments, adopted by Ordinance 70794 effective Aug. 1, 2018 (city); St. Louis County separately enforces amended 2015 editions",
+      "source": "City of St. Louis building codes page — https://www.stlouis-mo.gov/government/departments/public-safety/building/building-codes.cfm; Ordinance 70794 — https://www.stlouis-mo.gov/government/city-laws/ordinances/ordinance.cfm?ord=70794",
+      "verifiedOn": "2026-07-28"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of St. Louis Street Department (excavation permits); Board of Public Service (public improvement and non-plumbing excavation permits)",
+      "url": "https://www.stlouis-mo.gov/government/departments/street/permits-inspections/excavation-permit-service.cfm",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Cuts under 20 ft: $125 per repair, permit valid 30 days from start of work. Cuts over 20 ft: $125 per block plus a $20 per day per crew inspection fee for each day the excavation stays open. Traffic control plan required when blocking traffic; a City business license is a prerequisite."
+    },
+    "stateDotDistrict": {
+      "name": "MoDOT St. Louis District",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "District office at 1590 Woodlake Dr., Chesterfield. Utility permits for state routes file through this district; a route continuing across the Mississippi is IDOT's program on the far bank."
+    },
+    "oneCallCenter": {
+      "name": "Missouri 811",
+      "url": "https://missouri-811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "Metro East segments across the river are ticketed through JULIE (Illinois One-Call), not Missouri 811 — river-crossing routes carry two centers' rules.",
+      "ticketLeadBusinessDays": 3
+    },
+    "stormwaterAuthority": {
+      "name": "Missouri DNR — MORA00000 construction/land disturbance general permit",
+      "url": "https://dnr.mo.gov/water/construction-or-land-disturbance-master-general-stormwater-permit-mora00000",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Electronic ePermitting with SWPPP; current permit term Feb. 8, 2022 – Feb. 7, 2027. Sewer and stormwater connections coordinate separately with MSD."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": null,
+    "permitTimelineNarrative": "Sequence the jurisdiction question first: city and county are separate AHJs on different code generations (2018 versus amended 2015), and nothing about a city approval carries across the line. Inside the city, the Street Department's excavation structure prices time directly — $20 per day per crew in inspection fees while a cut over 20 feet stays open — which rewards short open-trench windows and tight restoration sequencing. MoDNR's MORA authorization must precede any acre-plus disturbance, and utility connections route through MSD, which is mid-way through the $4.7 billion Project Clear consent decree program and reviews sewer and stormwater tie-ins accordingly. Review clocks are not published; confirm queues per office when scoping."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Ameren Missouri",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "Investor-owned utility serving the city and most of the Missouri-side metro. Published commercial new-service lead times were not located — schedule hut and compound energization from Ameren's written confirmation."
+      }
+    ],
+    "ilec": "AT&T Missouri (legacy Southwestern Bell) — attribution from legacy-territory knowledge; confirm exchange boundaries per site before publication",
+    "notableFiberProviders": [
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Netrality 210 N. Tucker — 400,000 sq ft carrier hotel",
+      "Netrality 900 Walnut — 100,000 sq ft carrier hotel"
+    ],
+    "longHaulRouteNotes": "The two Netrality buildings — acquired from Digital Realty — are the region's gateway to long-haul fiber, with carrier-neutral meet-me rooms serving 43+ network operators at 210 N. Tucker and 45+ at 900 Walnut, and direct interconnection between the two.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Missouri operates no statewide spring frost-law embargo; statutory limits apply year-round. Confirm any county-posted roads on rural approach routes with the county highway department — see _gaps."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "MoDOT Motor Carrier Services — MoDOT Carrier Express (online only)",
+      "url": "https://www.modot.org/OSOW",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "OSOW travel is limited to a half hour before sunrise through a half hour after sunset, and the St. Louis area carries additional curfews on top of the statewide rule."
+    },
+    "bridgeOrClearanceConstraints": "Everything east crosses the Mississippi on a limited set of bridges, and the far bank is Illinois — a haul or fiber route continuing into the Metro East picks up IDOT permitting and JULIE ticketing at the river.",
+    "railroads": [
+      {
+        "name": "Terminal Railroad Association of St. Louis (TRRA)",
+        "crossingPermitNote": "The jointly owned terminal railroad handles interchange across the St. Louis gateway, including river-bridge trackage — fiber crossings of terminal lines go through TRRA in addition to any line-haul carrier. Timelines are not published; file at route design."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "Norfolk Southern",
+        "crossingPermitNote": null
+      },
+      {
+        "name": "CSX",
+        "crossingPermitNote": null
+      }
+    ],
+    "urbanRowRequirements": "A City business license precedes any permit; excavation permits come from the Street Department with a traffic control plan wherever traffic is blocked. The fee structure meters open-trench time — $125 per block plus $20 per day per crew of inspection fees on cuts over 20 feet — so production planning and same-week restoration directly reduce permit cost."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": true,
+      "window": null,
+      "driver": "Federally listed bats (Indiana bat, northern long-eared bat) occur across Missouri; site-specific USFWS IPaC screening governs whether and when clearing is restricted",
+      "source": "USFWS IPaC (per-site query) — statewide clearing-window guidance not verified this session; see _gaps"
+    },
+    "shpo": {
+      "name": "Missouri State Historic Preservation Office (Missouri DNR)",
+      "url": "https://mostateparks.com/page/state-historic-preservation-office/sec-106-review",
+      "phone": "573-751-7858",
+      "typicalReviewDays": 30,
+      "note": "30-day clock per complete submittal. Within the city, the Cultural Resources Office also conducts Section 106 review — a second layer with real teeth in a city this dense with historic fabric."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE St. Louis District regulatory program; Missouri DNR handles Section 401 certification",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": null
+    },
+    "usaceDistrict": "St. Louis District (MVS)",
+    "listedSpeciesNote": "Listed bats are the recurring statewide constraint; big-river corridors can add riverine species coordination. Run a project-specific USFWS IPaC query rather than relying on any county-level list.",
+    "floodplainPrevalenceNote": "The Mississippi crested at a record 49.58 ft at St. Louis on Aug. 1, 1993 — the highest stage ever recorded there, with the largest discharge measured since 1844 (about 1,080,000 cfs). Floodwall- and levee-protected bottoms line the riverfront, so floodplain screening leads siting on any near-river parcel, and 1993 is the benchmark reviewers reach for."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Freeze-thaw cycling; short-lived hard freezes",
+        "earthworkConcrete": "constrained",
+        "note": "Cold-weather concrete protection on pours; ground rarely stays frozen for weeks"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Freeze-thaw with wet, muddy interludes",
+        "earthworkConcrete": "constrained",
+        "note": "Ice storms are the characteristic disruption"
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Thawed and wet; spring rains build",
+        "earthworkConcrete": "workable",
+        "note": "River levels begin their spring rise — watch near-river staging"
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Workable; severe storm season under way",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "May",
+        "groundConditions": "Firm between heavy rain events; peak severe weather",
+        "earthworkConcrete": "favorable",
+        "note": "SWPPP maintenance and dewatering do real work"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, workable; humidity climbing",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot and humid",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice — humidity slows evaporation but heat drives set times"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hot and humid; convective downpours",
+        "earthworkConcrete": "favorable",
+        "note": "Hot-weather concrete practice continues"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Warm, drying; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Cool and firm; best earthwork window of the fall",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cooling; first freezes late in the month",
+        "earthworkConcrete": "workable",
+        "note": "Cold-weather concrete practice begins"
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freeze-thaw cycling establishes",
+        "earthworkConcrete": "constrained",
+        "note": null
+      }
+    ],
+    "narrative": "St. Louis gives a scheduler roughly ten workable months: winters are freeze-thaw affairs where December through February pours carry protection cost but rarely stop, and the true seasonal risks sit at the margins — ice storms in late winter, severe convective weather peaking April through May, and the twin summer levers of heat-driven set times and river stage. On near-river sites the Mississippi's spring rise is a staging and floodplain question before it is a weather one. Verify month-by-month figures against the NOAA NCEI normals for the St. Louis station before publication — see _gaps."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Pinnacled karst bedrock makes rock elevation the estimating wildcard — a trench or pad can run clay for fifty feet and then meet a limestone pinnacle, so rock clauses here price variability, not just presence.",
+    "aggregateHaulNote": "Limestone quarrying is embedded in the metro's fabric — former and active quarry footprints dot the area — keeping aggregate close, and occasionally showing up as a fill or quarry-legacy condition in site screening.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": "The city meters open-trench time: cuts over 20 ft pay $125 per block plus $20 per day per crew in inspection fees while open — restoration speed is a direct cost lever.",
+    "prevailingWageExposure": "Missouri prevailing wage (Annual Wage Order) applies to public works over $75,000 under the post-HB 1729 system; Davis-Bacon attaches to federally funded work, including BEAD builds.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Winter protection from December through February and hot-weather concrete controls in July and August are the seasonal adders; neither shuts the market down.",
+    "narrative": "St. Louis civil pricing turns on below-grade uncertainty and above-grade jurisdiction. Karst variability is the big one — pinnacled rock means two adjacent borings can tell different stories, and the estimate has to carry that spread. The city's own fee design adds a second lever: open-trench days literally cost money ($20 per day per crew in inspection fees on longer cuts), so duct bank production rates flow straight into permit cost. Crossing the metro multiplies offices — city, county, dozens of municipalities, and Illinois beyond the river — each with its own license and permit. Add MSD coordination on connections under the consent decree program, and seismic detailing that runs heavier than our other northern markets. Drivers, not prices; every site carries its own borings and its own month."
+  },
+  "compliance": {
+    "stateContractorLicensing": "Missouri has no statewide general contractor license. The City of St. Louis requires its Construction Industry Contractor Graduated Business License before working in the city, and St. Louis County licenses separately — the 1876 city–county split means the two never merged their programs, and neither license carries across the line. Metro East work across the river falls under Illinois rules entirely.",
+    "additionalRegistrations": [
+      "Missouri Secretary of State business registration"
+    ],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "tornado",
+      "flood",
+      "extreme heat",
+      "ice storm"
+    ],
+    "designImplications": "Three exposures shape St. Louis site design: severe convective weather (tornado and damaging wind) sizes anchorage and enclosure ratings; the Mississippi and Missouri floodplains put elevation and levee-district review ahead of geotechnical work on riverfront parcels, with the 49.58-ft 1993 crest as the benchmark; and proximity to the New Madrid zone means seismic detailing on foundations and anchorage that CSS's other northern markets rarely see. Summer heat adds hot-weather concrete controls rather than structural change. Publish wind, ice, and seismic values only after the ASCE 7, TIA-222, and USGS lookups land.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Missouri BEAD final proposal: $792M to 42 ISPs statewide",
+        "detail": "Missouri's Office of Broadband Development submitted its BEAD final proposal to NTIA on September 19, 2025 — $792 million of the state's $1.7 billion allocation to 42 ISPs serving 213,803 locations, about 81% with fiber. Rural routes ringing the St. Louis metro are part of that pipeline.",
+        "category": "broadband program",
+        "sourceUrl": "https://ded.mo.gov/press-room/ded-releases-final-proposal-broadband-equity-access-and-deployment-bead-program",
+        "asOf": "2025-09-19"
+      },
+      {
+        "headline": "Netrality's two-building St. Louis interconnection ecosystem",
+        "detail": "Netrality operates the region's core interconnection at 210 N. Tucker (400,000 sq ft, 43+ network operators) and 900 Walnut (100,000 sq ft, 45+ operators), acquired from Digital Realty and directly interconnected — the anchor points that metro fiber and edge deployments attach to.",
+        "category": "data center",
+        "sourceUrl": "https://netrality.com/news/netrality-properties-acquires-st-louis-carrier-hotels-from-digital-realty/",
+        "asOf": "2026-07-28"
+      },
+      {
+        "headline": "MSD Project Clear consent decree program continues",
+        "detail": "The Metropolitan St. Louis Sewer District is executing a $4.7 billion, multi-decade federal consent decree (effective 2012) to cut combined and sanitary sewer overflows, including a $1.9 billion storage tunnel program — sustained heavy civil activity that shapes utility coordination across the metro.",
+        "category": "municipal/utility fiber",
+        "sourceUrl": "https://msdprojectclear.org/about/our-organization/consent-decree/",
+        "asOf": "2026-07-28"
+      }
+    ],
+    "lastReviewed": "2026-07-28"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "long-haul and metro route construction",
+        "restoration"
+      ],
+      "secondaryScopeIds": [
+        "regen and amplifier site civil",
+        "service lateral to hut"
+      ],
+      "narrative": "Fiber civil in St. Louis is gateway work. Long-haul routes converge on Netrality's 210 N. Tucker and 900 Walnut meet-me rooms, and anything continuing east crosses the Mississippi on a short list of bridges where the Terminal Railroad Association's trackage, IDOT permitting, and JULIE ticketing all replace their Missouri counterparts at the waterline. Inside the city, the Street Department's fee meter — $20 per day per crew while a longer cut stays open — pushes duct bank work toward boring and fast restoration, and the underground is crowded with a combined-sewer system that MSD is rebuilding under its $4.7 billion consent decree. Outside the beltway, Missouri's $792 million BEAD round is funding rural routes down the same US-61 and I-44 corridors we mobilize along. Karst adds the bid question: bore logs through pinnacled limestone read differently mile to mile.",
+      "localSpecificsReferenced": [
+        "210 N. Tucker / 900 Walnut carrier hotels",
+        "TRRA river-gateway trackage",
+        "City excavation inspection fee meter",
+        "MSD combined sewer / Project Clear consent decree",
+        "Missouri BEAD final proposal"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "access road and turnaround",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Two facts organize wireless civil here. First, jurisdiction: the 1876 city–county separation means a site inside the city permits through the Building Division under 2018 codes with the city's graduated business license, while a county site a block away runs amended 2015 codes through county Public Works — and the metro's dozens of municipalities each add their own layer. Second, ground: compounds across the southern tier get screened against Missouri Geological Survey sinkhole mapping before layout, because setting a tower foundation or shelter pad over an unmapped karst feature is the region's signature geotechnical failure mode. Seismic detailing — heavier here than anywhere else in our northern footprint, given New Madrid proximity — shapes anchorage and pier design, and no published city frost figure exists, so the governing depth is confirmed per project rather than assumed.",
+      "localSpecificsReferenced": [
+        "1876 city–county AHJ split",
+        "MGS sinkhole mapping (south metro karst)",
+        "Ordinance 70794 (2018 IBC)",
+        "New Madrid-adjacent seismic detailing"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "utility yard and transformer pads",
+        "campus duct bank and conduit",
+        "generator yards",
+        "security compound and bollards"
+      ],
+      "secondaryScopeIds": [
+        "hyperscale campus civil support",
+        "heavy haul access and crane pads"
+      ],
+      "narrative": "St. Louis edge deployments cluster where the networks already meet: Netrality's directly interconnected pair at 210 N. Tucker and 900 Walnut concentrates 40-plus operators per building, so micro-DC pads, generator yards, and diverse-path conduit tend to price their value by proximity to those two addresses. The civil work carries the city's particular overlays — riverfront and near-downtown parcels need floodplain screening against the 1993 benchmark crest before layout, older blocks hide urban fill and quarry legacies that borings must sort out, and seismic anchorage detailing applies to equipment pads that would sail through review in Iowa. Ameren Missouri serves new load, and energization dates come from the utility's written confirmation rather than anyone's assumption. We self-perform the pads, duct bank, and compound work and coordinate the MSD and floodplain layers early, where they are cheap.",
+      "localSpecificsReferenced": [
+        "Netrality 210 N. Tucker",
+        "900 Walnut",
+        "1993 flood benchmark (49.58 ft)",
+        "Ameren Missouri service territory"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "roadMiles": 284,
+      "driveTimeHours": 4.4,
+      "routeVerified": true,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "St. Louis City",
+      "St. Louis",
+      "St. Charles",
+      "Jefferson"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The St. Louis run is the shorter of our two Missouri Tier 1 mobilizations — 284 road miles, about four and a half hours — and it follows a different corridor than anything else we drive: south on I-380 and US-218 through southeast Iowa, then US-61 down the Mississippi's west bank through Hannibal into the metro, expressway-grade US highway most of the way rather than interstate. That profile matters for equipment: oversize moves route and schedule differently on a US-highway corridor than on I-35 or I-80, so mobilizations here are planned as multi-day work blocks with equipment staged for the scope's duration rather than shuttled. St. Charles County sites peel off at the I-70 junction before the river; Jefferson County sites continue down I-55/US-61. Anything firmer than that waits on ops sign-off.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Does a St. Louis site permit through the city or the county?",
+      "answer": "They are entirely separate jurisdictions — and have been since 1876. Inside city limits, the Building Division enforces the 2018 codes (Ordinance 70794) and the Street Department issues excavation permits; in St. Louis County, Public Works enforces amended 2015-edition codes through its own process. Nothing transfers, including contractor licenses, so the parcel's side of the line is the first fact to establish.",
+      "segment": "general"
+    },
+    {
+      "question": "What does a street excavation permit cost in the City of St. Louis?",
+      "answer": "For cuts under 20 feet, $125 per repair with a 30-day permit. Over 20 feet, it becomes $125 per block plus a $20 per day per crew inspection fee for every day the cut stays open — so trench time is literally metered. A City business license and, where traffic is blocked, a traffic control plan are prerequisites. We sequence boring and restoration to keep the daily meter short.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How serious is sinkhole risk for tower and pad sites around St. Louis?",
+      "answer": "Serious enough to screen for on every south-metro site. The Missouri Geological Survey documents roughly 16,000 sinkholes statewide, and the St. Louis region's southern tier — including mapped clusters around Sappington and Sunset Hills — sits on genuine karst. We check MGS sinkhole mapping before layout and treat pinnacled rock as an estimating line item, because finding a karst feature under a formed-up pad is the expensive version.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How much notice does Missouri 811 require before digging in St. Louis?",
+      "answer": "Three working days, excluding weekends and Missouri holidays — under the statute SB 133 updated effective August 28, 2025. Routes that continue across the Mississippi switch to JULIE, the Illinois one-call center, with its own notice rules. Both leads get built into any river-crossing schedule from day one.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Why does seismic design matter more in St. Louis than other Midwest markets?",
+      "answer": "Proximity to the New Madrid seismic zone in the state's southeast raises design ground motions above anything in Iowa, Nebraska, or Wisconsin — enough that foundation and anchorage detailing routinely changes. Deep river-alluvium sites can compound it through unfavorable site classes. Actual Ss/S1 values come from a USGS design-maps query per site; we treat site class as a borings question, never a default.",
+      "segment": "wireless"
+    },
+    {
+      "question": "What should we expect from flood risk on riverfront St. Louis sites?",
+      "answer": "Screening first, always. The Mississippi's record 49.58-ft crest on August 1, 1993 — the highest stage ever recorded at St. Louis — remains the benchmark, and floodwall- and levee-protected bottoms line the riverfront. On near-river parcels, floodplain determination and levee-district coordination come before geotechnical work, and spring river stage affects staging even when the site itself stays dry.",
+      "segment": "general"
+    },
+    {
+      "question": "Which railroad approvals do fiber crossings need in St. Louis?",
+      "answer": "Often two layers: the line-haul carrier (UP, BNSF, NS, and CSX all operate in the gateway) and the Terminal Railroad Association of St. Louis, the jointly owned terminal railroad whose trackage — including river-bridge approaches — threads the routes long-haul fiber wants to follow. TRRA timelines are not published, so we file crossing applications at route design rather than construction release.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Can you pour a shelter pad in St. Louis in January?",
+      "answer": "Almost always. St. Louis winters cycle through freeze and thaw rather than locking up — January pours carry cold-weather protection (blankets, heat, admixtures) and mud management between cycles, but multi-week frozen shutdowns are rare. The bigger winter risk is an ice storm interrupting the schedule, which is slack we build in rather than cost we discover.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How does MSD's consent decree affect telecom site work in St. Louis?",
+      "answer": "Indirectly but persistently. MSD is executing a $4.7 billion federal consent decree (Project Clear) to cut sewer overflows from its combined system — including a $1.9 billion tunnel program — so sewer and stormwater connections get reviewed carefully, and the underground in older neighborhoods is crowded with both legacy combined sewers and active rehabilitation work. We coordinate MSD touchpoints early and route duct bank with the congestion in mind.",
+      "segment": "edge"
+    },
+    {
+      "question": "What's driving telecom construction demand in the St. Louis market?",
+      "answer": "Interconnection and funded fiber. Netrality's 210 N. Tucker and 900 Walnut carrier hotels anchor the region's long-haul meet-me ecosystem, which keeps metro conduit, diverse-path, and edge pad work flowing; Missouri's BEAD final proposal ($792 million to 42 ISPs, submitted September 2025) is loading rural routes around the metro; and MSD's decade-scale program keeps utility coordination — and relocation work — constant.",
+      "segment": "edge"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Pinnacled rock and why St. Louis borings earn their fee",
+    "body": "The defining St. Louis foundation problem is variability, not difficulty. Over the metro's karstic southern tier, the top of the Mississippian limestone is pinnacled — dissolved into ridges and slots filled with clay residuum — so bedrock elevation can swing ten feet or more inside a single pad footprint. That geometry breaks the usual shortcut of extrapolating one boring across a site: a spread footing designed off the lucky boring bears partly on rock and partly on clay, and differential settlement does the rest. Where mapped karst is in play, we push for a boring at each corner of any structural pad, screen the parcel against Missouri Geological Survey sinkhole mapping before layout, and price drilled piers to competent rock as the base case rather than the contingency — piers absorb pinnacle variability far more gracefully than footings chasing an uneven surface. On the floodplain the problem inverts to depth and water: no reachable rock, soft alluvium, dewatering, and a floodplain file that opens before the drill rig arrives. Either way, seismic detailing rides along — this is the one northern CSS market where New Madrid-adjacent ground motions genuinely change connection and anchorage design. Spend the boring money; here it is the estimate.",
+    "_comment": null
+  },
+  "sources": [
+    {
+      "label": "City of St. Louis — building codes adopted by the city (2018 suite)",
+      "url": "https://www.stlouis-mo.gov/government/departments/public-safety/building/building-codes.cfm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of St. Louis — Ordinance 70794 (2018 International Building Code)",
+      "url": "https://www.stlouis-mo.gov/government/city-laws/ordinances/ordinance.cfm?ord=70794",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "St. Louis County Code Ch. 1115 — amended 2015 building code (separate AHJ)",
+      "url": "https://library.municode.com/mo/st._louis_county/codes/code_of_ordinances?nodeId=TITXIPUWOBURE_CH1115BUCO",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of St. Louis Street Department — excavation permit and fees",
+      "url": "https://www.stlouis-mo.gov/government/departments/street/permits-inspections/excavation-permit-service.cfm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "City of St. Louis — Board of Public Service permits",
+      "url": "https://www.stlouis-mo.gov/government/departments/public-service/permits/index.cfm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DNR — karst in Missouri",
+      "url": "https://dnr.mo.gov/land-geology/geology/karst-missouri",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DNR — sinkholes (Missouri Geological Survey, ~16,000 documented)",
+      "url": "https://dnr.mo.gov/land-geology/hazards/sinkholes",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri Geological Survey EG-004 — Engineering Geology of St. Louis County",
+      "url": "https://share.mo.gov/nr/mgs/MGSData/Books/Engineering%20Geology/Engineering%20Geology%20of%20St.%20Louis%20County,%20Missouri/EG-004.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "St. Louis Magazine — sinkholes and former quarries in St. Louis (Sappington, Sunset Hills)",
+      "url": "https://www.stlmag.com/history/sinkholes-in-st-louis/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "NWS St. Louis — the 1993 flood (record 49.58-ft crest, Aug. 1, 1993)",
+      "url": "https://weather.gov/lsx/1993_flood",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "USGS — 1993 Mississippi flood, peak discharge at St. Louis (largest since 1844)",
+      "url": "https://pubs.usgs.gov/fs/1995/0188/report.pdf",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Netrality — acquisition of 210 N. Tucker and 900 Walnut carrier hotels from Digital Realty",
+      "url": "https://netrality.com/news/netrality-properties-acquires-st-louis-carrier-hotels-from-digital-realty/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "US DOJ — MSD to pay $4.7 billion to cut sewer overflows (consent decree)",
+      "url": "https://www.justice.gov/archives/opa/pr/metropolitan-st-louis-sewer-district-missouri-pay-47-billion-cut-sewer-overflows",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MSD Project Clear — consent decree program",
+      "url": "https://msdprojectclear.org/about/our-organization/consent-decree/",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri 811 — SB 133 changes and three-working-day notice",
+      "url": "https://blog.missouri-811.org/sb-133-major-changes-to-missouris-underground-facility-law-coming-in-august",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDNR — MORA00000 construction/land disturbance general permit",
+      "url": "https://dnr.mo.gov/water/construction-or-land-disturbance-master-general-stormwater-permit-mora00000",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri SHPO — Section 106 review; City of St. Louis Cultural Resources Office review",
+      "url": "https://www.stlouis-mo.gov/government/departments/planning/cultural-resources/reviews/Section-106-Review.cfm",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "MoDOT — oversize/overweight permitting (Carrier Express; St. Louis-area curfews)",
+      "url": "https://www.modot.org/OSOW",
+      "accessedDate": "2026-07-28"
+    },
+    {
+      "label": "Missouri DED — BEAD final proposal ($792M, 42 ISPs)",
+      "url": "https://ded.mo.gov/press-room/ded-releases-final-proposal-broadband-equity-access-and-deployment-bead-program",
+      "accessedDate": "2026-07-28"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria.ultimateWindSpeedMph / groundSnowLoadPsf / designRadialIceIn / seismic.ss+s1 / designTempLowF+HighF",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps service, and TIA-222 county tables unreachable through the sandbox proxy; no primary values located in search. One unproxied session fills these."
+    },
+    {
+      "field": "designCriteria.frostDepthIn",
+      "attempted": "No adopted frost-depth figure for the City of St. Louis was located in Ordinance 70794 materials or the city code pages reviewed; commonly repeated secondary figures were not publishable under the code-text-only rule. Read the city's amended Table R301.2(1) directly."
+    },
+    {
+      "field": "geotech numerics (bearing range, depth to bedrock, groundwater, corrosivity, expansive risk grade)",
+      "attempted": "NRCS Web Soil Survey and the MGS EG-004 PDF unreachable through the proxy; only qualitative geology and karst mapping context are published."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator",
+      "attempted": "The named city floodplain administrator office was not confirmed; left null rather than guessed."
+    },
+    {
+      "field": "regulatory.wirelessFacilityOrdinanceNote / Missouri small-wireless statute",
+      "attempted": "Reported RSMo 67.5110 et seq. unverified — revisor.mo.gov blocked by proxy, search budget exhausted. Omitted rather than guessed."
+    },
+    {
+      "field": "environmental.treeClearingWindow — specific window",
+      "attempted": "USFWS Missouri field office guidance not reachable this session; listed-bat presence established, window left null pending IPaC/field-office sourcing."
+    },
+    {
+      "field": "utilities — Ameren new-service lead times; ILEC exchange boundaries; fiber provider survey",
+      "attempted": "Ameren publishes no standing commercial lead time located this session; AT&T Missouri ILEC attribution is legacy-territory knowledge; competitive fiber overbuilder presence beyond AT&T was not verified and is under-listed rather than guessed."
+    },
+    {
+      "field": "seasonality — NOAA normals check",
+      "attempted": "NCEI normals for the St. Louis station not readable through the proxy; calendar authored qualitatively and must be checked against the station table."
+    },
+    {
+      "field": "identity.population — current vintage estimate",
+      "attempted": "2020 Census count (301,578) published; Census QuickFacts blocked by proxy, so the current vintage estimate (reported near 280,000) is pending confirmation."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 publish gate requires at least 1 real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + response commitments",
+      "attempted": "Ops sign-off required for the confirmed coverage list and any response-time commitment."
+    }
+  ]
+}
