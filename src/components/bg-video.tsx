@@ -107,6 +107,58 @@ function YouTubeBg({ id, start, end }: { id: string; start?: number; end?: numbe
   );
 }
 
+/**
+ * Vimeo background player driven explicitly via the player postMessage API:
+ * ?background=1&autoplay=1 alone can stall on a static first frame, so after
+ * the iframe loads we repeatedly ask it to mute + play until it confirms.
+ */
+function VimeoBg({ id, hash }: { id: string; hash?: string }) {
+  const frame = useRef<HTMLIFrameElement>(null);
+
+  useEffect(() => {
+    const el = frame.current;
+    if (!el) return;
+    const origin = "https://player.vimeo.com";
+    const send = (method: string, value?: unknown) => {
+      el.contentWindow?.postMessage(JSON.stringify({ method, value }), origin);
+    };
+    let kicks = 0;
+    const kick = () => {
+      send("setMuted", true);
+      send("setVolume", 0);
+      send("play");
+    };
+    const timer = setInterval(() => {
+      kick();
+      if (++kicks >= 6) clearInterval(timer);
+    }, 1500);
+    const onMsg = (e: MessageEvent) => {
+      if (e.origin !== origin) return;
+      try {
+        const data = typeof e.data === "string" ? JSON.parse(e.data) : e.data;
+        if (data?.event === "play" || data?.event === "playing") clearInterval(timer);
+      } catch {}
+    };
+    window.addEventListener("message", onMsg);
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener("message", onMsg);
+    };
+  }, [id]);
+
+  const h = hash ? `h=${hash}&` : "";
+  return (
+    <iframe
+      ref={frame}
+      className="hero-video-frame"
+      src={`https://player.vimeo.com/video/${id}?${h}background=1&autoplay=1&loop=1&muted=1&autopause=0&dnt=1`}
+      title=""
+      allow="autoplay; fullscreen; picture-in-picture"
+      tabIndex={-1}
+    />
+  );
+}
+
 export function BgVideo({
   src,
   start,
@@ -143,16 +195,7 @@ export function BgVideo({
   } else if (yt) {
     media = <YouTubeBg id={yt} start={start} end={end} />;
   } else if (vm) {
-    const h = vm.hash ? `h=${vm.hash}&` : "";
-    media = (
-      <iframe
-        className="hero-video-frame"
-        src={`https://player.vimeo.com/video/${vm.id}?${h}background=1&autoplay=1&loop=1&muted=1&dnt=1`}
-        title=""
-        allow="autoplay; fullscreen; picture-in-picture"
-        tabIndex={-1}
-      />
-    );
+    media = <VimeoBg id={vm.id} hash={vm.hash} />;
   }
 
   return (

@@ -39,7 +39,7 @@ export function CtaBand({
           className="pointer-events-none absolute right-[8%] top-1/2 hidden w-[340px] -translate-y-1/2 opacity-20 lg:block"
         />
       )}
-      <div className="relative mx-auto flex max-w-7xl flex-col items-center gap-8 px-4 text-center sm:px-6 lg:flex-row lg:justify-between lg:px-8 lg:text-left">
+      <div className="relative mx-auto flex max-w-7xl flex-col items-start gap-8 px-4 text-left sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div className="max-w-2xl">
           <h2 className="text-[30px] sm:text-[45px]">{title}</h2>
           <p className="mt-4 text-white/90">{text}</p>

@@ -54,7 +54,7 @@ export default function Home() {
         {/* min-height lives on this flex container so it holds on mobile too */}
         <div className="relative flex min-h-[600px] items-center justify-center lg:min-h-[1280px]">
           <div className="mx-auto w-full max-w-6xl px-4 pb-16 pt-28 text-center sm:px-6 lg:px-8">
-            <h2 className="text-[40px] font-bold leading-[1.15] sm:text-[56px] lg:text-[85px] lg:leading-[80px]">
+            <h2 className="text-[28px] leading-snug sm:text-[36px] lg:text-[45px]">
               ANY SHELTER. ANY SERVICE. FAST DELIVERY.
             </h2>
           </div>
@@ -363,10 +363,7 @@ export default function Home() {
                 items: ["Unsurpassed Dig-to-Block Process"],
               },
             ].map((col) => (
-              <div
-                key={col.title}
-                className="rounded-lg border border-border bg-white p-6 shadow-sm transition-shadow duration-300 hover:shadow-lg"
-              >
+              <div key={col.title} className="text-left">
                 <h3 className="text-[25px] text-ink">{col.title}</h3>
                 <ul className="mt-4 space-y-2 text-sm text-muted">
                   {col.items.map((it) => (
@@ -386,32 +383,35 @@ export default function Home() {
             ))}
           </div>
 
-          <Link
-            href="/civil-construction/"
-            className="mt-10 inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
-          >
-            Learn More
-          </Link>
-
-          {/* Overlapping two-image collage (as live: crew photo offset over drawings) */}
-          <div className="relative mx-auto mt-24 max-w-4xl lg:mt-36">
-            <div className="relative aspect-[3/2] w-full overflow-hidden rounded-lg">
-              <Image
-                src={`${IMG}/2026/06/Civil-Engineering-Drawings.jpeg`}
-                alt="Civil engineering drawings"
-                fill
-                sizes="(max-width: 1024px) 100vw, 896px"
-                className="object-cover"
-              />
+          {/* Pictures on the LEFT, Learn More beside them on the right */}
+          <div className="mt-16 grid items-center gap-12 lg:grid-cols-2">
+            <div className="relative pb-[12%]">
+              <div className="relative aspect-[3/2] w-full max-w-xl overflow-hidden rounded-lg">
+                <Image
+                  src={`${IMG}/2026/06/Civil-Engineering-Drawings.jpeg`}
+                  alt="Civil engineering drawings"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 576px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="absolute bottom-0 left-[30%] aspect-[16/10] w-[60%] max-w-md overflow-hidden rounded-lg shadow-xl">
+                <Image
+                  src={`${IMG}/2024/09/Civil-Construction-Section.png`}
+                  alt="CellSite Solutions civil construction crew on site"
+                  fill
+                  sizes="(max-width: 1024px) 60vw, 448px"
+                  className="object-cover"
+                />
+              </div>
             </div>
-            <div className="absolute -top-[20%] left-[30%] aspect-[16/10] w-[65%] overflow-hidden rounded-lg shadow-xl sm:-top-[30%] sm:left-[35%] sm:w-[60%]">
-              <Image
-                src={`${IMG}/2024/09/Civil-Construction-Section.png`}
-                alt="CellSite Solutions civil construction crew on site"
-                fill
-                sizes="(max-width: 1024px) 65vw, 540px"
-                className="object-cover"
-              />
+            <div>
+              <Link
+                href="/civil-construction/"
+                className="inline-block rounded-md bg-brand px-6 py-3 font-display text-sm font-medium uppercase tracking-wide text-white transition-colors hover:bg-brand-dark"
+              >
+                Learn More
+              </Link>
             </div>
           </div>
         </div>
@@ -424,7 +424,7 @@ export default function Home() {
       >
         <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">Who we are</p>
-          <blockquote className="mt-6 font-display text-[34px] font-medium leading-snug lg:text-[55px]">
+          <blockquote className="mt-6 font-display text-[22px] font-medium leading-snug lg:text-[32px]">
             &ldquo;We specialize in industrial telecom shelter remanufacturing of any imaginable scale
             and complexity.&rdquo;
           </blockquote>

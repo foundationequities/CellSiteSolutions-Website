@@ -5,7 +5,7 @@ import { PageHero } from "@/components/page-hero";
 import { PhotoBand } from "@/components/photo-band";
 import { CtaBand } from "@/components/cta-band";
 import { VideoLightbox } from "@/components/video-lightbox";
-import { MATTERPORT_TOUR } from "@/lib/videos";
+import { MATTERPORT_TOUR, SHELTER_TIMELAPSE_VIDEO } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Shelters",
@@ -23,6 +23,7 @@ export default function TelecomSheltersPage() {
         title="SHELTERS"
         lede="At CellSite Solutions, we're proud to provide a wide selection of built-to-spec remanufactured shelters for telecom projects. Our shelters can be shipped nationwide."
         image={`${IMG}/2024/11/cellsite-products-shelters-1920x1014-1.jpeg`}
+        video={{ src: SHELTER_TIMELAPSE_VIDEO }}
       />
 
       {/* ── Largest Selection (text LEFT / Matterport panel RIGHT) ── */}
