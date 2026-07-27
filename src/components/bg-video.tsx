@@ -69,12 +69,24 @@ function YouTubeBg({ id, start, end }: { id: string; start?: number; end?: numbe
         videoId: id,
         playerVars: {
           autoplay: 1, controls: 0, disablekb: 1, fs: 0, rel: 0,
-          playsinline: 1, iv_load_policy: 3, mute: 1,
+          playsinline: 1, iv_load_policy: 3, mute: 1, cc_load_policy: 3,
           start: start ?? 0, ...(end ? { end } : {}),
         },
         events: {
-          onReady: (e: { target: { mute: () => void; playVideo: () => void } }) => {
+          onReady: (e: {
+            target: {
+              mute: () => void;
+              playVideo: () => void;
+              unloadModule: (m: string) => void;
+            };
+          }) => {
             e.target.mute();
+            // belt & braces: make sure closed captions never render on
+            // background videos, even when YouTube defaults them on
+            try {
+              e.target.unloadModule("captions"); // html5 player
+              e.target.unloadModule("cc"); // flash/legacy naming
+            } catch {}
             e.target.playVideo();
           },
           onStateChange: (e: {

@@ -6,7 +6,7 @@ import { CtaBand } from "@/components/cta-band";
 import { BgVideo } from "@/components/bg-video";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { VideoLightbox } from "@/components/video-lightbox";
-import { FACILITY_TOUR_YT, MATTERPORT_TOUR, SHELTERS_HERO_VIMEO, SHELTER_TIMELAPSE_VIDEO } from "@/lib/videos";
+import { FACILITY_TOUR_YT, MATTERPORT_TOUR, SHELTER_TIMELAPSE_VIDEO } from "@/lib/videos";
 
 export const metadata: Metadata = {
   title: "Telecom Shelters",
@@ -150,11 +150,14 @@ const equipment = [
 export default function SheltersPage() {
   return (
     <>
+      {/* Hero video: the live site's Vimeo background stalls on a static
+          frame in embeds, so we run the self-hosted shelter timelapse mp4 —
+          native <video> autoplay starts immediately with no static image. */}
       <PageHero
         eyebrow="Building the Backbone of Your Network"
         title="Telecom Shelters"
         image={`${IMG}/2024/09/Shelters-Section-Image.png`}
-        video={{ src: SHELTERS_HERO_VIMEO }}
+        video={{ src: SHELTER_TIMELAPSE_VIDEO }}
       />
 
       {/* ── FAQ ──────────────────────────────────────────────────── */}
@@ -225,34 +228,35 @@ export default function SheltersPage() {
         </div>
       </section>
 
-      {/* ── Remanufactured vs New (open columns + icons, as live) ── */}
-      <section className="bg-white py-20">
+      {/* ── Remanufactured vs New (white text over red, as live) ── */}
+      <section className="bg-brand py-20 text-white">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">The Choice</p>
-            <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-white/85">The Choice</p>
+            <h2 className="mt-2 text-[35px] sm:text-[65px]">
               REMANUFACTURED vs NEW SHELTERS
             </h2>
           </div>
           <div className="mt-12 grid gap-10 sm:grid-cols-3">
             {choice.map((c) => (
-              <div key={c.title} className="border-t border-border pt-8">
-                <div className="text-brand">{c.icon}</div>
-                <h3 className="mt-5 text-xl text-ink">{c.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted">{c.copy}</p>
+              <div key={c.title} className="border-t border-white/30 pt-8">
+                <div className="text-white">{c.icon}</div>
+                <h3 className="mt-5 text-xl text-white">{c.title}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-white/90">{c.copy}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ── Remanufacturing Process (Matterport LEFT / text RIGHT, as live) ── */}
-      <section className="relative overflow-hidden bg-surface-dark py-20 text-white">
-        <BgVideo
-          src={SHELTER_TIMELAPSE_VIDEO}
-          overlay="bg-black/30"
-        />
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      {/* ── Shelter timelapse video band (full-bleed, no copy, as live) ── */}
+      <section className="relative overflow-hidden py-48 sm:py-72 lg:py-[420px]">
+        <BgVideo src={SHELTER_TIMELAPSE_VIDEO} overlay="bg-black/10" />
+      </section>
+
+      {/* ── Remanufacturing Process (white bg, Matterport LEFT / text RIGHT) ── */}
+      <section className="bg-white py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             {/* Matterport 3D tour panel */}
             <div className="relative aspect-video overflow-hidden rounded-lg">
@@ -278,20 +282,20 @@ export default function SheltersPage() {
             </div>
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-brand">SEE HOW</p>
-              <h2 className="mt-2 text-[35px] sm:text-[65px]">REMANUFACTURING PROCESS</h2>
-              <p className="mt-5 text-base leading-relaxed text-white/80">
+              <h2 className="mt-2 text-[35px] text-ink sm:text-[65px]">REMANUFACTURING PROCESS</h2>
+              <p className="mt-5 text-base leading-relaxed text-muted">
                 We specialize in expertly remanufacturing both the exterior and interior of your concrete
                 equipment shelters using industry-leading durable materials. Whether performed on-site or
                 at our fully equipped warehouse, our remanufacturing process restores your shelter to
                 like-new condition, ensuring it meets or exceeds current industry standards.
               </p>
-              <p className="mt-4 text-base leading-relaxed text-white/80">
+              <p className="mt-4 text-base leading-relaxed text-muted">
                 Our high-quality materials and meticulous craftsmanship allow us to offer warranties that
                 often surpass those of brand-new shelters, giving you peace of mind and long-term value.
                 Trust CellSite Solutions to deliver reliable, cost-effective solutions for extending the
                 life of your telecom shelters while maintaining optimal performance and protection.
               </p>
-              <p className="mt-4 text-base leading-relaxed text-white/80">
+              <p className="mt-4 text-base leading-relaxed text-muted">
                 Press the PLAY button to launch an immersive 3D experience that allows you to explore
                 the inside of our shelter that features a complete ISP installation.
               </p>
@@ -301,10 +305,10 @@ export default function SheltersPage() {
             {process.map((p) => (
               <div
                 key={p.title}
-                className="rounded-lg border border-white/15 bg-white/10 p-6 backdrop-blur-sm transition-shadow duration-300 hover:shadow-lg"
+                className="rounded-lg border border-border bg-white p-6 transition-shadow duration-300 hover:shadow-lg"
               >
-                <h3 className="text-xl">{p.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-white/80">{p.copy}</p>
+                <h3 className="text-xl text-ink">{p.title}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-muted">{p.copy}</p>
               </div>
             ))}
           </div>
@@ -324,7 +328,7 @@ export default function SheltersPage() {
             craftsmanship behind every shelter.
           </p>
           <VideoLightbox
-            embedUrl="https://www.youtube.com/embed/UlecVkYXJGY?start=2"
+            embedUrl="https://www.youtube.com/embed/UlecVkYXJGY?start=2&cc_load_policy=0"
             label="Play virtual tour"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >

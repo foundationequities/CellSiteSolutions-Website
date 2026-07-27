@@ -271,7 +271,7 @@ export default function DatacommProSeriesPage() {
             networks.
           </p>
           <VideoLightbox
-            embedUrl="https://www.youtube.com/embed/uH4lnFjXmHo"
+            embedUrl="https://www.youtube.com/embed/uH4lnFjXmHo?cc_load_policy=0"
             label="Play Datacomm Pro Series video"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >

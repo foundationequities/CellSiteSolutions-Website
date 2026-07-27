@@ -163,7 +163,7 @@ export default function AboutUsPage() {
             craftsmanship behind every shelter.
           </p>
           <VideoLightbox
-            embedUrl="https://www.youtube.com/embed/UlecVkYXJGY?start=2"
+            embedUrl="https://www.youtube.com/embed/UlecVkYXJGY?start=2&cc_load_policy=0"
             label="Play virtual tour"
             className="group mx-auto mt-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand text-white shadow-lg transition-transform hover:scale-110"
           >
