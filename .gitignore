@@ -1,8 +1,9 @@
 # Reference mirror of the original WordPress site — visual source of truth, never shipped.
 # Ignore the directory's contents but not the dir itself, so the INVENTORY.md negation below works.
 _reference/*
-# ...but keep the recon inventory (Phase 0 findings) under version control
+# ...but keep the recon inventory (Phase 0 findings) and QA report under version control
 !_reference/INVENTORY.md
+!_reference/VISUAL-QA.md
 
 # dependencies
 node_modules/
