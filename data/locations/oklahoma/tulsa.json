@@ -1,0 +1,645 @@
+{
+  "identity": {
+    "slug": "tulsa",
+    "city": "Tulsa",
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "stateAbbr": "OK",
+    "counties": [
+      "Tulsa",
+      "Osage",
+      "Rogers",
+      "Wagoner"
+    ],
+    "msa": "Tulsa, OK (Tulsa, Rogers, Wagoner, Creek, Osage, Okmulgee, and Pawnee counties)",
+    "tier": 1,
+    "latitude": 36.154,
+    "longitude": -95.9928,
+    "elevationFt": 700,
+    "population": {
+      "value": 413066,
+      "source": "U.S. Census Bureau 2020 decennial count — confirm the current vintage estimate before sign-off",
+      "verifiedOn": "2026-07-27"
+    },
+    "interstates": [
+      "I-44",
+      "I-244"
+    ],
+    "majorRoutes": [
+      "US-75",
+      "US-64",
+      "US-169",
+      "Creek Turnpike"
+    ]
+  },
+  "metadata": {
+    "title": "Tulsa, OK Telecom Civil Construction | CellSite Solutions",
+    "description": "Fiber, wireless, and edge site civil construction in Tulsa — Arkansas River levee country, Pennsylvanian sandstone ridges, and the Pryor data center corridor.",
+    "h1": "Telecom Site Civil Construction in Tulsa, Oklahoma",
+    "intro": "Tulsa is a river city with a heavy-civil pedigree: the U.S. Army Corps of Engineers headquarters its Tulsa District downtown, the Tulsa Port of Catoosa marks the head of navigation on the McClellan-Kerr Arkansas River system, and the Tulsa–West Tulsa levees that held through the May 2019 flood are being rebuilt under a federal rehabilitation program. Telecom construction here works that same terrain — Pennsylvanian sandstone ridges on one side of a site portfolio, Arkansas River bottoms on the other — while Google's hyperscale campus at the MidAmerica Industrial Park in Pryor, roughly 45 road miles east, pulls fiber and edge investment through the metro. CSS serves Tulsa as a Band-A market up the US-75 corridor from its Dallas–Fort Worth yard.",
+    "ogImage": null
+  },
+  "designCriteria": {
+    "asce7Edition": null,
+    "ultimateWindSpeedMph": {
+      "riskCatII": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "riskCatIV": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      }
+    },
+    "typicalExposureCategory": null,
+    "groundSnowLoadPsf": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "tia222Revision": null,
+    "designRadialIceIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "seismic": {
+      "ss": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "s1": {
+        "value": null,
+        "source": null,
+        "verifiedOn": null
+      },
+      "typicalSiteClass": null,
+      "typicalDesignCategory": null,
+      "notes": "Northeastern Oklahoma sat on the edge of the induced-seismicity zone — the September 3, 2016 Pawnee M5.8, Oklahoma's strongest recorded earthquake, struck about 60 miles west of Tulsa (Oklahoma Geological Survey). Rates have fallen since Corporation Commission disposal directives. Ss/S1 are a per-site USGS design-maps lookup; nothing metro-wide is published here."
+    },
+    "frostDepthIn": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempLowF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "designTempHighF": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    }
+  },
+  "geotech": {
+    "dominantGeology": "Tulsa sits on gently west-dipping Pennsylvanian cyclic strata — alternating shales and sandstones, with sandstone units capping the ridges and hills on the metro's west and south sides and shale weathering to clayey residuum between them — cut by the Arkansas River's broad corridor of alluvium and terrace sands through the middle of the city. (Oklahoma Geological Survey mapping; confirm the unit under a specific site by boring, not by map.)",
+    "dominantSoilTypes": [
+      "Clayey residuum from Pennsylvanian shale",
+      "Shallow soils over sandstone on ridge and hill sites",
+      "Arkansas River alluvium and terrace sands"
+    ],
+    "typicalBearingCapacityPsf": {
+      "low": null,
+      "high": null,
+      "source": null
+    },
+    "expansiveSoilRisk": "unknown",
+    "expansiveSoilNote": "Weathered Pennsylvanian shale produces clay soils with shrink-swell potential worth checking on any pad site between the sandstone ridges; NRCS linear-extensibility data was not reachable this session, so no risk grade is published — pull the county soil survey per site.",
+    "typicalDepthToBedrockFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "karstRisk": {
+      "present": false,
+      "note": "The Pennsylvanian shale-sandstone section under Tulsa is not karst-forming; the thin limestones in the sequence do not develop the sinkhole terrain seen in true carbonate country. Confirm site-specifically as with any geologic screen."
+    },
+    "seasonalHighGroundwaterFt": {
+      "value": null,
+      "source": null,
+      "verifiedOn": null
+    },
+    "soilCorrosivityNote": null,
+    "foundationApproachNarrative": "Tulsa foundations sort by landform before they sort by load. Ridge and hillside sites frequently meet sandstone shallow — sometimes shallower than a standard pier or duct bank wants — so the design choice is between socketing into rock, resetting bearing elevation, or paying for breaking, and the borings make that call cheaper than the excavator does. Between the ridges, shale-derived clays reward moisture-managed subgrade and drainage detailing on pads. In the river corridor the problem inverts: alluvial and terrace sands with shallow water, dewatering on deeper excavations, and — first, before any of it — floodplain and levee screening, because the May 2019 flood re-taught this metro what the Arkansas River can deliver and the Tulsa–West Tulsa levee rehabilitation is still in progress. Frost depth is modest but unverified this session; confirm the amendment with the city before setting footing depths. Site-specific geotechnical investigation governs."
+  },
+  "regulatory": {
+    "buildingAHJs": [
+      {
+        "name": "City of Tulsa — Development Services (permit center)",
+        "url": "https://www.cityoftulsa.org/",
+        "phone": null,
+        "typicalReviewDays": null,
+        "note": "City limits reach into Osage, Rogers, and Wagoner counties but permitting stays with the city AHJ; Broken Arrow, Owasso, Jenks, and Bixby are separate AHJs. Published review times were not verifiable this session — confirm by phone."
+      }
+    ],
+    "adoptedBuildingCode": {
+      "value": "OUBCC statewide minimum applies — 2018 IBC as amended (2024 I-code suite effective statewide September 14, 2026). Tulsa's locally amended edition not yet confirmed.",
+      "source": "OUBCC International Building Code adoptions — https://oklahoma.gov/oubcc/codes-and-rules/international-building-code-adoptions.html; city amendment package pending verification",
+      "verifiedOn": "2026-07-27"
+    },
+    "wirelessFacilityOrdinanceNote": null,
+    "rowPermitAuthority": {
+      "name": "City of Tulsa — right-of-way and excavation permitting",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Department routing, bonding, and traffic-control requirements were not reachable for verification this session — confirm current process with the city before scheduling ROW work."
+    },
+    "stateDotDistrict": {
+      "name": "Oklahoma DOT field division serving Tulsa County (Division 8 per ODOT's eight-division structure — confirm assignment against the ODOT division map before filing)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Creek Turnpike and Turner Turnpike crossings are permitted separately through the Oklahoma Turnpike Authority."
+    },
+    "oneCallCenter": {
+      "name": "OKIE811 (Oklahoma One-Call System — \"Call Okie\")",
+      "url": "https://okie811.org/",
+      "phone": "811",
+      "typicalReviewDays": null,
+      "note": "48 hours' notice excluding Saturdays, Sundays, legal holidays, and the day of filing; tickets may be placed no more than ten days ahead of the dig.",
+      "ticketLeadBusinessDays": 2
+    },
+    "stormwaterAuthority": {
+      "name": "Oklahoma DEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "One-acre disturbance trigger; SWP3 before NOI. Current permit issued October 18, 2022, modified November 1, 2023. Coordinate with the City of Tulsa's stormwater program on MS4-area sites."
+    },
+    "npdesDisturbanceTriggerAcres": 1,
+    "floodplainAdministrator": {
+      "name": "City of Tulsa — floodplain administration (stormwater/engineering program; Tulsa is nationally recognized for floodplain management — reported as a FEMA Community Rating System Class 1 community, verify current class and office before publishing)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Floodplain development review applies to mapped-floodplain sites; levee-adjacent parcels add coordination with the levee district."
+    },
+    "permitTimelineNarrative": "The permit stack starts at the OUBCC statewide floor — 2018 IBC as amended, with the 2024 suite arriving September 14, 2026 — reviewed under Tulsa's own amendments through the city permit center, whose current queue could not be verified this session. Underground scopes add OKIE811's two-business-day locate notice, and an acre of disturbance triggers ODEQ's OKR10 sequence with the SWP3 written before the NOI. What is genuinely different in Tulsa is the flood layer: this is a city with a nationally regarded floodplain program, an active federal levee rehabilitation, and a 2019 flood in living memory, so river-corridor sites should budget floodplain development review and levee-district coordination as schedule items, not formalities."
+  },
+  "utilities": {
+    "electricProviders": [
+      {
+        "name": "Public Service Company of Oklahoma (PSO)",
+        "type": "investor-owned",
+        "newServiceProcessUrl": null,
+        "typicalNewServiceLeadWeeks": null,
+        "note": "PSO is an American Electric Power (AEP) operating company and Tulsa's serving utility; cooperative territory (including Verdigris Valley Electric) takes over on the metro's northeast edges. New-service lead times were not verifiable — schedule from PSO's written confirmation."
+      }
+    ],
+    "ilec": "AT&T Oklahoma (legacy Southwestern Bell) — confirm exchange boundaries against FCC data before publishing",
+    "notableFiberProviders": [
+      "Cox Communications",
+      "AT&T Fiber"
+    ],
+    "notableDataCenterCampuses": [
+      "Google — MidAmerica Industrial Park, Pryor (Mayes County, ~45 road miles east of Tulsa)"
+    ],
+    "longHaulRouteNotes": "Long-haul paths track the I-44 Turner Turnpike corridor between Oklahoma City and the Joplin/St. Louis direction, with the US-75 and US-169 corridors carrying regional routes south toward Texas and north toward Kansas — and the Pryor campus east of the metro anchors sustained backbone investment through Tulsa.",
+    "ixPresence": null
+  },
+  "logistics": {
+    "seasonalLoadRestrictions": {
+      "applies": false,
+      "typicalWindow": null,
+      "postingAuthority": null,
+      "note": "Oklahoma imposes no spring frost-law embargoes; weight limits are statutory year-round. Rural bridge postings in the hillier counties east and north of Tulsa are the last-mile check on a shelter haul."
+    },
+    "oversizeOverweightPermitAuthority": {
+      "name": "Oklahoma size-and-weight permitting (Department of Public Safety permitting operation — confirm current office and portal before filing)",
+      "url": null,
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "Turnpike segments (Creek, Turner, Will Rogers) clear separately through the Oklahoma Turnpike Authority. Exceptional loads have a Tulsa-specific alternative worth pricing: barge delivery to the Tulsa Port of Catoosa via the McClellan-Kerr navigation system."
+    },
+    "bridgeOrClearanceConstraints": "Arkansas River crossings channel heavy-haul routing through a limited set of bridges; verify the chosen crossing's rating for shelter and transformer loads early in route planning.",
+    "railroads": [
+      {
+        "name": "BNSF Railway",
+        "crossingPermitNote": "BNSF's Cherokee Yard in west Tulsa anchors significant trackage through the metro (reported links via the Avard corridor toward BNSF's southern transcontinental route — verify line details before publishing). Utility-crossing licenses run through BNSF's third-party portal; timelines run months, so file at design."
+      },
+      {
+        "name": "Union Pacific",
+        "crossingPermitNote": "UP trackage serves parts of the metro and the industrial corridors; crossings license through UP's utility process — confirm the operating railroad on a specific crossing before applying, as shortline and port trackage interleave here."
+      }
+    ],
+    "urbanRowRequirements": "City ROW work runs on Tulsa's permit and traffic-control requirements (unverified this session — confirm current submittals). The metro-specific wrinkle is the river: levee rights-of-way and floodway parcels along the Arkansas carry their own approval layer through the levee district and floodplain program, and fiber routes that hug the river should be walked against the levee footprint before design locks."
+  },
+  "environmental": {
+    "treeClearingWindow": {
+      "restricted": false,
+      "window": null,
+      "driver": null,
+      "source": null
+    },
+    "shpo": {
+      "name": "Oklahoma State Historic Preservation Office (Oklahoma Historical Society)",
+      "url": "https://www.okhistory.org/shpo",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Tulsa metro lies within the historic treaty territories of the Muscogee (Creek), Cherokee, and Osage Nations; Section 106 for tower work here routinely engages tribal historic preservation offices through the FCC TCNS process — start that clock early."
+    },
+    "wetlandsAuthority": {
+      "name": "USACE Tulsa District regulatory program; ODEQ issues Section 401 certification",
+      "url": "https://www.swt.usace.army.mil/",
+      "phone": null,
+      "typicalReviewDays": null,
+      "note": "The Tulsa District is headquartered in Tulsa itself — the regulatory office for this metro is a local one."
+    },
+    "usaceDistrict": "Tulsa District (SWT) — headquartered in Tulsa",
+    "listedSpeciesNote": "Eastern Oklahoma is American burying beetle country — the species has shaped linear-infrastructure permitting across the counties east of Tulsa for years — and listed bats occur in the region's wooded corridors. Seasonal clearing restrictions were not confirmed for the Tulsa-area counties this session; run a project-specific USFWS IPaC query before scheduling any clearing.",
+    "floodplainPrevalenceNote": "The Arkansas River is the organizing flood fact: in late May 2019, prolonged record releases from Keystone Dam upstream pushed the river against the 1940s-era Tulsa–West Tulsa levee system, which held but emerged into a federally supported rehabilitation program still underway. Tulsa is otherwise one of the country's most decorated floodplain-management cities (reported FEMA CRS Class 1 — verify). Levee-adjacent and mapped-floodplain sites carry a real review layer; screen before siting."
+  },
+  "seasonality": {
+    "calendar": [
+      {
+        "month": "Jan",
+        "groundConditions": "Mostly unfrozen; freeze nights and ice-event risk",
+        "earthworkConcrete": "workable",
+        "note": "Ice storms are the January hazard — the December 2007 event remains the metro's benchmark outage"
+      },
+      {
+        "month": "Feb",
+        "groundConditions": "Unfrozen most days; wet spells on shale clays slow subgrade work",
+        "earthworkConcrete": "workable",
+        "note": null
+      },
+      {
+        "month": "Mar",
+        "groundConditions": "Workable; severe-weather season arrives",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Apr",
+        "groundConditions": "Good production between storm systems",
+        "earthworkConcrete": "favorable",
+        "note": "Tornado season — storm-day float in spring schedules"
+      },
+      {
+        "month": "May",
+        "groundConditions": "Peak rain and storm month; river levels and saturated clays",
+        "earthworkConcrete": "workable",
+        "note": "May 2019 river flooding is the planning reference for low-lying sites"
+      },
+      {
+        "month": "Jun",
+        "groundConditions": "Warm, drying; storm season tapering",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Jul",
+        "groundConditions": "Hot; desiccated clays and hard digging on shale sites",
+        "earthworkConcrete": "workable",
+        "note": "Hot-weather concrete controls; early-morning pours"
+      },
+      {
+        "month": "Aug",
+        "groundConditions": "Hottest stretch of the year",
+        "earthworkConcrete": "workable",
+        "note": "Heat is the binding concrete constraint, not cold"
+      },
+      {
+        "month": "Sep",
+        "groundConditions": "Cooling; strong production month",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Oct",
+        "groundConditions": "Prime conditions; low rain, moderate temps",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Nov",
+        "groundConditions": "Cool and workable",
+        "earthworkConcrete": "favorable",
+        "note": null
+      },
+      {
+        "month": "Dec",
+        "groundConditions": "Freeze nights begin; ice-storm season",
+        "earthworkConcrete": "workable",
+        "note": "December 2007 ice storm downed lines across the metro for days — generator and restoration season"
+      }
+    ],
+    "narrative": "Tulsa builds essentially year-round: winters are mild enough that concrete needs freeze-night practice rather than a seasonal stop, and the calendar's real risks are episodic — spring supercells and river rises in April and May, triple-digit heat bending pour schedules in July and August, and ice storms in the December–January window, where the December 2007 event remains the metro's benchmark for what glaze can do to power and access. Wet spells matter more here than in sandier markets because shale-derived clays hold water and punish premature subgrade work. The calendar above is qualitative pending a NOAA normals check for the Tulsa International Airport station, flagged in _gaps."
+  },
+  "costDrivers": {
+    "rockExcavationLikelihood": "moderate",
+    "rockNote": "Sandstone ledges cap the metro's ridges and can sit above pier or duct-bank depth on hillside sites; river-corridor and shale-flat sites usually dig clean. Price rock by boring, not by neighborhood reputation.",
+    "aggregateHaulNote": "Northeastern Oklahoma's quarry base keeps crushed-stone haul distances shorter than in the red-bed country to the west — a modest but real advantage on aggregate-heavy scopes.",
+    "readyMixProximityNote": null,
+    "spoilDisposalNote": null,
+    "permitFeeNote": null,
+    "prevailingWageExposure": "Oklahoma has no state prevailing wage (the public-works wage act fell to a 1995 Oklahoma Supreme Court ruling). Davis-Bacon applies on federally funded work — BEAD routes and most tribal broadband builds around Tulsa included.",
+    "unionJurisdictionNote": null,
+    "seasonalPremiumNote": "Summer heat drives hot-weather concrete measures in July–August; ice-storm season adds restoration contingency rather than a standing winter premium. Storm-day float belongs in every spring schedule.",
+    "costNote": null,
+    "narrative": "Three things move a civil number in Tulsa. First, landform: whether a site sits on a sandstone ridge (possible rock at depth), a shale flat (moisture-sensitive clays), or the river corridor (dewatering plus floodplain and levee review) changes foundations, drainage, and permitting more than the scope sheet does. Second, the flood layer: levee-adjacent and mapped-floodplain parcels carry review time and elevation decisions that ordinary sites skip. Third, crossings: the Arkansas River funnels routes onto limited bridges, and BNSF licensing timelines stretch schedules on fiber work through the rail corridors. Mobilization from DFW is a Band-A regional run up US-75, priced as regional work — and for exceptional loads, barge delivery to the Port of Catoosa is a genuine alternative most markets don't have. Drivers only; sites price to borings and season."
+  },
+  "compliance": {
+    "stateContractorLicensing": "No statewide general-contractor license exists in Oklahoma; civil sitework is unlicensed at the state level. The Construction Industries Board licenses electrical, plumbing, and mechanical contractors — those trades on a compound run through CIB-licensed firms — and the City of Tulsa requires local contractor registration for permits. Verify current CIB and city requirements directly; primary sources were unreachable this session.",
+    "additionalRegistrations": [],
+    "insuranceBondingNorms": null,
+    "cssQualificationsNote": null
+  },
+  "hazards": {
+    "dominant": [
+      "flood",
+      "tornado",
+      "ice storm",
+      "hail",
+      "extreme heat"
+    ],
+    "designImplications": "Two events bracket Tulsa's hazard design conversation: the May 2019 Arkansas River flood, when record Keystone Dam releases tested the 1940s Tulsa–West Tulsa levees now under federal rehabilitation, and the December 2007 ice storm, the metro's benchmark for glaze loading and multi-day outages. For telecom civil that means floodplain and levee screening before siting, pad elevation decisions on river-corridor parcels, generator autonomy sized for ice-outage durations, and the same tornado-country anchorage conservatism the rest of eastern Oklahoma warrants. Hail hardening for HVAC and cabinets follows.",
+    "restorationCapabilityNote": null
+  },
+  "marketActivity": {
+    "items": [
+      {
+        "headline": "Google's Pryor campus keeps expanding east of Tulsa",
+        "detail": "Google's data center campus at the MidAmerica Industrial Park in Pryor (Mayes County), roughly 45 road miles east of Tulsa, has grown through successive multi-billion-dollar expansions into one of the company's largest US campuses — sustaining fiber backbone, substation, and contractor demand across the Tulsa region. Current expansion figures need re-verification.",
+        "category": "data center",
+        "sourceUrl": "https://www.google.com/about/datacenters/locations/pryor/",
+        "asOf": "2026-07-27"
+      },
+      {
+        "headline": "Oklahoma BEAD program: ~$797M federal allocation",
+        "detail": "Oklahoma's June 2023 BEAD allocation of roughly $797.4 million, administered by the Oklahoma Broadband Office, targets unserved and underserved areas including the rural counties around the Tulsa metro. Subgrantee status requires re-verification.",
+        "category": "broadband program",
+        "sourceUrl": "https://oklahoma.gov/broadband.html",
+        "asOf": "2023-06-26"
+      },
+      {
+        "headline": "Tribal broadband builds active east of the metro",
+        "detail": "Tribal nations headquartered east and south of Tulsa — including the Cherokee Nation (Tahlequah) and Muscogee (Creek) Nation (Okmulgee) — hold NTIA Tribal Broadband Connectivity Program awards funding fiber construction across the region. Specific award amounts and build status need re-verification.",
+        "category": "broadband program",
+        "sourceUrl": "https://www.internetforall.gov/program/tribal-broadband-connectivity-program",
+        "asOf": "2026-07-27"
+      }
+    ],
+    "lastReviewed": "2026-07-27"
+  },
+  "segments": {
+    "fiber": {
+      "primaryScopeIds": [
+        "fiber hut pad",
+        "OSP duct bank",
+        "HDD / road bore",
+        "vault and handhole setting",
+        "restoration",
+        "long-haul and metro route construction"
+      ],
+      "secondaryScopeIds": [
+        "service lateral to hut",
+        "regen and amplifier site civil"
+      ],
+      "narrative": "Fiber routes in Tulsa negotiate three obstacles the map understates. The Arkansas River funnels crossings onto a short list of bridges and levee reaches, and anything touching the levee footprint picks up district coordination on top of floodplain review. The rail corridors radiating from BNSF's Cherokee Yard in west Tulsa impose crossing-license timelines that outlast construction schedules — we file those at route design. And ridge sandstone changes boring economics mid-route in ways a desktop study misses. Demand justifies the trouble: backbone investment tied to Google's Pryor campus east of the metro, Oklahoma's ~$797M BEAD program in the surrounding counties, and tribal fiber builds by the Cherokee and Muscogee (Creek) Nations all pull routes through Tulsa. CSS self-performs the bores, duct bank, hut pads, and vault sets that carry them.",
+      "localSpecificsReferenced": [
+        "Arkansas River / Tulsa–West Tulsa levee crossings",
+        "BNSF Cherokee Yard rail corridors",
+        "Google Pryor backbone demand",
+        "Cherokee and Muscogee (Creek) Nation fiber builds"
+      ]
+    },
+    "wireless": {
+      "primaryScopeIds": [
+        "macro compound construction",
+        "shelter and cabinet pads",
+        "generator and fuel containment pads",
+        "ground ring and halo",
+        "ice bridge and cable tray",
+        "compound fencing"
+      ],
+      "secondaryScopeIds": [
+        "access road and turnaround",
+        "small cell and DAS node civil",
+        "C-band / densification upgrade civil"
+      ],
+      "narrative": "Tulsa wireless civil is shaped by ice as much as wind. The December 2007 ice storm — days of outages across the metro under heavy glaze — is the event generator autonomy and ice-bridge detailing answer to here, layered on the tornado-season anchorage discipline all of eastern Oklahoma warrants. Terrain does the rest: ridge compounds on the west and south sides meet sandstone at foundation depth, where socketed piers beat mass rock excavation, while PSO — the AEP operating company serving the metro — sets the interconnection tempo for new compounds and generator upgrades. The city's mild winters keep pad and compound production running through months that shut down CSS's northern markets, which is exactly when a Texas-based crew rotation earns its keep.",
+      "localSpecificsReferenced": [
+        "December 2007 ice storm",
+        "PSO (AEP) interconnection",
+        "sandstone-ridge foundation conditions",
+        "eastern Oklahoma tornado climatology"
+      ]
+    },
+    "edge": {
+      "primaryScopeIds": [
+        "edge enclosure and micro-DC pads",
+        "hyperscale campus civil support",
+        "utility yard and transformer pads",
+        "generator yards",
+        "campus duct bank and conduit"
+      ],
+      "secondaryScopeIds": [
+        "heavy haul access and crane pads",
+        "security compound and bollards"
+      ],
+      "narrative": "Tulsa's edge story has a center of gravity 45 road miles east of downtown: Google's campus at the MidAmerica Industrial Park in Pryor, expanded repeatedly into one of the company's largest US data center sites, with the substations, backbone fiber, and contractor ecosystem that scale brings. The metro benefits twice — campus-support civil work within reach of Tulsa crews, and edge capacity following the workforce and fiber gravity back into the city. Tulsa adds a logistics card few markets hold: the Tulsa Port of Catoosa, head of navigation on the McClellan-Kerr Arkansas River system, can take transformers and oversized electrical gear by barge, bypassing highway permit constraints on the heaviest loads. PSO/AEP transmission capacity and mild-winter construction round out the case for siting edge capacity here.",
+      "localSpecificsReferenced": [
+        "Google MidAmerica Industrial Park campus (Pryor)",
+        "Tulsa Port of Catoosa / McClellan-Kerr navigation",
+        "PSO (AEP) transmission capacity"
+      ]
+    }
+  },
+  "operations": {
+    "nearestBase": {
+      "city": "Dallas",
+      "state": "Texas",
+      "roadMiles": 281,
+      "driveTimeHours": 4.8,
+      "routeVerified": false,
+      "isStaffedFacility": false
+    },
+    "mobilizationBand": "A",
+    "serviceRadiusMiles": null,
+    "countiesServed": [
+      "Tulsa",
+      "Osage",
+      "Rogers",
+      "Wagoner",
+      "Creek",
+      "Mayes"
+    ],
+    "stagingApproach": null,
+    "localSupplyApproach": null,
+    "selfPerformVsSubNote": null,
+    "mobilizationNote": "The Tulsa run from the DFW yard follows US-75 — north through Sherman, across the Red River into Durant, then up through Okmulgee into the metro — a mostly four-lane divided corridor that trades interstate speed for a straight shot; an all-interstate alternative runs I-35 to Oklahoma City and the Turner Turnpike east when load or weather argues for it. Either way this is Band-A regional geometry: equipment staged out of DFW the prior evening is productive in Tulsa the next morning, and sustained scopes — a duct-bank program, a compound rebuild series — run on crew rotation rather than deployment logistics. Mileage and drive time above are seed estimates pending real-routing verification, and CSS publishes no response-time commitment without ops sign-off; what the corridor supports is stated here, not promised.",
+    "emergencyResponseNote": null
+  },
+  "projects": [],
+  "faq": [
+    {
+      "question": "Who reviews building permits for a telecom site in Tulsa?",
+      "answer": "The City of Tulsa's permit center, under the city's amendments on top of the OUBCC statewide minimum — currently the amended 2018 IBC, with the 2024 suite effective September 14, 2026. City limits cross into Osage, Rogers, and Wagoner counties without changing the AHJ, but Broken Arrow, Owasso, Jenks, and Bixby each review under their own packages.",
+      "segment": "general"
+    },
+    {
+      "question": "Does the 2019 Arkansas River flood change how sites are chosen in Tulsa?",
+      "answer": "It should. Record Keystone Dam releases in May 2019 pushed the river against the 1940s-era Tulsa–West Tulsa levees, which held but entered a federal rehabilitation program that is still underway. For siting, that means mapped-floodplain screening first, pad elevation decisions on river-corridor parcels, and levee-district coordination for anything near the levee footprint — before design, not after.",
+      "segment": "general"
+    },
+    {
+      "question": "What is at the MidAmerica Industrial Park, and why does it matter to Tulsa builds?",
+      "answer": "Google's Pryor data center campus — one of the company's largest in the US after successive multi-billion-dollar expansions — sits at MidAmerica in Mayes County, about 45 road miles east of downtown Tulsa. It anchors backbone fiber investment through the metro, sustains a regional heavy-civil contractor ecosystem, and keeps campus-support and edge scope within Tulsa-crew reach.",
+      "segment": "edge"
+    },
+    {
+      "question": "Which railroads complicate fiber routes in Tulsa County?",
+      "answer": "BNSF is the big one — its Cherokee Yard in west Tulsa anchors trackage radiating through the metro, and utility-crossing licenses through BNSF's portal routinely take months. UP and interleaved shortline and port trackage serve the industrial corridors, so confirm which railroad actually operates a given crossing before applying. We file crossing applications at route design, not construction release.",
+      "segment": "fiber"
+    },
+    {
+      "question": "How much notice does OKIE811 require in the Tulsa area?",
+      "answer": "Two business days: Oklahoma law requires notice 48 hours ahead excluding weekends, legal holidays, and the filing day, and a locate request is only valid if placed within ten days of the dig start. On multi-week bore schedules we roll tickets in batches so locates stay current without stranding crews.",
+      "segment": "fiber"
+    },
+    {
+      "question": "Will we hit rock excavating in Tulsa?",
+      "answer": "Depends on the landform. Sandstone caps the ridges on the metro's west and south sides and can sit above pier or duct-bank depth there — socketed piers usually beat mass rock removal when it does. Shale flats and the river corridor typically dig clean, though the clays hold water after rain. Borings settle it; Tulsa's geology changes too fast across a route to price rock from a map.",
+      "segment": "wireless"
+    },
+    {
+      "question": "How do ice storms figure into compound design in Tulsa?",
+      "answer": "The December 2007 ice storm is the local benchmark — heavy glaze, lines down across the metro, outages lasting days. We size generator autonomy and fuel storage against that class of event, detail ice bridges and cable trays for real glaze loading, and treat winter restoration access as a design input. Ice, more than cold, is what a Tulsa winter asks of a telecom site.",
+      "segment": "wireless"
+    },
+    {
+      "question": "Can oversized equipment reach Tulsa without a highway superload permit?",
+      "answer": "Sometimes, yes — by water. The Tulsa Port of Catoosa is the head of navigation on the McClellan-Kerr Arkansas River Navigation System, and transformers or oversized electrical gear can arrive by barge, sidestepping the routing and clearance constraints of a highway superload move. For conventional shelter hauls, state size-and-weight permits plus separate turnpike authority clearance cover the road route.",
+      "segment": "edge"
+    },
+    {
+      "question": "Who is building broadband around Tulsa right now?",
+      "answer": "Three funding streams converge here: Oklahoma's ~$797M BEAD program targeting the rural counties around the metro, NTIA tribal broadband awards funding Cherokee Nation and Muscogee (Creek) Nation fiber builds east and south of the city, and private investment — Cox and AT&T in the metro — riding the backbone demand that Google's Pryor campus generates. Statuses shift; current award details should be re-verified.",
+      "segment": "fiber"
+    }
+  ],
+  "decisionGuidance": {
+    "heading": "Ridge or river bottom: Tulsa's two foundation problems",
+    "body": "Every Tulsa site portfolio eventually splits into two piles, and the engineering follows the split. Ridge and hillside sites — the metro's west and south sides — sit on Pennsylvanian sandstone that can appear above design depth. When it does, resist the instinct to excavate through it: a drilled pier socketed into competent sandstone, or a bearing elevation reset to use the rock instead of fighting it, is nearly always cheaper than breaking a full pad footprint, and the sandstone that inconvenienced your excavation makes an excellent founding stratum. River-bottom and terrace sites invert every assumption: alluvial sands dig easily but bring shallow groundwater into deeper excavations, and the controlling questions are hydraulic, not structural — where the parcel sits against the mapped floodplain, what elevation the 2019 flood argues for, and whether the levee footprint adds a coordination layer. Between the two, shale-flat sites are the quiet middle case where moisture-sensitive clays reward drainage detailing and moisture-conditioned subgrade under pads. The decision discipline: classify the landform before scoping the foundation, order borings that answer the landform's specific question, and on anything near the Arkansas, let the flood review lead the schedule — it is slower than the geotech and harder to expedite."
+  },
+  "sources": [
+    {
+      "label": "OUBCC — International Building Code adoptions (statewide minimum; 2024 suite effective 2026-09-14)",
+      "url": "https://oklahoma.gov/oubcc/codes-and-rules/international-building-code-adoptions.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "OKIE811 — Oklahoma one-call law (48-hour notice, ten-day ticket validity)",
+      "url": "https://okie811.org/law/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "ODEQ — OKR10 construction stormwater general permit",
+      "url": "https://oklahoma.gov/deq/permits/water-permits/stormwater-permitting/construction-stormwater.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "USACE Tulsa District — headquarters and regulatory program (Tulsa–West Tulsa levee rehabilitation)",
+      "url": "https://www.swt.usace.army.mil/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Tulsa Ports — Tulsa Port of Catoosa, head of navigation on the McClellan-Kerr system",
+      "url": "https://tulsaports.com/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Google — Pryor, Oklahoma data center (MidAmerica Industrial Park)",
+      "url": "https://www.google.com/about/datacenters/locations/pryor/",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Geological Survey — earthquakes and geologic mapping (Pawnee 2016; Pennsylvanian stratigraphy)",
+      "url": "https://ou.edu/ogs",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "Oklahoma Broadband Office — BEAD program",
+      "url": "https://oklahoma.gov/broadband.html",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "NTIA — Tribal Broadband Connectivity Program",
+      "url": "https://www.internetforall.gov/program/tribal-broadband-connectivity-program",
+      "accessedDate": "2026-07-27"
+    },
+    {
+      "label": "City of Tulsa — permitting and floodplain program",
+      "url": "https://www.cityoftulsa.org/",
+      "accessedDate": "2026-07-27"
+    }
+  ],
+  "_verified": false,
+  "_verifiedBy": null,
+  "_verifiedOn": null,
+  "_gaps": [
+    {
+      "field": "designCriteria — wind (RC II/IV), ground snow, radial ice, Ss/S1, frost depth, design temps, ASCE 7 edition",
+      "attempted": "ASCE 7 Hazard Tool, USGS design-maps, TIA-222 Annex B, and Tulsa amendment text all 403'd through the session egress proxy. All numeric criteria left null."
+    },
+    {
+      "field": "regulatory.adoptedBuildingCode — Tulsa amended edition",
+      "attempted": "cityoftulsa.org blocked; only the OUBCC floor published. Read the city's adoption ordinance before sign-off."
+    },
+    {
+      "field": "regulatory.stateDotDistrict — division assignment",
+      "attempted": "ODOT division map unreachable; Division 8 attribution is unconfirmed general knowledge, flagged in the field text."
+    },
+    {
+      "field": "regulatory.floodplainAdministrator — office and FEMA CRS class",
+      "attempted": "Tulsa's reported CRS Class 1 standing and the administering office could not be verified this session; both flagged in the field text."
+    },
+    {
+      "field": "logistics — OS/OW permit office; BNSF Avard/transcon line details; operating-railroad map",
+      "attempted": "DPS permitting attribution and BNSF network claims are from general knowledge and marked for verification in the field notes; railroad ownership of specific crossings must be confirmed per route."
+    },
+    {
+      "field": "geotech — bearing range, expansive rating, bedrock depth, groundwater, corrosivity",
+      "attempted": "NRCS Web Soil Survey and OGS publications blocked; qualitative geology only, expansive risk left 'unknown'."
+    },
+    {
+      "field": "environmental — tree-clearing window; 2019 flood specifics (Keystone release figures)",
+      "attempted": "USFWS IPaC unreachable (window unresolved, set false pending verification); Keystone Dam release magnitudes deliberately omitted rather than cited from memory — pull from USACE/NWS records."
+    },
+    {
+      "field": "utilities — PSO new-service process/lead times; ILEC exchange boundaries; cooperative territory edges",
+      "attempted": "PSO documentation and FCC data not readable this session."
+    },
+    {
+      "field": "seasonality — NOAA normals check",
+      "attempted": "NCEI normals for the Tulsa International Airport station not readable; calendar is qualitative pending the station table."
+    },
+    {
+      "field": "identity — population vintage estimate, elevation",
+      "attempted": "Census QuickFacts blocked; 413,066 is the 2020 decennial count and 700 ft is approximate — confirm both."
+    },
+    {
+      "field": "operations.nearestBase — roadMiles/driveTimeHours",
+      "attempted": "Routing APIs blocked; values are seed straight-line estimates, routeVerified false. Verify the US-75 routing before publish."
+    },
+    {
+      "field": "marketActivity + sources[] — URL liveness, Google Pryor investment figures, BEAD/tribal award status",
+      "attempted": "Egress proxy blocked all fetches; URLs are canonical-from-knowledge and dollar figures were deliberately left qualitative. Link-check and refresh before sign-off."
+    },
+    {
+      "field": "projects / photos",
+      "attempted": "CSS project intake — Tier 1 gate requires 1+ real project and 4 images; never invented."
+    },
+    {
+      "field": "operations.countiesServed + any response commitments",
+      "attempted": "Ops sign-off required for the coverage list; no response times published."
+    }
+  ]
+}
